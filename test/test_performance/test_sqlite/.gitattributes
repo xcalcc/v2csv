@@ -1,0 +1,2 @@
+xvsa-xfa-dummy.csf filter=lfs diff=lfs merge=lfs -text
+xvsa-xfa-dummy.vtxt filter=lfs diff=lfs merge=lfs -text
