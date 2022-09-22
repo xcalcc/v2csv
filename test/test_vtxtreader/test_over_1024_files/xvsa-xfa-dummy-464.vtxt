@@ -1,0 +1,142 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/storage/bufpage.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/memutils.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/tsgistidx.c"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/port.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/pg_crc.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/tsearch/ts_utils.h"
+  },
+  {
+  "fid": 17,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 19,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 20,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/common/relpath.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/pgxc/pgxc.h"
+  },
+  {
+  "fid": 22,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/storage/backendid.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/storage/fd.h"
+  },
+  {
+  "fid": 25,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/access/xlog.h"
+  },
+  {
+  "fid": 26,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 27,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 28,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/access/transam.h"
+  },
+  {
+  "fid": 29,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/pgtime.h"
+  },
+  {
+  "fid": 30,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/timestamp.h"
+  },
+  {
+  "fid": 31,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/tsearch/ts_type.h"
+  },
+  {
+  "fid": 32,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 33,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/builtins.h"
+  }
+]
+[Au5em],[outbuf@AOB@tsgistidx.c:126@tsgistidx.c:118],[tsgistidx.c],[10:126],[Vul],[D],[AOB],[1,0,0],[outbuf],#gtsvectorout()#,[10:118:0:1,10:126:0:3]
+[Au5em],[outbuf@AOB@tsgistidx.c:121@tsgistidx.c:118],[tsgistidx.c],[10:121],[Vul],[D],[AOB],[1,0,0],[outbuf],#gtsvectorout()#,[10:118:0:1,10:121:0:3]
+[Au5em],[_vstart@ARR38-C@CERT@tsgistidx.c:176@tsgistidx.c:171],[tsgistidx.c],[10:176],[Vul],[D],[RBC],[1,0,0],[CERT],[ARR38-C],[_vstart],#gtsvector_compress()#,[10:236:0:2,10:171:0:1,10:176:0:1,10:176:0:3]
+[Au5em],[result+8@AOB@tsgistidx.c:436],[tsgistidx.c],[10:436],[Vul],[D],[AOB],[1,0,0],[result+8],#gtsvector_union()#,[10:436:0:3]
+[Au5em],[key+8@AOB@tsgistidx.c:584],[tsgistidx.c],[10:584],[Vul],[D],[AOB],[1,0,0],[key+8],#fillcache()#,[10:584:0:3]
+[Au5em],[datum_l+8@AOB@tsgistidx.c:697],[tsgistidx.c],[10:697],[Vul],[D],[AOB],[1,0,0],[datum_l+8],#gtsvector_picksplit()#,[10:697:0:3]
+[Au5em],[datum_r+8@AOB@tsgistidx.c:710],[tsgistidx.c],[10:710],[Vul],[D],[AOB],[1,0,0],[datum_r+8],#gtsvector_picksplit()#,[10:710:0:3]
+[Au5em],[key+8@AOB@tsgistidx.c:584],[tsgistidx.c],[10:584],[Vul],[D],[AOB],[1,0,0],[key+8],#fillcache()#,[10:584:0:3]
+[Au5em],[_vstart@ARR38-C@CERT@tsgistidx.c:789@tsgistidx.c:789],[tsgistidx.c],[10:789],[Vul],[D],[RBC],[1,0,0],[CERT],[ARR38-C],[_vstart],#gtsvector_picksplit()#,[10:789:0:1,10:789:0:3]
+[Au5em],[_vstart@ARR38-C@CERT@tsgistidx.c:773@tsgistidx.c:773],[tsgistidx.c],[10:773],[Vul],[D],[RBC],[1,0,0],[CERT],[ARR38-C],[_vstart],#gtsvector_picksplit()#,[10:773:0:1,10:773:0:3]
+[Au5em],[key+8@AOB@tsgistidx.c:584],[tsgistidx.c],[10:584],[Vul],[D],[AOB],[1,0,0],[key+8],#fillcache()#,[10:584:0:3]

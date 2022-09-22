@@ -1,0 +1,139 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/memutils.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/dict_synonym.c"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/mb/pg_wchar.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/tsearch/ts_locale.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/port.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/commands/defrem.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/tsearch/ts_public.h"
+  },
+  {
+  "fid": 16,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 17,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 19,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 20,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 22,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/array.h"
+  },
+  {
+  "fid": 25,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/common/relpath.h"
+  },
+  {
+  "fid": 26,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/pgxc/pgxc.h"
+  },
+  {
+  "fid": 27,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/storage/backendid.h"
+  },
+  {
+  "fid": 28,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/pgxc/shardmap.h"
+  },
+  {
+  "fid": 29,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/catalog/objectaddress.h"
+  },
+  {
+  "fid": 30,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/tcop/dest.h"
+  },
+  {
+  "fid": 31,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/guc.h"
+  },
+  {
+  "fid": 32,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/pg_locale.h"
+  },
+  {
+  "fid": 33,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/tsearch/ts_type.h"
+  },
+  {
+  "fid": 34,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/builtins.h"
+  }
+]
+[Au5em],[end@NPD@dict_synonym.c:56],[dict_synonym.c],[9:148],[Vul],[D],[NPD],[1,0,0],[end],#dsynonym_init()#,[9:56:0:1,9:139:0:18,9:143:0:23,9:148:0:25,9:148:0:3]
+[Au5em],[end@NPD@dict_synonym.c:56],[dict_synonym.c],[9:150],[Vul],[D],[NPD],[1,0,0],[end],#dsynonym_init()#,[9:56:0:1,9:139:0:18,9:143:0:23,9:148:0:25,9:148:0:23,9:150:0:25,9:150:0:3]
+[Au5em],[end@NPD@dict_synonym.c:56],[dict_synonym.c],[9:158],[Vul],[D],[NPD],[1,0,0],[end],#dsynonym_init()#,[9:56:0:1,9:152:0:18,9:156:0:23,9:158:0:25,9:158:0:3]
+[Au5em],[starto@STR38-C@CERT@dict_synonym.c:190@dict_synonym.c:152],[dict_synonym.c],[9:190],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[starto],#dsynonym_init()#,[9:152:0:1,9:190:0:3]

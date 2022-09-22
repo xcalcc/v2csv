@@ -1,0 +1,95 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/bin/scripts/reindexdb.c"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/bin/scripts/../../../src/include/port.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/bin/scripts/common.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/bin/scripts/../../../src/include/common/fe_memutils.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/bin/scripts/../../../src/include/fe_utils/simple_list.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/bits/getopt_ext.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/bin/scripts/../../../src/include/common/username.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/bin/scripts/../../../src/interfaces/libpq/pqexpbuffer.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/bin/scripts/../../../src/include/fe_utils/string_utils.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/bin/scripts/../../../src/interfaces/libpq/libpq-fe.h"
+  },
+  {
+  "fid": 17,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 19,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 20,
+  "path": "/usr/include/unistd.h"
+  }
+]
+[Au5em],[fprintf@ERR33-C@CERT@reindexdb.c:316],[reindexdb.c],[4:316],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#reindex_one_database()#,[4:316:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@reindexdb.c:313],[reindexdb.c],[4:313],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#reindex_one_database()#,[4:313:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@reindexdb.c:310],[reindexdb.c],[4:310],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#reindex_one_database()#,[4:310:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@reindexdb.c:307],[reindexdb.c],[4:307],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#reindex_one_database()#,[4:307:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@reindexdb.c:388],[reindexdb.c],[4:388],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#reindex_system_catalogs()#,[4:388:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@reindexdb.c:201],[reindexdb.c],[4:201],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:201:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@reindexdb.c:196],[reindexdb.c],[4:196],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:196:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@reindexdb.c:191],[reindexdb.c],[4:191],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:191:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@reindexdb.c:180],[reindexdb.c],[4:180],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:180:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@reindexdb.c:175],[reindexdb.c],[4:175],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:175:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@reindexdb.c:170],[reindexdb.c],[4:170],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:170:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@reindexdb.c:165],[reindexdb.c],[4:165],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:165:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@reindexdb.c:160],[reindexdb.c],[4:160],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:160:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@reindexdb.c:148],[reindexdb.c],[4:148],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:148:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@reindexdb.c:150],[reindexdb.c],[4:150],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:150:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@reindexdb.c:131],[reindexdb.c],[4:131],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:131:0:3]

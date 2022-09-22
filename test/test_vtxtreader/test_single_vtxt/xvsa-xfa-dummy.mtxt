@@ -1,0 +1,8 @@
+{"V", A, 0.7}
+[
+  {
+  "fid": 1,
+  "path": "/home/jun/xc5/demo_benchmark/c_testcase/basic/aob.c"
+  }
+]
+[A1000001],[b@UIV@aob.c:11],[aob.c],[1:15],[Vul],[D],[UIV],[1,0,0],[b],#test_AOB()#,[1:11:0:4,1:12:0:2,1:5:0:1,1:12:0:18,1:15:0:3]

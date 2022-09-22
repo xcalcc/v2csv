@@ -1,0 +1,51 @@
+# change open file number limit to 1048576
+# command: xvsa -json -msgid -xfa  -VSA:authen=1 -VSA:certc=1 -VSA:zero_global=0 -VSA:demo=1  
+# make command: make -k -f Makefile_xvsa
+xvsa -json -msgid -xfa  -VSA:authen=1 -VSA:certc=1 -VSA:zero_global=0 -VSA:demo=1   /home/jun/xc5/v2csv/test/test_vtxtdiff/test_partial_scan/baseline/preprocess/basic.a.dir/preprocess/uiv.c.i -o /home/jun/xc5/v2csv/test/test_vtxtdiff/test_partial_scan/baseline/preprocess/basic.a.dir/preprocess/uiv.c
+[uiv.c],[2:11],[Vul],[D],[UIV],[1,0,0],[b],[test_UIV()],[2:9:0:4,2:10:0:2,2:5:0:1,2:10:0:18,2:11:0:3]
+[uiv.c],[2:11],[Vul],[D],[UIV],[1,0,0],[b],[test_UIV()],[2:9:0:4,2:17:0:2,2:10:0:2,2:5:0:1,2:10:0:18,2:11:0:3]
+xvsa -json -msgid -xfa  -VSA:authen=1 -VSA:certc=1 -VSA:zero_global=0 -VSA:demo=1   /home/jun/xc5/v2csv/test/test_vtxtdiff/test_partial_scan/baseline/preprocess/basic.a.dir/preprocess/uaf.c.i -o /home/jun/xc5/v2csv/test/test_vtxtdiff/test_partial_scan/baseline/preprocess/basic.a.dir/preprocess/uaf.c
+[uaf.c],[3:26],[Vul],[D],[UAF],[1,0,0],[*q+(i*4)],[test_UAF()],[3:8:0:10,3:22:0:18,3:26:0:3]
+[uaf.c],[3:26],[Vul],[D],[UAF],[1,0,0],[*p+(*4)],[test_UAF()],[3:8:0:10,3:22:0:18,3:26:0:3]
+xvsa -json -msgid -xfa  -VSA:authen=1 -VSA:certc=1 -VSA:zero_global=0 -VSA:demo=1   /home/jun/xc5/v2csv/test/test_vtxtdiff/test_partial_scan/baseline/preprocess/basic.a.dir/preprocess/npd.c.i -o /home/jun/xc5/v2csv/test/test_vtxtdiff/test_partial_scan/baseline/preprocess/basic.a.dir/preprocess/npd.c
+[npd.c],[2:13],[Vul],[D],[NPD],[1,0,0],[b],[test_NPD()],[2:9:0:1,2:10:0:2,2:4:0:1,2:5:0:1,2:10:0:18,2:13:0:3]
+[npd.c],[2:13],[Vul],[D],[NPD],[1,0,0],[b],[test_NPD()],[2:9:0:1,2:10:0:2,2:4:0:1,2:5:0:1,2:10:0:18,2:13:0:3]
+xvsa -json -msgid -xfa  -VSA:authen=1 -VSA:certc=1 -VSA:zero_global=0 -VSA:demo=1   /home/jun/xc5/v2csv/test/test_vtxtdiff/test_partial_scan/baseline/preprocess/basic.a.dir/preprocess/msf.c.i -o /home/jun/xc5/v2csv/test/test_vtxtdiff/test_partial_scan/baseline/preprocess/basic.a.dir/preprocess/msf.c
+[msf.c],[3:26],[Vul],[D],[MSF],[1,0,0],[p],[test_MSF()],[3:11:0:9,3:13:0:24,3:13:0:26,3:18:0:24,3:18:0:26,3:25:0:12,3:26:0:3]
+[msf.c],[3:31],[Vul],[D],[MSF],[1,0,0],[p],[main()],[3:11:0:9,3:13:0:24,3:16:0:26,3:18:0:24,3:22:0:26,3:25:0:17,3:30:0:17,3:30:0:18,3:30:0:12,3:31:0:3]
+xvsa -json -msgid -xfa  -VSA:authen=1 -VSA:certc=1 -VSA:zero_global=0 -VSA:demo=1   /home/jun/xc5/v2csv/test/test_vtxtdiff/test_partial_scan/baseline/preprocess/basic.a.dir/preprocess/dbf.c.i -o /home/jun/xc5/v2csv/test/test_vtxtdiff/test_partial_scan/baseline/preprocess/basic.a.dir/preprocess/dbf.c
+[dbf.c],[3:8],[Vul],[D],[DBF],[1,0,0],[p],[func_1()],[3:5:0:15,3:6:0:23,3:7:0:25,3:7:0:10,3:8:0:3]
+[dbf.c],[3:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[3:12:0:15,3:13:0:23,3:14:0:25,3:14:0:10,3:15:0:3]
+[dbf.c],[3:18],[Vul],[D],[RBC],[1,0,0],[CERT],[MSC37-C],[],[func_2()],[3:18:0:3]
+[dbf.c],[3:8],[Vul],[D],[DBF],[1,0,0],[p],[func_1()],[3:22:0:9,3:23:0:24,3:23:0:26,3:29:0:2,3:7:0:10,3:8:0:3]
+[dbf.c],[3:14],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[3:22:0:9,3:23:0:24,3:23:0:26,3:29:0:2,3:8:0:10,3:29:0:18,3:30:0:2,3:14:0:3]
+[dbf.c],[3:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[3:22:0:9,3:23:0:24,3:23:0:26,3:30:0:2,3:14:0:10,3:15:0:3]
+[dbf.c],[3:14],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[3:22:0:9,3:23:0:24,3:23:0:26,3:30:0:2,3:15:0:10,3:30:0:18,3:31:0:2,3:14:0:3]
+[dbf.c],[3:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[3:22:0:9,3:23:0:24,3:23:0:26,3:31:0:2,3:14:0:10,3:15:0:3]
+[dbf.c],[3:8],[Vul],[D],[DBF],[1,0,0],[p],[func_1()],[3:22:0:9,3:23:0:24,3:25:0:26,3:29:0:2,3:7:0:10,3:8:0:3]
+[dbf.c],[3:14],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[3:22:0:9,3:23:0:24,3:25:0:26,3:29:0:2,3:8:0:10,3:29:0:18,3:38:0:18,3:38:0:2,3:30:0:2,3:14:0:3]
+[dbf.c],[3:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[3:22:0:9,3:23:0:24,3:25:0:26,3:30:0:2,3:14:0:10,3:15:0:3]
+[dbf.c],[3:14],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[3:22:0:9,3:23:0:24,3:25:0:26,3:30:0:2,3:15:0:10,3:30:0:18,3:38:0:18,3:38:0:2,3:31:0:2,3:14:0:3]
+[dbf.c],[3:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[3:22:0:9,3:23:0:24,3:25:0:26,3:31:0:2,3:14:0:10,3:15:0:3]
+xvsa -json -msgid -xfa  -VSA:authen=1 -VSA:certc=1 -VSA:zero_global=0 -VSA:demo=1   /home/jun/xc5/v2csv/test/test_vtxtdiff/test_partial_scan/baseline/preprocess/basic.a.dir/preprocess/aob.c.i -o /home/jun/xc5/v2csv/test/test_vtxtdiff/test_partial_scan/baseline/preprocess/basic.a.dir/preprocess/aob.c
+[aob.c],[2:15],[Vul],[D],[UIV],[1,0,0],[b],[test_AOB()],[2:11:0:4,2:12:0:2,2:5:0:1,2:12:0:18,2:15:0:3]
+[aob.c],[2:15],[Vul],[D],[AOB],[1,0,0],[b],[test_AOB()],[2:5:0:1,2:12:0:18,2:15:0:3]
+[aob.c],[2:15],[Vul],[D],[UIV],[1,0,0],[b],[test_AOB()],[2:11:0:4,2:20:0:2,2:12:0:2,2:5:0:1,2:12:0:18,2:15:0:3]
+[aob.c],[2:15],[Vul],[D],[AOB],[1,0,0],[b],[test_AOB()],[2:5:0:1,2:12:0:18,2:15:0:3]
+echo /home/jun/xc5/v2csv/test/test_vtxtdiff/test_partial_scan/baseline/preprocess/basic.a.dir/preprocess/uiv.c.vtxt /home/jun/xc5/v2csv/test/test_vtxtdiff/test_partial_scan/baseline/preprocess/basic.a.dir/preprocess/uaf.c.vtxt /home/jun/xc5/v2csv/test/test_vtxtdiff/test_partial_scan/baseline/preprocess/basic.a.dir/preprocess/npd.c.vtxt /home/jun/xc5/v2csv/test/test_vtxtdiff/test_partial_scan/baseline/preprocess/basic.a.dir/preprocess/msf.c.vtxt /home/jun/xc5/v2csv/test/test_vtxtdiff/test_partial_scan/baseline/preprocess/basic.a.dir/preprocess/dbf.c.vtxt /home/jun/xc5/v2csv/test/test_vtxtdiff/test_partial_scan/baseline/preprocess/basic.a.dir/preprocess/aob.c.vtxt
+/home/jun/xc5/v2csv/test/test_vtxtdiff/test_partial_scan/baseline/preprocess/basic.a.dir/preprocess/uiv.c.vtxt /home/jun/xc5/v2csv/test/test_vtxtdiff/test_partial_scan/baseline/preprocess/basic.a.dir/preprocess/uaf.c.vtxt /home/jun/xc5/v2csv/test/test_vtxtdiff/test_partial_scan/baseline/preprocess/basic.a.dir/preprocess/npd.c.vtxt /home/jun/xc5/v2csv/test/test_vtxtdiff/test_partial_scan/baseline/preprocess/basic.a.dir/preprocess/msf.c.vtxt /home/jun/xc5/v2csv/test/test_vtxtdiff/test_partial_scan/baseline/preprocess/basic.a.dir/preprocess/dbf.c.vtxt /home/jun/xc5/v2csv/test/test_vtxtdiff/test_partial_scan/baseline/preprocess/basic.a.dir/preprocess/aob.c.vtxt
+# merge command: /home/jun/xc5/mastiff-package-protect/package/vtxtreader -merge /home/jun/xc5/v2csv/test/test_vtxtdiff/test_partial_scan/baseline/preprocess/basic.a.dir/preprocess/aob.c.vtxt
+/home/jun/xc5/v2csv/test/test_vtxtdiff/test_partial_scan/baseline/preprocess/basic.a.dir/preprocess/msf.c.vtxt
+/home/jun/xc5/v2csv/test/test_vtxtdiff/test_partial_scan/baseline/preprocess/basic.a.dir/preprocess/npd.c.vtxt
+/home/jun/xc5/v2csv/test/test_vtxtdiff/test_partial_scan/baseline/preprocess/basic.a.dir/preprocess/dbf.c.vtxt
+/home/jun/xc5/v2csv/test/test_vtxtdiff/test_partial_scan/baseline/preprocess/basic.a.dir/preprocess/uaf.c.vtxt
+/home/jun/xc5/v2csv/test/test_vtxtdiff/test_partial_scan/baseline/preprocess/basic.a.dir/preprocess/uiv.c.vtxt
+------------------------------------------------------------
+List of files to be merged
+------------------------------------------------------------
+Fname:/home/jun/xc5/v2csv/test/test_vtxtdiff/test_partial_scan/baseline/preprocess/basic.a.dir/preprocess/aob.c.vtxt, Lnkid:1, Lastln:19
+Fname:/home/jun/xc5/v2csv/test/test_vtxtdiff/test_partial_scan/baseline/preprocess/basic.a.dir/preprocess/msf.c.vtxt, Lnkid:2, Lastln:27
+Fname:/home/jun/xc5/v2csv/test/test_vtxtdiff/test_partial_scan/baseline/preprocess/basic.a.dir/preprocess/npd.c.vtxt, Lnkid:3, Lastln:19
+Fname:/home/jun/xc5/v2csv/test/test_vtxtdiff/test_partial_scan/baseline/preprocess/basic.a.dir/preprocess/dbf.c.vtxt, Lnkid:4, Lastln:27
+Fname:/home/jun/xc5/v2csv/test/test_vtxtdiff/test_partial_scan/baseline/preprocess/basic.a.dir/preprocess/uaf.c.vtxt, Lnkid:5, Lastln:27
+Fname:/home/jun/xc5/v2csv/test/test_vtxtdiff/test_partial_scan/baseline/preprocess/basic.a.dir/preprocess/uiv.c.vtxt, Lnkid:6, Lastln:19

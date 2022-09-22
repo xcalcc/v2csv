@@ -1,0 +1,66 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/common/../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/common/../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/common/controldata_utils.c"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/fcntl.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/common/../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/common/../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/common/../../src/include/pgtime.h"
+  }
+]
+[Au5em],[fd@FIO42-C@CERT@controldata_utils.c:69@controldata_utils.c:53],[controldata_utils.c],[6:69],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[fd],#get_controlfile()#,[6:53:0:73,6:53:0:66,6:53:0:17,6:67:0:67,6:67:0:66,6:69:0:17,6:69:0:70]
+[Au5em],[fd@FIO42-C@CERT@controldata_utils.c:69@controldata_utils.c:53],[controldata_utils.c],[6:69],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[fd],#get_controlfile()#,[6:53:0:73,6:53:0:66,6:53:0:17,6:67:0:67,6:67:0:66,6:69:0:17,6:69:0:70]
+[Au5em],[snprintf@ERR33-C@CERT@controldata_utils.c:51],[controldata_utils.c],[6:51],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#get_controlfile()#,[6:51:0:3]

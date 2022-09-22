@@ -1,0 +1,14 @@
+diff --git a/src/data.c b/src/data.c
+index 59051b4..7753726 100644
+--- a/src/data.c
++++ b/src/data.c
+@@ -974,0 +975,9 @@ data load_data_compare(int n, char **paths, int m, int classes, int w, int h)
++        
++        
++
++        //added UIV defects
++        int uiv1, uiv2, uiv3;
++        uiv1 = 1;
++        uiv3 = uiv1 + uiv2;
++        printf("%d", uiv3);
++

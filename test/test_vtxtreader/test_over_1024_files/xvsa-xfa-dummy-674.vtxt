@@ -1,0 +1,364 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/storage/bufpage.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/port/atomics/arch-x86.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/port/atomics/generic-gcc.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/port/atomics/generic.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/port/atomics.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/utils/rel.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/utils/sortsupport.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/storage/s_lock.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/executor/executor.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/executor/tuptable.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/openssl/safestack.h"
+  },
+  {
+  "fid": 19,
+  "path": "/usr/include/openssl/stack.h"
+  },
+  {
+  "fid": 20,
+  "path": "/usr/include/openssl/crypto.h"
+  },
+  {
+  "fid": 21,
+  "path": "/usr/include/openssl/bio.h"
+  },
+  {
+  "fid": 22,
+  "path": "/usr/include/openssl/asn1.h"
+  },
+  {
+  "fid": 23,
+  "path": "/usr/include/openssl/x509.h"
+  },
+  {
+  "fid": 24,
+  "path": "/usr/include/openssl/lhash.h"
+  },
+  {
+  "fid": 25,
+  "path": "/usr/include/openssl/x509_vfy.h"
+  },
+  {
+  "fid": 26,
+  "path": "/usr/include/openssl/pkcs7.h"
+  },
+  {
+  "fid": 27,
+  "path": "/usr/include/openssl/ct.h"
+  },
+  {
+  "fid": 28,
+  "path": "/usr/include/openssl/ssl.h"
+  },
+  {
+  "fid": 29,
+  "path": "/usr/include/openssl/err.h"
+  },
+  {
+  "fid": 30,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/utils/memutils.h"
+  },
+  {
+  "fid": 31,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/hba.c"
+  },
+  {
+  "fid": 32,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 33,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/port.h"
+  },
+  {
+  "fid": 34,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/storage/fd.h"
+  },
+  {
+  "fid": 35,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 36,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 37,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/miscadmin.h"
+  },
+  {
+  "fid": 38,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/utils/datamask.h"
+  },
+  {
+  "fid": 39,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 40,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/utils/acl.h"
+  },
+  {
+  "fid": 41,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/replication/walsender.h"
+  },
+  {
+  "fid": 42,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/common/ip.h"
+  },
+  {
+  "fid": 43,
+  "path": "/usr/include/netdb.h"
+  },
+  {
+  "fid": 44,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/libpq/ifaddr.h"
+  },
+  {
+  "fid": 45,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/utils/guc.h"
+  },
+  {
+  "fid": 46,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/postmaster/postmaster.h"
+  },
+  {
+  "fid": 47,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/libpq/pqcomm.h"
+  },
+  {
+  "fid": 48,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 49,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/utils/varlena.h"
+  },
+  {
+  "fid": 50,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/utils/builtins.h"
+  },
+  {
+  "fid": 51,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/utils/array.h"
+  },
+  {
+  "fid": 52,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/catalog/objectaddress.h"
+  },
+  {
+  "fid": 53,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/access/htup_details.h"
+  },
+  {
+  "fid": 54,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/utils/tuplestore.h"
+  },
+  {
+  "fid": 55,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/funcapi.h"
+  },
+  {
+  "fid": 56,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/mb/pg_wchar.h"
+  },
+  {
+  "fid": 57,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/regex/regex.h"
+  },
+  {
+  "fid": 58,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 59,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 60,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 61,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 62,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 63,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 64,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 65,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/access/transam.h"
+  },
+  {
+  "fid": 66,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 67,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/pgtime.h"
+  },
+  {
+  "fid": 68,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/utils/timestamp.h"
+  },
+  {
+  "fid": 69,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/catalog/pg_class.h"
+  },
+  {
+  "fid": 70,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/storage/dsm_impl.h"
+  },
+  {
+  "fid": 71,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 72,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 73,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/common/relpath.h"
+  },
+  {
+  "fid": 74,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/pgxc/pgxc.h"
+  },
+  {
+  "fid": 75,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/storage/backendid.h"
+  },
+  {
+  "fid": 76,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/pgxc/shardmap.h"
+  },
+  {
+  "fid": 77,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/access/xlog.h"
+  },
+  {
+  "fid": 78,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/executor/instrument.h"
+  },
+  {
+  "fid": 79,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/tcop/dest.h"
+  },
+  {
+  "fid": 80,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/pgxc/squeue.h"
+  },
+  {
+  "fid": 81,
+  "path": "/usr/include/openssl/ec.h"
+  },
+  {
+  "fid": 82,
+  "path": "/usr/include/openssl/rsa.h"
+  },
+  {
+  "fid": 83,
+  "path": "/usr/include/openssl/dh.h"
+  },
+  {
+  "fid": 84,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/libpq/libpq-be.h"
+  },
+  {
+  "fid": 85,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/libpq/libpq.h"
+  },
+  {
+  "fid": 86,
+  "path": "/home/xc5/cprojects/tbase/src/backend/libpq/../../../src/include/utils/lsyscache.h"
+  }
+]
+[Au5em],[token@AOB@hba.c:368@hba.c:359],[hba.c],[31:368],[Vul],[D],[AOB],[1,0,0],[token],#make_hba_token()#,[31:420:0:2,31:359:0:1,31:368:0:3]
+[Au5em],[fgets@FIO37-C@CERT@hba.c:794@hba.c:733],[hba.c],[31:733],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO37-C],[fgets],#tokenize_file()#,[31:733:0:3,31:733:0:17,31:747:0:17,31:764:0:17,31:777:0:17,31:786:0:17,31:726:0:17,31:794:0:16]
+[Au5em],[field@NPD@pg_list.h:79],[hba.c],[31:1211],[Vul],[M],[NPD],[1,0,0],[field],#parse_hba_line()#,[6:79:0:1,6:79:0:17,6:79:0:1,31:1210:0:18,31:1210:0:1,31:1211:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[hba.c],[31:1223],[Vul],[M],[NPD],[1,0,0],[0x0],#parse_hba_line()#,[6:79:0:1,6:79:0:17,6:79:0:1,31:1223:0:18,31:1223:0:3]
+[Au5em],[field@NPD@pg_list.h:79],[hba.c],[31:1291],[Vul],[M],[NPD],[1,0,0],[field],#parse_hba_line()#,[6:79:0:1,6:79:0:17,6:79:0:1,31:1210:0:18,31:1210:0:1,31:1291:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[hba.c],[31:1537],[Vul],[M],[NPD],[1,0,0],[0x0],#parse_hba_line()#,[6:79:0:1,6:79:0:17,6:79:0:1,31:1537:0:18,31:1537:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[hba.c],[31:1356],[Vul],[M],[NPD],[1,0,0],[0x0],#parse_hba_line()#,[6:79:0:1,6:79:0:17,6:79:0:1,31:1356:0:18,31:1356:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[hba.c],[31:1476],[Vul],[M],[NPD],[1,0,0],[0x0],#parse_hba_line()#,[6:79:0:1,6:79:0:17,6:79:0:1,31:1476:0:18,31:1476:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@hba.c:588],[hba.c],[31:588],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#mls_get_hba_line()#,[31:588:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@hba.c:593],[hba.c],[31:593],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#mls_get_hba_line()#,[31:593:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@hba.c:598],[hba.c],[31:598],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#mls_get_hba_line()#,[31:598:0:3]
+[Au5em],[token@AOB@hba.c:368@hba.c:359],[hba.c],[31:368],[Vul],[D],[AOB],[1,0,0],[token],#make_hba_token()#,[31:537:0:2,31:359:0:1,31:368:0:3]
+[Au5em],[options@AOB@hba.c:2545],[hba.c],[31:2545],[Vul],[M],[AOB],[1,0,0],[options],#gethba_options()#,[31:2545:0:3]
+[Au5em],[options@AOB@hba.c:2550],[hba.c],[31:2550],[Vul],[M],[AOB],[1,0,0],[options],#gethba_options()#,[31:2550:0:3]
+[Au5em],[field@NPD@pg_list.h:79],[hba.c],[31:2929],[Vul],[M],[NPD],[1,0,0],[field],#parse_ident_line()#,[6:79:0:1,6:79:0:17,6:79:0:1,31:2923:0:18,31:2923:0:1,31:2929:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[hba.c],[31:2932],[Vul],[M],[NPD],[1,0,0],[0x0],#parse_ident_line()#,[6:79:0:1,6:79:0:17,6:79:0:1,31:2931:0:18,31:2932:0:3]
+[Au5em],[field@NPD@pg_list.h:79],[hba.c],[31:2935],[Vul],[M],[NPD],[1,0,0],[field],#parse_ident_line()#,[6:79:0:1,6:79:0:17,6:79:0:1,31:2923:0:18,31:2923:0:1,31:2935:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[hba.c],[31:2940],[Vul],[M],[NPD],[1,0,0],[0x0],#parse_ident_line()#,[6:79:0:1,6:79:0:17,6:79:0:1,31:2939:0:18,31:2940:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[hba.c],[31:2948],[Vul],[M],[NPD],[1,0,0],[0x0],#parse_ident_line()#,[6:79:0:1,6:79:0:17,6:79:0:1,31:2947:0:18,31:2948:0:3]
+[Au5em],[parsedline->ident_user+1@STR38-C@CERT@hba.c:2960],[hba.c],[31:2960],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[parsedline->ident_user+1],#parse_ident_line()#,[31:2960:0:3]
+[Au5em],[parsedline->ident_user+1@STR38-C@CERT@hba.c:2961],[hba.c],[31:2961],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[parsedline->ident_user+1],#parse_ident_line()#,[31:2961:0:3]

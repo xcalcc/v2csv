@@ -1,0 +1,89 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/ecpglib/misc.c"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/ecpglib/extern.h"
+  },
+  {
+  "fid": 6,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/pthread.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/ecpglib/../../../../src/interfaces/libpq/libpq-fe.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/ecpglib/../include/ecpglib.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 16,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 17,
+  "path": "/usr/include/time.h"
+  }
+]
+[Au5em],[sqlca@MSF@misc.c:152],[misc.c],[4:125],[Vul],[D],[MSF],[1,0,0],[sqlca],#ecpg_init()#,[4:152:0:9,4:107:0:18,4:124:0:12,4:125:0:3]
+[Au5em],[sqlca@MSF@misc.c:152],[misc.c],[4:125],[Vul],[D],[MSF],[1,0,0],[sqlca],#ecpg_init()#,[4:152:0:9,4:107:0:18,4:121:0:12,4:125:0:3]
+[Au5em],[sqlca@MSF@misc.c:152],[misc.c],[4:125],[Vul],[D],[MSF],[1,0,0],[sqlca],#ecpg_init()#,[4:152:0:9,4:107:0:18,4:113:0:12,4:125:0:3]
+[Au5em],[arg@UDR@misc.c:130],[misc.c],[4:131],[Vul],[M],[UDR],[1,0,0],[arg],#ecpg_sqlca_key_destructor()#,[4:131:0:3]
+[Au5em],[sqlca@MSF@misc.c:152],[misc.c],[4:180],[Vul],[D],[MSF],[1,0,0],[sqlca],#ECPGstatus()#,[4:152:0:9,4:107:0:18,4:169:0:18,4:179:0:12,4:180:0:3]
+[Au5em],[sqlca@MSF@misc.c:152],[misc.c],[4:180],[Vul],[D],[MSF],[1,0,0],[sqlca],#ECPGstatus()#,[4:152:0:9,4:107:0:18,4:169:0:18,4:176:0:12,4:180:0:3]
+[Au5em],[sqlca@MSF@misc.c:152],[misc.c],[4:180],[Vul],[D],[MSF],[1,0,0],[sqlca],#ECPGstatus()#,[4:152:0:9,4:107:0:18,4:169:0:18,4:170:0:12,4:180:0:3]
+[Au5em],[sqlca@MSF@misc.c:152],[misc.c],[4:317],[Vul],[D],[MSF],[1,0,0],[sqlca],#ecpg_log()#,[4:152:0:9,4:270:0:18,4:316:0:12,4:317:0:3]
+[Au5em],[sqlca@MSF@misc.c:152],[misc.c],[4:317],[Vul],[D],[MSF],[1,0,0],[sqlca],#ecpg_log()#,[4:152:0:9,4:270:0:18,4:288:0:12,4:317:0:3]
+[Au5em],[sqlca@MSF@misc.c:152],[misc.c],[4:317],[Vul],[D],[MSF],[1,0,0],[sqlca],#ecpg_log()#,[4:152:0:9,4:270:0:18,4:276:0:12,4:317:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@misc.c:293],[misc.c],[4:293],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#ecpg_log()#,[4:293:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@misc.c:306],[misc.c],[4:306],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#ecpg_log()#,[4:306:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@misc.c:291],[misc.c],[4:291],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#ecpg_log()#,[4:291:0:3]
+[Au5em],[sqlca@MSF@misc.c:152],[misc.c],[4:239],[Vul],[D],[MSF],[1,0,0],[sqlca],#ECPGtrans()#,[4:152:0:9,4:107:0:18,4:204:0:18,4:238:0:12,4:239:0:3]
+[Au5em],[sqlca@MSF@misc.c:152],[misc.c],[4:239],[Vul],[D],[MSF],[1,0,0],[sqlca],#ECPGtrans()#,[4:152:0:9,4:107:0:18,4:204:0:18,4:234:0:12,4:239:0:3]
+[Au5em],[sqlca@MSF@misc.c:152],[misc.c],[4:239],[Vul],[D],[MSF],[1,0,0],[sqlca],#ECPGtrans()#,[4:152:0:9,4:107:0:18,4:204:0:18,4:228:0:12,4:239:0:3]
+[Au5em],[sqlca@MSF@misc.c:152],[misc.c],[4:239],[Vul],[D],[MSF],[1,0,0],[sqlca],#ECPGtrans()#,[4:152:0:9,4:107:0:18,4:204:0:18,4:205:0:12,4:239:0:3]
+[Au5em],[ivlist@MSF@misc.c:539],[misc.c],[4:565],[Vul],[M],[MSF],[1,0,0],[ivlist],#ECPGset_var()#,[4:539:0:9,4:563:0:10,4:563:0:12,4:565:0:3]
+[Au5em],[sqlca@MSF@misc.c:152],[misc.c],[4:565],[Vul],[D],[MSF],[1,0,0],[sqlca],#ECPGset_var()#,[4:152:0:9,4:542:0:18,4:563:0:12,4:565:0:3]
+[Au5em],[sqlca@MSF@misc.c:152],[misc.c],[4:565],[Vul],[D],[MSF],[1,0,0],[sqlca],#ECPGset_var()#,[4:152:0:9,4:542:0:18,4:548:0:12,4:565:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@misc.c:553],[misc.c],[4:553],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#ECPGset_var()#,[4:553:0:3]
+[Au5em],[sqlca+28@STR38-C@CERT@misc.c:554],[misc.c],[4:554],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[sqlca+28],#ECPGset_var()#,[4:554:0:3]

@@ -1,0 +1,183 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/storage/bufpage.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/memutils.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/jsonb.c"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/libpq/pqformat.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/lib/stringinfo.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/jsonb.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/builtins.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/jsonapi.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/json.h"
+  },
+  {
+  "fid": 19,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/fmgrprotos.h"
+  },
+  {
+  "fid": 20,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/lsyscache.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/parser/parse_coerce.h"
+  },
+  {
+  "fid": 22,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/miscadmin.h"
+  },
+  {
+  "fid": 23,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/date.h"
+  },
+  {
+  "fid": 25,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/datetime.h"
+  },
+  {
+  "fid": 26,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/timestamp.h"
+  },
+  {
+  "fid": 27,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/array.h"
+  },
+  {
+  "fid": 28,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/typcache.h"
+  },
+  {
+  "fid": 29,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/access/htup_details.h"
+  },
+  {
+  "fid": 30,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/access/tupdesc.h"
+  },
+  {
+  "fid": 31,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 32,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 33,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 34,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 35,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 36,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/pgtime.h"
+  },
+  {
+  "fid": 37,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 38,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 39,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/access/transam.h"
+  },
+  {
+  "fid": 40,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/catalog/pg_type.h"
+  },
+  {
+  "fid": 41,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 42,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 43,
+  "path": "/usr/include/math.h"
+  }
+]
+[Au5em],[outputstr@STR38-C@CERT@jsonb.c:971@jsonb.c:969],[jsonb.c],[10:971],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[outputstr],#datum_to_jsonb()#,[10:969:0:1,10:971:0:2,10:971:0:3]
+[Au5em],[outputstr@STR38-C@CERT@jsonb.c:802@jsonb.c:800],[jsonb.c],[10:802],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[outputstr],#datum_to_jsonb()#,[10:800:0:1,10:802:0:3]
+[Au5em],[outputstr@STR38-C@CERT@jsonb.c:839@jsonb.c:812],[jsonb.c],[10:839],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[outputstr],#datum_to_jsonb()#,[10:812:0:1,10:839:0:3]
+[Au5em],[outputstr@STR38-C@CERT@jsonb.c:817@jsonb.c:812],[jsonb.c],[10:817],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[outputstr],#datum_to_jsonb()#,[10:812:0:1,10:817:0:3]
+[Au5em],[str@STR38-C@CERT@jsonb.c:1448@jsonb.c:1447],[jsonb.c],[10:1448],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[str],#jsonb_object()#,[10:1447:0:1,10:1448:0:3]
+[Au5em],[str@STR38-C@CERT@jsonb.c:1464@jsonb.c:1463],[jsonb.c],[10:1464],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[str],#jsonb_object()#,[10:1463:0:1,10:1464:0:3]
+[Au5em],[str@STR38-C@CERT@jsonb.c:1543@jsonb.c:1542],[jsonb.c],[10:1543],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[str],#jsonb_object_two_arg()#,[10:1542:0:1,10:1543:0:3]
+[Au5em],[str@STR38-C@CERT@jsonb.c:1559@jsonb.c:1558],[jsonb.c],[10:1559],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[str],#jsonb_object_two_arg()#,[10:1558:0:1,10:1559:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@jsonb.c:1714],[jsonb.c],[10:1714],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#jsonb_agg_transfn()#,[10:1714:0:3]
+[Au5em],[aggcontext@UIV@jsonb.c:1778],[palloc.h],[4:113],[Vul],[M],[UIV],[1,0,0],[aggcontext],#MemoryContextSwitchTo()#,[10:1778:0:4,10:1790:0:5,10:1790:0:24,10:1790:0:26,10:1797:0:23,10:1801:0:25,10:1801:0:2,4:113:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@jsonb.c:1945],[jsonb.c],[10:1945],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#jsonb_object_agg_transfn()#,[10:1945:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@jsonb.c:1886],[jsonb.c],[10:1886],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#jsonb_object_agg_transfn()#,[10:1886:0:3]

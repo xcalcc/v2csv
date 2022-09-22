@@ -1,0 +1,80 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/windowfuncs.c"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/windowapi.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/builtins.h"
+  }
+]
+[Au5em],[isnull@UIV@windowfuncs.c:293],[windowfuncs.c],[8:325],[Vul],[M],[UIV],[1,0,0],[isnull],#leadlag_common()#,[8:293:0:4,8:340:0:2,8:309:0:5,8:325:0:3]
+[Au5em],[isnull@UIV@windowfuncs.c:293],[windowfuncs.c],[8:299],[Vul],[M],[UIV],[1,0,0],[isnull],#leadlag_common()#,[8:293:0:4,8:352:0:2,8:298:0:5,8:299:0:3]
+[Au5em],[isnull@UIV@windowfuncs.c:293],[windowfuncs.c],[8:299],[Vul],[M],[UIV],[1,0,0],[isnull],#leadlag_common()#,[8:293:0:4,8:363:0:2,8:298:0:5,8:299:0:3]
+[Au5em],[isnull@UIV@windowfuncs.c:293],[windowfuncs.c],[8:325],[Vul],[M],[UIV],[1,0,0],[isnull],#leadlag_common()#,[8:293:0:4,8:375:0:2,8:309:0:5,8:325:0:3]
+[Au5em],[isnull@UIV@windowfuncs.c:293],[windowfuncs.c],[8:299],[Vul],[M],[UIV],[1,0,0],[isnull],#leadlag_common()#,[8:293:0:4,8:387:0:2,8:298:0:5,8:299:0:3]
+[Au5em],[isnull@UIV@windowfuncs.c:293],[windowfuncs.c],[8:299],[Vul],[M],[UIV],[1,0,0],[isnull],#leadlag_common()#,[8:293:0:4,8:398:0:2,8:298:0:5,8:299:0:3]
+[Au5em],[isnull@UIV@windowfuncs.c:411],[windowfuncs.c],[8:416],[Vul],[M],[UIV],[1,0,0],[isnull],#window_first_value()#,[8:411:0:4,8:413:0:5,8:416:0:3]
+[Au5em],[isnull@UIV@windowfuncs.c:432],[windowfuncs.c],[8:437],[Vul],[M],[UIV],[1,0,0],[isnull],#window_last_value()#,[8:432:0:4,8:434:0:5,8:437:0:3]
+[Au5em],[isnull@UIV@windowfuncs.c:454],[windowfuncs.c],[8:458],[Vul],[M],[UIV],[1,0,0],[isnull],#window_nth_value()#,[8:454:0:4,8:457:0:5,8:458:0:3]

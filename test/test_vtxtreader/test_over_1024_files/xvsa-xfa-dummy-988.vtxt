@@ -1,0 +1,86 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/compatlib/informix.c"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/compatlib/../include/pgtypes_numeric.h"
+  },
+  {
+  "fid": 6,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/compatlib/../include/pgtypes_date.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/compatlib/../include/pgtypes_timestamp.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/compatlib/../include/pgtypes_interval.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/bits/mathcalls.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/ctype.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/compatlib/../include/ecpglib.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/compatlib/../include/sqlca.h"
+  },
+  {
+  "fid": 16,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 17,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 19,
+  "path": "/usr/include/math.h"
+  }
+]
+[Au5em],[ptr@UDR@informix.c:132@informix.c:154],[informix.c],[4:132],[Vul],[D],[UDR],[1,0,0],[ptr],#deccall3()#,[4:154:0:9,4:154:0:2,4:87:0:15,4:87:0:1,4:97:0:24,4:98:0:26,4:100:0:24,4:100:0:26,4:103:0:24,4:103:0:26,4:109:0:24,4:109:0:26,4:116:0:24,4:116:0:26,4:124:0:24,4:124:0:26,4:132:0:1,4:132:0:3]
+[Au5em],[ptr@UDR@informix.c:132@informix.c:317],[informix.c],[4:132],[Vul],[D],[UDR],[1,0,0],[ptr],#deccall3()#,[4:317:0:9,4:317:0:2,4:87:0:15,4:87:0:1,4:97:0:24,4:98:0:26,4:100:0:24,4:100:0:26,4:103:0:24,4:103:0:26,4:109:0:24,4:109:0:26,4:116:0:24,4:116:0:26,4:124:0:24,4:124:0:26,4:132:0:1,4:132:0:3]
+[Au5em],[ptr@UDR@informix.c:132@informix.c:342],[informix.c],[4:132],[Vul],[D],[UDR],[1,0,0],[ptr],#deccall3()#,[4:342:0:9,4:342:0:2,4:87:0:15,4:87:0:1,4:97:0:24,4:98:0:26,4:100:0:24,4:100:0:26,4:103:0:24,4:103:0:26,4:109:0:24,4:109:0:26,4:116:0:24,4:116:0:26,4:124:0:24,4:124:0:26,4:132:0:1,4:132:0:3]
+[Au5em],[ptr@UDR@informix.c:132@informix.c:364],[informix.c],[4:132],[Vul],[D],[UDR],[1,0,0],[ptr],#deccall3()#,[4:364:0:9,4:364:0:2,4:87:0:15,4:87:0:1,4:97:0:24,4:98:0:26,4:100:0:24,4:100:0:26,4:103:0:24,4:103:0:26,4:109:0:24,4:109:0:26,4:116:0:24,4:116:0:26,4:124:0:24,4:124:0:26,4:132:0:1,4:132:0:3]
+[Au5em],[tmp@STR38-C@CERT@informix.c:677@informix.c:672],[informix.c],[4:677],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[tmp],#intoasc()#,[4:672:0:1,4:677:0:3]
+[Au5em],[value@MSF@informix.c:735],[informix.c],[4:746],[Vul],[M],[MSF],[1,0,0],[value],#initValue()#,[4:735:0:9,4:735:0:10,4:745:0:12,4:746:0:3]
+[Au5em],[malloc@MEM35-C@CERT@informix.c:735],[informix.c],[4:735],[Vul],[M],[RBC],[1,0,0],[CERT],[MEM35-C],[malloc],#initValue()#,[4:735:0:3]
+[Au5em],[value.val_string@UDR@informix.c:769],[informix.c],[4:956],[Vul],[M],[UDR],[1,0,0],[value.val_string],#rfmtlong()#,[4:956:0:3]
+[Au5em],[temp@STR38-C@CERT@informix.c:945@informix.c:787],[informix.c],[4:945],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[temp],#rfmtlong()#,[4:787:0:1,4:945:0:3]
+[Au5em],[RCD@informix.c:973@informix.c:973],[informix.c],[4:973],[Vul],[D],[RCD],[1,0,0],[],#byleng()#,[4:973:0:11,4:973:0:23,4:973:0:25,4:973:0:3]
+[Au5em],[RCD@informix.c:973@informix.c:973],[informix.c],[4:973],[Vul],[D],[RCD],[1,0,0],[],#byleng()#,[4:973:0:11,4:973:0:23,4:973:0:25,4:973:0:3]

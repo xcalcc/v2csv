@@ -1,0 +1,274 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/port/atomics/arch-x86.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/port/atomics/generic-gcc.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/port/atomics/generic.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/port/atomics.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/storage/s_lock.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/pgstat.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/storage/proc.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/slot.c"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/storage/shmem.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/storage/lwlock.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/storage/condition_variable.h"
+  },
+  {
+  "fid": 19,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 20,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/miscadmin.h"
+  },
+  {
+  "fid": 22,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/storage/fd.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 25,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/replication/logical_statistic.h"
+  },
+  {
+  "fid": 26,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/utils/builtins.h"
+  },
+  {
+  "fid": 27,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/port.h"
+  },
+  {
+  "fid": 28,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/access/transam.h"
+  },
+  {
+  "fid": 29,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/storage/procarray.h"
+  },
+  {
+  "fid": 30,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/access/xlog.h"
+  },
+  {
+  "fid": 31,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/storage/standby.h"
+  },
+  {
+  "fid": 32,
+  "path": "/usr/include/sys/stat.h"
+  },
+  {
+  "fid": 33,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 34,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 35,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 36,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/access/xloginsert.h"
+  },
+  {
+  "fid": 37,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 38,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 39,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 40,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 41,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/common/relpath.h"
+  },
+  {
+  "fid": 42,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/pgxc/pgxc.h"
+  },
+  {
+  "fid": 43,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/storage/backendid.h"
+  },
+  {
+  "fid": 44,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/pgtime.h"
+  },
+  {
+  "fid": 45,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/access/xlog_internal.h"
+  },
+  {
+  "fid": 46,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 47,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/libpq/pqcomm.h"
+  },
+  {
+  "fid": 48,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/postmaster/pgarch.h"
+  },
+  {
+  "fid": 49,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/storage/lock.h"
+  },
+  {
+  "fid": 50,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 51,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/storage/sinval.h"
+  },
+  {
+  "fid": 52,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 53,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/pgxc/shardmap.h"
+  }
+]
+[Au5em],[path@AOB@slot.c:615],[slot.c],[15:615],[Vul],[M],[AOB],[1,0,0],[path],#ReplicationSlotDropPtr()#,[15:615:0:3]
+[Au5em],[tmppath@AOB@slot.c:616],[slot.c],[15:616],[Vul],[M],[AOB],[1,0,0],[tmppath],#ReplicationSlotDropPtr()#,[15:616:0:3]
+[Au5em],[_dst@AOB@slot.c:1842@slot.c:1842],[slot.c],[15:1842],[Vul],[D],[AOB],[1,0,0],[_dst],#replication_slot_wal_record_drop()#,[15:1842:0:1,15:1842:0:3]
+[Au5em],[strncpy@STR32-C@CERT@slot.c:1842],[slot.c],[15:1842],[Vul],[D],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#ReplicationSlotRelease()#,[15:1842:0:3]
+[Au5em],[_dst@STR38-C@CERT@slot.c:1842@slot.c:1842],[slot.c],[15:1842],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[_dst],#ReplicationSlotRelease()#,[15:1842:0:1,15:1842:0:3]
+[Au5em],[MyReplicationSlot+24@STR38-C@CERT@slot.c:1842],[slot.c],[15:1842],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[MyReplicationSlot+24],#ReplicationSlotRelease()#,[15:1842:0:3]
+[Au5em],[_dst@AOB@slot.c:1842@slot.c:1842],[slot.c],[15:1842],[Vul],[D],[AOB],[1,0,0],[_dst],#replication_slot_wal_record_drop()#,[15:1842:0:1,15:1842:0:3]
+[Au5em],[strncpy@STR32-C@CERT@slot.c:1842],[slot.c],[15:1842],[Vul],[D],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#ReplicationSlotDrop()#,[15:1842:0:3]
+[Au5em],[_dst@STR38-C@CERT@slot.c:1842@slot.c:1842],[slot.c],[15:1842],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[_dst],#ReplicationSlotDrop()#,[15:1842:0:1,15:1842:0:3]
+[Au5em],[MyReplicationSlot+24@STR38-C@CERT@slot.c:1842],[slot.c],[15:1842],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[MyReplicationSlot+24],#ReplicationSlotDrop()#,[15:1842:0:3]
+[Au5em],[tmppath@AOB@slot.c:1431],[slot.c],[15:1431],[Vul],[M],[AOB],[1,0,0],[tmppath],#SaveSlotToPath()#,[15:1431:0:3]
+[Au5em],[path@AOB@slot.c:1432],[slot.c],[15:1432],[Vul],[M],[AOB],[1,0,0],[path],#SaveSlotToPath()#,[15:1432:0:3]
+[Au5em],[path@AOB@slot.c:1355],[slot.c],[15:1355],[Vul],[M],[AOB],[1,0,0],[path],#CreateSlotOnDisk()#,[15:1355:0:3]
+[Au5em],[tmppath@AOB@slot.c:1356],[slot.c],[15:1356],[Vul],[M],[AOB],[1,0,0],[tmppath],#CreateSlotOnDisk()#,[15:1356:0:3]
+[Au5em],[old_path@AOB@slot.c:759],[slot.c],[15:759],[Vul],[M],[AOB],[1,0,0],[old_path],#ReplicationSlotRenamePtr()#,[15:759:0:3]
+[Au5em],[new_path@AOB@slot.c:760],[slot.c],[15:760],[Vul],[M],[AOB],[1,0,0],[new_path],#ReplicationSlotRenamePtr()#,[15:760:0:3]
+[Au5em],[_dst@STR38-C@CERT@slot.c:789@slot.c:789],[slot.c],[15:789],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[_dst],#ReplicationSlotRenamePtr()#,[15:789:0:1,15:789:0:3]
+[Au5em],[_dst@AOB@slot.c:1867@slot.c:1867],[slot.c],[15:1867],[Vul],[D],[AOB],[1,0,0],[_dst],#replication_slot_wal_record_rename_slot()#,[15:1867:0:1,15:1867:0:3]
+[Au5em],[strncpy@STR32-C@CERT@slot.c:1867],[slot.c],[15:1867],[Vul],[D],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#ReplicationSlotModifyAcquired()#,[15:1867:0:3]
+[Au5em],[_dst@STR38-C@CERT@slot.c:1867@slot.c:1867],[slot.c],[15:1867],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[_dst],#ReplicationSlotModifyAcquired()#,[15:1867:0:1,15:1867:0:3]
+[Au5em],[MyReplicationSlot+24@STR38-C@CERT@slot.c:1867],[slot.c],[15:1867],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[MyReplicationSlot+24],#ReplicationSlotModifyAcquired()#,[15:1867:0:3]
+[Au5em],[_dst@AOB@slot.c:1868@slot.c:1868],[slot.c],[15:1868],[Vul],[D],[AOB],[1,0,0],[_dst],#replication_slot_wal_record_rename_slot()#,[15:1868:0:1,15:1868:0:3]
+[Au5em],[strncpy@STR32-C@CERT@slot.c:1868],[slot.c],[15:1868],[Vul],[D],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#ReplicationSlotModifyAcquired()#,[15:1868:0:3]
+[Au5em],[_dst@STR38-C@CERT@slot.c:1868@slot.c:1868],[slot.c],[15:1868],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[_dst],#ReplicationSlotModifyAcquired()#,[15:1868:0:1,15:1868:0:3]
+[Au5em],[path@AOB@slot.c:833],[slot.c],[15:833],[Vul],[M],[AOB],[1,0,0],[path],#ReplicationSlotSave()#,[15:833:0:3]
+[Au5em],[_dst@AOB@slot.c:1794@slot.c:1794],[slot.c],[15:1794],[Vul],[D],[AOB],[1,0,0],[_dst],#replica_slot_wal_record_creat_slot()#,[15:1794:0:1,15:1794:0:3]
+[Au5em],[strncpy@STR32-C@CERT@slot.c:1794],[slot.c],[15:1794],[Vul],[D],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#replica_slot_wal_record_creat_slot()#,[15:1794:0:3]
+[Au5em],[_dst@STR38-C@CERT@slot.c:1794@slot.c:1794],[slot.c],[15:1794],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[_dst],#replica_slot_wal_record_creat_slot()#,[15:1794:0:1,15:1794:0:3]
+[Au5em],[MyReplicationSlot+24@STR38-C@CERT@slot.c:1794],[slot.c],[15:1794],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[MyReplicationSlot+24],#replica_slot_wal_record_creat_slot()#,[15:1794:0:3]
+[Au5em],[_dst@AOB@slot.c:1801@slot.c:1801],[slot.c],[15:1801],[Vul],[D],[AOB],[1,0,0],[_dst],#replica_slot_wal_record_creat_slot()#,[15:1801:0:1,15:1801:0:3]
+[Au5em],[strncpy@STR32-C@CERT@slot.c:1801],[slot.c],[15:1801],[Vul],[D],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#replica_slot_wal_record_creat_slot()#,[15:1801:0:3]
+[Au5em],[_dst@STR38-C@CERT@slot.c:1801@slot.c:1801],[slot.c],[15:1801],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[_dst],#replica_slot_wal_record_creat_slot()#,[15:1801:0:1,15:1801:0:3]
+[Au5em],[MyReplicationSlot+120@STR38-C@CERT@slot.c:1801],[slot.c],[15:1801],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[MyReplicationSlot+120],#replica_slot_wal_record_creat_slot()#,[15:1801:0:3]
+[Au5em],[_dst@AOB@slot.c:1808@slot.c:1808],[slot.c],[15:1808],[Vul],[D],[AOB],[1,0,0],[_dst],#replica_slot_wal_record_creat_slot()#,[15:1808:0:1,15:1808:0:3]
+[Au5em],[strncpy@STR32-C@CERT@slot.c:1808],[slot.c],[15:1808],[Vul],[D],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#replica_slot_wal_record_creat_slot()#,[15:1808:0:3]
+[Au5em],[_dst@STR38-C@CERT@slot.c:1808@slot.c:1808],[slot.c],[15:1808],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[_dst],#replica_slot_wal_record_creat_slot()#,[15:1808:0:1,15:1808:0:3]
+[Au5em],[MyReplicationSlot+256@STR38-C@CERT@slot.c:1808],[slot.c],[15:1808],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[MyReplicationSlot+256],#replica_slot_wal_record_creat_slot()#,[15:1808:0:3]
+[Au5em],[path@AOB@slot.c:833],[slot.c],[15:833],[Vul],[M],[AOB],[1,0,0],[path],#ReplicationSlotSave()#,[15:833:0:3]
+[Au5em],[RCD@slot.c:1688@slot.c:1688],[slot.c],[15:1688],[Vul],[D],[RCD],[1,0,0],[],#RestoreSlotFromDisk()#,[15:1688:0:11,15:1688:0:24,15:1688:0:25,15:1688:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@slot.c:1301],[slot.c],[15:1301],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#StartupReplicationSlots()#,[15:1301:0:3]
+[Au5em],[_dst@AOB@slot.c:1842@slot.c:1842],[slot.c],[15:1842],[Vul],[D],[AOB],[1,0,0],[_dst],#replication_slot_wal_record_drop()#,[15:1842:0:1,15:1842:0:3]
+[Au5em],[strncpy@STR32-C@CERT@slot.c:1842],[slot.c],[15:1842],[Vul],[D],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#replication_slot_wal_record_drop()#,[15:1842:0:3]
+[Au5em],[_dst@STR38-C@CERT@slot.c:1842@slot.c:1842],[slot.c],[15:1842],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[_dst],#replication_slot_wal_record_drop()#,[15:1842:0:1,15:1842:0:3]
+[Au5em],[MyReplicationSlot+24@STR38-C@CERT@slot.c:1842],[slot.c],[15:1842],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[MyReplicationSlot+24],#replication_slot_wal_record_drop()#,[15:1842:0:3]
+[Au5em],[_dst@AOB@slot.c:1867@slot.c:1867],[slot.c],[15:1867],[Vul],[D],[AOB],[1,0,0],[_dst],#replication_slot_wal_record_rename_slot()#,[15:1867:0:1,15:1867:0:3]
+[Au5em],[strncpy@STR32-C@CERT@slot.c:1867],[slot.c],[15:1867],[Vul],[D],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#replication_slot_wal_record_rename_slot()#,[15:1867:0:3]
+[Au5em],[_dst@STR38-C@CERT@slot.c:1867@slot.c:1867],[slot.c],[15:1867],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[_dst],#replication_slot_wal_record_rename_slot()#,[15:1867:0:1,15:1867:0:3]
+[Au5em],[MyReplicationSlot+24@STR38-C@CERT@slot.c:1867],[slot.c],[15:1867],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[MyReplicationSlot+24],#replication_slot_wal_record_rename_slot()#,[15:1867:0:3]
+[Au5em],[_dst@AOB@slot.c:1868@slot.c:1868],[slot.c],[15:1868],[Vul],[D],[AOB],[1,0,0],[_dst],#replication_slot_wal_record_rename_slot()#,[15:1868:0:1,15:1868:0:3]
+[Au5em],[strncpy@STR32-C@CERT@slot.c:1868],[slot.c],[15:1868],[Vul],[D],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#replication_slot_wal_record_rename_slot()#,[15:1868:0:3]
+[Au5em],[_dst@STR38-C@CERT@slot.c:1868@slot.c:1868],[slot.c],[15:1868],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[_dst],#replication_slot_wal_record_rename_slot()#,[15:1868:0:1,15:1868:0:3]
+[Au5em],[RCD@slot.c:1926@slot.c:1926],[slot.c],[15:1926],[Vul],[D],[RCD],[1,0,0],[],#replication_slot_redo_lsn_update()#,[15:1926:0:11,15:1926:0:24,15:1926:0:25,15:1926:0:3]
+[Au5em],[RCD@slot.c:2007@slot.c:2007],[slot.c],[15:2007],[Vul],[D],[RCD],[1,0,0],[],#replication_slot_redo_create()#,[15:2007:0:11,15:2007:0:24,15:2007:0:25,15:2007:0:3]
+[Au5em],[_dst@STR38-C@CERT@slot.c:2086@slot.c:2086],[slot.c],[15:2086],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[_dst],#replication_slot_redo_create()#,[15:2086:0:1,15:2086:0:3]
+[Au5em],[xlrec+4@STR38-C@CERT@slot.c:2086],[slot.c],[15:2086],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[xlrec+4],#replication_slot_redo_create()#,[15:2086:0:3]
+[Au5em],[strncpy@STR32-C@CERT@slot.c:2105],[slot.c],[15:2105],[Vul],[M],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#replication_slot_redo_create()#,[15:2105:0:3]
+[Au5em],[_dst@STR38-C@CERT@slot.c:2105@slot.c:2105],[slot.c],[15:2105],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[_dst],#replication_slot_redo_create()#,[15:2105:0:1,15:2105:0:3]
+[Au5em],[xlrec+104@STR38-C@CERT@slot.c:2105],[slot.c],[15:2105],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[xlrec+104],#replication_slot_redo_create()#,[15:2105:0:3]
+[Au5em],[strncpy@STR32-C@CERT@slot.c:2125],[slot.c],[15:2125],[Vul],[D],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#replication_slot_redo_create()#,[15:2125:0:3]
+[Au5em],[_dst@STR38-C@CERT@slot.c:2125@slot.c:2125],[slot.c],[15:2125],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[_dst],#replication_slot_redo_create()#,[15:2125:0:1,15:2125:0:3]
+[Au5em],[xlrec+184@STR38-C@CERT@slot.c:2125],[slot.c],[15:2125],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[xlrec+184],#replication_slot_redo_create()#,[15:2125:0:3]
+[Au5em],[RCD@slot.c:2146@slot.c:2146],[slot.c],[15:2146],[Vul],[D],[RCD],[1,0,0],[],#replication_slot_redo_drop()#,[15:2146:0:11,15:2146:0:24,15:2146:0:25,15:2146:0:3]
+[Au5em],[RCD@slot.c:2206@slot.c:2206],[slot.c],[15:2206],[Vul],[D],[RCD],[1,0,0],[],#replication_slot_redo_rename()#,[15:2206:0:11,15:2206:0:24,15:2206:0:25,15:2206:0:3]

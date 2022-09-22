@@ -1,0 +1,191 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/storage/bufpage.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/storage/s_lock.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/port/atomics/arch-x86.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/port/atomics/generic-gcc.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/port/atomics/generic.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/port/atomics.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/parse_coerce.c"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/pgxc/pgxc.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/utils/lsyscache.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/nodes/makefuncs.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/parser/parse_type.h"
+  },
+  {
+  "fid": 19,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/parser/parse_node.h"
+  },
+  {
+  "fid": 20,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/utils/syscache.h"
+  },
+  {
+  "fid": 22,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/nodes/nodeFuncs.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/catalog/pg_inherits_fn.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 25,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/utils/builtins.h"
+  },
+  {
+  "fid": 26,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/parser/parse_relation.h"
+  },
+  {
+  "fid": 27,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/utils/typcache.h"
+  },
+  {
+  "fid": 28,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/access/tupdesc.h"
+  },
+  {
+  "fid": 29,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 30,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 31,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 32,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 33,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 34,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 35,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/access/transam.h"
+  },
+  {
+  "fid": 36,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/pgtime.h"
+  },
+  {
+  "fid": 37,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/utils/timestamp.h"
+  },
+  {
+  "fid": 38,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/catalog/pg_type.h"
+  },
+  {
+  "fid": 39,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/storage/backendid.h"
+  },
+  {
+  "fid": 40,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/storage/lwlock.h"
+  },
+  {
+  "fid": 41,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/storage/lock.h"
+  },
+  {
+  "fid": 42,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 43,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/pgxc/locator.h"
+  }
+]
+[Au5em],[node@NPD@parse_coerce.c:175],[parse_coerce.c],[14:779],[Vul],[D],[NPD],[1,0,0],[node],#hide_coercion_node()#,[14:175:0:1,14:105:0:18,14:114:0:2,14:738:0:4,14:738:0:1,14:746:0:24,14:747:0:26,14:751:0:23,14:754:0:25,14:754:0:23,14:755:0:25,14:755:0:2,14:778:0:1,14:779:0:3]
+[Au5em],[node@NPD@parse_coerce.c:175],[parse_coerce.c],[14:781],[Vul],[D],[NPD],[1,0,0],[node],#hide_coercion_node()#,[14:175:0:1,14:105:0:18,14:114:0:2,14:738:0:4,14:738:0:1,14:746:0:24,14:747:0:26,14:751:0:23,14:754:0:25,14:754:0:23,14:755:0:25,14:755:0:2,14:779:0:24,14:781:0:26,14:778:0:1,14:781:0:3]
+[Au5em],[node@NPD@parse_coerce.c:175],[parse_coerce.c],[14:783],[Vul],[D],[NPD],[1,0,0],[node],#hide_coercion_node()#,[14:175:0:1,14:105:0:18,14:114:0:2,14:738:0:4,14:738:0:1,14:746:0:24,14:747:0:26,14:751:0:23,14:754:0:25,14:754:0:23,14:755:0:25,14:755:0:2,14:779:0:24,14:781:0:26,14:781:0:24,14:783:0:26,14:778:0:1,14:783:0:3]
+[Au5em],[node@NPD@parse_coerce.c:175],[parse_coerce.c],[14:785],[Vul],[D],[NPD],[1,0,0],[node],#hide_coercion_node()#,[14:175:0:1,14:105:0:18,14:114:0:2,14:738:0:4,14:738:0:1,14:746:0:24,14:747:0:26,14:751:0:23,14:754:0:25,14:754:0:23,14:755:0:25,14:755:0:2,14:779:0:24,14:781:0:26,14:781:0:24,14:783:0:26,14:783:0:24,14:785:0:26,14:778:0:1,14:785:0:3]
+[Au5em],[node@NPD@parse_coerce.c:175],[parse_coerce.c],[14:787],[Vul],[D],[NPD],[1,0,0],[node],#hide_coercion_node()#,[14:175:0:1,14:105:0:18,14:114:0:2,14:738:0:4,14:738:0:1,14:746:0:24,14:747:0:26,14:751:0:23,14:754:0:25,14:754:0:23,14:755:0:25,14:755:0:2,14:779:0:24,14:781:0:26,14:781:0:24,14:783:0:26,14:783:0:24,14:785:0:26,14:785:0:24,14:787:0:26,14:778:0:1,14:787:0:3]
+[Au5em],[node@NPD@parse_coerce.c:175],[parse_coerce.c],[14:788],[Vul],[D],[NPD],[1,0,0],[node],#hide_coercion_node()#,[14:175:0:1,14:105:0:18,14:114:0:2,14:738:0:4,14:738:0:1,14:755:0:2,14:787:0:23,14:787:0:25,14:755:0:18,14:746:0:24,14:747:0:26,14:751:0:23,14:754:0:25,14:754:0:23,14:755:0:25,14:755:0:2,14:779:0:24,14:781:0:26,14:781:0:24,14:783:0:26,14:783:0:24,14:785:0:26,14:785:0:24,14:787:0:26,14:787:0:23,14:787:0:26,14:778:0:1,14:788:0:3]
+[Au5em],[node@NPD@parse_coerce.c:175],[parse_coerce.c],[14:787],[Vul],[D],[NPD],[1,0,0],[node],#hide_coercion_node()#,[14:175:0:1,14:105:0:18,14:114:0:2,14:738:0:4,14:738:0:1,14:746:0:24,14:747:0:26,14:751:0:23,14:754:0:25,14:754:0:23,14:755:0:25,14:755:0:2,14:779:0:24,14:781:0:26,14:781:0:24,14:783:0:26,14:783:0:24,14:785:0:26,14:785:0:24,14:787:0:26,14:787:0:24,14:787:0:25,14:787:0:3]
+[Au5em],[node@NPD@parse_coerce.c:175],[parse_coerce.c],[14:791],[Vul],[D],[NPD],[1,0,0],[node],#hide_coercion_node()#,[14:175:0:1,14:105:0:18,14:114:0:2,14:738:0:4,14:738:0:1,14:746:0:24,14:747:0:26,14:751:0:23,14:754:0:25,14:754:0:23,14:755:0:25,14:755:0:2,14:779:0:24,14:781:0:26,14:781:0:24,14:783:0:26,14:783:0:24,14:785:0:26,14:785:0:24,14:787:0:26,14:787:0:24,14:791:0:26,14:778:0:1,14:791:0:3]
+[Au5em],[node@NPD@parse_coerce.c:175],[parse_coerce.c],[14:794],[Vul],[D],[NPD],[1,0,0],[node],#hide_coercion_node()#,[14:175:0:1,14:105:0:18,14:114:0:2,14:738:0:4,14:738:0:1,14:746:0:24,14:747:0:26,14:751:0:23,14:754:0:25,14:754:0:23,14:755:0:25,14:755:0:2,14:779:0:24,14:781:0:26,14:781:0:24,14:783:0:26,14:783:0:24,14:785:0:26,14:785:0:24,14:787:0:26,14:787:0:24,14:791:0:26,14:791:0:24,14:794:0:26,14:778:0:1,14:794:0:3]
+[Au5em],[node@NPD@parse_coerce.c:175],[parse_coerce.c],[14:792],[Vul],[D],[NPD],[1,0,0],[node],#hide_coercion_node()#,[14:175:0:1,14:105:0:18,14:114:0:2,14:738:0:4,14:738:0:1,14:746:0:24,14:747:0:26,14:751:0:23,14:754:0:25,14:754:0:23,14:755:0:25,14:755:0:2,14:779:0:24,14:781:0:26,14:781:0:24,14:783:0:26,14:783:0:24,14:785:0:26,14:785:0:24,14:787:0:26,14:787:0:24,14:791:0:26,14:791:0:23,14:792:0:25,14:778:0:1,14:792:0:3]
+[Au5em],[node@NPD@parse_coerce.c:175],[parse_coerce.c],[14:786],[Vul],[D],[NPD],[1,0,0],[node],#hide_coercion_node()#,[14:175:0:1,14:105:0:18,14:114:0:2,14:738:0:4,14:738:0:1,14:746:0:24,14:747:0:26,14:751:0:23,14:754:0:25,14:754:0:23,14:755:0:25,14:755:0:2,14:779:0:24,14:781:0:26,14:781:0:24,14:783:0:26,14:783:0:24,14:785:0:26,14:785:0:23,14:786:0:25,14:778:0:1,14:786:0:3]
+[Au5em],[node@NPD@parse_coerce.c:175],[parse_coerce.c],[14:784],[Vul],[D],[NPD],[1,0,0],[node],#hide_coercion_node()#,[14:175:0:1,14:105:0:18,14:114:0:2,14:738:0:4,14:738:0:1,14:746:0:24,14:747:0:26,14:751:0:23,14:754:0:25,14:754:0:23,14:755:0:25,14:755:0:2,14:779:0:24,14:781:0:26,14:781:0:24,14:783:0:26,14:783:0:23,14:784:0:25,14:778:0:1,14:784:0:3]
+[Au5em],[node@NPD@parse_coerce.c:175],[parse_coerce.c],[14:782],[Vul],[D],[NPD],[1,0,0],[node],#hide_coercion_node()#,[14:175:0:1,14:105:0:18,14:114:0:2,14:738:0:4,14:738:0:1,14:746:0:24,14:747:0:26,14:751:0:23,14:754:0:25,14:754:0:23,14:755:0:25,14:755:0:2,14:779:0:24,14:781:0:26,14:781:0:23,14:782:0:25,14:778:0:1,14:782:0:3]
+[Au5em],[node@NPD@parse_coerce.c:175],[parse_coerce.c],[14:780],[Vul],[D],[NPD],[1,0,0],[node],#hide_coercion_node()#,[14:175:0:1,14:105:0:18,14:114:0:2,14:738:0:4,14:738:0:1,14:746:0:24,14:747:0:26,14:751:0:23,14:754:0:25,14:754:0:23,14:755:0:25,14:755:0:2,14:779:0:23,14:780:0:25,14:778:0:1,14:780:0:3]
+[Au5em],[result@NPD@parse_coerce.c:175],[parse_coerce.c],[14:114],[Vul],[D],[NPD],[1,0,0],[result],#coerce_to_target_type()#,[14:175:0:1,14:105:0:18,14:114:0:23,14:114:0:25,14:105:0:1,14:114:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[parse_coerce.c],[14:1221],[Vul],[M],[NPD],[1,0,0],[0x0],#select_common_type()#,[6:79:0:1,6:79:0:17,6:79:0:1,14:1221:0:18,14:1221:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[parse_coerce.c],[14:1222],[Vul],[M],[NPD],[1,0,0],[0x0],#select_common_type()#,[6:79:0:1,6:79:0:17,6:79:0:1,14:1222:0:18,14:1222:0:3]
+[Au5em],[typcategory@UIV@parse_coerce.c:2019],[parse_coerce.c],[14:2024],[Vul],[M],[UIV],[1,0,0],[typcategory],#TypeCategory()#,[14:2019:0:4,14:2022:0:5,14:2024:0:3]
+[Au5em],[typcategory@UIV@parse_coerce.c:2038],[parse_coerce.c],[14:2042],[Vul],[M],[UIV],[1,0,0],[typcategory],#IsPreferredType()#,[14:2038:0:4,14:2041:0:5,14:2042:0:3]
+[Au5em],[typispreferred@UIV@parse_coerce.c:2039],[parse_coerce.c],[14:2043],[Vul],[M],[UIV],[1,0,0],[typispreferred],#IsPreferredType()#,[14:2039:0:4,14:2041:0:5,14:2042:0:23,14:2043:0:26,14:2043:0:3]

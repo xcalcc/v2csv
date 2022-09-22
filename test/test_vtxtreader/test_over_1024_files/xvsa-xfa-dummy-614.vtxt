@@ -1,0 +1,124 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/memutils.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/ts_utils.c"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/port.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/miscadmin.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/tsearch/ts_locale.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/mb/pg_wchar.h"
+  },
+  {
+  "fid": 17,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 19,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 20,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 21,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 22,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/pgtime.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 25,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 26,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/tcop/dest.h"
+  },
+  {
+  "fid": 27,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/array.h"
+  },
+  {
+  "fid": 28,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/guc.h"
+  },
+  {
+  "fid": 29,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/pg_locale.h"
+  },
+  {
+  "fid": 30,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/tsearch/ts_type.h"
+  }
+]
+[Au5em],[snprintf@ERR33-C@CERT@ts_utils.c:56],[ts_utils.c],[9:56],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#get_tsearch_config_filename()#,[9:56:0:3]
+[Au5em],[stop+(s->len*8)@NPD@ts_utils.c:70],[ts_utils.c],[9:124],[Vul],[M],[NPD],[1,0,0],[stop+(s->len*8)],#readstoplist()#,[9:70:0:1,9:73:0:23,9:75:0:25,9:75:0:2,9:48:0:24,9:48:0:26,9:75:0:18,9:80:0:24,9:80:0:26,9:86:0:23,9:86:0:25,9:86:0:17,9:102:0:17,9:124:0:3]
+[Au5em],[stop+(s->len*8)@NPD@ts_utils.c:70],[ts_utils.c],[9:119],[Vul],[M],[NPD],[1,0,0],[stop+(s->len*8)],#readstoplist()#,[9:70:0:1,9:73:0:23,9:75:0:25,9:75:0:2,9:48:0:24,9:48:0:26,9:75:0:18,9:80:0:24,9:80:0:26,9:86:0:23,9:86:0:25,9:86:0:17,9:102:0:17,9:119:0:3]
+[Au5em],[stop+(s->len*8)@NPD@ts_utils.c:70],[ts_utils.c],[9:120],[Vul],[M],[NPD],[1,0,0],[stop+(s->len*8)],#readstoplist()#,[9:70:0:1,9:73:0:23,9:75:0:25,9:75:0:2,9:48:0:24,9:48:0:26,9:75:0:18,9:80:0:24,9:80:0:26,9:86:0:23,9:86:0:25,9:86:0:17,9:102:0:17,9:120:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@ts_utils.c:56],[ts_utils.c],[9:56],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#readstoplist()#,[9:56:0:3]

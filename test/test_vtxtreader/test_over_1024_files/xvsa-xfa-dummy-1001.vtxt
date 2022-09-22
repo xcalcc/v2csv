@@ -1,0 +1,31 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/common/heap.c"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/assert.h"
+  },
+  {
+  "fid": 4,
+  "path": "/usr/include/sys/mman.h"
+  },
+  {
+  "fid": 5,
+  "path": "/usr/include/strings.h"
+  },
+  {
+  "fid": 6,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/bits/getopt_core.h"
+  }
+]
+[Au5em],[RCD@heap.c:156@heap.c:154],[heap.c],[2:156],[Vul],[D],[RCD],[1,0,0],[],#compare_int_keys()#,[2:154:0:11,2:154:0:24,2:156:0:26,2:156:0:3]
+[Au5em],[addr@AOB@heap.c:124@heap.c:118],[heap.c],[2:124],[Vul],[D],[AOB],[1,0,0],[addr],#map_in_pages()#,[2:118:0:5,2:120:0:24,2:124:0:26,2:118:0:1,2:124:0:3]
+[Au5em],[addr@AOB@heap.c:124@heap.c:118],[heap.c],[2:124],[Vul],[D],[AOB],[1,0,0],[addr],#map_in_pages()#,[2:118:0:5,2:120:0:24,2:124:0:26,2:118:0:1,2:124:0:3]
+[Au5em],[addr@AOB@heap.c:124@heap.c:118],[heap.c],[2:124],[Vul],[D],[AOB],[1,0,0],[addr],#map_in_pages()#,[2:118:0:5,2:120:0:24,2:124:0:26,2:118:0:1,2:124:0:3]

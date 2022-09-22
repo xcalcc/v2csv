@@ -1,0 +1,302 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/storage/s_lock.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/port/atomics/arch-x86.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/port/atomics/generic-gcc.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/port/atomics/generic.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/port/atomics.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/storage/bufpage.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/utils/rel.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/utils/sortsupport.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/executor/executor.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/executor/tuptable.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/readfuncs.c"
+  },
+  {
+  "fid": 19,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/nodes/readfuncs.h"
+  },
+  {
+  "fid": 20,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 21,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 22,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/nodes/bitmapset.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/utils/lsyscache.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/catalog/namespace.h"
+  },
+  {
+  "fid": 25,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/utils/builtins.h"
+  },
+  {
+  "fid": 26,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 27,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/nodes/value.h"
+  },
+  {
+  "fid": 28,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/commands/defrem.h"
+  },
+  {
+  "fid": 29,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/catalog/pg_constraint_fn.h"
+  },
+  {
+  "fid": 30,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/nodes/extensible.h"
+  },
+  {
+  "fid": 31,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 32,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 33,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 34,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 35,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 36,
+  "path": "/usr/include/math.h"
+  },
+  {
+  "fid": 37,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/postmaster/bgworker.h"
+  },
+  {
+  "fid": 38,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/storage/dsm_impl.h"
+  },
+  {
+  "fid": 39,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 40,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/storage/backendid.h"
+  },
+  {
+  "fid": 41,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/storage/lwlock.h"
+  },
+  {
+  "fid": 42,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/storage/lock.h"
+  },
+  {
+  "fid": 43,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/storage/proc.h"
+  },
+  {
+  "fid": 44,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/storage/shm_mq.h"
+  },
+  {
+  "fid": 45,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/access/parallel.h"
+  },
+  {
+  "fid": 46,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 47,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 48,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/common/relpath.h"
+  },
+  {
+  "fid": 49,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/pgxc/pgxc.h"
+  },
+  {
+  "fid": 50,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/pgxc/shardmap.h"
+  },
+  {
+  "fid": 51,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 52,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/storage/fd.h"
+  },
+  {
+  "fid": 53,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/access/xlog.h"
+  },
+  {
+  "fid": 54,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 55,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/access/transam.h"
+  },
+  {
+  "fid": 56,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/catalog/pg_am.h"
+  },
+  {
+  "fid": 57,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/utils/array.h"
+  },
+  {
+  "fid": 58,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/catalog/objectaddress.h"
+  },
+  {
+  "fid": 59,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/executor/instrument.h"
+  },
+  {
+  "fid": 60,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/tcop/dest.h"
+  },
+  {
+  "fid": 61,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/pgxc/squeue.h"
+  },
+  {
+  "fid": 62,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/commands/explain.h"
+  },
+  {
+  "fid": 63,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/pgtime.h"
+  },
+  {
+  "fid": 64,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/utils/timestamp.h"
+  },
+  {
+  "fid": 65,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 66,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 67,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/utils/resowner.h"
+  },
+  {
+  "fid": 68,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/utils/portal.h"
+  },
+  {
+  "fid": 69,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/tcop/pquery.h"
+  },
+  {
+  "fid": 70,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/storage/sinval.h"
+  },
+  {
+  "fid": 71,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/utils/datetime.h"
+  },
+  {
+  "fid": 72,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/access/xact.h"
+  },
+  {
+  "fid": 73,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/pgxc/execRemote.h"
+  },
+  {
+  "fid": 74,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/audit/audit_fga.h"
+  },
+  {
+  "fid": 75,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/audit/audit.h"
+  }
+]
+[Au5em],[length@UIV@readfuncs.c:504],[readfuncs.c],[18:509],[Vul],[M],[UIV],[1,0,0],[length],#_readBitmapset()#,[18:504:0:4,18:543:0:2,18:506:0:5,18:507:0:24,18:507:0:26,18:509:0:3]
+[Au5em],[length@UIV@readfuncs.c:504],[readfuncs.c],[18:509],[Vul],[M],[UIV],[1,0,0],[length],#_readBitmapset()#,[18:504:0:4,18:506:0:5,18:507:0:24,18:507:0:26,18:509:0:3]
+[Au5em],[length@UIV@readfuncs.c:4225],[readfuncs.c],[18:4232],[Vul],[M],[UIV],[1,0,0],[length],#parseNodeString()#,[18:4225:0:4,18:4227:0:5,18:4232:0:3]

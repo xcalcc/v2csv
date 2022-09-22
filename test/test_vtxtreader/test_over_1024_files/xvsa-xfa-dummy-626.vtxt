@@ -1,0 +1,98 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/fmgr/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/fmgr/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/fmgr/dfmgr.c"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/dlfcn.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/fmgr/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/sys/stat.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/fmgr/../../../../src/include/lib/stringinfo.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/fmgr/../../../../src/include/port.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/fmgr/../../../../src/include/miscadmin.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/fmgr/../../../../src/include/utils/hsearch.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/fmgr/../../../../src/include/storage/shmem.h"
+  },
+  {
+  "fid": 19,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 20,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/fmgr/../../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 22,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/fmgr/../../../../src/include/pgtime.h"
+  }
+]
+[Au5em],[p@NPD@dfmgr.c:597],[dfmgr.c],[6:598],[Vul],[D],[NPD],[1,0,0],[p],#find_in_dynamic_libpath()#,[6:597:0:1,6:598:0:3]
+[Au5em],[p+len@NPD@dfmgr.c:597],[dfmgr.c],[6:646],[Vul],[M],[NPD],[1,0,0],[p+len],#find_in_dynamic_libpath()#,[6:597:0:1,6:598:0:24,6:598:0:26,6:601:0:17,6:646:0:3]
+[Au5em],[mangled@STR38-C@CERT@dfmgr.c:635@dfmgr.c:624],[dfmgr.c],[6:635],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[mangled],#find_in_dynamic_libpath()#,[6:624:0:1,6:635:0:3]
+[Au5em],[full@AOB@dfmgr.c:636@dfmgr.c:635],[dfmgr.c],[6:636],[Vul],[D],[AOB],[1,0,0],[full],#find_in_dynamic_libpath()#,[6:635:0:1,6:636:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@dfmgr.c:315],[dfmgr.c],[6:315],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#incompatible_module_error()#,[6:315:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@dfmgr.c:312],[dfmgr.c],[6:312],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#incompatible_module_error()#,[6:312:0:3]
+[Au5em],[file_scanner+32@STR38-C@CERT@dfmgr.c:719],[dfmgr.c],[6:719],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[file_scanner+32],#EstimateLibraryStateSpace()#,[6:719:0:3]

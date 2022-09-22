@@ -1,0 +1,74 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/inet_cidr_ntop.c"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/builtins.h"
+  }
+]
+[Au5em],[dst@AOB@inet_cidr_ntop.c:139],[inet_cidr_ntop.c],[8:139],[Vul],[D],[AOB],[1,0,0],[dst],#inet_cidr_ntop_ipv4()#,[8:139:0:3]
+[Au5em],[dst@AOB@inet_cidr_ntop.c:132],[inet_cidr_ntop.c],[8:132],[Vul],[D],[AOB],[1,0,0],[dst],#inet_cidr_ntop_ipv4()#,[8:132:0:3]
+[Au5em],[dst@AOB@inet_cidr_ntop.c:113],[inet_cidr_ntop.c],[8:113],[Vul],[D],[AOB],[1,0,0],[dst],#inet_cidr_ntop_ipv4()#,[8:113:0:3]
+[Au5em],[cp@AOB@inet_cidr_ntop.c:278],[inet_cidr_ntop.c],[8:278],[Vul],[D],[AOB],[1,0,0],[cp],#inet_cidr_ntop_ipv6()#,[8:278:0:3]
+[Au5em],[cp@AOB@inet_cidr_ntop.c:266@inet_cidr_ntop.c:265],[inet_cidr_ntop.c],[8:266],[Vul],[D],[AOB],[1,0,0],[cp],#inet_cidr_ntop_ipv6()#,[8:265:0:1,8:266:0:3]
+[Au5em],[cp@AOB@inet_cidr_ntop.c:271@inet_cidr_ntop.c:270],[inet_cidr_ntop.c],[8:271],[Vul],[D],[AOB],[1,0,0],[cp],#inet_cidr_ntop_ipv6()#,[8:270:0:1,8:271:0:3]
+[Au5em],[cp@AOB@inet_cidr_ntop.c:284],[inet_cidr_ntop.c],[8:284],[Vul],[D],[AOB],[1,0,0],[cp],#inet_cidr_ntop_ipv6()#,[8:284:0:3]

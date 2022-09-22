@@ -1,0 +1,362 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/port/atomics/arch-x86.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/port/atomics/generic-gcc.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/port/atomics/generic.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/port/atomics.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/storage/bufpage.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/utils/rel.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/utils/sortsupport.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/storage/s_lock.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/executor/executor.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/executor/tuptable.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/pgstat.h"
+  },
+  {
+  "fid": 19,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/storage/proc.h"
+  },
+  {
+  "fid": 20,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/utils/memutils.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/utils/snapmgr.h"
+  },
+  {
+  "fid": 22,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/miscadmin.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/pquery.c"
+  },
+  {
+  "fid": 25,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/postmaster/postmaster.h"
+  },
+  {
+  "fid": 26,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 27,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/commands/explain_dist.h"
+  },
+  {
+  "fid": 28,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/pgxc/pgxc.h"
+  },
+  {
+  "fid": 29,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/tcop/utility.h"
+  },
+  {
+  "fid": 30,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/utils/portal.h"
+  },
+  {
+  "fid": 31,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/commands/prepare.h"
+  },
+  {
+  "fid": 32,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/utils/resowner.h"
+  },
+  {
+  "fid": 33,
+  "path": "/usr/include/pthread.h"
+  },
+  {
+  "fid": 34,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/tcop/dest.h"
+  },
+  {
+  "fid": 35,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/pgxc/pgxcnode.h"
+  },
+  {
+  "fid": 36,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/pgxc/execRemote.h"
+  },
+  {
+  "fid": 37,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 38,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/executor/producerReceiver.h"
+  },
+  {
+  "fid": 39,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/pgxc/squeue.h"
+  },
+  {
+  "fid": 40,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/commands/vacuum.h"
+  },
+  {
+  "fid": 41,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/utils/guc.h"
+  },
+  {
+  "fid": 42,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/tcop/tcopprot.h"
+  },
+  {
+  "fid": 43,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/executor/execParallel.h"
+  },
+  {
+  "fid": 44,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/utils/tuplestore.h"
+  },
+  {
+  "fid": 45,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/access/xact.h"
+  },
+  {
+  "fid": 46,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/executor/tstoreReceiver.h"
+  },
+  {
+  "fid": 47,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/access/gtm.h"
+  },
+  {
+  "fid": 48,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 49,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 50,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/commands/defrem.h"
+  },
+  {
+  "fid": 51,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/access/xlog.h"
+  },
+  {
+  "fid": 52,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 53,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 54,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 55,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 56,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/common/relpath.h"
+  },
+  {
+  "fid": 57,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/storage/backendid.h"
+  },
+  {
+  "fid": 58,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 59,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 60,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/storage/sinval.h"
+  },
+  {
+  "fid": 61,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 62,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/pgtime.h"
+  },
+  {
+  "fid": 63,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/utils/timestamp.h"
+  },
+  {
+  "fid": 64,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/utils/datetime.h"
+  },
+  {
+  "fid": 65,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 66,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/pgxc/shardmap.h"
+  },
+  {
+  "fid": 67,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 68,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 69,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/storage/dsm_impl.h"
+  },
+  {
+  "fid": 70,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/storage/fd.h"
+  },
+  {
+  "fid": 71,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/access/transam.h"
+  },
+  {
+  "fid": 72,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/access/relscan.h"
+  },
+  {
+  "fid": 73,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/catalog/pg_type.h"
+  },
+  {
+  "fid": 74,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/utils/array.h"
+  },
+  {
+  "fid": 75,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/catalog/objectaddress.h"
+  },
+  {
+  "fid": 76,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/executor/instrument.h"
+  },
+  {
+  "fid": 77,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/commands/explain.h"
+  },
+  {
+  "fid": 78,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/pgxc/nodemgr.h"
+  },
+  {
+  "fid": 79,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/libpq/pqcomm.h"
+  },
+  {
+  "fid": 80,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/postmaster/pgarch.h"
+  },
+  {
+  "fid": 81,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/storage/lwlock.h"
+  },
+  {
+  "fid": 82,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/storage/lock.h"
+  },
+  {
+  "fid": 83,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/postmaster/bgworker.h"
+  },
+  {
+  "fid": 84,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/storage/shm_mq.h"
+  },
+  {
+  "fid": 85,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/access/parallel.h"
+  },
+  {
+  "fid": 86,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/optimizer/planner.h"
+  },
+  {
+  "fid": 87,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/optimizer/planmain.h"
+  }
+]
+[Au5em],[0x0@NPD@pg_list.h:79],[pquery.c],[24:353],[Vul],[M],[NPD],[1,0,0],[0x0],#ChoosePortalStrategy()#,[6:79:0:1,6:79:0:17,6:79:0:1,24:353:0:18,24:353:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[pquery.c],[24:3068],[Vul],[M],[NPD],[1,0,0],[0x0],#contain_remote_query()#,[6:79:0:1,6:79:0:17,6:79:0:1,24:3068:0:18,24:3068:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[pquery.c],[24:110],[Vul],[M],[NPD],[1,0,0],[0x0],#CreateQueryDesc()#,[6:79:0:1,6:79:0:17,6:79:0:1,24:695:0:18,24:110:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[pquery.c],[24:1012],[Vul],[M],[NPD],[1,0,0],[0x0],#PortalStart()#,[6:79:0:1,6:79:0:17,6:79:0:1,24:1012:0:18,24:1012:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[pquery.c],[24:110],[Vul],[M],[NPD],[1,0,0],[0x0],#CreateQueryDesc()#,[6:79:0:1,6:79:0:17,6:79:0:1,24:1043:0:18,24:110:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[pquery.c],[24:110],[Vul],[M],[NPD],[1,0,0],[0x0],#CreateQueryDesc()#,[6:79:0:1,6:79:0:17,6:79:0:1,24:1032:0:18,24:110:0:3]
+[Au5em],[NewGtmHost@MSF@pquery.c:3020],[pquery.c],[24:3033],[Vul],[M],[MSF],[1,0,0],[NewGtmHost],#GetGtmInfoFromUserCmd()#,[24:3020:0:9,24:3020:0:10,24:3015:0:12,24:3033:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pquery.c:229],[pquery.c],[24:229],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#ProcessQuery()#,[24:229:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pquery.c:238],[pquery.c],[24:238],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#ProcessQuery()#,[24:238:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pquery.c:243],[pquery.c],[24:243],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#ProcessQuery()#,[24:243:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pquery.c:248],[pquery.c],[24:248],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#ProcessQuery()#,[24:248:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[pquery.c],[24:1823],[Vul],[M],[NPD],[1,0,0],[0x0],#FillPortalStore()#,[6:79:0:1,6:79:0:17,6:79:0:1,24:1823:0:18,24:1823:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pquery.c:2622],[pquery.c],[24:2622],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#AdvanceProducingPortal()#,[24:2622:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pquery.c:1366],[pquery.c],[24:1366],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#PortalRun()#,[24:1366:0:3]
+[Au5em],[RCD@pquery.c:2415@pquery.c:2412],[pquery.c],[24:2415],[Vul],[D],[RCD],[1,0,0],[],#DoPortalRunFetch()#,[24:2412:0:11,24:2412:0:24,24:2415:0:26,24:2415:0:3]

@@ -1,0 +1,57 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/common/fe_memutils.c"
+  },
+  {
+  "fid": 5,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 6,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/netinet/in.h"
+  }
+]
+[Au5em],[fprintf@ERR33-C@CERT@fe_memutils.c:35],[fe_memutils.c],[4:35],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#pg_malloc()#,[4:35:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe_memutils.c:35],[fe_memutils.c],[4:35],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#pg_malloc0()#,[4:35:0:3]
+[Au5em],[_start@MSF@fe_memutils.c:30],[fe_memutils.c],[4:62],[Vul],[D],[MSF],[1,0,0],[_start],#pg_malloc_extended()#,[4:30:0:9,4:61:0:18,4:61:0:12,4:62:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe_memutils.c:35],[fe_memutils.c],[4:35],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#pg_malloc_extended()#,[4:35:0:3]
+[Au5em],[ptr@UDR@fe_memutils.c:66],[fe_memutils.c],[4:72],[Vul],[M],[UDR],[1,0,0],[ptr],#pg_realloc()#,[4:72:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe_memutils.c:75],[fe_memutils.c],[4:75],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#pg_realloc()#,[4:75:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe_memutils.c:98],[fe_memutils.c],[4:98],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#pg_strdup()#,[4:98:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe_memutils.c:91],[fe_memutils.c],[4:91],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#pg_strdup()#,[4:91:0:3]
+[Au5em],[ptr@UDR@fe_memutils.c:106],[fe_memutils.c],[4:108],[Vul],[M],[UDR],[1,0,0],[ptr],#pg_free()#,[4:108:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe_memutils.c:35],[fe_memutils.c],[4:35],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#palloc()#,[4:35:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe_memutils.c:35],[fe_memutils.c],[4:35],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#palloc0()#,[4:35:0:3]
+[Au5em],[_start@MSF@fe_memutils.c:30],[fe_memutils.c],[4:131],[Vul],[D],[MSF],[1,0,0],[_start],#palloc_extended()#,[4:30:0:9,4:130:0:18,4:130:0:12,4:131:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe_memutils.c:35],[fe_memutils.c],[4:35],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#palloc_extended()#,[4:35:0:3]
+[Au5em],[ptr@UDR@fe_memutils.c:135],[fe_memutils.c],[4:108],[Vul],[M],[UDR],[1,0,0],[ptr],#pg_free()#,[4:136:0:2,4:106:0:1,4:108:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe_memutils.c:98],[fe_memutils.c],[4:98],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#pstrdup()#,[4:98:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe_memutils.c:91],[fe_memutils.c],[4:91],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#pstrdup()#,[4:91:0:3]
+[Au5em],[ptr@UDR@fe_memutils.c:147],[fe_memutils.c],[4:72],[Vul],[M],[UDR],[1,0,0],[ptr],#pg_realloc()#,[4:148:0:2,4:66:0:1,4:72:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe_memutils.c:75],[fe_memutils.c],[4:75],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#repalloc()#,[4:75:0:3]

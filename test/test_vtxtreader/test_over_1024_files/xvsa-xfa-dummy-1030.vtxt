@@ -1,0 +1,298 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/test/regress/pg_regress.c"
+  },
+  {
+  "fid": 5,
+  "path": "/usr/include/sys/resource.h"
+  },
+  {
+  "fid": 6,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/test/regress/../../../src/include/common/fe_memutils.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/test/regress/../../../src/include/port.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/pwd.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/sys/stat.h"
+  },
+  {
+  "fid": 16,
+  "path": "/usr/include/sys/wait.h"
+  },
+  {
+  "fid": 17,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/bits/getopt_ext.h"
+  },
+  {
+  "fid": 19,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 20,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/test/regress/pg_regress.h"
+  },
+  {
+  "fid": 22,
+  "path": "/home/xc5/cprojects/tbase/src/test/regress/../../../src/include/libpq/pqcomm.h"
+  }
+]
+[Au5em],[logfilename@FIO42-C@CERT@pg_regress.c:2777@pg_regress.c:2753],[pg_regress.c],[4:2777],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[logfilename],#open_result_files()#,[4:2753:0:71,4:2754:0:66,4:2754:0:17,4:2765:0:17,4:2776:0:2,4:2119:0:17,4:2776:0:18,4:2776:0:17,4:2777:0:70]
+[Au5em],[logfilename@FIO42-C@CERT@pg_regress.c:2777@pg_regress.c:2753],[pg_regress.c],[4:2777],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[logfilename],#open_result_files()#,[4:2753:0:71,4:2754:0:66,4:2754:0:17,4:2765:0:17,4:2776:0:2,4:2119:0:17,4:2776:0:18,4:2777:0:17,4:2777:0:2,4:2128:0:17,4:2777:0:18,4:2777:0:70]
+[Au5em],[logfilename@FIO42-C@CERT@pg_regress.c:2132@pg_regress.c:2753],[pg_regress.c],[4:2132],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[logfilename],#open_result_files()#,[4:2753:0:71,4:2754:0:66,4:2754:0:17,4:2765:0:17,4:2776:0:2,4:2119:0:17,4:2776:0:18,4:2777:0:17,4:2777:0:2,4:2132:0:17,4:2132:0:70]
+[Au5em],[logfilename@FIO42-C@CERT@pg_regress.c:2777@pg_regress.c:2753],[pg_regress.c],[4:2777],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[logfilename],#open_result_files()#,[4:2753:0:71,4:2754:0:66,4:2754:0:17,4:2765:0:17,4:2776:0:2,4:2118:0:17,4:2776:0:18,4:2776:0:17,4:2777:0:70]
+[Au5em],[logfilename@FIO42-C@CERT@pg_regress.c:2777@pg_regress.c:2753],[pg_regress.c],[4:2777],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[logfilename],#open_result_files()#,[4:2753:0:71,4:2754:0:66,4:2754:0:17,4:2765:0:17,4:2776:0:2,4:2118:0:17,4:2776:0:18,4:2777:0:17,4:2777:0:2,4:2128:0:17,4:2777:0:18,4:2777:0:70]
+[Au5em],[logfilename@FIO42-C@CERT@pg_regress.c:2132@pg_regress.c:2753],[pg_regress.c],[4:2132],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[logfilename],#open_result_files()#,[4:2753:0:71,4:2754:0:66,4:2754:0:17,4:2765:0:17,4:2776:0:2,4:2118:0:17,4:2776:0:18,4:2777:0:17,4:2777:0:2,4:2132:0:17,4:2132:0:70]
+[Au5em],[logfilename@FIO42-C@CERT@pg_regress.c:2769@pg_regress.c:2753],[pg_regress.c],[4:2769],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[logfilename],#open_result_files()#,[4:2753:0:71,4:2754:0:66,4:2754:0:17,4:2769:0:17,4:2769:0:70]
+[Au5em],[srcfile@FIO42-C@CERT@pg_regress.c:1404@pg_regress.c:1392],[pg_regress.c],[4:1404],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[srcfile],#convert_sourcefiles_in()#,[4:1392:0:65,4:1393:0:66,4:1393:0:17,4:1404:0:17,4:1404:0:70]
+[Au5em],[buf@FIO42-C@CERT@pg_regress.c:1508@pg_regress.c:1462],[pg_regress.c],[4:1508],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[buf],#load_resultmap()#,[4:1462:0:65,4:1463:0:66,4:1463:0:17,4:1473:0:17,4:1487:0:17,4:1496:0:17,4:1508:0:17,4:1508:0:70]
+[Au5em],[buf@FIO42-C@CERT@pg_regress.c:1500@pg_regress.c:1462],[pg_regress.c],[4:1500],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[buf],#load_resultmap()#,[4:1462:0:65,4:1463:0:66,4:1463:0:17,4:1473:0:17,4:1487:0:17,4:1500:0:17,4:1500:0:70]
+[Au5em],[buf@FIO42-C@CERT@pg_regress.c:1491@pg_regress.c:1462],[pg_regress.c],[4:1491],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[buf],#load_resultmap()#,[4:1462:0:65,4:1463:0:66,4:1463:0:17,4:1473:0:17,4:1487:0:17,4:1491:0:17,4:1491:0:70]
+[Au5em],[buf@FIO42-C@CERT@pg_regress.c:1508@pg_regress.c:1462],[pg_regress.c],[4:1508],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[buf],#load_resultmap()#,[4:1462:0:65,4:1463:0:66,4:1463:0:17,4:1473:0:17,4:1482:0:17,4:1487:0:17,4:1496:0:17,4:1508:0:17,4:1508:0:70]
+[Au5em],[buf@FIO42-C@CERT@pg_regress.c:1500@pg_regress.c:1462],[pg_regress.c],[4:1500],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[buf],#load_resultmap()#,[4:1462:0:65,4:1463:0:66,4:1463:0:17,4:1473:0:17,4:1482:0:17,4:1487:0:17,4:1500:0:17,4:1500:0:70]
+[Au5em],[buf@FIO42-C@CERT@pg_regress.c:1491@pg_regress.c:1462],[pg_regress.c],[4:1491],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[buf],#load_resultmap()#,[4:1462:0:65,4:1463:0:66,4:1463:0:17,4:1473:0:17,4:1482:0:17,4:1487:0:17,4:1491:0:17,4:1491:0:70]
+[Au5em],[schedule@FIO42-C@CERT@pg_regress.c:2525@pg_regress.c:2471],[pg_regress.c],[4:2525],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[schedule],#run_schedule()#,[4:2471:0:65,4:2472:0:66,4:2472:0:17,4:2479:0:17,4:2499:0:17,4:2504:0:17,4:2505:0:17,4:2507:0:17,4:2525:0:17,4:2525:0:70]
+[Au5em],[buf@FIO42-C@CERT@pg_regress.c:896@pg_regress.c:841],[pg_regress.c],[4:896],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[buf],#set_node_config_file()#,[4:841:0:71,4:842:0:66,4:842:0:17,4:881:0:2,4:533:0:17,4:881:0:18,4:886:0:17,4:896:0:17,4:896:0:70]
+[Au5em],[buf@FIO42-C@CERT@pg_regress.c:896@pg_regress.c:841],[pg_regress.c],[4:896],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[buf],#set_node_config_file()#,[4:841:0:71,4:842:0:66,4:842:0:17,4:869:0:2,4:533:0:17,4:869:0:18,4:881:0:2,4:542:0:17,4:535:0:17,4:881:0:18,4:886:0:17,4:896:0:17,4:896:0:70]
+[Au5em],[buf@FIO42-C@CERT@pg_regress.c:896@pg_regress.c:841],[pg_regress.c],[4:896],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[buf],#set_node_config_file()#,[4:841:0:71,4:842:0:66,4:842:0:17,4:869:0:2,4:533:0:17,4:869:0:18,4:881:0:2,4:542:0:17,4:536:0:17,4:881:0:18,4:886:0:17,4:896:0:17,4:896:0:70]
+[Au5em],[buf@FIO42-C@CERT@pg_regress.c:896@pg_regress.c:841],[pg_regress.c],[4:896],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[buf],#set_node_config_file()#,[4:841:0:71,4:842:0:66,4:842:0:17,4:869:0:2,4:533:0:17,4:869:0:18,4:881:0:2,4:542:0:17,4:539:0:17,4:881:0:18,4:886:0:17,4:896:0:17,4:896:0:70]
+[Au5em],[buf@FIO42-C@CERT@pg_regress.c:896@pg_regress.c:841],[pg_regress.c],[4:896],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[buf],#set_node_config_file()#,[4:841:0:71,4:842:0:66,4:842:0:17,4:869:0:2,4:533:0:17,4:869:0:18,4:881:0:2,4:542:0:17,4:540:0:17,4:881:0:18,4:886:0:17,4:896:0:17,4:896:0:70]
+[Au5em],[buf@FIO42-C@CERT@pg_regress.c:896@pg_regress.c:841],[pg_regress.c],[4:896],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[buf],#set_node_config_file()#,[4:841:0:71,4:842:0:66,4:842:0:17,4:869:0:2,4:542:0:17,4:535:0:17,4:869:0:18,4:881:0:2,4:533:0:17,4:881:0:18,4:886:0:17,4:896:0:17,4:896:0:70]
+[Au5em],[buf@FIO42-C@CERT@pg_regress.c:896@pg_regress.c:841],[pg_regress.c],[4:896],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[buf],#set_node_config_file()#,[4:841:0:71,4:842:0:66,4:842:0:17,4:869:0:2,4:542:0:17,4:535:0:17,4:869:0:18,4:881:0:2,4:542:0:17,4:535:0:17,4:881:0:18,4:886:0:17,4:896:0:17,4:896:0:70]
+[Au5em],[buf@FIO42-C@CERT@pg_regress.c:896@pg_regress.c:841],[pg_regress.c],[4:896],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[buf],#set_node_config_file()#,[4:841:0:71,4:842:0:66,4:842:0:17,4:869:0:2,4:542:0:17,4:535:0:17,4:869:0:18,4:881:0:2,4:542:0:17,4:536:0:17,4:881:0:18,4:886:0:17,4:896:0:17,4:896:0:70]
+[Au5em],[buf@FIO42-C@CERT@pg_regress.c:896@pg_regress.c:841],[pg_regress.c],[4:896],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[buf],#set_node_config_file()#,[4:841:0:71,4:842:0:66,4:842:0:17,4:869:0:2,4:542:0:17,4:535:0:17,4:869:0:18,4:881:0:2,4:542:0:17,4:539:0:17,4:881:0:18,4:886:0:17,4:896:0:17,4:896:0:70]
+[Au5em],[buf@FIO42-C@CERT@pg_regress.c:896@pg_regress.c:841],[pg_regress.c],[4:896],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[buf],#set_node_config_file()#,[4:841:0:71,4:842:0:66,4:842:0:17,4:869:0:2,4:542:0:17,4:535:0:17,4:869:0:18,4:881:0:2,4:542:0:17,4:540:0:17,4:881:0:18,4:886:0:17,4:896:0:17,4:896:0:70]
+[Au5em],[buf@FIO42-C@CERT@pg_regress.c:896@pg_regress.c:841],[pg_regress.c],[4:896],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[buf],#set_node_config_file()#,[4:841:0:71,4:842:0:66,4:842:0:17,4:869:0:2,4:542:0:17,4:536:0:17,4:869:0:18,4:881:0:2,4:533:0:17,4:881:0:18,4:886:0:17,4:896:0:17,4:896:0:70]
+[Au5em],[buf@FIO42-C@CERT@pg_regress.c:896@pg_regress.c:841],[pg_regress.c],[4:896],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[buf],#set_node_config_file()#,[4:841:0:71,4:842:0:66,4:842:0:17,4:869:0:2,4:542:0:17,4:536:0:17,4:869:0:18,4:881:0:2,4:542:0:17,4:535:0:17,4:881:0:18,4:886:0:17,4:896:0:17,4:896:0:70]
+[Au5em],[buf@FIO42-C@CERT@pg_regress.c:896@pg_regress.c:841],[pg_regress.c],[4:896],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[buf],#set_node_config_file()#,[4:841:0:71,4:842:0:66,4:842:0:17,4:869:0:2,4:542:0:17,4:536:0:17,4:869:0:18,4:881:0:2,4:542:0:17,4:536:0:17,4:881:0:18,4:886:0:17,4:896:0:17,4:896:0:70]
+[Au5em],[buf@FIO42-C@CERT@pg_regress.c:896@pg_regress.c:841],[pg_regress.c],[4:896],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[buf],#set_node_config_file()#,[4:841:0:71,4:842:0:66,4:842:0:17,4:869:0:2,4:542:0:17,4:536:0:17,4:869:0:18,4:881:0:2,4:542:0:17,4:539:0:17,4:881:0:18,4:886:0:17,4:896:0:17,4:896:0:70]
+[Au5em],[buf@FIO42-C@CERT@pg_regress.c:896@pg_regress.c:841],[pg_regress.c],[4:896],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[buf],#set_node_config_file()#,[4:841:0:71,4:842:0:66,4:842:0:17,4:869:0:2,4:542:0:17,4:536:0:17,4:869:0:18,4:881:0:2,4:542:0:17,4:540:0:17,4:881:0:18,4:886:0:17,4:896:0:17,4:896:0:70]
+[Au5em],[buf@FIO42-C@CERT@pg_regress.c:896@pg_regress.c:841],[pg_regress.c],[4:896],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[buf],#set_node_config_file()#,[4:841:0:71,4:842:0:66,4:842:0:17,4:869:0:2,4:542:0:17,4:539:0:17,4:869:0:18,4:881:0:2,4:533:0:17,4:881:0:18,4:886:0:17,4:896:0:17,4:896:0:70]
+[Au5em],[buf@FIO42-C@CERT@pg_regress.c:896@pg_regress.c:841],[pg_regress.c],[4:896],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[buf],#set_node_config_file()#,[4:841:0:71,4:842:0:66,4:842:0:17,4:869:0:2,4:542:0:17,4:539:0:17,4:869:0:18,4:881:0:2,4:542:0:17,4:535:0:17,4:881:0:18,4:886:0:17,4:896:0:17,4:896:0:70]
+[Au5em],[buf@FIO42-C@CERT@pg_regress.c:896@pg_regress.c:841],[pg_regress.c],[4:896],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[buf],#set_node_config_file()#,[4:841:0:71,4:842:0:66,4:842:0:17,4:869:0:2,4:542:0:17,4:539:0:17,4:869:0:18,4:881:0:2,4:542:0:17,4:536:0:17,4:881:0:18,4:886:0:17,4:896:0:17,4:896:0:70]
+[Au5em],[buf@FIO42-C@CERT@pg_regress.c:896@pg_regress.c:841],[pg_regress.c],[4:896],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[buf],#set_node_config_file()#,[4:841:0:71,4:842:0:66,4:842:0:17,4:869:0:2,4:542:0:17,4:539:0:17,4:869:0:18,4:881:0:2,4:542:0:17,4:539:0:17,4:881:0:18,4:886:0:17,4:896:0:17,4:896:0:70]
+[Au5em],[buf@FIO42-C@CERT@pg_regress.c:896@pg_regress.c:841],[pg_regress.c],[4:896],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[buf],#set_node_config_file()#,[4:841:0:71,4:842:0:66,4:842:0:17,4:869:0:2,4:542:0:17,4:539:0:17,4:869:0:18,4:881:0:2,4:542:0:17,4:540:0:17,4:881:0:18,4:886:0:17,4:896:0:17,4:896:0:70]
+[Au5em],[buf@FIO42-C@CERT@pg_regress.c:896@pg_regress.c:841],[pg_regress.c],[4:896],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[buf],#set_node_config_file()#,[4:841:0:71,4:842:0:66,4:842:0:17,4:869:0:2,4:542:0:17,4:540:0:17,4:869:0:18,4:881:0:2,4:533:0:17,4:881:0:18,4:886:0:17,4:896:0:17,4:896:0:70]
+[Au5em],[buf@FIO42-C@CERT@pg_regress.c:896@pg_regress.c:841],[pg_regress.c],[4:896],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[buf],#set_node_config_file()#,[4:841:0:71,4:842:0:66,4:842:0:17,4:869:0:2,4:542:0:17,4:540:0:17,4:869:0:18,4:881:0:2,4:542:0:17,4:535:0:17,4:881:0:18,4:886:0:17,4:896:0:17,4:896:0:70]
+[Au5em],[buf@FIO42-C@CERT@pg_regress.c:896@pg_regress.c:841],[pg_regress.c],[4:896],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[buf],#set_node_config_file()#,[4:841:0:71,4:842:0:66,4:842:0:17,4:869:0:2,4:542:0:17,4:540:0:17,4:869:0:18,4:881:0:2,4:542:0:17,4:536:0:17,4:881:0:18,4:886:0:17,4:896:0:17,4:896:0:70]
+[Au5em],[buf@FIO42-C@CERT@pg_regress.c:896@pg_regress.c:841],[pg_regress.c],[4:896],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[buf],#set_node_config_file()#,[4:841:0:71,4:842:0:66,4:842:0:17,4:869:0:2,4:542:0:17,4:540:0:17,4:869:0:18,4:881:0:2,4:542:0:17,4:539:0:17,4:881:0:18,4:886:0:17,4:896:0:17,4:896:0:70]
+[Au5em],[buf@FIO42-C@CERT@pg_regress.c:896@pg_regress.c:841],[pg_regress.c],[4:896],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[buf],#set_node_config_file()#,[4:841:0:71,4:842:0:66,4:842:0:17,4:869:0:2,4:542:0:17,4:540:0:17,4:869:0:18,4:881:0:2,4:542:0:17,4:540:0:17,4:881:0:18,4:886:0:17,4:896:0:17,4:896:0:70]
+[Au5em],[snprintf@ERR33-C@CERT@pg_regress.c:401],[pg_regress.c],[4:401],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#stop_node()#,[4:401:0:3]
+[Au5em],[system@ENV33-C@CERT@pg_regress.c:406],[pg_regress.c],[4:406],[Vul],[D],[RBC],[1,0,0],[CERT],[ENV33-C],[system],#stop_node()#,[4:406:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:409],[pg_regress.c],[4:409],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#stop_node()#,[4:409:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_regress.c:373],[pg_regress.c],[4:373],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#stop_gtm()#,[4:373:0:3]
+[Au5em],[system@ENV33-C@CERT@pg_regress.c:378],[pg_regress.c],[4:378],[Vul],[D],[RBC],[1,0,0],[CERT],[ENV33-C],[system],#stop_gtm()#,[4:378:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:381],[pg_regress.c],[4:381],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#stop_gtm()#,[4:381:0:3]
+[Au5em],[file@FIO02-C@CERT@pg_regress.c:2104@pg_regress.c:2103],[pg_regress.c],[4:2104],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO02-C],[file],#file_exists()#,[4:2103:0:16,4:2104:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_regress.c:2751],[pg_regress.c],[4:2751],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#open_result_files()#,[4:2751:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_regress.c:2762],[pg_regress.c],[4:2762],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#open_result_files()#,[4:2762:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_regress.c:2775],[pg_regress.c],[4:2775],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#open_result_files()#,[4:2775:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:2130],[pg_regress.c],[4:2130],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#open_result_files()#,[4:2130:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:2767],[pg_regress.c],[4:2767],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#open_result_files()#,[4:2767:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:2756],[pg_regress.c],[4:2756],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#open_result_files()#,[4:2756:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:2130],[pg_regress.c],[4:2130],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#open_result_files()#,[4:2130:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_regress.c:1326],[pg_regress.c],[4:1326],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#convert_sourcefiles_in()#,[4:1326:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_regress.c:1344],[pg_regress.c],[4:1344],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#convert_sourcefiles_in()#,[4:1344:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:1425],[pg_regress.c],[4:1425],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#convert_sourcefiles_in()#,[4:1425:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_regress.c:1387],[pg_regress.c],[4:1387],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#convert_sourcefiles_in()#,[4:1387:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_regress.c:1388],[pg_regress.c],[4:1388],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#convert_sourcefiles_in()#,[4:1388:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_regress.c:1389],[pg_regress.c],[4:1389],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#convert_sourcefiles_in()#,[4:1389:0:3]
+[Au5em],[fgets@FIO37-C@CERT@pg_regress.c:1404@pg_regress.c:1406],[pg_regress.c],[4:1406],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO37-C],[fgets],#convert_sourcefiles_in()#,[4:1406:0:3,4:1406:0:17,4:1369:0:17,4:1382:0:17,4:1393:0:17,4:1404:0:17,4:1404:0:16]
+[Au5em],[fputs@ERR33-C@CERT@pg_regress.c:1413],[pg_regress.c],[4:1413],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#convert_sourcefiles_in()#,[4:1413:0:3]
+[Au5em],[fgets@FIO37-C@CERT@pg_regress.c:1404@pg_regress.c:1406],[pg_regress.c],[4:1406],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO37-C],[fgets],#convert_sourcefiles_in()#,[4:1406:0:3,4:1406:0:17,4:1369:0:17,4:1382:0:17,4:1393:0:17,4:1404:0:17,4:1404:0:16]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:1402],[pg_regress.c],[4:1402],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#convert_sourcefiles_in()#,[4:1402:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:1395],[pg_regress.c],[4:1395],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#convert_sourcefiles_in()#,[4:1395:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_regress.c:1461],[pg_regress.c],[4:1461],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#load_resultmap()#,[4:1461:0:3]
+[Au5em],[fgets@FIO37-C@CERT@pg_regress.c:1529@pg_regress.c:1473],[pg_regress.c],[4:1473],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO37-C],[fgets],#load_resultmap()#,[4:1473:0:3,4:1529:0:17,4:1529:0:16]
+[Au5em],[fgets@FIO37-C@CERT@pg_regress.c:1529@pg_regress.c:1473],[pg_regress.c],[4:1473],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO37-C],[fgets],#load_resultmap()#,[4:1473:0:3,4:1473:0:17,4:1529:0:16]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:1506],[pg_regress.c],[4:1506],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#load_resultmap()#,[4:1506:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:1498],[pg_regress.c],[4:1498],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#load_resultmap()#,[4:1498:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:1489],[pg_regress.c],[4:1489],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#load_resultmap()#,[4:1489:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:1468],[pg_regress.c],[4:1468],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#load_resultmap()#,[4:1468:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_regress.c:1197],[pg_regress.c],[4:1197],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#make_temp_sockdir()#,[4:1197:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_regress.c:1198],[pg_regress.c],[4:1198],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#make_temp_sockdir()#,[4:1198:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:1191],[pg_regress.c],[4:1191],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#make_temp_sockdir()#,[4:1191:0:3]
+[Au5em],[s@MSF@pg_regress.c:471],[pg_regress.c],[4:1751],[Vul],[D],[MSF],[1,0,0],[s],#initialize_environment()#,[4:471:0:9,4:1727:0:18,4:1750:0:12,4:1751:0:3]
+[Au5em],[s@MSF@pg_regress.c:471],[pg_regress.c],[4:1751],[Vul],[D],[MSF],[1,0,0],[s],#initialize_environment()#,[4:471:0:9,4:1724:0:18,4:1750:0:12,4:1751:0:3]
+[Au5em],[s@MSF@pg_regress.c:471],[pg_regress.c],[4:1751],[Vul],[D],[MSF],[1,0,0],[s],#initialize_environment()#,[4:471:0:9,4:1716:0:18,4:1750:0:12,4:1751:0:3]
+[Au5em],[s@MSF@pg_regress.c:471],[pg_regress.c],[4:1751],[Vul],[D],[MSF],[1,0,0],[s],#initialize_environment()#,[4:471:0:9,4:1690:0:18,4:1750:0:12,4:1751:0:3]
+[Au5em],[s@MSF@pg_regress.c:471],[pg_regress.c],[4:1751],[Vul],[D],[MSF],[1,0,0],[s],#initialize_environment()#,[4:471:0:9,4:1702:0:18,4:1750:0:12,4:1751:0:3]
+[Au5em],[s@MSF@pg_regress.c:471],[pg_regress.c],[4:1751],[Vul],[D],[MSF],[1,0,0],[s],#initialize_environment()#,[4:471:0:9,4:1684:0:18,4:1750:0:12,4:1751:0:3]
+[Au5em],[s@MSF@pg_regress.c:471],[pg_regress.c],[4:1751],[Vul],[D],[MSF],[1,0,0],[s],#initialize_environment()#,[4:471:0:9,4:1625:0:18,4:1750:0:12,4:1751:0:3]
+[Au5em],[s@ERR33-C@CERT@pg_regress.c:473@pg_regress.c:471],[pg_regress.c],[4:471],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[s],#initialize_environment()#,[4:471:0:3,4:473:0:16]
+[Au5em],[s@AOB@pg_regress.c:473@pg_regress.c:471],[pg_regress.c],[4:473],[Vul],[D],[AOB],[1,0,0],[s],#doputenv()#,[4:471:0:1,4:473:0:3]
+[Au5em],[s@ERR33-C@CERT@pg_regress.c:473@pg_regress.c:471],[pg_regress.c],[4:471],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[s],#initialize_environment()#,[4:471:0:3,4:473:0:16]
+[Au5em],[s@AOB@pg_regress.c:473@pg_regress.c:471],[pg_regress.c],[4:473],[Vul],[D],[AOB],[1,0,0],[s],#doputenv()#,[4:471:0:1,4:473:0:3]
+[Au5em],[s@ERR33-C@CERT@pg_regress.c:473@pg_regress.c:471],[pg_regress.c],[4:471],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[s],#initialize_environment()#,[4:471:0:3,4:473:0:16]
+[Au5em],[s@AOB@pg_regress.c:473@pg_regress.c:471],[pg_regress.c],[4:473],[Vul],[D],[AOB],[1,0,0],[s],#doputenv()#,[4:471:0:1,4:473:0:3]
+[Au5em],[s@ERR33-C@CERT@pg_regress.c:473@pg_regress.c:471],[pg_regress.c],[4:471],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[s],#initialize_environment()#,[4:471:0:3,4:473:0:16]
+[Au5em],[s@AOB@pg_regress.c:473@pg_regress.c:471],[pg_regress.c],[4:473],[Vul],[D],[AOB],[1,0,0],[s],#doputenv()#,[4:471:0:1,4:473:0:3]
+[Au5em],[s@ERR33-C@CERT@pg_regress.c:473@pg_regress.c:471],[pg_regress.c],[4:471],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[s],#initialize_environment()#,[4:471:0:3,4:473:0:16]
+[Au5em],[s@AOB@pg_regress.c:473@pg_regress.c:471],[pg_regress.c],[4:473],[Vul],[D],[AOB],[1,0,0],[s],#doputenv()#,[4:471:0:1,4:473:0:3]
+[Au5em],[s@ERR33-C@CERT@pg_regress.c:473@pg_regress.c:471],[pg_regress.c],[4:471],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[s],#initialize_environment()#,[4:471:0:3,4:473:0:16]
+[Au5em],[s@AOB@pg_regress.c:473@pg_regress.c:471],[pg_regress.c],[4:473],[Vul],[D],[AOB],[1,0,0],[s],#doputenv()#,[4:471:0:1,4:473:0:3]
+[Au5em],[s@ERR33-C@CERT@pg_regress.c:473@pg_regress.c:471],[pg_regress.c],[4:471],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[s],#initialize_environment()#,[4:471:0:3,4:473:0:16]
+[Au5em],[s@AOB@pg_regress.c:473@pg_regress.c:471],[pg_regress.c],[4:473],[Vul],[D],[AOB],[1,0,0],[s],#doputenv()#,[4:471:0:1,4:473:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:286],[pg_regress.c],[4:286],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#header()#,[4:286:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_regress.c:1977],[pg_regress.c],[4:1977],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#psql_command()#,[4:1977:0:3]
+[Au5em],[system@ENV33-C@CERT@pg_regress.c:1984],[pg_regress.c],[4:1984],[Vul],[D],[RBC],[1,0,0],[CERT],[ENV33-C],[system],#psql_command()#,[4:1984:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:1987],[pg_regress.c],[4:1987],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#psql_command()#,[4:1987:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:2377],[pg_regress.c],[4:2377],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#wait_for_tests()#,[4:2377:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:2088],[pg_regress.c],[4:2088],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#file_line_count()#,[4:2088:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_regress.c:2165],[pg_regress.c],[4:2165],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#get_alternative_expectfile()#,[4:2165:0:3]
+[Au5em],[alt_expectfile@MSF@pg_regress.c:2261],[pg_regress.c],[4:2182],[Vul],[D],[MSF],[1,0,0],[alt_expectfile],#results_differ()#,[4:2261:0:9,4:2279:0:2,4:2182:0:12]
+[Au5em],[snprintf@ERR33-C@CERT@pg_regress.c:2239],[pg_regress.c],[4:2239],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#results_differ()#,[4:2239:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_regress.c:2242],[pg_regress.c],[4:2242],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#results_differ()#,[4:2242:0:3]
+[Au5em],[system@ENV33-C@CERT@pg_regress.c:2178],[pg_regress.c],[4:2178],[Vul],[D],[RBC],[1,0,0],[CERT],[ENV33-C],[system],#results_differ()#,[4:2178:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:2181],[pg_regress.c],[4:2181],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#results_differ()#,[4:2181:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_regress.c:2275],[pg_regress.c],[4:2275],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#results_differ()#,[4:2275:0:3]
+[Au5em],[system@ENV33-C@CERT@pg_regress.c:2178],[pg_regress.c],[4:2178],[Vul],[D],[RBC],[1,0,0],[CERT],[ENV33-C],[system],#results_differ()#,[4:2178:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:2181],[pg_regress.c],[4:2181],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#results_differ()#,[4:2181:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_regress.c:2327],[pg_regress.c],[4:2327],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#results_differ()#,[4:2327:0:3]
+[Au5em],[system@ENV33-C@CERT@pg_regress.c:2178],[pg_regress.c],[4:2178],[Vul],[D],[RBC],[1,0,0],[CERT],[ENV33-C],[system],#results_differ()#,[4:2178:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:2181],[pg_regress.c],[4:2181],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#results_differ()#,[4:2181:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:2336],[pg_regress.c],[4:2336],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#results_differ()#,[4:2336:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_regress.c:2303],[pg_regress.c],[4:2303],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#results_differ()#,[4:2303:0:3]
+[Au5em],[system@ENV33-C@CERT@pg_regress.c:2178],[pg_regress.c],[4:2178],[Vul],[D],[RBC],[1,0,0],[CERT],[ENV33-C],[system],#results_differ()#,[4:2178:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:2181],[pg_regress.c],[4:2181],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#results_differ()#,[4:2181:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:2264],[pg_regress.c],[4:2264],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#results_differ()#,[4:2264:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:317],[pg_regress.c],[4:317],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#run_single_test()#,[4:317:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:320],[pg_regress.c],[4:320],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#run_single_test()#,[4:320:0:3]
+[Au5em],[*listhead->str@UDR@pg_regress.c:251],[pg_regress.c],[4:251],[Vul],[M],[UDR],[1,0,0],[*listhead->str],#free_stringlist()#,[4:251:0:3]
+[Au5em],[*tags+(*8)->str@UDR@pg_regress.c:251],[pg_regress.c],[4:251],[Vul],[D],[UDR],[1,0,0],[*tags+(*8)->str],#free_stringlist()#,[4:251:0:3]
+[Au5em],[*expectfiles+(*8)->str@UDR@pg_regress.c:251],[pg_regress.c],[4:251],[Vul],[D],[UDR],[1,0,0],[*expectfiles+(*8)->str],#free_stringlist()#,[4:251:0:3]
+[Au5em],[*resultfiles+(*8)->str@UDR@pg_regress.c:251],[pg_regress.c],[4:251],[Vul],[D],[UDR],[1,0,0],[*resultfiles+(*8)->str],#free_stringlist()#,[4:251:0:3]
+[Au5em],[*tags+(*8)@UDR@pg_regress.c:252],[pg_regress.c],[4:252],[Vul],[D],[UDR],[1,0,0],[*tags+(*8)],#free_stringlist()#,[4:253:0:8,4:2495:0:18,4:2492:0:24,4:2493:0:25,4:2495:0:2,4:2495:0:18,4:2495:0:2,4:252:0:3]
+[Au5em],[*expectfiles+(*8)@UDR@pg_regress.c:252],[pg_regress.c],[4:252],[Vul],[D],[UDR],[1,0,0],[*expectfiles+(*8)],#free_stringlist()#,[4:253:0:8,4:2494:0:18,4:2492:0:24,4:2493:0:25,4:2494:0:2,4:2494:0:18,4:2494:0:2,4:252:0:3]
+[Au5em],[*resultfiles+(*8)@UDR@pg_regress.c:252],[pg_regress.c],[4:252],[Vul],[D],[UDR],[1,0,0],[*resultfiles+(*8)],#free_stringlist()#,[4:253:0:8,4:2493:0:18,4:2492:0:24,4:2493:0:25,4:2493:0:2,4:2493:0:18,4:2493:0:2,4:252:0:3]
+[Au5em],[fgets@FIO37-C@CERT@pg_regress.c:2672@pg_regress.c:2479],[pg_regress.c],[4:2479],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO37-C],[fgets],#run_schedule()#,[4:2479:0:3,4:2670:0:2,4:2670:0:17,4:2670:0:18,4:2672:0:16]
+[Au5em],[fgets@FIO37-C@CERT@pg_regress.c:2525@pg_regress.c:2479],[pg_regress.c],[4:2479],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO37-C],[fgets],#run_schedule()#,[4:2479:0:3,4:2479:0:17,4:2499:0:17,4:2504:0:17,4:2505:0:17,4:2507:0:17,4:2525:0:17,4:2525:0:16]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:2523],[pg_regress.c],[4:2523],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#run_schedule()#,[4:2523:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:317],[pg_regress.c],[4:317],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#run_schedule()#,[4:317:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:320],[pg_regress.c],[4:320],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#run_schedule()#,[4:320:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:317],[pg_regress.c],[4:317],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#run_schedule()#,[4:317:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:320],[pg_regress.c],[4:320],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#run_schedule()#,[4:320:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:317],[pg_regress.c],[4:317],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#run_schedule()#,[4:317:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:320],[pg_regress.c],[4:320],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#run_schedule()#,[4:320:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:2554],[pg_regress.c],[4:2554],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#run_schedule()#,[4:2554:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:2542],[pg_regress.c],[4:2542],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#run_schedule()#,[4:2542:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:2474],[pg_regress.c],[4:2474],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#run_schedule()#,[4:2474:0:3]
+[Au5em],[tests@AOB@pg_regress.c:2546],[pg_regress.c],[4:2546],[Vul],[M],[AOB],[1,0,0],[tests],#run_schedule()#,[4:2546:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_regress.c:809],[pg_regress.c],[4:809],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#initdb_node()#,[4:809:0:3]
+[Au5em],[system@ENV33-C@CERT@pg_regress.c:823],[pg_regress.c],[4:823],[Vul],[D],[RBC],[1,0,0],[CERT],[ENV33-C],[system],#initdb_node()#,[4:823:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:825],[pg_regress.c],[4:825],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#initdb_node()#,[4:825:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_regress.c:792],[pg_regress.c],[4:792],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#initdb_node()#,[4:792:0:3]
+[Au5em],[system@ENV33-C@CERT@pg_regress.c:799],[pg_regress.c],[4:799],[Vul],[D],[RBC],[1,0,0],[CERT],[ENV33-C],[system],#initdb_node()#,[4:799:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:801],[pg_regress.c],[4:801],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#initdb_node()#,[4:801:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_regress.c:840],[pg_regress.c],[4:840],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#set_node_config_file()#,[4:840:0:3]
+[Au5em],[fputs@ERR33-C@CERT@pg_regress.c:847],[pg_regress.c],[4:847],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#set_node_config_file()#,[4:847:0:3]
+[Au5em],[fputs@ERR33-C@CERT@pg_regress.c:854],[pg_regress.c],[4:854],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#set_node_config_file()#,[4:854:0:3]
+[Au5em],[fputs@ERR33-C@CERT@pg_regress.c:859],[pg_regress.c],[4:859],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#set_node_config_file()#,[4:859:0:3]
+[Au5em],[fputs@ERR33-C@CERT@pg_regress.c:860],[pg_regress.c],[4:860],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#set_node_config_file()#,[4:860:0:3]
+[Au5em],[fputs@ERR33-C@CERT@pg_regress.c:862],[pg_regress.c],[4:862],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#set_node_config_file()#,[4:862:0:3]
+[Au5em],[fputs@ERR33-C@CERT@pg_regress.c:865],[pg_regress.c],[4:865],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#set_node_config_file()#,[4:865:0:3]
+[Au5em],[fputs@ERR33-C@CERT@pg_regress.c:866],[pg_regress.c],[4:866],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#set_node_config_file()#,[4:866:0:3]
+[Au5em],[fputs@ERR33-C@CERT@pg_regress.c:867],[pg_regress.c],[4:867],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#set_node_config_file()#,[4:867:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_regress.c:869],[pg_regress.c],[4:869],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#set_node_config_file()#,[4:869:0:3]
+[Au5em],[fputs@ERR33-C@CERT@pg_regress.c:870],[pg_regress.c],[4:870],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#set_node_config_file()#,[4:870:0:3]
+[Au5em],[fputs@ERR33-C@CERT@pg_regress.c:872],[pg_regress.c],[4:872],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#set_node_config_file()#,[4:872:0:3]
+[Au5em],[fputs@ERR33-C@CERT@pg_regress.c:873],[pg_regress.c],[4:873],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#set_node_config_file()#,[4:873:0:3]
+[Au5em],[fputs@ERR33-C@CERT@pg_regress.c:874],[pg_regress.c],[4:874],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#set_node_config_file()#,[4:874:0:3]
+[Au5em],[fputs@ERR33-C@CERT@pg_regress.c:875],[pg_regress.c],[4:875],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#set_node_config_file()#,[4:875:0:3]
+[Au5em],[fputs@ERR33-C@CERT@pg_regress.c:876],[pg_regress.c],[4:876],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#set_node_config_file()#,[4:876:0:3]
+[Au5em],[fputs@ERR33-C@CERT@pg_regress.c:877],[pg_regress.c],[4:877],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#set_node_config_file()#,[4:877:0:3]
+[Au5em],[fputs@ERR33-C@CERT@pg_regress.c:878],[pg_regress.c],[4:878],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#set_node_config_file()#,[4:878:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_regress.c:881],[pg_regress.c],[4:881],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#set_node_config_file()#,[4:881:0:3]
+[Au5em],[fputs@ERR33-C@CERT@pg_regress.c:882],[pg_regress.c],[4:882],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#set_node_config_file()#,[4:882:0:3]
+[Au5em],[fputs@ERR33-C@CERT@pg_regress.c:884],[pg_regress.c],[4:884],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#set_node_config_file()#,[4:884:0:3]
+[Au5em],[fgets@FIO37-C@CERT@pg_regress.c:896@pg_regress.c:898],[pg_regress.c],[4:898],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO37-C],[fgets],#set_node_config_file()#,[4:898:0:3,4:886:0:17,4:896:0:17,4:896:0:16]
+[Au5em],[fputs@ERR33-C@CERT@pg_regress.c:899],[pg_regress.c],[4:899],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#set_node_config_file()#,[4:899:0:3]
+[Au5em],[fgets@FIO37-C@CERT@pg_regress.c:896@pg_regress.c:898],[pg_regress.c],[4:898],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO37-C],[fgets],#set_node_config_file()#,[4:898:0:3,4:898:0:17,4:886:0:17,4:896:0:17,4:896:0:16]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:895],[pg_regress.c],[4:895],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#set_node_config_file()#,[4:895:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:844],[pg_regress.c],[4:844],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#set_node_config_file()#,[4:844:0:3]
+[Au5em],[s@MSF@pg_regress.c:471],[pg_regress.c],[4:652],[Vul],[D],[MSF],[1,0,0],[s],#calculate_node_port()#,[4:471:0:9,4:643:0:18,4:651:0:12,4:652:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_regress.c:608],[pg_regress.c],[4:608],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#calculate_node_port()#,[4:608:0:3]
+[Au5em],[system@ENV33-C@CERT@pg_regress.c:616],[pg_regress.c],[4:616],[Vul],[D],[RBC],[1,0,0],[CERT],[ENV33-C],[system],#calculate_node_port()#,[4:616:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:629],[pg_regress.c],[4:629],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#calculate_node_port()#,[4:629:0:3]
+[Au5em],[s@ERR33-C@CERT@pg_regress.c:473@pg_regress.c:471],[pg_regress.c],[4:471],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[s],#calculate_node_port()#,[4:471:0:3,4:473:0:16]
+[Au5em],[s@AOB@pg_regress.c:473@pg_regress.c:471],[pg_regress.c],[4:473],[Vul],[D],[AOB],[1,0,0],[s],#doputenv()#,[4:471:0:1,4:473:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:622],[pg_regress.c],[4:622],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#calculate_node_port()#,[4:622:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:625],[pg_regress.c],[4:625],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#calculate_node_port()#,[4:625:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:624],[pg_regress.c],[4:624],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#calculate_node_port()#,[4:624:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:2032],[pg_regress.c],[4:2032],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#spawn_process()#,[4:2032:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:2015],[pg_regress.c],[4:2015],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#spawn_process()#,[4:2015:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_regress.c:747],[pg_regress.c],[4:747],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#start_node()#,[4:747:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_regress.c:734],[pg_regress.c],[4:734],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#start_node()#,[4:734:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:769],[pg_regress.c],[4:769],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#start_node()#,[4:769:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:766],[pg_regress.c],[4:766],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#start_node()#,[4:766:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_regress.c:723],[pg_regress.c],[4:723],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#start_node()#,[4:723:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_regress.c:937],[pg_regress.c],[4:937],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#psql_command_node()#,[4:937:0:3]
+[Au5em],[system@ENV33-C@CERT@pg_regress.c:945],[pg_regress.c],[4:945],[Vul],[D],[RBC],[1,0,0],[CERT],[ENV33-C],[system],#psql_command_node()#,[4:945:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:948],[pg_regress.c],[4:948],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#psql_command_node()#,[4:948:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:1125],[pg_regress.c],[4:1125],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#kill_node()#,[4:1125:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:1130],[pg_regress.c],[4:1130],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#kill_node()#,[4:1130:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_regress.c:1089],[pg_regress.c],[4:1089],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#check_node_running()#,[4:1089:0:3]
+[Au5em],[system@ENV33-C@CERT@pg_regress.c:1094],[pg_regress.c],[4:1094],[Vul],[D],[RBC],[1,0,0],[CERT],[ENV33-C],[system],#check_node_running()#,[4:1094:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:1112],[pg_regress.c],[4:1112],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#check_node_fail()#,[4:1112:0:3]
+[Au5em],[stop_postmaster@ENV32-C@CERT@pg_regress.c:2937@pg_regress.c:411],[pg_regress.c],[4:2937],[Vul],[D],[RBC],[1,0,0],[CERT],[ENV32-C],[stop_postmaster],#regression_main()#,[4:411:0:16,4:430:0:2,4:2937:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_regress.c:3504],[pg_regress.c],[4:3504],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#regression_main()#,[4:3504:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_regress.c:3498],[pg_regress.c],[4:3498],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#regression_main()#,[4:3498:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_regress.c:3492],[pg_regress.c],[4:3492],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#regression_main()#,[4:3492:0:3]
+[Au5em],[fseek@ERR33-C@CERT@pg_regress.c:2070],[pg_regress.c],[4:2070],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fseek],#regression_main()#,[4:2070:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:2066],[pg_regress.c],[4:2066],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#regression_main()#,[4:2066:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_regress.c:3488],[pg_regress.c],[4:3488],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#regression_main()#,[4:3488:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:3478],[pg_regress.c],[4:3478],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#regression_main()#,[4:3478:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_regress.c:3134],[pg_regress.c],[4:3134],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#regression_main()#,[4:3134:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:2130],[pg_regress.c],[4:2130],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#regression_main()#,[4:2130:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:2130],[pg_regress.c],[4:2130],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#regression_main()#,[4:2130:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:3122],[pg_regress.c],[4:3122],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#regression_main()#,[4:3122:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:206],[pg_regress.c],[4:206],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#regression_main()#,[4:206:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_regress.c:3044],[pg_regress.c],[4:3044],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#regression_main()#,[4:3044:0:3]

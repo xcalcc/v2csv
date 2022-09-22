@@ -1,0 +1,326 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/port/atomics/arch-x86.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/port/atomics/generic-gcc.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/port/atomics/generic.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/port/atomics.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/storage/bufpage.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/utils/rel.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/utils/sortsupport.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/storage/s_lock.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/executor/executor.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/executor/tuptable.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/pgstat.h"
+  },
+  {
+  "fid": 19,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/storage/proc.h"
+  },
+  {
+  "fid": 20,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/replication/walreceiver.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/utils/tuplestore.h"
+  },
+  {
+  "fid": 22,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/access/tupdesc.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/replication/worker_internal.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/utils/memutils.h"
+  },
+  {
+  "fid": 25,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/utils/snapmgr.h"
+  },
+  {
+  "fid": 26,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/miscadmin.h"
+  },
+  {
+  "fid": 27,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 28,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/launcher.c"
+  },
+  {
+  "fid": 29,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/access/xact.h"
+  },
+  {
+  "fid": 30,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/access/heapam.h"
+  },
+  {
+  "fid": 31,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/storage/lwlock.h"
+  },
+  {
+  "fid": 32,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/postmaster/bgworker.h"
+  },
+  {
+  "fid": 33,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/storage/latch.h"
+  },
+  {
+  "fid": 34,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/storage/ipc.h"
+  },
+  {
+  "fid": 35,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/replication/slot.h"
+  },
+  {
+  "fid": 36,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/utils/timestamp.h"
+  },
+  {
+  "fid": 37,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 38,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 39,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 40,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/storage/shmem.h"
+  },
+  {
+  "fid": 41,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/port.h"
+  },
+  {
+  "fid": 42,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/tcop/tcopprot.h"
+  },
+  {
+  "fid": 43,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/access/xlog.h"
+  },
+  {
+  "fid": 44,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/utils/guc.h"
+  },
+  {
+  "fid": 45,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/funcapi.h"
+  },
+  {
+  "fid": 46,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/storage/procarray.h"
+  },
+  {
+  "fid": 47,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 48,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 49,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 50,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/storage/dsm_impl.h"
+  },
+  {
+  "fid": 51,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 52,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 53,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/common/relpath.h"
+  },
+  {
+  "fid": 54,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/pgxc/pgxc.h"
+  },
+  {
+  "fid": 55,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/storage/backendid.h"
+  },
+  {
+  "fid": 56,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/pgxc/shardmap.h"
+  },
+  {
+  "fid": 57,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 58,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/storage/fd.h"
+  },
+  {
+  "fid": 59,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 60,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/access/transam.h"
+  },
+  {
+  "fid": 61,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/catalog/pg_class.h"
+  },
+  {
+  "fid": 62,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/utils/array.h"
+  },
+  {
+  "fid": 63,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/catalog/objectaddress.h"
+  },
+  {
+  "fid": 64,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/executor/instrument.h"
+  },
+  {
+  "fid": 65,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/tcop/dest.h"
+  },
+  {
+  "fid": 66,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/pgxc/squeue.h"
+  },
+  {
+  "fid": 67,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/pgtime.h"
+  },
+  {
+  "fid": 68,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/libpq/pqcomm.h"
+  },
+  {
+  "fid": 69,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/postmaster/pgarch.h"
+  },
+  {
+  "fid": 70,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/storage/lock.h"
+  },
+  {
+  "fid": 71,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/storage/sinval.h"
+  },
+  {
+  "fid": 72,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/utils/datetime.h"
+  },
+  {
+  "fid": 73,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/utils/resowner.h"
+  },
+  {
+  "fid": 74,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 75,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 76,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/libpq/pqsignal.h"
+  },
+  {
+  "fid": 77,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/postmaster/postmaster.h"
+  },
+  {
+  "fid": 78,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/replication/walsender.h"
+  },
+  {
+  "fid": 79,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/storage/standby.h"
+  },
+  {
+  "fid": 80,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/utils/ps_status.h"
+  }
+]
+[Au5em],[snprintf@ERR33-C@CERT@launcher.c:771],[launcher.c],[28:771],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#ApplyLauncherRegister()#,[28:771:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@launcher.c:772],[launcher.c],[28:772],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#ApplyLauncherRegister()#,[28:772:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@launcher.c:773],[launcher.c],[28:773],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#ApplyLauncherRegister()#,[28:773:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@launcher.c:420],[launcher.c],[28:420],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#logicalrep_worker_launch()#,[28:420:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@launcher.c:421],[launcher.c],[28:421],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#logicalrep_worker_launch()#,[28:421:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@launcher.c:426],[launcher.c],[28:426],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#logicalrep_worker_launch()#,[28:426:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@launcher.c:423],[launcher.c],[28:423],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#logicalrep_worker_launch()#,[28:423:0:3]

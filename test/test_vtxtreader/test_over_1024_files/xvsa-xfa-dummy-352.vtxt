@@ -1,0 +1,436 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/storage/bufpage.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/storage/s_lock.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/port/atomics/arch-x86.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/port/atomics/generic-gcc.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/port/atomics/generic.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/port/atomics.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/utils/rel.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/utils/snapmgr.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/miscadmin.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/storage/bufmgr.h"
+  },
+  {
+  "fid": 19,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/utils/tqual.h"
+  },
+  {
+  "fid": 20,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/utils/sortsupport.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/executor/executor.h"
+  },
+  {
+  "fid": 22,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/executor/tuptable.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/utils/memutils.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/shardmap.c"
+  },
+  {
+  "fid": 25,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/pgxc/pgxc.h"
+  },
+  {
+  "fid": 26,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/storage/lwlock.h"
+  },
+  {
+  "fid": 27,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/utils/hsearch.h"
+  },
+  {
+  "fid": 28,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/storage/shmem.h"
+  },
+  {
+  "fid": 29,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 30,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/nodes/bitmapset.h"
+  },
+  {
+  "fid": 31,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/access/heapam.h"
+  },
+  {
+  "fid": 32,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/catalog/pgxc_shard_map.h"
+  },
+  {
+  "fid": 33,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/access/skey.h"
+  },
+  {
+  "fid": 34,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/access/genam.h"
+  },
+  {
+  "fid": 35,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/utils/lsyscache.h"
+  },
+  {
+  "fid": 36,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/pgxc/groupmgr.h"
+  },
+  {
+  "fid": 37,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/pgxc/pgxcnode.h"
+  },
+  {
+  "fid": 38,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/port.h"
+  },
+  {
+  "fid": 39,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 40,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/catalog/pgxc_class.h"
+  },
+  {
+  "fid": 41,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/nodes/makefuncs.h"
+  },
+  {
+  "fid": 42,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/commands/tablecmds.h"
+  },
+  {
+  "fid": 43,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/catalog/heap.h"
+  },
+  {
+  "fid": 44,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/utils/inval.h"
+  },
+  {
+  "fid": 45,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/access/hash.h"
+  },
+  {
+  "fid": 46,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 47,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/catalog/pgxc_key_values.h"
+  },
+  {
+  "fid": 48,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/access/xact.h"
+  },
+  {
+  "fid": 49,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/pgxc/shardmap.h"
+  },
+  {
+  "fid": 50,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/postmaster/bgwriter.h"
+  },
+  {
+  "fid": 51,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/storage/extentmapping.h"
+  },
+  {
+  "fid": 52,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/commands/vacuum.h"
+  },
+  {
+  "fid": 53,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/storage/smgr.h"
+  },
+  {
+  "fid": 54,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/catalog/storage_xlog.h"
+  },
+  {
+  "fid": 55,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/utils/builtins.h"
+  },
+  {
+  "fid": 56,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/utils/regproc.h"
+  },
+  {
+  "fid": 57,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/catalog/namespace.h"
+  },
+  {
+  "fid": 58,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/funcapi.h"
+  },
+  {
+  "fid": 59,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/access/tupdesc.h"
+  },
+  {
+  "fid": 60,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/access/htup_details.h"
+  },
+  {
+  "fid": 61,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/utils/ruleutils.h"
+  },
+  {
+  "fid": 62,
+  "path": "/usr/include/sys/stat.h"
+  },
+  {
+  "fid": 63,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/storage/fd.h"
+  },
+  {
+  "fid": 64,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 65,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 66,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/storage/proc.h"
+  },
+  {
+  "fid": 67,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 68,
+  "path": "/usr/include/fcntl.h"
+  },
+  {
+  "fid": 69,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 70,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/utils/timestamp.h"
+  },
+  {
+  "fid": 71,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/postmaster/postmaster.h"
+  },
+  {
+  "fid": 72,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 73,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 74,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 75,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 76,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/access/transam.h"
+  },
+  {
+  "fid": 77,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/access/relscan.h"
+  },
+  {
+  "fid": 78,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/pgtime.h"
+  },
+  {
+  "fid": 79,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/common/relpath.h"
+  },
+  {
+  "fid": 80,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/storage/backendid.h"
+  },
+  {
+  "fid": 81,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 82,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/storage/lock.h"
+  },
+  {
+  "fid": 83,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/access/xlog.h"
+  },
+  {
+  "fid": 84,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/catalog/pg_type.h"
+  },
+  {
+  "fid": 85,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 86,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/utils/array.h"
+  },
+  {
+  "fid": 87,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/catalog/objectaddress.h"
+  },
+  {
+  "fid": 88,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 89,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/pgxc/nodemgr.h"
+  },
+  {
+  "fid": 90,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/storage/dsm_impl.h"
+  },
+  {
+  "fid": 91,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/utils/resowner.h"
+  },
+  {
+  "fid": 92,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/storage/sinval.h"
+  },
+  {
+  "fid": 93,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/utils/datetime.h"
+  },
+  {
+  "fid": 94,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/access/gtm.h"
+  },
+  {
+  "fid": 95,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/executor/instrument.h"
+  },
+  {
+  "fid": 96,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/tcop/dest.h"
+  },
+  {
+  "fid": 97,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/shard/../../../../src/include/pgxc/squeue.h"
+  }
+]
+[Au5em],[fd@POS35-C@CERT@shardmap.c:3605@shardmap.c:3598],[shardmap.c],[24:3605],[Vul],[D],[RBC],[1,0,0],[CERT],[POS35-C],[fd],#FlushShardStatistic()#,[24:3598:0:74,24:3600:0:66,24:3600:0:17,24:3605:0:68]
+[Au5em],[g_UpdateShardingGroupInfo@AOB@shardmap.c:418],[shardmap.c],[24:418],[Vul],[M],[AOB],[1,0,0],[g_UpdateShardingGroupInfo],#RegisterInvalidShmemShardMap()#,[24:418:0:3]
+[Au5em],[groupshard+12312@ARR38-C@CERT@shardmap.c:485],[shardmap.c],[24:485],[Vul],[D],[RBC],[1,0,0],[CERT],[ARR38-C],[groupshard+12312],#ShardMapShmemInit_CN()#,[24:485:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@shardmap.c:494],[shardmap.c],[24:494],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#ShardMapShmemInit_CN()#,[24:494:0:3]
+[Au5em],[groupshard+12312@ARR38-C@CERT@shardmap.c:511],[shardmap.c],[24:511],[Vul],[D],[RBC],[1,0,0],[CERT],[ARR38-C],[groupshard+12312],#ShardMapShmemInit_CN()#,[24:511:0:3]
+[Au5em],[found@UIV@shardmap.c:522],[shardmap.c],[24:528],[Vul],[M],[UIV],[1,0,0],[found],#ShardMapShmemInit_DN()#,[24:522:0:4,24:525:0:5,24:528:0:3]
+[Au5em],[groupshard+12312@ARR38-C@CERT@shardmap.c:551],[shardmap.c],[24:551],[Vul],[D],[RBC],[1,0,0],[CERT],[ARR38-C],[groupshard+12312],#ShardMapShmemInit_DN()#,[24:551:0:3]
+[Au5em],[relnames@NPD@shardmap.c:1765],[pg_list.h],[6:91],[Vul],[D],[NPD],[1,0,0],[relnames],#list_length()#,[24:1765:0:1,24:1771:0:2,6:91:0:23,6:91:0:25,6:91:0:3]
+[Au5em],[relnames@NPD@shardmap.c:1807],[pg_list.h],[6:91],[Vul],[D],[NPD],[1,0,0],[relnames],#list_length()#,[24:1807:0:1,24:1813:0:2,6:91:0:23,6:91:0:25,6:91:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[shardmap.c],[24:2463],[Vul],[M],[NPD],[1,0,0],[0x0],#pg_stat_table_shard()#,[6:79:0:1,6:79:0:17,6:79:0:1,24:2463:0:18,24:2463:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[shardmap.c],[24:2476],[Vul],[M],[NPD],[1,0,0],[0x0],#pg_stat_table_shard()#,[6:79:0:1,6:79:0:17,6:79:0:1,24:2476:0:18,24:2476:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[shardmap.c],[24:2477],[Vul],[M],[NPD],[1,0,0],[0x0],#pg_stat_table_shard()#,[6:79:0:1,6:79:0:17,6:79:0:1,24:2477:0:18,24:2477:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[shardmap.c],[24:2483],[Vul],[M],[NPD],[1,0,0],[0x0],#pg_stat_table_shard()#,[6:79:0:1,6:79:0:17,6:79:0:1,24:2483:0:18,24:2483:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[shardmap.c],[24:2484],[Vul],[M],[NPD],[1,0,0],[0x0],#pg_stat_table_shard()#,[6:79:0:1,6:79:0:17,6:79:0:1,24:2484:0:18,24:2484:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[shardmap.c],[24:2707],[Vul],[M],[NPD],[1,0,0],[0x0],#pg_begin_table_dual_write()#,[6:79:0:1,6:79:0:17,6:79:0:1,24:2707:0:18,24:2707:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[shardmap.c],[24:2720],[Vul],[M],[NPD],[1,0,0],[0x0],#pg_begin_table_dual_write()#,[6:79:0:1,6:79:0:17,6:79:0:1,24:2720:0:18,24:2720:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[shardmap.c],[24:2721],[Vul],[M],[NPD],[1,0,0],[0x0],#pg_begin_table_dual_write()#,[6:79:0:1,6:79:0:17,6:79:0:1,24:2721:0:18,24:2721:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[shardmap.c],[24:2727],[Vul],[M],[NPD],[1,0,0],[0x0],#pg_begin_table_dual_write()#,[6:79:0:1,6:79:0:17,6:79:0:1,24:2727:0:18,24:2727:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[shardmap.c],[24:2728],[Vul],[M],[NPD],[1,0,0],[0x0],#pg_begin_table_dual_write()#,[6:79:0:1,6:79:0:17,6:79:0:1,24:2728:0:18,24:2728:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@shardmap.c:2823],[shardmap.c],[24:2823],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pg_begin_table_dual_write()#,[24:2823:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@shardmap.c:2886],[shardmap.c],[24:2886],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#pg_begin_table_dual_write()#,[24:2886:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@shardmap.c:2856],[shardmap.c],[24:2856],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#pg_begin_table_dual_write()#,[24:2856:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@shardmap.c:2904],[shardmap.c],[24:2904],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pg_begin_table_dual_write()#,[24:2904:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@shardmap.c:2835],[shardmap.c],[24:2835],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#pg_begin_table_dual_write()#,[24:2835:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@shardmap.c:2820],[shardmap.c],[24:2820],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pg_begin_table_dual_write()#,[24:2820:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@shardmap.c:3866],[shardmap.c],[24:3866],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pg_begin_table_dual_write()#,[24:3866:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@shardmap.c:3867],[shardmap.c],[24:3867],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pg_begin_table_dual_write()#,[24:3867:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@shardmap.c:3868],[shardmap.c],[24:3868],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pg_begin_table_dual_write()#,[24:3868:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@shardmap.c:2956],[shardmap.c],[24:2956],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#DumpDualWriteInfo()#,[24:2956:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[shardmap.c],[24:3185],[Vul],[M],[NPD],[1,0,0],[0x0],#pg_stop_table_dual_write()#,[6:79:0:1,6:79:0:17,6:79:0:1,24:3185:0:18,24:3185:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[shardmap.c],[24:3198],[Vul],[M],[NPD],[1,0,0],[0x0],#pg_stop_table_dual_write()#,[6:79:0:1,6:79:0:17,6:79:0:1,24:3198:0:18,24:3198:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[shardmap.c],[24:3199],[Vul],[M],[NPD],[1,0,0],[0x0],#pg_stop_table_dual_write()#,[6:79:0:1,6:79:0:17,6:79:0:1,24:3199:0:18,24:3199:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[shardmap.c],[24:3205],[Vul],[M],[NPD],[1,0,0],[0x0],#pg_stop_table_dual_write()#,[6:79:0:1,6:79:0:17,6:79:0:1,24:3205:0:18,24:3205:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[shardmap.c],[24:3206],[Vul],[M],[NPD],[1,0,0],[0x0],#pg_stop_table_dual_write()#,[6:79:0:1,6:79:0:17,6:79:0:1,24:3206:0:18,24:3206:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@shardmap.c:3326],[shardmap.c],[24:3326],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pg_stop_table_dual_write()#,[24:3326:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@shardmap.c:3284],[shardmap.c],[24:3284],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pg_stop_table_dual_write()#,[24:3284:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@shardmap.c:4080],[shardmap.c],[24:4080],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pg_set_node_cold_access()#,[24:4080:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@shardmap.c:4112],[shardmap.c],[24:4112],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pg_clear_node_cold_access()#,[24:4112:0:3]
+[Au5em],[RCD@shardmap.c:3492@shardmap.c:3486],[shardmap.c],[24:3492],[Vul],[D],[RCD],[1,0,0],[],#UpdateShardStatistic()#,[24:3486:0:11,24:3486:0:24,24:3492:0:26,24:3492:0:3]
+[Au5em],[rec@ERR33-C@CERT@shardmap.c:3665@shardmap.c:3623],[shardmap.c],[24:3623],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[rec],#RecoverShardStatistic()#,[24:3623:0:3,24:3625:0:17,24:3665:0:16]
+[Au5em],[columnidx@NPD@shardmap.c:3923],[shardmap.c],[24:3962],[Vul],[M],[NPD],[1,0,0],[columnidx],#AddDualWriteInfo()#,[24:3923:0:1,24:3930:0:17,24:3962:0:2,24:3962:0:3]
+[Au5em],[gapptr@NPD@shardmap.c:3925],[shardmap.c],[24:3962],[Vul],[M],[NPD],[1,0,0],[gapptr],#AddDualWriteInfo()#,[24:3925:0:1,24:3930:0:17,24:3962:0:2,24:3962:0:3]
+[Au5em],[fgets@FIO37-C@CERT@shardmap.c:3964@shardmap.c:3918],[shardmap.c],[24:3918],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO37-C],[fgets],#LoadDualWriteInfo()#,[24:3918:0:3,24:3918:0:17,24:3964:0:16]
+[Au5em],[fgets@FIO37-C@CERT@shardmap.c:3861@shardmap.c:3918],[shardmap.c],[24:3918],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO37-C],[fgets],#LoadDualWriteInfo()#,[24:3918:0:3,24:3918:0:17,24:3962:0:17,24:3962:0:2,24:3861:0:17,24:3861:0:16]
+[Au5em],[snprintf@ERR33-C@CERT@shardmap.c:3866],[shardmap.c],[24:3866],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#LoadDualWriteInfo()#,[24:3866:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@shardmap.c:3867],[shardmap.c],[24:3867],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#LoadDualWriteInfo()#,[24:3867:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@shardmap.c:3868],[shardmap.c],[24:3868],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#LoadDualWriteInfo()#,[24:3868:0:3]
+[Au5em],[found@UIV@shardmap.c:4025],[shardmap.c],[24:4029],[Vul],[M],[UIV],[1,0,0],[found],#DualWriteCtlInit()#,[24:4025:0:4,24:3988:0:24,24:4023:0:26,24:4023:0:23,24:4026:0:25,24:4026:0:5,24:4029:0:3]
+[Au5em],[found@UIV@shardmap.c:3990],[shardmap.c],[24:3995],[Vul],[M],[UIV],[1,0,0],[found],#DualWriteCtlInit()#,[24:3990:0:4,24:3988:0:23,24:3992:0:25,24:3992:0:5,24:3995:0:3]

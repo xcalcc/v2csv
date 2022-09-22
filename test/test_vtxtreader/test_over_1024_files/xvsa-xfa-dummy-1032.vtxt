@@ -1,0 +1,52 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_dump/dumputils.c"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_dump/../../../src/include/fe_utils/string_utils.h"
+  },
+  {
+  "fid": 6,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_dump/../../../src/interfaces/libpq/pqexpbuffer.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_dump/../../../src/interfaces/libpq/libpq-fe.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/netinet/in.h"
+  }
+]
+[Au5em],[buf@MSF@dumputils.c:444],[dumputils.c],[4:558],[Vul],[D],[MSF],[1,0,0],[buf],#parseAclItem()#,[4:444:0:9,4:558:0:12]

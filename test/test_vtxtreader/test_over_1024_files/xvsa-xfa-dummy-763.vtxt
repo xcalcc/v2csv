@@ -1,0 +1,41 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/fe_utils/mbprint.c"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/fe_utils/../../src/interfaces/libpq/libpq-fe.h"
+  },
+  {
+  "fid": 6,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/netinet/in.h"
+  }
+]
+[Au5em],[ptr@AOB@mbprint.c:353],[mbprint.c],[4:353],[Vul],[D],[AOB],[1,0,0],[ptr],#pg_wcsformat()#,[4:353:0:3]
+[Au5em],[ptr@AOB@mbprint.c:340],[mbprint.c],[4:340],[Vul],[D],[AOB],[1,0,0],[ptr],#pg_wcsformat()#,[4:340:0:3]

@@ -1,0 +1,236 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/port/atomics/arch-x86.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/port/atomics/generic-gcc.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/port/atomics/generic.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/port/atomics.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/storage/s_lock.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/storage/bufpage.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/utils/snapmgr.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/miscadmin.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/storage/bufmgr.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/utils/tqual.h"
+  },
+  {
+  "fid": 19,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/utils/rel.h"
+  },
+  {
+  "fid": 20,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/spgutils.c"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/access/spgist.h"
+  },
+  {
+  "fid": 22,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/utils/index_selfuncs.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/utils/lsyscache.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/access/genam.h"
+  },
+  {
+  "fid": 25,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 26,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/access/xact.h"
+  },
+  {
+  "fid": 27,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/storage/indexfsm.h"
+  },
+  {
+  "fid": 28,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/storage/backendid.h"
+  },
+  {
+  "fid": 29,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/storage/lmgr.h"
+  },
+  {
+  "fid": 30,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/access/reloptions.h"
+  },
+  {
+  "fid": 31,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 32,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 33,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 34,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 35,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/storage/dsm_impl.h"
+  },
+  {
+  "fid": 36,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 37,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 38,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/common/relpath.h"
+  },
+  {
+  "fid": 39,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/pgxc/pgxc.h"
+  },
+  {
+  "fid": 40,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/pgxc/shardmap.h"
+  },
+  {
+  "fid": 41,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/storage/lwlock.h"
+  },
+  {
+  "fid": 42,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/storage/lock.h"
+  },
+  {
+  "fid": 43,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 44,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 45,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/access/transam.h"
+  },
+  {
+  "fid": 46,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 47,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/storage/sinval.h"
+  },
+  {
+  "fid": 48,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/pgtime.h"
+  },
+  {
+  "fid": 49,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/utils/timestamp.h"
+  },
+  {
+  "fid": 50,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/utils/datetime.h"
+  },
+  {
+  "fid": 51,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/utils/resowner.h"
+  },
+  {
+  "fid": 52,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 53,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 54,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/storage/fd.h"
+  },
+  {
+  "fid": 55,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/access/xlog.h"
+  },
+  {
+  "fid": 56,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/catalog/pg_class.h"
+  },
+  {
+  "fid": 57,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/utils/array.h"
+  },
+  {
+  "fid": 58,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/catalog/objectaddress.h"
+  },
+  {
+  "fid": 59,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/spgist/../../../../src/include/utils/builtins.h"
+  }
+]
+[Au5em],[RCD@spgutils.c:714@spgutils.c:702],[spgutils.c],[20:714],[Vul],[D],[RCD],[1,0,0],[],#spgFormInnerTuple()#,[20:702:0:11,20:702:0:24,20:702:0:26,20:714:0:3]

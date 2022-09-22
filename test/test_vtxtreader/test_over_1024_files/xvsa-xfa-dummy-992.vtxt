@@ -1,0 +1,70 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initdb/findtimezone.c"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initdb/../../../src/include/port.h"
+  },
+  {
+  "fid": 6,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/fcntl.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initdb/../../../src/timezone/pgtz.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initdb/../../../src/include/pgtime.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/sys/stat.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 16,
+  "path": "/usr/include/netinet/in.h"
+  }
+]
+[Au5em],[fullname@FIO42-C@CERT@findtimezone.c:77@findtimezone.c:77],[findtimezone.c],[4:77],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[fullname],#pg_open_tzfile()#,[4:77:0:73,4:77:0:70]
+[Au5em],[snprintf@ERR33-C@CERT@findtimezone.c:529],[findtimezone.c],[4:529],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#scan_available_timezones()#,[4:529:0:3]
+[Au5em],[RCD@findtimezone.c:558@findtimezone.c:553],[findtimezone.c],[4:558],[Vul],[D],[RCD],[1,0,0],[],#scan_available_timezones()#,[4:553:0:11,4:553:0:24,4:558:0:26,4:558:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@findtimezone.c:468],[findtimezone.c],[4:468],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#identify_system_timezone()#,[4:468:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@findtimezone.c:479],[findtimezone.c],[4:479],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#identify_system_timezone()#,[4:479:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@findtimezone.c:456],[findtimezone.c],[4:456],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#identify_system_timezone()#,[4:456:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@findtimezone.c:1381],[findtimezone.c],[4:1381],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#select_default_timezone()#,[4:1381:0:3]

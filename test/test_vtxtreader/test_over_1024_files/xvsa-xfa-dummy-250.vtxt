@@ -1,0 +1,135 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/memutils.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/tsquery.c"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/mb/pg_wchar.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/tsearch/ts_locale.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/tsearch/ts_utils.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/pg_crc.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/miscadmin.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 19,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 20,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/libpq/pqformat.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/builtins.h"
+  },
+  {
+  "fid": 22,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 23,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 24,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 25,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/pgtime.h"
+  },
+  {
+  "fid": 26,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 27,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 28,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 29,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/tcop/dest.h"
+  },
+  {
+  "fid": 30,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/array.h"
+  },
+  {
+  "fid": 31,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/guc.h"
+  },
+  {
+  "fid": 32,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/pg_locale.h"
+  }
+]
+[Au5em],[pushval@UDR@tsquery.c:497@tsquery.c:635],[tsquery.c],[9:497],[Vul],[D],[UDR],[1,0,0],[pushval],#makepol()#,[9:635:0:9,9:635:0:2,9:719:0:18,9:479:0:15,9:479:0:1,9:492:0:23,9:492:0:25,9:511:0:23,9:503:0:26,9:504:0:1,9:504:0:2,9:479:0:15,9:479:0:1,9:492:0:23,9:492:0:25,9:511:0:23,9:496:0:26,9:497:0:1,9:497:0:3]
+[Au5em],[state.op@AOB@tsquery.c:686],[tsquery.c],[9:686],[Vul],[M],[AOB],[1,0,0],[state.op],#parse_tsquery()#,[9:686:0:3]
+[Au5em],[state.op@AOB@tsquery.c:686],[tsquery.c],[9:686],[Vul],[M],[AOB],[1,0,0],[state.op],#parse_tsquery()#,[9:686:0:3]
+[Au5em],[in->cur@AOB@tsquery.c:876],[tsquery.c],[9:876],[Vul],[D],[AOB],[1,0,0],[in->cur],#infix()#,[9:876:0:3]
+[Au5em],[in->cur@AOB@tsquery.c:879],[tsquery.c],[9:879],[Vul],[D],[AOB],[1,0,0],[in->cur],#infix()#,[9:879:0:3]
+[Au5em],[in->cur@AOB@tsquery.c:885],[tsquery.c],[9:885],[Vul],[D],[AOB],[1,0,0],[in->cur],#infix()#,[9:885:0:3]
+[Au5em],[in->cur@AOB@tsquery.c:883],[tsquery.c],[9:883],[Vul],[D],[AOB],[1,0,0],[in->cur],#infix()#,[9:883:0:3]
+[Au5em],[val@STR38-C@CERT@tsquery.c:1028@tsquery.c:1027],[tsquery.c],[9:1028],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[val],#tsqueryrecv()#,[9:1027:0:1,9:1028:0:3]

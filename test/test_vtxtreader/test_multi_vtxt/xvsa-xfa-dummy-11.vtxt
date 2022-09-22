@@ -1,0 +1,54 @@
+{"V", A, 0.7}
+[
+  {
+  "fid": 1,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/CheckedProvideUtils.java"
+  },
+  {
+  "fid": 2,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/CheckedProvider.java"
+  },
+  {
+  "fid": 3,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/CheckedProviderMethod.java"
+  },
+  {
+  "fid": 4,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/CheckedProviderMethodsModule.java"
+  },
+  {
+  "fid": 5,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/CheckedProviderWithDependencies.java"
+  },
+  {
+  "fid": 6,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/CheckedProviders.java"
+  },
+  {
+  "fid": 7,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/CheckedProvides.java"
+  },
+  {
+  "fid": 8,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/ProviderChecker.java"
+  },
+  {
+  "fid": 9,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/ThrowingInject.java"
+  },
+  {
+  "fid": 10,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/ThrowingProvider.java"
+  },
+  {
+  "fid": 11,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/ThrowingProviderBinder.java"
+  },
+  {
+  "fid": 12,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/CheckedProviderMethod$$Lambda$1.java"
+  }
+]
+[A10],[e@ERR08-J@CERT@ThrowingProviderBinder.java:353],[ThrowingProviderBinder.java],[11:353],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR08-J],[e],#com.google.inject.throwingproviders.ThrowingProviderBinder$SecondaryBinder$3.get()#,[11:353:0:3]
+[A10],[java.lang.IllegalStateException@OBJ11-J@CERT@ThrowingProviderBinder.java:394@ThrowingProviderBinder.java:150],[ThrowingProviderBinder.java],[11:150],[Vul],[D],[RBC],[1,0,0],[CERT],[OBJ11-J],[java.lang.IllegalStateException],#com.google.inject.throwingproviders.ThrowingProviderBinder$SecondaryBinder.ThrowingProviderBinder$SecondaryBinder(com.google.inject.throwingproviders.ThrowingProviderBinder, java.lang.Class, java.lang.reflect.Type)#,[11:150:0:2,11:394:0:3,11:394:0:1]
+[A10],[java.lang.IllegalStateException@OBJ11-J@CERT@ThrowingProviderBinder.java:396@ThrowingProviderBinder.java:150],[ThrowingProviderBinder.java],[11:150],[Vul],[D],[RBC],[1,0,0],[CERT],[OBJ11-J],[java.lang.IllegalStateException],#com.google.inject.throwingproviders.ThrowingProviderBinder$SecondaryBinder.ThrowingProviderBinder$SecondaryBinder(com.google.inject.throwingproviders.ThrowingProviderBinder, java.lang.Class, java.lang.reflect.Type)#,[11:150:0:2,11:396:0:3,11:396:0:1]

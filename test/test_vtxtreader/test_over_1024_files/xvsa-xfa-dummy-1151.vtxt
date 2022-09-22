@@ -1,0 +1,88 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_dump/pg_backup_directory.c"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_dump/../../../src/include/common/fe_memutils.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_dump/pg_backup_utils.h"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/sys/stat.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/dirent.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_dump/compress_io.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_dump/pg_backup_archiver.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_dump/parallel.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_dump/../../../src/include/common/file_utils.h"
+  },
+  {
+  "fid": 17,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 19,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 20,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 21,
+  "path": "/usr/include/bits/getopt_core.h"
+  }
+]
+[Au5em],[snprintf@ERR33-C@CERT@pg_backup_directory.c:245],[pg_backup_directory.c],[4:245],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#_ArchiveEntry()#,[4:245:0:3]
+[Au5em],[sscanf@ERR33-C@CERT@pg_backup_directory.c:460@pg_backup_directory.c:460],[pg_backup_directory.c],[4:460],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[sscanf],#_LoadBlobs()#,[4:460:0:3,4:460:0:16]
+[Au5em],[snprintf@ERR33-C@CERT@pg_backup_directory.c:465],[pg_backup_directory.c],[4:465],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#_LoadBlobs()#,[4:465:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_backup_directory.c:662],[pg_backup_directory.c],[4:662],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#_StartBlob()#,[4:662:0:3]
+[Au5em],[len@ERR33-C@CERT@pg_backup_directory.c:689@pg_backup_directory.c:688],[pg_backup_directory.c],[4:688],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[len],#_EndBlob()#,[4:688:0:3,4:689:0:16]

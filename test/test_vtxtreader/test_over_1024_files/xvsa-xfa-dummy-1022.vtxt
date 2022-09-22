@@ -1,0 +1,61 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/util.c"
+  },
+  {
+  "fid": 5,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 6,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/../../../src/include/common/fe_memutils.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/../../../src/include/common/username.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/pg_upgrade.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/signal.h"
+  }
+]
+[Au5em],[fprintf@ERR33-C@CERT@util.c:103],[util.c],[4:103],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#pg_log_v()#,[4:103:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@util.c:101],[util.c],[4:101],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#pg_log_v()#,[4:101:0:3]

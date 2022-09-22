@@ -1,0 +1,65 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/contrib/pgcrypto/pgp-pubkey.c"
+  },
+  {
+  "fid": 7,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/contrib/pgcrypto/px.h"
+  },
+  {
+  "fid": 8,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/contrib/pgcrypto/pgp.h"
+  },
+  {
+  "fid": 9,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/contrib/pgcrypto/mbuf.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 14,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/signal.h"
+  }
+]
+[Au5em],[md@UIV@pgp-pubkey.c:148],[pgp-pubkey.c],[6:182],[Vul],[M],[UIV],[1,0,0],[md],#calc_key_id()#,[6:148:0:4,6:153:0:5,6:154:0:24,6:154:0:26,6:182:0:3]
+[Au5em],[md@UIV@pgp-pubkey.c:148],[pgp-pubkey.c],[6:182],[Vul],[M],[UIV],[1,0,0],[md],#calc_key_id()#,[6:148:0:4,6:153:0:5,6:154:0:24,6:154:0:26,6:182:0:3]
+[Au5em],[md@NPD@pgp-pubkey.c:148],[pgp-pubkey.c],[6:182],[Vul],[D],[NPD],[1,0,0],[md],#calc_key_id()#,[6:148:0:4,6:154:0:24,6:154:0:26,6:182:0:3]
+[Au5em],[len@UIV@pgp-pubkey.c:525],[pgp-pubkey.c],[6:540],[Vul],[M],[UIV],[1,0,0],[len],#internal_read_key()#,[6:525:0:4,6:528:0:17,6:537:0:5,6:539:0:24,6:540:0:25,6:540:0:3]
+[Au5em],[src@UIV@pgp-pubkey.c:630],[pgp-pubkey.c],[6:637],[Vul],[M],[UIV],[1,0,0],[src],#pgp_set_pubkey()#,[6:630:0:4,6:633:0:5,6:634:0:24,6:634:0:26,6:637:0:3]
+[Au5em],[src@UIV@pgp-pubkey.c:630],[pgp-pubkey.c],[6:638],[Vul],[M],[UIV],[1,0,0],[src],#pgp_set_pubkey()#,[6:630:0:4,6:633:0:5,6:634:0:24,6:634:0:26,6:638:0:3]

@@ -1,0 +1,16 @@
+{"L", C1X6M, 0.7.2,0000000000000000000000000000000000000000000000000000000000000000}
+[
+  {
+  "fid": 1,
+  "path": "/home/xc5/jenkinsslave/workspace/basic_dsr_scan_ci_0616a/npd.c"
+  },
+  {
+  "fid": 2,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/x86_64-linux-gnu/bits/sys_errlist.h"
+  }
+]
+[C1X6M00009],[a@NPD@npd.c:16],[npd.c],[1:20],[Vul],[D],[NPD],[1,0,0],[b],[main()],[1:16:0:1,1:17:0:2,1:11:0:1,1:12:0:1,1:17:0:18,1:20:0:3]

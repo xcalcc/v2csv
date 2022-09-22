@@ -1,0 +1,7 @@
+diff --git a/Makefile b/Makefile
+index bc9515f..c64db89 100644
+--- a/Makefile
++++ b/Makefile
+@@ -1 +1 @@
+-OBJS=uiv.o npd.o aob.o msf.o dbf.o uaf.o
++OBJS=uiv.o npd.o aob.o msf.o dbf.o

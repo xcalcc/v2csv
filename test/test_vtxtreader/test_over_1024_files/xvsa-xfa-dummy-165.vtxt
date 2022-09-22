@@ -1,0 +1,182 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/storage/s_lock.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/port/atomics/arch-x86.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/port/atomics/generic-gcc.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/port/atomics/generic.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/port/atomics.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/memutils.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/dict_thesaurus.c"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/tsearch/ts_public.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/tsearch/ts_locale.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/mb/pg_wchar.h"
+  },
+  {
+  "fid": 19,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 20,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/port.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/commands/defrem.h"
+  },
+  {
+  "fid": 22,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/catalog/namespace.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/regproc.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/tsearch/ts_cache.h"
+  },
+  {
+  "fid": 25,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 26,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 27,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 28,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 29,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 30,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/storage/backendid.h"
+  },
+  {
+  "fid": 31,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/storage/lwlock.h"
+  },
+  {
+  "fid": 32,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/storage/lock.h"
+  },
+  {
+  "fid": 33,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 34,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 35,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/array.h"
+  },
+  {
+  "fid": 36,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/common/relpath.h"
+  },
+  {
+  "fid": 37,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/pgxc/pgxc.h"
+  },
+  {
+  "fid": 38,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/pgxc/shardmap.h"
+  },
+  {
+  "fid": 39,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/catalog/objectaddress.h"
+  },
+  {
+  "fid": 40,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/tcop/dest.h"
+  },
+  {
+  "fid": 41,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/guc.h"
+  },
+  {
+  "fid": 42,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/pg_locale.h"
+  },
+  {
+  "fid": 43,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/tsearch/ts_type.h"
+  },
+  {
+  "fid": 44,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/builtins.h"
+  }
+]
+[Au5em],[lexized@AOB@dict_thesaurus.c:551@dict_thesaurus.c:529],[dict_thesaurus.c],[14:551],[Vul],[M],[AOB],[1,0,0],[lexized],#compileTheSubstitute()#,[14:529:0:17,14:551:0:1,14:551:0:3]
+[Au5em],[ptr@NPD@dict_thesaurus.c:670],[dict_thesaurus.c],[14:718],[Vul],[M],[NPD],[1,0,0],[ptr],#findVariant()#,[14:670:0:1,14:670:0:17,14:860:0:18,14:860:0:1,14:862:0:2,14:704:0:17,14:708:0:1,14:710:0:17,14:718:0:3]
+[Au5em],[ptr@NPD@dict_thesaurus.c:678],[dict_thesaurus.c],[14:718],[Vul],[M],[NPD],[1,0,0],[ptr],#findVariant()#,[14:678:0:1,14:678:0:17,14:860:0:17,14:860:0:18,14:860:0:1,14:862:0:2,14:704:0:17,14:708:0:1,14:710:0:17,14:718:0:3]
+[Au5em],[ptr@NPD@dict_thesaurus.c:670],[dict_thesaurus.c],[14:725],[Vul],[M],[NPD],[1,0,0],[ptr],#findVariant()#,[14:670:0:1,14:670:0:17,14:860:0:18,14:860:0:1,14:862:0:2,14:704:0:17,14:708:0:1,14:710:0:17,14:725:0:3]
+[Au5em],[ptr@NPD@dict_thesaurus.c:678],[dict_thesaurus.c],[14:725],[Vul],[M],[NPD],[1,0,0],[ptr],#findVariant()#,[14:678:0:1,14:678:0:17,14:860:0:17,14:860:0:18,14:860:0:1,14:862:0:2,14:704:0:17,14:708:0:1,14:710:0:17,14:725:0:3]
+[Au5em],[ptr@NPD@dict_thesaurus.c:670],[dict_thesaurus.c],[14:713],[Vul],[M],[NPD],[1,0,0],[ptr],#findVariant()#,[14:670:0:1,14:670:0:17,14:860:0:18,14:860:0:1,14:862:0:2,14:704:0:17,14:708:0:1,14:710:0:17,14:713:0:3]
+[Au5em],[ptr@NPD@dict_thesaurus.c:678],[dict_thesaurus.c],[14:713],[Vul],[M],[NPD],[1,0,0],[ptr],#findVariant()#,[14:678:0:1,14:678:0:17,14:860:0:17,14:860:0:18,14:860:0:1,14:862:0:2,14:704:0:17,14:708:0:1,14:710:0:17,14:713:0:3]

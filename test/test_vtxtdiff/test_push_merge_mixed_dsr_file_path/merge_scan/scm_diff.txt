@@ -1,0 +1,9 @@
+diff --git a/npd.c b/npd.c
+index a043864..72569df 100644
+--- a/npd.c
++++ b/npd.c
+@@ -9 +9,3 @@ int main() {
+-  int *a=NULL, b;
++  int c=3;
++  int *a=&c, b;
++

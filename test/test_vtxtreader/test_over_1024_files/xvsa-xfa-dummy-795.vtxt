@@ -1,0 +1,116 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/bin/psql/input.c"
+  },
+  {
+  "fid": 5,
+  "path": "/usr/include/readline/readline.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/bin/psql/tab-complete.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/bin/psql/common.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/bin/psql/../../../src/interfaces/libpq/pqexpbuffer.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/bin/psql/settings.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/bin/psql/../../../src/include/common/fe_memutils.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/readline/history.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/bin/psql/variables.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/bin/psql/../../../src/include/port.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/fcntl.h"
+  },
+  {
+  "fid": 19,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 20,
+  "path": "/home/xc5/cprojects/tbase/src/bin/psql/../../../src/include/fe_utils/print.h"
+  },
+  {
+  "fid": 21,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 22,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 23,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 24,
+  "path": "/usr/include/readline/keymaps.h"
+  },
+  {
+  "fid": 25,
+  "path": "/usr/include/readline/tilde.h"
+  },
+  {
+  "fid": 26,
+  "path": "/usr/include/time.h"
+  }
+]
+[Au5em],[fname@FIO42-C@CERT@input.c:539@input.c:518],[input.c],[4:539],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[fname],#printHistory()#,[4:518:0:71,4:519:0:66,4:519:0:17,4:534:0:17,4:535:0:17,4:539:0:70]
+[Au5em],[fname@FIO42-C@CERT@input.c:539@input.c:518],[input.c],[4:539],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[fname],#printHistory()#,[4:518:0:71,4:519:0:66,4:519:0:17,4:528:0:17,4:535:0:17,4:539:0:70]
+[Au5em],[fname@FIO42-C@CERT@input.c:539@input.c:518],[input.c],[4:539],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[fname],#printHistory()#,[4:518:0:71,4:519:0:66,4:519:0:17,4:528:0:17,4:535:0:17,4:539:0:70]
+[Au5em],[fname@FIO42-C@CERT@input.c:485@input.c:458],[input.c],[4:485],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[fname],#saveHistory()#,[4:458:0:74,4:459:0:66,4:459:0:17,4:465:0:17,4:467:0:17,4:485:0:70]
+[Au5em],[fname@FIO42-C@CERT@input.c:468@input.c:458],[input.c],[4:468],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[fname],#saveHistory()#,[4:458:0:74,4:459:0:66,4:459:0:17,4:465:0:17,4:468:0:17,4:468:0:70]
+[Au5em],[fname@FIO42-C@CERT@input.c:485@input.c:458],[input.c],[4:485],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[fname],#saveHistory()#,[4:458:0:74,4:459:0:66,4:459:0:17,4:463:0:17,4:467:0:17,4:485:0:70]
+[Au5em],[fname@FIO42-C@CERT@input.c:468@input.c:458],[input.c],[4:468],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[fname],#saveHistory()#,[4:458:0:74,4:459:0:66,4:459:0:17,4:463:0:17,4:468:0:17,4:468:0:70]
+[Au5em],[fgets@FIO37-C@CERT@input.c:228@input.c:206],[input.c],[4:206],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO37-C],[fgets],#gets_fromFile()#,[4:206:0:3,4:225:0:17,4:228:0:17,4:228:0:16]
+[Au5em],[fputs@ERR33-C@CERT@input.c:103],[input.c],[4:103],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#gets_interactive()#,[4:103:0:3]
+[Au5em],[prev_hist.7698@UDR@input.c:136],[input.c],[4:161],[Vul],[M],[UDR],[1,0,0],[prev_hist],#pg_send_history()#,[4:161:0:3]
+[Au5em],[fname@FIO02-C@CERT@input.c:518@input.c:502],[input.c],[4:518],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO02-C],[fname],#printHistory()#,[4:502:0:16,4:507:0:24,4:507:0:26,4:510:0:24,4:518:0:26,4:518:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@input.c:530],[input.c],[4:530],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#printHistory()#,[4:530:0:3]
+[Au5em],[psql_history@UDR@input.c:549],[input.c],[4:554],[Vul],[M],[UDR],[1,0,0],[psql_history],#finishInput()#,[4:554:0:3]

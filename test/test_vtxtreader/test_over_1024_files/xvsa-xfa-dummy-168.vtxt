@@ -1,0 +1,567 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/storage/bufpage.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/port/atomics/arch-x86.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/port/atomics/generic-gcc.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/port/atomics/generic.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/port/atomics.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/rel.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/sortsupport.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/storage/s_lock.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/executor/executor.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/executor/tuptable.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/memutils.h"
+  },
+  {
+  "fid": 19,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/snapmgr.h"
+  },
+  {
+  "fid": 20,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/miscadmin.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 22,
+  "path": "/usr/include/openssl/safestack.h"
+  },
+  {
+  "fid": 23,
+  "path": "/usr/include/openssl/stack.h"
+  },
+  {
+  "fid": 24,
+  "path": "/usr/include/openssl/crypto.h"
+  },
+  {
+  "fid": 25,
+  "path": "/usr/include/openssl/bio.h"
+  },
+  {
+  "fid": 26,
+  "path": "/usr/include/openssl/asn1.h"
+  },
+  {
+  "fid": 27,
+  "path": "/usr/include/openssl/x509.h"
+  },
+  {
+  "fid": 28,
+  "path": "/usr/include/openssl/lhash.h"
+  },
+  {
+  "fid": 29,
+  "path": "/usr/include/openssl/x509_vfy.h"
+  },
+  {
+  "fid": 30,
+  "path": "/usr/include/openssl/pkcs7.h"
+  },
+  {
+  "fid": 31,
+  "path": "/usr/include/openssl/ct.h"
+  },
+  {
+  "fid": 32,
+  "path": "/usr/include/openssl/ssl.h"
+  },
+  {
+  "fid": 33,
+  "path": "/usr/include/openssl/err.h"
+  },
+  {
+  "fid": 34,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/pgxcnode.c"
+  },
+  {
+  "fid": 35,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/pgxc/nodemgr.h"
+  },
+  {
+  "fid": 36,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/hsearch.h"
+  },
+  {
+  "fid": 37,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/lsyscache.h"
+  },
+  {
+  "fid": 38,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 39,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/pgxc/pgxc.h"
+  },
+  {
+  "fid": 40,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/port.h"
+  },
+  {
+  "fid": 41,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 42,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/timestamp.h"
+  },
+  {
+  "fid": 43,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/guc.h"
+  },
+  {
+  "fid": 44,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/../interfaces/libpq/libpq-fe.h"
+  },
+  {
+  "fid": 45,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 46,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 47,
+  "path": "/usr/include/sys/poll.h"
+  },
+  {
+  "fid": 48,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 49,
+  "path": "/usr/include/sys/ioctl.h"
+  },
+  {
+  "fid": 50,
+  "path": "/usr/include/sys/socket.h"
+  },
+  {
+  "fid": 51,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/pgxc/pause.h"
+  },
+  {
+  "fid": 52,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/commands/prepare.h"
+  },
+  {
+  "fid": 53,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/pgxc/poolmgr.h"
+  },
+  {
+  "fid": 54,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/builtins.h"
+  },
+  {
+  "fid": 55,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/pgxc/execRemote.h"
+  },
+  {
+  "fid": 56,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/access/xact.h"
+  },
+  {
+  "fid": 57,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/access/transam.h"
+  },
+  {
+  "fid": 58,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/postmaster/postmaster.h"
+  },
+  {
+  "fid": 59,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/storage/proc.h"
+  },
+  {
+  "fid": 60,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/formatting.h"
+  },
+  {
+  "fid": 61,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/lib/stringinfo.h"
+  },
+  {
+  "fid": 62,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/storage/ipc.h"
+  },
+  {
+  "fid": 63,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/storage/lwlock.h"
+  },
+  {
+  "fid": 64,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/access/heapam.h"
+  },
+  {
+  "fid": 65,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/tqual.h"
+  },
+  {
+  "fid": 66,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/storage/backendid.h"
+  },
+  {
+  "fid": 67,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 68,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/../interfaces/libpq/libpq-int.h"
+  },
+  {
+  "fid": 69,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 70,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 71,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 72,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 73,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/access/gtm.h"
+  },
+  {
+  "fid": 74,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/common/relpath.h"
+  },
+  {
+  "fid": 75,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 76,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/storage/sinval.h"
+  },
+  {
+  "fid": 77,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/pgtime.h"
+  },
+  {
+  "fid": 78,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/datetime.h"
+  },
+  {
+  "fid": 79,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/resowner.h"
+  },
+  {
+  "fid": 80,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 81,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 82,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/pgxc/shardmap.h"
+  },
+  {
+  "fid": 83,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/catalog/pg_authid.h"
+  },
+  {
+  "fid": 84,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/storage/dsm_impl.h"
+  },
+  {
+  "fid": 85,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/storage/fd.h"
+  },
+  {
+  "fid": 86,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/access/xlog.h"
+  },
+  {
+  "fid": 87,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/array.h"
+  },
+  {
+  "fid": 88,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/catalog/objectaddress.h"
+  },
+  {
+  "fid": 89,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/executor/instrument.h"
+  },
+  {
+  "fid": 90,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/tcop/dest.h"
+  },
+  {
+  "fid": 91,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/pgxc/squeue.h"
+  },
+  {
+  "fid": 92,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/commands/explain.h"
+  },
+  {
+  "fid": 93,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/portal.h"
+  },
+  {
+  "fid": 94,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/tcop/pquery.h"
+  },
+  {
+  "fid": 95,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/postmaster/bgworker.h"
+  },
+  {
+  "fid": 96,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/storage/lock.h"
+  },
+  {
+  "fid": 97,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/storage/shm_mq.h"
+  },
+  {
+  "fid": 98,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/access/parallel.h"
+  },
+  {
+  "fid": 99,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/libpq/pqcomm.h"
+  },
+  {
+  "fid": 100,
+  "path": "/usr/include/openssl/ec.h"
+  },
+  {
+  "fid": 101,
+  "path": "/usr/include/openssl/rsa.h"
+  },
+  {
+  "fid": 102,
+  "path": "/usr/include/openssl/dh.h"
+  }
+]
+[Au5em],[PGXCSessionId@AOB@pgxcnode.c:404],[pgxcnode.c],[34:404],[Vul],[M],[AOB],[1,0,0],[PGXCSessionId],#InitMultinodeExecutor()#,[34:404:0:3]
+[Au5em],[strncpy@STR32-C@CERT@pgxcnode.c:363],[pgxcnode.c],[34:363],[Vul],[D],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#InitMultinodeExecutor()#,[34:363:0:3]
+[Au5em],[(co_handles+(count*1288))+8@STR38-C@CERT@pgxcnode.c:363],[pgxcnode.c],[34:363],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[(co_handles+(count*1288))+8],#InitMultinodeExecutor()#,[34:363:0:3]
+[Au5em],[get_pgxc_nodename@STR38-C@CERT@pgxcnode.c:363],[pgxcnode.c],[34:363],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[get_pgxc_nodename],#InitMultinodeExecutor()#,[34:363:0:3]
+[Au5em],[strncpy@STR32-C@CERT@pgxcnode.c:365],[pgxcnode.c],[34:365],[Vul],[D],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#InitMultinodeExecutor()#,[34:365:0:3]
+[Au5em],[(co_handles+(count*1288))+72@STR38-C@CERT@pgxcnode.c:365],[pgxcnode.c],[34:365],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[(co_handles+(count*1288))+72],#InitMultinodeExecutor()#,[34:365:0:3]
+[Au5em],[get_pgxc_nodehost@STR38-C@CERT@pgxcnode.c:365],[pgxcnode.c],[34:365],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[get_pgxc_nodehost],#InitMultinodeExecutor()#,[34:365:0:3]
+[Au5em],[strncpy@STR32-C@CERT@pgxcnode.c:333],[pgxcnode.c],[34:333],[Vul],[D],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#InitMultinodeExecutor()#,[34:333:0:3]
+[Au5em],[(sdn_handles+(count*1288))+8@STR38-C@CERT@pgxcnode.c:333],[pgxcnode.c],[34:333],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[(sdn_handles+(count*1288))+8],#InitMultinodeExecutor()#,[34:333:0:3]
+[Au5em],[get_pgxc_nodename@STR38-C@CERT@pgxcnode.c:333],[pgxcnode.c],[34:333],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[get_pgxc_nodename],#InitMultinodeExecutor()#,[34:333:0:3]
+[Au5em],[strncpy@STR32-C@CERT@pgxcnode.c:335],[pgxcnode.c],[34:335],[Vul],[D],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#InitMultinodeExecutor()#,[34:335:0:3]
+[Au5em],[(sdn_handles+(count*1288))+72@STR38-C@CERT@pgxcnode.c:335],[pgxcnode.c],[34:335],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[(sdn_handles+(count*1288))+72],#InitMultinodeExecutor()#,[34:335:0:3]
+[Au5em],[get_pgxc_nodehost@STR38-C@CERT@pgxcnode.c:335],[pgxcnode.c],[34:335],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[get_pgxc_nodehost],#InitMultinodeExecutor()#,[34:335:0:3]
+[Au5em],[strncpy@STR32-C@CERT@pgxcnode.c:303],[pgxcnode.c],[34:303],[Vul],[D],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#InitMultinodeExecutor()#,[34:303:0:3]
+[Au5em],[(dn_handles+(count*1288))+8@STR38-C@CERT@pgxcnode.c:303],[pgxcnode.c],[34:303],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[(dn_handles+(count*1288))+8],#InitMultinodeExecutor()#,[34:303:0:3]
+[Au5em],[get_pgxc_nodename@STR38-C@CERT@pgxcnode.c:303],[pgxcnode.c],[34:303],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[get_pgxc_nodename],#InitMultinodeExecutor()#,[34:303:0:3]
+[Au5em],[strncpy@STR32-C@CERT@pgxcnode.c:305],[pgxcnode.c],[34:305],[Vul],[D],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#InitMultinodeExecutor()#,[34:305:0:3]
+[Au5em],[(dn_handles+(count*1288))+72@STR38-C@CERT@pgxcnode.c:305],[pgxcnode.c],[34:305],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[(dn_handles+(count*1288))+72],#InitMultinodeExecutor()#,[34:305:0:3]
+[Au5em],[get_pgxc_nodehost@STR38-C@CERT@pgxcnode.c:305],[pgxcnode.c],[34:305],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[get_pgxc_nodehost],#InitMultinodeExecutor()#,[34:305:0:3]
+[Au5em],[num@ERR33-C@CERT@pgxcnode.c:518@pgxcnode.c:486],[pgxcnode.c],[34:486],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[num],#PGXCNodeConnStr()#,[34:486:0:3,34:512:0:17,34:518:0:16]
+[Au5em],[num@ERR33-C@CERT@pgxcnode.c:518@pgxcnode.c:479],[pgxcnode.c],[34:479],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[num],#PGXCNodeConnStr()#,[34:479:0:3,34:512:0:17,34:518:0:16]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:514@pgxcnode.c:514],[pgxcnode.c],[34:514],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#PGXCNodeConnStr()#,[34:514:0:3,34:514:0:16]
+[Au5em],[num@ERR33-C@CERT@pgxcnode.c:518@pgxcnode.c:504],[pgxcnode.c],[34:504],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[num],#PGXCNodeConnStr()#,[34:504:0:3,34:512:0:17,34:518:0:16]
+[Au5em],[num@ERR33-C@CERT@pgxcnode.c:518@pgxcnode.c:497],[pgxcnode.c],[34:497],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[num],#PGXCNodeConnStr()#,[34:497:0:3,34:512:0:17,34:518:0:16]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_read_data()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_read_data()#,[34:3505:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_read_data()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_read_data()#,[34:3505:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_read_data()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_read_data()#,[34:3505:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_read_data()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_read_data()#,[34:3505:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_receive()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_receive()#,[34:3505:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_receive()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_receive()#,[34:3505:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#get_int()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#get_int()#,[34:3505:0:3]
+[Au5em],[enqueued@UIV@pgxcnode.c:1117],[pgxcnode.c],[34:1125],[Vul],[M],[UIV],[1,0,0],[enqueued],#pgxc_node_is_data_enqueued()#,[34:1117:0:4,34:1119:0:24,34:1119:0:26,34:1121:0:5,34:1122:0:24,34:1122:0:26,34:1125:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#send_some()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#send_some()#,[34:3505:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#send_some()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#send_some()#,[34:3505:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#send_some()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#send_some()#,[34:3505:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#send_some()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#send_some()#,[34:3505:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_flush()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_flush()#,[34:3505:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_query()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_query()#,[34:3505:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:5270],[pgxcnode.c],[34:5270],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#PGXCNodeHandleError()#,[34:5270:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#PGXCNodeHandleError()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#PGXCNodeHandleError()#,[34:3505:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_plan()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_plan()#,[34:3505:0:3]
+[Au5em],[format_type_be@STR38-C@CERT@pgxcnode.c:2203],[pgxcnode.c],[34:2203],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[format_type_be],#pgxc_node_send_plan()#,[34:2203:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_close()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_close()#,[34:3505:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_sync()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_sync()#,[34:3505:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_apply()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_apply()#,[34:3505:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_bind()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_bind()#,[34:3505:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_flush()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_flush()#,[34:3505:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_execute()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_execute()#,[34:3505:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_describe()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_describe()#,[34:3505:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_parse()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_parse()#,[34:3505:0:3]
+[Au5em],[format_type_be@STR38-C@CERT@pgxcnode.c:2095],[pgxcnode.c],[34:2095],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[format_type_be],#pgxc_node_send_parse()#,[34:2095:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_rollback()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_rollback()#,[34:3505:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_gid()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_gid()#,[34:3505:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_starter()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_starter()#,[34:3505:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_startxid()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_startxid()#,[34:3505:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_partnodes()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_partnodes()#,[34:3505:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_clean()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_clean()#,[34:3505:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_readonly()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_readonly()#,[34:3505:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_after_prepare()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_after_prepare()#,[34:3505:0:3]
+[Au5em],[globalXidString@STR38-C@CERT@pgxcnode.c:3035@pgxcnode.c:3022],[pgxcnode.c],[34:3035],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[globalXidString],#pgxc_node_send_gxid()#,[34:3022:0:1,34:3035:0:3]
+[Au5em],[globalXidString@STR38-C@CERT@pgxcnode.c:3054@pgxcnode.c:3022],[pgxcnode.c],[34:3054],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[globalXidString],#pgxc_node_send_gxid()#,[34:3022:0:1,34:3054:0:3]
+[Au5em],[globalXidString@STR38-C@CERT@pgxcnode.c:3055@pgxcnode.c:3022],[pgxcnode.c],[34:3055],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[globalXidString],#pgxc_node_send_gxid()#,[34:3022:0:1,34:3055:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_gxid()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_gxid()#,[34:3505:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_cmd_id()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_cmd_id()#,[34:3505:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_snapshot()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_snapshot()#,[34:3505:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_prefinish_timestamp()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_prefinish_timestamp()#,[34:3505:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_prepare_timestamp()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_prepare_timestamp()#,[34:3505:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_global_timestamp()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_global_timestamp()#,[34:3505:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_timestamp()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_timestamp()#,[34:3505:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_coord_info()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_coord_info()#,[34:3505:0:3]
+[Au5em],[PGXCSessionId@AOB@pgxcnode.c:3475],[pgxcnode.c],[34:3475],[Vul],[D],[AOB],[1,0,0],[PGXCSessionId],#pgxc_node_send_sessionid()#,[34:3475:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_sessionid()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_sessionid()#,[34:3505:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#add_error_message()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#add_error_message()#,[34:3505:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3589],[pgxcnode.c],[34:3589],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#add_error_message_from_combiner()#,[34:3589:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3584],[pgxcnode.c],[34:3584],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#add_error_message_from_combiner()#,[34:3584:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3579],[pgxcnode.c],[34:3579],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#add_error_message_from_combiner()#,[34:3579:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3561],[pgxcnode.c],[34:3561],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#add_error_message_from_combiner()#,[34:3561:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3556],[pgxcnode.c],[34:3556],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#add_error_message_from_combiner()#,[34:3556:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3551],[pgxcnode.c],[34:3551],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#add_error_message_from_combiner()#,[34:3551:0:3]
+[Au5em],[strncpy@STR32-C@CERT@pgxcnode.c:5487],[pgxcnode.c],[34:5487],[Vul],[D],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#PgxcNodeRefreshBackendHandlesShmem()#,[34:5487:0:3]
+[Au5em],[handle+8@STR38-C@CERT@pgxcnode.c:5487],[pgxcnode.c],[34:5487],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[handle+8],#PgxcNodeRefreshBackendHandlesShmem()#,[34:5487:0:3]
+[Au5em],[nodedef+4@STR38-C@CERT@pgxcnode.c:5487],[pgxcnode.c],[34:5487],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[nodedef+4],#PgxcNodeRefreshBackendHandlesShmem()#,[34:5487:0:3]
+[Au5em],[strncpy@STR32-C@CERT@pgxcnode.c:5488],[pgxcnode.c],[34:5488],[Vul],[D],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#PgxcNodeRefreshBackendHandlesShmem()#,[34:5488:0:3]
+[Au5em],[handle+72@STR38-C@CERT@pgxcnode.c:5488],[pgxcnode.c],[34:5488],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[handle+72],#PgxcNodeRefreshBackendHandlesShmem()#,[34:5488:0:3]
+[Au5em],[nodedef+68@STR38-C@CERT@pgxcnode.c:5488],[pgxcnode.c],[34:5488],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[nodedef+68],#PgxcNodeRefreshBackendHandlesShmem()#,[34:5488:0:3]
+[Au5em],[numSlaveDNodes@UIV@pgxcnode.c:5041],[pgxcnode.c],[34:5050],[Vul],[M],[UIV],[1,0,0],[numSlaveDNodes],#DoRefreshRemoteHandles()#,[34:5041:0:4,34:5048:0:5,34:5050:0:3]
+[Au5em],[numCoords@UIV@pgxcnode.c:5041],[pgxcnode.c],[34:5050],[Vul],[M],[UIV],[1,0,0],[numCoords],#DoRefreshRemoteHandles()#,[34:5041:0:4,34:5048:0:5,34:5050:0:3]
+[Au5em],[numDNodes@UIV@pgxcnode.c:5041],[pgxcnode.c],[34:5050],[Vul],[M],[UIV],[1,0,0],[numDNodes],#DoRefreshRemoteHandles()#,[34:5041:0:4,34:5048:0:5,34:5050:0:3]
+[Au5em],[numSlaveDNodes@UIV@pgxcnode.c:5041],[pgxcnode.c],[34:5051],[Vul],[M],[UIV],[1,0,0],[numSlaveDNodes],#DoRefreshRemoteHandles()#,[34:5041:0:4,34:5048:0:5,34:5051:0:3]
+[Au5em],[numCoords@UIV@pgxcnode.c:5041],[pgxcnode.c],[34:5051],[Vul],[M],[UIV],[1,0,0],[numCoords],#DoRefreshRemoteHandles()#,[34:5041:0:4,34:5048:0:5,34:5051:0:3]
+[Au5em],[numDNodes@UIV@pgxcnode.c:5041],[pgxcnode.c],[34:5051],[Vul],[M],[UIV],[1,0,0],[numDNodes],#DoRefreshRemoteHandles()#,[34:5041:0:4,34:5048:0:5,34:5051:0:3]
+[Au5em],[numSlaveDNodes@UIV@pgxcnode.c:5041],[pgxcnode.c],[34:5055],[Vul],[M],[UIV],[1,0,0],[numSlaveDNodes],#DoRefreshRemoteHandles()#,[34:5041:0:4,34:5048:0:5,34:5051:0:23,34:5054:0:25,34:5055:0:3]
+[Au5em],[numCoords@UIV@pgxcnode.c:5041],[pgxcnode.c],[34:5055],[Vul],[M],[UIV],[1,0,0],[numCoords],#DoRefreshRemoteHandles()#,[34:5041:0:4,34:5048:0:5,34:5051:0:23,34:5054:0:25,34:5055:0:3]
+[Au5em],[numDNodes@UIV@pgxcnode.c:5041],[pgxcnode.c],[34:5055],[Vul],[M],[UIV],[1,0,0],[numDNodes],#DoRefreshRemoteHandles()#,[34:5041:0:4,34:5048:0:5,34:5051:0:23,34:5054:0:25,34:5055:0:3]
+[Au5em],[PGXCSessionId@AOB@pgxcnode.c:404],[pgxcnode.c],[34:404],[Vul],[M],[AOB],[1,0,0],[PGXCSessionId],#InitMultinodeExecutor()#,[34:404:0:3]
+[Au5em],[strncpy@STR32-C@CERT@pgxcnode.c:363],[pgxcnode.c],[34:363],[Vul],[D],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#DoInvalidateRemoteHandles()#,[34:363:0:3]
+[Au5em],[(co_handles+(*1288))+8@STR38-C@CERT@pgxcnode.c:363],[pgxcnode.c],[34:363],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[(co_handles+(*1288))+8],#DoInvalidateRemoteHandles()#,[34:363:0:3]
+[Au5em],[get_pgxc_nodename@STR38-C@CERT@pgxcnode.c:363],[pgxcnode.c],[34:363],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[get_pgxc_nodename],#DoInvalidateRemoteHandles()#,[34:363:0:3]
+[Au5em],[strncpy@STR32-C@CERT@pgxcnode.c:365],[pgxcnode.c],[34:365],[Vul],[D],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#DoInvalidateRemoteHandles()#,[34:365:0:3]
+[Au5em],[(co_handles+(*1288))+72@STR38-C@CERT@pgxcnode.c:365],[pgxcnode.c],[34:365],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[(co_handles+(*1288))+72],#DoInvalidateRemoteHandles()#,[34:365:0:3]
+[Au5em],[get_pgxc_nodehost@STR38-C@CERT@pgxcnode.c:365],[pgxcnode.c],[34:365],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[get_pgxc_nodehost],#DoInvalidateRemoteHandles()#,[34:365:0:3]
+[Au5em],[strncpy@STR32-C@CERT@pgxcnode.c:333],[pgxcnode.c],[34:333],[Vul],[D],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#DoInvalidateRemoteHandles()#,[34:333:0:3]
+[Au5em],[(sdn_handles+(*1288))+8@STR38-C@CERT@pgxcnode.c:333],[pgxcnode.c],[34:333],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[(sdn_handles+(*1288))+8],#DoInvalidateRemoteHandles()#,[34:333:0:3]
+[Au5em],[get_pgxc_nodename@STR38-C@CERT@pgxcnode.c:333],[pgxcnode.c],[34:333],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[get_pgxc_nodename],#DoInvalidateRemoteHandles()#,[34:333:0:3]
+[Au5em],[strncpy@STR32-C@CERT@pgxcnode.c:335],[pgxcnode.c],[34:335],[Vul],[D],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#DoInvalidateRemoteHandles()#,[34:335:0:3]
+[Au5em],[(sdn_handles+(*1288))+72@STR38-C@CERT@pgxcnode.c:335],[pgxcnode.c],[34:335],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[(sdn_handles+(*1288))+72],#DoInvalidateRemoteHandles()#,[34:335:0:3]
+[Au5em],[get_pgxc_nodehost@STR38-C@CERT@pgxcnode.c:335],[pgxcnode.c],[34:335],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[get_pgxc_nodehost],#DoInvalidateRemoteHandles()#,[34:335:0:3]
+[Au5em],[strncpy@STR32-C@CERT@pgxcnode.c:303],[pgxcnode.c],[34:303],[Vul],[D],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#DoInvalidateRemoteHandles()#,[34:303:0:3]
+[Au5em],[(dn_handles+(*1288))+8@STR38-C@CERT@pgxcnode.c:303],[pgxcnode.c],[34:303],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[(dn_handles+(*1288))+8],#DoInvalidateRemoteHandles()#,[34:303:0:3]
+[Au5em],[get_pgxc_nodename@STR38-C@CERT@pgxcnode.c:303],[pgxcnode.c],[34:303],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[get_pgxc_nodename],#DoInvalidateRemoteHandles()#,[34:303:0:3]
+[Au5em],[strncpy@STR32-C@CERT@pgxcnode.c:305],[pgxcnode.c],[34:305],[Vul],[D],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#DoInvalidateRemoteHandles()#,[34:305:0:3]
+[Au5em],[(dn_handles+(*1288))+72@STR38-C@CERT@pgxcnode.c:305],[pgxcnode.c],[34:305],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[(dn_handles+(*1288))+72],#DoInvalidateRemoteHandles()#,[34:305:0:3]
+[Au5em],[get_pgxc_nodehost@STR38-C@CERT@pgxcnode.c:305],[pgxcnode.c],[34:305],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[get_pgxc_nodehost],#DoInvalidateRemoteHandles()#,[34:305:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:5536],[pgxcnode.c],[34:5536],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#PGXCNodeSendShowQuery()#,[34:5536:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:5577],[pgxcnode.c],[34:5577],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#PGXCNodeSendSetQuery()#,[34:5577:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3518],[pgxcnode.c],[34:3518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_disconnect()#,[34:3518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pgxcnode.c:3505],[pgxcnode.c],[34:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_send_disconnect()#,[34:3505:0:3]
+[Au5em],[PGXCSessionId@AOB@pgxcnode.c:5853],[pgxcnode.c],[34:5853],[Vul],[D],[AOB],[1,0,0],[PGXCSessionId],#SerializeSessionId()#,[34:5853:0:3]
+[Au5em],[strncpy@STR32-C@CERT@pgxcnode.c:5869],[pgxcnode.c],[34:5869],[Vul],[D],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#StartParallelWorkerSessionId()#,[34:5869:0:3]

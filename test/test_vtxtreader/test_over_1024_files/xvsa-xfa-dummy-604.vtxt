@@ -1,0 +1,635 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/storage/s_lock.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/port/atomics/arch-x86.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/port/atomics/generic-gcc.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/port/atomics/generic.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/port/atomics.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/storage/bufpage.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/utils/rel.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/utils/sortsupport.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/executor/executor.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/executor/tuptable.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/openssl/safestack.h"
+  },
+  {
+  "fid": 19,
+  "path": "/usr/include/openssl/stack.h"
+  },
+  {
+  "fid": 20,
+  "path": "/usr/include/openssl/crypto.h"
+  },
+  {
+  "fid": 21,
+  "path": "/usr/include/openssl/bio.h"
+  },
+  {
+  "fid": 22,
+  "path": "/usr/include/openssl/asn1.h"
+  },
+  {
+  "fid": 23,
+  "path": "/usr/include/openssl/x509.h"
+  },
+  {
+  "fid": 24,
+  "path": "/usr/include/openssl/lhash.h"
+  },
+  {
+  "fid": 25,
+  "path": "/usr/include/openssl/x509_vfy.h"
+  },
+  {
+  "fid": 26,
+  "path": "/usr/include/openssl/pkcs7.h"
+  },
+  {
+  "fid": 27,
+  "path": "/usr/include/openssl/ct.h"
+  },
+  {
+  "fid": 28,
+  "path": "/usr/include/openssl/ssl.h"
+  },
+  {
+  "fid": 29,
+  "path": "/usr/include/openssl/err.h"
+  },
+  {
+  "fid": 30,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/pgstat.h"
+  },
+  {
+  "fid": 31,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/storage/proc.h"
+  },
+  {
+  "fid": 32,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/utils/snapmgr.h"
+  },
+  {
+  "fid": 33,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/miscadmin.h"
+  },
+  {
+  "fid": 34,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 35,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/storage/bufmgr.h"
+  },
+  {
+  "fid": 36,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/utils/tqual.h"
+  },
+  {
+  "fid": 37,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/utils/memutils.h"
+  },
+  {
+  "fid": 38,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/replication/worker_internal.h"
+  },
+  {
+  "fid": 39,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/postgres.c"
+  },
+  {
+  "fid": 40,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/pgxc/shardmap.h"
+  },
+  {
+  "fid": 41,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/access/gtm.h"
+  },
+  {
+  "fid": 42,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 43,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/lib/stringinfo.h"
+  },
+  {
+  "fid": 44,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/libpq/libpq.h"
+  },
+  {
+  "fid": 45,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/pgxc/pgxc.h"
+  },
+  {
+  "fid": 46,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/utils/portal.h"
+  },
+  {
+  "fid": 47,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/tcop/pquery.h"
+  },
+  {
+  "fid": 48,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/port.h"
+  },
+  {
+  "fid": 49,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/access/xact.h"
+  },
+  {
+  "fid": 50,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/libpq/libpq-be.h"
+  },
+  {
+  "fid": 51,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/tcop/fastpath.h"
+  },
+  {
+  "fid": 52,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 53,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/storage/sinval.h"
+  },
+  {
+  "fid": 54,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/commands/async.h"
+  },
+  {
+  "fid": 55,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/utils/guc.h"
+  },
+  {
+  "fid": 56,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/parser/parser.h"
+  },
+  {
+  "fid": 57,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/parser/analyze.h"
+  },
+  {
+  "fid": 58,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/audit/audit.h"
+  },
+  {
+  "fid": 59,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/parser/parse_node.h"
+  },
+  {
+  "fid": 60,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/nodes/print.h"
+  },
+  {
+  "fid": 61,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/rewrite/rewriteHandler.h"
+  },
+  {
+  "fid": 62,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/optimizer/planner.h"
+  },
+  {
+  "fid": 63,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/nodes/nodes.h"
+  },
+  {
+  "fid": 64,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/utils/mls.h"
+  },
+  {
+  "fid": 65,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/access/transam.h"
+  },
+  {
+  "fid": 66,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/tcop/utility.h"
+  },
+  {
+  "fid": 67,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/storage/nodelock.h"
+  },
+  {
+  "fid": 68,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/optimizer/planmain.h"
+  },
+  {
+  "fid": 69,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/utils/ps_status.h"
+  },
+  {
+  "fid": 70,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/tcop/dest.h"
+  },
+  {
+  "fid": 71,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/postmaster/postmaster.h"
+  },
+  {
+  "fid": 72,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/commands/vacuum.h"
+  },
+  {
+  "fid": 73,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/access/printtup.h"
+  },
+  {
+  "fid": 74,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/parser/parse_type.h"
+  },
+  {
+  "fid": 75,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/utils/plancache.h"
+  },
+  {
+  "fid": 76,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/commands/prepare.h"
+  },
+  {
+  "fid": 77,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/libpq/pqformat.h"
+  },
+  {
+  "fid": 78,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/storage/backendid.h"
+  },
+  {
+  "fid": 79,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/utils/lsyscache.h"
+  },
+  {
+  "fid": 80,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/mb/pg_wchar.h"
+  },
+  {
+  "fid": 81,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 82,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/commands/explain_dist.h"
+  },
+  {
+  "fid": 83,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/utils/timestamp.h"
+  },
+  {
+  "fid": 84,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/utils/timeout.h"
+  },
+  {
+  "fid": 85,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 86,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/libpq/pqsignal.h"
+  },
+  {
+  "fid": 87,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/pgxc/squeue.h"
+  },
+  {
+  "fid": 88,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/storage/ipc.h"
+  },
+  {
+  "fid": 89,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 90,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/pgxc/pause.h"
+  },
+  {
+  "fid": 91,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/storage/latch.h"
+  },
+  {
+  "fid": 92,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/postmaster/autovacuum.h"
+  },
+  {
+  "fid": 93,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/replication/logicalworker.h"
+  },
+  {
+  "fid": 94,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/replication/logicallauncher.h"
+  },
+  {
+  "fid": 95,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/access/parallel.h"
+  },
+  {
+  "fid": 96,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/pgxc/pgxcnode.h"
+  },
+  {
+  "fid": 97,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 98,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 99,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/replication/walsender.h"
+  },
+  {
+  "fid": 100,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/storage/procsignal.h"
+  },
+  {
+  "fid": 101,
+  "path": "/usr/include/sys/prctl.h"
+  },
+  {
+  "fid": 102,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/postmaster/auditlogger.h"
+  },
+  {
+  "fid": 103,
+  "path": "/usr/include/pthread.h"
+  },
+  {
+  "fid": 104,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/executor/execParallel.h"
+  },
+  {
+  "fid": 105,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/replication/slot.h"
+  },
+  {
+  "fid": 106,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/utils/cls.h"
+  },
+  {
+  "fid": 107,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/replication/logicalrelation.h"
+  },
+  {
+  "fid": 108,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/pgxc/poolutils.h"
+  },
+  {
+  "fid": 109,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/commands/trigger.h"
+  },
+  {
+  "fid": 110,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/storage/procarray.h"
+  },
+  {
+  "fid": 111,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/access/twophase.h"
+  },
+  {
+  "fid": 112,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/pgxc/barrier.h"
+  },
+  {
+  "fid": 113,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/pgxc/execRemote.h"
+  },
+  {
+  "fid": 114,
+  "path": "/usr/include/sys/resource.h"
+  },
+  {
+  "fid": 115,
+  "path": "/usr/include/sys/time.h"
+  },
+  {
+  "fid": 116,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 117,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 118,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 119,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/postmaster/bgworker.h"
+  },
+  {
+  "fid": 120,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/storage/dsm_impl.h"
+  },
+  {
+  "fid": 121,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/storage/lwlock.h"
+  },
+  {
+  "fid": 122,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/storage/lock.h"
+  },
+  {
+  "fid": 123,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/storage/shm_mq.h"
+  },
+  {
+  "fid": 124,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 125,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 126,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/common/relpath.h"
+  },
+  {
+  "fid": 127,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 128,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/storage/fd.h"
+  },
+  {
+  "fid": 129,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/access/xlog.h"
+  },
+  {
+  "fid": 130,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/catalog/pg_type.h"
+  },
+  {
+  "fid": 131,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/utils/array.h"
+  },
+  {
+  "fid": 132,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/catalog/objectaddress.h"
+  },
+  {
+  "fid": 133,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/executor/instrument.h"
+  },
+  {
+  "fid": 134,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/utils/resowner.h"
+  },
+  {
+  "fid": 135,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/pgtime.h"
+  },
+  {
+  "fid": 136,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/utils/datetime.h"
+  },
+  {
+  "fid": 137,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/commands/explain.h"
+  },
+  {
+  "fid": 138,
+  "path": "/usr/include/openssl/ec.h"
+  },
+  {
+  "fid": 139,
+  "path": "/usr/include/openssl/rsa.h"
+  },
+  {
+  "fid": 140,
+  "path": "/usr/include/openssl/dh.h"
+  },
+  {
+  "fid": 141,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/libpq/pqcomm.h"
+  },
+  {
+  "fid": 142,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/postmaster/pgarch.h"
+  },
+  {
+  "fid": 143,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/storage/standby.h"
+  },
+  {
+  "fid": 144,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tcop/../../../src/include/pgxc/poolmgr.h"
+  }
+]
+[Au5em],[snprintf@ERR33-C@CERT@postgres.c:3169],[postgres.c],[39:3169],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#check_log_duration()#,[39:3169:0:3]
+[Au5em],[userDoption@MSF@postgres.c:4477],[postgres.c],[39:4629],[Vul],[M],[MSF],[1,0,0],[userDoption],#process_postgres_switches()#,[39:4477:0:9,39:4477:0:10,39:4629:0:12]
+[Au5em],[userDoption@MSF@postgres.c:4477],[postgres.c],[39:4624],[Vul],[M],[MSF],[1,0,0],[userDoption],#process_postgres_switches()#,[39:4477:0:9,39:4477:0:10,39:4624:0:12]
+[Au5em],[userDoption@MSF@postgres.c:4477],[postgres.c],[39:4613],[Vul],[M],[MSF],[1,0,0],[userDoption],#process_postgres_switches()#,[39:4477:0:9,39:4477:0:10,39:4613:0:12]
+[Au5em],[getc@FIO34-C@CERT@postgres.c:405@postgres.c:401],[postgres.c],[39:401],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO34-C],[getc],#interactive_getc()#,[39:401:0:3,39:403:0:2,39:761:0:17,39:403:0:18,39:405:0:16]
+[Au5em],[ncolumns@UIV@postgres.c:2173],[postgres.c],[39:2675],[Vul],[D],[UIV],[1,0,0],[ncolumns],#exec_bind_message()#,[39:2173:0:4,39:2287:0:23,39:2287:0:25,39:2255:0:23,39:2255:0:25,39:2193:0:24,39:2203:0:26,39:2261:0:24,39:2261:0:26,39:2272:0:23,39:2274:0:25,39:2285:0:23,39:2287:0:25,39:2300:0:17,39:2287:0:17,39:2331:0:17,39:2675:0:3]
+[Au5em],[ncolumns@UIV@postgres.c:2173],[postgres.c],[39:2675],[Vul],[D],[UIV],[1,0,0],[ncolumns],#exec_bind_message()#,[39:2173:0:4,39:2285:0:23,39:2285:0:25,39:2255:0:23,39:2255:0:25,39:2193:0:24,39:2203:0:26,39:2261:0:24,39:2261:0:26,39:2272:0:23,39:2274:0:25,39:2305:0:17,39:2331:0:17,39:2675:0:3]
+[Au5em],[ncolumns@UIV@postgres.c:2173],[postgres.c],[39:2675],[Vul],[D],[UIV],[1,0,0],[ncolumns],#exec_bind_message()#,[39:2173:0:4,39:2255:0:23,39:2255:0:25,39:2193:0:24,39:2203:0:26,39:2261:0:24,39:2261:0:26,39:2272:0:24,39:2272:0:26,39:2272:0:17,39:2675:0:3]
+[Au5em],[ncolumns@UIV@postgres.c:2173],[postgres.c],[39:2677],[Vul],[D],[UIV],[1,0,0],[ncolumns],#exec_bind_message()#,[39:2173:0:4,39:2287:0:23,39:2287:0:25,39:2255:0:23,39:2255:0:25,39:2193:0:24,39:2203:0:26,39:2261:0:24,39:2261:0:26,39:2272:0:23,39:2274:0:25,39:2285:0:23,39:2287:0:25,39:2300:0:17,39:2287:0:17,39:2331:0:17,39:2677:0:3]
+[Au5em],[ncolumns@UIV@postgres.c:2173],[postgres.c],[39:2677],[Vul],[D],[UIV],[1,0,0],[ncolumns],#exec_bind_message()#,[39:2173:0:4,39:2285:0:23,39:2285:0:25,39:2255:0:23,39:2255:0:25,39:2193:0:24,39:2203:0:26,39:2261:0:24,39:2261:0:26,39:2272:0:23,39:2274:0:25,39:2305:0:17,39:2331:0:17,39:2677:0:3]
+[Au5em],[ncolumns@UIV@postgres.c:2173],[postgres.c],[39:2677],[Vul],[D],[UIV],[1,0,0],[ncolumns],#exec_bind_message()#,[39:2173:0:4,39:2255:0:23,39:2255:0:25,39:2193:0:24,39:2203:0:26,39:2261:0:24,39:2261:0:26,39:2272:0:24,39:2272:0:26,39:2272:0:17,39:2677:0:3]
+[Au5em],[ncolumns@UIV@postgres.c:2173],[postgres.c],[39:2593],[Vul],[D],[UIV],[1,0,0],[ncolumns],#exec_bind_message()#,[39:2173:0:4,39:2287:0:23,39:2287:0:25,39:2255:0:23,39:2255:0:25,39:2193:0:24,39:2203:0:26,39:2261:0:24,39:2261:0:26,39:2272:0:23,39:2274:0:25,39:2285:0:23,39:2287:0:25,39:2300:0:17,39:2287:0:17,39:2331:0:17,39:2593:0:3]
+[Au5em],[ncolumns@UIV@postgres.c:2173],[postgres.c],[39:2593],[Vul],[D],[UIV],[1,0,0],[ncolumns],#exec_bind_message()#,[39:2173:0:4,39:2285:0:23,39:2285:0:25,39:2255:0:23,39:2255:0:25,39:2193:0:24,39:2203:0:26,39:2261:0:24,39:2261:0:26,39:2272:0:23,39:2274:0:25,39:2305:0:17,39:2331:0:17,39:2593:0:3]
+[Au5em],[ncolumns@UIV@postgres.c:2173],[postgres.c],[39:2593],[Vul],[D],[UIV],[1,0,0],[ncolumns],#exec_bind_message()#,[39:2173:0:4,39:2255:0:23,39:2255:0:25,39:2193:0:24,39:2203:0:26,39:2261:0:24,39:2261:0:26,39:2272:0:24,39:2272:0:26,39:2272:0:17,39:2593:0:3]
+[Au5em],[ncolumns@UIV@postgres.c:2173],[postgres.c],[39:2559],[Vul],[D],[UIV],[1,0,0],[ncolumns],#exec_bind_message()#,[39:2173:0:4,39:2287:0:23,39:2287:0:25,39:2255:0:23,39:2255:0:25,39:2193:0:24,39:2203:0:26,39:2261:0:24,39:2261:0:26,39:2272:0:23,39:2274:0:25,39:2285:0:23,39:2287:0:25,39:2300:0:17,39:2287:0:17,39:2331:0:17,39:2559:0:3]
+[Au5em],[ncolumns@UIV@postgres.c:2173],[postgres.c],[39:2559],[Vul],[D],[UIV],[1,0,0],[ncolumns],#exec_bind_message()#,[39:2173:0:4,39:2285:0:23,39:2285:0:25,39:2255:0:23,39:2255:0:25,39:2193:0:24,39:2203:0:26,39:2261:0:24,39:2261:0:26,39:2272:0:23,39:2274:0:25,39:2305:0:17,39:2331:0:17,39:2559:0:3]
+[Au5em],[ncolumns@UIV@postgres.c:2173],[postgres.c],[39:2559],[Vul],[D],[UIV],[1,0,0],[ncolumns],#exec_bind_message()#,[39:2173:0:4,39:2255:0:23,39:2255:0:25,39:2193:0:24,39:2203:0:26,39:2261:0:24,39:2261:0:26,39:2272:0:24,39:2272:0:26,39:2272:0:17,39:2559:0:3]
+[Au5em],[ncolumns@UIV@postgres.c:2173],[postgres.c],[39:2521],[Vul],[D],[UIV],[1,0,0],[ncolumns],#exec_bind_message()#,[39:2173:0:4,39:2287:0:23,39:2287:0:25,39:2255:0:23,39:2255:0:25,39:2193:0:24,39:2203:0:26,39:2261:0:24,39:2261:0:26,39:2272:0:23,39:2274:0:25,39:2285:0:23,39:2287:0:25,39:2300:0:17,39:2287:0:17,39:2331:0:17,39:2521:0:3]
+[Au5em],[ncolumns@UIV@postgres.c:2173],[postgres.c],[39:2521],[Vul],[D],[UIV],[1,0,0],[ncolumns],#exec_bind_message()#,[39:2173:0:4,39:2285:0:23,39:2285:0:25,39:2255:0:23,39:2255:0:25,39:2193:0:24,39:2203:0:26,39:2261:0:24,39:2261:0:26,39:2272:0:23,39:2274:0:25,39:2305:0:17,39:2331:0:17,39:2521:0:3]
+[Au5em],[ncolumns@UIV@postgres.c:2173],[postgres.c],[39:2521],[Vul],[D],[UIV],[1,0,0],[ncolumns],#exec_bind_message()#,[39:2173:0:4,39:2255:0:23,39:2255:0:25,39:2193:0:24,39:2203:0:26,39:2261:0:24,39:2261:0:26,39:2272:0:24,39:2272:0:26,39:2272:0:17,39:2521:0:3]
+[Au5em],[ncolumns@UIV@postgres.c:2173],[postgres.c],[39:2509],[Vul],[D],[UIV],[1,0,0],[ncolumns],#exec_bind_message()#,[39:2173:0:4,39:2287:0:23,39:2287:0:25,39:2255:0:23,39:2255:0:25,39:2193:0:24,39:2203:0:26,39:2261:0:24,39:2261:0:26,39:2272:0:23,39:2274:0:25,39:2285:0:23,39:2287:0:25,39:2300:0:17,39:2287:0:17,39:2331:0:17,39:2509:0:3]
+[Au5em],[ncolumns@UIV@postgres.c:2173],[postgres.c],[39:2509],[Vul],[D],[UIV],[1,0,0],[ncolumns],#exec_bind_message()#,[39:2173:0:4,39:2285:0:23,39:2285:0:25,39:2255:0:23,39:2255:0:25,39:2193:0:24,39:2203:0:26,39:2261:0:24,39:2261:0:26,39:2272:0:23,39:2274:0:25,39:2305:0:17,39:2331:0:17,39:2509:0:3]
+[Au5em],[ncolumns@UIV@postgres.c:2173],[postgres.c],[39:2509],[Vul],[D],[UIV],[1,0,0],[ncolumns],#exec_bind_message()#,[39:2173:0:4,39:2255:0:23,39:2255:0:25,39:2193:0:24,39:2203:0:26,39:2261:0:24,39:2261:0:26,39:2272:0:24,39:2272:0:26,39:2272:0:17,39:2509:0:3]
+[Au5em],[ncolumns@UIV@postgres.c:2173],[postgres.c],[39:2312],[Vul],[D],[UIV],[1,0,0],[ncolumns],#exec_bind_message()#,[39:2173:0:4,39:2287:0:23,39:2287:0:25,39:2255:0:23,39:2255:0:25,39:2193:0:24,39:2203:0:26,39:2261:0:24,39:2261:0:26,39:2272:0:23,39:2274:0:25,39:2285:0:23,39:2287:0:25,39:2300:0:17,39:2287:0:17,39:2312:0:3]
+[Au5em],[ncolumns@UIV@postgres.c:2173],[postgres.c],[39:2312],[Vul],[D],[UIV],[1,0,0],[ncolumns],#exec_bind_message()#,[39:2173:0:4,39:2285:0:23,39:2285:0:25,39:2255:0:23,39:2255:0:25,39:2193:0:24,39:2203:0:26,39:2261:0:24,39:2261:0:26,39:2272:0:23,39:2274:0:25,39:2305:0:17,39:2312:0:3]
+[Au5em],[ncolumns@UIV@postgres.c:2173],[postgres.c],[39:2313],[Vul],[D],[UIV],[1,0,0],[ncolumns],#exec_bind_message()#,[39:2173:0:4,39:2287:0:23,39:2287:0:25,39:2255:0:23,39:2255:0:25,39:2193:0:24,39:2203:0:26,39:2261:0:24,39:2261:0:26,39:2272:0:23,39:2274:0:25,39:2285:0:23,39:2287:0:25,39:2300:0:17,39:2287:0:17,39:2313:0:3]
+[Au5em],[ncolumns@UIV@postgres.c:2173],[postgres.c],[39:2313],[Vul],[D],[UIV],[1,0,0],[ncolumns],#exec_bind_message()#,[39:2173:0:4,39:2285:0:23,39:2285:0:25,39:2255:0:23,39:2255:0:25,39:2193:0:24,39:2203:0:26,39:2261:0:24,39:2261:0:26,39:2272:0:23,39:2274:0:25,39:2305:0:17,39:2313:0:3]
+[Au5em],[ncolumns@UIV@postgres.c:2173],[postgres.c],[39:2313],[Vul],[D],[UIV],[1,0,0],[ncolumns],#exec_bind_message()#,[39:2173:0:4,39:2287:0:23,39:2287:0:25,39:2255:0:23,39:2255:0:25,39:2193:0:24,39:2203:0:26,39:2261:0:24,39:2261:0:26,39:2272:0:23,39:2274:0:25,39:2285:0:23,39:2287:0:25,39:2300:0:17,39:2287:0:17,39:2313:0:3]
+[Au5em],[ncolumns@UIV@postgres.c:2173],[postgres.c],[39:2313],[Vul],[D],[UIV],[1,0,0],[ncolumns],#exec_bind_message()#,[39:2173:0:4,39:2285:0:23,39:2285:0:25,39:2255:0:23,39:2255:0:25,39:2193:0:24,39:2203:0:26,39:2261:0:24,39:2261:0:26,39:2272:0:23,39:2274:0:25,39:2305:0:17,39:2313:0:3]
+[Au5em],[ncolumns@UIV@postgres.c:2173],[postgres.c],[39:2315],[Vul],[D],[UIV],[1,0,0],[ncolumns],#exec_bind_message()#,[39:2173:0:4,39:2287:0:23,39:2287:0:25,39:2255:0:23,39:2255:0:25,39:2193:0:24,39:2203:0:26,39:2261:0:24,39:2261:0:26,39:2272:0:23,39:2274:0:25,39:2285:0:23,39:2287:0:25,39:2300:0:17,39:2287:0:17,39:2315:0:3]
+[Au5em],[ncolumns@UIV@postgres.c:2173],[postgres.c],[39:2315],[Vul],[D],[UIV],[1,0,0],[ncolumns],#exec_bind_message()#,[39:2173:0:4,39:2285:0:23,39:2285:0:25,39:2255:0:23,39:2255:0:25,39:2193:0:24,39:2203:0:26,39:2261:0:24,39:2261:0:26,39:2272:0:23,39:2274:0:25,39:2305:0:17,39:2315:0:3]
+[Au5em],[ncolumns@UIV@postgres.c:2173],[postgres.c],[39:2313],[Vul],[D],[UIV],[1,0,0],[ncolumns],#exec_bind_message()#,[39:2173:0:4,39:2287:0:23,39:2287:0:25,39:2255:0:23,39:2255:0:25,39:2193:0:24,39:2203:0:26,39:2261:0:24,39:2261:0:26,39:2272:0:23,39:2274:0:25,39:2285:0:23,39:2287:0:25,39:2300:0:17,39:2287:0:17,39:2313:0:3]
+[Au5em],[ncolumns@UIV@postgres.c:2173],[postgres.c],[39:2313],[Vul],[D],[UIV],[1,0,0],[ncolumns],#exec_bind_message()#,[39:2173:0:4,39:2285:0:23,39:2285:0:25,39:2255:0:23,39:2255:0:25,39:2193:0:24,39:2203:0:26,39:2261:0:24,39:2261:0:26,39:2272:0:23,39:2274:0:25,39:2305:0:17,39:2313:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[postgres.c],[39:2738],[Vul],[M],[NPD],[1,0,0],[0x0],#exec_bind_message()#,[12:79:0:1,12:79:0:17,12:79:0:1,39:2738:0:18,39:2738:0:3]
+[Au5em],[+src@NPD@postgres.c:2624],[postgres.c],[39:6287],[Vul],[M],[NPD],[1,0,0],[+src],#replace_null_with_blank()#,[39:2624:0:17,39:2624:0:1,39:2625:0:17,39:2633:0:2,39:6282:0:1,39:6287:0:3]
+[Au5em],[+src@NPD@postgres.c:2624],[postgres.c],[39:6287],[Vul],[M],[NPD],[1,0,0],[+src],#replace_null_with_blank()#,[39:2624:0:17,39:2624:0:1,39:2625:0:17,39:2633:0:2,39:6282:0:1,39:6287:0:3]
+[Au5em],[+src@NPD@postgres.c:2624],[postgres.c],[39:6289],[Vul],[M],[NPD],[1,0,0],[+src],#replace_null_with_blank()#,[39:2624:0:17,39:2624:0:1,39:2625:0:17,39:2633:0:2,39:6282:0:1,39:6289:0:3]
+[Au5em],[+src@NPD@postgres.c:2624],[postgres.c],[39:6289],[Vul],[M],[NPD],[1,0,0],[+src],#replace_null_with_blank()#,[39:2624:0:17,39:2624:0:1,39:2625:0:17,39:2633:0:2,39:6282:0:1,39:6289:0:3]
+[Au5em],[data_list+(column_index*8)@NPD@postgres.c:2176],[postgres.c],[39:2589],[Vul],[M],[NPD],[1,0,0],[data_list+(column_index*8)],#exec_bind_message()#,[39:2176:0:1,39:2255:0:23,39:2255:0:25,39:2193:0:24,39:2203:0:26,39:2261:0:24,39:2261:0:26,39:2272:0:23,39:2274:0:25,39:2308:0:24,39:2308:0:26,39:2308:0:17,39:2331:0:17,39:2589:0:3]
+[Au5em],[data_list+(column_index*8)@NPD@postgres.c:2176],[postgres.c],[39:2589],[Vul],[M],[NPD],[1,0,0],[data_list+(column_index*8)],#exec_bind_message()#,[39:2176:0:1,39:2255:0:23,39:2255:0:25,39:2193:0:24,39:2203:0:26,39:2261:0:24,39:2261:0:26,39:2272:0:24,39:2272:0:26,39:2272:0:17,39:2589:0:3]
+[Au5em],[data_list+(column_index*8)@NPD@postgres.c:2176],[postgres.c],[39:2557],[Vul],[M],[NPD],[1,0,0],[data_list+(column_index*8)],#exec_bind_message()#,[39:2176:0:1,39:2255:0:23,39:2255:0:25,39:2193:0:24,39:2203:0:26,39:2261:0:24,39:2261:0:26,39:2272:0:23,39:2274:0:25,39:2308:0:24,39:2308:0:26,39:2308:0:17,39:2331:0:17,39:2557:0:3]
+[Au5em],[data_list+(column_index*8)@NPD@postgres.c:2176],[postgres.c],[39:2557],[Vul],[M],[NPD],[1,0,0],[data_list+(column_index*8)],#exec_bind_message()#,[39:2176:0:1,39:2255:0:23,39:2255:0:25,39:2193:0:24,39:2203:0:26,39:2261:0:24,39:2261:0:26,39:2272:0:24,39:2272:0:26,39:2272:0:17,39:2557:0:3]
+[Au5em],[data_list+(column_index*8)@NPD@postgres.c:2176],[postgres.c],[39:2518],[Vul],[M],[NPD],[1,0,0],[data_list+(column_index*8)],#exec_bind_message()#,[39:2176:0:1,39:2255:0:23,39:2255:0:25,39:2193:0:24,39:2203:0:26,39:2261:0:24,39:2261:0:26,39:2272:0:23,39:2274:0:25,39:2308:0:24,39:2308:0:26,39:2308:0:17,39:2331:0:17,39:2518:0:3]
+[Au5em],[data_list+(column_index*8)@NPD@postgres.c:2176],[postgres.c],[39:2518],[Vul],[M],[NPD],[1,0,0],[data_list+(column_index*8)],#exec_bind_message()#,[39:2176:0:1,39:2255:0:23,39:2255:0:25,39:2193:0:24,39:2203:0:26,39:2261:0:24,39:2261:0:26,39:2272:0:24,39:2272:0:26,39:2272:0:17,39:2518:0:3]
+[Au5em],[data_list+(column_index*8)@NPD@postgres.c:2176],[postgres.c],[39:2507],[Vul],[M],[NPD],[1,0,0],[data_list+(column_index*8)],#exec_bind_message()#,[39:2176:0:1,39:2255:0:23,39:2255:0:25,39:2193:0:24,39:2203:0:26,39:2261:0:24,39:2261:0:26,39:2272:0:23,39:2274:0:25,39:2308:0:24,39:2308:0:26,39:2308:0:17,39:2331:0:17,39:2507:0:3]
+[Au5em],[data_list+(column_index*8)@NPD@postgres.c:2176],[postgres.c],[39:2507],[Vul],[M],[NPD],[1,0,0],[data_list+(column_index*8)],#exec_bind_message()#,[39:2176:0:1,39:2255:0:23,39:2255:0:25,39:2193:0:24,39:2203:0:26,39:2261:0:24,39:2261:0:26,39:2272:0:24,39:2272:0:26,39:2272:0:17,39:2507:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[postgres.c],[39:2274],[Vul],[M],[NPD],[1,0,0],[0x0],#exec_bind_message()#,[12:79:0:1,12:79:0:17,12:79:0:1,39:2274:0:18,39:2274:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@postgres.c:3169],[postgres.c],[39:3169],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#exec_bind_message()#,[39:3169:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@postgres.c:2745],[postgres.c],[39:2745],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#exec_bind_message()#,[39:2745:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[postgres.c],[39:3559],[Vul],[M],[NPD],[1,0,0],[0x0],#IsTransactionExitStmtList()#,[12:79:0:1,12:79:0:17,12:79:0:1,39:3559:0:18,39:3559:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[postgres.c],[39:3574],[Vul],[M],[NPD],[1,0,0],[0x0],#IsTransactionStmtList()#,[12:79:0:1,12:79:0:17,12:79:0:1,39:3574:0:18,39:3574:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@postgres.c:3169],[postgres.c],[39:3169],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#exec_execute_message()#,[39:3169:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@postgres.c:3169],[postgres.c],[39:3169],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#exec_parse_message()#,[39:3169:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[postgres.c],[39:1429],[Vul],[M],[NPD],[1,0,0],[0x0],#exec_simple_query()#,[12:79:0:1,12:79:0:17,12:79:0:1,39:1428:0:18,39:1429:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@postgres.c:3169],[postgres.c],[39:3169],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#exec_simple_query()#,[39:3169:0:3]
+[Au5em],[commandTag@STR38-C@CERT@postgres.c:1306@postgres.c:1303],[postgres.c],[39:1306],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[commandTag],#exec_simple_query()#,[39:1303:0:1,39:1306:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@postgres.c:2082],[postgres.c],[39:2082],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#exec_plan_message()#,[39:2082:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@postgres.c:3169],[postgres.c],[39:3169],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#exec_plan_message()#,[39:3169:0:3]
+[Au5em],[strncpy@STR32-C@CERT@postgres.c:5740],[postgres.c],[39:5740],[Vul],[D],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#PostgresMain()#,[39:5740:0:3]
+[Au5em],[sessionid@STR38-C@CERT@postgres.c:5740@postgres.c:5738],[postgres.c],[39:5740],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[sessionid],#PostgresMain()#,[39:5738:0:1,39:5740:0:3]

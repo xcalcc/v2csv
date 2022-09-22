@@ -1,0 +1,85 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/mb/conversion_procs/euc_jp_and_sjis/../../../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/mb/conversion_procs/euc_jp_and_sjis/../../../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/mb/conversion_procs/euc_jp_and_sjis/euc_jp_and_sjis.c"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/mb/conversion_procs/euc_jp_and_sjis/../../../../../../src/include/mb/pg_wchar.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/mb/conversion_procs/euc_jp_and_sjis/sjis.map"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/mb/conversion_procs/euc_jp_and_sjis/../../../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/mb/conversion_procs/euc_jp_and_sjis/../../../../../../src/include/fmgr.h"
+  }
+]
+[Au5em],[ibmkanji@AOB@euc_jp_and_sjis.c:519],[euc_jp_and_sjis.c],[6:519],[Vul],[M],[AOB],[1,0,0],[ibmkanji],#euc_jp2sjis()#,[6:519:0:3]
+[Au5em],[ibmkanji@AOB@euc_jp_and_sjis.c:525],[euc_jp_and_sjis.c],[6:525],[Vul],[M],[AOB],[1,0,0],[ibmkanji],#euc_jp2sjis()#,[6:525:0:3]
+[Au5em],[ibmkanji@AOB@euc_jp_and_sjis.c:528@euc_jp_and_sjis.c:527],[euc_jp_and_sjis.c],[6:528],[Vul],[M],[AOB],[1,0,0],[ibmkanji],#euc_jp2sjis()#,[6:527:0:1,6:528:0:3]
+[Au5em],[ibmkanji@AOB@euc_jp_and_sjis.c:529@euc_jp_and_sjis.c:527],[euc_jp_and_sjis.c],[6:529],[Vul],[M],[AOB],[1,0,0],[ibmkanji],#euc_jp2sjis()#,[6:527:0:1,6:529:0:3]
+[Au5em],[ibmkanji@AOB@euc_jp_and_sjis.c:607@euc_jp_and_sjis.c:605],[euc_jp_and_sjis.c],[6:607],[Vul],[M],[AOB],[1,0,0],[ibmkanji],#sjis2euc_jp()#,[6:605:0:1,6:607:0:3]
+[Au5em],[ibmkanji@AOB@euc_jp_and_sjis.c:608@euc_jp_and_sjis.c:605],[euc_jp_and_sjis.c],[6:608],[Vul],[M],[AOB],[1,0,0],[ibmkanji],#sjis2euc_jp()#,[6:605:0:1,6:608:0:3]
+[Au5em],[ibmkanji@AOB@euc_jp_and_sjis.c:610],[euc_jp_and_sjis.c],[6:610],[Vul],[M],[AOB],[1,0,0],[ibmkanji],#sjis2euc_jp()#,[6:610:0:3]
+[Au5em],[ibmkanji@AOB@euc_jp_and_sjis.c:611@euc_jp_and_sjis.c:610],[euc_jp_and_sjis.c],[6:611],[Vul],[M],[AOB],[1,0,0],[ibmkanji],#sjis2euc_jp()#,[6:610:0:1,6:611:0:3]
+[Au5em],[ibmkanji@AOB@euc_jp_and_sjis.c:612@euc_jp_and_sjis.c:610],[euc_jp_and_sjis.c],[6:612],[Vul],[M],[AOB],[1,0,0],[ibmkanji],#sjis2euc_jp()#,[6:610:0:1,6:612:0:3]
+[Au5em],[ibmkanji@AOB@euc_jp_and_sjis.c:660@euc_jp_and_sjis.c:658],[euc_jp_and_sjis.c],[6:660],[Vul],[M],[AOB],[1,0,0],[ibmkanji],#sjis2euc_jp()#,[6:658:0:1,6:660:0:3]
+[Au5em],[ibmkanji@AOB@euc_jp_and_sjis.c:661@euc_jp_and_sjis.c:658],[euc_jp_and_sjis.c],[6:661],[Vul],[M],[AOB],[1,0,0],[ibmkanji],#sjis2euc_jp()#,[6:658:0:1,6:661:0:3]
+[Au5em],[ibmkanji@AOB@euc_jp_and_sjis.c:663],[euc_jp_and_sjis.c],[6:663],[Vul],[M],[AOB],[1,0,0],[ibmkanji],#sjis2euc_jp()#,[6:663:0:3]
+[Au5em],[ibmkanji@AOB@euc_jp_and_sjis.c:664@euc_jp_and_sjis.c:663],[euc_jp_and_sjis.c],[6:664],[Vul],[M],[AOB],[1,0,0],[ibmkanji],#sjis2euc_jp()#,[6:663:0:1,6:664:0:3]
+[Au5em],[ibmkanji@AOB@euc_jp_and_sjis.c:672@euc_jp_and_sjis.c:663],[euc_jp_and_sjis.c],[6:672],[Vul],[M],[AOB],[1,0,0],[ibmkanji],#sjis2euc_jp()#,[6:663:0:1,6:672:0:3]
+[Au5em],[ibmkanji@AOB@euc_jp_and_sjis.c:673@euc_jp_and_sjis.c:663],[euc_jp_and_sjis.c],[6:673],[Vul],[M],[AOB],[1,0,0],[ibmkanji],#sjis2euc_jp()#,[6:663:0:1,6:673:0:3]
+[Au5em],[ibmkanji@AOB@euc_jp_and_sjis.c:180@euc_jp_and_sjis.c:178],[euc_jp_and_sjis.c],[6:180],[Vul],[M],[AOB],[1,0,0],[ibmkanji],#sjis2mic()#,[6:178:0:1,6:180:0:3]
+[Au5em],[ibmkanji@AOB@euc_jp_and_sjis.c:181@euc_jp_and_sjis.c:178],[euc_jp_and_sjis.c],[6:181],[Vul],[M],[AOB],[1,0,0],[ibmkanji],#sjis2mic()#,[6:178:0:1,6:181:0:3]
+[Au5em],[ibmkanji@AOB@euc_jp_and_sjis.c:183],[euc_jp_and_sjis.c],[6:183],[Vul],[M],[AOB],[1,0,0],[ibmkanji],#sjis2mic()#,[6:183:0:3]
+[Au5em],[ibmkanji@AOB@euc_jp_and_sjis.c:184@euc_jp_and_sjis.c:183],[euc_jp_and_sjis.c],[6:184],[Vul],[M],[AOB],[1,0,0],[ibmkanji],#sjis2mic()#,[6:183:0:1,6:184:0:3]
+[Au5em],[ibmkanji@AOB@euc_jp_and_sjis.c:185@euc_jp_and_sjis.c:183],[euc_jp_and_sjis.c],[6:185],[Vul],[M],[AOB],[1,0,0],[ibmkanji],#sjis2mic()#,[6:183:0:1,6:185:0:3]
+[Au5em],[ibmkanji@AOB@euc_jp_and_sjis.c:235@euc_jp_and_sjis.c:233],[euc_jp_and_sjis.c],[6:235],[Vul],[M],[AOB],[1,0,0],[ibmkanji],#sjis2mic()#,[6:233:0:1,6:235:0:3]
+[Au5em],[ibmkanji@AOB@euc_jp_and_sjis.c:236@euc_jp_and_sjis.c:233],[euc_jp_and_sjis.c],[6:236],[Vul],[M],[AOB],[1,0,0],[ibmkanji],#sjis2mic()#,[6:233:0:1,6:236:0:3]
+[Au5em],[ibmkanji@AOB@euc_jp_and_sjis.c:238],[euc_jp_and_sjis.c],[6:238],[Vul],[M],[AOB],[1,0,0],[ibmkanji],#sjis2mic()#,[6:238:0:3]
+[Au5em],[ibmkanji@AOB@euc_jp_and_sjis.c:239@euc_jp_and_sjis.c:238],[euc_jp_and_sjis.c],[6:239],[Vul],[M],[AOB],[1,0,0],[ibmkanji],#sjis2mic()#,[6:238:0:1,6:239:0:3]
+[Au5em],[ibmkanji@AOB@euc_jp_and_sjis.c:248@euc_jp_and_sjis.c:238],[euc_jp_and_sjis.c],[6:248],[Vul],[M],[AOB],[1,0,0],[ibmkanji],#sjis2mic()#,[6:238:0:1,6:248:0:3]
+[Au5em],[ibmkanji@AOB@euc_jp_and_sjis.c:249@euc_jp_and_sjis.c:238],[euc_jp_and_sjis.c],[6:249],[Vul],[M],[AOB],[1,0,0],[ibmkanji],#sjis2mic()#,[6:238:0:1,6:249:0:3]
+[Au5em],[ibmkanji@AOB@euc_jp_and_sjis.c:336],[euc_jp_and_sjis.c],[6:336],[Vul],[M],[AOB],[1,0,0],[ibmkanji],#mic2sjis()#,[6:336:0:3]
+[Au5em],[ibmkanji@AOB@euc_jp_and_sjis.c:342],[euc_jp_and_sjis.c],[6:342],[Vul],[M],[AOB],[1,0,0],[ibmkanji],#mic2sjis()#,[6:342:0:3]
+[Au5em],[ibmkanji@AOB@euc_jp_and_sjis.c:345@euc_jp_and_sjis.c:344],[euc_jp_and_sjis.c],[6:345],[Vul],[M],[AOB],[1,0,0],[ibmkanji],#mic2sjis()#,[6:344:0:1,6:345:0:3]
+[Au5em],[ibmkanji@AOB@euc_jp_and_sjis.c:346@euc_jp_and_sjis.c:344],[euc_jp_and_sjis.c],[6:346],[Vul],[M],[AOB],[1,0,0],[ibmkanji],#mic2sjis()#,[6:344:0:1,6:346:0:3]

@@ -1,0 +1,56 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/common/../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/common/../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/common/unicode_norm.c"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/common/../../src/include/common/unicode_norm_table.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/common/../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/common/../../src/include/mb/pg_wchar.h"
+  }
+]
+[Au5em],[RCD@unicode_norm.c:52@unicode_norm.c:52],[unicode_norm.c],[6:52],[Vul],[D],[RCD],[1,0,0],[],#conv_compare()#,[6:52:0:11,6:52:0:23,6:52:0:25,6:52:0:3]

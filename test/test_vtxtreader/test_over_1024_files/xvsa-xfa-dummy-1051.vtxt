@@ -1,0 +1,257 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/usr/include/openssl/safestack.h"
+  },
+  {
+  "fid": 5,
+  "path": "/usr/include/openssl/stack.h"
+  },
+  {
+  "fid": 6,
+  "path": "/usr/include/openssl/crypto.h"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/openssl/bio.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/openssl/asn1.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/openssl/x509.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/openssl/lhash.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/openssl/x509_vfy.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/openssl/pkcs7.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/openssl/ct.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/openssl/ssl.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/openssl/err.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/fe-connect.c"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/libpq-int.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 19,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/fe-auth.h"
+  },
+  {
+  "fid": 20,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 21,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 22,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/pqexpbuffer.h"
+  },
+  {
+  "fid": 23,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/../../../src/include/mb/pg_wchar.h"
+  },
+  {
+  "fid": 25,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/../../../src/include/port.h"
+  },
+  {
+  "fid": 26,
+  "path": "/usr/include/sys/socket.h"
+  },
+  {
+  "fid": 27,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 28,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/../../../src/include/common/ip.h"
+  },
+  {
+  "fid": 29,
+  "path": "/usr/include/arpa/inet.h"
+  },
+  {
+  "fid": 30,
+  "path": "/usr/include/netdb.h"
+  },
+  {
+  "fid": 31,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 32,
+  "path": "/usr/include/fcntl.h"
+  },
+  {
+  "fid": 33,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 34,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/libpq-fe.h"
+  },
+  {
+  "fid": 35,
+  "path": "/usr/include/sys/stat.h"
+  },
+  {
+  "fid": 36,
+  "path": "/usr/include/pthread.h"
+  },
+  {
+  "fid": 37,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 38,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 39,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 40,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/../../../src/include/libpq/pqcomm.h"
+  },
+  {
+  "fid": 41,
+  "path": "/usr/include/openssl/ec.h"
+  },
+  {
+  "fid": 42,
+  "path": "/usr/include/openssl/rsa.h"
+  },
+  {
+  "fid": 43,
+  "path": "/usr/include/openssl/dh.h"
+  }
+]
+[Au5em],[tmpsock@RXS@BUILTIN@fe-connect.c:3936@fe-connect.c:3891],[fe-connect.c],[16:3936],[Vul],[D],[RXS],[1,0,0],[tmpsock],#internal_cancel()#,[16:3891:0:80,16:3891:0:17,16:3897:0:81,16:3916:0:17,16:3919:0:17,16:3936:0:82]
+[Au5em],[tmpsock@RXS@BUILTIN@fe-connect.c:4032@fe-connect.c:3987],[fe-connect.c],[16:4032],[Vul],[D],[RXS],[1,0,0],[tmpsock],#internal_end_query()#,[16:3987:0:80,16:3987:0:17,16:3993:0:81,16:4012:0:17,16:4015:0:17,16:4032:0:82]
+[Au5em],[conn->connhost+(i*48)->password@UDR@fe-connect.c:3502],[fe-connect.c],[16:3502],[Vul],[M],[UDR],[1,0,0],[conn->connhost+(i*48)->password],#freePGconn()#,[16:3502:0:3]
+[Au5em],[conn->connhost+(i*48)->port@UDR@fe-connect.c:3500],[fe-connect.c],[16:3500],[Vul],[M],[UDR],[1,0,0],[conn->connhost+(i*48)->port],#freePGconn()#,[16:3500:0:3]
+[Au5em],[conn->connhost+(i*48)->hostaddr@UDR@fe-connect.c:3498],[fe-connect.c],[16:3498],[Vul],[M],[UDR],[1,0,0],[conn->connhost+(i*48)->hostaddr],#freePGconn()#,[16:3498:0:3]
+[Au5em],[conn->connhost+(i*48)->host@UDR@fe-connect.c:3496],[fe-connect.c],[16:3496],[Vul],[M],[UDR],[1,0,0],[conn->connhost+(i*48)->host],#freePGconn()#,[16:3496:0:3]
+[Au5em],[conn->events+(i*40)->name@UDR@fe-connect.c:3487],[fe-connect.c],[16:3487],[Vul],[M],[UDR],[1,0,0],[conn->events+(i*40)->name],#freePGconn()#,[16:3487:0:3]
+[Au5em],[conn->inBuffer@MSF@fe-connect.c:3443],[fe-connect.c],[16:3463],[Vul],[D],[MSF],[1,0,0],[conn->inBuffer],#makeEmptyPGconn()#,[16:3443:0:9,16:3462:0:12,16:3463:0:3]
+[Au5em],[conn->outBuffer@MSF@fe-connect.c:3445],[fe-connect.c],[16:3463],[Vul],[D],[MSF],[1,0,0],[conn->outBuffer],#makeEmptyPGconn()#,[16:3445:0:9,16:3462:0:12,16:3463:0:3]
+[Au5em],[conn->rowBuf@MSF@fe-connect.c:3447],[fe-connect.c],[16:3463],[Vul],[D],[MSF],[1,0,0],[conn->rowBuf],#makeEmptyPGconn()#,[16:3447:0:9,16:3462:0:12,16:3463:0:3]
+[Au5em],[conn->outBuffer@ERR33-C@CERT@fe-connect.c:3462@fe-connect.c:3445],[fe-connect.c],[16:3445],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[conn->outBuffer],#makeEmptyPGconn()#,[16:3445:0:3,16:3459:0:17,16:3462:0:16]
+[Au5em],[conn->rowBuf@ERR33-C@CERT@fe-connect.c:3462@fe-connect.c:3447],[fe-connect.c],[16:3447],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[conn->rowBuf],#makeEmptyPGconn()#,[16:3447:0:3,16:3459:0:17,16:3462:0:16]
+[Au5em],[fgets@FIO37-C@CERT@fe-connect.c:4883@fe-connect.c:4748],[fe-connect.c],[16:4748],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO37-C],[fgets],#parseServiceFile()#,[16:4748:0:3,16:4883:0:17,16:4883:0:16]
+[Au5em],[fgets@FIO37-C@CERT@fe-connect.c:4781@fe-connect.c:4748],[fe-connect.c],[16:4748],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO37-C],[fgets],#parseServiceFile()#,[16:4748:0:3,16:4748:0:17,16:4752:0:17,16:4763:0:17,16:4772:0:17,16:4775:0:17,16:4777:0:17,16:4781:0:17,16:4781:0:16]
+[Au5em],[snprintf@ERR33-C@CERT@fe-connect.c:4690],[fe-connect.c],[16:4690],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#parseServiceInfo()#,[16:4690:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-connect.c:4706],[fe-connect.c],[16:4706],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#parseServiceInfo()#,[16:4706:0:3]
+[Au5em],[value@UAF@fe-connect.c:5839],[fe-connect.c],[16:5900],[Vul],[D],[UAF],[1,0,0],[value],#conninfo_uri_decode()#,[16:5839:0:10,16:5838:0:17,16:5851:0:17,16:5851:0:2,16:6013:0:15,16:6013:0:1,16:6032:0:24,16:6032:0:26,16:6041:0:23,16:6043:0:25,16:6043:0:1,16:6043:0:2,16:5895:0:15,16:5895:0:1,16:5900:0:3]
+[Au5em],[value_copy@MSF@fe-connect.c:6050],[fe-connect.c],[16:6063],[Vul],[D],[MSF],[1,0,0],[value_copy],#conninfo_storeval()#,[16:6050:0:9,16:6062:0:12,16:6063:0:3]
+[Au5em],[option->val@UDR@fe-connect.c:6059],[fe-connect.c],[16:6059],[Vul],[D],[UDR],[1,0,0],[option->val],#conninfo_storeval()#,[16:6031:0:1,16:6059:0:3]
+[Au5em],[keyword@UAF@fe-connect.c:5838],[fe-connect.c],[16:6022],[Vul],[D],[UAF],[1,0,0],[keyword],#conninfo_storeval()#,[16:5838:0:10,16:5838:0:17,16:5851:0:17,16:5851:0:2,16:6013:0:15,16:6013:0:1,16:6022:0:3]
+[Au5em],[keyword@UAF@fe-connect.c:5838],[fe-connect.c],[16:6080],[Vul],[D],[UAF],[1,0,0],[keyword],#conninfo_find()#,[16:5838:0:10,16:5838:0:17,16:5851:0:17,16:5851:0:2,16:6013:0:15,16:6013:0:1,16:6031:0:2,16:6078:0:23,16:6078:0:25,16:6080:0:1,16:6031:0:18,16:6022:0:17,16:6031:0:2,16:6075:0:1,16:6080:0:3]
+[Au5em],[value@UAF@fe-connect.c:5839],[fe-connect.c],[16:6025],[Vul],[D],[UAF],[1,0,0],[value],#conninfo_storeval()#,[16:5839:0:10,16:5838:0:17,16:5851:0:17,16:5851:0:2,16:6013:0:15,16:6013:0:1,16:6022:0:23,16:6024:0:25,16:6025:0:3]
+[Au5em],[*buf@UIV@fe-connect.c:5035],[fe-connect.c],[16:5044],[Vul],[D],[UIV],[1,0,0],[*buf],#conninfo_parse()#,[16:5035:0:1,16:5035:0:24,16:5035:0:26,16:5044:0:3]
+[Au5em],[value@UAF@fe-connect.c:5839],[fe-connect.c],[16:5851],[Vul],[D],[UAF],[1,0,0],[value],#conninfo_uri_parse_params()#,[16:5839:0:10,16:5838:0:17,16:5851:0:17,16:5851:0:3]
+[Au5em],[keyword@UDR@fe-connect.c:5838],[fe-connect.c],[16:5838],[Vul],[D],[UDR],[1,0,0],[keyword],#conninfo_uri_parse_params()#,[16:5934:0:1,16:5817:0:5,16:5818:0:24,16:5818:0:26,16:5824:0:24,16:5824:0:26,16:5835:0:23,16:5838:0:25,16:5838:0:3]
+[Au5em],[keyword@UDR@fe-connect.c:5838],[fe-connect.c],[16:5838],[Vul],[D],[UDR],[1,0,0],[keyword],#conninfo_uri_parse_params()#,[16:5944:0:1,16:5817:0:5,16:5818:0:24,16:5818:0:26,16:5824:0:24,16:5824:0:26,16:5835:0:23,16:5838:0:25,16:5838:0:3]
+[Au5em],[keyword@UDR@fe-connect.c:5838],[fe-connect.c],[16:5838],[Vul],[D],[UDR],[1,0,0],[keyword],#conninfo_uri_parse_params()#,[16:5904:0:1,16:5817:0:5,16:5818:0:24,16:5818:0:26,16:5824:0:24,16:5824:0:26,16:5835:0:23,16:5838:0:25,16:5838:0:3]
+[Au5em],[value@UDR@fe-connect.c:5839],[fe-connect.c],[16:5839],[Vul],[D],[UDR],[1,0,0],[value],#conninfo_uri_parse_params()#,[16:5934:0:1,16:5823:0:5,16:5824:0:24,16:5824:0:26,16:5835:0:23,16:5838:0:25,16:5839:0:3]
+[Au5em],[value@UDR@fe-connect.c:5839],[fe-connect.c],[16:5839],[Vul],[D],[UDR],[1,0,0],[value],#conninfo_uri_parse_params()#,[16:5944:0:1,16:5823:0:5,16:5824:0:24,16:5824:0:26,16:5835:0:23,16:5838:0:25,16:5839:0:3]
+[Au5em],[value@UDR@fe-connect.c:5839],[fe-connect.c],[16:5839],[Vul],[D],[UDR],[1,0,0],[value],#conninfo_uri_parse_params()#,[16:5904:0:1,16:5823:0:5,16:5824:0:24,16:5824:0:26,16:5835:0:23,16:5838:0:25,16:5839:0:3]
+[Au5em],[keyword@UDR@fe-connect.c:5827],[fe-connect.c],[16:5827],[Vul],[D],[UDR],[1,0,0],[keyword],#conninfo_uri_parse_params()#,[16:5934:0:1,16:5817:0:5,16:5818:0:24,16:5818:0:26,16:5824:0:23,16:5827:0:25,16:5827:0:3]
+[Au5em],[keyword@UDR@fe-connect.c:5827],[fe-connect.c],[16:5827],[Vul],[D],[UDR],[1,0,0],[keyword],#conninfo_uri_parse_params()#,[16:5944:0:1,16:5817:0:5,16:5818:0:24,16:5818:0:26,16:5824:0:23,16:5827:0:25,16:5827:0:3]
+[Au5em],[keyword@UDR@fe-connect.c:5827],[fe-connect.c],[16:5827],[Vul],[D],[UDR],[1,0,0],[keyword],#conninfo_uri_parse_params()#,[16:5904:0:1,16:5817:0:5,16:5818:0:24,16:5818:0:26,16:5824:0:23,16:5827:0:25,16:5827:0:3]
+[Au5em],[*prefix_len+buf@UIV@fe-connect.c:5543],[fe-connect.c],[16:5584],[Vul],[D],[UIV],[1,0,0],[*prefix_len+buf],#conninfo_uri_parse_options()#,[16:5543:0:1,16:5544:0:24,16:5553:0:26,16:5554:0:24,16:5563:0:26,16:5568:0:23,16:5576:0:25,16:5584:0:3]
+[Au5em],[option->val@MSF@fe-connect.c:5319],[fe-connect.c],[16:5347],[Vul],[D],[MSF],[1,0,0],[option->val],#conninfo_array_parse()#,[16:5319:0:9,16:5346:0:12,16:5347:0:3]
+[Au5em],[option->val@MSF@fe-connect.c:5319],[fe-connect.c],[16:5347],[Vul],[D],[MSF],[1,0,0],[option->val],#conninfo_array_parse()#,[16:5319:0:9,16:5342:0:12,16:5347:0:3]
+[Au5em],[option->val@MSF@fe-connect.c:5319],[fe-connect.c],[16:5347],[Vul],[D],[MSF],[1,0,0],[option->val],#conninfo_array_parse()#,[16:5319:0:9,16:5297:0:12,16:5347:0:3]
+[Au5em],[option->val@MSF@fe-connect.c:5319],[fe-connect.c],[16:5347],[Vul],[D],[MSF],[1,0,0],[option->val],#conninfo_array_parse()#,[16:5319:0:9,16:5266:0:12,16:5347:0:3]
+[Au5em],[*connmember@MSF@fe-connect.c:843],[fe-connect.c],[16:855],[Vul],[D],[MSF],[1,0,0],[*connmember],#fillPGconn()#,[16:843:0:9,16:854:0:12,16:855:0:3]
+[Au5em],[fgets@FIO37-C@CERT@fe-connect.c:6663@fe-connect.c:6617],[fe-connect.c],[16:6617],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO37-C],[fgets],#passwordFromFile()#,[16:6617:0:3,16:6663:0:17,16:6663:0:16]
+[Au5em],[fprintf@ERR33-C@CERT@fe-connect.c:6592],[fe-connect.c],[16:6592],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#passwordFromFile()#,[16:6592:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe-connect.c:6583],[fe-connect.c],[16:6583],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#passwordFromFile()#,[16:6583:0:3]
+[Au5em],[buf@AOB@fe-connect.c:6623],[fe-connect.c],[16:6623],[Vul],[M],[AOB],[1,0,0],[buf],#passwordFromFile()#,[16:6623:0:3]
+[Au5em],[buf@AOB@fe-connect.c:6625],[fe-connect.c],[16:6625],[Vul],[M],[AOB],[1,0,0],[buf],#passwordFromFile()#,[16:6625:0:3]
+[Au5em],[buf@AOB@fe-connect.c:6627],[fe-connect.c],[16:6627],[Vul],[M],[AOB],[1,0,0],[buf],#passwordFromFile()#,[16:6627:0:3]
+[Au5em],[buf@AOB@fe-connect.c:6628],[fe-connect.c],[16:6628],[Vul],[M],[AOB],[1,0,0],[buf],#passwordFromFile()#,[16:6628:0:3]
+[Au5em],[*conn->connhost+(i*48)->host@UIV@fe-connect.c:947],[fe-connect.c],[16:1031],[Vul],[D],[UIV],[1,0,0],[*conn->connhost+(i*48)->host],#connectOptions2()#,[16:947:0:1,16:948:0:24,16:948:0:26,16:948:0:17,16:1022:0:18,16:1031:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-connect.c:1159],[fe-connect.c],[16:1159],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#connectOptions2()#,[16:1159:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-connect.c:1800],[fe-connect.c],[16:1800],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#connectDBStart()#,[16:1800:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-connect.c:1826],[fe-connect.c],[16:1826],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#connectDBStart()#,[16:1826:0:3]
+[Au5em],[connOptions@UDR@fe-connect.c:6145],[fe-connect.c],[16:6145],[Vul],[D],[UDR],[1,0,0],[connOptions],#PQconninfoFree()#,[16:5342:0:1,16:721:0:5,16:724:0:24,16:724:0:26,16:734:0:24,16:734:0:26,16:743:0:2,16:6145:0:3]
+[Au5em],[connOptions@UDR@fe-connect.c:6145],[fe-connect.c],[16:6145],[Vul],[D],[UDR],[1,0,0],[connOptions],#PQconninfoFree()#,[16:5326:0:1,16:721:0:5,16:724:0:24,16:724:0:26,16:734:0:24,16:734:0:26,16:743:0:2,16:6145:0:3]
+[Au5em],[connOptions@UDR@fe-connect.c:6145],[fe-connect.c],[16:6145],[Vul],[D],[UDR],[1,0,0],[connOptions],#PQconninfoFree()#,[16:5297:0:1,16:721:0:5,16:724:0:24,16:724:0:26,16:734:0:24,16:734:0:26,16:743:0:2,16:6145:0:3]
+[Au5em],[connOptions@UDR@fe-connect.c:6145],[fe-connect.c],[16:6145],[Vul],[D],[UDR],[1,0,0],[connOptions],#PQconninfoFree()#,[16:5266:0:1,16:721:0:5,16:724:0:24,16:724:0:26,16:734:0:24,16:734:0:26,16:743:0:2,16:6145:0:3]
+[Au5em],[connOptions@UDR@fe-connect.c:6145],[fe-connect.c],[16:6145],[Vul],[D],[UDR],[1,0,0],[connOptions],#PQconninfoFree()#,[16:5239:0:1,16:721:0:5,16:724:0:24,16:724:0:26,16:734:0:24,16:734:0:26,16:743:0:2,16:6145:0:3]
+[Au5em],[connOptions@UDR@fe-connect.c:6145],[fe-connect.c],[16:6145],[Vul],[D],[UDR],[1,0,0],[connOptions],#PQconninfoFree()#,[16:5227:0:1,16:721:0:5,16:724:0:24,16:724:0:26,16:734:0:24,16:734:0:26,16:743:0:2,16:6145:0:3]
+[Au5em],[connOptions@UDR@fe-connect.c:6145],[fe-connect.c],[16:6145],[Vul],[D],[UDR],[1,0,0],[connOptions],#PQconninfoFree()#,[16:5342:0:1,16:721:0:5,16:724:0:24,16:724:0:26,16:734:0:23,16:736:0:25,16:736:0:2,16:6145:0:3]
+[Au5em],[connOptions@UDR@fe-connect.c:6145],[fe-connect.c],[16:6145],[Vul],[D],[UDR],[1,0,0],[connOptions],#PQconninfoFree()#,[16:5326:0:1,16:721:0:5,16:724:0:24,16:724:0:26,16:734:0:23,16:736:0:25,16:736:0:2,16:6145:0:3]
+[Au5em],[connOptions@UDR@fe-connect.c:6145],[fe-connect.c],[16:6145],[Vul],[D],[UDR],[1,0,0],[connOptions],#PQconninfoFree()#,[16:5297:0:1,16:721:0:5,16:724:0:24,16:724:0:26,16:734:0:23,16:736:0:25,16:736:0:2,16:6145:0:3]
+[Au5em],[connOptions@UDR@fe-connect.c:6145],[fe-connect.c],[16:6145],[Vul],[D],[UDR],[1,0,0],[connOptions],#PQconninfoFree()#,[16:5266:0:1,16:721:0:5,16:724:0:24,16:724:0:26,16:734:0:23,16:736:0:25,16:736:0:2,16:6145:0:3]
+[Au5em],[connOptions@UDR@fe-connect.c:6145],[fe-connect.c],[16:6145],[Vul],[D],[UDR],[1,0,0],[connOptions],#PQconninfoFree()#,[16:5239:0:1,16:721:0:5,16:724:0:24,16:724:0:26,16:734:0:23,16:736:0:25,16:736:0:2,16:6145:0:3]
+[Au5em],[connOptions@UDR@fe-connect.c:6145],[fe-connect.c],[16:6145],[Vul],[D],[UDR],[1,0,0],[connOptions],#PQconninfoFree()#,[16:5227:0:1,16:721:0:5,16:724:0:24,16:724:0:26,16:734:0:23,16:736:0:25,16:736:0:2,16:6145:0:3]
+[Au5em],[conn+288@STR38-C@CERT@fe-connect.c:3354],[fe-connect.c],[16:3354],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[conn+288],#PQpingParams()#,[16:3354:0:3]
+[Au5em],[conn+288@STR38-C@CERT@fe-connect.c:3354],[fe-connect.c],[16:3354],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[conn+288],#PQping()#,[16:3354:0:3]
+[Au5em],[conn->dbName@MSF@fe-connect.c:1370],[fe-connect.c],[16:1453],[Vul],[D],[MSF],[1,0,0],[conn->dbName],#PQsetdbLogin()#,[16:1370:0:9,16:1446:0:12,16:1453:0:3]
+[Au5em],[conn->pgpass@MSF@fe-connect.c:1429],[fe-connect.c],[16:1453],[Vul],[D],[MSF],[1,0,0],[conn->pgpass],#PQsetdbLogin()#,[16:1429:0:9,16:1446:0:12,16:1453:0:3]
+[Au5em],[conn->pguser@MSF@fe-connect.c:1420],[fe-connect.c],[16:1453],[Vul],[D],[MSF],[1,0,0],[conn->pguser],#PQsetdbLogin()#,[16:1420:0:9,16:1446:0:12,16:1453:0:3]
+[Au5em],[conn->pgtty@MSF@fe-connect.c:1411],[fe-connect.c],[16:1453],[Vul],[D],[MSF],[1,0,0],[conn->pgtty],#PQsetdbLogin()#,[16:1411:0:9,16:1446:0:12,16:1453:0:3]
+[Au5em],[conn->pgoptions@MSF@fe-connect.c:1402],[fe-connect.c],[16:1453],[Vul],[D],[MSF],[1,0,0],[conn->pgoptions],#PQsetdbLogin()#,[16:1402:0:9,16:1446:0:12,16:1453:0:3]
+[Au5em],[conn->pgport@MSF@fe-connect.c:1393],[fe-connect.c],[16:1453],[Vul],[D],[MSF],[1,0,0],[conn->pgport],#PQsetdbLogin()#,[16:1393:0:9,16:1446:0:12,16:1453:0:3]
+[Au5em],[conn->pghost@MSF@fe-connect.c:1384],[fe-connect.c],[16:1453],[Vul],[D],[MSF],[1,0,0],[conn->pghost],#PQsetdbLogin()#,[16:1384:0:9,16:1446:0:12,16:1453:0:3]
+[Au5em],[conn->dbName@MSF@fe-connect.c:1370],[fe-connect.c],[16:1453],[Vul],[D],[MSF],[1,0,0],[conn->dbName],#PQsetdbLogin()#,[16:1370:0:9,16:1438:0:12,16:1453:0:3]
+[Au5em],[conn->pgpass@MSF@fe-connect.c:1429],[fe-connect.c],[16:1453],[Vul],[D],[MSF],[1,0,0],[conn->pgpass],#PQsetdbLogin()#,[16:1429:0:9,16:1438:0:12,16:1453:0:3]
+[Au5em],[conn->pguser@MSF@fe-connect.c:1420],[fe-connect.c],[16:1453],[Vul],[D],[MSF],[1,0,0],[conn->pguser],#PQsetdbLogin()#,[16:1420:0:9,16:1438:0:12,16:1453:0:3]
+[Au5em],[conn->pgtty@MSF@fe-connect.c:1411],[fe-connect.c],[16:1453],[Vul],[D],[MSF],[1,0,0],[conn->pgtty],#PQsetdbLogin()#,[16:1411:0:9,16:1438:0:12,16:1453:0:3]
+[Au5em],[conn->pgoptions@MSF@fe-connect.c:1402],[fe-connect.c],[16:1453],[Vul],[D],[MSF],[1,0,0],[conn->pgoptions],#PQsetdbLogin()#,[16:1402:0:9,16:1438:0:12,16:1453:0:3]
+[Au5em],[conn->pgport@MSF@fe-connect.c:1393],[fe-connect.c],[16:1453],[Vul],[D],[MSF],[1,0,0],[conn->pgport],#PQsetdbLogin()#,[16:1393:0:9,16:1438:0:12,16:1453:0:3]
+[Au5em],[conn->pghost@MSF@fe-connect.c:1384],[fe-connect.c],[16:1453],[Vul],[D],[MSF],[1,0,0],[conn->pghost],#PQsetdbLogin()#,[16:1384:0:9,16:1438:0:12,16:1453:0:3]
+[Au5em],[conn@UDR@fe-connect.c:3703],[fe-connect.c],[16:3707],[Vul],[M],[UDR],[1,0,0],[conn],#PQfinish()#,[16:3707:0:3]
+[Au5em],[cancel@UDR@fe-connect.c:3847],[fe-connect.c],[16:3849],[Vul],[M],[UDR],[1,0,0],[cancel],#PQfreeCancel()#,[16:3849:0:3]
+[Au5em],[connOptions@UDR@fe-connect.c:6134],[fe-connect.c],[16:6145],[Vul],[M],[UDR],[1,0,0],[connOptions],#PQconninfoFree()#,[16:6145:0:3]
+[Au5em],[option->val@UDR@fe-connect.c:6134],[fe-connect.c],[16:6143],[Vul],[M],[UDR],[1,0,0],[option->val],#PQconninfoFree()#,[16:6143:0:3]
+[Au5em],[qbuf@AOB@fe-connect.c:6373],[fe-connect.c],[16:6373],[Vul],[M],[AOB],[1,0,0],[qbuf],#PQsetClientEncoding()#,[16:6373:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe-connect.c:6501],[fe-connect.c],[16:6501],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#defaultNoticeProcessor()#,[16:6501:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe-connect.c:6760],[fe-connect.c],[16:6760],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#default_threadlock()#,[16:6760:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe-connect.c:6755],[fe-connect.c],[16:6755],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#default_threadlock()#,[16:6755:0:3]

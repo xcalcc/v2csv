@@ -1,0 +1,210 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/usr/include/openssl/safestack.h"
+  },
+  {
+  "fid": 5,
+  "path": "/usr/include/openssl/stack.h"
+  },
+  {
+  "fid": 6,
+  "path": "/usr/include/openssl/crypto.h"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/openssl/bio.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/openssl/asn1.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/openssl/x509.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/openssl/lhash.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/openssl/x509_vfy.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/openssl/pkcs7.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/openssl/ct.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/openssl/ssl.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/openssl/err.h"
+  },
+  {
+  "fid": 16,
+  "path": "/usr/include/openssl/conf.h"
+  },
+  {
+  "fid": 17,
+  "path": "/usr/include/openssl/ui.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/openssl/x509v3.h"
+  },
+  {
+  "fid": 19,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/fe-secure-openssl.c"
+  },
+  {
+  "fid": 20,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/pqexpbuffer.h"
+  },
+  {
+  "fid": 22,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/../../../src/include/port.h"
+  },
+  {
+  "fid": 23,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/libpq-fe.h"
+  },
+  {
+  "fid": 25,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 26,
+  "path": "/usr/include/pthread.h"
+  },
+  {
+  "fid": 27,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/libpq-int.h"
+  },
+  {
+  "fid": 28,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 29,
+  "path": "/usr/include/sys/stat.h"
+  },
+  {
+  "fid": 30,
+  "path": "/usr/include/openssl/engine.h"
+  },
+  {
+  "fid": 31,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 32,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 33,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 34,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 35,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/../../../src/include/libpq/pqcomm.h"
+  },
+  {
+  "fid": 36,
+  "path": "/usr/include/openssl/ec.h"
+  },
+  {
+  "fid": 37,
+  "path": "/usr/include/openssl/rsa.h"
+  },
+  {
+  "fid": 38,
+  "path": "/usr/include/openssl/dh.h"
+  },
+  {
+  "fid": 39,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 40,
+  "path": "/usr/include/bits/getopt_core.h"
+  }
+]
+[Au5em],[name@STR38-C@CERT@fe-secure-openssl.c:524@fe-secure-openssl.c:510],[fe-secure-openssl.c],[19:524],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[name],#verify_peer_name_matches_certificate_name()#,[19:510:0:1,19:524:0:3]
+[Au5em],[pattern@STR38-C@CERT@fe-secure-openssl.c:436@fe-secure-openssl.c:510],[fe-secure-openssl.c],[19:436],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[pattern],#verify_peer_name_matches_certificate_name()#,[19:510:0:1,19:537:0:2,19:435:0:1,19:436:0:3]
+[Au5em],[string@STR38-C@CERT@fe-secure-openssl.c:437@fe-secure-openssl.c:486],[fe-secure-openssl.c],[19:437],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[string],#verify_peer_name_matches_certificate_name()#,[19:486:0:1,19:537:0:2,19:435:0:1,19:437:0:3]
+[Au5em],[alt_name@DBF@fe-secure-openssl.c:617@fe-secure-openssl.c:617],[fe-secure-openssl.c],[19:617],[Vul],[D],[DBF],[1,0,0],[alt_name],#verify_peer_name_matches_certificate()#,[19:617:0:10,19:617:0:17,19:621:0:17,19:595:0:17,19:617:0:3]
+[Au5em],[err@MSF@fe-secure-openssl.c:1453],[fe-secure-openssl.c],[19:1381],[Vul],[D],[MSF],[1,0,0],[err],#open_client_SSL()#,[19:1453:0:9,19:1363:0:18,19:1370:0:12,19:1381:0:3]
+[Au5em],[err@MSF@fe-secure-openssl.c:1453],[fe-secure-openssl.c],[19:1381],[Vul],[D],[MSF],[1,0,0],[err],#open_client_SSL()#,[19:1453:0:9,19:1333:0:18,19:1340:0:12,19:1381:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-secure-openssl.c:1467],[fe-secure-openssl.c],[19:1467],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#open_client_SSL()#,[19:1467:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-secure-openssl.c:1458],[fe-secure-openssl.c],[19:1458],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#open_client_SSL()#,[19:1458:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-secure-openssl.c:1467],[fe-secure-openssl.c],[19:1467],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#open_client_SSL()#,[19:1467:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-secure-openssl.c:1458],[fe-secure-openssl.c],[19:1458],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#open_client_SSL()#,[19:1458:0:3]
+[Au5em],[err@MSF@fe-secure-openssl.c:1453],[fe-secure-openssl.c],[19:1291],[Vul],[D],[MSF],[1,0,0],[err],#initialize_SSL()#,[19:1453:0:9,19:1072:0:18,19:1079:0:12,19:1291:0:3]
+[Au5em],[err@MSF@fe-secure-openssl.c:1453],[fe-secure-openssl.c],[19:1291],[Vul],[D],[MSF],[1,0,0],[err],#initialize_SSL()#,[19:1453:0:9,19:1097:0:18,19:1104:0:12,19:1291:0:3]
+[Au5em],[err@MSF@fe-secure-openssl.c:1453],[fe-secure-openssl.c],[19:1291],[Vul],[D],[MSF],[1,0,0],[err],#initialize_SSL()#,[19:1453:0:9,19:1263:0:18,19:1269:0:12,19:1291:0:3]
+[Au5em],[err@MSF@fe-secure-openssl.c:1453],[fe-secure-openssl.c],[19:1291],[Vul],[D],[MSF],[1,0,0],[err],#initialize_SSL()#,[19:1453:0:9,19:1249:0:18,19:1255:0:12,19:1291:0:3]
+[Au5em],[err@MSF@fe-secure-openssl.c:1453],[fe-secure-openssl.c],[19:1291],[Vul],[D],[MSF],[1,0,0],[err],#initialize_SSL()#,[19:1453:0:9,19:1193:0:18,19:1203:0:12,19:1291:0:3]
+[Au5em],[err@MSF@fe-secure-openssl.c:1453],[fe-secure-openssl.c],[19:1291],[Vul],[D],[MSF],[1,0,0],[err],#initialize_SSL()#,[19:1453:0:9,19:1179:0:18,19:1189:0:12,19:1291:0:3]
+[Au5em],[err@MSF@fe-secure-openssl.c:1453],[fe-secure-openssl.c],[19:1291],[Vul],[D],[MSF],[1,0,0],[err],#initialize_SSL()#,[19:1453:0:9,19:1163:0:18,19:1172:0:12,19:1291:0:3]
+[Au5em],[err@MSF@fe-secure-openssl.c:1453],[fe-secure-openssl.c],[19:1291],[Vul],[D],[MSF],[1,0,0],[err],#initialize_SSL()#,[19:1453:0:9,19:1151:0:18,19:1158:0:12,19:1291:0:3]
+[Au5em],[err@MSF@fe-secure-openssl.c:1453],[fe-secure-openssl.c],[19:1291],[Vul],[D],[MSF],[1,0,0],[err],#initialize_SSL()#,[19:1453:0:9,19:962:0:18,19:969:0:12,19:1291:0:3]
+[Au5em],[err@MSF@fe-secure-openssl.c:1453],[fe-secure-openssl.c],[19:1291],[Vul],[D],[MSF],[1,0,0],[err],#initialize_SSL()#,[19:1453:0:9,19:925:0:18,19:931:0:12,19:1291:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-secure-openssl.c:951],[fe-secure-openssl.c],[19:951],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#initialize_SSL()#,[19:951:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-secure-openssl.c:1037],[fe-secure-openssl.c],[19:1037],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#initialize_SSL()#,[19:1037:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-secure-openssl.c:1467],[fe-secure-openssl.c],[19:1467],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#initialize_SSL()#,[19:1467:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-secure-openssl.c:1458],[fe-secure-openssl.c],[19:1458],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#initialize_SSL()#,[19:1458:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-secure-openssl.c:1467],[fe-secure-openssl.c],[19:1467],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#initialize_SSL()#,[19:1467:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-secure-openssl.c:1458],[fe-secure-openssl.c],[19:1458],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#initialize_SSL()#,[19:1458:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-secure-openssl.c:1221],[fe-secure-openssl.c],[19:1221],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#initialize_SSL()#,[19:1221:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-secure-openssl.c:1467],[fe-secure-openssl.c],[19:1467],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#initialize_SSL()#,[19:1467:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-secure-openssl.c:1458],[fe-secure-openssl.c],[19:1458],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#initialize_SSL()#,[19:1458:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-secure-openssl.c:1467],[fe-secure-openssl.c],[19:1467],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#initialize_SSL()#,[19:1467:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-secure-openssl.c:1458],[fe-secure-openssl.c],[19:1458],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#initialize_SSL()#,[19:1458:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-secure-openssl.c:1467],[fe-secure-openssl.c],[19:1467],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#initialize_SSL()#,[19:1467:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-secure-openssl.c:1458],[fe-secure-openssl.c],[19:1458],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#initialize_SSL()#,[19:1458:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-secure-openssl.c:1467],[fe-secure-openssl.c],[19:1467],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#initialize_SSL()#,[19:1467:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-secure-openssl.c:1458],[fe-secure-openssl.c],[19:1458],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#initialize_SSL()#,[19:1458:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-secure-openssl.c:1467],[fe-secure-openssl.c],[19:1467],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#initialize_SSL()#,[19:1467:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-secure-openssl.c:1458],[fe-secure-openssl.c],[19:1458],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#initialize_SSL()#,[19:1458:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-secure-openssl.c:1467],[fe-secure-openssl.c],[19:1467],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#initialize_SSL()#,[19:1467:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-secure-openssl.c:1458],[fe-secure-openssl.c],[19:1458],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#initialize_SSL()#,[19:1458:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-secure-openssl.c:977],[fe-secure-openssl.c],[19:977],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#initialize_SSL()#,[19:977:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-secure-openssl.c:1467],[fe-secure-openssl.c],[19:1467],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#initialize_SSL()#,[19:1467:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-secure-openssl.c:1458],[fe-secure-openssl.c],[19:1458],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#initialize_SSL()#,[19:1458:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-secure-openssl.c:1467],[fe-secure-openssl.c],[19:1467],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#initialize_SSL()#,[19:1467:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-secure-openssl.c:1458],[fe-secure-openssl.c],[19:1458],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#initialize_SSL()#,[19:1458:0:3]
+[Au5em],[errm@MSF@fe-secure-openssl.c:1453],[fe-secure-openssl.c],[19:285],[Vul],[D],[MSF],[1,0,0],[errm],#pgtls_read()#,[19:1453:0:9,19:249:0:18,19:253:0:2,19:253:0:18,19:284:0:12,19:285:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-secure-openssl.c:1467],[fe-secure-openssl.c],[19:1467],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgtls_read()#,[19:1467:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-secure-openssl.c:1458],[fe-secure-openssl.c],[19:1458],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgtls_read()#,[19:1458:0:3]
+[Au5em],[errm@MSF@fe-secure-openssl.c:1453],[fe-secure-openssl.c],[19:394],[Vul],[D],[MSF],[1,0,0],[errm],#pgtls_write()#,[19:1453:0:9,19:358:0:18,19:362:0:2,19:362:0:18,19:393:0:12,19:394:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-secure-openssl.c:1467],[fe-secure-openssl.c],[19:1467],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgtls_write()#,[19:1467:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-secure-openssl.c:1458],[fe-secure-openssl.c],[19:1458],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgtls_write()#,[19:1458:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-secure-openssl.c:1543],[fe-secure-openssl.c],[19:1543],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#PQsslAttribute()#,[19:1543:0:3]

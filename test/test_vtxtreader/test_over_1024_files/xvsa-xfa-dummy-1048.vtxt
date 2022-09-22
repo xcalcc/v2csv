@@ -1,0 +1,58 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/common/ip.c"
+  },
+  {
+  "fid": 5,
+  "path": "/usr/include/netdb.h"
+  },
+  {
+  "fid": 6,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/../../../src/include/port.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/../../../src/include/libpq/pqcomm.h"
+  }
+]
+[Au5em],[unp@MSF@ip.c:200],[ip.c],[4:225],[Vul],[D],[MSF],[1,0,0],[unp],#getaddrinfo_unix()#,[4:200:0:9,4:224:0:12,4:225:0:3]
+[Au5em],[ret@ERR33-C@CERT@ip.c:253@ip.c:252],[ip.c],[4:252],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[ret],#pg_getnameinfo_all()#,[4:252:0:3,4:253:0:16]
+[Au5em],[ret@ERR33-C@CERT@ip.c:246@ip.c:245],[ip.c],[4:245],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[ret],#pg_getnameinfo_all()#,[4:245:0:3,4:246:0:16]

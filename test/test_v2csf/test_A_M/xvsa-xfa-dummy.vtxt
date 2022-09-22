@@ -1,0 +1,49 @@
+{"V", basel, 0.7}
+[
+  {
+  "fid": 1,
+  "path": "/home/jun/xc5/demo_benchmark/c_testcase/basic/uiv.c"
+  },
+  {
+  "fid": 2,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/libio.h"
+  },
+  {
+  "fid": 4,
+  "path": "/usr/include/x86_64-linux-gnu/bits/sys_errlist.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/jun/xc5/demo_benchmark/c_testcase/basic/npd.c"
+  },
+  {
+  "fid": 6,
+  "path": "/usr/include/x86_64-linux-gnu/bits/byteswap.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/jun/xc5/demo_benchmark/c_testcase/basic/dbf.c"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/jun/xc5/demo_benchmark/c_testcase/basic/aob.c"
+  },
+  {
+  "fid": 10,
+  "path": "/home/jun/xc5/demo_benchmark/c_testcase/basic/uaf.c"
+  },
+  {
+  "fid": 11,
+  "path": "/home/jun/xc5/demo_benchmark/c_testcase/basic/msf.c"
+  }
+]
+[basel00001],[b@UIV@uiv.c:9],[uiv.c],[2:11],[Vul],[A],[UIV],[1,0,0],[b],#test_UIV()#,[1:10:0:2,1:5:0:1,1:10:0:18,1:11:0:3]
+[basel00001],[b@UIV@uiv.c:9],[uiv.c],[2:11],[Vul],[M],[UIV],[1,0,0],[b],#test_UIV()#,[1:9:0:4,1:17:0:2,1:10:0:2,1:5:0:1,1:10:0:18,1:11:0:3]

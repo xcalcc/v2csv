@@ -1,0 +1,157 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/usr/include/openssl/safestack.h"
+  },
+  {
+  "fid": 5,
+  "path": "/usr/include/openssl/stack.h"
+  },
+  {
+  "fid": 6,
+  "path": "/usr/include/openssl/crypto.h"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/openssl/bio.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/openssl/asn1.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/openssl/x509.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/openssl/lhash.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/openssl/x509_vfy.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/openssl/pkcs7.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/openssl/ct.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/openssl/ssl.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/openssl/err.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/fe-misc.c"
+  },
+  {
+  "fid": 17,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/pqexpbuffer.h"
+  },
+  {
+  "fid": 19,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 20,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/libpq-int.h"
+  },
+  {
+  "fid": 21,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 22,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 23,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/../../../src/include/port.h"
+  },
+  {
+  "fid": 25,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 26,
+  "path": "/usr/include/sys/poll.h"
+  },
+  {
+  "fid": 27,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/../../../src/include/mb/pg_wchar.h"
+  },
+  {
+  "fid": 28,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 29,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 30,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 31,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 32,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/../../../src/include/libpq/pqcomm.h"
+  },
+  {
+  "fid": 33,
+  "path": "/usr/include/openssl/ec.h"
+  },
+  {
+  "fid": 34,
+  "path": "/usr/include/openssl/rsa.h"
+  },
+  {
+  "fid": 35,
+  "path": "/usr/include/openssl/dh.h"
+  }
+]
+[Au5em],[fprintf@ERR33-C@CERT@fe-misc.c:104],[fe-misc.c],[16:104],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#pqGetc()#,[16:104:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe-misc.c:120],[fe-misc.c],[16:120],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#pqPutc()#,[16:120:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe-misc.c:158],[fe-misc.c],[16:158],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#pqGets()#,[16:158:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe-misc.c:158],[fe-misc.c],[16:158],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#pqGets_append()#,[16:158:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe-misc.c:187],[fe-misc.c],[16:187],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#pqPuts()#,[16:187:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe-misc.c:209],[fe-misc.c],[16:209],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#pqGetnchar()#,[16:209:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe-misc.c:211],[fe-misc.c],[16:211],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#pqGetnchar()#,[16:211:0:3]
+[Au5em],[fputc@ERR33-C@CERT@fe-misc.c:84],[fe-misc.c],[16:84],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputc],#pqGetnchar()#,[16:84:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe-misc.c:233],[fe-misc.c],[16:233],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#pqSkipnchar()#,[16:233:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe-misc.c:235],[fe-misc.c],[16:235],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#pqSkipnchar()#,[16:235:0:3]
+[Au5em],[fputc@ERR33-C@CERT@fe-misc.c:84],[fe-misc.c],[16:84],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputc],#pqSkipnchar()#,[16:84:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe-misc.c:255],[fe-misc.c],[16:255],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#pqPutnchar()#,[16:255:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe-misc.c:257],[fe-misc.c],[16:257],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#pqPutnchar()#,[16:257:0:3]
+[Au5em],[fputc@ERR33-C@CERT@fe-misc.c:84],[fe-misc.c],[16:84],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputc],#pqPutnchar()#,[16:84:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe-misc.c:298],[fe-misc.c],[16:298],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#pqGetInt()#,[16:298:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe-misc.c:334],[fe-misc.c],[16:334],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#pqPutInt()#,[16:334:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe-misc.c:554],[fe-misc.c],[16:554],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#pqPutMsgStart()#,[16:554:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe-misc.c:592],[fe-misc.c],[16:592],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#pqPutMsgEnd()#,[16:592:0:3]

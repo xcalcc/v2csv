@@ -1,0 +1,52 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/mb/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/mb/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/mb/conv.c"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/mb/../../../../src/include/mb/pg_wchar.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/mb/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/netinet/in.h"
+  }
+]
+[Au5em],[RCD@conv.c:316@conv.c:316],[conv.c],[6:316],[Vul],[D],[RCD],[1,0,0],[],#compare4()#,[6:316:0:11,6:316:0:23,6:316:0:25,6:316:0:3]

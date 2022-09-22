@@ -1,0 +1,62 @@
+{"V", curre, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/home/jun/xc5/demo_benchmark/c_testcase/basic/uiv.c"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 4,
+  "path": "/usr/include/libio.h"
+  },
+  {
+  "fid": 5,
+  "path": "/usr/include/x86_64-linux-gnu/bits/sys_errlist.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/jun/xc5/demo_benchmark/c_testcase/basic/npd.c"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/x86_64-linux-gnu/bits/byteswap.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/jun/xc5/demo_benchmark/c_testcase/basic/dbf.c"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/jun/xc5/demo_benchmark/c_testcase/basic/aob.c"
+  },
+  {
+  "fid": 15,
+  "path": "/home/jun/xc5/demo_benchmark/c_testcase/basic/uaf.c"
+  },
+  {
+  "fid": 17,
+  "path": "/home/jun/xc5/demo_benchmark/c_testcase/basic/msf.c"
+  }
+]
+[curre],[b@UIV@uiv.c:9],[uiv.c],[2:11],[Vul],[D],[UIV],[1,0,0],[b],#test_UIV()#,[2:9:0:4,2:10:0:2,2:5:0:1,2:10:0:18,2:11:0:3]
+[curre],[b@UIV@uiv.c:9],[uiv.c],[2:11],[Vul],[D],[UIV],[1,0,0],[b],#test_UIV()#,[2:9:0:4,2:17:0:2,2:10:0:2,2:5:0:1,2:10:0:18,2:11:0:3]
+[curre],[b@NPD@npd.c:9],[npd.c],[7:13],[Vul],[D],[NPD],[1,0,0],[b],#test_NPD()#,[7:9:0:1,7:10:0:2,7:4:0:1,7:5:0:1,7:10:0:18,7:13:0:3]
+[curre],[p@DBF@dbf.c:8@dbf.c:7],[dbf.c],[10:8],[Vul],[D],[DBF],[1,0,0],[p],#func_1()#,[10:5:0:15,10:6:0:23,10:7:0:25,10:7:0:10,10:8:0:3]
+[curre],[p@DBF@dbf.c:15@dbf.c:14],[dbf.c],[10:15],[Vul],[D],[DBF],[1,0,0],[p],#func_2()#,[10:12:0:15,10:13:0:23,10:14:0:25,10:14:0:10,10:15:0:3]
+[curre],[MSC37-C@CERT@dbf.c:18],[dbf.c],[10:18],[Vul],[D],[RBC],[1,0,0],[CERT],[MSC37-C],[],#func_2()#,[10:18:0:3]
+[curre],[p@DBF@dbf.c:22],[dbf.c],[10:8],[Vul],[D],[DBF],[1,0,0],[p],#func_1()#,[10:22:0:9,10:23:0:24,10:23:0:26,10:29:0:2,10:7:0:10,10:8:0:3]
+[curre],[p@DBF@dbf.c:22],[dbf.c],[10:14],[Vul],[D],[DBF],[1,0,0],[p],#func_2()#,[10:22:0:9,10:23:0:24,10:23:0:26,10:29:0:2,10:8:0:10,10:29:0:18,10:30:0:2,10:14:0:3]
+[curre],[p@DBF@dbf.c:22],[dbf.c],[10:15],[Vul],[D],[DBF],[1,0,0],[p],#func_2()#,[10:22:0:9,10:23:0:24,10:23:0:26,10:30:0:2,10:14:0:10,10:15:0:3]
+[curre],[p@DBF@dbf.c:22],[dbf.c],[10:14],[Vul],[D],[DBF],[1,0,0],[p],#func_2()#,[10:22:0:9,10:23:0:24,10:23:0:26,10:30:0:2,10:15:0:10,10:30:0:18,10:31:0:2,10:14:0:3]
+[curre],[p@DBF@dbf.c:22],[dbf.c],[10:15],[Vul],[D],[DBF],[1,0,0],[p],#func_2()#,[10:22:0:9,10:23:0:24,10:23:0:26,10:31:0:2,10:14:0:10,10:15:0:3]
+[curre],[b@UIV@aob.c:11],[aob.c],[13:15],[Vul],[D],[UIV],[1,0,0],[b],#test_AOB()#,[13:11:0:4,13:12:0:2,13:5:0:1,13:12:0:18,13:15:0:3]
+[curre],[b@AOB@aob.c:15@aob.c:5],[aob.c],[13:15],[Vul],[D],[AOB],[1,0,0],[b],#test_AOB()#,[13:5:0:1,13:12:0:18,13:15:0:3]
+[curre],[q@UAF@uaf.c:13],[uaf.c],[15:26],[Vul],[D],[UAF],[1,0,0],[q],#test_UAF()#,[15:8:0:10,15:22:0:18,15:13:0:1,15:21:0:1,15:26:0:3]
+[curre],[p@MSF@msf.c:11],[msf.c],[17:26],[Vul],[D],[MSF],[1,0,0],[p],#test_MSF()#,[17:11:0:9,17:25:0:12,17:26:0:3]

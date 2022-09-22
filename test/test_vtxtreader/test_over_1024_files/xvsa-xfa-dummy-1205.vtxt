@@ -1,0 +1,88 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/preproc/preproc.y"
+  },
+  {
+  "fid": 5,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/preproc/extern.h"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/preproc/type.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/preproc/../../../../src/include/port.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/preproc/preproc.c"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/ctype.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 16,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/preproc/../../../../src/include/common/keywords.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/bits/getopt_core.h"
+  }
+]
+[Au5em],[fprintf@ERR33-C@CERT@preproc.y:76],[preproc.y],[4:76],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#vmmerror()#,[4:76:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@preproc.y:81],[preproc.y],[4:81],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#vmmerror()#,[4:81:0:3]
+[Au5em],[error@FIO30-C@CERT@preproc.y:88@preproc.y:114],[preproc.y],[4:88],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO30-C],[error],#vmmerror()#,[4:114:0:16,4:118:0:2,4:88:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@preproc.y:90],[preproc.y],[4:90],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#vmmerror()#,[4:90:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@preproc.y:84],[preproc.y],[4:84],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#vmmerror()#,[4:84:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@preproc.y:127],[preproc.y],[4:127],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#mmfatal()#,[4:127:0:3]
+[Au5em],[str1@UDR@preproc.y:137],[preproc.y],[4:144],[Vul],[M],[UDR],[1,0,0],[str1],#cat2_str()#,[4:144:0:3]
+[Au5em],[str2@UDR@preproc.y:137],[preproc.y],[4:145],[Vul],[M],[UDR],[1,0,0],[str2],#cat2_str()#,[4:145:0:3]
+[Au5em],[str1@UDR@preproc.y:171],[preproc.y],[4:176],[Vul],[M],[UDR],[1,0,0],[str1],#make2_str()#,[4:176:0:3]
+[Au5em],[str2@UDR@preproc.y:171],[preproc.y],[4:177],[Vul],[M],[UDR],[1,0,0],[str2],#make2_str()#,[4:177:0:3]
+[Au5em],[str1@UDR@preproc.y:183],[preproc.y],[4:189],[Vul],[M],[UDR],[1,0,0],[str1],#make3_str()#,[4:189:0:3]
+[Au5em],[str2@UDR@preproc.y:183],[preproc.y],[4:190],[Vul],[M],[UDR],[1,0,0],[str2],#make3_str()#,[4:190:0:3]
+[Au5em],[str3@UDR@preproc.y:183],[preproc.y],[4:191],[Vul],[M],[UDR],[1,0,0],[str3],#make3_str()#,[4:191:0:3]
+[Au5em],[var_text@AOB@preproc.y:470],[preproc.y],[4:470],[Vul],[M],[AOB],[1,0,0],[var_text],#adjust_outofscope_cursor_vars()#,[4:470:0:3]
+[Au5em],[var_text@AOB@preproc.y:383],[preproc.y],[4:383],[Vul],[M],[AOB],[1,0,0],[var_text],#adjust_outofscope_cursor_vars()#,[4:383:0:3]
+[Au5em],[strcmp_fn@UDR@preproc.y:502@preproc.y:502],[preproc.y],[4:502],[Vul],[D],[UDR],[1,0,0],[strcmp_fn],#add_additional_variables()#,[4:502:0:9,4:498:0:17,4:502:0:1,4:498:0:1,4:502:0:3]
+[Au5em],[strcmp_fn@UDR@preproc.y:502@preproc.y:502],[preproc.y],[4:502],[Vul],[D],[UDR],[1,0,0],[strcmp_fn],#add_additional_variables()#,[4:502:0:9,4:498:0:17,4:502:0:1,4:498:0:1,4:502:0:3]

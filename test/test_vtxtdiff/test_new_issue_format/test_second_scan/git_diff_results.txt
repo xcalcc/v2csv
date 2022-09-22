@@ -1,0 +1,6 @@
+diff --git a/dbf.c b/dbf.c
+index 9dd1dad..715e9f2 100644
+--- a/dbf.c
++++ b/dbf.c
+@@ -30 +29,0 @@ int test_DBF() {
+-  func_1(p);  /* free p the first time */

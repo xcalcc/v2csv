@@ -1,0 +1,46 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/ecpglib/prepare.c"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/ecpglib/extern.h"
+  },
+  {
+  "fid": 6,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/ecpglib/../../../../src/interfaces/libpq/libpq-fe.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/netinet/in.h"
+  }
+]
+[Au5em],[text@AOB@prepare.c:217@prepare.c:213],[prepare.c],[4:217],[Vul],[D],[AOB],[1,0,0],[text],#deallocate_one()#,[4:213:0:1,4:217:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@prepare.c:76],[prepare.c],[4:76],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#replace_variables()#,[4:76:0:3]
+[Au5em],[buffer@STR38-C@CERT@prepare.c:79@prepare.c:73],[prepare.c],[4:79],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[buffer],#replace_variables()#,[4:73:0:1,4:79:0:3]

@@ -1,0 +1,57 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/ecpglib/memory.c"
+  },
+  {
+  "fid": 5,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/ecpglib/extern.h"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/pthread.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/time.h"
+  }
+]
+[Au5em],[ptr@UDR@memory.c:14],[memory.c],[4:15],[Vul],[M],[UDR],[1,0,0],[ptr],#ecpg_free()#,[4:15:0:3]
+[Au5em],[ptr@UDR@memory.c:34],[memory.c],[4:35],[Vul],[M],[UDR],[1,0,0],[ptr],#ecpg_realloc()#,[4:35:0:3]
+[Au5em],[ptr@MSF@memory.c:21],[memory.c],[4:121],[Vul],[D],[MSF],[1,0,0],[ptr],#ecpg_auto_alloc()#,[4:21:0:9,4:110:0:18,4:120:0:12,4:121:0:3]
+[Au5em],[am@MSF@memory.c:21],[memory.c],[4:121],[Vul],[D],[MSF],[1,0,0],[am],#ecpg_auto_alloc()#,[4:21:0:9,4:126:0:18,4:115:0:18,4:120:0:12,4:121:0:3]
+[Au5em],[am@MSF@memory.c:21],[memory.c],[4:121],[Vul],[D],[MSF],[1,0,0],[am],#ecpg_auto_alloc()#,[4:21:0:9,4:126:0:18,4:115:0:18,4:118:0:12,4:121:0:3]
+[Au5em],[am@MSF@memory.c:21],[memory.c],[4:135],[Vul],[D],[MSF],[1,0,0],[am],#ecpg_add_mem()#,[4:21:0:9,4:126:0:18,4:134:0:12,4:135:0:3]

@@ -1,0 +1,90 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/controldata.c"
+  },
+  {
+  "fid": 5,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/../../../src/include/common/fe_memutils.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/pg_upgrade.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/../../../src/include/port.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/bits/getopt_core.h"
+  }
+]
+[Au5em],[snprintf@ERR33-C@CERT@controldata.c:120],[controldata.c],[4:120],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#get_control_data()#,[4:120:0:3]
+[Au5em],[cmd@STR02-C@CERT@controldata.c:127@controldata.c:35],[controldata.c],[4:127],[Vul],[D],[RBC],[1,0,0],[CERT],[STR02-C],[cmd],#get_control_data()#,[4:35:0:16,4:120:0:1,4:127:0:3]
+[Au5em],[fgets@FIO37-C@CERT@controldata.c:541@controldata.c:139],[controldata.c],[4:139],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO37-C],[fgets],#get_control_data()#,[4:139:0:3,4:454:0:17,4:477:0:17,4:481:0:17,4:484:0:17,4:487:0:17,4:490:0:17,4:493:0:17,4:497:0:17,4:500:0:17,4:503:0:17,4:506:0:17,4:509:0:17,4:512:0:17,4:515:0:17,4:518:0:17,4:521:0:17,4:524:0:17,4:527:0:17,4:530:0:17,4:534:0:17,4:538:0:17,4:541:0:16]
+[Au5em],[snprintf@ERR33-C@CERT@controldata.c:458],[controldata.c],[4:458],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#get_control_data()#,[4:458:0:3]
+[Au5em],[p@STR38-C@CERT@controldata.c:413@controldata.c:411],[controldata.c],[4:413],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[p],#get_control_data()#,[4:411:0:1,4:413:0:3]
+[Au5em],[p@STR38-C@CERT@controldata.c:402@controldata.c:400],[controldata.c],[4:402],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[p],#get_control_data()#,[4:400:0:1,4:402:0:3]
+[Au5em],[p@STR38-C@CERT@controldata.c:391@controldata.c:389],[controldata.c],[4:391],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[p],#get_control_data()#,[4:389:0:1,4:391:0:3]
+[Au5em],[p@STR38-C@CERT@controldata.c:380@controldata.c:378],[controldata.c],[4:380],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[p],#get_control_data()#,[4:378:0:1,4:380:0:3]
+[Au5em],[p@STR38-C@CERT@controldata.c:369@controldata.c:367],[controldata.c],[4:369],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[p],#get_control_data()#,[4:367:0:1,4:369:0:3]
+[Au5em],[p@STR38-C@CERT@controldata.c:358@controldata.c:356],[controldata.c],[4:358],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[p],#get_control_data()#,[4:356:0:1,4:358:0:3]
+[Au5em],[p@STR38-C@CERT@controldata.c:347@controldata.c:345],[controldata.c],[4:347],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[p],#get_control_data()#,[4:345:0:1,4:347:0:3]
+[Au5em],[p@STR38-C@CERT@controldata.c:336@controldata.c:334],[controldata.c],[4:336],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[p],#get_control_data()#,[4:334:0:1,4:336:0:3]
+[Au5em],[p@STR38-C@CERT@controldata.c:325@controldata.c:323],[controldata.c],[4:325],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[p],#get_control_data()#,[4:323:0:1,4:325:0:3]
+[Au5em],[p@STR38-C@CERT@controldata.c:314@controldata.c:312],[controldata.c],[4:314],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[p],#get_control_data()#,[4:312:0:1,4:314:0:3]
+[Au5em],[p@STR38-C@CERT@controldata.c:303@controldata.c:301],[controldata.c],[4:303],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[p],#get_control_data()#,[4:301:0:1,4:303:0:3]
+[Au5em],[p@STR38-C@CERT@controldata.c:291@controldata.c:289],[controldata.c],[4:291],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[p],#get_control_data()#,[4:289:0:1,4:291:0:3]
+[Au5em],[p@STR38-C@CERT@controldata.c:274@controldata.c:273],[controldata.c],[4:274],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[p],#get_control_data()#,[4:273:0:1,4:274:0:3]
+[Au5em],[p@STR38-C@CERT@controldata.c:277@controldata.c:276],[controldata.c],[4:277],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[p],#get_control_data()#,[4:276:0:1,4:277:0:3]
+[Au5em],[p@STR38-C@CERT@controldata.c:263@controldata.c:261],[controldata.c],[4:263],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[p],#get_control_data()#,[4:261:0:1,4:263:0:3]
+[Au5em],[p@STR38-C@CERT@controldata.c:252@controldata.c:250],[controldata.c],[4:252],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[p],#get_control_data()#,[4:250:0:1,4:252:0:3]
+[Au5em],[p@STR38-C@CERT@controldata.c:241@controldata.c:239],[controldata.c],[4:241],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[p],#get_control_data()#,[4:239:0:1,4:241:0:3]
+[Au5em],[p@STR38-C@CERT@controldata.c:230@controldata.c:228],[controldata.c],[4:230],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[p],#get_control_data()#,[4:228:0:1,4:230:0:3]
+[Au5em],[p@STR38-C@CERT@controldata.c:200@controldata.c:198],[controldata.c],[4:200],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[p],#get_control_data()#,[4:198:0:1,4:200:0:3]
+[Au5em],[p@STR38-C@CERT@controldata.c:189@controldata.c:187],[controldata.c],[4:189],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[p],#get_control_data()#,[4:187:0:1,4:189:0:3]
+[Au5em],[p@STR38-C@CERT@controldata.c:178@controldata.c:176],[controldata.c],[4:178],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[p],#get_control_data()#,[4:176:0:1,4:178:0:3]
+[Au5em],[p@STR38-C@CERT@controldata.c:167@controldata.c:165],[controldata.c],[4:167],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[p],#get_control_data()#,[4:165:0:1,4:167:0:3]
+[Au5em],[p@STR38-C@CERT@controldata.c:157@controldata.c:155],[controldata.c],[4:157],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[p],#get_control_data()#,[4:155:0:1,4:157:0:3]
+[Au5em],[fgets@FIO37-C@CERT@controldata.c:541@controldata.c:139],[controldata.c],[4:139],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO37-C],[fgets],#get_control_data()#,[4:139:0:3,4:139:0:17,4:454:0:17,4:477:0:17,4:481:0:17,4:484:0:17,4:487:0:17,4:490:0:17,4:493:0:17,4:497:0:17,4:500:0:17,4:503:0:17,4:506:0:17,4:509:0:17,4:512:0:17,4:515:0:17,4:518:0:17,4:521:0:17,4:524:0:17,4:527:0:17,4:530:0:17,4:534:0:17,4:538:0:17,4:541:0:16]
+[Au5em],[p@STR38-C@CERT@controldata.c:147@controldata.c:145],[controldata.c],[4:147],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[p],#get_control_data()#,[4:145:0:1,4:147:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@controldata.c:617],[controldata.c],[4:617],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#disable_old_cluster()#,[4:617:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@controldata.c:618],[controldata.c],[4:618],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#disable_old_cluster()#,[4:618:0:3]

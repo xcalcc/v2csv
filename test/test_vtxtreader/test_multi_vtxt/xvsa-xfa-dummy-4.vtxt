@@ -1,0 +1,17 @@
+{"V", A, 0.7}
+[
+  {
+  "fid": 1,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/ManagedBinding.java"
+  },
+  {
+  "fid": 2,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/ManagedBindingMBean.java"
+  },
+  {
+  "fid": 3,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/Manager.java"
+  }
+]
+[A10],[e@ERR08-J@CERT@Manager.java:72],[Manager.java],[3:72],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR08-J],[e],#com.google.inject.tools.jmx.Manager.manage(javax.management.MBeanServer, java.lang.String, com.google.inject.Injector)#,[3:72:0:3]
+[A10],[ENV06-J@CERT@Manager.java:84],[Manager.java],[3:84],[Vul],[M],[RBC],[1,0,0],[CERT],[ENV06-J],[],#com.google.inject.tools.jmx.Manager.main(java.lang.String[])#,[3:84:0:3]

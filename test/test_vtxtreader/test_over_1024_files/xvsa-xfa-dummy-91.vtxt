@@ -1,0 +1,62 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/misc/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/misc/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/misc/sampling.c"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/bits/mathcalls.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/misc/../../../../src/include/port.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/misc/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/math.h"
+  }
+]
+[Au5em],[random@MSC32-C@CERT@sampling.c:130@sampling.c:135],[sampling.c],[6:135],[Vul],[D],[RBC],[1,0,0],[CERT],[MSC32-C],[random],#reservoir_init_selection_state()#,[6:135:0:3,6:135:0:18,6:135:0:17,6:130:0:17]
+[Au5em],[random@MSC32-C@CERT@sampling.c:263@sampling.c:266],[sampling.c],[6:266],[Vul],[D],[RBC],[1,0,0],[CERT],[MSC32-C],[random],#anl_random_fract()#,[6:266:0:3,6:266:0:18,6:266:0:17,6:265:0:17,6:263:0:17]
+[Au5em],[random@MSC32-C@CERT@sampling.c:274@sampling.c:277],[sampling.c],[6:277],[Vul],[D],[RBC],[1,0,0],[CERT],[MSC32-C],[random],#anl_init_selection_state()#,[6:277:0:3,6:277:0:18,6:277:0:17,6:276:0:17,6:274:0:17]

@@ -1,0 +1,57 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/mb/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/mb/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/mb/wchar.c"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/mb/../../../../src/include/mb/pg_wchar.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/mb/../../../../src/include/postmaster/postmaster.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/mb/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/netinet/in.h"
+  }
+]
+[Au5em],[p@AOB@wchar.c:2083],[wchar.c],[6:2083],[Vul],[D],[AOB],[1,0,0],[p],#report_invalid_encoding()#,[6:2083:0:3]
+[Au5em],[p@AOB@wchar.c:2116],[wchar.c],[6:2116],[Vul],[D],[AOB],[1,0,0],[p],#report_untranslatable_char()#,[6:2116:0:3]

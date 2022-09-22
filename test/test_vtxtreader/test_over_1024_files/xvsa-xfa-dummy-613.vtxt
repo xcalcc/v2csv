@@ -1,0 +1,65 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/contrib/pgcrypto/px-crypt.c"
+  },
+  {
+  "fid": 7,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/contrib/pgcrypto/px-crypt.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 9,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/port.h"
+  },
+  {
+  "fid": 10,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/contrib/pgcrypto/px.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 15,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 16,
+  "path": "/usr/include/signal.h"
+  }
+]
+[Au5em],[res@STR38-C@CERT@px-crypt.c:105@px-crypt.c:104],[px-crypt.c],[6:105],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[res],#run_crypt_des()#,[6:104:0:1,6:105:0:3]
+[Au5em],[p@STR38-C@CERT@px-crypt.c:226@px-crypt.c:220],[px-crypt.c],[6:226],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[p],#px_gen_salt()#,[6:220:0:1,6:226:0:3]

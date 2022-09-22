@@ -1,0 +1,83 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/xc_maintenance_mode/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/xc_maintenance_mode/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/xc_maintenance_mode/../../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/xc_maintenance_mode/../../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/xc_maintenance_mode/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/xc_maintenance_mode/../../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/xc_maintenance_mode/../../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/xc_maintenance_mode/../../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/xc_maintenance_mode/../../../../src/include/tcop/dest.h"
+  },
+  {
+  "fid": 19,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/xc_maintenance_mode/../../../../src/include/utils/array.h"
+  },
+  {
+  "fid": 20,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/xc_maintenance_mode/../../../../src/include/utils/guc.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/xc_maintenance_mode/xc_maintenance_mode.c"
+  }
+]

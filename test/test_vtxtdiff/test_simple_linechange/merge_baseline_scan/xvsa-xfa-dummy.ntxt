@@ -1,0 +1,56 @@
+{"N", C1X6M, 0.7.2,0000000000000000000000000000000000000000000000000000000000000000}
+[
+  {
+  "fid": 1,
+  "path": "/home/xc5/jenkinsslave/workspace/basic_dsr_scan_cd_0616a/aob.c"
+  },
+  {
+  "fid": 2,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/x86_64-linux-gnu/bits/sys_errlist.h"
+  },
+  {
+  "fid": 4,
+  "path": "/usr/include/x86_64-linux-gnu/bits/byteswap.h"
+  },
+  {
+  "fid": 5,
+  "path": "/usr/include/x86_64-linux-gnu/bits/uintn-identity.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/jenkinsslave/workspace/basic_dsr_scan_cd_0616a/msf.c"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/jenkinsslave/workspace/basic_dsr_scan_cd_0616a/uiv.c"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/jenkinsslave/workspace/basic_dsr_scan_cd_0616a/dbf.c"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/jenkinsslave/workspace/basic_dsr_scan_cd_0616a/uaf.c"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/jenkinsslave/workspace/basic_dsr_scan_cd_0616a/npd.c"
+  }
+]
+[C1X6M00004],[a@UIV@uiv.c:9],[uiv.c],[8:11],[Vul],[D],[UIV],[1,0,0],[b],[main()],[8:9:0:4,8:10:0:2,8:5:0:1,8:10:0:18,8:11:0:3]
+[C1X6M00005],[MSC37-C@CERT@dbf.c:9],[dbf.c],[9:9],[Vul],[D],[RBC],[1,0,0],[CERT],[MSC37-C],[],[func_1()],[9:9:0:3]
+[C1X6M00002],[AOB@aob.c:14@aob.c:5],[aob.c],[1:14],[Vul],[D],[AOB],[1,0,0],[b],[main()],[1:5:0:1,1:11:0:18,1:14:0:3]
+[C1X6M00001],[a@UIV@aob.c:10],[aob.c],[1:14],[Vul],[M],[UIV],[1,0,0],[b],[main()],[1:10:0:4,1:11:0:2,1:5:0:1,1:11:0:18,1:14:0:3]
+[C1X6M00003],[@MSF@msf.c:11],[msf.c],[6:23],[Vul],[D],[MSF],[1,0,0],[p],[main()],[6:11:0:9,6:12:0:24,6:12:0:26,6:15:0:24,6:15:0:26,6:22:0:12,6:23:0:3]
+[C1X6M00007],[@DBF@dbf.c:13@dbf.c:7],[dbf.c],[9:13],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:19:0:9,9:20:0:24,9:20:0:26,9:25:0:2,9:7:0:10,9:25:0:18,9:26:0:2,9:13:0:3]
+[C1X6M00008],[@UAF@uaf.c:8],[uaf.c],[10:22],[Vul],[D],[UAF],[1,0,0],[*q+(i*4)],[main()],[10:8:0:10,10:19:0:18,10:22:0:3]
+[C1X6M00006],[MSC37-C@CERT@dbf.c:15],[dbf.c],[9:15],[Vul],[D],[RBC],[1,0,0],[CERT],[MSC37-C],[],[func_2()],[9:15:0:3]
+[C1X6M00009],[a@NPD@npd.c:9],[npd.c],[11:13],[Vul],[D],[NPD],[1,0,0],[b],[main()],[11:9:0:1,11:10:0:2,11:4:0:1,11:5:0:1,11:10:0:18,11:13:0:3]

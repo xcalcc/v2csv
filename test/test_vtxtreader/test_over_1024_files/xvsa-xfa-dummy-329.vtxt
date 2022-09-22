@@ -1,0 +1,61 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/contrib/pgcrypto/crypt-des.c"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 8,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/miscadmin.h"
+  },
+  {
+  "fid": 9,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 15,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/pgtime.h"
+  }
+]
+[Au5em],[de_keysl@AOB@crypt-des.c:522],[crypt-des.c],[6:522],[Vul],[D],[AOB],[1,0,0],[de_keysl],#des_setkey()#,[6:522:0:3]
+[Au5em],[de_keysr@AOB@crypt-des.c:532],[crypt-des.c],[6:532],[Vul],[D],[AOB],[1,0,0],[de_keysr],#des_setkey()#,[6:532:0:3]

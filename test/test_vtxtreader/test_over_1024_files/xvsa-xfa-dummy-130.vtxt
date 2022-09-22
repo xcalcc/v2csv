@@ -1,0 +1,183 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/indxpath.c"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/optimizer/pathnode.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/optimizer/paths.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/nodes/bitmapset.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/optimizer/predtest.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/optimizer/restrictinfo.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/optimizer/clauses.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/optimizer/cost.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/port.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/nodes/nodes.h"
+  },
+  {
+  "fid": 19,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/optimizer/var.h"
+  },
+  {
+  "fid": 20,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/utils/selfuncs.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/utils/lsyscache.h"
+  },
+  {
+  "fid": 22,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/optimizer/prep.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/utils/pg_locale.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/nodes/makefuncs.h"
+  },
+  {
+  "fid": 25,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/utils/builtins.h"
+  },
+  {
+  "fid": 26,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 27,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/utils/fmgrprotos.h"
+  },
+  {
+  "fid": 28,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 29,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 30,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 31,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 32,
+  "path": "/usr/include/math.h"
+  },
+  {
+  "fid": 33,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/catalog/pg_type.h"
+  },
+  {
+  "fid": 34,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 35,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 36,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/utils/bytea.h"
+  },
+  {
+  "fid": 37,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/tcop/dest.h"
+  },
+  {
+  "fid": 38,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/utils/array.h"
+  },
+  {
+  "fid": 39,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/utils/guc.h"
+  }
+]
+[Au5em],[0x0@NPD@pg_list.h:79],[indxpath.c],[8:2501],[Vul],[M],[NPD],[1,0,0],[0x0],#match_rowcompare_to_indexcol()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:2501:0:18,8:2501:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[indxpath.c],[8:2502],[Vul],[M],[NPD],[1,0,0],[0x0],#match_rowcompare_to_indexcol()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:2502:0:18,8:2502:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[indxpath.c],[8:2503],[Vul],[M],[NPD],[1,0,0],[0x0],#match_rowcompare_to_indexcol()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:2503:0:18,8:2503:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[indxpath.c],[8:2507],[Vul],[M],[NPD],[1,0,0],[0x0],#match_rowcompare_to_indexcol()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:2504:0:18,8:2507:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[indxpath.c],[8:2375],[Vul],[M],[NPD],[1,0,0],[0x0],#match_clause_to_indexcol()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:2375:0:18,8:2375:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[indxpath.c],[8:2376],[Vul],[M],[NPD],[1,0,0],[0x0],#match_clause_to_indexcol()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:2376:0:18,8:2376:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[indxpath.c],[8:1566],[Vul],[M],[NPD],[1,0,0],[0x0],#choose_bitmap_and()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:1566:0:18,8:1566:0:3]
+[Au5em],[lastcell@NPD@pg_list.h:79],[indxpath.c],[8:1549],[Vul],[M],[NPD],[1,0,0],[lastcell],#choose_bitmap_and()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:1503:0:18,8:1503:0:1,8:1505:0:23,8:1505:0:25,8:1505:0:17,8:1549:0:3]
+[Au5em],[lastcell@NPD@pg_list.h:79],[indxpath.c],[8:1544],[Vul],[M],[NPD],[1,0,0],[lastcell],#choose_bitmap_and()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:1503:0:18,8:1503:0:1,8:1505:0:23,8:1505:0:25,8:1505:0:17,8:1544:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[indxpath.c],[8:1386],[Vul],[M],[NPD],[1,0,0],[0x0],#choose_bitmap_and()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:1386:0:18,8:1386:0:3]
+[Au5em],[RCD@indxpath.c:1589@indxpath.c:1587],[indxpath.c],[8:1589],[Vul],[D],[RCD],[1,0,0],[],#path_usage_comparator()#,[8:1587:0:11,8:1587:0:24,8:1587:0:26,8:1589:0:3]
+[Au5em],[RCD@indxpath.c:1594@indxpath.c:1592],[indxpath.c],[8:1594],[Vul],[D],[RCD],[1,0,0],[],#path_usage_comparator()#,[8:1592:0:11,8:1592:0:24,8:1592:0:26,8:1594:0:3]
+[Au5em],[RCD@indxpath.c:1594@indxpath.c:1592],[indxpath.c],[8:1594],[Vul],[D],[RCD],[1,0,0],[],#path_usage_comparator()#,[8:1592:0:11,8:1592:0:24,8:1592:0:26,8:1594:0:3]
+[Au5em],[RCD@indxpath.c:1589@indxpath.c:1587],[indxpath.c],[8:1589],[Vul],[D],[RCD],[1,0,0],[],#path_usage_comparator()#,[8:1587:0:11,8:1587:0:24,8:1587:0:26,8:1589:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[indxpath.c],[8:3858],[Vul],[M],[NPD],[1,0,0],[0x0],#adjust_rowcompare_for_index()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:3858:0:18,8:3858:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[indxpath.c],[8:3865],[Vul],[M],[NPD],[1,0,0],[0x0],#adjust_rowcompare_for_index()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:3865:0:18,8:3865:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[indxpath.c],[8:3888],[Vul],[M],[NPD],[1,0,0],[0x0],#adjust_rowcompare_for_index()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:3888:0:18,8:3888:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[indxpath.c],[8:3889],[Vul],[M],[NPD],[1,0,0],[0x0],#adjust_rowcompare_for_index()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:3889:0:18,8:3889:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[indxpath.c],[8:3890],[Vul],[M],[NPD],[1,0,0],[0x0],#adjust_rowcompare_for_index()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:3890:0:18,8:3890:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[indxpath.c],[8:3891],[Vul],[M],[NPD],[1,0,0],[0x0],#adjust_rowcompare_for_index()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:3891:0:18,8:3891:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[indxpath.c],[8:4031],[Vul],[M],[NPD],[1,0,0],[0x0],#adjust_rowcompare_for_index()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:4031:0:18,8:4031:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[indxpath.c],[8:4031],[Vul],[M],[NPD],[1,0,0],[0x0],#adjust_rowcompare_for_index()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:4031:0:18,8:4031:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[indxpath.c],[8:4031],[Vul],[M],[NPD],[1,0,0],[0x0],#adjust_rowcompare_for_index()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:4031:0:18,8:4031:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[indxpath.c],[8:4031],[Vul],[M],[NPD],[1,0,0],[0x0],#adjust_rowcompare_for_index()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:4031:0:18,8:4031:0:3]
+[Au5em],[lefttypes_cell@NPD@pg_list.h:79],[indxpath.c],[8:3987],[Vul],[M],[NPD],[1,0,0],[lefttypes_cell],#adjust_rowcompare_for_index()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:3982:0:18,8:3982:0:1,8:3984:0:23,8:3984:0:25,8:3984:0:17,8:3987:0:3]
+[Au5em],[righttypes_cell@NPD@pg_list.h:79],[indxpath.c],[8:3988],[Vul],[M],[NPD],[1,0,0],[righttypes_cell],#adjust_rowcompare_for_index()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:3983:0:18,8:3983:0:1,8:3984:0:23,8:3984:0:25,8:3984:0:17,8:3988:0:3]
+[Au5em],[lefttypes_cell@NPD@pg_list.h:79],[indxpath.c],[8:4003],[Vul],[M],[NPD],[1,0,0],[lefttypes_cell],#adjust_rowcompare_for_index()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:3982:0:18,8:3982:0:1,8:3984:0:23,8:3984:0:25,8:3984:0:17,8:4003:0:3]
+[Au5em],[righttypes_cell@NPD@pg_list.h:79],[indxpath.c],[8:4004],[Vul],[M],[NPD],[1,0,0],[righttypes_cell],#adjust_rowcompare_for_index()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:3983:0:18,8:3983:0:1,8:3984:0:23,8:3984:0:25,8:3984:0:17,8:4004:0:3]

@@ -1,0 +1,10 @@
+diff --git a/c_testcase/basic/dbf.c b/c_testcase/basic/dbf.c
+index c3df83f..dc02d9c 100644
+--- a/c_testcase/basic/dbf.c
++++ b/c_testcase/basic/dbf.c
+@@ -7,0 +8 @@ void func_1(void *p) {
++    free(p);   /* free p */
+@@ -13,0 +15 @@ int func_2(void *p) {
++    free(p);  /* free p */
+@@ -28,0 +31 @@ int test_DBF() {
++  func_2(q);  /* free p the second time. Double Free */

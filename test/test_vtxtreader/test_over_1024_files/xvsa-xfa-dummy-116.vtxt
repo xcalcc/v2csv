@@ -1,0 +1,311 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/port/atomics/arch-x86.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/port/atomics/generic-gcc.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/port/atomics/generic.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/port/atomics.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/storage/bufpage.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/storage/s_lock.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/utils/rel.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/utils/snapmgr.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/miscadmin.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/storage/bufmgr.h"
+  },
+  {
+  "fid": 19,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/utils/tqual.h"
+  },
+  {
+  "fid": 20,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/utils/memutils.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/locator.c"
+  },
+  {
+  "fid": 22,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/pgxc/pgxcnode.h"
+  },
+  {
+  "fid": 23,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/pgxc/nodemgr.h"
+  },
+  {
+  "fid": 25,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/nodes/bitmapset.h"
+  },
+  {
+  "fid": 26,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 27,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/access/heapam.h"
+  },
+  {
+  "fid": 28,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/pgxc/pgxc.h"
+  },
+  {
+  "fid": 29,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/access/skey.h"
+  },
+  {
+  "fid": 30,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/access/genam.h"
+  },
+  {
+  "fid": 31,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/utils/lsyscache.h"
+  },
+  {
+  "fid": 32,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/pgxc/shardmap.h"
+  },
+  {
+  "fid": 33,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/catalog/pgxc_key_values.h"
+  },
+  {
+  "fid": 34,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/utils/fmgrprotos.h"
+  },
+  {
+  "fid": 35,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/utils/varbit.h"
+  },
+  {
+  "fid": 36,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 37,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/access/hash.h"
+  },
+  {
+  "fid": 38,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/parser/parse_coerce.h"
+  },
+  {
+  "fid": 39,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/nodes/nodeFuncs.h"
+  },
+  {
+  "fid": 40,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/optimizer/clauses.h"
+  },
+  {
+  "fid": 41,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/utils/timestamp.h"
+  },
+  {
+  "fid": 42,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 43,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 44,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 45,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 46,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 47,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 48,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/access/gtm.h"
+  },
+  {
+  "fid": 49,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/storage/dsm_impl.h"
+  },
+  {
+  "fid": 50,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 51,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 52,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/common/relpath.h"
+  },
+  {
+  "fid": 53,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/storage/backendid.h"
+  },
+  {
+  "fid": 54,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/access/transam.h"
+  },
+  {
+  "fid": 55,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/access/relscan.h"
+  },
+  {
+  "fid": 56,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/pgtime.h"
+  },
+  {
+  "fid": 57,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/catalog/pg_class.h"
+  },
+  {
+  "fid": 58,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/utils/builtins.h"
+  },
+  {
+  "fid": 59,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/storage/fd.h"
+  },
+  {
+  "fid": 60,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/access/xlog.h"
+  },
+  {
+  "fid": 61,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/utils/array.h"
+  },
+  {
+  "fid": 62,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/catalog/objectaddress.h"
+  },
+  {
+  "fid": 63,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 64,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 65,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/storage/lwlock.h"
+  },
+  {
+  "fid": 66,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/storage/lock.h"
+  },
+  {
+  "fid": 67,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/catalog/namespace.h"
+  },
+  {
+  "fid": 68,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/locator/../../../../src/include/utils/resowner.h"
+  },
+  {
+  "fid": 69,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 70,
+  "path": "/usr/include/math.h"
+  }
+]
+[Au5em],[0@DBZ@pg_list.h:91],[locator.c],[21:227],[Vul],[M],[DBZ],[1,0,0],[0],#GetPreferredReplicationNode()#,[10:91:0:1,10:91:0:17,10:91:0:1,21:227:0:18,21:227:0:3]
+[Au5em],[random@MSC32-C@CERT@locator.c:204@locator.c:227],[locator.c],[21:227],[Vul],[D],[RBC],[1,0,0],[CERT],[MSC32-C],[random],#GetPreferredReplicationNode()#,[21:227:0:3,21:227:0:17,21:226:0:17,21:224:0:17,21:217:0:17,21:215:0:17,21:211:0:2,21:211:0:17,10:79:0:17,21:211:0:18,21:211:0:17,21:208:0:2,21:208:0:17,10:91:0:17,21:208:0:18,21:208:0:17,21:204:0:17]
+[Au5em],[random@MSC32-C@CERT@locator.c:239@locator.c:281],[locator.c],[21:281],[Vul],[D],[RBC],[1,0,0],[CERT],[MSC32-C],[random],#GetAnyDataNode()#,[21:281:0:3,21:281:0:17,21:271:0:17,21:266:0:17,21:260:0:17,21:259:0:17,21:243:0:17,21:239:0:17]
+[Au5em],[strncpy@STR32-C@CERT@locator.c:449],[locator.c],[21:449],[Vul],[M],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#GetRelationDistColumn()#,[21:449:0:3]
+[Au5em],[column_str@STR38-C@CERT@locator.c:449@locator.c:448],[locator.c],[21:449],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[column_str],#GetRelationDistColumn()#,[21:448:0:1,21:449:0:3]
+[Au5em],[strncpy@STR32-C@CERT@locator.c:388],[locator.c],[21:388],[Vul],[M],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#GetRelationDistColumn()#,[21:388:0:3]
+[Au5em],[column_str@STR38-C@CERT@locator.c:388@locator.c:387],[locator.c],[21:388],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[column_str],#GetRelationDistColumn()#,[21:387:0:1,21:388:0:3]
+[Au5em],[strncpy@STR32-C@CERT@locator.c:388],[locator.c],[21:388],[Vul],[M],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#GetRelationHashColumn()#,[21:388:0:3]
+[Au5em],[column_str@STR38-C@CERT@locator.c:388@locator.c:387],[locator.c],[21:388],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[column_str],#GetRelationHashColumn()#,[21:387:0:1,21:388:0:3]
+[Au5em],[strncpy@STR32-C@CERT@locator.c:449],[locator.c],[21:449],[Vul],[M],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#GetRelationModuloColumn()#,[21:449:0:3]
+[Au5em],[column_str@STR38-C@CERT@locator.c:449@locator.c:448],[locator.c],[21:449],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[column_str],#GetRelationModuloColumn()#,[21:448:0:1,21:449:0:3]
+[Au5em],[relationLocInfo->rl_nodeList@NPD@locator.c:721],[locator.c],[21:824],[Vul],[D],[NPD],[1,0,0],[relationLocInfo->rl_nodeList],#RelationBuildLocator()#,[21:750:0:17,21:762:0:17,21:778:0:17,21:814:0:17,21:824:0:3]
+[Au5em],[relationLocInfo->rl_nodeList@NPD@locator.c:721],[locator.c],[21:824],[Vul],[D],[NPD],[1,0,0],[relationLocInfo->rl_nodeList],#RelationBuildLocator()#,[21:799:0:17,21:824:0:3]
+[Au5em],[denominator@DBZ@pg_list.h:91],[locator.c],[21:825],[Vul],[M],[DBZ],[1,0,0],[denominator],#RelationBuildLocator()#,[10:91:0:1,10:91:0:17,21:822:0:18,21:290:0:1,21:822:0:18,21:825:0:3]
+[Au5em],[rand@MSC30-C@CERT@locator.c:822],[locator.c],[21:822],[Vul],[D],[RBC],[1,0,0],[CERT],[MSC30-C],[rand],#RelationBuildLocator()#,[21:822:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[locator.c],[21:2831],[Vul],[M],[NPD],[1,0,0],[0x0],#pgxc_find_distcol_expr()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:2831:0:18,21:2831:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[locator.c],[21:2832],[Vul],[M],[NPD],[1,0,0],[0x0],#pgxc_find_distcol_expr()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:2832:0:18,21:2832:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[locator.c],[21:3012],[Vul],[M],[NPD],[1,0,0],[0x0],#pgxc_find_distcol_exprs()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:3012:0:18,21:3012:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[locator.c],[21:3013],[Vul],[M],[NPD],[1,0,0],[0x0],#pgxc_find_distcol_exprs()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:3013:0:18,21:3013:0:3]
+[Au5em],[rand@MSC30-C@CERT@locator.c:1355],[locator.c],[21:1355],[Vul],[D],[RBC],[1,0,0],[CERT],[MSC30-C],[rand],#createLocator()#,[21:1355:0:3]
+[Au5em],[rand@MSC30-C@CERT@locator.c:1576],[locator.c],[21:1576],[Vul],[D],[RBC],[1,0,0],[CERT],[MSC30-C],[rand],#locate_modulo_random()#,[21:1576:0:3]
+[Au5em],[exec_nodes@NPD@locator.c:3127],[locator.c],[21:2664],[Vul],[M],[NPD],[1,0,0],[exec_nodes],#GetRelationNodesByQuals()#,[21:3127:0:1,21:3127:0:17,21:2660:0:18,21:2660:0:1,21:2664:0:3]
+[Au5em],[opArray+(i*4)@NPD@locator.c:2351],[locator.c],[21:2944],[Vul],[M],[NPD],[1,0,0],[opArray+(i*4)],#TimeStampRange()#,[21:2351:0:1,21:2371:0:23,21:2373:0:26,21:2365:0:24,21:2365:0:26,21:2371:0:23,21:2373:0:26,21:2402:0:23,21:2404:0:25,21:2409:0:24,21:2409:0:26,21:2409:0:17,21:2402:0:17,21:2499:0:2,21:2944:0:3]
+[Au5em],[opArray+(i*4)@NPD@locator.c:2351],[locator.c],[21:2503],[Vul],[M],[NPD],[1,0,0],[opArray+(i*4)],#GetRelationNodesByQuals()#,[21:2351:0:1,21:2371:0:23,21:2373:0:26,21:2365:0:24,21:2365:0:26,21:2371:0:23,21:2373:0:26,21:2402:0:23,21:2404:0:25,21:2409:0:24,21:2409:0:26,21:2409:0:17,21:2402:0:17,21:2503:0:3]
+[Au5em],[opArray+(i*4)@NPD@locator.c:2351],[locator.c],[21:2549],[Vul],[M],[NPD],[1,0,0],[opArray+(i*4)],#GetRelationNodesByQuals()#,[21:2351:0:1,21:2371:0:23,21:2373:0:26,21:2365:0:24,21:2365:0:26,21:2371:0:23,21:2373:0:26,21:2402:0:23,21:2404:0:25,21:2409:0:24,21:2409:0:26,21:2409:0:17,21:2402:0:17,21:2549:0:3]
+[Au5em],[opArray+(i*4)@NPD@locator.c:2351],[locator.c],[21:2566],[Vul],[M],[NPD],[1,0,0],[opArray+(i*4)],#GetRelationNodesByQuals()#,[21:2351:0:1,21:2371:0:23,21:2373:0:26,21:2365:0:24,21:2365:0:26,21:2371:0:23,21:2373:0:26,21:2402:0:23,21:2404:0:25,21:2409:0:24,21:2409:0:26,21:2409:0:17,21:2402:0:17,21:2566:0:3]
+[Au5em],[opArray+(i*4)@NPD@locator.c:2351],[locator.c],[21:2583],[Vul],[M],[NPD],[1,0,0],[opArray+(i*4)],#GetRelationNodesByQuals()#,[21:2351:0:1,21:2371:0:23,21:2373:0:26,21:2365:0:24,21:2365:0:26,21:2371:0:23,21:2373:0:26,21:2402:0:23,21:2404:0:25,21:2409:0:24,21:2409:0:26,21:2409:0:17,21:2402:0:17,21:2583:0:3]
+[Au5em],[i+isswapArray@NPD@locator.c:2352],[locator.c],[21:2587],[Vul],[M],[NPD],[1,0,0],[i+isswapArray],#GetRelationNodesByQuals()#,[21:2352:0:1,21:2371:0:23,21:2373:0:26,21:2365:0:24,21:2365:0:26,21:2371:0:23,21:2373:0:26,21:2402:0:23,21:2404:0:25,21:2409:0:24,21:2409:0:26,21:2409:0:17,21:2402:0:17,21:2587:0:3]
+[Au5em],[i+isswapArray@NPD@locator.c:2352],[locator.c],[21:2568],[Vul],[M],[NPD],[1,0,0],[i+isswapArray],#GetRelationNodesByQuals()#,[21:2352:0:1,21:2371:0:23,21:2373:0:26,21:2365:0:24,21:2365:0:26,21:2371:0:23,21:2373:0:26,21:2402:0:23,21:2404:0:25,21:2409:0:24,21:2409:0:26,21:2409:0:17,21:2402:0:17,21:2568:0:3]
+[Au5em],[i+isswapArray@NPD@locator.c:2352],[locator.c],[21:2551],[Vul],[M],[NPD],[1,0,0],[i+isswapArray],#GetRelationNodesByQuals()#,[21:2352:0:1,21:2371:0:23,21:2373:0:26,21:2365:0:24,21:2365:0:26,21:2371:0:23,21:2373:0:26,21:2402:0:23,21:2404:0:25,21:2409:0:24,21:2409:0:26,21:2409:0:17,21:2402:0:17,21:2551:0:3]
+[Au5em],[i+isswapArray@NPD@locator.c:2352],[locator.c],[21:2507],[Vul],[M],[NPD],[1,0,0],[i+isswapArray],#GetRelationNodesByQuals()#,[21:2352:0:1,21:2371:0:23,21:2373:0:26,21:2365:0:24,21:2365:0:26,21:2371:0:23,21:2373:0:26,21:2402:0:23,21:2404:0:25,21:2409:0:24,21:2409:0:26,21:2409:0:17,21:2402:0:17,21:2507:0:3]
+[Au5em],[opArray+(i*4)@NPD@locator.c:2351],[locator.c],[21:2944],[Vul],[M],[NPD],[1,0,0],[opArray+(i*4)],#TimeStampRange()#,[21:2351:0:1,21:2371:0:23,21:2373:0:26,21:2365:0:24,21:2365:0:26,21:2371:0:23,21:2373:0:26,21:2402:0:23,21:2404:0:25,21:2409:0:24,21:2409:0:26,21:2409:0:17,21:2402:0:17,21:2482:0:2,21:2944:0:3]

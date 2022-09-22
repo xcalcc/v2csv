@@ -1,0 +1,136 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/memutils.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/spell.c"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/tsearch/ts_locale.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/mb/pg_wchar.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/tsearch/dicts/regis.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/regex/regex.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 19,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/port.h"
+  },
+  {
+  "fid": 20,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 21,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 22,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/catalog/pg_collation.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/tsearch/ts_type.h"
+  },
+  {
+  "fid": 25,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 26,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 27,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/tcop/dest.h"
+  },
+  {
+  "fid": 28,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/array.h"
+  },
+  {
+  "fid": 29,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/guc.h"
+  },
+  {
+  "fid": 30,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/pg_locale.h"
+  }
+]
+[Au5em],[RCD@spell.c:265@spell.c:263],[spell.c],[9:265],[Vul],[D],[RCD],[1,0,0],[],#strbcmp()#,[9:263:0:11,9:263:0:24,9:265:0:26,9:265:0:3]
+[Au5em],[RCD@spell.c:265@spell.c:263],[spell.c],[9:265],[Vul],[D],[RCD],[1,0,0],[],#strbcmp()#,[9:263:0:11,9:263:0:24,9:265:0:26,9:265:0:3]
+[Au5em],[tmask@AOB@spell.c:724@spell.c:720],[spell.c],[9:724],[Vul],[D],[AOB],[1,0,0],[tmask],#NIAddAffix()#,[9:720:0:1,9:724:0:3]
+[Au5em],[tmask@STR38-C@CERT@spell.c:726@spell.c:720],[spell.c],[9:726],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[tmask],#NIAddAffix()#,[9:720:0:1,9:726:0:3]
+[Au5em],[tmask@AOB@spell.c:722@spell.c:720],[spell.c],[9:722],[Vul],[D],[AOB],[1,0,0],[tmask],#NIAddAffix()#,[9:720:0:1,9:722:0:3]
+[Au5em],[end@UIV@spell.c:1155],[spell.c],[9:1158],[Vul],[D],[UIV],[1,0,0],[end],#getAffixFlagSet()#,[9:1155:0:4,9:1152:0:23,9:1157:0:25,9:1158:0:3]
+[Au5em],[next@UIV@spell.c:351],[spell.c],[9:377],[Vul],[D],[UIV],[1,0,0],[next],#getNextFlagFromString()#,[9:351:0:4,9:359:0:23,9:359:0:25,9:359:0:17,9:377:0:3]
+[Au5em],[sflag@AOB@spell.c:386],[spell.c],[9:386],[Vul],[D],[AOB],[1,0,0],[sflag],#getNextFlagFromString()#,[9:386:0:3]
+[Au5em],[next@UIV@spell.c:1027],[spell.c],[9:1031],[Vul],[D],[UIV],[1,0,0],[next],#setCompoundAffixFlagValue()#,[9:1027:0:4,9:1025:0:23,9:1030:0:25,9:1031:0:3]
+[Au5em],[*ptr@AOB@spell.c:1585@spell.c:1582],[spell.c],[9:1585],[Vul],[D],[AOB],[1,0,0],[*ptr],#MergeAffix()#,[9:1582:0:1,9:1585:0:3]
+[Au5em],[*ptr@AOB@spell.c:1578@spell.c:1575],[spell.c],[9:1578],[Vul],[D],[AOB],[1,0,0],[*ptr],#MergeAffix()#,[9:1575:0:1,9:1578:0:3]
+[Au5em],[end@UIV@spell.c:1713],[spell.c],[9:1718],[Vul],[D],[UIV],[1,0,0],[end],#NISortDictionary()#,[9:1713:0:4,9:1709:0:23,9:1711:0:25,9:1711:0:23,9:1711:0:25,9:1711:0:17,9:1718:0:3]
+[Au5em],[word@AOB@spell.c:2012@spell.c:2387],[spell.c],[9:2012],[Vul],[M],[AOB],[1,0,0],[word],#FindAffixes()#,[9:2387:0:2,9:2140:0:4,9:2175:0:2,9:1998:0:23,9:2000:0:25,9:2175:0:18,9:2156:0:24,9:2156:0:26,9:2173:0:23,9:2173:0:25,9:2175:0:2,9:2028:0:23,9:2005:0:25,9:2009:0:23,9:2009:0:25,9:1992:0:1,9:2012:0:3]
+[Au5em],[word@AOB@spell.c:2012@spell.c:1992],[spell.c],[9:2012],[Vul],[M],[AOB],[1,0,0],[word],#FindAffixes()#,[9:2217:0:2,9:1992:0:1,9:2012:0:3]
+[Au5em],[StopMiddle@NPD@spell.c:2342],[spell.c],[9:2439],[Vul],[M],[NPD],[1,0,0],[StopMiddle],#SplitToVariants()#,[9:2342:0:1,9:2355:0:23,9:2355:0:25,9:2355:0:17,9:2418:0:17,9:2439:0:3]
+[Au5em],[StopMiddle@NPD@spell.c:2342],[spell.c],[9:2471],[Vul],[M],[NPD],[1,0,0],[StopMiddle],#SplitToVariants()#,[9:2342:0:1,9:2355:0:23,9:2355:0:25,9:2355:0:17,9:2418:0:17,9:2471:0:3]
+[Au5em],[StopMiddle@NPD@spell.c:2342],[spell.c],[9:2439],[Vul],[M],[NPD],[1,0,0],[StopMiddle],#SplitToVariants()#,[9:2342:0:1,9:2355:0:23,9:2355:0:25,9:2355:0:17,9:2418:0:17,9:2439:0:3]

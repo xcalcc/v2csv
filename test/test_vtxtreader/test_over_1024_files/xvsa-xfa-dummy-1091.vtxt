@@ -1,0 +1,73 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/port/path.c"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/ecpglib/../../../../src/include/port.h"
+  },
+  {
+  "fid": 6,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/bits/getopt_core.h"
+  }
+]
+[Au5em],[snprintf@ERR33-C@CERT@path.c:236],[path.c],[4:236],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#join_path_components()#,[4:236:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@path.c:471],[path.c],[4:471],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#get_progname()#,[4:471:0:3]
+[Au5em],[new@MSF@path.c:679],[path.c],[4:697],[Vul],[D],[MSF],[1,0,0],[new],#make_absolute_path()#,[4:679:0:9,4:696:0:12,4:697:0:3]
+[Au5em],[new@MSF@path.c:661],[path.c],[4:697],[Vul],[D],[MSF],[1,0,0],[new],#make_absolute_path()#,[4:661:0:9,4:696:0:12,4:697:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@path.c:687],[path.c],[4:687],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#make_absolute_path()#,[4:687:0:3]
+[Au5em],[malloc@MEM35-C@CERT@path.c:624],[path.c],[4:624],[Vul],[M],[RBC],[1,0,0],[CERT],[MEM35-C],[malloc],#make_absolute_path()#,[4:624:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@path.c:654],[path.c],[4:654],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#make_absolute_path()#,[4:654:0:3]
+[Au5em],[buf@STR38-C@CERT@path.c:661@path.c:624],[path.c],[4:661],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[buf],#make_absolute_path()#,[4:624:0:1,4:661:0:3]
+[Au5em],[new@AOB@path.c:674@path.c:661],[path.c],[4:674],[Vul],[M],[AOB],[1,0,0],[new],#make_absolute_path()#,[4:661:0:1,4:674:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@path.c:670],[path.c],[4:670],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#make_absolute_path()#,[4:670:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@path.c:632],[path.c],[4:632],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#make_absolute_path()#,[4:632:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@path.c:236],[path.c],[4:236],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#get_share_path()#,[4:236:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@path.c:236],[path.c],[4:236],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#get_etc_path()#,[4:236:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@path.c:236],[path.c],[4:236],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#get_include_path()#,[4:236:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@path.c:236],[path.c],[4:236],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#get_pkginclude_path()#,[4:236:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@path.c:236],[path.c],[4:236],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#get_includeserver_path()#,[4:236:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@path.c:236],[path.c],[4:236],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#get_lib_path()#,[4:236:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@path.c:236],[path.c],[4:236],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#get_pkglib_path()#,[4:236:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@path.c:236],[path.c],[4:236],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#get_locale_path()#,[4:236:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@path.c:236],[path.c],[4:236],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#get_doc_path()#,[4:236:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@path.c:236],[path.c],[4:236],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#get_html_path()#,[4:236:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@path.c:236],[path.c],[4:236],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#get_man_path()#,[4:236:0:3]

@@ -1,0 +1,219 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/port/atomics/arch-x86.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/port/atomics/generic-gcc.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/port/atomics/generic.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/port/atomics.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/storage/bufpage.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/rel.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/sortsupport.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/storage/s_lock.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/executor/executor.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/executor/tuptable.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/regexp.c"
+  },
+  {
+  "fid": 19,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 20,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/mb/pg_wchar.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/regex/regex.h"
+  },
+  {
+  "fid": 22,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/miscadmin.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 24,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 25,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 26,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/fmgrprotos.h"
+  },
+  {
+  "fid": 27,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/varlena.h"
+  },
+  {
+  "fid": 28,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/funcapi.h"
+  },
+  {
+  "fid": 29,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/array.h"
+  },
+  {
+  "fid": 30,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 31,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 32,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 33,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 34,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/catalog/pg_class.h"
+  },
+  {
+  "fid": 35,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/storage/dsm_impl.h"
+  },
+  {
+  "fid": 36,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 37,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 38,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/common/relpath.h"
+  },
+  {
+  "fid": 39,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/pgxc/pgxc.h"
+  },
+  {
+  "fid": 40,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/storage/backendid.h"
+  },
+  {
+  "fid": 41,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/pgxc/shardmap.h"
+  },
+  {
+  "fid": 42,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 43,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/storage/fd.h"
+  },
+  {
+  "fid": 44,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/access/xlog.h"
+  },
+  {
+  "fid": 45,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 46,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/access/transam.h"
+  },
+  {
+  "fid": 47,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/catalog/objectaddress.h"
+  },
+  {
+  "fid": 48,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/executor/instrument.h"
+  },
+  {
+  "fid": 49,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/tcop/dest.h"
+  },
+  {
+  "fid": 50,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 51,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/pgxc/squeue.h"
+  },
+  {
+  "fid": 52,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/pgtime.h"
+  },
+  {
+  "fid": 53,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/builtins.h"
+  }
+]
+[Au5em],[re_temp@MSF@regexp.c:213],[regexp.c],[18:245],[Vul],[D],[MSF],[1,0,0],[re_temp],#RE_compile_and_cache()#,[18:213:0:9,18:244:0:12,18:245:0:3]
+[Au5em],[malloc@MEM35-C@CERT@regexp.c:213],[regexp.c],[18:213],[Vul],[M],[RBC],[1,0,0],[CERT],[MEM35-C],[malloc],#RE_compile_and_cache()#,[18:213:0:3]
+[Au5em],[re_array@AOB@regexp.c:234],[regexp.c],[18:234],[Vul],[M],[AOB],[1,0,0],[re_array],#RE_compile_and_cache()#,[18:234:0:3]
+[Au5em],[n@STR38-C@CERT@regexp.c:441],[regexp.c],[18:441],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[n],#nameregexeq()#,[18:441:0:3]
+[Au5em],[n@STR38-C@CERT@regexp.c:455],[regexp.c],[18:455],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[n],#nameregexne()#,[18:455:0:3]
+[Au5em],[n@STR38-C@CERT@regexp.c:504],[regexp.c],[18:504],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[n],#nameicregexeq()#,[18:504:0:3]
+[Au5em],[n@STR38-C@CERT@regexp.c:518],[regexp.c],[18:518],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[n],#nameicregexne()#,[18:518:0:3]
+[Au5em],[str@UDR@regexp.c:1302],[regexp.c],[18:1354],[Vul],[M],[UDR],[1,0,0],[str],#regexp_fixed_prefix()#,[18:1354:0:3]

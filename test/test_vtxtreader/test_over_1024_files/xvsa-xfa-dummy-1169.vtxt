@@ -1,0 +1,41 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/xc/agent/xcalclient/xcalbuild/linux/include/clang/cpuid.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/port/pg_crc32c_choose.c"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/port/../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/netinet/in.h"
+  }
+]
+[Au5em],[pg_comp_crc32c@UDR@pg_crc32c_choose.c:60@pg_crc32c_choose.c:60],[pg_crc32c_choose.c],[5:60],[Vul],[D],[UDR],[1,0,0],[pg_comp_crc32c],#pg_comp_crc32c_choose()#,[5:60:0:9,5:56:0:17,5:60:0:1,5:60:0:3]
+[Au5em],[pg_comp_crc32c@UDR@pg_crc32c_choose.c:60@pg_crc32c_choose.c:60],[pg_crc32c_choose.c],[5:60],[Vul],[D],[UDR],[1,0,0],[pg_comp_crc32c],#pg_comp_crc32c_choose()#,[5:60:0:9,5:58:0:17,5:60:0:1,5:60:0:3]

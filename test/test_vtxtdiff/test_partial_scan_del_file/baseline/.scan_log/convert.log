@@ -1,0 +1,3 @@
+# =========== MI_TO_UDR ===========
+converter: /ws/xcal/app/xvsa/bin/rule-builder/scripts/rulebuild.py
+lang: c

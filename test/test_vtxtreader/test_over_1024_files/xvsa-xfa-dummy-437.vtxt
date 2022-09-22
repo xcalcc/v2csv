@@ -1,0 +1,70 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/contrib/pgcrypto/pgp-cfb.c"
+  },
+  {
+  "fid": 7,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/contrib/pgcrypto/pgp.h"
+  },
+  {
+  "fid": 8,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/contrib/pgcrypto/px.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 13,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/signal.h"
+  }
+]
+[Au5em],[ciph@UIV@pgp-cfb.c:116],[pgp-cfb.c],[6:123],[Vul],[M],[UIV],[1,0,0],[ciph],#pgp_cfb_create()#,[6:116:0:4,6:119:0:5,6:120:0:24,6:120:0:26,6:123:0:3]
+[Au5em],[ciph@UIV@pgp-cfb.c:116],[pgp-cfb.c],[6:123],[Vul],[M],[UIV],[1,0,0],[ciph],#pgp_cfb_create()#,[6:116:0:4,6:119:0:5,6:120:0:24,6:120:0:26,6:123:0:3]
+[Au5em],[ciph@NPD@pgp-cfb.c:116],[pgp-cfb.c],[6:123],[Vul],[D],[NPD],[1,0,0],[ciph],#pgp_cfb_create()#,[6:116:0:4,6:120:0:24,6:120:0:26,6:123:0:3]
+[Au5em],[mix_data@UDR@pgp-cfb.c:292@pgp-cfb.c:292],[pgp-cfb.c],[6:292],[Vul],[D],[UDR],[1,0,0],[mix_data],#cfb_process()#,[6:292:0:9,6:315:0:18,6:313:0:17,6:315:0:2,6:292:0:1,6:315:0:18,6:313:0:1,6:315:0:2,6:260:0:1,6:292:0:3]
+[Au5em],[mix_data@UDR@pgp-cfb.c:292@pgp-cfb.c:292],[pgp-cfb.c],[6:292],[Vul],[D],[UDR],[1,0,0],[mix_data],#cfb_process()#,[6:292:0:9,6:315:0:18,6:313:0:17,6:315:0:2,6:292:0:1,6:315:0:18,6:313:0:1,6:315:0:2,6:260:0:1,6:292:0:3]
+[Au5em],[mix_data@UDR@pgp-cfb.c:270@pgp-cfb.c:270],[pgp-cfb.c],[6:270],[Vul],[D],[UDR],[1,0,0],[mix_data],#cfb_process()#,[6:270:0:9,6:315:0:18,6:313:0:17,6:315:0:2,6:270:0:1,6:315:0:18,6:313:0:1,6:315:0:2,6:260:0:1,6:270:0:3]
+[Au5em],[mix_data@UDR@pgp-cfb.c:270@pgp-cfb.c:270],[pgp-cfb.c],[6:270],[Vul],[D],[UDR],[1,0,0],[mix_data],#cfb_process()#,[6:270:0:9,6:315:0:18,6:313:0:17,6:315:0:2,6:270:0:1,6:315:0:18,6:313:0:1,6:315:0:2,6:260:0:1,6:270:0:3]
+[Au5em],[ctx+88@AOB@pgp-cfb.c:299],[pgp-cfb.c],[6:299],[Vul],[M],[AOB],[1,0,0],[ctx+88],#cfb_process()#,[6:299:0:3]
+[Au5em],[ctx+88@AOB@pgp-cfb.c:277],[pgp-cfb.c],[6:277],[Vul],[M],[AOB],[1,0,0],[ctx+88],#cfb_process()#,[6:277:0:3]
+[Au5em],[mix_data@UDR@pgp-cfb.c:292@pgp-cfb.c:292],[pgp-cfb.c],[6:292],[Vul],[D],[UDR],[1,0,0],[mix_data],#cfb_process()#,[6:292:0:9,6:323:0:18,6:321:0:17,6:323:0:2,6:292:0:1,6:323:0:18,6:321:0:1,6:323:0:2,6:260:0:1,6:292:0:3]
+[Au5em],[mix_data@UDR@pgp-cfb.c:292@pgp-cfb.c:292],[pgp-cfb.c],[6:292],[Vul],[D],[UDR],[1,0,0],[mix_data],#cfb_process()#,[6:292:0:9,6:323:0:18,6:321:0:17,6:323:0:2,6:292:0:1,6:323:0:18,6:321:0:1,6:323:0:2,6:260:0:1,6:292:0:3]
+[Au5em],[mix_data@UDR@pgp-cfb.c:270@pgp-cfb.c:270],[pgp-cfb.c],[6:270],[Vul],[D],[UDR],[1,0,0],[mix_data],#cfb_process()#,[6:270:0:9,6:323:0:18,6:321:0:17,6:323:0:2,6:270:0:1,6:323:0:18,6:321:0:1,6:323:0:2,6:260:0:1,6:270:0:3]
+[Au5em],[mix_data@UDR@pgp-cfb.c:270@pgp-cfb.c:270],[pgp-cfb.c],[6:270],[Vul],[D],[UDR],[1,0,0],[mix_data],#cfb_process()#,[6:270:0:9,6:323:0:18,6:321:0:17,6:323:0:2,6:270:0:1,6:323:0:18,6:321:0:1,6:323:0:2,6:260:0:1,6:270:0:3]
+[Au5em],[ctx+88@AOB@pgp-cfb.c:299],[pgp-cfb.c],[6:299],[Vul],[M],[AOB],[1,0,0],[ctx+88],#cfb_process()#,[6:299:0:3]
+[Au5em],[ctx+88@AOB@pgp-cfb.c:277],[pgp-cfb.c],[6:277],[Vul],[M],[AOB],[1,0,0],[ctx+88],#cfb_process()#,[6:277:0:3]

@@ -1,0 +1,127 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/storage/bufpage.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/network_selfuncs.c"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/selfuncs.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/lsyscache.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/bits/mathcalls.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/inet.h"
+  },
+  {
+  "fid": 16,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 17,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 19,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 20,
+  "path": "/usr/include/math.h"
+  },
+  {
+  "fid": 21,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 22,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/access/transam.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/pgtime.h"
+  },
+  {
+  "fid": 25,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/timestamp.h"
+  },
+  {
+  "fid": 26,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/catalog/pg_operator.h"
+  },
+  {
+  "fid": 27,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 28,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 29,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/builtins.h"
+  }
+]
+[Au5em],[n@DBZ@network_selfuncs.c:636],[network_selfuncs.c],[9:666],[Vul],[M],[DBZ],[1,0,0],[n],#inet_hist_value_sel()#,[9:636:0:1,9:636:0:17,9:666:0:3]
+[Au5em],[other@UIV@network_selfuncs.c:86],[network_selfuncs.c],[9:109],[Vul],[M],[UIV],[1,0,0],[other],#networksel()#,[9:86:0:4,9:102:0:5,9:102:0:24,9:102:0:26,9:109:0:3]
+[Au5em],[other@UIV@network_selfuncs.c:86],[network_selfuncs.c],[9:116],[Vul],[M],[UIV],[1,0,0],[other],#networksel()#,[9:86:0:4,9:102:0:5,9:102:0:24,9:102:0:26,9:109:0:24,9:109:0:26,9:116:0:3]
+[Au5em],[other@UIV@network_selfuncs.c:86],[network_selfuncs.c],[9:121],[Vul],[M],[UIV],[1,0,0],[other],#networksel()#,[9:86:0:4,9:102:0:5,9:102:0:24,9:102:0:26,9:109:0:24,9:109:0:26,9:116:0:24,9:116:0:26,9:121:0:3]
+[Au5em],[other@NPD@network_selfuncs.c:86],[network_selfuncs.c],[9:109],[Vul],[D],[NPD],[1,0,0],[other],#networksel()#,[9:86:0:4,9:102:0:24,9:102:0:26,9:109:0:3]
+[Au5em],[other@NPD@network_selfuncs.c:86],[network_selfuncs.c],[9:116],[Vul],[D],[NPD],[1,0,0],[other],#networksel()#,[9:86:0:4,9:102:0:24,9:102:0:26,9:109:0:24,9:109:0:26,9:116:0:3]
+[Au5em],[other@NPD@network_selfuncs.c:86],[network_selfuncs.c],[9:121],[Vul],[D],[NPD],[1,0,0],[other],#networksel()#,[9:86:0:4,9:102:0:24,9:102:0:26,9:109:0:24,9:109:0:26,9:116:0:24,9:116:0:26,9:121:0:3]
+[Au5em],[vardata@NPD@network_selfuncs.c:85],[network_selfuncs.c],[9:118],[Vul],[D],[NPD],[1,0,0],[vardata],#networksel()#,[9:85:0:4,9:102:0:24,9:102:0:26,9:109:0:24,9:109:0:26,9:116:0:23,9:118:0:25,9:118:0:23,9:118:0:25,9:118:0:3]
+[Au5em],[vardata@NPD@network_selfuncs.c:85],[network_selfuncs.c],[9:111],[Vul],[D],[NPD],[1,0,0],[vardata],#networksel()#,[9:85:0:4,9:102:0:24,9:102:0:26,9:109:0:23,9:111:0:25,9:111:0:23,9:111:0:25,9:111:0:3]
+[Au5em],[0@DBZ@network_selfuncs.c:761],[network_selfuncs.c],[9:768],[Vul],[M],[DBZ],[1,0,0],[0],#inet_hist_inclusion_join_sel()#,[9:761:0:1,9:761:0:17,9:768:0:3]
+[Au5em],[n@DBZ@network_selfuncs.c:506],[network_selfuncs.c],[9:518],[Vul],[M],[DBZ],[1,0,0],[n],#networkjoinsel_semi()#,[9:506:0:1,9:506:0:17,9:518:0:3]
+[Au5em],[join_is_reversed@UIV@network_selfuncs.c:207],[network_selfuncs.c],[9:231],[Vul],[M],[UIV],[1,0,0],[join_is_reversed],#networkjoinsel()#,[9:207:0:4,9:209:0:5,9:242:0:23,9:228:0:26,9:231:0:3]

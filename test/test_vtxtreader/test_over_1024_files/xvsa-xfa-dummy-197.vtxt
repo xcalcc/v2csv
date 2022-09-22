@@ -1,0 +1,568 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/storage/s_lock.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/port/atomics/arch-x86.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/port/atomics/generic-gcc.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/port/atomics/generic.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/port/atomics.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/storage/bufpage.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/rel.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/sortsupport.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/executor/executor.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/executor/tuptable.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/openssl/safestack.h"
+  },
+  {
+  "fid": 19,
+  "path": "/usr/include/openssl/stack.h"
+  },
+  {
+  "fid": 20,
+  "path": "/usr/include/openssl/crypto.h"
+  },
+  {
+  "fid": 21,
+  "path": "/usr/include/openssl/bio.h"
+  },
+  {
+  "fid": 22,
+  "path": "/usr/include/openssl/asn1.h"
+  },
+  {
+  "fid": 23,
+  "path": "/usr/include/openssl/x509.h"
+  },
+  {
+  "fid": 24,
+  "path": "/usr/include/openssl/lhash.h"
+  },
+  {
+  "fid": 25,
+  "path": "/usr/include/openssl/x509_vfy.h"
+  },
+  {
+  "fid": 26,
+  "path": "/usr/include/openssl/pkcs7.h"
+  },
+  {
+  "fid": 27,
+  "path": "/usr/include/openssl/ct.h"
+  },
+  {
+  "fid": 28,
+  "path": "/usr/include/openssl/ssl.h"
+  },
+  {
+  "fid": 29,
+  "path": "/usr/include/openssl/err.h"
+  },
+  {
+  "fid": 30,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/pgstat.h"
+  },
+  {
+  "fid": 31,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/storage/proc.h"
+  },
+  {
+  "fid": 32,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/memutils.h"
+  },
+  {
+  "fid": 33,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/snapmgr.h"
+  },
+  {
+  "fid": 34,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/miscadmin.h"
+  },
+  {
+  "fid": 35,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 36,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/execRemote.c"
+  },
+  {
+  "fid": 37,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 38,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/pgxc/nodemgr.h"
+  },
+  {
+  "fid": 39,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 40,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/access/tupdesc.h"
+  },
+  {
+  "fid": 41,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/parser/parse_type.h"
+  },
+  {
+  "fid": 42,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/pgxc/pgxcnode.h"
+  },
+  {
+  "fid": 43,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 44,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/libpq/libpq.h"
+  },
+  {
+  "fid": 45,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/tuplestore.h"
+  },
+  {
+  "fid": 46,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/access/xact.h"
+  },
+  {
+  "fid": 47,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/hsearch.h"
+  },
+  {
+  "fid": 48,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/postmaster/postmaster.h"
+  },
+  {
+  "fid": 49,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 50,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/pgxc/pgxc.h"
+  },
+  {
+  "fid": 51,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/timestamp.h"
+  },
+  {
+  "fid": 52,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 53,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 54,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/storage/ipc.h"
+  },
+  {
+  "fid": 55,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 56,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/commands/explain_dist.h"
+  },
+  {
+  "fid": 57,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/commands/prepare.h"
+  },
+  {
+  "fid": 58,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/lib/stringinfo.h"
+  },
+  {
+  "fid": 59,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/access/relscan.h"
+  },
+  {
+  "fid": 60,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/access/gtm.h"
+  },
+  {
+  "fid": 61,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/lsyscache.h"
+  },
+  {
+  "fid": 62,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/pgxc/poolmgr.h"
+  },
+  {
+  "fid": 63,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/tcop/utility.h"
+  },
+  {
+  "fid": 64,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/storage/lwlock.h"
+  },
+  {
+  "fid": 65,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/access/parallel.h"
+  },
+  {
+  "fid": 66,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/executor/execParallel.h"
+  },
+  {
+  "fid": 67,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 68,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/guc.h"
+  },
+  {
+  "fid": 69,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/tcop/tcopprot.h"
+  },
+  {
+  "fid": 70,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/access/transam.h"
+  },
+  {
+  "fid": 71,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/access/twophase.h"
+  },
+  {
+  "fid": 72,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/pgxc/xc_maintenance_mode.h"
+  },
+  {
+  "fid": 73,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/port.h"
+  },
+  {
+  "fid": 74,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/storage/shmem.h"
+  },
+  {
+  "fid": 75,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/tuplesort.h"
+  },
+  {
+  "fid": 76,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/nodes/bitmapset.h"
+  },
+  {
+  "fid": 77,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/nodes/nodeFuncs.h"
+  },
+  {
+  "fid": 78,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/catalog/pgxc_class.h"
+  },
+  {
+  "fid": 79,
+  "path": "/usr/include/pthread.h"
+  },
+  {
+  "fid": 80,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/nodes/nodes.h"
+  },
+  {
+  "fid": 81,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/nodes/print.h"
+  },
+  {
+  "fid": 82,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/executor/nodeSubplan.h"
+  },
+  {
+  "fid": 83,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/pgxc/squeue.h"
+  },
+  {
+  "fid": 84,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/access/htup_details.h"
+  },
+  {
+  "fid": 85,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/executor/nodeModifyTable.h"
+  },
+  {
+  "fid": 86,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 87,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 88,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/storage/backendid.h"
+  },
+  {
+  "fid": 89,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/storage/lock.h"
+  },
+  {
+  "fid": 90,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 91,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/common/relpath.h"
+  },
+  {
+  "fid": 92,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 93,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/storage/sinval.h"
+  },
+  {
+  "fid": 94,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/pgtime.h"
+  },
+  {
+  "fid": 95,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/datetime.h"
+  },
+  {
+  "fid": 96,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/resowner.h"
+  },
+  {
+  "fid": 97,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 98,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/pgxc/shardmap.h"
+  },
+  {
+  "fid": 99,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 100,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/storage/dsm_impl.h"
+  },
+  {
+  "fid": 101,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/catalog/pg_class.h"
+  },
+  {
+  "fid": 102,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/storage/fd.h"
+  },
+  {
+  "fid": 103,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/access/xlog.h"
+  },
+  {
+  "fid": 104,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/array.h"
+  },
+  {
+  "fid": 105,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/catalog/objectaddress.h"
+  },
+  {
+  "fid": 106,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/executor/instrument.h"
+  },
+  {
+  "fid": 107,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/tcop/dest.h"
+  },
+  {
+  "fid": 108,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/commands/explain.h"
+  },
+  {
+  "fid": 109,
+  "path": "/usr/include/openssl/ec.h"
+  },
+  {
+  "fid": 110,
+  "path": "/usr/include/openssl/rsa.h"
+  },
+  {
+  "fid": 111,
+  "path": "/usr/include/openssl/dh.h"
+  },
+  {
+  "fid": 112,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/libpq/pqcomm.h"
+  },
+  {
+  "fid": 113,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/mb/pg_wchar.h"
+  },
+  {
+  "fid": 114,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/libpq/libpq-be.h"
+  },
+  {
+  "fid": 115,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/portal.h"
+  },
+  {
+  "fid": 116,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/tcop/pquery.h"
+  },
+  {
+  "fid": 117,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/postmaster/bgworker.h"
+  },
+  {
+  "fid": 118,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/storage/shm_mq.h"
+  },
+  {
+  "fid": 119,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/postmaster/pgarch.h"
+  },
+  {
+  "fid": 120,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/builtins.h"
+  }
+]
+[Au5em],[DDC@execRemote.c:12853],[execRemote.c],[36:12853],[Vul],[D],[DDC],[1,0,0],[],#ExecRemoteDML()#,[36:12853:0:3]
+[Au5em],[combine+4@STR38-C@CERT@execRemote.c:915],[execRemote.c],[36:915],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[combine+4],#HandleCmdComplete()#,[36:915:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@execRemote.c:928],[execRemote.c],[36:928],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#HandleCmdComplete()#,[36:928:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@execRemote.c:932],[execRemote.c],[36:932],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#HandleCmdComplete()#,[36:932:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@execRemote.c:936],[execRemote.c],[36:936],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#HandleCmdComplete()#,[36:936:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@execRemote.c:704],[execRemote.c],[36:704],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#HandleDataRow()#,[36:704:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@execRemote.c:837],[execRemote.c],[36:837],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#HandleError()#,[36:837:0:3]
+[Au5em],[fwrite@ERR33-C@CERT@execRemote.c:665],[execRemote.c],[36:665],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fwrite],#HandleCopyDataRow()#,[36:665:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[execRemote.c],[36:1193],[Vul],[M],[NPD],[1,0,0],[0x0],#BufferConnection()#,[11:79:0:1,11:79:0:17,11:79:0:1,36:1192:0:18,36:1193:0:3]
+[Au5em],[RCD@execRemote.c:1360@execRemote.c:1430],[execRemote.c],[36:1360],[Vul],[D],[RCD],[1,0,0],[],#BufferConnection()#,[36:1430:0:11,36:1360:0:3]
+[Au5em],[RCD@execRemote.c:1364@execRemote.c:1430],[execRemote.c],[36:1364],[Vul],[D],[RCD],[1,0,0],[],#BufferConnection()#,[36:1430:0:11,36:1364:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@execRemote.c:3606],[execRemote.c],[36:3606],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_begin()#,[36:3606:0:3]
+[Au5em],[nodes_per_transaction@MSF@execRemote.c:215],[execRemote.c],[36:5888],[Vul],[M],[MSF],[1,0,0],[nodes_per_transaction],#DataNodeCopyBegin()#,[36:215:0:9,36:215:0:10,36:5881:0:18,36:5888:0:12]
+[Au5em],[statements_per_transaction@MSF@execRemote.c:203],[execRemote.c],[36:5888],[Vul],[M],[MSF],[1,0,0],[statements_per_transaction],#DataNodeCopyBegin()#,[36:203:0:9,36:203:0:10,36:5881:0:18,36:5888:0:12]
+[Au5em],[nodes_per_transaction@ERR33-C@CERT@execRemote.c:5979@execRemote.c:215],[execRemote.c],[36:215],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[nodes_per_transaction],#DataNodeCopyBegin()#,[36:215:0:3,36:5881:0:18,36:5886:0:17,36:5904:0:17,36:5966:0:17,36:5979:0:17,36:5979:0:16]
+[Au5em],[statements_per_transaction@ERR33-C@CERT@execRemote.c:5979@execRemote.c:203],[execRemote.c],[36:203],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[statements_per_transaction],#DataNodeCopyBegin()#,[36:203:0:3,36:209:0:17,36:211:0:17,36:5881:0:18,36:5886:0:17,36:5904:0:17,36:5966:0:17,36:5979:0:17,36:5979:0:16]
+[Au5em],[partvalue@UIV@execRemote.c:6302],[execRemote.c],[36:6350],[Vul],[D],[UIV],[1,0,0],[partvalue],#get_exec_connections()#,[36:6302:0:4,36:6272:0:23,36:6272:0:25,36:6265:0:23,36:6267:0:25,36:6267:0:24,36:6267:0:26,36:6263:0:23,36:6265:0:25,36:6292:0:24,36:6292:0:26,36:6295:0:23,36:6297:0:25,36:6297:0:23,36:6309:0:25,36:6309:0:24,36:6316:0:26,36:6319:0:24,36:6319:0:26,36:6319:0:17,36:6325:0:17,36:6350:0:3]
+[Au5em],[secValue@UIV@execRemote.c:6306],[execRemote.c],[36:6350],[Vul],[D],[UIV],[1,0,0],[secValue],#get_exec_connections()#,[36:6306:0:4,36:6272:0:23,36:6272:0:25,36:6265:0:23,36:6267:0:25,36:6267:0:24,36:6267:0:26,36:6263:0:23,36:6265:0:25,36:6292:0:24,36:6292:0:26,36:6295:0:23,36:6297:0:25,36:6297:0:23,36:6309:0:25,36:6328:0:23,36:6330:0:25,36:6333:0:24,36:6333:0:26,36:6333:0:17,36:6345:0:17,36:6350:0:3]
+[Au5em],[planstate@NPD@execRemote.c:6745],[execRemote.c],[36:6483],[Vul],[D],[NPD],[1,0,0],[planstate],#get_exec_connections()#,[36:6745:0:2,36:6249:0:4,36:6249:0:1,36:6272:0:23,36:6272:0:25,36:6265:0:23,36:6267:0:25,36:6267:0:24,36:6267:0:26,36:6263:0:23,36:6265:0:25,36:6292:0:24,36:6292:0:26,36:6469:0:23,36:6474:0:25,36:6483:0:3]
+[Au5em],[planstate@NPD@execRemote.c:6745],[execRemote.c],[36:6319],[Vul],[D],[NPD],[1,0,0],[planstate],#get_exec_connections()#,[36:6745:0:2,36:6249:0:4,36:6249:0:1,36:6272:0:23,36:6272:0:25,36:6265:0:23,36:6267:0:25,36:6267:0:24,36:6267:0:26,36:6263:0:23,36:6265:0:25,36:6292:0:24,36:6292:0:26,36:6295:0:23,36:6297:0:25,36:6297:0:23,36:6309:0:25,36:6309:0:24,36:6316:0:26,36:6319:0:3]
+[Au5em],[planstate@NPD@execRemote.c:6745],[executor.h],[16:314],[Vul],[D],[NPD],[1,0,0],[planstate],#ExecEvalExpr()#,[36:6745:0:2,36:6249:0:4,36:6249:0:1,36:6272:0:23,36:6272:0:25,36:6265:0:23,36:6267:0:25,36:6267:0:24,36:6267:0:26,36:6263:0:23,36:6265:0:25,36:6292:0:24,36:6292:0:26,36:6295:0:23,36:6297:0:25,36:6297:0:23,36:6309:0:25,36:6309:0:24,36:6316:0:26,36:6319:0:23,36:6320:0:25,36:6320:0:2,16:314:0:3]
+[Au5em],[planstate@NPD@execRemote.c:6745],[execRemote.c],[36:6345],[Vul],[D],[NPD],[1,0,0],[planstate],#get_exec_connections()#,[36:6745:0:2,36:6249:0:4,36:6249:0:1,36:6272:0:23,36:6272:0:25,36:6265:0:23,36:6267:0:25,36:6267:0:24,36:6267:0:26,36:6263:0:23,36:6265:0:25,36:6292:0:24,36:6292:0:26,36:6295:0:23,36:6297:0:25,36:6297:0:23,36:6309:0:25,36:6345:0:3]
+[Au5em],[planstate@NPD@execRemote.c:6745],[execRemote.c],[36:6333],[Vul],[D],[NPD],[1,0,0],[planstate],#get_exec_connections()#,[36:6745:0:2,36:6249:0:4,36:6249:0:1,36:6272:0:23,36:6272:0:25,36:6265:0:23,36:6267:0:25,36:6267:0:24,36:6267:0:26,36:6263:0:23,36:6265:0:25,36:6292:0:24,36:6292:0:26,36:6295:0:23,36:6297:0:25,36:6297:0:23,36:6309:0:25,36:6328:0:23,36:6330:0:25,36:6333:0:3]
+[Au5em],[planstate@NPD@execRemote.c:6745],[executor.h],[16:314],[Vul],[D],[NPD],[1,0,0],[planstate],#ExecEvalExpr()#,[36:6745:0:2,36:6249:0:4,36:6249:0:1,36:6272:0:23,36:6272:0:25,36:6265:0:23,36:6267:0:25,36:6267:0:24,36:6267:0:26,36:6263:0:23,36:6265:0:25,36:6292:0:24,36:6292:0:26,36:6295:0:23,36:6297:0:25,36:6297:0:23,36:6309:0:25,36:6328:0:23,36:6330:0:25,36:6333:0:23,36:6334:0:25,36:6334:0:2,16:314:0:3]
+[Au5em],[nodes_per_transaction@MSF@execRemote.c:215],[execRemote.c],[36:4745],[Vul],[M],[MSF],[1,0,0],[nodes_per_transaction],#pgxc_node_remote_commit()#,[36:215:0:9,36:215:0:10,36:4724:0:18,36:4744:0:12,36:4745:0:3]
+[Au5em],[statements_per_transaction@MSF@execRemote.c:203],[execRemote.c],[36:4745],[Vul],[M],[MSF],[1,0,0],[statements_per_transaction],#pgxc_node_remote_commit()#,[36:203:0:9,36:203:0:10,36:4724:0:18,36:4744:0:12,36:4745:0:3]
+[Au5em],[nodes_per_transaction@ERR33-C@CERT@execRemote.c:4744@execRemote.c:215],[execRemote.c],[36:215],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[nodes_per_transaction],#pgxc_node_remote_commit()#,[36:215:0:3,36:4724:0:18,36:4726:0:17,36:4744:0:16]
+[Au5em],[statements_per_transaction@ERR33-C@CERT@execRemote.c:4744@execRemote.c:203],[execRemote.c],[36:203],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[statements_per_transaction],#pgxc_node_remote_commit()#,[36:203:0:3,36:209:0:17,36:211:0:17,36:4724:0:18,36:4726:0:17,36:4744:0:16]
+[Au5em],[finish_cmd@AOB@execRemote.c:8581@execRemote.c:8576],[execRemote.c],[36:8581],[Vul],[D],[AOB],[1,0,0],[finish_cmd],#pgxc_node_remote_finish()#,[36:8576:0:1,36:8581:0:3]
+[Au5em],[finish_cmd@AOB@execRemote.c:8579@execRemote.c:8576],[execRemote.c],[36:8579],[Vul],[D],[AOB],[1,0,0],[finish_cmd],#pgxc_node_remote_finish()#,[36:8576:0:1,36:8579:0:3]
+[Au5em],[startnodeXid@UIV@execRemote.c:3824],[execRemote.c],[36:4256],[Vul],[D],[UIV],[1,0,0],[startnodeXid],#pgxc_node_remote_prepare()#,[36:3824:0:4,36:3861:0:23,36:3863:0:25,36:3844:0:24,36:3844:0:26,36:3906:0:24,36:3906:0:26,36:3906:0:17,36:4256:0:3]
+[Au5em],[startnodeXid@UIV@execRemote.c:3824],[execRemote.c],[36:4058],[Vul],[D],[UIV],[1,0,0],[startnodeXid],#pgxc_node_remote_prepare()#,[36:3824:0:4,36:3861:0:23,36:3863:0:25,36:3844:0:24,36:3844:0:26,36:3906:0:24,36:3906:0:26,36:3906:0:17,36:4058:0:3]
+[Au5em],[prepare_cmd@AOB@execRemote.c:3855@execRemote.c:3822],[execRemote.c],[36:3855],[Vul],[D],[AOB],[1,0,0],[prepare_cmd],#pgxc_node_remote_prepare()#,[36:3822:0:1,36:3855:0:3]
+[Au5em],[abort_cmd@AOB@execRemote.c:4449@execRemote.c:4448],[execRemote.c],[36:4449],[Vul],[D],[AOB],[1,0,0],[abort_cmd],#pgxc_node_remote_prepare()#,[36:4448:0:1,36:4449:0:3]
+[Au5em],[g_twophase_state+53@STR38-C@CERT@execRemote.c:3913],[execRemote.c],[36:3913],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[g_twophase_state+53],#pgxc_node_remote_prepare()#,[36:3913:0:3]
+[Au5em],[nodestring@UDR@execRemote.c:8321],[execRemote.c],[36:8417],[Vul],[M],[UDR],[1,0,0],[nodestring],#FinishRemotePreparedTransaction()#,[36:8417:0:3]
+[Au5em],[strncpy@STR32-C@CERT@execRemote.c:8397],[execRemote.c],[36:8397],[Vul],[M],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#FinishRemotePreparedTransaction()#,[36:8397:0:3]
+[Au5em],[strncpy@STR32-C@CERT@execRemote.c:8398],[execRemote.c],[36:8398],[Vul],[D],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#FinishRemotePreparedTransaction()#,[36:8398:0:3]
+[Au5em],[g_twophase_state+53@STR38-C@CERT@execRemote.c:8398],[execRemote.c],[36:8398],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[g_twophase_state+53],#FinishRemotePreparedTransaction()#,[36:8398:0:3]
+[Au5em],[strncpy@STR32-C@CERT@execRemote.c:8403],[execRemote.c],[36:8403],[Vul],[M],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#FinishRemotePreparedTransaction()#,[36:8403:0:3]
+[Au5em],[pstring@STR38-C@CERT@execRemote.c:7432@execRemote.c:7429],[execRemote.c],[36:7432],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[pstring],#SetDataRowForExtParams()#,[36:7429:0:1,36:7432:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[execRemote.c],[36:1507],[Vul],[M],[NPD],[1,0,0],[0x0],#PreFetchConnection()#,[11:79:0:1,11:79:0:17,11:79:0:1,36:1506:0:18,36:1507:0:3]
+[Au5em],[RCD@execRemote.c:1675@execRemote.c:1808],[execRemote.c],[36:1675],[Vul],[D],[RCD],[1,0,0],[],#PreFetchConnection()#,[36:1808:0:11,36:1675:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[execRemote.c],[36:2079],[Vul],[M],[NPD],[1,0,0],[0x0],#FetchTuple()#,[11:79:0:1,11:79:0:17,11:79:0:1,36:2078:0:18,36:2079:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[execRemote.c],[36:2061],[Vul],[M],[NPD],[1,0,0],[0x0],#FetchTuple()#,[11:79:0:1,11:79:0:17,11:79:0:1,36:2060:0:18,36:2061:0:3]
+[Au5em],[lc@NPD@pg_list.h:79],[execRemote.c],[36:2028],[Vul],[M],[NPD],[1,0,0],[lc],#FetchTuple()#,[11:79:0:1,11:79:0:17,11:79:0:1,36:2027:0:18,36:2027:0:1,36:2028:0:3]
+[Au5em],[nodes_per_transaction@MSF@execRemote.c:215],[execRemote.c],[36:5834],[Vul],[M],[MSF],[1,0,0],[nodes_per_transaction],#pgxc_node_remote_abort()#,[36:215:0:9,36:215:0:10,36:5791:0:18,36:5832:0:12,36:5834:0:3]
+[Au5em],[statements_per_transaction@MSF@execRemote.c:203],[execRemote.c],[36:5834],[Vul],[M],[MSF],[1,0,0],[statements_per_transaction],#pgxc_node_remote_abort()#,[36:203:0:9,36:203:0:10,36:5791:0:18,36:5832:0:12,36:5834:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@execRemote.c:5432],[execRemote.c],[36:5432],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pgxc_node_remote_abort()#,[36:5432:0:3]
+[Au5em],[nodes_per_transaction@MSF@execRemote.c:215],[execRemote.c],[36:9238],[Vul],[M],[MSF],[1,0,0],[nodes_per_transaction],#ExecRemoteQuery()#,[36:215:0:9,36:215:0:10,36:9054:0:18,36:9213:0:12,36:9238:0:3]
+[Au5em],[statements_per_transaction@MSF@execRemote.c:203],[execRemote.c],[36:9238],[Vul],[M],[MSF],[1,0,0],[statements_per_transaction],#ExecRemoteQuery()#,[36:203:0:9,36:203:0:10,36:9054:0:18,36:9213:0:12,36:9238:0:3]
+[Au5em],[nodes_per_transaction@MSF@execRemote.c:215],[execRemote.c],[36:9238],[Vul],[M],[MSF],[1,0,0],[nodes_per_transaction],#ExecRemoteQuery()#,[36:215:0:9,36:215:0:10,36:9054:0:18,36:9237:0:12,36:9238:0:3]
+[Au5em],[statements_per_transaction@MSF@execRemote.c:203],[execRemote.c],[36:9238],[Vul],[M],[MSF],[1,0,0],[statements_per_transaction],#ExecRemoteQuery()#,[36:203:0:9,36:203:0:10,36:9054:0:18,36:9237:0:12,36:9238:0:3]
+[Au5em],[nodes_per_transaction@MSF@execRemote.c:215],[execRemote.c],[36:9238],[Vul],[M],[MSF],[1,0,0],[nodes_per_transaction],#ExecRemoteQuery()#,[36:215:0:9,36:215:0:10,36:9054:0:18,36:9205:0:12,36:9238:0:3]
+[Au5em],[statements_per_transaction@MSF@execRemote.c:203],[execRemote.c],[36:9238],[Vul],[M],[MSF],[1,0,0],[statements_per_transaction],#ExecRemoteQuery()#,[36:203:0:9,36:203:0:10,36:9054:0:18,36:9205:0:12,36:9238:0:3]
+[Au5em],[nodes_per_transaction@MSF@execRemote.c:215],[execRemote.c],[36:9149],[Vul],[M],[MSF],[1,0,0],[nodes_per_transaction],#ExecRemoteQuery()#,[36:215:0:9,36:215:0:10,36:9054:0:18,36:9149:0:12]
+[Au5em],[statements_per_transaction@MSF@execRemote.c:203],[execRemote.c],[36:9149],[Vul],[M],[MSF],[1,0,0],[statements_per_transaction],#ExecRemoteQuery()#,[36:203:0:9,36:203:0:10,36:9054:0:18,36:9149:0:12]
+[Au5em],[nodes_per_transaction@MSF@execRemote.c:215],[execRemote.c],[36:9139],[Vul],[M],[MSF],[1,0,0],[nodes_per_transaction],#ExecRemoteQuery()#,[36:215:0:9,36:215:0:10,36:9054:0:18,36:9139:0:12]
+[Au5em],[statements_per_transaction@MSF@execRemote.c:203],[execRemote.c],[36:9139],[Vul],[M],[MSF],[1,0,0],[statements_per_transaction],#ExecRemoteQuery()#,[36:203:0:9,36:203:0:10,36:9054:0:18,36:9139:0:12]
+[Au5em],[nodes_per_transaction@MSF@execRemote.c:215],[execRemote.c],[36:9102],[Vul],[M],[MSF],[1,0,0],[nodes_per_transaction],#ExecRemoteQuery()#,[36:215:0:9,36:215:0:10,36:9054:0:18,36:9102:0:12]
+[Au5em],[statements_per_transaction@MSF@execRemote.c:203],[execRemote.c],[36:9102],[Vul],[M],[MSF],[1,0,0],[statements_per_transaction],#ExecRemoteQuery()#,[36:203:0:9,36:203:0:10,36:9054:0:18,36:9102:0:12]
+[Au5em],[nodes_per_transaction@MSF@execRemote.c:215],[execRemote.c],[36:9115],[Vul],[M],[MSF],[1,0,0],[nodes_per_transaction],#ExecRemoteQuery()#,[36:215:0:9,36:215:0:10,36:9054:0:18,36:9115:0:12]
+[Au5em],[statements_per_transaction@MSF@execRemote.c:203],[execRemote.c],[36:9115],[Vul],[M],[MSF],[1,0,0],[statements_per_transaction],#ExecRemoteQuery()#,[36:203:0:9,36:203:0:10,36:9054:0:18,36:9115:0:12]
+[Au5em],[nodes_per_transaction@MSF@execRemote.c:215],[execRemote.c],[36:9082],[Vul],[M],[MSF],[1,0,0],[nodes_per_transaction],#ExecRemoteQuery()#,[36:215:0:9,36:215:0:10,36:9054:0:18,36:9082:0:12]
+[Au5em],[statements_per_transaction@MSF@execRemote.c:203],[execRemote.c],[36:9082],[Vul],[M],[MSF],[1,0,0],[statements_per_transaction],#ExecRemoteQuery()#,[36:203:0:9,36:203:0:10,36:9054:0:18,36:9082:0:12]
+[Au5em],[nodes_per_transaction@MSF@execRemote.c:215],[execRemote.c],[36:9069],[Vul],[M],[MSF],[1,0,0],[nodes_per_transaction],#ExecRemoteQuery()#,[36:215:0:9,36:215:0:10,36:9054:0:18,36:9069:0:12]
+[Au5em],[statements_per_transaction@MSF@execRemote.c:203],[execRemote.c],[36:9069],[Vul],[M],[MSF],[1,0,0],[statements_per_transaction],#ExecRemoteQuery()#,[36:203:0:9,36:203:0:10,36:9054:0:18,36:9069:0:12]
+[Au5em],[nodes_per_transaction@ERR33-C@CERT@execRemote.c:9237@execRemote.c:215],[execRemote.c],[36:215],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[nodes_per_transaction],#ExecRemoteQuery()#,[36:215:0:3,36:9054:0:18,36:9058:0:17,36:9124:0:17,36:9131:0:17,36:9156:0:17,36:9169:0:17,36:9179:0:17,36:9203:0:17,36:9207:0:17,36:9216:0:17,36:9220:0:17,36:9237:0:16]
+[Au5em],[statements_per_transaction@ERR33-C@CERT@execRemote.c:9237@execRemote.c:203],[execRemote.c],[36:203],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[statements_per_transaction],#ExecRemoteQuery()#,[36:203:0:3,36:209:0:17,36:211:0:17,36:9054:0:18,36:9058:0:17,36:9124:0:17,36:9131:0:17,36:9156:0:17,36:9169:0:17,36:9179:0:17,36:9203:0:17,36:9207:0:17,36:9216:0:17,36:9220:0:17,36:9237:0:16]
+[Au5em],[strncpy@STR32-C@CERT@execRemote.c:10470],[execRemote.c],[36:10470],[Vul],[D],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#ExecFinishInitRemoteSubplan()#,[36:10470:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@execRemote.c:10468],[execRemote.c],[36:10468],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#ExecFinishInitRemoteSubplan()#,[36:10468:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[execRemote.c],[36:10029],[Vul],[M],[NPD],[1,0,0],[0x0],#ExecInitRemoteSubplan()#,[11:79:0:1,11:79:0:17,11:79:0:1,36:10029:0:18,36:10029:0:3]
+[Au5em],[buf.data@AOB@execRemote.c:10739],[execRemote.c],[36:10739],[Vul],[M],[AOB],[1,0,0],[buf.data],#encode_parameters()#,[36:10739:0:3]
+[Au5em],[pstring@STR38-C@CERT@execRemote.c:10674@execRemote.c:10671],[execRemote.c],[36:10674],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[pstring],#encode_parameters()#,[36:10671:0:1,36:10674:0:3]
+[Au5em],[pstring@STR38-C@CERT@execRemote.c:10674@execRemote.c:10671],[execRemote.c],[36:10674],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[pstring],#encode_parameters()#,[36:10671:0:1,36:10674:0:3]
+[Au5em],[buf.data@AOB@execRemote.c:10791],[execRemote.c],[36:10791],[Vul],[M],[AOB],[1,0,0],[buf.data],#encode_epqcontext()#,[36:10791:0:3]
+[Au5em],[strncpy@STR32-C@CERT@execRemote.c:10868],[execRemote.c],[36:10868],[Vul],[D],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#ExecRemoteSubplan()#,[36:10868:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@execRemote.c:10866],[execRemote.c],[36:10866],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#ExecRemoteSubplan()#,[36:10866:0:3]
+[Au5em],[strncpy@STR32-C@CERT@execRemote.c:11382],[execRemote.c],[36:11382],[Vul],[D],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#ExecDisconnectRemoteSubplan()#,[36:11382:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@execRemote.c:11380],[execRemote.c],[36:11380],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#ExecDisconnectRemoteSubplan()#,[36:11380:0:3]
+[Au5em],[strncpy@STR32-C@CERT@execRemote.c:11297],[execRemote.c],[36:11297],[Vul],[D],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#ExecFinishRemoteSubplan()#,[36:11297:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@execRemote.c:11295],[execRemote.c],[36:11295],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#ExecFinishRemoteSubplan()#,[36:11295:0:3]
+[Au5em],[strncpy@STR32-C@CERT@execRemote.c:11778],[execRemote.c],[36:11778],[Vul],[D],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#ExecEndRemoteSubplan()#,[36:11778:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@execRemote.c:11776],[execRemote.c],[36:11776],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#ExecEndRemoteSubplan()#,[36:11776:0:3]
+[Au5em],[dbcleanup_info.function@UDR@execRemote.c:12029@execRemote.c:12027],[execRemote.c],[36:12029],[Vul],[D],[UDR],[1,0,0],[dbcleanup_info.function],#AtEOXact_DBCleanup()#,[36:12027:0:6,36:12028:0:23,36:12029:0:25,36:12029:0:1,36:12029:0:3]
+[Au5em],[isNull@UIV@execRemote.c:12255],[execRemote.c],[36:12262],[Vul],[M],[UIV],[1,0,0],[isNull],#pgxc_append_param_junkval()#,[36:12255:0:4,36:12257:0:23,36:12260:0:25,36:12260:0:5,36:12262:0:3]
+[Au5em],[pstring@STR38-C@CERT@execRemote.c:12240@execRemote.c:12237],[execRemote.c],[36:12240],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[pstring],#pgxc_append_param_junkval()#,[36:12237:0:1,36:12240:0:3]
+[Au5em],[pstring@STR38-C@CERT@execRemote.c:12240@execRemote.c:12237],[execRemote.c],[36:12240],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[pstring],#SetDataRowParams()#,[36:12237:0:1,36:12240:0:3]
+[Au5em],[pstring@STR38-C@CERT@execRemote.c:12240@execRemote.c:12237],[execRemote.c],[36:12240],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[pstring],#SetDataRowParams()#,[36:12237:0:1,36:12240:0:3]

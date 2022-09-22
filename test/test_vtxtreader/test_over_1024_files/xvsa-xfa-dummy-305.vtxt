@@ -1,0 +1,115 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/storage/bufpage.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/indextuple.c"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/access/tuptoaster.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/access/htup_details.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 16,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 19,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 20,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/common/relpath.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/pgxc/pgxc.h"
+  },
+  {
+  "fid": 22,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/storage/backendid.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/pgxc/shardmap.h"
+  },
+  {
+  "fid": 24,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 25,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 26,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/access/transam.h"
+  },
+  {
+  "fid": 27,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/pgtime.h"
+  },
+  {
+  "fid": 28,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/utils/timestamp.h"
+  }
+]
+[Au5em],[off+(tp)@STR38-C@CERT@indextuple.c:399],[indextuple.c],[9:399],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[off+(tp)],#nocache_index_getattr()#,[9:399:0:3]
+[Au5em],[iASHR3@NPD@indextuple.c:360],[indextuple.c],[9:360],[Vul],[M],[NPD],[1,0,0],[iASHR3],#nocache_index_getattr()#,[9:360:0:3]
+[Au5em],[(off+tup)+16@STR38-C@CERT@indextuple.c:399],[indextuple.c],[9:399],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[(off+tup)+16],#index_deform_tuple()#,[9:399:0:3]
+[Au5em],[(off+tup)+8@STR38-C@CERT@indextuple.c:399],[indextuple.c],[9:399],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[(off+tup)+8],#index_deform_tuple()#,[9:399:0:3]

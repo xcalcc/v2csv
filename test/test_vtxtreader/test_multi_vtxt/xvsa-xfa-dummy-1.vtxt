@@ -1,0 +1,55 @@
+{"V", A, 0.7}
+[
+  {
+  "fid": 1,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/Assisted.java"
+  },
+  {
+  "fid": 2,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/AssistedConstructor.java"
+  },
+  {
+  "fid": 3,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/AssistedInject.java"
+  },
+  {
+  "fid": 4,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/AssistedInjectBinding.java"
+  },
+  {
+  "fid": 5,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/AssistedInjectTargetVisitor.java"
+  },
+  {
+  "fid": 6,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/AssistedMethod.java"
+  },
+  {
+  "fid": 7,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/BindingCollector.java"
+  },
+  {
+  "fid": 8,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/FactoryModuleBuilder.java"
+  },
+  {
+  "fid": 9,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/FactoryProvider.java"
+  },
+  {
+  "fid": 10,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/FactoryProvider2.java"
+  },
+  {
+  "fid": 11,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/Parameter.java"
+  },
+  {
+  "fid": 12,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/ParameterListKey.java"
+  }
+]
+[A10],[java.lang.RuntimeException@OBJ11-J@CERT@FactoryProvider2.java:929@FactoryProvider2.java:369],[FactoryProvider2.java],[10:369],[Vul],[D],[RBC],[1,0,0],[CERT],[OBJ11-J],[java.lang.RuntimeException],#com.google.inject.assistedinject.FactoryProvider2.FactoryProvider2(com.google.inject.Key, com.google.inject.assistedinject.BindingCollector)#,[10:369:0:2,10:929:0:3,10:929:0:1]
+[A10],[java.lang.IllegalStateException@OBJ11-J@CERT@FactoryProvider2.java:390@FactoryProvider2.java:390],[FactoryProvider2.java],[10:390],[Vul],[D],[RBC],[1,0,0],[CERT],[OBJ11-J],[java.lang.IllegalStateException],#com.google.inject.assistedinject.FactoryProvider2.FactoryProvider2(com.google.inject.Key, com.google.inject.assistedinject.BindingCollector)#,[10:390:0:1,10:390:0:3]
+[A10],[com.google.inject.ConfigurationException@OBJ11-J@CERT@FactoryProvider2.java:277],[FactoryProvider2.java],[10:277],[Vul],[D],[RBC],[1,0,0],[CERT],[OBJ11-J],[com.google.inject.ConfigurationException],#com.google.inject.assistedinject.FactoryProvider2.FactoryProvider2(com.google.inject.Key, com.google.inject.assistedinject.BindingCollector)#,[10:277:0:3]
+[A10],[com.google.inject.ConfigurationException@OBJ11-J@CERT@FactoryProvider2.java:404@FactoryProvider2.java:404],[FactoryProvider2.java],[10:404],[Vul],[D],[RBC],[1,0,0],[CERT],[OBJ11-J],[com.google.inject.ConfigurationException],#com.google.inject.assistedinject.FactoryProvider2.FactoryProvider2(com.google.inject.Key, com.google.inject.assistedinject.BindingCollector)#,[10:404:0:1,10:404:0:3]

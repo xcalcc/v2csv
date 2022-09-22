@@ -1,0 +1,85 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/common/../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/common/../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/common/exec.c"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/sys/stat.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/common/../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/common/../../src/include/port.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/locale.h"
+  },
+  {
+  "fid": 16,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 17,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 19,
+  "path": "/usr/include/bits/getopt_core.h"
+  }
+]
+[Au5em],[readlink@POS30-C@CERT@exec.c:269],[exec.c],[6:269],[Vul],[D],[RBC],[1,0,0],[CERT],[POS30-C],[readlink],#resolve_symlinks()#,[6:269:0:3]
+[Au5em],[strncpy@STR32-C@CERT@exec.c:138],[exec.c],[6:138],[Vul],[M],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#find_my_exec()#,[6:138:0:3]
+[Au5em],[cmd@STR02-C@CERT@exec.c:358@exec.c:309],[exec.c],[6:358],[Vul],[D],[RBC],[1,0,0],[CERT],[STR02-C],[cmd],#pipe_read_line()#,[6:309:0:16,6:313:0:24,6:313:0:26,6:324:0:24,6:324:0:26,6:327:0:1,6:329:0:2,6:358:0:3]
+[Au5em],[fgets@FIO37-C@CERT@exec.c:378@exec.c:365],[exec.c],[6:365],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO37-C],[fgets],#pipe_read_line()#,[6:365:0:3,6:365:0:17,6:375:0:17,6:378:0:16]
+[Au5em],[fprintf@ERR33-C@CERT@exec.c:368],[exec.c],[6:368],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#pipe_read_line()#,[6:368:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@exec.c:321],[exec.c],[6:321],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#find_other_exec()#,[6:321:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@exec.c:327],[exec.c],[6:327],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#find_other_exec()#,[6:327:0:3]
+[Au5em],[dup_path@MSF@exec.c:600],[exec.c],[6:604],[Vul],[D],[MSF],[1,0,0],[dup_path],#set_pglocale_pgservice()#,[6:600:0:9,6:602:0:12,6:604:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@exec.c:598],[exec.c],[6:598],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#set_pglocale_pgservice()#,[6:598:0:3]
+[Au5em],[setlocale@ERR33-C@CERT@exec.c:561],[exec.c],[6:561],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[setlocale],#set_pglocale_pgservice()#,[6:561:0:3]

@@ -1,0 +1,47 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/client/pqexpbuffer.c"
+  },
+  {
+  "fid": 5,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 6,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/client/../../../src/include/port/pg_crc32c.h"
+  }
+]
+[Au5em],[res->data@MSF@pqexpbuffer.c:84],[pqexpbuffer.c],[4:73],[Vul],[D],[MSF],[1,0,0],[res->data],#createGTMPQExpBuffer()#,[4:84:0:9,4:70:0:18,4:72:0:12,4:73:0:3]
+[Au5em],[str@UDR@pqexpbuffer.c:107],[pqexpbuffer.c],[4:111],[Vul],[M],[UDR],[1,0,0],[str],#destroyGTMPQExpBuffer()#,[4:111:0:3]
+[Au5em],[str->data@UDR@pqexpbuffer.c:107],[pqexpbuffer.c],[4:124],[Vul],[M],[UDR],[1,0,0],[str->data],#termGTMPQExpBuffer()#,[4:124:0:3]
+[Au5em],[str->data@UDR@pqexpbuffer.c:122],[pqexpbuffer.c],[4:124],[Vul],[M],[UDR],[1,0,0],[str->data],#termGTMPQExpBuffer()#,[4:124:0:3]

@@ -1,0 +1,13 @@
+{"V", A, 0.7}
+[
+  {
+  "fid": 1,
+  "path": "/home/jun/xc5/demo_benchmark/c_testcase/basic/dbf.c"
+  },
+  {
+  "fid": 2,
+  "path": "/home/jun/xc5/demo_benchmark/c_testcase/basic/aob.c"
+  }
+]
+[A1000001],[p@DBF@dbf.c:8@dbf.c:7],[dbf.c],[1:8],[Vul],[D],[DBF],[1,0,0],[p],#func_1()#,[1:5:0:15,1:6:0:23,1:7:0:25,1:7:0:10,1:8:0:3]
+[A1000002],[b@UIV@aob.c:11],[aob.c],[2:15],[Vul],[D],[UIV],[1,0,0],[b],#test_AOB()#,[2:11:0:4,2:12:0:2,2:5:0:1,2:12:0:18,2:15:0:3]

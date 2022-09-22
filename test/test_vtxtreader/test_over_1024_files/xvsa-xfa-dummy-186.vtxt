@@ -1,0 +1,178 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/syncrep_gram.c"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/syncrep_scanner.c"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/syncrep_gram.y"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/syncrep_scanner.l"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/lib/stringinfo.h"
+  },
+  {
+  "fid": 16,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 17,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 19,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 20,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 22,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/tcop/dest.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/utils/array.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/utils/guc.h"
+  },
+  {
+  "fid": 25,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/replication/syncrep.h"
+  },
+  {
+  "fid": 26,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 27,
+  "path": "/usr/include/bits/getopt_core.h"
+  }
+]
+[Au5em],[DDC@syncrep_gram.c:1457],[syncrep_gram.c],[8:1457],[Vul],[D],[DDC],[1,0,0],[],#syncrep_yyparse()#,[8:1457:0:3]
+[Au5em],[standby_name@STR38-C@CERT@syncrep_gram.y:106@syncrep_gram.y:104],[syncrep_gram.y],[10:106],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[standby_name],#create_syncrep_config()#,[10:104:0:1,10:106:0:3]
+[Au5em],[yy_buffer_stack@MSF@syncrep_scanner.c:1938],[syncrep_scanner.c],[9:1653],[Vul],[M],[MSF],[1,0,0],[yy_buffer_stack],#syncrep_yyensure_buffer_stack()#,[9:1938:0:9,9:1642:0:18,9:1642:0:10,9:1651:0:12,9:1747:0:18,9:1627:0:18,9:1653:0:3]
+[Au5em],[$nosymbol@MSF@syncrep_scanner.c:1925],[syncrep_scanner.c],[9:1653],[Vul],[M],[MSF],[1,0,0],[$nosymbol],#syncrep_yyensure_buffer_stack()#,[9:1925:0:9,9:1623:0:18,9:1623:0:10,9:1633:0:12,9:1653:0:3]
+[Au5em],[yy_buffer_stack@UDR@syncrep_scanner.c:1938],[syncrep_scanner.c],[9:1938],[Vul],[D],[UDR],[1,0,0],[yy_buffer_stack],#syncrep_yyrealloc()#,[9:1415:0:6,9:1422:0:1,9:1422:0:2,9:1613:0:6,9:1616:0:24,9:1616:0:26,9:1636:0:23,9:1627:0:2,9:1747:0:2,9:1642:0:25,9:1642:0:2,9:1938:0:3]
+[Au5em],[yy_buffer_stack@UDR@syncrep_scanner.c:1938],[syncrep_scanner.c],[9:1938],[Vul],[D],[UDR],[1,0,0],[yy_buffer_stack],#syncrep_yyrealloc()#,[9:1564:0:6,9:1565:0:24,9:1565:0:26,9:1568:0:1,9:1568:0:2,9:1613:0:6,9:1616:0:24,9:1616:0:26,9:1636:0:23,9:1627:0:2,9:1747:0:2,9:1642:0:25,9:1642:0:2,9:1938:0:3]
+[Au5em],[realloc@ERR33-C@CERT@syncrep_scanner.c:1642@syncrep_scanner.c:1938],[syncrep_scanner.c],[9:1938],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[realloc],#syncrep_yyensure_buffer_stack()#,[9:1938:0:3,9:1642:0:18,9:1642:0:16]
+[Au5em],[malloc@ERR33-C@CERT@syncrep_scanner.c:1623@syncrep_scanner.c:1925],[syncrep_scanner.c],[9:1925],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[malloc],#syncrep_yyensure_buffer_stack()#,[9:1925:0:3,9:1623:0:18,9:1623:0:16]
+[Au5em],[yy_buffer_stack@AOB@syncrep_scanner.c:1650@syncrep_scanner.c:1938],[syncrep_scanner.c],[9:1650],[Vul],[M],[AOB],[1,0,0],[yy_buffer_stack],#fprintf_to_ereport()#,[9:1938:0:5,9:1642:0:18,9:1646:0:24,9:1646:0:26,9:1747:0:18,9:1627:0:18,9:1642:0:2,9:1938:0:1,9:1642:0:18,9:1627:0:2,9:1747:0:2,9:1642:0:1,9:1650:0:3]
+[Au5em],[$nosymbol@MSF@syncrep_scanner.c:1925],[syncrep_scanner.c],[9:1481],[Vul],[D],[MSF],[1,0,0],[$nosymbol],#syncrep_yy_create_buffer()#,[9:1925:0:9,9:1472:0:18,9:1747:0:18,9:1465:0:18,9:1465:0:2,9:1747:0:2,9:1474:0:2,9:1747:0:2,9:1480:0:12,9:1747:0:18,9:1474:0:18,9:1747:0:18,9:1465:0:18,9:1481:0:3]
+[Au5em],[b@MSF@syncrep_scanner.c:1925],[syncrep_scanner.l],[11:88],[Vul],[D],[MSF],[1,0,0],[b],#syncrep_yy_create_buffer()#,[9:1925:0:9,9:1463:0:18,9:1465:0:2,9:1747:0:2,9:1474:0:2,9:1747:0:2,11:88:0:12]
+[Au5em],[malloc@ERR33-C@CERT@syncrep_scanner.c:1472@syncrep_scanner.c:1925],[syncrep_scanner.c],[9:1925],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[malloc],#syncrep_yy_create_buffer()#,[9:1925:0:3,9:1472:0:18,9:1472:0:16]
+[Au5em],[$nosymbol@MSF@syncrep_scanner.c:1938],[syncrep_scanner.l],[11:88],[Vul],[D],[MSF],[1,0,0],[$nosymbol],#yy_get_next_buffer()#,[9:1938:0:9,9:1192:0:18,9:1201:0:2,9:1747:0:2,9:1215:0:2,9:1747:0:2,9:1215:0:2,9:1747:0:2,11:88:0:12]
+[Au5em],[$nosymbol@MSF@syncrep_scanner.c:1938],[syncrep_scanner.l],[11:88],[Vul],[D],[MSF],[1,0,0],[$nosymbol],#yy_get_next_buffer()#,[9:1938:0:9,9:1192:0:18,9:1747:0:18,9:1133:0:18,9:1133:0:2,9:1747:0:2,9:1201:0:2,9:1747:0:2,11:88:0:12]
+[Au5em],[$nosymbol@MSF@syncrep_scanner.c:1938],[syncrep_scanner.c],[9:1255],[Vul],[D],[MSF],[1,0,0],[$nosymbol],#yy_get_next_buffer()#,[9:1938:0:9,9:1243:0:18,9:1254:0:12,9:1747:0:18,9:1215:0:18,9:1747:0:18,9:1215:0:18,9:1747:0:18,9:1201:0:18,9:1747:0:18,9:1133:0:18,9:1255:0:3]
+[Au5em],[syncrep_yy_create_buffer@MSF@syncrep_scanner.c:1402],[syncrep_scanner.c],[9:1255],[Vul],[D],[MSF],[1,0,0],[syncrep_yy_create_buffer],#yy_get_next_buffer()#,[9:1402:0:9,9:1226:0:18,9:1254:0:12,9:1747:0:18,9:1215:0:18,9:1747:0:18,9:1215:0:18,9:1747:0:18,9:1201:0:18,9:1747:0:18,9:1133:0:18,9:1255:0:3]
+[Au5em],[ptr@UDR@syncrep_scanner.c:1929],[syncrep_scanner.c],[9:1938],[Vul],[D],[UDR],[1,0,0],[ptr],#syncrep_yyrealloc()#,[9:1243:0:2,9:1929:0:1,9:1938:0:3]
+[Au5em],[$nosymbol@MSF@syncrep_scanner.c:1938],[syncrep_scanner.l],[11:88],[Vul],[D],[MSF],[1,0,0],[$nosymbol],#yy_get_next_buffer()#,[9:1938:0:9,9:1243:0:18,9:1747:0:18,9:1215:0:18,9:1747:0:18,9:1215:0:18,9:1747:0:18,9:1201:0:18,9:1747:0:18,9:1133:0:18,9:1133:0:2,9:1747:0:2,9:1201:0:2,9:1747:0:2,9:1215:0:2,9:1747:0:2,9:1215:0:2,9:1747:0:2,9:1245:0:2,9:1747:0:2,11:88:0:12]
+[Au5em],[syncrep_yy_create_buffer@MSF@syncrep_scanner.c:1402],[syncrep_scanner.l],[11:88],[Vul],[D],[MSF],[1,0,0],[syncrep_yy_create_buffer],#yy_get_next_buffer()#,[9:1402:0:9,9:1226:0:18,9:1245:0:2,9:1747:0:2,11:88:0:12]
+[Au5em],[yy_n_chars@ERR33-C@CERT@syncrep_scanner.c:1215@syncrep_scanner.c:1215],[syncrep_scanner.c],[9:1215],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[yy_n_chars],#yy_get_next_buffer()#,[9:1215:0:3,9:1215:0:16]
+[Au5em],[getc@FIO34-C@CERT@syncrep_scanner.c:1254@syncrep_scanner.c:1215],[syncrep_scanner.c],[9:1215],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO34-C],[getc],#yy_get_next_buffer()#,[9:1215:0:3,9:1215:0:17,9:1215:0:2,9:1747:0:2,9:1215:0:2,9:1747:0:2,9:1238:0:17,9:1240:0:17,9:1254:0:16]
+[Au5em],[realloc@ERR33-C@CERT@syncrep_scanner.c:1192@syncrep_scanner.c:1938],[syncrep_scanner.c],[9:1938],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[realloc],#yy_get_next_buffer()#,[9:1938:0:3,9:1192:0:18,9:1187:0:25,9:1183:0:23,9:1192:0:16]
+[Au5em],[realloc@ERR33-C@CERT@syncrep_scanner.c:1243@syncrep_scanner.c:1938],[syncrep_scanner.c],[9:1938],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[realloc],#yy_get_next_buffer()#,[9:1938:0:3,9:1243:0:18,9:1243:0:16]
+[Au5em],[syncrep_yy_create_buffer@MSF@syncrep_scanner.c:804],[syncrep_scanner.l],[11:88],[Vul],[D],[MSF],[1,0,0],[syncrep_yy_create_buffer],#syncrep_yylex()#,[9:804:0:9,11:177:0:2,9:1747:0:2,9:1111:0:2,9:1747:0:2,11:88:0:12]
+[Au5em],[syncrep_yy_create_buffer@MSF@syncrep_scanner.c:804],[syncrep_scanner.c],[9:1116],[Vul],[D],[MSF],[1,0,0],[syncrep_yy_create_buffer],#syncrep_yylex()#,[9:804:0:9,11:130:0:12,9:1116:0:3]
+[Au5em],[syncrep_yy_create_buffer@MSF@syncrep_scanner.c:804],[syncrep_scanner.c],[9:1116],[Vul],[D],[MSF],[1,0,0],[syncrep_yy_create_buffer],#syncrep_yylex()#,[9:804:0:9,11:131:0:12,9:1116:0:3]
+[Au5em],[syncrep_yy_create_buffer@MSF@syncrep_scanner.c:804],[syncrep_scanner.c],[9:1116],[Vul],[D],[MSF],[1,0,0],[syncrep_yy_create_buffer],#syncrep_yylex()#,[9:804:0:9,11:147:0:12,9:1116:0:3]
+[Au5em],[syncrep_yy_create_buffer@MSF@syncrep_scanner.c:804],[syncrep_scanner.c],[9:1116],[Vul],[D],[MSF],[1,0,0],[syncrep_yy_create_buffer],#syncrep_yylex()#,[9:804:0:9,11:156:0:12,9:1116:0:3]
+[Au5em],[syncrep_yy_create_buffer@MSF@syncrep_scanner.c:804],[syncrep_scanner.c],[9:1116],[Vul],[D],[MSF],[1,0,0],[syncrep_yy_create_buffer],#syncrep_yylex()#,[9:804:0:9,11:161:0:12,9:1116:0:3]
+[Au5em],[syncrep_yy_create_buffer@MSF@syncrep_scanner.c:804],[syncrep_scanner.c],[9:1116],[Vul],[D],[MSF],[1,0,0],[syncrep_yy_create_buffer],#syncrep_yylex()#,[9:804:0:9,11:166:0:12,9:1116:0:3]
+[Au5em],[syncrep_yy_create_buffer@MSF@syncrep_scanner.c:804],[syncrep_scanner.c],[9:1116],[Vul],[D],[MSF],[1,0,0],[syncrep_yy_create_buffer],#syncrep_yylex()#,[9:804:0:9,11:169:0:12,9:1116:0:3]
+[Au5em],[syncrep_yy_create_buffer@MSF@syncrep_scanner.c:804],[syncrep_scanner.c],[9:1116],[Vul],[D],[MSF],[1,0,0],[syncrep_yy_create_buffer],#syncrep_yylex()#,[9:804:0:9,11:170:0:12,9:1116:0:3]
+[Au5em],[syncrep_yy_create_buffer@MSF@syncrep_scanner.c:804],[syncrep_scanner.c],[9:1116],[Vul],[D],[MSF],[1,0,0],[syncrep_yy_create_buffer],#syncrep_yylex()#,[9:804:0:9,11:171:0:12,9:1116:0:3]
+[Au5em],[syncrep_yy_create_buffer@MSF@syncrep_scanner.c:804],[syncrep_scanner.c],[9:1116],[Vul],[D],[MSF],[1,0,0],[syncrep_yy_create_buffer],#syncrep_yylex()#,[9:804:0:9,11:173:0:12,9:1116:0:3]
+[Au5em],[syncrep_yy_create_buffer@MSF@syncrep_scanner.c:804],[syncrep_scanner.c],[9:1116],[Vul],[D],[MSF],[1,0,0],[syncrep_yy_create_buffer],#syncrep_yylex()#,[9:804:0:9,11:174:0:12,9:1116:0:3]
+[Au5em],[syncrep_yy_create_buffer@MSF@syncrep_scanner.c:804],[syncrep_scanner.c],[9:1116],[Vul],[D],[MSF],[1,0,0],[syncrep_yy_create_buffer],#syncrep_yylex()#,[9:804:0:9,11:176:0:12,9:1116:0:3]
+[Au5em],[syncrep_yy_create_buffer@MSF@syncrep_scanner.c:804],[syncrep_scanner.l],[11:88],[Vul],[D],[MSF],[1,0,0],[syncrep_yy_create_buffer],#syncrep_yylex()#,[9:804:0:9,11:177:0:2,9:1747:0:2,11:88:0:12]
+[Au5em],[syncrep_yy_create_buffer@MSF@syncrep_scanner.c:804],[syncrep_scanner.c],[9:1116],[Vul],[D],[MSF],[1,0,0],[syncrep_yy_create_buffer],#syncrep_yylex()#,[9:804:0:9,9:985:0:12,9:1116:0:3]
+[Au5em],[syncrep_yy_create_buffer@MSF@syncrep_scanner.c:804],[syncrep_scanner.c],[9:1116],[Vul],[D],[MSF],[1,0,0],[syncrep_yy_create_buffer],#syncrep_yylex()#,[9:804:0:9,11:151:0:12,9:1116:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@syncrep_gram.y:135],[syncrep_gram.y],[10:135],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#syncrep_yyparse()#,[10:135:0:3]
+[Au5em],[yyvsp@AOB@syncrep_gram.y:68@syncrep_gram.c:1079],[syncrep_gram.y],[10:68],[Vul],[D],[AOB],[1,0,0],[yyvsp],#syncrep_yyparse()#,[8:1079:0:1,8:1101:0:17,10:68:0:3]
+[Au5em],[yyvsp@AOB@syncrep_gram.y:68@syncrep_gram.c:1079],[syncrep_gram.y],[10:68],[Vul],[D],[AOB],[1,0,0],[yyvsp],#syncrep_yyparse()#,[8:1079:0:1,8:1101:0:17,10:68:0:3]
+[Au5em],[yyvsp@AOB@syncrep_gram.y:69@syncrep_gram.c:1079],[syncrep_gram.y],[10:69],[Vul],[D],[AOB],[1,0,0],[yyvsp],#syncrep_yyparse()#,[8:1079:0:1,8:1101:0:17,10:69:0:3]
+[Au5em],[yyvsp@AOB@syncrep_gram.y:69@syncrep_gram.c:1079],[syncrep_gram.y],[10:69],[Vul],[D],[AOB],[1,0,0],[yyvsp],#syncrep_yyparse()#,[8:1079:0:1,8:1101:0:17,10:69:0:3]
+[Au5em],[yyvsp@AOB@syncrep_gram.y:70@syncrep_gram.c:1079],[syncrep_gram.y],[10:70],[Vul],[D],[AOB],[1,0,0],[yyvsp],#syncrep_yyparse()#,[8:1079:0:1,8:1101:0:17,10:70:0:3]
+[Au5em],[yyvsp@AOB@syncrep_gram.y:70@syncrep_gram.c:1079],[syncrep_gram.y],[10:70],[Vul],[D],[AOB],[1,0,0],[yyvsp],#syncrep_yyparse()#,[8:1079:0:1,8:1101:0:17,10:70:0:3]
+[Au5em],[yyvsp@AOB@syncrep_gram.y:75@syncrep_gram.c:1079],[syncrep_gram.y],[10:75],[Vul],[D],[AOB],[1,0,0],[yyvsp],#syncrep_yyparse()#,[8:1079:0:1,8:1101:0:17,10:75:0:3]
+[Au5em],[yyvsp@AOB@syncrep_gram.y:131@syncrep_gram.c:1079],[syncrep_gram.y],[10:131],[Vul],[D],[AOB],[1,0,0],[yyvsp],#create_application_name()#,[8:1079:0:1,8:1101:0:17,10:88:0:2,10:131:0:3]
+[Au5em],[yyvsp@AOB@syncrep_gram.y:131@syncrep_gram.c:1079],[syncrep_gram.y],[10:131],[Vul],[D],[AOB],[1,0,0],[yyvsp],#create_application_name()#,[8:1079:0:1,8:1101:0:17,10:88:0:2,10:131:0:3]
+[Au5em],[yyvsp@AOB@syncrep_gram.y:131@syncrep_gram.c:1079],[syncrep_gram.y],[10:131],[Vul],[D],[AOB],[1,0,0],[yyvsp],#create_application_name()#,[8:1079:0:1,8:1101:0:17,10:88:0:2,10:131:0:3]
+[Au5em],[yyvsp@AOB@syncrep_gram.y:131@syncrep_gram.c:1079],[syncrep_gram.y],[10:131],[Vul],[D],[AOB],[1,0,0],[yyvsp],#create_application_name()#,[8:1079:0:1,8:1101:0:17,10:88:0:2,10:131:0:3]
+[Au5em],[b@NPD@syncrep_scanner.c:1508],[syncrep_scanner.c],[9:1513],[Vul],[M],[NPD],[1,0,0],[b],#syncrep_yy_init_buffer()#,[9:1406:0:2,9:1508:0:1,9:1508:0:17,9:1508:0:1,9:1513:0:3]
+[Au5em],[b@NPD@syncrep_scanner.c:1508],[syncrep_scanner.c],[9:1514],[Vul],[M],[NPD],[1,0,0],[b],#syncrep_yy_init_buffer()#,[9:1406:0:2,9:1508:0:1,9:1508:0:17,9:1508:0:1,9:1514:0:3]
+[Au5em],[b@NPD@syncrep_scanner.c:1508],[syncrep_scanner.c],[9:1525],[Vul],[M],[NPD],[1,0,0],[b],#syncrep_yy_init_buffer()#,[9:1406:0:2,9:1508:0:1,9:1508:0:17,9:1508:0:1,9:1525:0:3]
+[Au5em],[b@NPD@syncrep_scanner.c:1508],[syncrep_scanner.c],[9:1521],[Vul],[M],[NPD],[1,0,0],[b],#syncrep_yy_init_buffer()#,[9:1406:0:2,9:1508:0:1,9:1508:0:17,9:1508:0:1,9:1521:0:3]
+[Au5em],[b@NPD@syncrep_scanner.c:1508],[syncrep_scanner.c],[9:1522],[Vul],[M],[NPD],[1,0,0],[b],#syncrep_yy_init_buffer()#,[9:1406:0:2,9:1508:0:1,9:1508:0:17,9:1508:0:1,9:1522:0:3]
+[Au5em],[syncrep_yy_create_buffer@MSF@syncrep_scanner.c:1402],[syncrep_scanner.c],[9:1408],[Vul],[D],[MSF],[1,0,0],[syncrep_yy_create_buffer],#syncrep_yyrestart()#,[9:1402:0:9,9:1407:0:12,9:1408:0:3]
+[Au5em],[ptr@UDR@syncrep_scanner.c:1488],[syncrep_scanner.c],[9:1943],[Vul],[M],[UDR],[1,0,0],[ptr],#syncrep_yyfree()#,[9:1499:0:2,9:1942:0:1,9:1943:0:3]
+[Au5em],[ptr@UDR@syncrep_scanner.c:1488],[syncrep_scanner.c],[9:1943],[Vul],[M],[UDR],[1,0,0],[ptr],#syncrep_yyfree()#,[9:1497:0:2,9:1942:0:1,9:1943:0:3]
+[Au5em],[*yy_buffer_stack+(yy_buffer_stack_top*8)@NPD@syncrep_scanner.c:1599],[syncrep_scanner.c],[9:1449],[Vul],[D],[NPD],[1,0,0],[*yy_buffer_stack+(yy_buffer_stack_top*8)],#syncrep_yy_load_buffer_state()#,[9:1449:0:3]
+[Au5em],[ptr@UDR@syncrep_scanner.c:1594],[syncrep_scanner.c],[9:1943],[Vul],[M],[UDR],[1,0,0],[ptr],#syncrep_yyfree()#,[9:1497:0:2,9:1942:0:1,9:1943:0:3]
+[Au5em],[buf@MSF@syncrep_scanner.c:1925],[syncrep_scanner.c],[9:1739],[Vul],[D],[MSF],[1,0,0],[buf],#syncrep_yy_scan_bytes()#,[9:1925:0:9,9:1720:0:18,9:1722:0:2,9:1747:0:2,9:1738:0:12,9:1747:0:18,9:1722:0:18,9:1739:0:3]
+[Au5em],[buf@MSF@syncrep_scanner.c:1925],[syncrep_scanner.l],[11:88],[Vul],[D],[MSF],[1,0,0],[buf],#syncrep_yy_scan_bytes()#,[9:1925:0:9,9:1720:0:18,9:1722:0:2,9:1747:0:2,9:1731:0:2,9:1747:0:2,11:88:0:12]
+[Au5em],[ptr@UDR@syncrep_scanner.c:1878],[syncrep_scanner.c],[9:1943],[Vul],[M],[UDR],[1,0,0],[ptr],#syncrep_yyfree()#,[9:1888:0:2,9:1942:0:1,9:1943:0:3]
+[Au5em],[yy_buffer_stack@UDR@syncrep_scanner.c:1943],[syncrep_scanner.c],[9:1943],[Vul],[D],[UDR],[1,0,0],[yy_buffer_stack],#syncrep_yyfree()#,[9:1878:0:6,9:1888:0:2,9:1943:0:3]
+[Au5em],[malloc@MEM35-C@CERT@syncrep_scanner.c:1925],[syncrep_scanner.c],[9:1925],[Vul],[M],[RBC],[1,0,0],[CERT],[MEM35-C],[malloc],#syncrep_yyalloc()#,[9:1925:0:3]
+[Au5em],[malloc@ERR33-C@CERT@syncrep_scanner.c:1925@syncrep_scanner.c:1925],[syncrep_scanner.c],[9:1925],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[malloc],#syncrep_yyalloc()#,[9:1925:0:3,9:1925:0:16]
+[Au5em],[ptr@UDR@syncrep_scanner.c:1929],[syncrep_scanner.c],[9:1938],[Vul],[M],[UDR],[1,0,0],[ptr],#syncrep_yyrealloc()#,[9:1938:0:3]
+[Au5em],[realloc@ERR33-C@CERT@syncrep_scanner.c:1938@syncrep_scanner.c:1938],[syncrep_scanner.c],[9:1938],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[realloc],#syncrep_yyrealloc()#,[9:1938:0:3,9:1938:0:16]
+[Au5em],[ptr@UDR@syncrep_scanner.c:1942],[syncrep_scanner.c],[9:1943],[Vul],[M],[UDR],[1,0,0],[ptr],#syncrep_yyfree()#,[9:1943:0:3]
+[Au5em],[ptr@UDR@syncrep_scanner.l:198],[syncrep_scanner.c],[9:1943],[Vul],[M],[UDR],[1,0,0],[ptr],#syncrep_yyfree()#,[9:1497:0:2,9:1942:0:1,9:1943:0:3]

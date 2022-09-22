@@ -1,0 +1,46 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_config/pg_config.c"
+  },
+  {
+  "fid": 5,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_config/../../../src/include/port.h"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_config/../../../src/include/common/config_info.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/netinet/in.h"
+  }
+]
+[Au5em],[fprintf@ERR33-C@CERT@pg_config.c:180],[pg_config.c],[4:180],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:180:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_config.c:111],[pg_config.c],[4:111],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:111:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_config.c:153],[pg_config.c],[4:153],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:153:0:3]

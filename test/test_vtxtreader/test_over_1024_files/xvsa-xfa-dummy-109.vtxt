@@ -1,0 +1,64 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/mmgr/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/mmgr/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/mmgr/../../../../src/include/utils/memutils.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/mmgr/aset.c"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/mmgr/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/netinet/in.h"
+  }
+]
+[Au5em],[block@MSF@aset.c:458],[aset.c],[7:485],[Vul],[D],[MSF],[1,0,0],[block],#AllocSetContextCreate()#,[7:458:0:9,7:484:0:12,7:485:0:3]
+[Au5em],[block@MSF@aset.c:458],[aset.c],[7:485],[Vul],[D],[MSF],[1,0,0],[block],#AllocSetContextCreate()#,[7:458:0:9,7:484:0:12,7:485:0:3]
+[Au5em],[malloc@MEM35-C@CERT@aset.c:458],[aset.c],[7:458],[Vul],[M],[RBC],[1,0,0],[CERT],[MEM35-C],[malloc],#AllocSetContextCreate()#,[7:458:0:3]
+[Au5em],[block@UAF@aset.c:607],[aset.c],[7:608],[Vul],[D],[UAF],[1,0,0],[block],#AllocSetDelete()#,[7:607:0:10,7:602:0:1,7:608:0:3]
+[Au5em],[block@MSF@aset.c:820],[aset.c],[7:892],[Vul],[D],[MSF],[1,0,0],[block],#AllocSetAlloc()#,[7:820:0:9,7:891:0:12,7:892:0:3]
+[Au5em],[block@MSF@aset.c:831],[aset.c],[7:892],[Vul],[D],[MSF],[1,0,0],[block],#AllocSetAlloc()#,[7:831:0:9,7:891:0:12,7:892:0:3]
+[Au5em],[block@MSF@aset.c:831],[aset.c],[7:892],[Vul],[D],[MSF],[1,0,0],[block],#AllocSetAlloc()#,[7:831:0:9,7:835:0:12,7:892:0:3]
+[Au5em],[malloc@MEM35-C@CERT@aset.c:820],[aset.c],[7:820],[Vul],[M],[RBC],[1,0,0],[CERT],[MEM35-C],[malloc],#AllocSetAlloc()#,[7:820:0:3]
+[Au5em],[malloc@MEM35-C@CERT@aset.c:831],[aset.c],[7:831],[Vul],[M],[RBC],[1,0,0],[CERT],[MEM35-C],[malloc],#AllocSetAlloc()#,[7:831:0:3]
+[Au5em],[pointer@UDR@aset.c:980],[aset.c],[7:1162],[Vul],[M],[UDR],[1,0,0],[pointer],#AllocSetRealloc()#,[7:1162:0:3]
+[Au5em],[pointer@UDR@aset.c:980],[aset.c],[7:1069],[Vul],[M],[UDR],[1,0,0],[pointer],#AllocSetRealloc()#,[7:1069:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@aset.c:1243],[aset.c],[7:1243],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#AllocSetStats()#,[7:1243:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@aset.c:1242],[aset.c],[7:1242],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#AllocSetStats()#,[7:1242:0:3]

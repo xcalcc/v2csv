@@ -1,0 +1,438 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/storage/s_lock.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/memutils.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/openssl/safestack.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/openssl/stack.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/openssl/crypto.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/openssl/bio.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/openssl/asn1.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/openssl/x509.h"
+  },
+  {
+  "fid": 16,
+  "path": "/usr/include/openssl/lhash.h"
+  },
+  {
+  "fid": 17,
+  "path": "/usr/include/openssl/x509_vfy.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/openssl/pkcs7.h"
+  },
+  {
+  "fid": 19,
+  "path": "/usr/include/openssl/ct.h"
+  },
+  {
+  "fid": 20,
+  "path": "/usr/include/openssl/ssl.h"
+  },
+  {
+  "fid": 21,
+  "path": "/usr/include/openssl/err.h"
+  },
+  {
+  "fid": 22,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/sortsupport.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/poolmgr.c"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 25,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 26,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/miscadmin.h"
+  },
+  {
+  "fid": 27,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/port.h"
+  },
+  {
+  "fid": 28,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 29,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/libpq/pqsignal.h"
+  },
+  {
+  "fid": 30,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/pgxc/nodemgr.h"
+  },
+  {
+  "fid": 31,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/hsearch.h"
+  },
+  {
+  "fid": 32,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/pgxc/poolcomm.h"
+  },
+  {
+  "fid": 33,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/postmaster/postmaster.h"
+  },
+  {
+  "fid": 34,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 35,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 36,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/lib/stringinfo.h"
+  },
+  {
+  "fid": 37,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/guc.h"
+  },
+  {
+  "fid": 38,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/varlena.h"
+  },
+  {
+  "fid": 39,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 40,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 41,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/access/xact.h"
+  },
+  {
+  "fid": 42,
+  "path": "/usr/include/sys/timeb.h"
+  },
+  {
+  "fid": 43,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/libpq/pqformat.h"
+  },
+  {
+  "fid": 44,
+  "path": "/usr/include/strings.h"
+  },
+  {
+  "fid": 45,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 46,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 47,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/../interfaces/libpq/libpq-fe.h"
+  },
+  {
+  "fid": 48,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/../interfaces/libpq/libpq-int.h"
+  },
+  {
+  "fid": 49,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/pgxc/squeue.h"
+  },
+  {
+  "fid": 50,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/pgxc/pgxcnode.h"
+  },
+  {
+  "fid": 51,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/pgtime.h"
+  },
+  {
+  "fid": 52,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/storage/pmsignal.h"
+  },
+  {
+  "fid": 53,
+  "path": "/usr/include/bits/mathcalls.h"
+  },
+  {
+  "fid": 54,
+  "path": "/usr/include/sys/poll.h"
+  },
+  {
+  "fid": 55,
+  "path": "/usr/include/sys/socket.h"
+  },
+  {
+  "fid": 56,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/pgxc/pgxc.h"
+  },
+  {
+  "fid": 57,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/libpq/libpq-be.h"
+  },
+  {
+  "fid": 58,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/common/username.h"
+  },
+  {
+  "fid": 59,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/commands/dbcommands.h"
+  },
+  {
+  "fid": 60,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 61,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 62,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/common/relpath.h"
+  },
+  {
+  "fid": 63,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/storage/backendid.h"
+  },
+  {
+  "fid": 64,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/storage/sinval.h"
+  },
+  {
+  "fid": 65,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 66,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/timestamp.h"
+  },
+  {
+  "fid": 67,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/datetime.h"
+  },
+  {
+  "fid": 68,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/resowner.h"
+  },
+  {
+  "fid": 69,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 70,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 71,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/pgxc/shardmap.h"
+  },
+  {
+  "fid": 72,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 73,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/array.h"
+  },
+  {
+  "fid": 74,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/catalog/objectaddress.h"
+  },
+  {
+  "fid": 75,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/tcop/dest.h"
+  },
+  {
+  "fid": 76,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/storage/dsm_impl.h"
+  },
+  {
+  "fid": 77,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/builtins.h"
+  },
+  {
+  "fid": 78,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/utils/lsyscache.h"
+  },
+  {
+  "fid": 79,
+  "path": "/usr/include/openssl/ec.h"
+  },
+  {
+  "fid": 80,
+  "path": "/usr/include/openssl/rsa.h"
+  },
+  {
+  "fid": 81,
+  "path": "/usr/include/openssl/dh.h"
+  },
+  {
+  "fid": 82,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/libpq/pqcomm.h"
+  },
+  {
+  "fid": 83,
+  "path": "/home/xc5/cprojects/tbase/src/backend/pgxc/pool/../../../../src/include/mb/pg_wchar.h"
+  },
+  {
+  "fid": 84,
+  "path": "/usr/include/math.h"
+  }
+]
+[Au5em],[snprintf@ERR33-C@CERT@poolmgr.c:9205],[poolmgr.c],[23:9205],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#create_node_map()#,[23:9205:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@poolmgr.c:9185],[poolmgr.c],[23:9185],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#create_node_map()#,[23:9185:0:3]
+[Au5em],[asyncInfo->dbPool@NPD@poolmgr.c:6730],[poolmgr.c],[23:6670],[Vul],[D],[NPD],[1,0,0],[asyncInfo->dbPool],#pooler_sync_connections_to_nodepool()#,[23:6741:0:17,23:6752:0:17,23:6658:0:17,23:6670:0:3]
+[Au5em],[asyncInfo->slot@NPD@poolmgr.c:6727],[poolmgr.c],[23:6682],[Vul],[D],[NPD],[1,0,0],[asyncInfo->slot],#pooler_sync_connections_to_nodepool()#,[23:6741:0:17,23:6752:0:17,23:6658:0:17,23:6682:0:3]
+[Au5em],[asyncInfo->dbPool@NPD@poolmgr.c:6730],[poolmgr.c],[23:6703],[Vul],[D],[NPD],[1,0,0],[asyncInfo->dbPool],#pooler_sync_connections_to_nodepool()#,[23:6741:0:17,23:6752:0:17,23:6658:0:17,23:6703:0:3]
+[Au5em],[dbPool@NPD@poolmgr.c:6730],[poolmgr.c],[23:5879],[Vul],[D],[NPD],[1,0,0],[dbPool],#build_node_conn_str()#,[23:6741:0:17,23:6752:0:17,23:6658:0:17,23:6710:0:2,23:5868:0:1,23:6710:0:18,23:6663:0:24,23:6666:0:25,23:6835:0:24,23:6835:0:25,23:6705:0:23,23:6707:0:25,23:6710:0:2,23:5873:0:24,23:5879:0:26,23:5879:0:3]
+[Au5em],[dbPool@NPD@poolmgr.c:6730],[poolmgr.c],[23:5879],[Vul],[D],[NPD],[1,0,0],[dbPool],#build_node_conn_str()#,[23:6741:0:17,23:6752:0:17,23:6658:0:17,23:6710:0:2,23:5868:0:1,23:6710:0:18,23:6663:0:24,23:6666:0:25,23:6835:0:24,23:6835:0:25,23:6705:0:23,23:6707:0:25,23:6710:0:2,23:5873:0:24,23:5879:0:26,23:5879:0:3]
+[Au5em],[dbPool@NPD@poolmgr.c:6730],[poolmgr.c],[23:5879],[Vul],[D],[NPD],[1,0,0],[dbPool],#build_node_conn_str()#,[23:6741:0:17,23:6752:0:17,23:6658:0:17,23:6710:0:2,23:5868:0:1,23:6710:0:18,23:6663:0:24,23:6666:0:25,23:6835:0:24,23:6835:0:25,23:6705:0:23,23:6707:0:25,23:6710:0:2,23:5873:0:24,23:5879:0:26,23:5879:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@poolmgr.c:6900],[poolmgr.c],[23:6900],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pooler_sync_connections_to_nodepool()#,[23:6900:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@poolmgr.c:6741],[poolmgr.c],[23:6741],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pooler_sync_connections_to_nodepool()#,[23:6741:0:3]
+[Au5em],[found@UIV@poolmgr.c:4923],[poolmgr.c],[23:4930],[Vul],[M],[UIV],[1,0,0],[found],#grow_pool()#,[23:4923:0:4,23:4927:0:5,23:4930:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@poolmgr.c:4965],[poolmgr.c],[23:4965],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#grow_pool()#,[23:4965:0:3]
+[Au5em],[taskControl@NPD@poolmgr.c:4156],[poolmgr.c],[23:9000],[Vul],[M],[NPD],[1,0,0],[taskControl],#dispatch_reset_request()#,[23:4156:0:1,23:4159:0:23,23:4159:0:25,23:4173:0:24,23:4173:0:26,23:4173:0:17,23:4269:0:2,23:8974:0:4,23:8974:0:1,23:8997:0:23,23:9000:0:25,23:9000:0:3]
+[Au5em],[taskControl@NPD@poolmgr.c:4156],[poolmgr.c],[23:9000],[Vul],[M],[NPD],[1,0,0],[taskControl],#dispatch_reset_request()#,[23:4156:0:1,23:4159:0:23,23:4159:0:25,23:4173:0:24,23:4173:0:26,23:4173:0:17,23:4246:0:2,23:8974:0:4,23:8974:0:1,23:8997:0:23,23:9000:0:25,23:9000:0:3]
+[Au5em],[taskControl@NPD@poolmgr.c:4156],[poolmgr.c],[23:9000],[Vul],[M],[NPD],[1,0,0],[taskControl],#dispatch_reset_request()#,[23:4156:0:1,23:4159:0:23,23:4159:0:25,23:4173:0:24,23:4173:0:26,23:4173:0:17,23:4205:0:2,23:8974:0:4,23:8974:0:1,23:8997:0:23,23:9000:0:25,23:9000:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@poolmgr.c:7459],[poolmgr.c],[23:7459],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#preconnect_and_warm()#,[23:7459:0:3]
+[Au5em],[$nosymbol@MSF@poolmgr.c:1118],[poolmgr.c],[23:1129],[Vul],[D],[MSF],[1,0,0],[$nosymbol],#session_options()#,[23:1118:0:9,23:1128:0:12,23:1129:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@poolmgr.c:11182],[poolmgr.c],[23:11182],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#connection_need_pool()#,[23:11182:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@poolmgr.c:4383],[poolmgr.c],[23:4383],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#create_database_pool()#,[23:4383:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@poolmgr.c:7347],[poolmgr.c],[23:7347],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#connect_pools()#,[23:7347:0:3]
+[Au5em],[RCD@poolmgr.c:5985@poolmgr.c:5980],[poolmgr.c],[23:5985],[Vul],[D],[RCD],[1,0,0],[],#shrink_pool()#,[23:5980:0:11,23:5980:0:24,23:5985:0:26,23:5985:0:3]
+[Au5em],[RCD@poolmgr.c:5956@poolmgr.c:5951],[poolmgr.c],[23:5956],[Vul],[D],[RCD],[1,0,0],[],#shrink_pool()#,[23:5951:0:11,23:5951:0:24,23:5956:0:26,23:5956:0:3]
+[Au5em],[RCD@poolmgr.c:7303@poolmgr.c:7298],[poolmgr.c],[23:7303],[Vul],[D],[RCD],[1,0,0],[],#pooler_async_warm_database_pool()#,[23:7298:0:11,23:7298:0:24,23:7303:0:26,23:7303:0:3]
+[Au5em],[connstr@AOB@poolmgr.c:10224],[poolmgr.c],[23:10224],[Vul],[M],[AOB],[1,0,0],[connstr],#TryPingUnhealthyNode()#,[23:10224:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@poolmgr.c:8661],[poolmgr.c],[23:8661],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#dispatch_connection_request()#,[23:8661:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@poolmgr.c:3017],[poolmgr.c],[23:3017],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#agent_acquire_connections()#,[23:3017:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@poolmgr.c:3257],[poolmgr.c],[23:3257],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#agent_acquire_connections()#,[23:3257:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@poolmgr.c:3106],[poolmgr.c],[23:3106],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#agent_acquire_connections()#,[23:3106:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@poolmgr.c:3057],[poolmgr.c],[23:3057],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#agent_acquire_connections()#,[23:3057:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@poolmgr.c:10780],[poolmgr.c],[23:10780],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#handle_get_connections()#,[23:10780:0:3]
+[Au5em],[taskControl@NPD@poolmgr.c:3688],[poolmgr.c],[23:8937],[Vul],[M],[NPD],[1,0,0],[taskControl],#dispatch_cancle_request()#,[23:3688:0:1,23:3692:0:24,23:3692:0:26,23:3698:0:24,23:3711:0:26,23:3711:0:17,23:3755:0:17,23:3766:0:17,23:3799:0:2,23:8850:0:4,23:8850:0:1,23:8933:0:23,23:8935:0:25,23:8935:0:23,23:8937:0:25,23:8937:0:3]
+[Au5em],[taskControl@NPD@poolmgr.c:3688],[poolmgr.c],[23:8880],[Vul],[M],[NPD],[1,0,0],[taskControl],#dispatch_cancle_request()#,[23:3688:0:1,23:3692:0:24,23:3692:0:26,23:3698:0:24,23:3711:0:26,23:3711:0:17,23:3755:0:17,23:3766:0:17,23:3799:0:2,23:8850:0:4,23:8850:0:1,23:8878:0:23,23:8880:0:25,23:8880:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@poolmgr.c:8950],[poolmgr.c],[23:8950],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#dispatch_cancle_request()#,[23:8950:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@poolmgr.c:3703],[poolmgr.c],[23:3703],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#cancel_query_on_connections()#,[23:3703:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@poolmgr.c:9282],[poolmgr.c],[23:9282],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#refresh_node_map()#,[23:9282:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@poolmgr.c:9267],[poolmgr.c],[23:9267],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#refresh_node_map()#,[23:9267:0:3]
+[Au5em],[numCo@UIV@poolmgr.c:863],[poolmgr.c],[23:872],[Vul],[M],[UIV],[1,0,0],[numCo],#node_info_check()#,[23:863:0:4,23:870:0:5,23:872:0:3]
+[Au5em],[numDn@UIV@poolmgr.c:864],[poolmgr.c],[23:872],[Vul],[M],[UIV],[1,0,0],[numDn],#node_info_check()#,[23:864:0:4,23:870:0:5,23:872:0:24,23:872:0:25,23:872:0:3]
+[Au5em],[coOids@UIV@poolmgr.c:861],[poolmgr.c],[23:872],[Vul],[M],[UIV],[1,0,0],[coOids],#node_info_check()#,[23:861:0:4,23:870:0:5,23:872:0:24,23:872:0:25,23:872:0:3]
+[Au5em],[numCo@UIV@poolmgr.c:863],[poolmgr.c],[23:872],[Vul],[M],[UIV],[1,0,0],[numCo],#node_info_check()#,[23:863:0:4,23:870:0:5,23:872:0:24,23:872:0:25,23:872:0:3]
+[Au5em],[set_desc@UIV@poolmgr.c:2454@poolmgr.c:2511],[poolmgr.c],[23:2454],[Vul],[D],[UIV],[1,0,0],[set_desc],#agent_compress_command()#,[23:2511:0:2,23:2363:0:17,23:2452:0:17,23:2454:0:3]
+[Au5em],[set_desc@UIV@poolmgr.c:2454@poolmgr.c:2511],[poolmgr.c],[23:2454],[Vul],[D],[UIV],[1,0,0],[set_desc],#agent_compress_command()#,[23:2511:0:2,23:2363:0:17,23:2452:0:17,23:2454:0:3]
+[Au5em],[set_desc@UIV@poolmgr.c:2454@poolmgr.c:2511],[poolmgr.c],[23:2454],[Vul],[D],[UIV],[1,0,0],[set_desc],#agent_compress_command()#,[23:2511:0:2,23:2363:0:17,23:2452:0:17,23:2454:0:3]
+[Au5em],[guc_pointer+(i*16)@NPD@poolmgr.c:2354],[poolmgr.c],[23:2535],[Vul],[M],[NPD],[1,0,0],[guc_pointer+(i*16)],#agent_handle_set_command()#,[23:2354:0:1,23:2356:0:24,23:2356:0:26,23:2356:0:17,23:2478:0:1,23:2511:0:18,23:2513:0:24,23:2517:0:26,23:2529:0:23,23:2529:0:25,23:2511:0:1,23:2535:0:3]
+[Au5em],[guc_pointer+(i*16)@NPD@poolmgr.c:2354],[poolmgr.c],[23:2611],[Vul],[M],[NPD],[1,0,0],[guc_pointer+(i*16)],#agent_handle_set_command()#,[23:2354:0:1,23:2356:0:24,23:2356:0:26,23:2356:0:17,23:2478:0:1,23:2511:0:18,23:2513:0:24,23:2517:0:26,23:2529:0:23,23:2529:0:25,23:2590:0:24,23:2609:0:26,23:2511:0:1,23:2611:0:3]
+[Au5em],[guc_pointer+(i*16)@NPD@poolmgr.c:2354],[poolmgr.c],[23:2612],[Vul],[M],[NPD],[1,0,0],[guc_pointer+(i*16)],#agent_handle_set_command()#,[23:2354:0:1,23:2356:0:24,23:2356:0:26,23:2356:0:17,23:2478:0:1,23:2511:0:18,23:2513:0:24,23:2517:0:26,23:2529:0:23,23:2529:0:25,23:2590:0:24,23:2609:0:26,23:2511:0:1,23:2612:0:3]
+[Au5em],[guc_pointer+(i*16)@NPD@poolmgr.c:2354],[poolmgr.c],[23:2613],[Vul],[M],[NPD],[1,0,0],[guc_pointer+(i*16)],#agent_handle_set_command()#,[23:2354:0:1,23:2356:0:24,23:2356:0:26,23:2356:0:17,23:2478:0:1,23:2511:0:18,23:2513:0:24,23:2517:0:26,23:2529:0:23,23:2529:0:25,23:2590:0:24,23:2609:0:26,23:2511:0:1,23:2613:0:3]
+[Au5em],[guc_pointer+(i*16)@NPD@poolmgr.c:2354],[poolmgr.c],[23:2598],[Vul],[M],[NPD],[1,0,0],[guc_pointer+(i*16)],#agent_handle_set_command()#,[23:2354:0:1,23:2356:0:24,23:2356:0:26,23:2356:0:17,23:2478:0:1,23:2511:0:18,23:2513:0:24,23:2517:0:26,23:2529:0:23,23:2529:0:25,23:2590:0:23,23:2592:0:25,23:2592:0:23,23:2595:0:25,23:2511:0:1,23:2598:0:3]
+[Au5em],[guc_pointer+(i*16)@NPD@poolmgr.c:2354],[poolmgr.c],[23:2599],[Vul],[M],[NPD],[1,0,0],[guc_pointer+(i*16)],#agent_handle_set_command()#,[23:2354:0:1,23:2356:0:24,23:2356:0:26,23:2356:0:17,23:2478:0:1,23:2511:0:18,23:2513:0:24,23:2517:0:26,23:2529:0:23,23:2529:0:25,23:2590:0:23,23:2592:0:25,23:2592:0:23,23:2595:0:25,23:2511:0:1,23:2599:0:3]
+[Au5em],[guc_pointer+(i*16)@NPD@poolmgr.c:2354],[poolmgr.c],[23:2559],[Vul],[M],[NPD],[1,0,0],[guc_pointer+(i*16)],#agent_handle_set_command()#,[23:2354:0:1,23:2356:0:24,23:2356:0:26,23:2356:0:17,23:2478:0:1,23:2511:0:18,23:2513:0:24,23:2517:0:26,23:2529:0:23,23:2529:0:25,23:2542:0:23,23:2542:0:25,23:2546:0:24,23:2559:0:26,23:2511:0:1,23:2559:0:3]
+[Au5em],[guc_pointer+(i*16)@NPD@poolmgr.c:2354],[poolmgr.c],[23:2563],[Vul],[M],[NPD],[1,0,0],[guc_pointer+(i*16)],#agent_handle_set_command()#,[23:2354:0:1,23:2356:0:24,23:2356:0:26,23:2356:0:17,23:2478:0:1,23:2511:0:18,23:2513:0:24,23:2517:0:26,23:2529:0:23,23:2529:0:25,23:2542:0:23,23:2542:0:25,23:2546:0:24,23:2559:0:26,23:2559:0:24,23:2563:0:26,23:2511:0:1,23:2563:0:3]
+[Au5em],[guc_pointer+(i*16)@NPD@poolmgr.c:2354],[poolmgr.c],[23:2566],[Vul],[M],[NPD],[1,0,0],[guc_pointer+(i*16)],#agent_handle_set_command()#,[23:2354:0:1,23:2356:0:24,23:2356:0:26,23:2356:0:17,23:2478:0:1,23:2511:0:18,23:2513:0:24,23:2517:0:26,23:2529:0:23,23:2529:0:25,23:2542:0:23,23:2542:0:25,23:2546:0:24,23:2559:0:26,23:2559:0:24,23:2563:0:26,23:2563:0:23,23:2566:0:25,23:2511:0:1,23:2566:0:3]
+[Au5em],[guc_pointer+(i*16)@NPD@poolmgr.c:2354],[poolmgr.c],[23:2570],[Vul],[M],[NPD],[1,0,0],[guc_pointer+(i*16)],#agent_handle_set_command()#,[23:2354:0:1,23:2356:0:24,23:2356:0:26,23:2356:0:17,23:2478:0:1,23:2511:0:18,23:2513:0:24,23:2517:0:26,23:2529:0:23,23:2529:0:25,23:2542:0:23,23:2542:0:25,23:2546:0:24,23:2559:0:26,23:2559:0:24,23:2563:0:26,23:2563:0:23,23:2566:0:25,23:2566:0:24,23:2570:0:26,23:2511:0:1,23:2570:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@poolmgr.c:2639@poolmgr.c:2639],[poolmgr.c],[23:2639],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#agent_handle_set_command()#,[23:2639:0:3,23:2639:0:16]
+[Au5em],[handle@UDR@poolmgr.c:1001],[poolmgr.c],[23:1003],[Vul],[M],[UDR],[1,0,0],[handle],#PoolManagerCloseHandle()#,[23:1003:0:3]
+[Au5em],[handle@MSF@poolmgr.c:11340],[poolmgr.c],[23:1413],[Vul],[D],[MSF],[1,0,0],[handle],#PoolManagerSetCommand()#,[23:11340:0:9,23:1311:0:18,23:1413:0:12]
+[Au5em],[handle@MSF@poolmgr.c:11340],[poolmgr.c],[23:1507],[Vul],[D],[MSF],[1,0,0],[handle],#PoolManagerLock()#,[23:11340:0:9,23:1491:0:18,23:1506:0:12,23:1507:0:3]
+[Au5em],[handle@MSF@poolmgr.c:11340],[poolmgr.c],[23:1531],[Vul],[D],[MSF],[1,0,0],[handle],#PoolManagerGetCmdStatistics()#,[23:11340:0:9,23:1521:0:18,23:1531:0:12]
+[Au5em],[handle@MSF@poolmgr.c:11340],[poolmgr.c],[23:1541],[Vul],[D],[MSF],[1,0,0],[handle],#PoolManagerGetCmdStatistics()#,[23:11340:0:9,23:1521:0:18,23:1540:0:12,23:1541:0:3]
+[Au5em],[handle@MSF@poolmgr.c:11340],[poolmgr.c],[23:1562],[Vul],[D],[MSF],[1,0,0],[handle],#PoolManagerResetCmdStatistics()#,[23:11340:0:9,23:1554:0:18,23:1561:0:12,23:1562:0:3]
+[Au5em],[handle@MSF@poolmgr.c:11340],[poolmgr.c],[23:1586],[Vul],[D],[MSF],[1,0,0],[handle],#PoolManagerGetConnStatistics()#,[23:11340:0:9,23:1576:0:18,23:1586:0:12]
+[Au5em],[handle@MSF@poolmgr.c:11340],[poolmgr.c],[23:1596],[Vul],[D],[MSF],[1,0,0],[handle],#PoolManagerGetConnStatistics()#,[23:11340:0:9,23:1576:0:18,23:1595:0:12,23:1596:0:3]
+[Au5em],[handle@MSF@poolmgr.c:11340],[poolmgr.c],[23:1921],[Vul],[D],[MSF],[1,0,0],[handle],#PoolManagerGetConnections()#,[23:11340:0:9,23:1831:0:18,23:1920:0:12,23:1921:0:3]
+[Au5em],[handle@MSF@poolmgr.c:11340],[poolmgr.c],[23:1921],[Vul],[D],[MSF],[1,0,0],[handle],#PoolManagerGetConnections()#,[23:11340:0:9,23:1831:0:18,23:1908:0:12,23:1921:0:3]
+[Au5em],[handle@MSF@poolmgr.c:11340],[poolmgr.c],[23:1921],[Vul],[D],[MSF],[1,0,0],[handle],#PoolManagerGetConnections()#,[23:11340:0:9,23:1831:0:18,23:1892:0:12,23:1921:0:3]
+[Au5em],[handle@MSF@poolmgr.c:11340],[poolmgr.c],[23:1863],[Vul],[D],[MSF],[1,0,0],[handle],#PoolManagerGetConnections()#,[23:11340:0:9,23:1831:0:18,23:1863:0:12]
+[Au5em],[handle@MSF@poolmgr.c:11340],[poolmgr.c],[23:1971],[Vul],[D],[MSF],[1,0,0],[handle],#PoolManagerAbortTransactions()#,[23:11340:0:9,23:1938:0:18,23:1970:0:12,23:1971:0:3]
+[Au5em],[handle@MSF@poolmgr.c:11340],[poolmgr.c],[23:2052],[Vul],[D],[MSF],[1,0,0],[handle],#PoolManagerCleanConnection()#,[23:11340:0:9,23:1992:0:18,23:2048:0:12,23:2052:0:3]
+[Au5em],[handle@MSF@poolmgr.c:11340],[poolmgr.c],[23:2048],[Vul],[D],[MSF],[1,0,0],[handle],#PoolManagerCleanConnection()#,[23:11340:0:9,23:1992:0:18,23:2048:0:12]
+[Au5em],[handle@MSF@poolmgr.c:11340],[poolmgr.c],[23:2082],[Vul],[D],[MSF],[1,0,0],[handle],#PoolManagerCheckConnectionInfo()#,[23:11340:0:9,23:2069:0:18,23:2081:0:12,23:2082:0:3]
+[Au5em],[handle@MSF@poolmgr.c:11340],[poolmgr.c],[23:2082],[Vul],[D],[MSF],[1,0,0],[handle],#PoolManagerCheckConnectionInfo()#,[23:11340:0:9,23:2069:0:18,23:2079:0:12,23:2082:0:3]
+[Au5em],[handle@MSF@poolmgr.c:11340],[poolmgr.c],[23:1204],[Vul],[D],[MSF],[1,0,0],[handle],#PoolManagerReconnect()#,[23:11340:0:9,23:1201:0:18,23:1203:0:12,23:1204:0:3]
+[Au5em],[buf@MSF@poolmgr.c:5304],[poolmgr.c],[23:5364],[Vul],[D],[MSF],[1,0,0],[buf],#pooler_subthread_write_log()#,[23:5304:0:9,23:5362:0:12,23:5364:0:3]
+[Au5em],[buf@MSF@poolmgr.c:5351],[poolmgr.c],[23:5364],[Vul],[D],[MSF],[1,0,0],[buf],#pooler_subthread_write_log()#,[23:5351:0:9,23:5362:0:12,23:5364:0:3]
+[Au5em],[buf@UAF@poolmgr.c:5351],[poolmgr.c],[23:5345],[Vul],[M],[UAF],[1,0,0],[buf],#pooler_subthread_write_log()#,[23:5351:0:10,23:5352:0:24,23:5352:0:26,23:5345:0:3]
+[Au5em],[buf@DBF@poolmgr.c:5362@poolmgr.c:5351],[poolmgr.c],[23:5362],[Vul],[M],[DBF],[1,0,0],[buf],#pooler_subthread_write_log()#,[23:5351:0:10,23:5352:0:24,23:5352:0:26,23:5362:0:3]
+[Au5em],[*g_PoolSyncNetworkControl.message+(threadIndex*8)@MSF@poolmgr.c:11130],[poolmgr.c],[23:8376],[Vul],[D],[MSF],[1,0,0],[*g_PoolSyncNetworkControl.message+(threadIndex*8)],#pooler_sync_remote_operator_thread()#,[23:11130:0:9,23:7829:0:18,23:8376:0:12]
+[Au5em],[*g_PoolSyncNetworkControl.message+(threadIndex*8)@MSF@poolmgr.c:11130],[poolmgr.c],[23:8376],[Vul],[D],[MSF],[1,0,0],[*g_PoolSyncNetworkControl.message+(threadIndex*8)],#pooler_sync_remote_operator_thread()#,[23:11130:0:9,23:7829:0:18,23:8376:0:12]
+[Au5em],[*g_PoolSyncNetworkControl.message+(threadIndex*8)@MSF@poolmgr.c:11130],[poolmgr.c],[23:8376],[Vul],[D],[MSF],[1,0,0],[*g_PoolSyncNetworkControl.message+(threadIndex*8)],#pooler_sync_remote_operator_thread()#,[23:11130:0:9,23:7829:0:18,23:8376:0:12]
+[Au5em],[*g_PoolSyncNetworkControl.remote_ip+(thread*8)@MSF@poolmgr.c:9798],[poolmgr.c],[23:8376],[Vul],[D],[MSF],[1,0,0],[*g_PoolSyncNetworkControl.remote_ip+(thread*8)],#pooler_sync_remote_operator_thread()#,[23:9798:0:9,23:9424:0:18,23:7683:0:18,23:8376:0:12]
+[Au5em],[*g_PoolSyncNetworkControl.remote_ip+(thread*8)@MSF@poolmgr.c:9794],[poolmgr.c],[23:8376],[Vul],[D],[MSF],[1,0,0],[*g_PoolSyncNetworkControl.remote_ip+(thread*8)],#pooler_sync_remote_operator_thread()#,[23:9794:0:9,23:9424:0:18,23:7683:0:18,23:8376:0:12]
+[Au5em],[*g_PoolSyncNetworkControl.message+(threadIndex*8)@MSF@poolmgr.c:11130],[poolmgr.c],[23:7794],[Vul],[D],[MSF],[1,0,0],[*g_PoolSyncNetworkControl.message+(threadIndex*8)],#pooler_sync_remote_operator_thread()#,[23:11130:0:9,23:7829:0:18,23:7794:0:12]
+[Au5em],[*g_PoolSyncNetworkControl.message+(threadIndex*8)@MSF@poolmgr.c:11130],[poolmgr.c],[23:7794],[Vul],[D],[MSF],[1,0,0],[*g_PoolSyncNetworkControl.message+(threadIndex*8)],#pooler_sync_remote_operator_thread()#,[23:11130:0:9,23:7829:0:18,23:7794:0:12]
+[Au5em],[*g_PoolSyncNetworkControl.message+(threadIndex*8)@MSF@poolmgr.c:11130],[poolmgr.c],[23:7794],[Vul],[D],[MSF],[1,0,0],[*g_PoolSyncNetworkControl.message+(threadIndex*8)],#pooler_sync_remote_operator_thread()#,[23:11130:0:9,23:7829:0:18,23:7794:0:12]
+[Au5em],[*g_PoolSyncNetworkControl.remote_ip+(thread*8)@MSF@poolmgr.c:9798],[poolmgr.c],[23:7794],[Vul],[D],[MSF],[1,0,0],[*g_PoolSyncNetworkControl.remote_ip+(thread*8)],#pooler_sync_remote_operator_thread()#,[23:9798:0:9,23:9424:0:18,23:7683:0:18,23:7794:0:12]
+[Au5em],[*g_PoolSyncNetworkControl.remote_ip+(thread*8)@MSF@poolmgr.c:9794],[poolmgr.c],[23:7794],[Vul],[D],[MSF],[1,0,0],[*g_PoolSyncNetworkControl.remote_ip+(thread*8)],#pooler_sync_remote_operator_thread()#,[23:9794:0:9,23:9424:0:18,23:7683:0:18,23:7794:0:12]
+[Au5em],[*g_PoolSyncNetworkControl.message+(threadIndex*8)@MSF@poolmgr.c:11130],[poolmgr.c],[23:8368],[Vul],[D],[MSF],[1,0,0],[*g_PoolSyncNetworkControl.message+(threadIndex*8)],#pooler_sync_remote_operator_thread()#,[23:11130:0:9,23:7829:0:18,23:8368:0:12]
+[Au5em],[*g_PoolSyncNetworkControl.message+(threadIndex*8)@MSF@poolmgr.c:11130],[poolmgr.c],[23:8368],[Vul],[D],[MSF],[1,0,0],[*g_PoolSyncNetworkControl.message+(threadIndex*8)],#pooler_sync_remote_operator_thread()#,[23:11130:0:9,23:7829:0:18,23:8368:0:12]
+[Au5em],[*g_PoolSyncNetworkControl.message+(threadIndex*8)@MSF@poolmgr.c:11130],[poolmgr.c],[23:8368],[Vul],[D],[MSF],[1,0,0],[*g_PoolSyncNetworkControl.message+(threadIndex*8)],#pooler_sync_remote_operator_thread()#,[23:11130:0:9,23:7829:0:18,23:8368:0:12]
+[Au5em],[*g_PoolSyncNetworkControl.remote_ip+(thread*8)@MSF@poolmgr.c:9798],[poolmgr.c],[23:8368],[Vul],[D],[MSF],[1,0,0],[*g_PoolSyncNetworkControl.remote_ip+(thread*8)],#pooler_sync_remote_operator_thread()#,[23:9798:0:9,23:9424:0:18,23:7683:0:18,23:8368:0:12]
+[Au5em],[*g_PoolSyncNetworkControl.remote_ip+(thread*8)@MSF@poolmgr.c:9794],[poolmgr.c],[23:8368],[Vul],[D],[MSF],[1,0,0],[*g_PoolSyncNetworkControl.remote_ip+(thread*8)],#pooler_sync_remote_operator_thread()#,[23:9794:0:9,23:9424:0:18,23:7683:0:18,23:8368:0:12]
+[Au5em],[snprintf@ERR33-C@CERT@poolmgr.c:7854],[poolmgr.c],[23:7854],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pooler_sync_remote_operator_thread()#,[23:7854:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@poolmgr.c:7876],[poolmgr.c],[23:7876],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pooler_sync_remote_operator_thread()#,[23:7876:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@poolmgr.c:7837],[poolmgr.c],[23:7837],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pooler_sync_remote_operator_thread()#,[23:7837:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@poolmgr.c:7842],[poolmgr.c],[23:7842],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pooler_sync_remote_operator_thread()#,[23:7842:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@poolmgr.c:8256],[poolmgr.c],[23:8256],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pooler_sync_remote_operator_thread()#,[23:8256:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@poolmgr.c:8249],[poolmgr.c],[23:8249],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pooler_sync_remote_operator_thread()#,[23:8249:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@poolmgr.c:8242],[poolmgr.c],[23:8242],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pooler_sync_remote_operator_thread()#,[23:8242:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@poolmgr.c:8238],[poolmgr.c],[23:8238],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pooler_sync_remote_operator_thread()#,[23:8238:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@poolmgr.c:9125@poolmgr.c:9125],[poolmgr.c],[23:9125],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pooler_sync_remote_operator_thread()#,[23:9125:0:3,23:9125:0:16]
+[Au5em],[connstr@AOB@poolmgr.c:8485],[poolmgr.c],[23:8485],[Vul],[M],[AOB],[1,0,0],[connstr],#pooler_async_utility_thread()#,[23:8485:0:3]
+[Au5em],[connstr@AOB@poolmgr.c:10276],[poolmgr.c],[23:10276],[Vul],[M],[AOB],[1,0,0],[connstr],#PoolPingNodeRecheck()#,[23:10276:0:3]
+[Au5em],[handle@MSF@poolmgr.c:11340],[poolmgr.c],[23:11265],[Vul],[D],[MSF],[1,0,0],[handle],#PoolManagerClosePooledConnections()#,[23:11340:0:9,23:11229:0:18,23:11264:0:12,23:11265:0:3]

@@ -1,0 +1,340 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/storage/bufpage.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/port/atomics/arch-x86.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/port/atomics/generic-gcc.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/port/atomics/generic.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/port/atomics.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/rel.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/sortsupport.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/storage/s_lock.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/executor/executor.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/executor/tuptable.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/arrayaccess.h"
+  },
+  {
+  "fid": 19,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/memutils.h"
+  },
+  {
+  "fid": 20,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/arrayfuncs.c"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 22,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/lsyscache.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 24,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 25,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/array.h"
+  },
+  {
+  "fid": 26,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/port.h"
+  },
+  {
+  "fid": 27,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 28,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/libpq/pqformat.h"
+  },
+  {
+  "fid": 29,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/builtins.h"
+  },
+  {
+  "fid": 30,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/expandeddatum.h"
+  },
+  {
+  "fid": 31,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/datum.h"
+  },
+  {
+  "fid": 32,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 33,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/typcache.h"
+  },
+  {
+  "fid": 34,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/funcapi.h"
+  },
+  {
+  "fid": 35,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 36,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 37,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 38,
+  "path": "/usr/include/math.h"
+  },
+  {
+  "fid": 39,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 40,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 41,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/access/transam.h"
+  },
+  {
+  "fid": 42,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/pgtime.h"
+  },
+  {
+  "fid": 43,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/timestamp.h"
+  },
+  {
+  "fid": 44,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/catalog/pg_class.h"
+  },
+  {
+  "fid": 45,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/storage/dsm_impl.h"
+  },
+  {
+  "fid": 46,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 47,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 48,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/common/relpath.h"
+  },
+  {
+  "fid": 49,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/pgxc/pgxc.h"
+  },
+  {
+  "fid": 50,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/storage/backendid.h"
+  },
+  {
+  "fid": 51,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/pgxc/shardmap.h"
+  },
+  {
+  "fid": 52,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/storage/fd.h"
+  },
+  {
+  "fid": 53,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/access/xlog.h"
+  },
+  {
+  "fid": 54,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/catalog/objectaddress.h"
+  },
+  {
+  "fid": 55,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/executor/instrument.h"
+  },
+  {
+  "fid": 56,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/tcop/dest.h"
+  },
+  {
+  "fid": 57,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 58,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/pgxc/squeue.h"
+  }
+]
+[Au5em],[temp@AOB@arrayfuncs.c:583],[arrayfuncs.c],[20:583],[Vul],[M],[AOB],[1,0,0],[temp],#ArrayCount()#,[20:583:0:3]
+[Au5em],[nelems@AOB@arrayfuncs.c:661],[arrayfuncs.c],[20:661],[Vul],[M],[AOB],[1,0,0],[nelems],#ArrayCount()#,[20:661:0:3]
+[Au5em],[nelems@AOB@arrayfuncs.c:661],[arrayfuncs.c],[20:661],[Vul],[M],[AOB],[1,0,0],[nelems],#ArrayCount()#,[20:661:0:3]
+[Au5em],[indx@AOB@arrayfuncs.c:850],[arrayfuncs.c],[20:850],[Vul],[M],[AOB],[1,0,0],[indx],#ReadArrayStr()#,[20:850:0:3]
+[Au5em],[src@STR38-C@CERT@arrayfuncs.c:4527],[arrayfuncs.c],[20:4527],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[src],#ArrayCastAndSet()#,[20:4527:0:3]
+[Au5em],[ptr@AOB@arrayfuncs.c:1202],[arrayfuncs.c],[20:1202],[Vul],[D],[AOB],[1,0,0],[ptr],#array_out()#,[20:1202:0:3]
+[Au5em],[p@AOB@arrayfuncs.c:1702],[arrayfuncs.c],[20:1702],[Vul],[D],[AOB],[1,0,0],[p],#array_dims()#,[20:1702:0:3]
+[Au5em],[indx@AOB@arrayfuncs.c:4747],[arrayfuncs.c],[20:4747],[Vul],[M],[AOB],[1,0,0],[indx],#array_slice_size()#,[20:4747:0:3]
+[Au5em],[indx@AOB@arrayfuncs.c:4810],[arrayfuncs.c],[20:4810],[Vul],[M],[AOB],[1,0,0],[indx],#array_extract_slice()#,[20:4810:0:3]
+[Au5em],[indx@AOB@arrayfuncs.c:4896],[arrayfuncs.c],[20:4896],[Vul],[M],[AOB],[1,0,0],[indx],#array_insert_slice()#,[20:4896:0:3]
+[Au5em],[nulls@AOB@arrayfuncs.c:3398@arrayfuncs.c:2315],[arrayfuncs.c],[20:3398],[Vul],[M],[AOB],[1,0,0],[nulls],#construct_md_array()#,[20:2315:0:2,20:3369:0:4,20:3377:0:24,20:3377:0:26,20:3381:0:24,20:3381:0:26,20:3388:0:24,20:3388:0:26,20:3396:0:23,20:3396:0:25,20:3398:0:23,20:3398:0:25,20:3398:0:3]
+[Au5em],[elems@AOB@arrayfuncs.c:3405@arrayfuncs.c:2315],[arrayfuncs.c],[20:3405],[Vul],[M],[AOB],[1,0,0],[elems],#construct_md_array()#,[20:2315:0:2,20:3369:0:4,20:3398:0:23,20:3398:0:25,20:3377:0:24,20:3377:0:26,20:3381:0:24,20:3381:0:26,20:3388:0:24,20:3388:0:26,20:3396:0:23,20:3396:0:25,20:3404:0:23,20:3405:0:25,20:3405:0:3]
+[Au5em],[elems@AOB@arrayfuncs.c:3405@arrayfuncs.c:2315],[arrayfuncs.c],[20:3405],[Vul],[M],[AOB],[1,0,0],[elems],#construct_md_array()#,[20:2315:0:2,20:3369:0:4,20:3398:0:23,20:3398:0:25,20:3377:0:24,20:3377:0:26,20:3381:0:24,20:3381:0:26,20:3388:0:24,20:3388:0:26,20:3396:0:23,20:3396:0:25,20:3404:0:23,20:3405:0:25,20:3405:0:3]
+[Au5em],[elems@AOB@arrayfuncs.c:3406@arrayfuncs.c:2315],[arrayfuncs.c],[20:3406],[Vul],[M],[AOB],[1,0,0],[elems],#construct_md_array()#,[20:2315:0:2,20:3369:0:4,20:3398:0:23,20:3398:0:25,20:3377:0:24,20:3377:0:26,20:3381:0:24,20:3381:0:26,20:3388:0:24,20:3388:0:26,20:3396:0:23,20:3396:0:25,20:3406:0:23,20:3406:0:25,20:3406:0:3]
+[Au5em],[elems@AOB@arrayfuncs.c:3406@arrayfuncs.c:2315],[arrayfuncs.c],[20:3406],[Vul],[M],[AOB],[1,0,0],[elems],#construct_md_array()#,[20:2315:0:2,20:3369:0:4,20:3398:0:23,20:3398:0:25,20:3377:0:24,20:3377:0:26,20:3381:0:24,20:3381:0:26,20:3388:0:24,20:3388:0:26,20:3396:0:23,20:3396:0:25,20:3406:0:23,20:3406:0:25,20:3406:0:3]
+[Au5em],[elems@AOB@arrayfuncs.c:3406@arrayfuncs.c:2315],[arrayfuncs.c],[20:3406],[Vul],[M],[AOB],[1,0,0],[elems],#construct_md_array()#,[20:2315:0:2,20:3369:0:4,20:3398:0:23,20:3398:0:25,20:3377:0:24,20:3377:0:26,20:3381:0:24,20:3381:0:26,20:3388:0:24,20:3388:0:26,20:3396:0:23,20:3396:0:25,20:3406:0:23,20:3406:0:25,20:3406:0:3]
+[Au5em],[elems@AOB@arrayfuncs.c:3406@arrayfuncs.c:2315],[arrayfuncs.c],[20:3406],[Vul],[M],[AOB],[1,0,0],[elems],#construct_md_array()#,[20:2315:0:2,20:3369:0:4,20:3398:0:23,20:3398:0:25,20:3377:0:24,20:3377:0:26,20:3381:0:24,20:3381:0:26,20:3388:0:24,20:3388:0:26,20:3396:0:23,20:3396:0:25,20:3406:0:23,20:3406:0:25,20:3406:0:3]
+[Au5em],[elems@AOB@arrayfuncs.c:3406@arrayfuncs.c:2315],[arrayfuncs.c],[20:3406],[Vul],[M],[AOB],[1,0,0],[elems],#construct_md_array()#,[20:2315:0:2,20:3369:0:4,20:3398:0:23,20:3398:0:25,20:3377:0:24,20:3377:0:26,20:3381:0:24,20:3381:0:26,20:3388:0:24,20:3388:0:26,20:3396:0:23,20:3396:0:25,20:3406:0:24,20:3406:0:26,20:3406:0:3]
+[Au5em],[elems@AOB@arrayfuncs.c:3406@arrayfuncs.c:2315],[arrayfuncs.c],[20:3406],[Vul],[M],[AOB],[1,0,0],[elems],#construct_md_array()#,[20:2315:0:2,20:3369:0:4,20:3398:0:23,20:3398:0:25,20:3377:0:24,20:3377:0:26,20:3381:0:24,20:3381:0:26,20:3388:0:24,20:3388:0:26,20:3396:0:23,20:3396:0:25,20:3406:0:23,20:3406:0:25,20:3406:0:3]
+[Au5em],[elems@AOB@arrayfuncs.c:3406@arrayfuncs.c:2315],[arrayfuncs.c],[20:3406],[Vul],[M],[AOB],[1,0,0],[elems],#construct_md_array()#,[20:2315:0:2,20:3369:0:4,20:3398:0:23,20:3398:0:25,20:3377:0:24,20:3377:0:26,20:3381:0:24,20:3381:0:26,20:3388:0:24,20:3388:0:26,20:3396:0:23,20:3396:0:25,20:3406:0:24,20:3406:0:26,20:3406:0:3]
+[Au5em],[elems@AOB@arrayfuncs.c:3406@arrayfuncs.c:2315],[arrayfuncs.c],[20:3406],[Vul],[M],[AOB],[1,0,0],[elems],#construct_md_array()#,[20:2315:0:2,20:3369:0:4,20:3398:0:23,20:3398:0:25,20:3377:0:24,20:3377:0:26,20:3381:0:24,20:3381:0:26,20:3388:0:24,20:3388:0:26,20:3396:0:23,20:3396:0:25,20:3406:0:24,20:3406:0:26,20:3406:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:3058],[arrayfuncs.c],[20:4661],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:3058:0:1,20:3058:0:17,20:3058:0:1,20:3069:0:2,20:4650:0:1,20:4659:0:1,20:4661:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:3058],[arrayfuncs.c],[20:4708],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:3058:0:1,20:3058:0:17,20:3058:0:1,20:3069:0:2,20:4650:0:1,20:4659:0:1,20:4662:0:24,20:4695:0:26,20:4695:0:17,20:4699:0:17,20:4708:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:3058],[arrayfuncs.c],[20:4701],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:3058:0:1,20:3058:0:17,20:3058:0:1,20:3069:0:2,20:4650:0:1,20:4659:0:1,20:4662:0:24,20:4695:0:26,20:4695:0:17,20:4701:0:1,20:4701:0:1,20:4701:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:3058],[arrayfuncs.c],[20:4704],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:3058:0:1,20:3058:0:17,20:3058:0:1,20:3069:0:2,20:4650:0:1,20:4659:0:1,20:4662:0:24,20:4695:0:26,20:4695:0:17,20:4701:0:1,20:4701:0:1,20:4703:0:23,20:4704:0:25,20:4704:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:3058],[arrayfuncs.c],[20:4691],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:3058:0:1,20:3058:0:17,20:3058:0:1,20:3069:0:2,20:4650:0:1,20:4659:0:1,20:4662:0:23,20:4664:0:25,20:4667:0:17,20:4674:0:17,20:4691:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:3058],[arrayfuncs.c],[20:4676],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:3058:0:1,20:3058:0:17,20:3058:0:1,20:3069:0:2,20:4650:0:1,20:4659:0:1,20:4662:0:23,20:4664:0:25,20:4667:0:17,20:4676:0:1,20:4676:0:1,20:4676:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:3058],[arrayfuncs.c],[20:4679],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:3058:0:1,20:3058:0:17,20:3058:0:1,20:3069:0:2,20:4650:0:1,20:4659:0:1,20:4662:0:23,20:4664:0:25,20:4667:0:17,20:4676:0:1,20:4676:0:1,20:4678:0:23,20:4679:0:25,20:4679:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:3058],[arrayfuncs.c],[20:4661],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:3058:0:1,20:3058:0:17,20:3058:0:1,20:3066:0:2,20:4650:0:1,20:4659:0:1,20:4661:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:3058],[arrayfuncs.c],[20:4708],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:3058:0:1,20:3058:0:17,20:3058:0:1,20:3066:0:2,20:4650:0:1,20:4659:0:1,20:4662:0:24,20:4695:0:26,20:4695:0:17,20:4699:0:17,20:4708:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:3058],[arrayfuncs.c],[20:4701],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:3058:0:1,20:3058:0:17,20:3058:0:1,20:3066:0:2,20:4650:0:1,20:4659:0:1,20:4662:0:24,20:4695:0:26,20:4695:0:17,20:4701:0:1,20:4701:0:1,20:4701:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:3058],[arrayfuncs.c],[20:4704],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:3058:0:1,20:3058:0:17,20:3058:0:1,20:3066:0:2,20:4650:0:1,20:4659:0:1,20:4662:0:24,20:4695:0:26,20:4695:0:17,20:4701:0:1,20:4701:0:1,20:4703:0:23,20:4704:0:25,20:4704:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:3058],[arrayfuncs.c],[20:4691],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:3058:0:1,20:3058:0:17,20:3058:0:1,20:3066:0:2,20:4650:0:1,20:4659:0:1,20:4662:0:23,20:4664:0:25,20:4667:0:17,20:4674:0:17,20:4691:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:3058],[arrayfuncs.c],[20:4676],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:3058:0:1,20:3058:0:17,20:3058:0:1,20:3066:0:2,20:4650:0:1,20:4659:0:1,20:4662:0:23,20:4664:0:25,20:4667:0:17,20:4676:0:1,20:4676:0:1,20:4676:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:3058],[arrayfuncs.c],[20:4679],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:3058:0:1,20:3058:0:17,20:3058:0:1,20:3066:0:2,20:4650:0:1,20:4659:0:1,20:4662:0:23,20:4664:0:25,20:4667:0:17,20:4676:0:1,20:4676:0:1,20:4678:0:23,20:4679:0:25,20:4679:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:3058],[arrayfuncs.c],[20:4661],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:3058:0:1,20:3058:0:17,20:3058:0:1,20:3063:0:2,20:4650:0:1,20:4659:0:1,20:4661:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:3058],[arrayfuncs.c],[20:4708],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:3058:0:1,20:3058:0:17,20:3058:0:1,20:3063:0:2,20:4650:0:1,20:4659:0:1,20:4662:0:24,20:4695:0:26,20:4695:0:17,20:4699:0:17,20:4708:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:3058],[arrayfuncs.c],[20:4701],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:3058:0:1,20:3058:0:17,20:3058:0:1,20:3063:0:2,20:4650:0:1,20:4659:0:1,20:4662:0:24,20:4695:0:26,20:4695:0:17,20:4701:0:1,20:4701:0:1,20:4701:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:3058],[arrayfuncs.c],[20:4704],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:3058:0:1,20:3058:0:17,20:3058:0:1,20:3063:0:2,20:4650:0:1,20:4659:0:1,20:4662:0:24,20:4695:0:26,20:4695:0:17,20:4701:0:1,20:4701:0:1,20:4703:0:23,20:4704:0:25,20:4704:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:3058],[arrayfuncs.c],[20:4691],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:3058:0:1,20:3058:0:17,20:3058:0:1,20:3063:0:2,20:4650:0:1,20:4659:0:1,20:4662:0:23,20:4664:0:25,20:4667:0:17,20:4674:0:17,20:4691:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:3058],[arrayfuncs.c],[20:4676],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:3058:0:1,20:3058:0:17,20:3058:0:1,20:3063:0:2,20:4650:0:1,20:4659:0:1,20:4662:0:23,20:4664:0:25,20:4667:0:17,20:4676:0:1,20:4676:0:1,20:4676:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:3058],[arrayfuncs.c],[20:4679],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:3058:0:1,20:3058:0:17,20:3058:0:1,20:3063:0:2,20:4650:0:1,20:4659:0:1,20:4662:0:23,20:4664:0:25,20:4667:0:17,20:4676:0:1,20:4676:0:1,20:4678:0:23,20:4679:0:25,20:4679:0:3]
+[Au5em],[_start@NPD@arrayfuncs.c:3058],[arrayfuncs.c],[20:3062],[Vul],[M],[NPD],[1,0,0],[_start],#array_set_slice()#,[20:3058:0:1,20:3058:0:17,20:3058:0:1,20:3062:0:1,20:3062:0:3]
+[Au5em],[dim@AOB@arrayfuncs.c:2853],[arrayfuncs.c],[20:2853],[Vul],[M],[AOB],[1,0,0],[dim],#array_set_slice()#,[20:2853:0:3]
+[Au5em],[lb@AOB@arrayfuncs.c:2854],[arrayfuncs.c],[20:2854],[Vul],[M],[AOB],[1,0,0],[lb],#array_set_slice()#,[20:2854:0:3]
+[Au5em],[lb@AOB@arrayfuncs.c:2919],[arrayfuncs.c],[20:2919],[Vul],[M],[AOB],[1,0,0],[lb],#array_set_slice()#,[20:2919:0:3]
+[Au5em],[dim@AOB@arrayfuncs.c:2921],[arrayfuncs.c],[20:2921],[Vul],[M],[AOB],[1,0,0],[dim],#array_set_slice()#,[20:2921:0:3]
+[Au5em],[lb@AOB@arrayfuncs.c:2921],[arrayfuncs.c],[20:2921],[Vul],[M],[AOB],[1,0,0],[lb],#array_set_slice()#,[20:2921:0:3]
+[Au5em],[lb@AOB@arrayfuncs.c:2926],[arrayfuncs.c],[20:2926],[Vul],[M],[AOB],[1,0,0],[lb],#array_set_slice()#,[20:2926:0:3]
+[Au5em],[dim@AOB@arrayfuncs.c:2926],[arrayfuncs.c],[20:2926],[Vul],[M],[AOB],[1,0,0],[dim],#array_set_slice()#,[20:2926:0:3]
+[Au5em],[lb@AOB@arrayfuncs.c:2926],[arrayfuncs.c],[20:2926],[Vul],[M],[AOB],[1,0,0],[lb],#array_set_slice()#,[20:2926:0:3]
+[Au5em],[dim@AOB@arrayfuncs.c:2552],[arrayfuncs.c],[20:2552],[Vul],[M],[AOB],[1,0,0],[dim],#array_set_element_expanded()#,[20:2552:0:3]
+[Au5em],[lb@AOB@arrayfuncs.c:2553],[arrayfuncs.c],[20:2553],[Vul],[M],[AOB],[1,0,0],[lb],#array_set_element_expanded()#,[20:2553:0:3]
+[Au5em],[nullbitmap@NPD@arrayfuncs.c:2454],[arrayfuncs.c],[20:4488],[Vul],[M],[NPD],[1,0,0],[nullbitmap],#array_set_isnull()#,[20:2454:0:1,20:2454:0:17,20:2454:0:1,20:2462:0:2,20:4480:0:1,20:4483:0:1,20:4488:0:3]
+[Au5em],[nullbitmap@NPD@arrayfuncs.c:2454],[arrayfuncs.c],[20:4488],[Vul],[M],[NPD],[1,0,0],[nullbitmap],#array_set_isnull()#,[20:2454:0:1,20:2454:0:17,20:2454:0:1,20:2462:0:2,20:4480:0:1,20:4483:0:1,20:4488:0:3]
+[Au5em],[nullbitmap@NPD@arrayfuncs.c:2454],[arrayfuncs.c],[20:4486],[Vul],[M],[NPD],[1,0,0],[nullbitmap],#array_set_isnull()#,[20:2454:0:1,20:2454:0:17,20:2454:0:1,20:2462:0:2,20:4480:0:1,20:4483:0:1,20:4486:0:3]
+[Au5em],[nullbitmap@NPD@arrayfuncs.c:2454],[arrayfuncs.c],[20:4486],[Vul],[M],[NPD],[1,0,0],[nullbitmap],#array_set_isnull()#,[20:2454:0:1,20:2454:0:17,20:2454:0:1,20:2462:0:2,20:4480:0:1,20:4483:0:1,20:4486:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:2454],[arrayfuncs.c],[20:4661],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:2454:0:1,20:2454:0:17,20:2454:0:1,20:2474:0:2,20:4650:0:1,20:4659:0:1,20:4661:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:2454],[arrayfuncs.c],[20:4708],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:2454:0:1,20:2454:0:17,20:2454:0:1,20:2474:0:2,20:4650:0:1,20:4659:0:1,20:4662:0:24,20:4695:0:26,20:4695:0:17,20:4708:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:2454],[arrayfuncs.c],[20:4701],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:2454:0:1,20:2454:0:17,20:2454:0:1,20:2474:0:2,20:4650:0:1,20:4659:0:1,20:4662:0:24,20:4695:0:26,20:4695:0:23,20:4695:0:25,20:4695:0:17,20:4701:0:1,20:4701:0:1,20:4701:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:2454],[arrayfuncs.c],[20:4704],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:2454:0:1,20:2454:0:17,20:2454:0:1,20:2474:0:2,20:4650:0:1,20:4659:0:1,20:4662:0:24,20:4695:0:26,20:4695:0:23,20:4695:0:25,20:4695:0:17,20:4701:0:1,20:4701:0:1,20:4703:0:23,20:4704:0:25,20:4704:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:2454],[arrayfuncs.c],[20:4691],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:2454:0:1,20:2454:0:17,20:2454:0:1,20:2474:0:2,20:4650:0:1,20:4659:0:1,20:4662:0:23,20:4664:0:25,20:4667:0:17,20:4691:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:2454],[arrayfuncs.c],[20:4676],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:2454:0:1,20:2454:0:17,20:2454:0:1,20:2474:0:2,20:4650:0:1,20:4659:0:1,20:4662:0:23,20:4664:0:25,20:4667:0:23,20:4667:0:25,20:4667:0:17,20:4676:0:1,20:4676:0:1,20:4676:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:2454],[arrayfuncs.c],[20:4679],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:2454:0:1,20:2454:0:17,20:2454:0:1,20:2474:0:2,20:4650:0:1,20:4659:0:1,20:4662:0:23,20:4664:0:25,20:4667:0:23,20:4667:0:25,20:4667:0:17,20:4676:0:1,20:4676:0:1,20:4678:0:23,20:4679:0:25,20:4679:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:2454],[arrayfuncs.c],[20:4661],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:2454:0:1,20:2454:0:17,20:2454:0:1,20:2470:0:2,20:4650:0:1,20:4659:0:1,20:4661:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:2454],[arrayfuncs.c],[20:4708],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:2454:0:1,20:2454:0:17,20:2454:0:1,20:2470:0:2,20:4650:0:1,20:4659:0:1,20:4662:0:24,20:4695:0:26,20:4695:0:17,20:4699:0:17,20:4708:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:2454],[arrayfuncs.c],[20:4701],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:2454:0:1,20:2454:0:17,20:2454:0:1,20:2470:0:2,20:4650:0:1,20:4659:0:1,20:4662:0:24,20:4695:0:26,20:4695:0:17,20:4701:0:1,20:4701:0:1,20:4701:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:2454],[arrayfuncs.c],[20:4704],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:2454:0:1,20:2454:0:17,20:2454:0:1,20:2470:0:2,20:4650:0:1,20:4659:0:1,20:4662:0:24,20:4695:0:26,20:4695:0:17,20:4701:0:1,20:4701:0:1,20:4703:0:23,20:4704:0:25,20:4704:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:2454],[arrayfuncs.c],[20:4691],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:2454:0:1,20:2454:0:17,20:2454:0:1,20:2470:0:2,20:4650:0:1,20:4659:0:1,20:4662:0:23,20:4664:0:25,20:4667:0:17,20:4674:0:17,20:4691:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:2454],[arrayfuncs.c],[20:4676],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:2454:0:1,20:2454:0:17,20:2454:0:1,20:2470:0:2,20:4650:0:1,20:4659:0:1,20:4662:0:23,20:4664:0:25,20:4667:0:17,20:4676:0:1,20:4676:0:1,20:4676:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:2454],[arrayfuncs.c],[20:4679],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:2454:0:1,20:2454:0:17,20:2454:0:1,20:2470:0:2,20:4650:0:1,20:4659:0:1,20:4662:0:23,20:4664:0:25,20:4667:0:17,20:4676:0:1,20:4676:0:1,20:4678:0:23,20:4679:0:25,20:4679:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:2454],[arrayfuncs.c],[20:4661],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:2454:0:1,20:2454:0:17,20:2454:0:1,20:2465:0:2,20:4650:0:1,20:4659:0:1,20:4661:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:2454],[arrayfuncs.c],[20:4708],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:2454:0:1,20:2454:0:17,20:2454:0:1,20:2465:0:2,20:4650:0:1,20:4659:0:1,20:4662:0:24,20:4695:0:26,20:4695:0:17,20:4699:0:17,20:4708:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:2454],[arrayfuncs.c],[20:4701],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:2454:0:1,20:2454:0:17,20:2454:0:1,20:2465:0:2,20:4650:0:1,20:4659:0:1,20:4662:0:24,20:4695:0:26,20:4695:0:17,20:4701:0:1,20:4701:0:1,20:4701:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:2454],[arrayfuncs.c],[20:4704],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:2454:0:1,20:2454:0:17,20:2454:0:1,20:2465:0:2,20:4650:0:1,20:4659:0:1,20:4662:0:24,20:4695:0:26,20:4695:0:17,20:4701:0:1,20:4701:0:1,20:4703:0:23,20:4704:0:25,20:4704:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:2454],[arrayfuncs.c],[20:4691],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:2454:0:1,20:2454:0:17,20:2454:0:1,20:2465:0:2,20:4650:0:1,20:4659:0:1,20:4662:0:23,20:4664:0:25,20:4667:0:17,20:4674:0:17,20:4691:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:2454],[arrayfuncs.c],[20:4676],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:2454:0:1,20:2454:0:17,20:2454:0:1,20:2465:0:2,20:4650:0:1,20:4659:0:1,20:4662:0:23,20:4664:0:25,20:4667:0:17,20:4676:0:1,20:4676:0:1,20:4676:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:2454],[arrayfuncs.c],[20:4679],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:2454:0:1,20:2454:0:17,20:2454:0:1,20:2465:0:2,20:4650:0:1,20:4659:0:1,20:4662:0:23,20:4664:0:25,20:4667:0:17,20:4676:0:1,20:4676:0:1,20:4678:0:23,20:4679:0:25,20:4679:0:3]
+[Au5em],[nullbitmap@NPD@arrayfuncs.c:2454],[arrayfuncs.c],[20:4488],[Vul],[M],[NPD],[1,0,0],[nullbitmap],#array_set_isnull()#,[20:2454:0:1,20:2454:0:17,20:2454:0:1,20:2460:0:2,20:4480:0:1,20:4483:0:1,20:4488:0:3]
+[Au5em],[nullbitmap@NPD@arrayfuncs.c:2454],[arrayfuncs.c],[20:4488],[Vul],[M],[NPD],[1,0,0],[nullbitmap],#array_set_isnull()#,[20:2454:0:1,20:2454:0:17,20:2454:0:1,20:2460:0:2,20:4480:0:1,20:4483:0:1,20:4488:0:3]
+[Au5em],[nullbitmap@NPD@arrayfuncs.c:2454],[arrayfuncs.c],[20:4486],[Vul],[M],[NPD],[1,0,0],[nullbitmap],#array_set_isnull()#,[20:2454:0:1,20:2454:0:17,20:2454:0:1,20:2460:0:2,20:4480:0:1,20:4483:0:1,20:4486:0:3]
+[Au5em],[nullbitmap@NPD@arrayfuncs.c:2454],[arrayfuncs.c],[20:4486],[Vul],[M],[NPD],[1,0,0],[nullbitmap],#array_set_isnull()#,[20:2454:0:1,20:2454:0:17,20:2454:0:1,20:2460:0:2,20:4480:0:1,20:4483:0:1,20:4486:0:3]
+[Au5em],[_start@NPD@arrayfuncs.c:2454],[arrayfuncs.c],[20:2457],[Vul],[M],[NPD],[1,0,0],[_start],#array_set_element()#,[20:2454:0:1,20:2454:0:17,20:2454:0:1,20:2457:0:1,20:2457:0:3]
+[Au5em],[elt_ptr@STR38-C@CERT@arrayfuncs.c:2406@arrayfuncs.c:2399],[arrayfuncs.c],[20:2406],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[elt_ptr],#array_set_element()#,[20:2399:0:1,20:2406:0:3]
+[Au5em],[dataValue@STR38-C@CERT@arrayfuncs.c:2416],[arrayfuncs.c],[20:2416],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[dataValue],#array_set_element()#,[20:2416:0:3]
+[Au5em],[dim@AOB@arrayfuncs.c:2311],[arrayfuncs.c],[20:2311],[Vul],[M],[AOB],[1,0,0],[dim],#array_set_element()#,[20:2311:0:3]
+[Au5em],[lb@AOB@arrayfuncs.c:2312],[arrayfuncs.c],[20:2312],[Vul],[M],[AOB],[1,0,0],[lb],#array_set_element()#,[20:2312:0:3]
+[Au5em],[iter.dataptr@NPD@arrayaccess.h:58],[arrayaccess.h],[18:102],[Vul],[M],[NPD],[1,0,0],[iter.dataptr],#array_iter_next()#,[18:58:0:1,18:55:0:17,18:77:0:17,20:3223:0:18,20:3226:0:17,20:3231:0:2,18:102:0:3]
+[Au5em],[iter.dataptr@NPD@arrayaccess.h:58],[arrayaccess.h],[18:102],[Vul],[M],[NPD],[1,0,0],[iter.dataptr],#array_iter_next()#,[18:58:0:1,18:55:0:17,18:77:0:17,20:3223:0:18,20:3226:0:17,20:3231:0:2,18:102:0:3]
+[Au5em],[iter.dataptr@NPD@arrayaccess.h:58],[arrayaccess.h],[18:102],[Vul],[M],[NPD],[1,0,0],[iter.dataptr],#array_iter_next()#,[18:58:0:1,18:55:0:17,18:77:0:17,20:3223:0:18,20:3226:0:17,20:3231:0:2,18:102:0:3]
+[Au5em],[iter.dataptr@NPD@arrayaccess.h:58],[arrayaccess.h],[18:102],[Vul],[M],[NPD],[1,0,0],[iter.dataptr],#array_iter_next()#,[18:58:0:1,18:55:0:17,18:77:0:17,20:3223:0:18,20:3226:0:17,20:3231:0:2,18:102:0:3]
+[Au5em],[iter.dataptr@NPD@arrayaccess.h:58],[arrayaccess.h],[18:102],[Vul],[M],[NPD],[1,0,0],[iter.dataptr],#array_iter_next()#,[18:58:0:1,18:55:0:17,18:77:0:17,20:3223:0:18,20:3226:0:17,20:3231:0:2,18:102:0:3]
+[Au5em],[iter.dataptr@NPD@arrayaccess.h:58],[arrayaccess.h],[18:102],[Vul],[M],[NPD],[1,0,0],[iter.dataptr],#array_iter_next()#,[18:58:0:1,18:55:0:17,18:77:0:17,20:3223:0:18,20:3226:0:17,20:3231:0:2,18:102:0:3]
+[Au5em],[iter.dataptr@NPD@arrayaccess.h:58],[arrayaccess.h],[18:102],[Vul],[M],[NPD],[1,0,0],[iter.dataptr],#array_iter_next()#,[18:58:0:1,18:55:0:17,18:77:0:17,20:3223:0:18,20:3226:0:17,20:3231:0:2,18:102:0:3]
+[Au5em],[iter.dataptr@NPD@arrayaccess.h:58],[arrayaccess.h],[18:101],[Vul],[M],[NPD],[1,0,0],[iter.dataptr],#array_iter_next()#,[18:58:0:1,18:55:0:17,18:77:0:17,20:3223:0:18,20:3226:0:17,20:3231:0:2,18:101:0:3]
+[Au5em],[iter.dataptr@NPD@arrayaccess.h:58],[arrayaccess.h],[18:101],[Vul],[M],[NPD],[1,0,0],[iter.dataptr],#array_iter_next()#,[18:58:0:1,18:55:0:17,18:77:0:17,20:3223:0:18,20:3226:0:17,20:3231:0:2,18:101:0:3]
+[Au5em],[iter.dataptr@NPD@arrayaccess.h:58],[arrayaccess.h],[18:101],[Vul],[M],[NPD],[1,0,0],[iter.dataptr],#array_iter_next()#,[18:58:0:1,18:55:0:17,18:77:0:17,20:3223:0:18,20:3226:0:17,20:3231:0:2,18:101:0:3]
+[Au5em],[iter.dataptr@NPD@arrayaccess.h:58],[arrayaccess.h],[18:101],[Vul],[M],[NPD],[1,0,0],[iter.dataptr],#array_iter_next()#,[18:58:0:1,18:55:0:17,18:77:0:17,20:3223:0:18,20:3226:0:17,20:3231:0:2,18:101:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:4650],[arrayfuncs.c],[20:4661],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:5408:0:2,20:4650:0:1,20:4650:0:17,20:4650:0:1,20:4659:0:1,20:4661:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:4650],[arrayfuncs.c],[20:4708],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:5408:0:2,20:4650:0:1,20:4650:0:17,20:4650:0:1,20:4659:0:1,20:4662:0:24,20:4695:0:26,20:4695:0:17,20:4699:0:17,20:4708:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:4650],[arrayfuncs.c],[20:4701],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:5408:0:2,20:4650:0:1,20:4650:0:17,20:4650:0:1,20:4659:0:1,20:4662:0:24,20:4695:0:26,20:4695:0:17,20:4701:0:1,20:4701:0:1,20:4701:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:4650],[arrayfuncs.c],[20:4704],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:5408:0:2,20:4650:0:1,20:4650:0:17,20:4650:0:1,20:4659:0:1,20:4662:0:24,20:4695:0:26,20:4695:0:17,20:4701:0:1,20:4701:0:1,20:4703:0:23,20:4704:0:25,20:4704:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:4650],[arrayfuncs.c],[20:4691],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:5408:0:2,20:4650:0:1,20:4650:0:17,20:4650:0:1,20:4659:0:1,20:4662:0:23,20:4665:0:25,20:4667:0:17,20:4674:0:17,20:4691:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:4650],[arrayfuncs.c],[20:4676],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:5408:0:2,20:4650:0:1,20:4650:0:17,20:4650:0:1,20:4659:0:1,20:4662:0:23,20:4665:0:25,20:4667:0:17,20:4676:0:1,20:4676:0:1,20:4676:0:3]
+[Au5em],[destbitmap@NPD@arrayfuncs.c:4650],[arrayfuncs.c],[20:4679],[Vul],[M],[NPD],[1,0,0],[destbitmap],#array_bitmap_copy()#,[20:5408:0:2,20:4650:0:1,20:4650:0:17,20:4650:0:1,20:4659:0:1,20:4662:0:23,20:4665:0:25,20:4667:0:17,20:4676:0:1,20:4676:0:1,20:4678:0:23,20:4679:0:25,20:4679:0:3]
+[Au5em],[bitmap@NPD@arrayfuncs.c:3577],[arrayfuncs.c],[20:3592],[Vul],[M],[NPD],[1,0,0],[bitmap],#array_contains_nulls()#,[20:3577:0:1,20:3577:0:17,20:3580:0:1,20:3592:0:3]
+[Au5em],[bitmap@NPD@arrayfuncs.c:3577],[arrayfuncs.c],[20:3582],[Vul],[M],[NPD],[1,0,0],[bitmap],#array_contains_nulls()#,[20:3577:0:1,20:3577:0:17,20:3582:0:3]
+[Au5em],[value@STR38-C@CERT@arrayfuncs.c:5858],[arrayfuncs.c],[20:5858],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[value],#array_fill_internal()#,[20:5858:0:3]
+[Au5em],[elt@STR38-C@CERT@arrayfuncs.c:6127@arrayfuncs.c:6126],[arrayfuncs.c],[20:6127],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[elt],#array_replace_internal()#,[20:6126:0:1,20:6127:0:3]

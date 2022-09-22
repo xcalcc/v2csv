@@ -1,0 +1,60 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/tablespace.c"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/pg_upgrade.h"
+  },
+  {
+  "fid": 6,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/../../../src/interfaces/libpq/libpq-fe.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/../../../src/include/common/fe_memutils.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/sys/stat.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/bits/getopt_core.h"
+  }
+]
+[Au5em],[snprintf@ERR33-C@CERT@tablespace.c:48],[tablespace.c],[4:48],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#get_tablespace_paths()#,[4:48:0:3]

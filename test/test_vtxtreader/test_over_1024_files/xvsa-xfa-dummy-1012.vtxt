@@ -1,0 +1,77 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/function.c"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/../../../src/include/common/fe_memutils.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/pg_upgrade.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/../../../src/interfaces/libpq/libpq-fe.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/../../../src/include/port.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 16,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/../../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/../../../src/include/access/transam.h"
+  },
+  {
+  "fid": 19,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/../../../src/include/catalog/pg_language.h"
+  }
+]
+[Au5em],[snprintf@ERR33-C@CERT@function.c:213],[function.c],[4:213],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#check_loadable_libraries()#,[4:213:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@function.c:255],[function.c],[4:255],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#check_loadable_libraries()#,[4:255:0:3]

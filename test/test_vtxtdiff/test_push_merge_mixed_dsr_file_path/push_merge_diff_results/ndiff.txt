@@ -1,0 +1,12 @@
+1c1
+< {"N", CqzDj, 0.7.2,0000000000000000000000000000000000000000000000000000000000000000}
+---
+> {"N", CqzEX, 0.7.2,0000000000000000000000000000000000000000000000000000000000000000}
+5c5
+<   "path": "/home/xc5/jenkinsslave/workspace/basic_dsr_scan_ci_0518c/npd.c"
+---
+>   "path": "/home/xc5/jenkinsslave/workspace/basic_dsr_scan_cd_0518c/npd.c"
+96c96
+< [CqzDj00001],[@A7_1_7@npd.c:10],[npd.c],[1:10],[SML],[D],[RBC],[1,0,0],[ATS],[A7_1_7],[],[main],[1:10:3:3]
+---
+> [CqzEX00001],[@A7_1_7@npd.c:10],[npd.c],[1:10],[SML],[D],[RBC],[1,0,0],[ATS],[A7_1_7],[],[main],[1:10:3:3]

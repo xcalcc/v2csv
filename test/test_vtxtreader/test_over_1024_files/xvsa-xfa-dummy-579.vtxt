@@ -1,0 +1,308 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/port/atomics/arch-x86.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/port/atomics/generic-gcc.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/port/atomics/generic.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/port/atomics.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/storage/bufpage.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/utils/rel.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/utils/sortsupport.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/storage/s_lock.h"
+  },
+  {
+  "fid": 16,
+  "path": "/usr/include/openssl/safestack.h"
+  },
+  {
+  "fid": 17,
+  "path": "/usr/include/openssl/stack.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/openssl/crypto.h"
+  },
+  {
+  "fid": 19,
+  "path": "/usr/include/openssl/bio.h"
+  },
+  {
+  "fid": 20,
+  "path": "/usr/include/openssl/asn1.h"
+  },
+  {
+  "fid": 21,
+  "path": "/usr/include/openssl/x509.h"
+  },
+  {
+  "fid": 22,
+  "path": "/usr/include/openssl/lhash.h"
+  },
+  {
+  "fid": 23,
+  "path": "/usr/include/openssl/x509_vfy.h"
+  },
+  {
+  "fid": 24,
+  "path": "/usr/include/openssl/pkcs7.h"
+  },
+  {
+  "fid": 25,
+  "path": "/usr/include/openssl/ct.h"
+  },
+  {
+  "fid": 26,
+  "path": "/usr/include/openssl/ssl.h"
+  },
+  {
+  "fid": 27,
+  "path": "/usr/include/openssl/err.h"
+  },
+  {
+  "fid": 28,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/utils/memutils.h"
+  },
+  {
+  "fid": 29,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/executor/executor.h"
+  },
+  {
+  "fid": 30,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/executor/tuptable.h"
+  },
+  {
+  "fid": 31,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/printtup.c"
+  },
+  {
+  "fid": 32,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/libpq/libpq-be.h"
+  },
+  {
+  "fid": 33,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/libpq/pqformat.h"
+  },
+  {
+  "fid": 34,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/tcop/pquery.h"
+  },
+  {
+  "fid": 35,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/pgxc/pgxc.h"
+  },
+  {
+  "fid": 36,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/utils/lsyscache.h"
+  },
+  {
+  "fid": 37,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 38,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 39,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/pgxc/squeue.h"
+  },
+  {
+  "fid": 40,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/libpq/libpq.h"
+  },
+  {
+  "fid": 41,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 42,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/postmaster/postmaster.h"
+  },
+  {
+  "fid": 43,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/lib/stringinfo.h"
+  },
+  {
+  "fid": 44,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/utils/typcache.h"
+  },
+  {
+  "fid": 45,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 46,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/access/tupdesc.h"
+  },
+  {
+  "fid": 47,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/miscadmin.h"
+  },
+  {
+  "fid": 48,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 49,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 50,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 51,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/storage/dsm_impl.h"
+  },
+  {
+  "fid": 52,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 53,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 54,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/common/relpath.h"
+  },
+  {
+  "fid": 55,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/storage/backendid.h"
+  },
+  {
+  "fid": 56,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/pgxc/shardmap.h"
+  },
+  {
+  "fid": 57,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 58,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/storage/fd.h"
+  },
+  {
+  "fid": 59,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/access/xlog.h"
+  },
+  {
+  "fid": 60,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 61,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/access/transam.h"
+  },
+  {
+  "fid": 62,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/catalog/pg_type.h"
+  },
+  {
+  "fid": 63,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/utils/array.h"
+  },
+  {
+  "fid": 64,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/catalog/objectaddress.h"
+  },
+  {
+  "fid": 65,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/executor/instrument.h"
+  },
+  {
+  "fid": 66,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/tcop/dest.h"
+  },
+  {
+  "fid": 67,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 68,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/utils/resowner.h"
+  },
+  {
+  "fid": 69,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/utils/portal.h"
+  },
+  {
+  "fid": 70,
+  "path": "/usr/include/openssl/ec.h"
+  },
+  {
+  "fid": 71,
+  "path": "/usr/include/openssl/rsa.h"
+  },
+  {
+  "fid": 72,
+  "path": "/usr/include/openssl/dh.h"
+  },
+  {
+  "fid": 73,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/libpq/pqcomm.h"
+  },
+  {
+  "fid": 74,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/mb/pg_wchar.h"
+  },
+  {
+  "fid": 75,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/pgtime.h"
+  },
+  {
+  "fid": 76,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/common/../../../../src/include/utils/timestamp.h"
+  }
+]
+[Au5em],[SCB@printtup.c:433],[printtup.c],[31:433],[Vul],[D],[SCB],[1,0,0],[],#printtup()#,[31:433:0:3]
+[Au5em],[outputstr@STR38-C@CERT@printtup.c:450@printtup.c:442],[printtup.c],[31:450],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[outputstr],#printtup()#,[31:442:0:1,31:450:0:3]
+[Au5em],[outputstr@STR38-C@CERT@printtup.c:446@printtup.c:442],[printtup.c],[31:446],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[outputstr],#printtup()#,[31:442:0:1,31:446:0:3]
+[Au5em],[outputstr@STR38-C@CERT@printtup.c:577@printtup.c:576],[printtup.c],[31:577],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[outputstr],#printtup_20()#,[31:576:0:1,31:577:0:3]
+[Au5em],[isnull@UIV@printtup.c:678],[printtup.c],[31:686],[Vul],[M],[UIV],[1,0,0],[isnull],#debugtup()#,[31:678:0:4,31:682:0:23,31:682:0:25,31:682:0:17,31:684:0:5,31:686:0:3]

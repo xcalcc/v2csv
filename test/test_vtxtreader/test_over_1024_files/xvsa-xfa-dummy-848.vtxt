@@ -1,0 +1,193 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_dump/pg_dump.c"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_dump/../../../src/include/fe_utils/string_utils.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_dump/../../../src/include/port.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_dump/parallel.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_dump/pg_backup_utils.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_dump/pg_backup.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_dump/../../../src/include/common/fe_memutils.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_dump/../../../src/include/fe_utils/simple_list.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/bits/getopt_ext.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_dump/../../../src/interfaces/libpq/pqexpbuffer.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_dump/pg_backup_archiver.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_dump/../../../src/interfaces/libpq/libpq-fe.h"
+  },
+  {
+  "fid": 19,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_dump/pg_dump.h"
+  },
+  {
+  "fid": 20,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_dump/pg_backup_db.h"
+  },
+  {
+  "fid": 21,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 22,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_dump/dumputils.h"
+  },
+  {
+  "fid": 23,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 24,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 25,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 26,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 27,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 28,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_dump/../../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 29,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_dump/../../../src/include/access/transam.h"
+  },
+  {
+  "fid": 30,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_dump/../../../src/include/catalog/pg_type.h"
+  }
+]
+[Au5em],[DDC@pg_dump.c:14755],[pg_dump.c],[4:14755],[Vul],[D],[DDC],[1,0,0],[],#dumpDefaultACL()#,[4:14755:0:3]
+[Au5em],[DDC@pg_dump.c:16417],[pg_dump.c],[4:16417],[Vul],[D],[DDC],[1,0,0],[],#getAttrName()#,[4:16417:0:3]
+[Au5em],[middle+(*32)@NPD@pg_dump.c:15048],[pg_dump.c],[4:15112],[Vul],[M],[NPD],[1,0,0],[middle+(*32)],#findSecLabels()#,[4:15048:0:1,4:15057:0:24,4:15057:0:26,4:15068:0:17,4:15096:0:1,4:15107:0:1,4:15108:0:23,4:15108:0:25,4:15107:0:1,4:15108:0:1,4:15112:0:3]
+[Au5em],[middle+(*32)@NPD@pg_dump.c:15048],[pg_dump.c],[4:15112],[Vul],[M],[NPD],[1,0,0],[middle+(*32)],#findSecLabels()#,[4:15048:0:1,4:15057:0:24,4:15057:0:26,4:15068:0:17,4:15096:0:1,4:15107:0:1,4:15108:0:23,4:15108:0:25,4:15112:0:24,4:15112:0:25,4:15107:0:1,4:15108:0:1,4:15112:0:3]
+[Au5em],[middle-(*32)@NPD@pg_dump.c:15048],[pg_dump.c],[4:15100],[Vul],[M],[NPD],[1,0,0],[middle-(*32)],#findSecLabels()#,[4:15048:0:1,4:15057:0:24,4:15057:0:26,4:15068:0:17,4:15096:0:1,4:15100:0:3]
+[Au5em],[middle-(*32)@NPD@pg_dump.c:15048],[pg_dump.c],[4:15100],[Vul],[M],[NPD],[1,0,0],[middle-(*32)],#findSecLabels()#,[4:15048:0:1,4:15057:0:24,4:15057:0:26,4:15068:0:17,4:15096:0:1,4:15100:0:3]
+[Au5em],[middle+(*24)@NPD@pg_dump.c:9581],[pg_dump.c],[4:9639],[Vul],[M],[NPD],[1,0,0],[middle+(*24)],#findComments()#,[4:9581:0:1,4:9595:0:17,4:9623:0:1,4:9634:0:1,4:9635:0:23,4:9635:0:25,4:9634:0:1,4:9635:0:1,4:9639:0:3]
+[Au5em],[middle+(*24)@NPD@pg_dump.c:9581],[pg_dump.c],[4:9639],[Vul],[M],[NPD],[1,0,0],[middle+(*24)],#findComments()#,[4:9581:0:1,4:9595:0:17,4:9623:0:1,4:9634:0:1,4:9635:0:23,4:9635:0:25,4:9639:0:24,4:9639:0:25,4:9634:0:1,4:9635:0:1,4:9639:0:3]
+[Au5em],[middle-(*24)@NPD@pg_dump.c:9581],[pg_dump.c],[4:9627],[Vul],[M],[NPD],[1,0,0],[middle-(*24)],#findComments()#,[4:9581:0:1,4:9595:0:17,4:9623:0:1,4:9627:0:3]
+[Au5em],[middle-(*24)@NPD@pg_dump.c:9581],[pg_dump.c],[4:9627],[Vul],[M],[NPD],[1,0,0],[middle-(*24)],#findComments()#,[4:9581:0:1,4:9595:0:17,4:9623:0:1,4:9627:0:3]
+[Au5em],[RCD@pg_dump.c:9605@pg_dump.c:9603],[pg_dump.c],[4:9605],[Vul],[D],[RCD],[1,0,0],[],#findComments()#,[4:9603:0:11,4:9603:0:24,4:9605:0:26,4:9605:0:3]
+[Au5em],[labelq@UAF@pg_dump.c:10636],[pg_dump.c],[4:10700],[Vul],[M],[UAF],[1,0,0],[labelq],#dumpBaseType()#,[4:10636:0:10,4:10634:0:17,4:10441:0:1,4:10700:0:3]
+[Au5em],[labelq@UAF@pg_dump.c:10636],[pg_dump.c],[4:10695],[Vul],[M],[UAF],[1,0,0],[labelq],#dumpBaseType()#,[4:10636:0:10,4:10634:0:17,4:10441:0:1,4:10695:0:3]
+[Au5em],[q@UAF@pg_dump.c:10636],[pg_dump.c],[4:10683],[Vul],[M],[UAF],[1,0,0],[q],#dumpBaseType()#,[4:10636:0:10,4:10634:0:17,4:10439:0:1,4:10683:0:3]
+[Au5em],[delq@UAF@pg_dump.c:10636],[pg_dump.c],[4:10683],[Vul],[M],[UAF],[1,0,0],[delq],#dumpBaseType()#,[4:10636:0:10,4:10634:0:17,4:10440:0:1,4:10683:0:3]
+[Au5em],[labelq@UAF@pg_dump.c:10636],[pg_dump.c],[4:10680],[Vul],[M],[UAF],[1,0,0],[labelq],#dumpBaseType()#,[4:10636:0:10,4:10634:0:17,4:10441:0:1,4:10680:0:3]
+[Au5em],[configitems@DBF@pg_dump.c:12070@pg_dump.c:11876],[pg_dump.c],[4:12070],[Vul],[M],[DBF],[1,0,0],[configitems],#dumpFunc()#,[4:11876:0:10,4:11876:0:17,4:11877:0:17,4:11882:0:17,4:12070:0:3]
+[Au5em],[argnames@DBF@pg_dump.c:12068@pg_dump.c:11865],[pg_dump.c],[4:12068],[Vul],[M],[DBF],[1,0,0],[argnames],#dumpFunc()#,[4:11865:0:10,4:11865:0:17,4:11866:0:17,4:11870:0:17,4:12068:0:3]
+[Au5em],[argmodes@DBF@pg_dump.c:12066@pg_dump.c:11851],[pg_dump.c],[4:12066],[Vul],[M],[DBF],[1,0,0],[argmodes],#dumpFunc()#,[4:11851:0:10,4:11851:0:17,4:11852:0:17,4:11856:0:17,4:12066:0:3]
+[Au5em],[allargtypes@DBF@pg_dump.c:12064@pg_dump.c:11835],[pg_dump.c],[4:12064],[Vul],[M],[DBF],[1,0,0],[allargtypes],#dumpFunc()#,[4:11835:0:10,4:11835:0:17,4:11836:0:17,4:11842:0:17,4:12064:0:3]
+[Au5em],[aggsortconvop@UDR@pg_dump.c:13974],[pg_dump.c],[4:13974],[Vul],[D],[UDR],[1,0,0],[aggsortconvop],#dumpAgg()#,[4:12586:0:1,4:13969:0:5,4:13970:0:23,4:13972:0:25,4:13974:0:3]
+[Au5em],[oprregproc@UDR@pg_dump.c:12485],[pg_dump.c],[4:12485],[Vul],[D],[UDR],[1,0,0],[oprregproc],#dumpOpr()#,[4:12548:0:1,4:12481:0:5,4:12482:0:23,4:12484:0:25,4:12485:0:3]
+[Au5em],[oprregproc@UDR@pg_dump.c:12478],[pg_dump.c],[4:12478],[Vul],[D],[UDR],[1,0,0],[oprregproc],#dumpOpr()#,[4:12548:0:1,4:12474:0:5,4:12475:0:23,4:12477:0:25,4:12478:0:3]
+[Au5em],[oprref@UDR@pg_dump.c:12465],[pg_dump.c],[4:12465],[Vul],[D],[UDR],[1,0,0],[oprref],#dumpOpr()#,[4:12586:0:1,4:12461:0:5,4:12462:0:23,4:12464:0:25,4:12465:0:3]
+[Au5em],[oprref@UDR@pg_dump.c:12458],[pg_dump.c],[4:12458],[Vul],[D],[UDR],[1,0,0],[oprref],#dumpOpr()#,[4:12586:0:1,4:12454:0:5,4:12455:0:23,4:12457:0:25,4:12458:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_dump.c:16987],[pg_dump.c],[4:16987],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#dumpSequence()#,[4:16987:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_dump.c:16988],[pg_dump.c],[4:16988],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#dumpSequence()#,[4:16988:0:3]
+[Au5em],[funcInfo@NPD@pg_dump.c:11314],[pg_dump.c],[4:11363],[Vul],[M],[NPD],[1,0,0],[funcInfo],#dumpProcLang()#,[4:11314:0:1,4:11314:0:17,4:11316:0:17,4:11363:0:3]
+[Au5em],[funcInfo@NPD@pg_dump.c:11314],[pg_dump.c],[4:11378],[Vul],[M],[NPD],[1,0,0],[funcInfo],#dumpProcLang()#,[4:11314:0:1,4:11314:0:17,4:11316:0:17,4:11378:0:3]
+[Au5em],[validatorInfo@NPD@pg_dump.c:11327],[pg_dump.c],[4:11378],[Vul],[M],[NPD],[1,0,0],[validatorInfo],#dumpProcLang()#,[4:11327:0:1,4:11327:0:17,4:11335:0:17,4:11378:0:3]
+[Au5em],[validatorInfo@NPD@pg_dump.c:11298],[pg_dump.c],[4:11378],[Vul],[M],[NPD],[1,0,0],[validatorInfo],#dumpProcLang()#,[4:11298:0:1,4:11301:0:24,4:11302:0:26,4:11323:0:24,4:11323:0:26,4:11323:0:17,4:11378:0:3]
+[Au5em],[validatorInfo@NPD@pg_dump.c:11327],[pg_dump.c],[4:11381],[Vul],[M],[NPD],[1,0,0],[validatorInfo],#dumpProcLang()#,[4:11327:0:1,4:11327:0:17,4:11335:0:17,4:11381:0:3]
+[Au5em],[validatorInfo@NPD@pg_dump.c:11298],[pg_dump.c],[4:11381],[Vul],[M],[NPD],[1,0,0],[validatorInfo],#dumpProcLang()#,[4:11298:0:1,4:11301:0:24,4:11302:0:26,4:11323:0:24,4:11323:0:26,4:11323:0:17,4:11381:0:3]
+[Au5em],[validatorInfo@NPD@pg_dump.c:11327],[pg_dump.c],[4:11379],[Vul],[M],[NPD],[1,0,0],[validatorInfo],#dumpProcLang()#,[4:11327:0:1,4:11327:0:17,4:11335:0:17,4:11379:0:3]
+[Au5em],[validatorInfo@NPD@pg_dump.c:11298],[pg_dump.c],[4:11379],[Vul],[M],[NPD],[1,0,0],[validatorInfo],#dumpProcLang()#,[4:11298:0:1,4:11301:0:24,4:11302:0:26,4:11323:0:24,4:11323:0:26,4:11323:0:17,4:11379:0:3]
+[Au5em],[funcInfo@NPD@pg_dump.c:11314],[pg_dump.c],[4:11369],[Vul],[M],[NPD],[1,0,0],[funcInfo],#dumpProcLang()#,[4:11314:0:1,4:11314:0:17,4:11316:0:17,4:11369:0:3]
+[Au5em],[inlineInfo@NPD@pg_dump.c:11320],[pg_dump.c],[4:11369],[Vul],[M],[NPD],[1,0,0],[inlineInfo],#dumpProcLang()#,[4:11320:0:1,4:11320:0:17,4:11323:0:17,4:11369:0:3]
+[Au5em],[inlineInfo@NPD@pg_dump.c:11297],[pg_dump.c],[4:11369],[Vul],[M],[NPD],[1,0,0],[inlineInfo],#dumpProcLang()#,[4:11297:0:1,4:11301:0:24,4:11302:0:26,4:11316:0:24,4:11316:0:26,4:11316:0:17,4:11369:0:3]
+[Au5em],[inlineInfo@NPD@pg_dump.c:11320],[pg_dump.c],[4:11372],[Vul],[M],[NPD],[1,0,0],[inlineInfo],#dumpProcLang()#,[4:11320:0:1,4:11320:0:17,4:11323:0:17,4:11372:0:3]
+[Au5em],[inlineInfo@NPD@pg_dump.c:11297],[pg_dump.c],[4:11372],[Vul],[M],[NPD],[1,0,0],[inlineInfo],#dumpProcLang()#,[4:11297:0:1,4:11301:0:24,4:11302:0:26,4:11316:0:24,4:11316:0:26,4:11316:0:17,4:11372:0:3]
+[Au5em],[inlineInfo@NPD@pg_dump.c:11320],[pg_dump.c],[4:11370],[Vul],[M],[NPD],[1,0,0],[inlineInfo],#dumpProcLang()#,[4:11320:0:1,4:11320:0:17,4:11323:0:17,4:11370:0:3]
+[Au5em],[inlineInfo@NPD@pg_dump.c:11297],[pg_dump.c],[4:11370],[Vul],[M],[NPD],[1,0,0],[inlineInfo],#dumpProcLang()#,[4:11297:0:1,4:11301:0:24,4:11302:0:26,4:11316:0:24,4:11316:0:26,4:11316:0:17,4:11370:0:3]
+[Au5em],[funcInfo@NPD@pg_dump.c:11314],[pg_dump.c],[4:11351],[Vul],[M],[NPD],[1,0,0],[funcInfo],#dumpProcLang()#,[4:11314:0:1,4:11314:0:17,4:11316:0:17,4:11351:0:3]
+[Au5em],[labelq@UAF@pg_dump.c:12139],[pg_dump.c],[4:12171],[Vul],[M],[UAF],[1,0,0],[labelq],#dumpCast()#,[4:12139:0:10,4:12130:0:17,4:12143:0:17,4:12109:0:1,4:12171:0:3]
+[Au5em],[labelq@UAF@pg_dump.c:12139],[pg_dump.c],[4:12161],[Vul],[M],[UAF],[1,0,0],[labelq],#dumpCast()#,[4:12139:0:10,4:12130:0:17,4:12143:0:17,4:12109:0:1,4:12161:0:3]
+[Au5em],[defqry@UAF@pg_dump.c:12139],[pg_dump.c],[4:12161],[Vul],[M],[UAF],[1,0,0],[defqry],#dumpCast()#,[4:12139:0:10,4:12130:0:17,4:12143:0:17,4:12107:0:1,4:12161:0:3]
+[Au5em],[delqry@UAF@pg_dump.c:12139],[pg_dump.c],[4:12161],[Vul],[M],[UAF],[1,0,0],[delqry],#dumpCast()#,[4:12139:0:10,4:12130:0:17,4:12143:0:17,4:12108:0:1,4:12161:0:3]
+[Au5em],[labelq@UAF@pg_dump.c:12139],[pg_dump.c],[4:12158],[Vul],[M],[UAF],[1,0,0],[labelq],#dumpCast()#,[4:12139:0:10,4:12130:0:17,4:12143:0:17,4:12109:0:1,4:12158:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_dump.c:12627],[pg_dump.c],[4:12627],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#dumpTSParser()#,[4:12627:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_dump.c:12627],[pg_dump.c],[4:12627],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#dumpTSParser()#,[4:12627:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_dump.c:12627],[pg_dump.c],[4:12627],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#dumpTSParser()#,[4:12627:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_dump.c:12627],[pg_dump.c],[4:12627],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#dumpTSParser()#,[4:12627:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_dump.c:12627],[pg_dump.c],[4:12627],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#dumpTSParser()#,[4:12627:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_dump.c:12627],[pg_dump.c],[4:12627],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#dumpTSTemplate()#,[4:12627:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_dump.c:12627],[pg_dump.c],[4:12627],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#dumpTSTemplate()#,[4:12627:0:3]
+[Au5em],[labelq@UAF@pg_dump.c:12270],[pg_dump.c],[4:12295],[Vul],[M],[UAF],[1,0,0],[labelq],#dumpTransform()#,[4:12270:0:10,4:12262:0:17,4:12276:0:17,4:12223:0:1,4:12295:0:3]
+[Au5em],[labelq@UAF@pg_dump.c:12270],[pg_dump.c],[4:12285],[Vul],[M],[UAF],[1,0,0],[labelq],#dumpTransform()#,[4:12270:0:10,4:12262:0:17,4:12276:0:17,4:12223:0:1,4:12285:0:3]
+[Au5em],[defqry@UAF@pg_dump.c:12270],[pg_dump.c],[4:12285],[Vul],[M],[UAF],[1,0,0],[defqry],#dumpTransform()#,[4:12270:0:10,4:12262:0:17,4:12276:0:17,4:12221:0:1,4:12285:0:3]
+[Au5em],[delqry@UAF@pg_dump.c:12270],[pg_dump.c],[4:12285],[Vul],[M],[UAF],[1,0,0],[delqry],#dumpTransform()#,[4:12270:0:10,4:12262:0:17,4:12276:0:17,4:12222:0:1,4:12285:0:3]
+[Au5em],[labelq@UAF@pg_dump.c:12270],[pg_dump.c],[4:12282],[Vul],[M],[UAF],[1,0,0],[labelq],#dumpTransform()#,[4:12270:0:10,4:12262:0:17,4:12276:0:17,4:12223:0:1,4:12282:0:3]
+[Au5em],[pubnames@DBF@pg_dump.c:4003@pg_dump.c:3954],[pg_dump.c],[4:4003],[Vul],[M],[DBF],[1,0,0],[pubnames],#dumpSubscription()#,[4:3954:0:10,4:3954:0:17,4:3955:0:17,4:4003:0:3]
+[Au5em],[numObjs@UIV@pg_dump.c:2469],[pg_dump.c],[4:2474],[Vul],[M],[UIV],[1,0,0],[numObjs],#getTableDataFKConstraints()#,[4:2469:0:4,4:2473:0:5,4:2474:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_dump.c:617],[pg_dump.c],[4:617],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:617:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_dump.c:619],[pg_dump.c],[4:619],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:619:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_dump.c:574],[pg_dump.c],[4:574],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:574:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_dump.c:18484],[pg_dump.c],[4:18484],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:18484:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_dump.c:479],[pg_dump.c],[4:479],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:479:0:3]
+[Au5em],[column_list@STR38-C@CERT@pg_dump.c:1828@pg_dump.c:1793],[pg_dump.c],[4:1828],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[column_list],#dumpTableData_copy()#,[4:1793:0:1,4:1828:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_dump.c:1822],[pg_dump.c],[4:1822],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#dumpTableData_copy()#,[4:1822:0:3]
+[Au5em],[s@STR38-C@CERT@pg_dump.c:2098@pg_dump.c:2096],[pg_dump.c],[4:2098],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[s],#dumpTableData_insert()#,[4:2096:0:1,4:2098:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_dump.c:17780],[pg_dump.c],[4:17780],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#getExtensionMembership()#,[4:17780:0:3]
+[Au5em],[extconditionarray@UAF@pg_dump.c:17921],[pg_dump.c],[4:17912],[Vul],[M],[UAF],[1,0,0],[extconditionarray],#processExtensionTables()#,[4:17921:0:10,4:17921:0:17,4:17846:0:17,4:17862:0:17,4:17912:0:3]
+[Au5em],[extconditionarray@UAF@pg_dump.c:17921],[pg_dump.c],[4:17913],[Vul],[M],[UAF],[1,0,0],[extconditionarray],#processExtensionTables()#,[4:17921:0:10,4:17921:0:17,4:17846:0:17,4:17862:0:17,4:17913:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_dump.c:18484],[pg_dump.c],[4:18484],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#simple_shard_list_append()#,[4:18484:0:3]

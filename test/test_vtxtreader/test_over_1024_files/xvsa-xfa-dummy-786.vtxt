@@ -1,0 +1,56 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/bin/psql/stringutils.c"
+  },
+  {
+  "fid": 5,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/bin/psql/../../../src/include/common/fe_memutils.h"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/bin/psql/../../../src/interfaces/libpq/libpq-fe.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/bin/psql/../../../src/include/fe_utils/print.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/bin/psql/common.h"
+  }
+]
+[Au5em],[storage.5521@UDR@stringutils.c:60],[stringutils.c],[4:73],[Vul],[M],[UDR],[1,0,0],[storage],#strtokx()#,[4:73:0:3]

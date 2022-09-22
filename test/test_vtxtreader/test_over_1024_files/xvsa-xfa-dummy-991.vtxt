@@ -1,0 +1,334 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initdb/../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initdb/../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initdb/initdb.c"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initdb/../../../src/include/port.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initdb/../../../src/include/common/fe_memutils.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initdb/../../../src/include/common/username.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initdb/../../../src/include/mb/pg_wchar.h"
+  },
+  {
+  "fid": 16,
+  "path": "/usr/include/sys/stat.h"
+  },
+  {
+  "fid": 17,
+  "path": "/usr/include/sys/mman.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/netdb.h"
+  },
+  {
+  "fid": 19,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 20,
+  "path": "/usr/include/locale.h"
+  },
+  {
+  "fid": 21,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 22,
+  "path": "/usr/include/bits/getopt_ext.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initdb/../../../src/include/common/file_utils.h"
+  },
+  {
+  "fid": 24,
+  "path": "/usr/include/strings.h"
+  },
+  {
+  "fid": 25,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initdb/../../../src/include/common/restricted_token.h"
+  },
+  {
+  "fid": 26,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initdb/../../../src/interfaces/libpq/pqexpbuffer.h"
+  },
+  {
+  "fid": 27,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initdb/../../../src/include/fe_utils/string_utils.h"
+  },
+  {
+  "fid": 28,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 29,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 30,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 31,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initdb/../../../src/include/catalog/pg_collation.h"
+  },
+  {
+  "fid": 32,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initdb/../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 33,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initdb/../../../src/include/pgtime.h"
+  },
+  {
+  "fid": 34,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initdb/../../../src/include/miscadmin.h"
+  }
+]
+[Au5em],[pwfilename@FIO42-C@CERT@initdb.c:1597@initdb.c:1580],[initdb.c],[6:1597],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[pwfilename],#get_su_pwd()#,[6:1580:0:65,6:1583:0:66,6:1583:0:17,6:1591:0:17,6:1595:0:17,6:1597:0:70]
+[Au5em],[pwfilename@FIO42-C@CERT@initdb.c:1597@initdb.c:1580],[initdb.c],[6:1597],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[pwfilename],#get_su_pwd()#,[6:1580:0:65,6:1583:0:66,6:1583:0:17,6:1591:0:17,6:1592:0:17,6:1597:0:70]
+[Au5em],[path@FIO42-C@CERT@initdb.c:859@initdb.c:848],[initdb.c],[6:859],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[path],#write_version_file()#,[6:848:0:71,6:848:0:66,6:848:0:17,6:859:0:17,6:859:0:70]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:2594],[initdb.c],[6:2594],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#setup_pgdata()#,[6:2594:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:3067],[initdb.c],[6:3067],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#warn_on_mount_point()#,[6:3067:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:3070],[initdb.c],[6:3070],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#warn_on_mount_point()#,[6:3070:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:3064],[initdb.c],[6:3064],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#warn_on_mount_point()#,[6:3064:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:2551],[initdb.c],[6:2551],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#check_authmethod_valid()#,[6:2551:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:2567],[initdb.c],[6:2567],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#check_need_password()#,[6:2567:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:2659],[initdb.c],[6:2659],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#setup_bin_paths()#,[6:2659:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:2639],[initdb.c],[6:2639],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#setup_bin_paths()#,[6:2639:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:2632],[initdb.c],[6:2632],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#setup_bin_paths()#,[6:2632:0:3]
+[Au5em],[vstr@STR38-C@CERT@initdb.c:2035@initdb.c:2032],[initdb.c],[6:2035],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[vstr],#set_info_version()#,[6:2032:0:1,6:2035:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initdb.c:2044],[initdb.c],[6:2044],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#set_info_version()#,[6:2044:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:824],[initdb.c],[6:824],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#check_input()#,[6:824:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:826],[initdb.c],[6:826],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#check_input()#,[6:826:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:813],[initdb.c],[6:813],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#check_input()#,[6:813:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:816],[initdb.c],[6:816],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#check_input()#,[6:816:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:805],[initdb.c],[6:805],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#check_input()#,[6:805:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:807],[initdb.c],[6:807],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#check_input()#,[6:807:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:2779],[initdb.c],[6:2779],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#setup_data_file_paths()#,[6:2779:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:2381],[initdb.c],[6:2381],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#check_locale_name()#,[6:2381:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:2369],[initdb.c],[6:2369],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#check_locale_name()#,[6:2369:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:2359],[initdb.c],[6:2359],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#check_locale_name()#,[6:2359:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:2341],[initdb.c],[6:2341],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#check_locale_name()#,[6:2341:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:686],[initdb.c],[6:686],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#setup_locale_encoding()#,[6:686:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:2409],[initdb.c],[6:2409],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#setup_locale_encoding()#,[6:2409:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:2410],[initdb.c],[6:2410],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#setup_locale_encoding()#,[6:2410:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:2409],[initdb.c],[6:2409],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#setup_locale_encoding()#,[6:2409:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:2410],[initdb.c],[6:2410],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#setup_locale_encoding()#,[6:2410:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:2727],[initdb.c],[6:2727],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#setup_locale_encoding()#,[6:2727:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:2730],[initdb.c],[6:2730],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#setup_locale_encoding()#,[6:2730:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:2705],[initdb.c],[6:2705],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#setup_locale_encoding()#,[6:2705:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:2707],[initdb.c],[6:2707],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#setup_locale_encoding()#,[6:2707:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:2708],[initdb.c],[6:2708],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#setup_locale_encoding()#,[6:2708:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:623],[initdb.c],[6:623],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#exit_nicely()#,[6:623:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:628],[initdb.c],[6:628],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#exit_nicely()#,[6:628:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:593],[initdb.c],[6:593],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#exit_nicely()#,[6:593:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:597],[initdb.c],[6:597],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#exit_nicely()#,[6:597:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:611],[initdb.c],[6:611],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#exit_nicely()#,[6:611:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:615],[initdb.c],[6:615],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#exit_nicely()#,[6:615:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:603],[initdb.c],[6:603],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#exit_nicely()#,[6:603:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:606],[initdb.c],[6:606],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#exit_nicely()#,[6:606:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:585],[initdb.c],[6:585],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#exit_nicely()#,[6:585:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:588],[initdb.c],[6:588],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#exit_nicely()#,[6:588:0:3]
+[Au5em],[fgets@FIO37-C@CERT@initdb.c:1606@initdb.c:1589],[initdb.c],[6:1589],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO37-C],[fgets],#get_su_pwd()#,[6:1589:0:3,6:1589:0:17,6:1603:0:17,6:1606:0:16]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:1595],[initdb.c],[6:1595],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#get_su_pwd()#,[6:1595:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:1592],[initdb.c],[6:1592],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#get_su_pwd()#,[6:1592:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:1585],[initdb.c],[6:1585],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#get_su_pwd()#,[6:1585:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:1566],[initdb.c],[6:1566],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#get_su_pwd()#,[6:1566:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:2896],[initdb.c],[6:2896],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_data_directory()#,[6:2896:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:2914],[initdb.c],[6:2914],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_data_directory()#,[6:2914:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:2928],[initdb.c],[6:2928],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_data_directory()#,[6:2928:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:2934],[initdb.c],[6:2934],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_data_directory()#,[6:2934:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:3067],[initdb.c],[6:3067],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_data_directory()#,[6:3067:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:3070],[initdb.c],[6:3070],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_data_directory()#,[6:3070:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:3064],[initdb.c],[6:3064],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_data_directory()#,[6:3064:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:2943],[initdb.c],[6:2943],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_data_directory()#,[6:2943:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:3050],[initdb.c],[6:3050],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_xlog_or_symlink()#,[6:3050:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:2982],[initdb.c],[6:2982],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_xlog_or_symlink()#,[6:2982:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:3036],[initdb.c],[6:3036],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_xlog_or_symlink()#,[6:3036:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:3000],[initdb.c],[6:3000],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_xlog_or_symlink()#,[6:3000:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:3014],[initdb.c],[6:3014],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_xlog_or_symlink()#,[6:3014:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:3020],[initdb.c],[6:3020],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_xlog_or_symlink()#,[6:3020:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:3067],[initdb.c],[6:3067],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_xlog_or_symlink()#,[6:3067:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:3070],[initdb.c],[6:3070],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_xlog_or_symlink()#,[6:3070:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:3064],[initdb.c],[6:3064],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_xlog_or_symlink()#,[6:3064:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:3028],[initdb.c],[6:3028],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_xlog_or_symlink()#,[6:3028:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:2967],[initdb.c],[6:2967],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_xlog_or_symlink()#,[6:2967:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:857],[initdb.c],[6:857],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#write_version_file()#,[6:857:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:850],[initdb.c],[6:850],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#write_version_file()#,[6:850:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:884],[initdb.c],[6:884],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#set_null_conf()#,[6:884:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:878],[initdb.c],[6:878],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#set_null_conf()#,[6:878:0:3]
+[Au5em],[random@MSC32-C@CERT@initdb.c:3197@initdb.c:914],[initdb.c],[6:914],[Vul],[D],[RBC],[1,0,0],[CERT],[MSC32-C],[random],#choose_dsm_implementation()#,[6:914:0:3,6:916:0:17,6:908:0:17,6:904:0:17,6:1035:0:2,6:1036:0:17,6:1029:0:17,6:1028:0:17,6:1010:0:17,6:1007:0:17,6:1003:0:17,6:995:0:17,6:994:0:17,6:991:0:17,6:988:0:17,6:973:0:17,-1:-1:-1:-1,6:3499:0:18,6:3499:0:17,6:3490:0:2,6:3490:0:17,6:2527:0:17,6:3490:0:18,6:3490:0:17,6:3489:0:2,6:3489:0:17,6:2527:0:17,6:3489:0:18,6:3489:0:17,6:3480:0:17,6:3472:0:17,6:3465:0:17,6:3446:0:17,6:3436:0:17,6:3432:0:17,6:3430:0:17,6:3281:0:17,6:3272:0:17,6:3267:0:17,6:3265:0:17,6:3197:0:17]
+[Au5em],[snprintf@ERR33-C@CERT@initdb.c:915],[initdb.c],[6:915],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#choose_dsm_implementation()#,[6:915:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initdb.c:978],[initdb.c],[6:978],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#test_config_settings()#,[6:978:0:3]
+[Au5em],[system@ENV33-C@CERT@initdb.c:987],[initdb.c],[6:987],[Vul],[D],[RBC],[1,0,0],[CERT],[ENV33-C],[system],#test_config_settings()#,[6:987:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initdb.c:1013],[initdb.c],[6:1013],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#test_config_settings()#,[6:1013:0:3]
+[Au5em],[system@ENV33-C@CERT@initdb.c:1022],[initdb.c],[6:1022],[Vul],[D],[RBC],[1,0,0],[CERT],[ENV33-C],[system],#test_config_settings()#,[6:1022:0:3]
+[Au5em],[fgets@FIO37-C@CERT@initdb.c:517@initdb.c:510],[initdb.c],[6:510],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO37-C],[fgets],#readfile()#,[6:510:0:3,6:517:0:17,6:517:0:16]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:478],[initdb.c],[6:478],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#readfile()#,[6:478:0:3]
+[Au5em],[setlocale@ERR33-C@CERT@initdb.c:2285],[initdb.c],[6:2285],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[setlocale],#locale_date_order()#,[6:2285:0:3]
+[Au5em],[setlocale@ERR33-C@CERT@initdb.c:2294],[initdb.c],[6:2294],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[setlocale],#locale_date_order()#,[6:2294:0:3]
+[Au5em],[*line@UDR@initdb.c:546],[initdb.c],[6:546],[Vul],[D],[UDR],[1,0,0],[*line],#writefile()#,[6:515:0:8,6:517:0:1,6:1306:0:5,6:1306:0:1,6:1310:0:1,6:1310:0:2,6:528:0:6,6:538:0:23,6:538:0:25,6:546:0:3]
+[Au5em],[*line@UDR@initdb.c:546],[initdb.c],[6:546],[Vul],[D],[UDR],[1,0,0],[*line],#writefile()#,[6:515:0:8,6:517:0:1,6:1358:0:5,6:1358:0:1,6:1362:0:1,6:1362:0:2,6:528:0:6,6:538:0:23,6:538:0:25,6:546:0:3]
+[Au5em],[*line@UDR@initdb.c:546],[initdb.c],[6:546],[Vul],[D],[UDR],[1,0,0],[*line],#writefile()#,[6:515:0:8,6:517:0:1,6:1373:0:5,6:1373:0:1,6:1377:0:1,6:1377:0:2,6:528:0:6,6:538:0:23,6:538:0:25,6:546:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:550],[initdb.c],[6:550],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#writefile()#,[6:550:0:3]
+[Au5em],[fputs@ERR33-C@CERT@initdb.c:540@initdb.c:540],[initdb.c],[6:540],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#writefile()#,[6:540:0:3,6:540:0:16]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:542],[initdb.c],[6:542],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#writefile()#,[6:542:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:534],[initdb.c],[6:534],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#writefile()#,[6:534:0:3]
+[Au5em],[fputs@ERR33-C@CERT@initdb.c:1051],[initdb.c],[6:1051],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#setup_config()#,[6:1051:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initdb.c:1058],[initdb.c],[6:1058],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#setup_config()#,[6:1058:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initdb.c:1065],[initdb.c],[6:1065],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#setup_config()#,[6:1065:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initdb.c:1070],[initdb.c],[6:1070],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#setup_config()#,[6:1070:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initdb.c:1083],[initdb.c],[6:1083],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#setup_config()#,[6:1083:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initdb.c:1087],[initdb.c],[6:1087],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#setup_config()#,[6:1087:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initdb.c:1091],[initdb.c],[6:1091],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#setup_config()#,[6:1091:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initdb.c:1095],[initdb.c],[6:1095],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#setup_config()#,[6:1095:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initdb.c:1114],[initdb.c],[6:1114],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#setup_config()#,[6:1114:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initdb.c:1122],[initdb.c],[6:1122],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#setup_config()#,[6:1122:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initdb.c:1139],[initdb.c],[6:1139],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#setup_config()#,[6:1139:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initdb.c:1152],[initdb.c],[6:1152],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#setup_config()#,[6:1152:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initdb.c:1159],[initdb.c],[6:1159],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#setup_config()#,[6:1159:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initdb.c:1185],[initdb.c],[6:1185],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#setup_config()#,[6:1185:0:3]
+[Au5em],[path@AOB@initdb.c:1205],[initdb.c],[6:1205],[Vul],[M],[AOB],[1,0,0],[path],#setup_config()#,[6:1205:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initdb.c:1292],[initdb.c],[6:1292],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#setup_config()#,[6:1292:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initdb.c:1308],[initdb.c],[6:1308],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#setup_config()#,[6:1308:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initdb.c:1324],[initdb.c],[6:1324],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#setup_config()#,[6:1324:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initdb.c:1327],[initdb.c],[6:1327],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#setup_config()#,[6:1327:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initdb.c:1334],[initdb.c],[6:1334],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#setup_config()#,[6:1334:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initdb.c:1341],[initdb.c],[6:1341],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#setup_config()#,[6:1341:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initdb.c:1360],[initdb.c],[6:1360],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#setup_config()#,[6:1360:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initdb.c:1375],[initdb.c],[6:1375],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#setup_config()#,[6:1375:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:1380],[initdb.c],[6:1380],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#setup_config()#,[6:1380:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:1365],[initdb.c],[6:1365],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#setup_config()#,[6:1365:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:1350],[initdb.c],[6:1350],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#setup_config()#,[6:1350:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:1313],[initdb.c],[6:1313],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#setup_config()#,[6:1313:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:1297],[initdb.c],[6:1297],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#setup_config()#,[6:1297:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:1210],[initdb.c],[6:1210],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#setup_config()#,[6:1210:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:1190],[initdb.c],[6:1190],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#setup_config()#,[6:1190:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initdb.c:1131],[initdb.c],[6:1131],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#setup_config()#,[6:1131:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initdb.c:1134],[initdb.c],[6:1134],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#setup_config()#,[6:1134:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:368],[initdb.c],[6:368],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#setup_config()#,[6:368:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:368],[initdb.c],[6:368],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#setup_config()#,[6:368:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:368],[initdb.c],[6:368],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#setup_config()#,[6:368:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:368],[initdb.c],[6:368],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#setup_config()#,[6:368:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:368],[initdb.c],[6:368],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#setup_config()#,[6:368:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:368],[initdb.c],[6:368],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#setup_config()#,[6:368:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:368],[initdb.c],[6:368],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#setup_config()#,[6:368:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:368],[initdb.c],[6:368],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#setup_config()#,[6:368:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initdb.c:1062],[initdb.c],[6:1062],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#setup_config()#,[6:1062:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initdb.c:1416],[initdb.c],[6:1416],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#bootstrap_template1()#,[6:1416:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initdb.c:1466],[initdb.c],[6:1466],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#bootstrap_template1()#,[6:1466:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initdb.c:1469],[initdb.c],[6:1469],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#bootstrap_template1()#,[6:1469:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initdb.c:1477],[initdb.c],[6:1477],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#bootstrap_template1()#,[6:1477:0:3]
+[Au5em],[fputs@ERR33-C@CERT@initdb.c:1487@initdb.c:1487],[initdb.c],[6:1487],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#bootstrap_template1()#,[6:1487:0:3,6:1487:0:16]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:569],[initdb.c],[6:569],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#bootstrap_template1()#,[6:569:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:368],[initdb.c],[6:368],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#bootstrap_template1()#,[6:368:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:368],[initdb.c],[6:368],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#bootstrap_template1()#,[6:368:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:368],[initdb.c],[6:368],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#bootstrap_template1()#,[6:368:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:368],[initdb.c],[6:368],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#bootstrap_template1()#,[6:368:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:368],[initdb.c],[6:368],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#bootstrap_template1()#,[6:368:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:1421],[initdb.c],[6:1421],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#bootstrap_template1()#,[6:1421:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:368],[initdb.c],[6:368],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#setup_auth()#,[6:368:0:3]
+[Au5em],[fputs@ERR33-C@CERT@initdb.c:1515@initdb.c:1515],[initdb.c],[6:1515],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#setup_auth()#,[6:1515:0:3,6:1515:0:16]
+[Au5em],[pg_authid_setup@AOB@initdb.c:1514],[initdb.c],[6:1514],[Vul],[M],[AOB],[1,0,0],[pg_authid_setup],#setup_auth()#,[6:1514:0:3]
+[Au5em],[*line@UDR@initdb.c:1716],[initdb.c],[6:1716],[Vul],[D],[UDR],[1,0,0],[*line],#setup_sysviews()#,[6:515:0:8,6:517:0:1,6:1711:0:5,6:1713:0:23,6:1713:0:25,6:1716:0:3]
+[Au5em],[fputs@ERR33-C@CERT@initdb.c:1715@initdb.c:1715],[initdb.c],[6:1715],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#setup_sysviews()#,[6:1715:0:3,6:1715:0:16]
+[Au5em],[fputs@ERR33-C@CERT@initdb.c:1745@initdb.c:1745],[initdb.c],[6:1745],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#setup_description()#,[6:1745:0:3,6:1745:0:16]
+[Au5em],[fputs@ERR33-C@CERT@initdb.c:1754@initdb.c:1754],[initdb.c],[6:1754],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#setup_description()#,[6:1754:0:3,6:1754:0:16]
+[Au5em],[fputs@ERR33-C@CERT@initdb.c:1759@initdb.c:1759],[initdb.c],[6:1759],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#setup_description()#,[6:1759:0:3,6:1759:0:16]
+[Au5em],[fputs@ERR33-C@CERT@initdb.c:1768@initdb.c:1768],[initdb.c],[6:1768],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#setup_description()#,[6:1768:0:3,6:1768:0:16]
+[Au5em],[fputs@ERR33-C@CERT@initdb.c:1777@initdb.c:1777],[initdb.c],[6:1777],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#setup_description()#,[6:1777:0:3,6:1777:0:16]
+[Au5em],[fputs@ERR33-C@CERT@initdb.c:1793@initdb.c:1793],[initdb.c],[6:1793],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#setup_description()#,[6:1793:0:3,6:1793:0:16]
+[Au5em],[fputs@ERR33-C@CERT@initdb.c:1794@initdb.c:1794],[initdb.c],[6:1794],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#setup_description()#,[6:1794:0:3,6:1794:0:16]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:368],[initdb.c],[6:368],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#setup_description()#,[6:368:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:368],[initdb.c],[6:368],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#setup_description()#,[6:368:0:3]
+[Au5em],[*line@UDR@initdb.c:1829],[initdb.c],[6:1829],[Vul],[D],[UDR],[1,0,0],[*line],#setup_conversion()#,[6:515:0:8,6:517:0:1,6:1824:0:5,6:1825:0:23,6:1825:0:25,6:1829:0:3]
+[Au5em],[fputs@ERR33-C@CERT@initdb.c:1828@initdb.c:1828],[initdb.c],[6:1828],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#setup_conversion()#,[6:1828:0:3,6:1828:0:16]
+[Au5em],[*line@UDR@initdb.c:1848],[initdb.c],[6:1848],[Vul],[D],[UDR],[1,0,0],[*line],#setup_dictionary()#,[6:515:0:8,6:517:0:1,6:1844:0:5,6:1845:0:23,6:1845:0:25,6:1848:0:3]
+[Au5em],[fputs@ERR33-C@CERT@initdb.c:1847@initdb.c:1847],[initdb.c],[6:1847],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#setup_dictionary()#,[6:1847:0:3,6:1847:0:16]
+[Au5em],[fputs@ERR33-C@CERT@initdb.c:2017@initdb.c:2017],[initdb.c],[6:2017],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#setup_privileges()#,[6:2017:0:3,6:2017:0:16]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:368],[initdb.c],[6:368],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#setup_privileges()#,[6:368:0:3]
+[Au5em],[*line@UDR@initdb.c:2062],[initdb.c],[6:2062],[Vul],[D],[UDR],[1,0,0],[*line],#setup_schema()#,[6:515:0:8,6:517:0:1,6:2057:0:5,6:2059:0:23,6:2059:0:25,6:2062:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:368],[initdb.c],[6:368],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#setup_schema()#,[6:368:0:3]
+[Au5em],[fputs@ERR33-C@CERT@initdb.c:2061@initdb.c:2061],[initdb.c],[6:2061],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#setup_schema()#,[6:2061:0:3,6:2061:0:16]
+[Au5em],[fputs@ERR33-C@CERT@initdb.c:3138],[initdb.c],[6:3138],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#initialize_data_directory()#,[6:3138:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initdb.c:3141],[initdb.c],[6:3141],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#initialize_data_directory()#,[6:3141:0:3]
+[Au5em],[fputs@ERR33-C@CERT@initdb.c:1730],[initdb.c],[6:1730],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#initialize_data_directory()#,[6:1730:0:3]
+[Au5em],[fputs@ERR33-C@CERT@initdb.c:1812@initdb.c:1812],[initdb.c],[6:1812],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#initialize_data_directory()#,[6:1812:0:3,6:1812:0:16]
+[Au5em],[fputs@ERR33-C@CERT@initdb.c:2085@initdb.c:2085],[initdb.c],[6:2085],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#initialize_data_directory()#,[6:2085:0:3,6:2085:0:16]
+[Au5em],[fputs@ERR33-C@CERT@initdb.c:2135@initdb.c:2135],[initdb.c],[6:2135],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#initialize_data_directory()#,[6:2135:0:3,6:2135:0:16]
+[Au5em],[fputs@ERR33-C@CERT@initdb.c:2196@initdb.c:2196],[initdb.c],[6:2196],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#initialize_data_directory()#,[6:2196:0:3,6:2196:0:16]
+[Au5em],[fputs@ERR33-C@CERT@initdb.c:2179@initdb.c:2179],[initdb.c],[6:2179],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#initialize_data_directory()#,[6:2179:0:3,6:2179:0:16]
+[Au5em],[fputs@ERR33-C@CERT@initdb.c:1699@initdb.c:1699],[initdb.c],[6:1699],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#initialize_data_directory()#,[6:1699:0:3,6:1699:0:16]
+[Au5em],[fputs@ERR33-C@CERT@initdb.c:1543@initdb.c:1543],[initdb.c],[6:1543],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#initialize_data_directory()#,[6:1543:0:3,6:1543:0:16]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:569],[initdb.c],[6:569],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#initialize_data_directory()#,[6:569:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:3106],[initdb.c],[6:3106],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#initialize_data_directory()#,[6:3106:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initdb.c:2108],[initdb.c],[6:2108],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#vacuumfreeze()#,[6:2108:0:3]
+[Au5em],[fputs@ERR33-C@CERT@initdb.c:2110],[initdb.c],[6:2110],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#vacuumfreeze()#,[6:2110:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initdb.c:2113],[initdb.c],[6:2113],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#vacuumfreeze()#,[6:2113:0:3]
+[Au5em],[fputs@ERR33-C@CERT@initdb.c:2120@initdb.c:2120],[initdb.c],[6:2120],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#vacuumfreeze()#,[6:2120:0:3,6:2120:0:16]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:569],[initdb.c],[6:569],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#vacuumfreeze()#,[6:569:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:3474],[initdb.c],[6:3474],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[6:3474:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:3475],[initdb.c],[6:3475],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[6:3475:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:3557],[initdb.c],[6:3557],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[6:3557:0:3]
+[Au5em],[fputs@ERR33-C@CERT@initdb.c:3542],[initdb.c],[6:3542],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#main()#,[6:3542:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:3509],[initdb.c],[6:3509],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[6:3509:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:649],[initdb.c],[6:649],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[6:649:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:2594],[initdb.c],[6:2594],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[6:2594:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:3482],[initdb.c],[6:3482],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[6:3482:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:3483],[initdb.c],[6:3483],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[6:3483:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:3467],[initdb.c],[6:3467],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[6:3467:0:3]
+[Au5em],[fputs@ERR33-C@CERT@initdb.c:3458],[initdb.c],[6:3458],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#main()#,[6:3458:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:3453],[initdb.c],[6:3453],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[6:3453:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:2594],[initdb.c],[6:2594],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[6:2594:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:3438],[initdb.c],[6:3438],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[6:3438:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:3440],[initdb.c],[6:3440],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[6:3440:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initdb.c:3419],[initdb.c],[6:3419],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[6:3419:0:3]

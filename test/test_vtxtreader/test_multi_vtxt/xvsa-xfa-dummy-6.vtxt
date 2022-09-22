@@ -1,0 +1,65 @@
+{"V", A, 0.7}
+[
+  {
+  "fid": 1,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/PersistFilter.java"
+  },
+  {
+  "fid": 2,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/PersistModule.java"
+  },
+  {
+  "fid": 3,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/PersistService.java"
+  },
+  {
+  "fid": 4,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/Transactional.java"
+  },
+  {
+  "fid": 5,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/UnitOfWork.java"
+  },
+  {
+  "fid": 6,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/DynamicFinder.java"
+  },
+  {
+  "fid": 7,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/Finder.java"
+  },
+  {
+  "fid": 8,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/FirstResult.java"
+  },
+  {
+  "fid": 9,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/MaxResults.java"
+  },
+  {
+  "fid": 10,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/Jpa.java"
+  },
+  {
+  "fid": 11,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/JpaFinderProxy.java"
+  },
+  {
+  "fid": 12,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/JpaLocalTxnInterceptor.java"
+  },
+  {
+  "fid": 13,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/JpaPersistModule.java"
+  },
+  {
+  "fid": 14,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/JpaPersistService.java"
+  }
+]
+[A10],[e@ERR08-J@CERT@JpaLocalTxnInterceptor.java:66],[JpaLocalTxnInterceptor.java],[12:66],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR08-J],[e],#com.google.inject.persist.jpa.JpaLocalTxnInterceptor.invoke(org.aopalliance.intercept.MethodInvocation)#,[12:66:0:3]
+[A10],[annotations@NPD@JpaFinderProxy.java:184],[JpaFinderProxy.java],[11:179],[Vul],[D],[NPD],[1,0,0],[annotations],#com.google.inject.persist.jpa.JpaFinderProxy.getFinderDescriptor(org.aopalliance.intercept.MethodInvocation)#,[11:184:0:8,11:179:0:23,11:179:0:25,11:182:0:24,11:182:0:25,11:176:0:24,11:177:0:25,11:177:0:1,11:179:0:3]
+[A10],[annotation@NPD@JpaFinderProxy.java:184],[JpaFinderProxy.java],[11:179],[Vul],[D],[NPD],[1,0,0],[annotation],#com.google.inject.persist.jpa.JpaFinderProxy.getFinderDescriptor(org.aopalliance.intercept.MethodInvocation)#,[11:184:0:8,11:179:0:23,11:179:0:25,11:182:0:24,11:182:0:25,11:176:0:24,11:177:0:25,11:177:0:1,11:176:0:24,11:177:0:25,11:179:0:23,11:179:0:25,11:179:0:3]
+[A10],[annotation@NPD@JpaFinderProxy.java:184],[JpaFinderProxy.java],[11:181],[Vul],[D],[NPD],[1,0,0],[annotation],#com.google.inject.persist.jpa.JpaFinderProxy.getFinderDescriptor(org.aopalliance.intercept.MethodInvocation)#,[11:184:0:8,11:179:0:23,11:179:0:25,11:182:0:24,11:182:0:25,11:176:0:24,11:177:0:25,11:179:0:1,11:176:0:24,11:177:0:25,11:179:0:23,11:179:0:25,11:181:0:3]
+[A10],[this.query@IDS00-J@CERT@JpaFinderProxy.java:271@JpaPersistModule.java:133],[JpaFinderProxy.java],[11:271],[Vul],[M],[RBC],[1,0,0],[CERT],[IDS00-J],[this.query],#com.google.inject.persist.jpa.JpaFinderProxy$FinderDescriptor.createQuery(javax.persistence.EntityManager)#,[13:133:0:1,13:133:0:2,11:55:0:6,11:59:0:2,11:150:0:6,11:152:0:1,11:153:0:23,11:154:0:25,11:154:0:1,11:59:0:5,11:64:0:2,11:270:0:6,11:271:0:24,11:271:0:26,11:271:0:1,11:271:0:3]
+[A10],[this.name@IDS00-J@CERT@JpaFinderProxy.java:271@JpaPersistModule.java:133],[JpaFinderProxy.java],[11:271],[Vul],[M],[RBC],[1,0,0],[CERT],[IDS00-J],[this.name],#com.google.inject.persist.jpa.JpaFinderProxy$FinderDescriptor.createQuery(javax.persistence.EntityManager)#,[13:133:0:1,13:133:0:2,11:55:0:6,11:59:0:2,11:150:0:6,11:152:0:1,11:153:0:23,11:154:0:25,11:154:0:1,11:59:0:5,11:64:0:2,11:270:0:6,11:271:0:23,11:271:0:25,11:271:0:1,11:271:0:3]

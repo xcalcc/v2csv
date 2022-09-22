@@ -1,0 +1,154 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/usr/include/openssl/safestack.h"
+  },
+  {
+  "fid": 5,
+  "path": "/usr/include/openssl/stack.h"
+  },
+  {
+  "fid": 6,
+  "path": "/usr/include/openssl/crypto.h"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/openssl/bio.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/openssl/asn1.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/openssl/x509.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/openssl/lhash.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/openssl/x509_vfy.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/openssl/pkcs7.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/openssl/ct.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/openssl/ssl.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/openssl/err.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/fe-auth-scram.c"
+  },
+  {
+  "fid": 17,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/../../../src/include/common/saslprep.h"
+  },
+  {
+  "fid": 19,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 20,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/pqexpbuffer.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/../../../src/include/common/base64.h"
+  },
+  {
+  "fid": 22,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/../../../src/include/common/scram-common.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/../../../src/include/port.h"
+  },
+  {
+  "fid": 25,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 26,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 27,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 28,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 29,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 30,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/../../../src/include/libpq/pqcomm.h"
+  },
+  {
+  "fid": 31,
+  "path": "/usr/include/openssl/ec.h"
+  },
+  {
+  "fid": 32,
+  "path": "/usr/include/openssl/rsa.h"
+  },
+  {
+  "fid": 33,
+  "path": "/usr/include/openssl/dh.h"
+  },
+  {
+  "fid": 34,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/libpq-int.h"
+  }
+]
+[Au5em],[prep_password@MSF@fe-auth-scram.c:106],[fe-auth-scram.c],[16:116],[Vul],[D],[MSF],[1,0,0],[prep_password],#pg_fe_scram_init()#,[16:106:0:9,16:115:0:12,16:116:0:3]
+[Au5em],[state@UDR@fe-auth-scram.c:123],[fe-auth-scram.c],[16:149],[Vul],[M],[UDR],[1,0,0],[state],#pg_fe_scram_free()#,[16:124:0:1,16:149:0:3]
+[Au5em],[state->server_final_message@UDR@fe-auth-scram.c:123],[fe-auth-scram.c],[16:147],[Vul],[M],[UDR],[1,0,0],[state->server_final_message],#pg_fe_scram_free()#,[16:147:0:3]
+[Au5em],[state->nonce@UDR@fe-auth-scram.c:123],[fe-auth-scram.c],[16:143],[Vul],[M],[UDR],[1,0,0],[state->nonce],#pg_fe_scram_free()#,[16:143:0:3]
+[Au5em],[state->salt@UDR@fe-auth-scram.c:123],[fe-auth-scram.c],[16:141],[Vul],[M],[UDR],[1,0,0],[state->salt],#pg_fe_scram_free()#,[16:141:0:3]
+[Au5em],[state->server_first_message@UDR@fe-auth-scram.c:123],[fe-auth-scram.c],[16:139],[Vul],[M],[UDR],[1,0,0],[state->server_first_message],#pg_fe_scram_free()#,[16:139:0:3]
+[Au5em],[state->client_final_message_without_proof@UDR@fe-auth-scram.c:123],[fe-auth-scram.c],[16:135],[Vul],[M],[UDR],[1,0,0],[state->client_final_message_without_proof],#pg_fe_scram_free()#,[16:135:0:3]
+[Au5em],[state->client_first_message_bare@UDR@fe-auth-scram.c:123],[fe-auth-scram.c],[16:133],[Vul],[M],[UDR],[1,0,0],[state->client_first_message_bare],#pg_fe_scram_free()#,[16:133:0:3]
+[Au5em],[state->client_nonce@UDR@fe-auth-scram.c:123],[fe-auth-scram.c],[16:131],[Vul],[M],[UDR],[1,0,0],[state->client_nonce],#pg_fe_scram_free()#,[16:131:0:3]
+[Au5em],[state->password@UDR@fe-auth-scram.c:123],[fe-auth-scram.c],[16:127],[Vul],[M],[UDR],[1,0,0],[state->password],#pg_fe_scram_free()#,[16:127:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@fe-auth-scram.c:339],[fe-auth-scram.c],[16:339],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#build_client_first_message()#,[16:339:0:3]
+[Au5em],[nonce@STR38-C@CERT@fe-auth-scram.c:433@fe-auth-scram.c:425],[fe-auth-scram.c],[16:433],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[nonce],#read_server_first_message()#,[16:425:0:1,16:433:0:3]
+[Au5em],[encoded_salt@STR38-C@CERT@fe-auth-scram.c:455@fe-auth-scram.c:449],[fe-auth-scram.c],[16:455],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[encoded_salt],#read_server_first_message()#,[16:449:0:1,16:455:0:3]
+[Au5em],[encoded_salt@STR38-C@CERT@fe-auth-scram.c:462@fe-auth-scram.c:449],[fe-auth-scram.c],[16:462],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[encoded_salt],#read_server_first_message()#,[16:449:0:1,16:462:0:3]
+[Au5em],[encoded_server_signature@STR38-C@CERT@fe-auth-scram.c:528@fe-auth-scram.c:517],[fe-auth-scram.c],[16:528],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[encoded_server_signature],#read_server_final_message()#,[16:517:0:1,16:528:0:3]
+[Au5em],[output@STR38-C@CERT@fe-auth-scram.c:195@fe-auth-scram.c:191],[fe-auth-scram.c],[16:195],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[output],#pg_fe_scram_exchange()#,[16:191:0:1,16:195:0:3]
+[Au5em],[output@STR38-C@CERT@fe-auth-scram.c:209@fe-auth-scram.c:205],[fe-auth-scram.c],[16:209],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[output],#pg_fe_scram_exchange()#,[16:205:0:1,16:209:0:3]
+[Au5em],[prep_password@UDR@fe-auth-scram.c:623],[fe-auth-scram.c],[16:652],[Vul],[M],[UDR],[1,0,0],[prep_password],#pg_fe_scram_build_verifier()#,[16:652:0:3]
+[Au5em],[prep_password@UDR@fe-auth-scram.c:623],[fe-auth-scram.c],[16:644],[Vul],[M],[UDR],[1,0,0],[prep_password],#pg_fe_scram_build_verifier()#,[16:644:0:3]

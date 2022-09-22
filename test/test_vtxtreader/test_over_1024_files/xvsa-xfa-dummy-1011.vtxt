@@ -1,0 +1,122 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/check.c"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/pg_upgrade.h"
+  },
+  {
+  "fid": 6,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/../../../src/include/mb/pg_wchar.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/../../../src/include/port.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/../../../src/include/common/fe_memutils.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/../../../src/interfaces/libpq/pqexpbuffer.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/../../../src/include/fe_utils/string_utils.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/sys/stat.h"
+  },
+  {
+  "fid": 16,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/../../../src/interfaces/libpq/libpq-fe.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/locale.h"
+  },
+  {
+  "fid": 19,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 20,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/../../../src/include/catalog/pg_authid.h"
+  },
+  {
+  "fid": 22,
+  "path": "/usr/include/bits/getopt_core.h"
+  }
+]
+[Au5em],[snprintf@ERR33-C@CERT@check.c:899],[check.c],[4:899],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#check_for_reg_data_type_usage()#,[4:899:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@check.c:952],[check.c],[4:952],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#check_for_reg_data_type_usage()#,[4:952:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@check.c:949],[check.c],[4:949],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#check_for_reg_data_type_usage()#,[4:949:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@check.c:813],[check.c],[4:813],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#check_for_isn_and_int8_passing_mismatch()#,[4:813:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@check.c:849],[check.c],[4:849],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#check_for_isn_and_int8_passing_mismatch()#,[4:849:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@check.c:846],[check.c],[4:846],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#check_for_isn_and_int8_passing_mismatch()#,[4:846:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@check.c:996],[check.c],[4:996],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#check_for_jsonb_9_4_usage()#,[4:996:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@check.c:1043],[check.c],[4:1043],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#check_for_jsonb_9_4_usage()#,[4:1043:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@check.c:1040],[check.c],[4:1040],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#check_for_jsonb_9_4_usage()#,[4:1040:0:3]
+[Au5em],[canona@STR38-C@CERT@check.c:355@check.c:1130],[check.c],[4:355],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[canona],#equivalent_locale()#,[4:1130:0:1,4:1138:0:1,4:353:0:18,4:353:0:1,4:355:0:3]
+[Au5em],[canonb@STR38-C@CERT@check.c:359@check.c:1130],[check.c],[4:359],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[canonb],#equivalent_locale()#,[4:1130:0:1,4:1138:0:1,4:357:0:18,4:357:0:1,4:359:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@check.c:455],[check.c],[4:455],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_script_for_cluster_analyze()#,[4:455:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@check.c:461],[check.c],[4:461],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_script_for_cluster_analyze()#,[4:461:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@check.c:463],[check.c],[4:463],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_script_for_cluster_analyze()#,[4:463:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@check.c:465],[check.c],[4:465],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_script_for_cluster_analyze()#,[4:465:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@check.c:467],[check.c],[4:467],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_script_for_cluster_analyze()#,[4:467:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@check.c:469],[check.c],[4:469],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_script_for_cluster_analyze()#,[4:469:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@check.c:471],[check.c],[4:471],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_script_for_cluster_analyze()#,[4:471:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@check.c:473],[check.c],[4:473],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_script_for_cluster_analyze()#,[4:473:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@check.c:475],[check.c],[4:475],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_script_for_cluster_analyze()#,[4:475:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@check.c:477],[check.c],[4:477],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_script_for_cluster_analyze()#,[4:477:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@check.c:479],[check.c],[4:479],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_script_for_cluster_analyze()#,[4:479:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@check.c:481],[check.c],[4:481],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_script_for_cluster_analyze()#,[4:481:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@check.c:483],[check.c],[4:483],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_script_for_cluster_analyze()#,[4:483:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@check.c:488],[check.c],[4:488],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_script_for_cluster_analyze()#,[4:488:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@check.c:490],[check.c],[4:490],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_script_for_cluster_analyze()#,[4:490:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@check.c:497],[check.c],[4:497],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_script_for_cluster_analyze()#,[4:497:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@check.c:498],[check.c],[4:498],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_script_for_cluster_analyze()#,[4:498:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@check.c:494],[check.c],[4:494],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_script_for_cluster_analyze()#,[4:494:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@check.c:583],[check.c],[4:583],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_script_for_old_cluster_deletion()#,[4:583:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@check.c:587],[check.c],[4:587],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_script_for_old_cluster_deletion()#,[4:587:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@check.c:623],[check.c],[4:623],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_script_for_old_cluster_deletion()#,[4:623:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@check.c:602],[check.c],[4:602],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_script_for_old_cluster_deletion()#,[4:602:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@check.c:610],[check.c],[4:610],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_script_for_old_cluster_deletion()#,[4:610:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@check.c:605],[check.c],[4:605],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#create_script_for_old_cluster_deletion()#,[4:605:0:3]

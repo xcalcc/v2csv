@@ -1,0 +1,64 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/contrib/pgcrypto/fortuna.c"
+  },
+  {
+  "fid": 7,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/contrib/pgcrypto/rijndael.h"
+  },
+  {
+  "fid": 8,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/contrib/pgcrypto/sha2.h"
+  },
+  {
+  "fid": 9,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/contrib/pgcrypto/px.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/sys/time.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 15,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 16,
+  "path": "/usr/include/signal.h"
+  }
+]
+[Au5em],[tv@UIV@fortuna.c:286],[fortuna.c],[6:305],[Vul],[M],[UIV],[1,0,0],[tv],#enough_time_passed()#,[6:286:0:4,6:458:0:23,6:459:0:26,6:459:0:2,6:289:0:5,6:304:0:23,6:305:0:25,6:305:0:3]

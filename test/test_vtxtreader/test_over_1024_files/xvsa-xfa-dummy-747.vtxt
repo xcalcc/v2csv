@@ -1,0 +1,282 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initgtm/../../../src/include/postgres.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initgtm/../../../src/include/gtm/gtm_list.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initgtm/../../../src/include/port/atomics/arch-x86.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initgtm/../../../src/include/port/atomics/generic-gcc.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initgtm/../../../src/include/port/atomics/generic.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initgtm/../../../src/include/port/atomics.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initgtm/initgtm.c"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initgtm/../../../src/include/common/fe_memutils.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initgtm/../../../src/include/port.h"
+  },
+  {
+  "fid": 17,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/pwd.h"
+  },
+  {
+  "fid": 19,
+  "path": "/usr/include/sys/stat.h"
+  },
+  {
+  "fid": 20,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 21,
+  "path": "/usr/include/bits/getopt_ext.h"
+  },
+  {
+  "fid": 22,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 23,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 24,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 25,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 26,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initgtm/../../../src/include/libpq/pqsignal.h"
+  },
+  {
+  "fid": 27,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initgtm/../../../src/include/mb/pg_wchar.h"
+  },
+  {
+  "fid": 28,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initgtm/../../../src/include/pgtime.h"
+  },
+  {
+  "fid": 29,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initgtm/../../../src/include/miscadmin.h"
+  },
+  {
+  "fid": 30,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initgtm/../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 31,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initgtm/../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 32,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initgtm/../../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 33,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initgtm/../../../src/include/gtm/gtm_txn.h"
+  },
+  {
+  "fid": 34,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initgtm/../../../src/include/gtm/gtm_stat.h"
+  },
+  {
+  "fid": 35,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initgtm/../../../src/include/utils/pg_crc.h"
+  },
+  {
+  "fid": 36,
+  "path": "/home/xc5/cprojects/tbase/src/bin/initgtm/../../../src/include/gtm/gtm.h"
+  }
+]
+[Au5em],[path@FIO42-C@CERT@initgtm.c:119@initgtm.c:225],[initgtm.c],[10:119],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[path],#readfile()#,[10:225:0:65,10:225:0:66,10:225:0:17,10:247:0:17,10:249:0:17,10:259:0:17,10:260:0:2,10:119:0:17,10:119:0:70]
+[Au5em],[path@FIO42-C@CERT@initgtm.c:119@initgtm.c:225],[initgtm.c],[10:119],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[path],#readfile()#,[10:225:0:65,10:225:0:66,10:225:0:17,10:247:0:17,10:250:0:17,10:259:0:17,10:260:0:2,10:119:0:17,10:119:0:70]
+[Au5em],[path@FIO42-C@CERT@initgtm.c:119@initgtm.c:225],[initgtm.c],[10:119],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[path],#readfile()#,[10:225:0:65,10:225:0:66,10:225:0:17,10:247:0:17,10:248:0:17,10:249:0:17,10:259:0:17,10:260:0:2,10:119:0:17,10:119:0:70]
+[Au5em],[path@FIO42-C@CERT@initgtm.c:119@initgtm.c:225],[initgtm.c],[10:119],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[path],#readfile()#,[10:225:0:65,10:225:0:66,10:225:0:17,10:247:0:17,10:248:0:17,10:250:0:17,10:259:0:17,10:260:0:2,10:119:0:17,10:119:0:70]
+[Au5em],[path@FIO42-C@CERT@initgtm.c:119@initgtm.c:225],[initgtm.c],[10:119],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[path],#readfile()#,[10:225:0:65,10:225:0:66,10:225:0:17,10:234:0:17,10:237:0:17,10:234:0:17,10:247:0:17,10:249:0:17,10:259:0:17,10:260:0:2,10:119:0:17,10:119:0:70]
+[Au5em],[path@FIO42-C@CERT@initgtm.c:119@initgtm.c:225],[initgtm.c],[10:119],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[path],#readfile()#,[10:225:0:65,10:225:0:66,10:225:0:17,10:234:0:17,10:237:0:17,10:234:0:17,10:247:0:17,10:250:0:17,10:259:0:17,10:260:0:2,10:119:0:17,10:119:0:70]
+[Au5em],[path@FIO42-C@CERT@initgtm.c:119@initgtm.c:225],[initgtm.c],[10:119],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[path],#readfile()#,[10:225:0:65,10:225:0:66,10:225:0:17,10:234:0:17,10:237:0:17,10:234:0:17,10:248:0:17,10:249:0:17,10:259:0:17,10:260:0:2,10:119:0:17,10:119:0:70]
+[Au5em],[path@FIO42-C@CERT@initgtm.c:119@initgtm.c:225],[initgtm.c],[10:119],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[path],#readfile()#,[10:225:0:65,10:225:0:66,10:225:0:17,10:234:0:17,10:237:0:17,10:234:0:17,10:248:0:17,10:250:0:17,10:259:0:17,10:260:0:2,10:119:0:17,10:119:0:70]
+[Au5em],[path@FIO42-C@CERT@initgtm.c:119@initgtm.c:225],[initgtm.c],[10:119],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[path],#readfile()#,[10:225:0:65,10:225:0:66,10:225:0:17,10:234:0:17,10:240:0:17,10:234:0:17,10:247:0:17,10:249:0:17,10:259:0:17,10:260:0:2,10:119:0:17,10:119:0:70]
+[Au5em],[path@FIO42-C@CERT@initgtm.c:119@initgtm.c:225],[initgtm.c],[10:119],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[path],#readfile()#,[10:225:0:65,10:225:0:66,10:225:0:17,10:234:0:17,10:240:0:17,10:234:0:17,10:247:0:17,10:250:0:17,10:259:0:17,10:260:0:2,10:119:0:17,10:119:0:70]
+[Au5em],[path@FIO42-C@CERT@initgtm.c:119@initgtm.c:225],[initgtm.c],[10:119],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[path],#readfile()#,[10:225:0:65,10:225:0:66,10:225:0:17,10:234:0:17,10:240:0:17,10:234:0:17,10:248:0:17,10:249:0:17,10:259:0:17,10:260:0:2,10:119:0:17,10:119:0:70]
+[Au5em],[path@FIO42-C@CERT@initgtm.c:119@initgtm.c:225],[initgtm.c],[10:119],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[path],#readfile()#,[10:225:0:65,10:225:0:66,10:225:0:17,10:234:0:17,10:240:0:17,10:234:0:17,10:248:0:17,10:250:0:17,10:259:0:17,10:260:0:2,10:119:0:17,10:119:0:70]
+[Au5em],[path@FIO42-C@CERT@initgtm.c:119@initgtm.c:225],[initgtm.c],[10:119],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[path],#readfile()#,[10:225:0:65,10:225:0:66,10:225:0:17,10:234:0:17,10:240:0:17,10:241:0:17,10:234:0:17,10:247:0:17,10:249:0:17,10:259:0:17,10:260:0:2,10:119:0:17,10:119:0:70]
+[Au5em],[path@FIO42-C@CERT@initgtm.c:119@initgtm.c:225],[initgtm.c],[10:119],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[path],#readfile()#,[10:225:0:65,10:225:0:66,10:225:0:17,10:234:0:17,10:240:0:17,10:241:0:17,10:234:0:17,10:247:0:17,10:250:0:17,10:259:0:17,10:260:0:2,10:119:0:17,10:119:0:70]
+[Au5em],[path@FIO42-C@CERT@initgtm.c:119@initgtm.c:225],[initgtm.c],[10:119],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[path],#readfile()#,[10:225:0:65,10:225:0:66,10:225:0:17,10:234:0:17,10:240:0:17,10:241:0:17,10:234:0:17,10:248:0:17,10:249:0:17,10:259:0:17,10:260:0:2,10:119:0:17,10:119:0:70]
+[Au5em],[path@FIO42-C@CERT@initgtm.c:119@initgtm.c:225],[initgtm.c],[10:119],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[path],#readfile()#,[10:225:0:65,10:225:0:66,10:225:0:17,10:234:0:17,10:240:0:17,10:241:0:17,10:234:0:17,10:248:0:17,10:250:0:17,10:259:0:17,10:260:0:2,10:119:0:17,10:119:0:70]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:118],[initgtm.c],[10:118],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#get_id()#,[10:118:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:371],[initgtm.c],[10:371],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#get_id()#,[10:371:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:359],[initgtm.c],[10:359],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#get_id()#,[10:359:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:466],[initgtm.c],[10:466],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#check_input()#,[10:466:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:468],[initgtm.c],[10:468],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#check_input()#,[10:468:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:455],[initgtm.c],[10:455],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#check_input()#,[10:455:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:458],[initgtm.c],[10:458],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#check_input()#,[10:458:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:447],[initgtm.c],[10:447],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#check_input()#,[10:447:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:449],[initgtm.c],[10:449],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#check_input()#,[10:449:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:337],[initgtm.c],[10:337],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#exit_nicely()#,[10:337:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:325],[initgtm.c],[10:325],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#exit_nicely()#,[10:325:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:329],[initgtm.c],[10:329],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#exit_nicely()#,[10:329:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:317],[initgtm.c],[10:317],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#exit_nicely()#,[10:317:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:320],[initgtm.c],[10:320],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#exit_nicely()#,[10:320:0:3]
+[Au5em],[path@AOB@initgtm.c:490@initgtm.c:486],[initgtm.c],[10:490],[Vul],[D],[AOB],[1,0,0],[path],#set_null_conf()#,[10:486:0:1,10:490:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:500],[initgtm.c],[10:500],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#set_null_conf()#,[10:500:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:494],[initgtm.c],[10:494],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#set_null_conf()#,[10:494:0:3]
+[Au5em],[path@AOB@initgtm.c:488@initgtm.c:486],[initgtm.c],[10:488],[Vul],[D],[AOB],[1,0,0],[path],#set_null_conf()#,[10:486:0:1,10:488:0:3]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:267],[Vul],[D],[MSF],[1,0,0],[result],#readfile()#,[10:115:0:9,10:260:0:18,10:266:0:12,10:267:0:3]
+[Au5em],[fgets@FIO37-C@CERT@initgtm.c:266@initgtm.c:259],[initgtm.c],[10:259],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO37-C],[fgets],#readfile()#,[10:259:0:3,10:266:0:17,10:266:0:16]
+[Au5em],[fgets@FIO37-C@CERT@initgtm.c:119@initgtm.c:259],[initgtm.c],[10:259],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO37-C],[fgets],#readfile()#,[10:259:0:3,10:259:0:17,10:260:0:2,10:119:0:17,10:119:0:16]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:118],[initgtm.c],[10:118],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#readfile()#,[10:118:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:227],[initgtm.c],[10:227],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#readfile()#,[10:227:0:3]
+[Au5em],[strncpy@STR32-C@CERT@initgtm.c:169],[initgtm.c],[10:169],[Vul],[M],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#replace_token()#,[10:169:0:3]
+[Au5em],[newline@STR38-C@CERT@initgtm.c:169@initgtm.c:165],[initgtm.c],[10:169],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[newline],#replace_token()#,[10:165:0:1,10:169:0:3]
+[Au5em],[*lines+(i*8)@STR38-C@CERT@initgtm.c:169],[initgtm.c],[10:169],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[*lines+(i*8)],#replace_token()#,[10:169:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:299],[initgtm.c],[10:299],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#writefile()#,[10:299:0:3]
+[Au5em],[fputs@ERR33-C@CERT@initgtm.c:289@initgtm.c:289],[initgtm.c],[10:289],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#writefile()#,[10:289:0:3,10:289:0:16]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:291],[initgtm.c],[10:291],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#writefile()#,[10:291:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:283],[initgtm.c],[10:283],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#writefile()#,[10:283:0:3]
+[Au5em],[fputs@ERR33-C@CERT@initgtm.c:518],[initgtm.c],[10:518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#setup_config()#,[10:518:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initgtm.c:526],[initgtm.c],[10:526],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#setup_config()#,[10:526:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initgtm.c:529],[initgtm.c],[10:529],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#setup_config()#,[10:529:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initgtm.c:537],[initgtm.c],[10:537],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#setup_config()#,[10:537:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initgtm.c:540],[initgtm.c],[10:540],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#setup_config()#,[10:540:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initgtm.c:543],[initgtm.c],[10:543],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#setup_config()#,[10:543:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@initgtm.c:533],[initgtm.c],[10:533],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#setup_config()#,[10:533:0:3]
+[Au5em],[fputs@ERR33-C@CERT@initgtm.c:584],[initgtm.c],[10:584],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#setup_xlog()#,[10:584:0:3]
+[Au5em],[path@AOB@initgtm.c:411@initgtm.c:407],[initgtm.c],[10:411],[Vul],[D],[AOB],[1,0,0],[path],#mkdatadir()#,[10:407:0:1,10:411:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:418],[initgtm.c],[10:418],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#setup_xlog()#,[10:418:0:3]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:1010],[Vul],[M],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:852:0:18,10:852:0:10,10:1010:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:1010],[Vul],[D],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:866:0:18,10:1010:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:1010],[Vul],[D],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:868:0:18,10:1010:0:12]
+[Au5em],[effective_user@MSF@initgtm.c:1015],[initgtm.c],[10:1033],[Vul],[D],[MSF],[1,0,0],[effective_user],#main()#,[10:1015:0:9,10:1033:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:1033],[Vul],[M],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:852:0:18,10:852:0:10,10:1033:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:1033],[Vul],[D],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:866:0:18,10:1033:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:1033],[Vul],[D],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:868:0:18,10:1033:0:12]
+[Au5em],[effective_user@MSF@initgtm.c:1015],[initgtm.c],[10:633],[Vul],[D],[MSF],[1,0,0],[effective_user],#main()#,[10:1015:0:9,10:1081:0:2,10:633:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:633],[Vul],[M],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:852:0:18,10:852:0:10,10:1081:0:2,10:633:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:633],[Vul],[D],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:866:0:18,10:1081:0:2,10:633:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:633],[Vul],[D],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:868:0:18,10:1081:0:2,10:633:0:12]
+[Au5em],[effective_user@MSF@initgtm.c:1015],[initgtm.c],[10:1079],[Vul],[D],[MSF],[1,0,0],[effective_user],#main()#,[10:1015:0:9,10:1079:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:1079],[Vul],[M],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:852:0:18,10:852:0:10,10:1079:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:1079],[Vul],[D],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:866:0:18,10:1079:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:1079],[Vul],[D],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:868:0:18,10:1079:0:12]
+[Au5em],[effective_user@MSF@initgtm.c:1015],[initgtm.c],[10:1166],[Vul],[D],[MSF],[1,0,0],[effective_user],#main()#,[10:1015:0:9,10:1166:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:1166],[Vul],[M],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:852:0:18,10:852:0:10,10:1166:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:1166],[Vul],[D],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:866:0:18,10:1166:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:1166],[Vul],[D],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:868:0:18,10:1166:0:12]
+[Au5em],[effective_user@MSF@initgtm.c:1015],[initgtm.c],[10:633],[Vul],[D],[MSF],[1,0,0],[effective_user],#main()#,[10:1015:0:9,10:1099:0:2,10:633:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:633],[Vul],[M],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:852:0:18,10:852:0:10,10:1099:0:2,10:633:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:633],[Vul],[D],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:866:0:18,10:1099:0:2,10:633:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:633],[Vul],[D],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:868:0:18,10:1099:0:2,10:633:0:12]
+[Au5em],[effective_user@MSF@initgtm.c:1015],[initgtm.c],[10:1096],[Vul],[D],[MSF],[1,0,0],[effective_user],#main()#,[10:1015:0:9,10:1096:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:1096],[Vul],[M],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:852:0:18,10:852:0:10,10:1096:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:1096],[Vul],[D],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:866:0:18,10:1096:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:1096],[Vul],[D],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:868:0:18,10:1096:0:12]
+[Au5em],[effective_user@MSF@initgtm.c:1015],[initgtm.c],[10:1114],[Vul],[D],[MSF],[1,0,0],[effective_user],#main()#,[10:1015:0:9,10:1114:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:1114],[Vul],[M],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:852:0:18,10:852:0:10,10:1114:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:1114],[Vul],[D],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:866:0:18,10:1114:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:1114],[Vul],[D],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:868:0:18,10:1114:0:12]
+[Au5em],[effective_user@MSF@initgtm.c:1015],[initgtm.c],[10:1120],[Vul],[D],[MSF],[1,0,0],[effective_user],#main()#,[10:1015:0:9,10:1120:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:1120],[Vul],[M],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:852:0:18,10:852:0:10,10:1120:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:1120],[Vul],[D],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:866:0:18,10:1120:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:1120],[Vul],[D],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:868:0:18,10:1120:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:994],[Vul],[M],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:852:0:18,10:852:0:10,10:994:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:994],[Vul],[D],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:866:0:18,10:994:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:994],[Vul],[D],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:868:0:18,10:994:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:922],[Vul],[M],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:852:0:18,10:852:0:10,10:922:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:911],[Vul],[M],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:852:0:18,10:852:0:10,10:911:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:911],[Vul],[D],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:866:0:18,10:911:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:911],[Vul],[D],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:868:0:18,10:911:0:12]
+[Au5em],[pg_data@MSF@initgtm.c:115],[initgtm.c],[10:899],[Vul],[M],[MSF],[1,0,0],[pg_data],#main()#,[10:115:0:9,10:889:0:18,10:889:0:10,10:899:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:899],[Vul],[M],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:852:0:18,10:852:0:10,10:899:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:899],[Vul],[D],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:866:0:18,10:899:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:899],[Vul],[D],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:868:0:18,10:899:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:119],[Vul],[M],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:852:0:18,10:852:0:10,10:889:0:2,10:119:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:119],[Vul],[D],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:866:0:18,10:889:0:2,10:119:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:119],[Vul],[D],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:868:0:18,10:889:0:2,10:119:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:119],[Vul],[D],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:866:0:18,10:852:0:2,10:119:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:119],[Vul],[D],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:868:0:18,10:852:0:2,10:119:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:874],[Vul],[M],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:852:0:18,10:852:0:10,10:874:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:874],[Vul],[D],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:866:0:18,10:874:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:874],[Vul],[D],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:868:0:18,10:874:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:119],[Vul],[M],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:852:0:18,10:852:0:10,10:868:0:2,10:119:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:119],[Vul],[D],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:866:0:18,10:868:0:2,10:119:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:119],[Vul],[M],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:852:0:18,10:852:0:10,10:866:0:2,10:119:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:119],[Vul],[D],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:868:0:18,10:866:0:2,10:119:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:882],[Vul],[M],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:852:0:18,10:852:0:10,10:882:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:882],[Vul],[D],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:866:0:18,10:882:0:12]
+[Au5em],[result@MSF@initgtm.c:115],[initgtm.c],[10:882],[Vul],[D],[MSF],[1,0,0],[result],#main()#,[10:115:0:9,10:868:0:18,10:882:0:12]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:1009],[initgtm.c],[10:1009],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[10:1009:0:3]
+[Au5em],[dest@AOB@initgtm.c:432@initgtm.c:431],[initgtm.c],[10:432],[Vul],[D],[AOB],[1,0,0],[dest],#set_input()#,[10:431:0:1,10:432:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:1025],[initgtm.c],[10:1025],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[10:1025:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:418],[initgtm.c],[10:418],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[10:418:0:3]
+[Au5em],[.preg_U8@STR31-C@CERT@initgtm.c:1142@initgtm.c:806],[initgtm.c],[10:1142],[Vul],[D],[RBC],[1,0,0],[CERT],[STR31-C],[.preg_U8],#main()#,[10:806:0:4,10:1078:0:2,10:413:0:15,10:1078:0:18,10:1078:0:24,10:1081:0:26,10:1142:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:1094],[initgtm.c],[10:1094],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[10:1094:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:1106],[initgtm.c],[10:1106],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[10:1106:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:1109],[initgtm.c],[10:1109],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[10:1109:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:1118],[initgtm.c],[10:1118],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[10:1118:0:3]
+[Au5em],[dest@AOB@initgtm.c:432@initgtm.c:431],[initgtm.c],[10:432],[Vul],[D],[AOB],[1,0,0],[dest],#set_input()#,[10:431:0:1,10:432:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:989],[initgtm.c],[10:989],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[10:989:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:982],[initgtm.c],[10:982],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[10:982:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:916],[initgtm.c],[10:916],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[10:916:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:905],[initgtm.c],[10:905],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[10:905:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:895],[initgtm.c],[10:895],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[10:895:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:897],[initgtm.c],[10:897],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[10:897:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:118],[initgtm.c],[10:118],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[10:118:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:118],[initgtm.c],[10:118],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[10:118:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:872],[initgtm.c],[10:872],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[10:872:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:118],[initgtm.c],[10:118],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[10:118:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:118],[initgtm.c],[10:118],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[10:118:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@initgtm.c:880],[initgtm.c],[10:880],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[10:880:0:3]

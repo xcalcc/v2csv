@@ -1,0 +1,77 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/bin/scripts/dropdb.c"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/bin/scripts/../../../src/include/port.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/bin/scripts/common.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/bin/scripts/../../../src/include/common/fe_memutils.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/bits/getopt_ext.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/bin/scripts/../../../src/interfaces/libpq/pqexpbuffer.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/bin/scripts/../../../src/include/fe_utils/string_utils.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/bin/scripts/../../../src/interfaces/libpq/libpq-fe.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 16,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 17,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/unistd.h"
+  }
+]
+[Au5em],[fprintf@ERR33-C@CERT@dropdb.c:102],[dropdb.c],[4:102],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:102:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@dropdb.c:103],[dropdb.c],[4:103],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:103:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@dropdb.c:139],[dropdb.c],[4:139],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:139:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@dropdb.c:109],[dropdb.c],[4:109],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:109:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@dropdb.c:111],[dropdb.c],[4:111],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:111:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@dropdb.c:94],[dropdb.c],[4:94],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:94:0:3]

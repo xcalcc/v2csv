@@ -1,0 +1,63 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/regex/../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/regex/../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/regex/regexport.c"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/regex/../../../src/include/miscadmin.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/regex/../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/regex/../../../src/include/mb/pg_wchar.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/regex/../../../src/include/pgtime.h"
+  }
+]
+[Au5em],[arcs+(ndx*8)@NPD@regexport.c:96],[regexport.c],[6:115],[Vul],[D],[NPD],[1,0,0],[arcs+(ndx*8)],#traverse_lacons()#,[6:125:0:2,6:145:0:18,6:96:0:4,6:96:0:1,6:106:0:23,6:106:0:25,6:108:0:23,6:111:0:25,6:113:0:23,6:115:0:25,6:115:0:3]
+[Au5em],[arcs+(ndx*8)@NPD@regexport.c:96],[regexport.c],[6:116],[Vul],[D],[NPD],[1,0,0],[arcs+(ndx*8)],#traverse_lacons()#,[6:125:0:2,6:145:0:18,6:96:0:4,6:96:0:1,6:106:0:23,6:106:0:25,6:108:0:23,6:111:0:25,6:113:0:23,6:115:0:25,6:116:0:3]
+[Au5em],[arcs_count*8@NPD@regexport.c:115],[regexport.c],[6:115],[Vul],[M],[NPD],[1,0,0],[arcs_count*8],#traverse_lacons()#,[6:115:0:3]
+[Au5em],[arcs_count*8@NPD@regexport.c:116],[regexport.c],[6:116],[Vul],[M],[NPD],[1,0,0],[arcs_count*8],#traverse_lacons()#,[6:116:0:3]

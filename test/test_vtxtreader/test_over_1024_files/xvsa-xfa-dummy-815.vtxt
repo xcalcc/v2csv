@@ -1,0 +1,78 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_basebackup/streamutil.c"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_basebackup/../../../src/interfaces/libpq/libpq-fe.h"
+  },
+  {
+  "fid": 6,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_basebackup/../../../src/include/common/fe_memutils.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_basebackup/../../../src/include/port.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_basebackup/../../../src/interfaces/libpq/pqexpbuffer.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/sys/time.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 16,
+  "path": "/usr/include/bits/getopt_core.h"
+  }
+]
+[Au5em],[keywords@DBF@streamutil.c:204@streamutil.c:203],[streamutil.c],[4:204],[Vul],[M],[DBF],[1,0,0],[keywords],#GetConnection()#,[4:108:0:5,4:172:0:24,4:172:0:26,4:188:0:23,4:188:0:26,4:190:0:24,4:190:0:26,4:203:0:10,4:204:0:3]
+[Au5em],[keywords@DBF@streamutil.c:196@streamutil.c:195],[streamutil.c],[4:196],[Vul],[M],[DBF],[1,0,0],[keywords],#GetConnection()#,[4:108:0:5,4:172:0:24,4:172:0:26,4:188:0:23,4:188:0:26,4:190:0:23,4:192:0:25,4:195:0:10,4:196:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@streamutil.c:224],[streamutil.c],[4:224],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#GetConnection()#,[4:224:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@streamutil.c:215],[streamutil.c],[4:215],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#GetConnection()#,[4:215:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@streamutil.c:192],[streamutil.c],[4:192],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#GetConnection()#,[4:192:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@streamutil.c:174],[streamutil.c],[4:174],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#GetConnection()#,[4:174:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@streamutil.c:264],[streamutil.c],[4:264],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#RunIdentifySystem()#,[4:264:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@streamutil.c:303],[streamutil.c],[4:303],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#RunIdentifySystem()#,[4:303:0:3]
+[Au5em],[sscanf@ERR33-C@CERT@streamutil.c:283@streamutil.c:283],[streamutil.c],[4:283],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[sscanf],#RunIdentifySystem()#,[4:283:0:3,4:283:0:16]
+[Au5em],[fprintf@ERR33-C@CERT@streamutil.c:285],[streamutil.c],[4:285],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#RunIdentifySystem()#,[4:285:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@streamutil.c:256],[streamutil.c],[4:256],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#RunIdentifySystem()#,[4:256:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@streamutil.c:375],[streamutil.c],[4:375],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#CreateReplicationSlot()#,[4:375:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@streamutil.c:364],[streamutil.c],[4:364],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#CreateReplicationSlot()#,[4:364:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@streamutil.c:420],[streamutil.c],[4:420],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#DropReplicationSlot()#,[4:420:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@streamutil.c:410],[streamutil.c],[4:410],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#DropReplicationSlot()#,[4:410:0:3]

@@ -1,0 +1,8 @@
+{"V", A, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/home/jun/xc5/demo_benchmark/c_testcase/basic/dbf.c"
+  }
+]
+[A10],[p@DBF@dbf.c:8@dbf.c:7],[dbf.c],[2:8],[Vul],[D],[DBF],[1,0,0],[p],#func_1()#,[2:5:0:15,2:6:0:23,2:7:0:25,2:7:0:10,2:8:0:3]

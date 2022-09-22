@@ -1,0 +1,107 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_rewind/../../../src/include/postgres.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_rewind/../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_rewind/file_ops.c"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_rewind/pg_rewind.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/fcntl.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_rewind/logging.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/sys/stat.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_rewind/../../../src/include/common/fe_memutils.h"
+  },
+  {
+  "fid": 16,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 17,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 19,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_rewind/../../../src/include/common/relpath.h"
+  },
+  {
+  "fid": 20,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_rewind/../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_rewind/../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 22,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_rewind/../../../src/include/pgxc/pgxc.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_rewind/../../../src/include/storage/backendid.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_rewind/filemap.h"
+  }
+]
+[Au5em],[dstpath@FIO42-C@CERT@file_ops.c:199@file_ops.c:193],[file_ops.c],[6:199],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[dstpath],#truncate_target_file()#,[6:193:0:74,6:194:0:66,6:194:0:17,6:199:0:17,6:199:0:70]
+[Au5em],[dstpath@FIO42-C@CERT@file_ops.c:195@file_ops.c:193],[file_ops.c],[6:195],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[dstpath],#truncate_target_file()#,[6:193:0:74,6:194:0:66,6:195:0:17,6:195:0:70]
+[Au5em],[fd@FIO42-C@CERT@file_ops.c:299@file_ops.c:286],[file_ops.c],[6:299],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[fd],#slurpFile()#,[6:286:0:73,6:286:0:66,6:286:0:17,6:290:0:66,6:290:0:17,6:298:0:67,6:298:0:66,6:299:0:17,6:299:0:70]
+[Au5em],[fd@FIO42-C@CERT@file_ops.c:291@file_ops.c:286],[file_ops.c],[6:291],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[fd],#slurpFile()#,[6:286:0:73,6:286:0:66,6:286:0:17,6:290:0:66,6:291:0:17,6:291:0:70]
+[Au5em],[snprintf@ERR33-C@CERT@file_ops.c:56],[file_ops.c],[6:56],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#open_target_file()#,[6:56:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@file_ops.c:227],[file_ops.c],[6:227],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#remove_target()#,[6:227:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@file_ops.c:176],[file_ops.c],[6:176],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#remove_target()#,[6:176:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@file_ops.c:255],[file_ops.c],[6:255],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#remove_target()#,[6:255:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@file_ops.c:213],[file_ops.c],[6:213],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#create_target()#,[6:213:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@file_ops.c:241],[file_ops.c],[6:241],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#create_target()#,[6:241:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@file_ops.c:191],[file_ops.c],[6:191],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#truncate_target_file()#,[6:191:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@file_ops.c:284],[file_ops.c],[6:284],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#slurpFile()#,[6:284:0:3]

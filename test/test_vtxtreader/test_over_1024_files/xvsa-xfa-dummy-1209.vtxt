@@ -1,0 +1,228 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/proxy/../../../src/include/gtm/gtm_list.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/proxy/../../../src/include/port/atomics/arch-x86.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/proxy/../../../src/include/port/atomics/generic-gcc.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/proxy/../../../src/include/port/atomics/generic.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/proxy/../../../src/include/port/atomics.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/proxy/proxy_main.c"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/pthread.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/proxy/../../../src/include/gtm/gtm_lock.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/proxy/../../../src/include/gtm/gtm_proxy.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/proxy/../../../src/include/gtm/memutils.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/proxy/../../../src/include/gtm/elog.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 19,
+  "path": "/usr/include/bits/sigthread.h"
+  },
+  {
+  "fid": 20,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/proxy/../../../src/include/gtm/pqsignal.h"
+  },
+  {
+  "fid": 22,
+  "path": "/usr/include/setjmp.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/proxy/../../../src/include/gtm/path.h"
+  },
+  {
+  "fid": 24,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 25,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/proxy/../../../src/include/gtm/gtm_opt.h"
+  },
+  {
+  "fid": 26,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/proxy/../../../src/include/gtm/libpq.h"
+  },
+  {
+  "fid": 27,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/proxy/../../../src/include/gtm/palloc.h"
+  },
+  {
+  "fid": 28,
+  "path": "/usr/include/sys/select.h"
+  },
+  {
+  "fid": 29,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/proxy/../../../src/include/gtm/libpq-fe.h"
+  },
+  {
+  "fid": 30,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/proxy/../../../src/include/gtm/stringinfo.h"
+  },
+  {
+  "fid": 31,
+  "path": "/usr/include/sys/poll.h"
+  },
+  {
+  "fid": 32,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/proxy/../../../src/include/gtm/libpq-int.h"
+  },
+  {
+  "fid": 33,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/proxy/../../../src/include/gtm/pqformat.h"
+  },
+  {
+  "fid": 34,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/proxy/../../../src/include/port.h"
+  },
+  {
+  "fid": 35,
+  "path": "/usr/include/sys/stat.h"
+  },
+  {
+  "fid": 36,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 37,
+  "path": "/usr/include/fcntl.h"
+  },
+  {
+  "fid": 38,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 39,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 40,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 41,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/proxy/../../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 42,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/proxy/../../../src/include/gen_alloc.h"
+  },
+  {
+  "fid": 43,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/proxy/../../../src/include/gtm/gtm_txn.h"
+  },
+  {
+  "fid": 44,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/proxy/../../../src/include/gtm/gtm_stat.h"
+  },
+  {
+  "fid": 45,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/proxy/../../../src/include/gtm/assert.h"
+  }
+]
+[Au5em],[DDC@proxy_main.c:950],[proxy_main.c],[9:950],[Vul],[D],[DDC],[1,0,0],[],#main()#,[9:950:0:3]
+[Au5em],[DDC@proxy_main.c:1665],[proxy_main.c],[9:1665],[Vul],[D],[DDC],[1,0,0],[],#ProcessCommand()#,[9:1665:0:3]
+[Au5em],[SCB@proxy_main.c:3056],[proxy_main.c],[9:3056],[Vul],[D],[SCB],[1,0,0],[],#UnregisterProxy()#,[9:3056:0:3]
+[Au5em],[SCB@proxy_main.c:3161],[proxy_main.c],[9:3161],[Vul],[D],[SCB],[1,0,0],[],#RegisterProxy()#,[9:3161:0:3]
+[Au5em],[fd@WRF@BUILTIN@proxy_main.c:2946@proxy_main.c:2844],[proxy_main.c],[9:2946],[Vul],[D],[WRF],[1,0,0],[fd],#CreateDataDirLockFile()#,[9:2844:0:73,9:2845:0:66,9:2848:0:17,9:2931:0:17,9:2829:0:66,9:2946:0:17,9:2946:0:68]
+[Au5em],[newgtm@FIO42-C@CERT@proxy_main.c:413@proxy_main.c:403],[proxy_main.c],[9:413],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[newgtm],#GTMProxy_ReadReconnectInfo()#,[9:403:0:65,9:404:0:66,9:404:0:17,9:412:0:17,9:413:0:70]
+[Au5em],[newgtm@FIO42-C@CERT@proxy_main.c:413@proxy_main.c:403],[proxy_main.c],[9:413],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[newgtm],#GTMProxy_ReadReconnectInfo()#,[9:403:0:65,9:404:0:66,9:404:0:17,9:412:0:17,9:413:0:70]
+[Au5em],[snprintf@ERR33-C@CERT@proxy_main.c:2943],[proxy_main.c],[9:2943],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#CreateDataDirLockFile()#,[9:2943:0:3]
+[Au5em],[buffer@AOB@proxy_main.c:2861],[proxy_main.c],[9:2861],[Vul],[D],[AOB],[1,0,0],[buffer],#CreateLockFile()#,[9:2861:0:3]
+[Au5em],[conn_str@AOB@proxy_main.c:3182],[proxy_main.c],[9:3182],[Vul],[M],[AOB],[1,0,0],[conn_str],#ConnectGTM()#,[9:3182:0:3]
+[Au5em],[GTMLogFile@MSF@proxy_main.c:327],[proxy_main.c],[9:339],[Vul],[M],[MSF],[1,0,0],[GTMLogFile],#BaseInit()#,[9:327:0:9,9:327:0:10,9:338:0:12,9:339:0:3]
+[Au5em],[GTMProxyDataDir@UDR@proxy_main.c:319],[proxy_main.c],[9:2762],[Vul],[M],[UDR],[1,0,0],[GTMProxyDataDir],#SetDataDir()#,[9:2762:0:3]
+[Au5em],[GTMLogFile@ERR33-C@CERT@proxy_main.c:338@proxy_main.c:327],[proxy_main.c],[9:327],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[GTMLogFile],#BaseInit()#,[9:327:0:3,9:338:0:16]
+[Au5em],[GTMLogFile@AOB@proxy_main.c:328@proxy_main.c:327],[proxy_main.c],[9:328],[Vul],[M],[AOB],[1,0,0],[GTMLogFile],#BaseInit()#,[9:327:0:1,9:328:0:3]
+[Au5em],[conn_str@AOB@proxy_main.c:3182],[proxy_main.c],[9:3182],[Vul],[M],[AOB],[1,0,0],[conn_str],#ConnectGTM()#,[9:3182:0:3]
+[Au5em],[NewGTMServerHost@MSF@proxy_main.c:443],[proxy_main.c],[9:453],[Vul],[M],[MSF],[1,0,0],[NewGTMServerHost],#GTMProxy_ReadReconnectInfo()#,[9:443:0:9,9:443:0:10,9:452:0:12,9:453:0:3]
+[Au5em],[NewGTMServerHost@MSF@proxy_main.c:443],[proxy_main.c],[9:453],[Vul],[M],[MSF],[1,0,0],[NewGTMServerHost],#GTMProxy_ReadReconnectInfo()#,[9:443:0:9,9:443:0:10,9:449:0:12,9:453:0:3]
+[Au5em],[NewGTMServerHost@MSF@proxy_main.c:443],[proxy_main.c],[9:453],[Vul],[M],[MSF],[1,0,0],[NewGTMServerHost],#GTMProxy_ReadReconnectInfo()#,[9:443:0:9,9:443:0:10,9:428:0:12,9:453:0:3]
+[Au5em],[fgets@FIO37-C@CERT@proxy_main.c:452@proxy_main.c:409],[proxy_main.c],[9:409],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO37-C],[fgets],#GTMProxy_ReadReconnectInfo()#,[9:409:0:3,9:410:0:17,9:420:0:2,9:352:0:17,9:355:0:17,9:420:0:18,9:452:0:17,9:452:0:16]
+[Au5em],[fprintf@ERR33-C@CERT@proxy_main.c:575],[proxy_main.c],[9:575],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#GTMProxy_SigleHandler()#,[9:575:0:3]
+[Au5em],[thrinfo@MSF@proxy_main.c:269],[proxy_main.c],[9:286],[Vul],[D],[MSF],[1,0,0],[thrinfo],#MainThreadInit()#,[9:269:0:9,9:286:0:12]
+[Au5em],[fprintf@ERR33-C@CERT@proxy_main.c:283],[proxy_main.c],[9:283],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#MainThreadInit()#,[9:283:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@proxy_main.c:273],[proxy_main.c],[9:273],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#MainThreadInit()#,[9:273:0:3]
+[Au5em],[thrinfo@MSF@proxy_main.c:301],[proxy_main.c],[9:813],[Vul],[D],[MSF],[1,0,0],[thrinfo],#main()#,[9:301:0:9,9:645:0:18,9:813:0:12]
+[Au5em],[ListenAddresses@MSF@proxy_main.c:659],[proxy_main.c],[9:813],[Vul],[M],[MSF],[1,0,0],[ListenAddresses],#main()#,[9:659:0:9,9:659:0:10,9:813:0:12]
+[Au5em],[data_dir@MSF@proxy_main.c:703],[proxy_main.c],[9:813],[Vul],[D],[MSF],[1,0,0],[data_dir],#main()#,[9:703:0:9,9:813:0:12]
+[Au5em],[thrinfo@MSF@proxy_main.c:301],[proxy_main.c],[9:806],[Vul],[D],[MSF],[1,0,0],[thrinfo],#main()#,[9:301:0:9,9:645:0:18,9:806:0:12]
+[Au5em],[ListenAddresses@MSF@proxy_main.c:659],[proxy_main.c],[9:806],[Vul],[M],[MSF],[1,0,0],[ListenAddresses],#main()#,[9:659:0:9,9:659:0:10,9:806:0:12]
+[Au5em],[data_dir@MSF@proxy_main.c:703],[proxy_main.c],[9:806],[Vul],[D],[MSF],[1,0,0],[data_dir],#main()#,[9:703:0:9,9:806:0:12]
+[Au5em],[thrinfo@MSF@proxy_main.c:301],[proxy_main.c],[9:744],[Vul],[D],[MSF],[1,0,0],[thrinfo],#main()#,[9:301:0:9,9:645:0:18,9:744:0:12]
+[Au5em],[ListenAddresses@MSF@proxy_main.c:659],[proxy_main.c],[9:744],[Vul],[M],[MSF],[1,0,0],[ListenAddresses],#main()#,[9:659:0:9,9:659:0:10,9:744:0:12]
+[Au5em],[data_dir@MSF@proxy_main.c:703],[proxy_main.c],[9:744],[Vul],[D],[MSF],[1,0,0],[data_dir],#main()#,[9:703:0:9,9:744:0:12]
+[Au5em],[listen_addresses@MSF@proxy_main.c:676],[proxy_main.c],[9:744],[Vul],[D],[MSF],[1,0,0],[listen_addresses],#main()#,[9:676:0:9,9:744:0:12]
+[Au5em],[node_name@MSF@proxy_main.c:683],[proxy_main.c],[9:744],[Vul],[D],[MSF],[1,0,0],[node_name],#main()#,[9:683:0:9,9:744:0:12]
+[Au5em],[log_file@MSF@proxy_main.c:711],[proxy_main.c],[9:744],[Vul],[D],[MSF],[1,0,0],[log_file],#main()#,[9:711:0:9,9:744:0:12]
+[Au5em],[proxy_worker_threads@MSF@proxy_main.c:697],[proxy_main.c],[9:744],[Vul],[D],[MSF],[1,0,0],[proxy_worker_threads],#main()#,[9:697:0:9,9:744:0:12]
+[Au5em],[proxy_port_number@MSF@proxy_main.c:690],[proxy_main.c],[9:744],[Vul],[D],[MSF],[1,0,0],[proxy_port_number],#main()#,[9:690:0:9,9:744:0:12]
+[Au5em],[gtm_host@MSF@proxy_main.c:718],[proxy_main.c],[9:744],[Vul],[D],[MSF],[1,0,0],[gtm_host],#main()#,[9:718:0:9,9:744:0:12]
+[Au5em],[gtm_port@MSF@proxy_main.c:725],[proxy_main.c],[9:744],[Vul],[D],[MSF],[1,0,0],[gtm_port],#main()#,[9:725:0:9,9:744:0:12]
+[Au5em],[thrinfo@MSF@proxy_main.c:301],[proxy_main.c],[9:655],[Vul],[D],[MSF],[1,0,0],[thrinfo],#main()#,[9:301:0:9,9:645:0:18,9:655:0:12]
+[Au5em],[fprintf@ERR33-C@CERT@proxy_main.c:311],[proxy_main.c],[9:311],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[9:311:0:3]
+[Au5em],[readmask@UIV@proxy_main.c:998],[proxy_main.c],[9:1124],[Vul],[D],[UIV],[1,0,0],[readmask],#initMasks()#,[9:998:0:4,9:1001:0:2,9:1124:0:3]
+[Au5em],[gtm_connect_string@AOB@proxy_main.c:3244],[proxy_main.c],[9:3244],[Vul],[M],[AOB],[1,0,0],[gtm_connect_string],#workerThreadReconnectToGTM()#,[9:3244:0:3]
+[Au5em],[cmdinfo+16@STR38-C@CERT@proxy_main.c:2517],[proxy_main.c],[9:2517],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[cmdinfo+16],#GTMProxy_ProcessPendingCommands()#,[9:2517:0:3]
+[Au5em],[cmdinfo+16@STR38-C@CERT@proxy_main.c:2517],[proxy_main.c],[9:2517],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[cmdinfo+16],#GTMProxy_ProcessPendingCommands()#,[9:2517:0:3]
+[Au5em],[gtm_connect_string@AOB@proxy_main.c:1741],[proxy_main.c],[9:1741],[Vul],[M],[AOB],[1,0,0],[gtm_connect_string],#HandleGTMError()#,[9:1741:0:3]
+[Au5em],[gtm_connect_string@AOB@proxy_main.c:1176],[proxy_main.c],[9:1176],[Vul],[M],[AOB],[1,0,0],[gtm_connect_string],#GTMProxy_ThreadMain()#,[9:1176:0:3]
+[Au5em],[fputs@ERR33-C@CERT@proxy_main.c:2990],[proxy_main.c],[9:2990],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#CreateOptsFile()#,[9:2990:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@proxy_main.c:2989],[proxy_main.c],[9:2989],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#CreateOptsFile()#,[9:2989:0:3]

@@ -1,0 +1,5 @@
+LINE_MATCH Trace for File:dbf.c; File_id:0 :
+------------------------------------------------------------
+{Ln_limit: 6, Ln_change: 1, Operation: +}
+------------------------------------------------------------
+/home/jun/xc5/BK/v2csv/test/test_vtxtdiff/./test_trancate_var_path/current/xvsa-xfa-dummy.mtxt does not exist

@@ -1,0 +1,241 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/storage/bufpage.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/storage/s_lock.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/port/atomics/arch-x86.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/port/atomics/generic-gcc.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/port/atomics/generic.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/port/atomics.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/utils/rel.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/prepunion.c"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/optimizer/pathnode.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/optimizer/planner.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 19,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/optimizer/cost.h"
+  },
+  {
+  "fid": 20,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/optimizer/tlist.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/utils/selfuncs.h"
+  },
+  {
+  "fid": 22,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/nodes/nodes.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/optimizer/paths.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/miscadmin.h"
+  },
+  {
+  "fid": 25,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/nodes/makefuncs.h"
+  },
+  {
+  "fid": 26,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/nodes/nodeFuncs.h"
+  },
+  {
+  "fid": 27,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/parser/parse_coerce.h"
+  },
+  {
+  "fid": 28,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/catalog/pg_inherits_fn.h"
+  },
+  {
+  "fid": 29,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/optimizer/prep.h"
+  },
+  {
+  "fid": 30,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/access/heapam.h"
+  },
+  {
+  "fid": 31,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/storage/backendid.h"
+  },
+  {
+  "fid": 32,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/nodes/bitmapset.h"
+  },
+  {
+  "fid": 33,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/utils/lsyscache.h"
+  },
+  {
+  "fid": 34,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 35,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 36,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 37,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 38,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 39,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 40,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 41,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/common/relpath.h"
+  },
+  {
+  "fid": 42,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/pgxc/pgxc.h"
+  },
+  {
+  "fid": 43,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/pgxc/shardmap.h"
+  },
+  {
+  "fid": 44,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 45,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 46,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/access/transam.h"
+  },
+  {
+  "fid": 47,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/pgtime.h"
+  },
+  {
+  "fid": 48,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/utils/timestamp.h"
+  },
+  {
+  "fid": 49,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/storage/lwlock.h"
+  },
+  {
+  "fid": 50,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/storage/lock.h"
+  },
+  {
+  "fid": 51,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/catalog/pg_class.h"
+  },
+  {
+  "fid": 52,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 53,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/tcop/dest.h"
+  },
+  {
+  "fid": 54,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/optimizer/planmain.h"
+  },
+  {
+  "fid": 55,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/storage/fd.h"
+  },
+  {
+  "fid": 56,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/access/xlog.h"
+  },
+  {
+  "fid": 57,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/utils/array.h"
+  },
+  {
+  "fid": 58,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/catalog/objectaddress.h"
+  }
+]
+[Au5em],[curColType@NPD@pg_list.h:79],[prepunion.c],[15:1276],[Vul],[M],[NPD],[1,0,0],[curColType],#generate_append_tlist()#,[6:79:0:1,6:79:0:17,6:79:0:1,15:1267:0:18,15:1267:0:1,15:1269:0:23,15:1269:0:25,15:1269:0:17,15:1276:0:3]
+[Au5em],[curColType@NPD@pg_list.h:79],[prepunion.c],[15:1291],[Vul],[M],[NPD],[1,0,0],[curColType],#generate_append_tlist()#,[6:79:0:1,6:79:0:17,6:79:0:1,15:1267:0:18,15:1267:0:1,15:1269:0:23,15:1269:0:25,15:1269:0:17,15:1291:0:3]
+[Au5em],[lg@NPD@pg_list.h:79],[prepunion.c],[15:1390],[Vul],[M],[NPD],[1,0,0],[lg],#generate_setop_grouplist()#,[6:79:0:1,6:79:0:17,6:79:0:1,15:1372:0:18,15:1372:0:1,15:1373:0:23,15:1373:0:25,15:1373:0:17,15:1390:0:3]
+[Au5em],[lg@NPD@pg_list.h:79],[prepunion.c],[15:1391],[Vul],[M],[NPD],[1,0,0],[lg],#generate_setop_grouplist()#,[6:79:0:1,6:79:0:17,6:79:0:1,15:1372:0:18,15:1372:0:1,15:1373:0:23,15:1373:0:25,15:1373:0:17,15:1391:0:3]
+[Au5em],[lg@NPD@pg_list.h:79],[prepunion.c],[15:1390],[Vul],[M],[NPD],[1,0,0],[lg],#generate_setop_grouplist()#,[6:79:0:1,6:79:0:17,6:79:0:1,15:1372:0:18,15:1372:0:1,15:1373:0:23,15:1373:0:25,15:1373:0:17,15:1390:0:3]
+[Au5em],[lg@NPD@pg_list.h:79],[prepunion.c],[15:1391],[Vul],[M],[NPD],[1,0,0],[lg],#generate_setop_grouplist()#,[6:79:0:1,6:79:0:17,6:79:0:1,15:1372:0:18,15:1372:0:1,15:1373:0:23,15:1373:0:25,15:1373:0:17,15:1391:0:3]
+[Au5em],[lg@NPD@pg_list.h:79],[prepunion.c],[15:1390],[Vul],[M],[NPD],[1,0,0],[lg],#generate_setop_grouplist()#,[6:79:0:1,6:79:0:17,6:79:0:1,15:1372:0:18,15:1372:0:1,15:1373:0:23,15:1373:0:25,15:1373:0:17,15:1390:0:3]
+[Au5em],[lg@NPD@pg_list.h:79],[prepunion.c],[15:1391],[Vul],[M],[NPD],[1,0,0],[lg],#generate_setop_grouplist()#,[6:79:0:1,6:79:0:17,6:79:0:1,15:1372:0:18,15:1372:0:1,15:1373:0:23,15:1373:0:25,15:1373:0:17,15:1391:0:3]
+[Au5em],[rl@NPD@pg_list.h:79],[prepunion.c],[15:1426],[Vul],[M],[NPD],[1,0,0],[rl],#expand_inherited_tables()#,[6:79:0:1,6:79:0:17,6:79:0:1,15:1421:0:18,15:1421:0:1,15:1422:0:23,15:1422:0:25,15:1422:0:17,15:1426:0:3]
+[Au5em],[rl@NPD@pg_list.h:79],[prepunion.c],[15:1427],[Vul],[M],[NPD],[1,0,0],[rl],#expand_inherited_tables()#,[6:79:0:1,6:79:0:17,6:79:0:1,15:1421:0:18,15:1421:0:1,15:1422:0:23,15:1422:0:25,15:1422:0:17,15:1427:0:3]

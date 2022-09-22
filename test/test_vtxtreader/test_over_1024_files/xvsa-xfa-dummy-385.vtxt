@@ -1,0 +1,95 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/contrib/pgcrypto/pgcrypto.c"
+  },
+  {
+  "fid": 8,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 9,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/contrib/pgcrypto/px.h"
+  },
+  {
+  "fid": 10,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/utils/builtins.h"
+  },
+  {
+  "fid": 11,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/contrib/pgcrypto/px-crypt.h"
+  },
+  {
+  "fid": 12,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 13,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/parser/scansup.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 16,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 17,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 19,
+  "path": "/usr/include/signal.h"
+  }
+]
+[Au5em],[res@ERR33-C@CERT@pgcrypto.c:132@pgcrypto.c:568],[pgcrypto.c],[7:568],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[res],#pg_digest()#,[7:568:0:3,7:131:0:18,7:132:0:16]
+[Au5em],[res@ERR33-C@CERT@pgcrypto.c:170@pgcrypto.c:568],[pgcrypto.c],[7:568],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[res],#pg_hmac()#,[7:568:0:3,7:169:0:18,7:170:0:16]
+[Au5em],[ptr@MSF@pgcrypto.c:568],[pgcrypto.c],[7:261],[Vul],[D],[MSF],[1,0,0],[ptr],#pg_crypt()#,[7:568:0:9,7:252:0:18,7:261:0:12]
+[Au5em],[ptr@ERR33-C@CERT@pgcrypto.c:253@pgcrypto.c:568],[pgcrypto.c],[7:568],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[ptr],#pg_crypt()#,[7:568:0:3,7:252:0:18,7:253:0:16]
+[Au5em],[ptr@ERR33-C@CERT@pgcrypto.c:308@pgcrypto.c:568],[pgcrypto.c],[7:568],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[ptr],#pg_encrypt()#,[7:568:0:3,7:300:0:18,7:303:0:17,7:308:0:16]
+[Au5em],[res@MSF@pgcrypto.c:568],[pgcrypto.c],[7:359],[Vul],[D],[MSF],[1,0,0],[res],#pg_decrypt()#,[7:568:0:9,7:349:0:18,7:359:0:12]
+[Au5em],[res@ERR33-C@CERT@pgcrypto.c:363@pgcrypto.c:568],[pgcrypto.c],[7:568],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[res],#pg_decrypt()#,[7:568:0:3,7:349:0:18,7:352:0:17,7:358:0:17,7:363:0:16]
+[Au5em],[res@MSF@pgcrypto.c:568],[pgcrypto.c],[7:412],[Vul],[D],[MSF],[1,0,0],[res],#pg_encrypt_iv()#,[7:568:0:9,7:401:0:18,7:412:0:12]
+[Au5em],[res@ERR33-C@CERT@pgcrypto.c:416@pgcrypto.c:568],[pgcrypto.c],[7:568],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[res],#pg_encrypt_iv()#,[7:568:0:3,7:401:0:18,7:405:0:17,7:411:0:17,7:416:0:16]
+[Au5em],[res@MSF@pgcrypto.c:568],[pgcrypto.c],[7:466],[Vul],[D],[MSF],[1,0,0],[res],#pg_decrypt_iv()#,[7:568:0:9,7:455:0:18,7:466:0:12]
+[Au5em],[res@ERR33-C@CERT@pgcrypto.c:470@pgcrypto.c:568],[pgcrypto.c],[7:568],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[res],#pg_decrypt_iv()#,[7:568:0:3,7:455:0:18,7:459:0:17,7:465:0:17,7:470:0:16]
+[Au5em],[res@MSF@pgcrypto.c:568],[pgcrypto.c],[7:501],[Vul],[D],[MSF],[1,0,0],[res],#pg_random_bytes()#,[7:568:0:9,7:495:0:18,7:501:0:12]
+[Au5em],[res@ERR33-C@CERT@pgcrypto.c:496@pgcrypto.c:568],[pgcrypto.c],[7:568],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[res],#pg_random_bytes()#,[7:568:0:3,7:495:0:18,7:496:0:16]
+[Au5em],[buf@MSF@pgcrypto.c:568],[pgcrypto.c],[7:520],[Vul],[D],[MSF],[1,0,0],[buf],#pg_random_uuid()#,[7:568:0:9,7:514:0:18,7:520:0:12]
+[Au5em],[buf@ERR33-C@CERT@pgcrypto.c:518@pgcrypto.c:568],[pgcrypto.c],[7:568],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[buf],#pg_random_uuid()#,[7:568:0:3,7:514:0:18,7:518:0:16]
+[Au5em],[ptr@UDR@pgcrypto.c:561],[pgcrypto.c],[7:562],[Vul],[M],[UDR],[1,0,0],[ptr],#crypt_free()#,[7:562:0:3]
+[Au5em],[malloc@MEM35-C@CERT@pgcrypto.c:568],[pgcrypto.c],[7:568],[Vul],[M],[RBC],[1,0,0],[CERT],[MEM35-C],[malloc],#crypt_alloc()#,[7:568:0:3]
+[Au5em],[malloc@ERR33-C@CERT@pgcrypto.c:568@pgcrypto.c:568],[pgcrypto.c],[7:568],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[malloc],#crypt_alloc()#,[7:568:0:3,7:568:0:16]
+[Au5em],[ptr@UDR@pgcrypto.c:572],[pgcrypto.c],[7:573],[Vul],[M],[UDR],[1,0,0],[ptr],#crypt_realloc()#,[7:573:0:3]
+[Au5em],[realloc@ERR33-C@CERT@pgcrypto.c:573@pgcrypto.c:573],[pgcrypto.c],[7:573],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[realloc],#crypt_realloc()#,[7:573:0:3,7:573:0:16]

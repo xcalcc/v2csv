@@ -1,0 +1,161 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_basebackup/../../../src/include/postgres.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_basebackup/receivelog.c"
+  },
+  {
+  "fid": 6,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_basebackup/streamutil.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_basebackup/../../../src/interfaces/libpq/libpq-fe.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/sys/select.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 16,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_basebackup/../../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_basebackup/../../../src/include/common/relpath.h"
+  },
+  {
+  "fid": 19,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_basebackup/../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 20,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_basebackup/../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_basebackup/../../../src/include/pgxc/pgxc.h"
+  },
+  {
+  "fid": 22,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_basebackup/../../../src/include/storage/backendid.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_basebackup/../../../src/include/pgtime.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_basebackup/../../../src/include/access/xlog_internal.h"
+  }
+]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:400],[receivelog.c],[5:400],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#CheckServerVersionForStreaming()#,[5:400:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:390],[receivelog.c],[5:390],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#CheckServerVersionForStreaming()#,[5:390:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:948],[receivelog.c],[5:948],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#CopyStreamPoll()#,[5:948:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:919],[receivelog.c],[5:919],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#CopyStreamPoll()#,[5:919:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:1014],[receivelog.c],[5:1014],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#CopyStreamReceive()#,[5:1014:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:999],[receivelog.c],[5:999],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#CopyStreamReceive()#,[5:999:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@receivelog.c:65],[receivelog.c],[5:65],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#close_walfile()#,[5:65:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:71],[receivelog.c],[5:71],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#close_walfile()#,[5:71:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:223],[receivelog.c],[5:223],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#close_walfile()#,[5:223:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:210],[receivelog.c],[5:210],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#close_walfile()#,[5:210:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:195],[receivelog.c],[5:195],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#close_walfile()#,[5:195:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@receivelog.c:99],[receivelog.c],[5:99],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#open_walfile()#,[5:99:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@receivelog.c:101],[receivelog.c],[5:101],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#open_walfile()#,[5:101:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:168],[receivelog.c],[5:168],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#open_walfile()#,[5:168:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:153],[receivelog.c],[5:153],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#open_walfile()#,[5:153:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:138],[receivelog.c],[5:138],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#open_walfile()#,[5:138:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:129],[receivelog.c],[5:129],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#open_walfile()#,[5:129:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:118],[receivelog.c],[5:118],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#open_walfile()#,[5:118:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:1141],[receivelog.c],[5:1141],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#ProcessXLogDataMsg()#,[5:1141:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:1202],[receivelog.c],[5:1202],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#ProcessXLogDataMsg()#,[5:1202:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:1176],[receivelog.c],[5:1176],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#ProcessXLogDataMsg()#,[5:1176:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:1130],[receivelog.c],[5:1130],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#ProcessXLogDataMsg()#,[5:1130:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:1112],[receivelog.c],[5:1112],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#ProcessXLogDataMsg()#,[5:1112:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:356],[receivelog.c],[5:356],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#sendFeedback()#,[5:356:0:3]
+[Au5em],[copybuf@NPD@receivelog.c:979],[receivelog.c],[5:1052],[Vul],[M],[NPD],[1,0,0],[copybuf],#ProcessKeepaliveMsg()#,[5:979:0:1,5:983:0:24,5:983:0:26,5:888:0:18,5:844:0:17,5:861:0:2,5:1030:0:4,5:1030:0:1,5:1043:0:24,5:1043:0:26,5:1052:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:1066],[receivelog.c],[5:1066],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#ProcessKeepaliveMsg()#,[5:1066:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:1045],[receivelog.c],[5:1045],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#ProcessKeepaliveMsg()#,[5:1045:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:1242],[receivelog.c],[5:1242],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#HandleEndOfCopyStream()#,[5:1242:0:3]
+[Au5em],[copybuf@NPD@receivelog.c:979],[receivelog.c],[5:859],[Vul],[M],[NPD],[1,0,0],[copybuf],#HandleCopyStream()#,[5:979:0:1,5:983:0:24,5:983:0:26,5:888:0:18,5:844:0:17,5:859:0:3]
+[Au5em],[copybuf@NPD@receivelog.c:979],[receivelog.c],[5:865],[Vul],[M],[NPD],[1,0,0],[copybuf],#HandleCopyStream()#,[5:979:0:1,5:983:0:24,5:983:0:26,5:888:0:18,5:844:0:17,5:865:0:3]
+[Au5em],[copybuf@NPD@receivelog.c:979],[receivelog.c],[5:879],[Vul],[M],[NPD],[1,0,0],[copybuf],#HandleCopyStream()#,[5:979:0:1,5:983:0:24,5:983:0:26,5:888:0:18,5:844:0:17,5:879:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:879],[receivelog.c],[5:879],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#HandleCopyStream()#,[5:879:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:1274],[receivelog.c],[5:1274],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#HandleCopyStream()#,[5:1274:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:809],[receivelog.c],[5:809],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#HandleCopyStream()#,[5:809:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:1274],[receivelog.c],[5:1274],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#HandleCopyStream()#,[5:1274:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:749],[receivelog.c],[5:749],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#ReadEndOfStreamingResult()#,[5:749:0:3]
+[Au5em],[sscanf@ERR33-C@CERT@receivelog.c:756@receivelog.c:756],[receivelog.c],[5:756],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[sscanf],#ReadEndOfStreamingResult()#,[5:756:0:3,5:756:0:16]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:759],[receivelog.c],[5:759],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#ReadEndOfStreamingResult()#,[5:759:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@receivelog.c:277],[receivelog.c],[5:277],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#writeTimeLineHistoryFile()#,[5:277:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@receivelog.c:65],[receivelog.c],[5:65],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#writeTimeLineHistoryFile()#,[5:65:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:71],[receivelog.c],[5:71],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#writeTimeLineHistoryFile()#,[5:71:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:308],[receivelog.c],[5:308],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#writeTimeLineHistoryFile()#,[5:308:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:295],[receivelog.c],[5:295],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#writeTimeLineHistoryFile()#,[5:295:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:288],[receivelog.c],[5:288],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#writeTimeLineHistoryFile()#,[5:288:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:280],[receivelog.c],[5:280],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#writeTimeLineHistoryFile()#,[5:280:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:400],[receivelog.c],[5:400],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#ReceiveXlogStream()#,[5:400:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@receivelog.c:261],[receivelog.c],[5:261],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#ReceiveXlogStream()#,[5:261:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@receivelog.c:601],[receivelog.c],[5:601],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#ReceiveXlogStream()#,[5:601:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:719],[receivelog.c],[5:719],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#ReceiveXlogStream()#,[5:719:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:709],[receivelog.c],[5:709],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#ReceiveXlogStream()#,[5:709:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:701],[receivelog.c],[5:701],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#ReceiveXlogStream()#,[5:701:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:671],[receivelog.c],[5:671],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#ReceiveXlogStream()#,[5:671:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:659],[receivelog.c],[5:659],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#ReceiveXlogStream()#,[5:659:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:652],[receivelog.c],[5:652],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#ReceiveXlogStream()#,[5:652:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:608],[receivelog.c],[5:608],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#ReceiveXlogStream()#,[5:608:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@receivelog.c:563],[receivelog.c],[5:563],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#ReceiveXlogStream()#,[5:563:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:580],[receivelog.c],[5:580],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#ReceiveXlogStream()#,[5:580:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:568],[receivelog.c],[5:568],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#ReceiveXlogStream()#,[5:568:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@receivelog.c:534],[receivelog.c],[5:534],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#ReceiveXlogStream()#,[5:534:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:540],[receivelog.c],[5:540],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#ReceiveXlogStream()#,[5:540:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:504],[receivelog.c],[5:504],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#ReceiveXlogStream()#,[5:504:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:520],[receivelog.c],[5:520],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#ReceiveXlogStream()#,[5:520:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:512],[receivelog.c],[5:512],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#ReceiveXlogStream()#,[5:512:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:496],[receivelog.c],[5:496],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#ReceiveXlogStream()#,[5:496:0:3]
+[Au5em],[slotcmd@AOB@receivelog.c:479],[receivelog.c],[5:479],[Vul],[M],[AOB],[1,0,0],[slotcmd],#ReceiveXlogStream()#,[5:479:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@receivelog.c:390],[receivelog.c],[5:390],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#ReceiveXlogStream()#,[5:390:0:3]

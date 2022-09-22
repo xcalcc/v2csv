@@ -1,0 +1,121 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/prepjointree.c"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/optimizer/subselect.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/nodes/makefuncs.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/nodes/bitmapset.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/optimizer/clauses.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/nodes/nodes.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/optimizer/var.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/rewrite/rewriteManip.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/nodes/nodeFuncs.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/optimizer/tlist.h"
+  },
+  {
+  "fid": 19,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/parser/parse_relation.h"
+  },
+  {
+  "fid": 20,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/optimizer/placeholder.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/parser/parsetree.h"
+  },
+  {
+  "fid": 22,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 23,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 24,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 25,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 26,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/catalog/pg_type.h"
+  },
+  {
+  "fid": 27,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 28,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 29,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/pgxc/locator.h"
+  }
+]
+[Au5em],[0x0@NPD@pg_list.h:79],[prepjointree.c],[8:2046],[Vul],[M],[NPD],[1,0,0],[0x0],#pull_up_simple_values()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:2046:0:18,8:2046:0:3]
+[Au5em],[jtnode@NPD@prepjointree.c:281],[prepjointree.c],[8:263],[Vul],[M],[NPD],[1,0,0],[jtnode],#pull_up_sublinks()#,[8:281:0:17,8:427:0:1,8:255:0:18,8:255:0:1,8:263:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[prepjointree.c],[8:3055],[Vul],[M],[NPD],[1,0,0],[0x0],#reduce_outer_joins_pass2()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:3055:0:18,8:3055:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[prepjointree.c],[8:3056],[Vul],[M],[NPD],[1,0,0],[0x0],#reduce_outer_joins_pass2()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:3056:0:18,8:3056:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[prepjointree.c],[8:3119],[Vul],[M],[NPD],[1,0,0],[0x0],#reduce_outer_joins_pass2()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:3119:0:18,8:3119:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[prepjointree.c],[8:3120],[Vul],[M],[NPD],[1,0,0],[0x0],#reduce_outer_joins_pass2()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:3120:0:18,8:3120:0:3]

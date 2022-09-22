@@ -1,0 +1,101 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/pathkeys.c"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/utils/lsyscache.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/optimizer/paths.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/nodes/nodeFuncs.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/optimizer/pathnode.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/nodes/bitmapset.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/optimizer/tlist.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/nodes/nodes.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/optimizer/clauses.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 19,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 20,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 21,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 22,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/pgxc/locator.h"
+  }
+]
+[Au5em],[0x0@NPD@pg_list.h:79],[pathkeys.c],[8:660],[Vul],[M],[NPD],[1,0,0],[0x0],#convert_subquery_pathkeys()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:648:0:18,8:660:0:3]
+[Au5em],[new_pathkey@NPD@pathkeys.c:215],[pathkeys.c],[8:131],[Vul],[D],[NPD],[1,0,0],[new_pathkey],#pathkey_is_redundant()#,[8:215:0:1,8:912:0:2,8:252:0:18,8:244:0:24,8:244:0:26,8:252:0:1,8:912:0:18,8:912:0:1,8:921:0:2,8:130:0:1,8:131:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[pathkeys.c],[8:1286],[Vul],[M],[NPD],[1,0,0],[0x0],#select_outer_pathkeys_for_merge()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:1286:0:18,8:1286:0:3]
+[Au5em],[opathkey@NPD@pathkeys.c:1335],[pathkeys.c],[8:1379],[Vul],[M],[NPD],[1,0,0],[opathkey],#make_inner_pathkeys_for_merge()#,[8:1335:0:1,8:1338:0:23,8:1338:0:25,8:1338:0:17,8:1360:0:17,8:1379:0:3]
+[Au5em],[opathkey@NPD@pathkeys.c:1335],[pathkeys.c],[8:1379],[Vul],[M],[NPD],[1,0,0],[opathkey],#make_inner_pathkeys_for_merge()#,[8:1335:0:1,8:1338:0:23,8:1338:0:25,8:1338:0:17,8:1360:0:17,8:1379:0:3]
+[Au5em],[opathkey@NPD@pathkeys.c:1335],[pathkeys.c],[8:1379],[Vul],[M],[NPD],[1,0,0],[opathkey],#make_inner_pathkeys_for_merge()#,[8:1335:0:1,8:1338:0:23,8:1338:0:25,8:1338:0:17,8:1360:0:17,8:1379:0:3]

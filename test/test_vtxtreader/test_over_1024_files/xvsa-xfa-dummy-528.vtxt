@@ -1,0 +1,176 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/storage/bufpage.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/memutils.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/ts_selfuncs.c"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/selfuncs.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/lsyscache.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/miscadmin.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 17,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 19,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 20,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 21,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 22,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/access/transam.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 25,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/pgtime.h"
+  },
+  {
+  "fid": 26,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/timestamp.h"
+  },
+  {
+  "fid": 27,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/catalog/pg_type.h"
+  },
+  {
+  "fid": 28,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 29,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/tsearch/ts_type.h"
+  },
+  {
+  "fid": 30,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 31,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 32,
+  "path": "/home/xc5/cprojects/tbase/src/backend/tsearch/../../../src/include/utils/builtins.h"
+  }
+]
+[Au5em],[item@NPD@ts_selfuncs.c:197],[ts_selfuncs.c],[10:287],[Vul],[M],[NPD],[1,0,0],[item],#tsquery_opr_selec()#,[10:197:0:2,10:281:0:4,10:281:0:1,10:287:0:3]
+[Au5em],[item@NPD@ts_selfuncs.c:186],[ts_selfuncs.c],[10:287],[Vul],[M],[NPD],[1,0,0],[item],#tsquery_opr_selec()#,[10:186:0:2,10:281:0:4,10:281:0:1,10:287:0:3]
+[Au5em],[item@NPD@ts_selfuncs.c:248],[ts_selfuncs.c],[10:287],[Vul],[M],[NPD],[1,0,0],[item],#tsquery_opr_selec()#,[10:248:0:2,10:179:0:18,10:281:0:4,10:281:0:1,10:287:0:3]
+[Au5em],[item@NPD@ts_selfuncs.c:225],[ts_selfuncs.c],[10:287],[Vul],[M],[NPD],[1,0,0],[item],#tsquery_opr_selec()#,[10:225:0:2,10:179:0:18,10:281:0:4,10:281:0:1,10:287:0:3]
+[Au5em],[item@NPD@ts_selfuncs.c:197],[ts_selfuncs.c],[10:391],[Vul],[M],[NPD],[1,0,0],[item],#tsquery_opr_selec()#,[10:197:0:2,10:281:0:4,10:281:0:1,10:287:0:24,10:391:0:26,10:391:0:3]
+[Au5em],[item@NPD@ts_selfuncs.c:186],[ts_selfuncs.c],[10:391],[Vul],[M],[NPD],[1,0,0],[item],#tsquery_opr_selec()#,[10:186:0:2,10:281:0:4,10:281:0:1,10:287:0:24,10:391:0:26,10:391:0:3]
+[Au5em],[item@NPD@ts_selfuncs.c:248],[ts_selfuncs.c],[10:391],[Vul],[M],[NPD],[1,0,0],[item],#tsquery_opr_selec()#,[10:248:0:2,10:179:0:18,10:281:0:4,10:281:0:1,10:287:0:24,10:391:0:26,10:391:0:3]
+[Au5em],[item@NPD@ts_selfuncs.c:225],[ts_selfuncs.c],[10:391],[Vul],[M],[NPD],[1,0,0],[item],#tsquery_opr_selec()#,[10:225:0:2,10:179:0:18,10:281:0:4,10:281:0:1,10:287:0:24,10:391:0:26,10:391:0:3]
+[Au5em],[item@NPD@ts_selfuncs.c:197],[ts_selfuncs.c],[10:402],[Vul],[M],[NPD],[1,0,0],[item],#tsquery_opr_selec()#,[10:197:0:2,10:281:0:4,10:281:0:1,10:418:0:23,10:399:0:26,10:287:0:24,10:391:0:26,10:418:0:24,10:418:0:25,10:402:0:3]
+[Au5em],[item@NPD@ts_selfuncs.c:186],[ts_selfuncs.c],[10:402],[Vul],[M],[NPD],[1,0,0],[item],#tsquery_opr_selec()#,[10:186:0:2,10:281:0:4,10:281:0:1,10:418:0:23,10:399:0:26,10:287:0:24,10:391:0:26,10:418:0:24,10:418:0:25,10:402:0:3]
+[Au5em],[item@NPD@ts_selfuncs.c:248],[ts_selfuncs.c],[10:402],[Vul],[M],[NPD],[1,0,0],[item],#tsquery_opr_selec()#,[10:248:0:2,10:179:0:18,10:281:0:4,10:281:0:1,10:418:0:23,10:399:0:26,10:287:0:24,10:391:0:26,10:418:0:24,10:418:0:25,10:402:0:3]
+[Au5em],[item@NPD@ts_selfuncs.c:225],[ts_selfuncs.c],[10:402],[Vul],[M],[NPD],[1,0,0],[item],#tsquery_opr_selec()#,[10:225:0:2,10:179:0:18,10:281:0:4,10:281:0:1,10:418:0:23,10:399:0:26,10:287:0:24,10:391:0:26,10:418:0:24,10:418:0:25,10:402:0:3]
+[Au5em],[item@NPD@ts_selfuncs.c:197],[ts_selfuncs.c],[10:410],[Vul],[M],[NPD],[1,0,0],[item],#tsquery_opr_selec()#,[10:197:0:2,10:281:0:4,10:281:0:1,10:287:0:24,10:391:0:26,10:418:0:24,10:415:0:26,10:410:0:3]
+[Au5em],[item@NPD@ts_selfuncs.c:186],[ts_selfuncs.c],[10:410],[Vul],[M],[NPD],[1,0,0],[item],#tsquery_opr_selec()#,[10:186:0:2,10:281:0:4,10:281:0:1,10:287:0:24,10:391:0:26,10:418:0:24,10:415:0:26,10:410:0:3]
+[Au5em],[item@NPD@ts_selfuncs.c:248],[ts_selfuncs.c],[10:410],[Vul],[M],[NPD],[1,0,0],[item],#tsquery_opr_selec()#,[10:248:0:2,10:179:0:18,10:281:0:4,10:281:0:1,10:287:0:24,10:391:0:26,10:418:0:24,10:415:0:26,10:410:0:3]
+[Au5em],[item@NPD@ts_selfuncs.c:225],[ts_selfuncs.c],[10:410],[Vul],[M],[NPD],[1,0,0],[item],#tsquery_opr_selec()#,[10:225:0:2,10:179:0:18,10:281:0:4,10:281:0:1,10:287:0:24,10:391:0:26,10:418:0:24,10:415:0:26,10:410:0:3]
+[Au5em],[item@NPD@ts_selfuncs.c:197],[ts_selfuncs.c],[10:416],[Vul],[M],[NPD],[1,0,0],[item],#tsquery_opr_selec()#,[10:197:0:2,10:281:0:4,10:281:0:1,10:287:0:24,10:391:0:26,10:418:0:23,10:415:0:25,10:416:0:3]
+[Au5em],[item@NPD@ts_selfuncs.c:186],[ts_selfuncs.c],[10:416],[Vul],[M],[NPD],[1,0,0],[item],#tsquery_opr_selec()#,[10:186:0:2,10:281:0:4,10:281:0:1,10:287:0:24,10:391:0:26,10:418:0:23,10:415:0:25,10:416:0:3]
+[Au5em],[item@NPD@ts_selfuncs.c:248],[ts_selfuncs.c],[10:416],[Vul],[M],[NPD],[1,0,0],[item],#tsquery_opr_selec()#,[10:248:0:2,10:179:0:18,10:281:0:4,10:281:0:1,10:287:0:24,10:391:0:26,10:418:0:23,10:415:0:25,10:416:0:3]
+[Au5em],[item@NPD@ts_selfuncs.c:225],[ts_selfuncs.c],[10:416],[Vul],[M],[NPD],[1,0,0],[item],#tsquery_opr_selec()#,[10:225:0:2,10:179:0:18,10:281:0:4,10:281:0:1,10:287:0:24,10:391:0:26,10:418:0:23,10:415:0:25,10:416:0:3]
+[Au5em],[oper@NPD@ts_selfuncs.c:197],[ts_selfuncs.c],[10:295],[Vul],[M],[NPD],[1,0,0],[oper],#tsquery_opr_selec()#,[10:197:0:2,10:281:0:4,10:281:0:1,10:287:0:23,10:295:0:25,10:289:0:1,10:295:0:3]
+[Au5em],[oper@NPD@ts_selfuncs.c:186],[ts_selfuncs.c],[10:295],[Vul],[M],[NPD],[1,0,0],[oper],#tsquery_opr_selec()#,[10:186:0:2,10:281:0:4,10:281:0:1,10:287:0:23,10:295:0:25,10:289:0:1,10:295:0:3]
+[Au5em],[oper@NPD@ts_selfuncs.c:248],[ts_selfuncs.c],[10:295],[Vul],[M],[NPD],[1,0,0],[oper],#tsquery_opr_selec()#,[10:248:0:2,10:179:0:18,10:281:0:4,10:281:0:1,10:287:0:23,10:295:0:25,10:289:0:1,10:295:0:3]
+[Au5em],[oper@NPD@ts_selfuncs.c:225],[ts_selfuncs.c],[10:295],[Vul],[M],[NPD],[1,0,0],[oper],#tsquery_opr_selec()#,[10:225:0:2,10:179:0:18,10:281:0:4,10:281:0:1,10:287:0:23,10:295:0:25,10:289:0:1,10:295:0:3]
+[Au5em],[oper@NPD@ts_selfuncs.c:197],[ts_selfuncs.c],[10:296],[Vul],[M],[NPD],[1,0,0],[oper],#tsquery_opr_selec()#,[10:197:0:2,10:281:0:4,10:281:0:1,10:287:0:23,10:295:0:25,10:289:0:1,10:296:0:3]
+[Au5em],[oper@NPD@ts_selfuncs.c:186],[ts_selfuncs.c],[10:296],[Vul],[M],[NPD],[1,0,0],[oper],#tsquery_opr_selec()#,[10:186:0:2,10:281:0:4,10:281:0:1,10:287:0:23,10:295:0:25,10:289:0:1,10:296:0:3]
+[Au5em],[oper@NPD@ts_selfuncs.c:248],[ts_selfuncs.c],[10:296],[Vul],[M],[NPD],[1,0,0],[oper],#tsquery_opr_selec()#,[10:248:0:2,10:179:0:18,10:281:0:4,10:281:0:1,10:287:0:23,10:295:0:25,10:289:0:1,10:296:0:3]
+[Au5em],[oper@NPD@ts_selfuncs.c:225],[ts_selfuncs.c],[10:296],[Vul],[M],[NPD],[1,0,0],[oper],#tsquery_opr_selec()#,[10:225:0:2,10:179:0:18,10:281:0:4,10:281:0:1,10:287:0:23,10:295:0:25,10:289:0:1,10:296:0:3]
+[Au5em],[oper@NPD@ts_selfuncs.c:197],[ts_selfuncs.c],[10:298],[Vul],[M],[NPD],[1,0,0],[oper],#tsquery_opr_selec()#,[10:197:0:2,10:281:0:4,10:281:0:1,10:287:0:23,10:295:0:25,10:289:0:1,10:298:0:3]
+[Au5em],[oper@NPD@ts_selfuncs.c:186],[ts_selfuncs.c],[10:298],[Vul],[M],[NPD],[1,0,0],[oper],#tsquery_opr_selec()#,[10:186:0:2,10:281:0:4,10:281:0:1,10:287:0:23,10:295:0:25,10:289:0:1,10:298:0:3]
+[Au5em],[oper@NPD@ts_selfuncs.c:248],[ts_selfuncs.c],[10:298],[Vul],[M],[NPD],[1,0,0],[oper],#tsquery_opr_selec()#,[10:248:0:2,10:179:0:18,10:281:0:4,10:281:0:1,10:287:0:23,10:295:0:25,10:289:0:1,10:298:0:3]
+[Au5em],[oper@NPD@ts_selfuncs.c:225],[ts_selfuncs.c],[10:298],[Vul],[M],[NPD],[1,0,0],[oper],#tsquery_opr_selec()#,[10:225:0:2,10:179:0:18,10:281:0:4,10:281:0:1,10:287:0:23,10:295:0:25,10:289:0:1,10:298:0:3]
+[Au5em],[(query+(query->size*0xc))+0x8@NPD@ts_selfuncs.c:197],[ts_selfuncs.c],[10:330],[Vul],[M],[NPD],[1,0,0],[(query+(query->size*0xc))+0x8],#tsquery_opr_selec()#,[10:197:0:2,10:281:0:4,10:281:0:1,10:287:0:23,10:295:0:25,10:295:0:1,10:298:0:23,10:320:0:25,10:320:0:24,10:423:0:26,10:325:0:23,10:325:0:25,10:330:0:23,10:330:0:25,10:330:0:3]
+[Au5em],[(query+(query->size*0xc))+0x8@NPD@ts_selfuncs.c:186],[ts_selfuncs.c],[10:330],[Vul],[M],[NPD],[1,0,0],[(query+(query->size*0xc))+0x8],#tsquery_opr_selec()#,[10:186:0:2,10:281:0:4,10:281:0:1,10:287:0:23,10:295:0:25,10:295:0:1,10:298:0:23,10:320:0:25,10:320:0:24,10:423:0:26,10:325:0:23,10:325:0:25,10:330:0:23,10:330:0:25,10:330:0:3]
+[Au5em],[(query+(query->size*0xc))+0x8@NPD@ts_selfuncs.c:248],[ts_selfuncs.c],[10:330],[Vul],[M],[NPD],[1,0,0],[(query+(query->size*0xc))+0x8],#tsquery_opr_selec()#,[10:248:0:2,10:179:0:18,10:281:0:4,10:281:0:1,10:287:0:23,10:295:0:25,10:295:0:1,10:298:0:23,10:320:0:25,10:320:0:24,10:423:0:26,10:325:0:23,10:325:0:25,10:330:0:23,10:330:0:25,10:330:0:3]
+[Au5em],[(query+(query->size*0xc))+0x8@NPD@ts_selfuncs.c:225],[ts_selfuncs.c],[10:330],[Vul],[M],[NPD],[1,0,0],[(query+(query->size*0xc))+0x8],#tsquery_opr_selec()#,[10:225:0:2,10:179:0:18,10:281:0:4,10:281:0:1,10:287:0:23,10:295:0:25,10:295:0:1,10:298:0:23,10:320:0:25,10:320:0:24,10:423:0:26,10:325:0:23,10:325:0:25,10:330:0:23,10:330:0:25,10:330:0:3]
+[Au5em],[numbers+(nnumbers*4)@NPD@ts_selfuncs.c:166],[ts_selfuncs.c],[10:248],[Vul],[D],[NPD],[1,0,0],[numbers+(nnumbers*4)],#mcelem_tsquery_selec()#,[10:166:0:4,10:160:0:24,10:160:0:26,10:163:0:23,10:168:0:25,10:171:0:23,10:179:0:25,10:179:0:2,10:210:0:1,10:224:0:24,10:230:0:26,10:248:0:3]
+[Au5em],[mcelem+(*8)@NPD@ts_selfuncs.c:166],[ts_selfuncs.c],[10:238],[Vul],[D],[NPD],[1,0,0],[mcelem+(*8)],#mcelem_tsquery_selec()#,[10:166:0:4,10:160:0:24,10:160:0:26,10:163:0:23,10:168:0:25,10:171:0:23,10:179:0:25,10:179:0:2,10:210:0:1,10:224:0:24,10:230:0:26,10:231:0:23,10:231:0:25,10:238:0:3]
+[Au5em],[numbers+(*4)@NPD@ts_selfuncs.c:166],[ts_selfuncs.c],[10:239],[Vul],[D],[NPD],[1,0,0],[numbers+(*4)],#mcelem_tsquery_selec()#,[10:166:0:4,10:160:0:24,10:160:0:26,10:163:0:23,10:168:0:25,10:171:0:23,10:179:0:25,10:179:0:2,10:210:0:1,10:224:0:24,10:230:0:26,10:231:0:23,10:231:0:25,10:239:0:3]
+[Au5em],[other@UIV@ts_selfuncs.c:78],[ts_selfuncs.c],[10:93],[Vul],[M],[UIV],[1,0,0],[other],#tsmatchsel()#,[10:78:0:4,10:86:0:5,10:86:0:24,10:86:0:26,10:93:0:3]
+[Au5em],[other@UIV@ts_selfuncs.c:78],[ts_selfuncs.c],[10:102],[Vul],[M],[UIV],[1,0,0],[other],#tsmatchsel()#,[10:78:0:4,10:86:0:5,10:86:0:24,10:86:0:26,10:93:0:24,10:93:0:26,10:102:0:3]
+[Au5em],[other@UIV@ts_selfuncs.c:78],[ts_selfuncs.c],[10:113],[Vul],[M],[UIV],[1,0,0],[other],#tsmatchsel()#,[10:78:0:4,10:86:0:5,10:86:0:24,10:86:0:26,10:93:0:24,10:93:0:26,10:102:0:24,10:102:0:26,10:113:0:3]
+[Au5em],[other@UIV@ts_selfuncs.c:78],[ts_selfuncs.c],[10:118],[Vul],[M],[UIV],[1,0,0],[other],#tsmatchsel()#,[10:78:0:4,10:86:0:5,10:86:0:24,10:86:0:26,10:93:0:24,10:93:0:26,10:102:0:24,10:102:0:26,10:113:0:23,10:118:0:25,10:118:0:3]
+[Au5em],[other@NPD@ts_selfuncs.c:78],[ts_selfuncs.c],[10:93],[Vul],[D],[NPD],[1,0,0],[other],#tsmatchsel()#,[10:78:0:4,10:86:0:24,10:86:0:26,10:93:0:3]
+[Au5em],[other@NPD@ts_selfuncs.c:78],[ts_selfuncs.c],[10:102],[Vul],[D],[NPD],[1,0,0],[other],#tsmatchsel()#,[10:78:0:4,10:86:0:24,10:86:0:26,10:93:0:24,10:93:0:26,10:102:0:3]
+[Au5em],[other@NPD@ts_selfuncs.c:78],[ts_selfuncs.c],[10:113],[Vul],[D],[NPD],[1,0,0],[other],#tsmatchsel()#,[10:78:0:4,10:86:0:24,10:86:0:26,10:93:0:24,10:93:0:26,10:102:0:24,10:102:0:26,10:113:0:3]
+[Au5em],[other@NPD@ts_selfuncs.c:78],[ts_selfuncs.c],[10:118],[Vul],[D],[NPD],[1,0,0],[other],#tsmatchsel()#,[10:78:0:4,10:86:0:24,10:86:0:26,10:93:0:24,10:93:0:26,10:102:0:24,10:102:0:26,10:113:0:23,10:118:0:25,10:118:0:3]
+[Au5em],[vardata@NPD@ts_selfuncs.c:77],[ts_selfuncs.c],[10:104],[Vul],[D],[NPD],[1,0,0],[vardata],#tsmatchsel()#,[10:77:0:4,10:86:0:24,10:86:0:26,10:93:0:24,10:93:0:26,10:102:0:23,10:104:0:25,10:104:0:23,10:104:0:25,10:104:0:3]
+[Au5em],[vardata@NPD@ts_selfuncs.c:77],[ts_selfuncs.c],[10:95],[Vul],[D],[NPD],[1,0,0],[vardata],#tsmatchsel()#,[10:77:0:4,10:86:0:24,10:86:0:26,10:93:0:23,10:95:0:25,10:95:0:23,10:95:0:25,10:95:0:3]

@@ -1,0 +1,1185 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 709296d..81497ac 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -136 +135,0 @@ add_library(${PROJECT_NAME} STATIC ${SRC_ST_SPEED_PLANNER}
+-                                   src/lon_decision/lon_vehicle_scenario_decision.c
+diff --git a/etc/uos_local_planner.json b/etc/uos_local_planner.json
+index 3283926..a85a954 100644
+--- a/etc/uos_local_planner.json
++++ b/etc/uos_local_planner.json
+@@ -539,8 +538,0 @@
+-    "lon_veh_scenario_back_overtake_dist"       : 3.0,
+-    "lon_veh_scenario_front_overtake_dist"      : 3.0,
+-    "lon_veh_scenario_min_obj_length"           : 14.0,
+-    "lon_veh_scenario_overtake_time_thres"      : 6.0,
+-    "lon_veh_scenario_yield_time_thers"         : 10.0,
+-    "lon_veh_scenario_max_vel_ratio"            : 0.7, /* (0.0, 1.0] */
+-    "lon_veh_scenario_parallel_delta_vel"       : 2.0,
+-
+@@ -568,0 +561,5 @@
++    "lon_decision_long_veh_horizon_time": 10.0,
++    "lon_decision_long_veh_extra_time"  : 1.0,
++    "lon_decision_long_veh_parallel_safe_time"  : 6.0,
++    "lon_decision_long_veh_parallel_max_time"   : 15.0,
++    "lon_decision_long_veh_min_vel"     : 15.0,
+@@ -789 +785,0 @@
+-    "enable_steering_angle_limit_by_trailers"   : 1,
+diff --git a/src/local_config.c b/src/local_config.c
+index daa0a7c..5133018 100644
+--- a/src/local_config.c
++++ b/src/local_config.c
+@@ -1297,3 +1296,0 @@ local_planner_read_config(local_planner_config_t *config,
+-    config->enable_steering_angle_limit_by_trailers =
+-            uos_get_prefix_config_bool(UOS_MOD_LOCAL_PLAN,
+-            base_config->vehicle_name, "enable_steering_angle_limit_by_trailers");
+@@ -2124 +2121 @@ local_planner_read_config(local_planner_config_t *config,
+-    ret = lon_decision_module_load_config();
++    ret = lon_decision_module_load_config(planning_interval);
+diff --git a/src/local_internal.h b/src/local_internal.h
+index 23cb179..cb8a717 100644
+--- a/src/local_internal.h
++++ b/src/local_internal.h
+@@ -330 +329,0 @@ typedef struct Local_Planner_Config
+-    bool_t                      enable_steering_angle_limit_by_trailers;
+diff --git a/src/local_planner.c b/src/local_planner.c
+index 437addd..d0f6c29 100644
+--- a/src/local_planner.c
++++ b/src/local_planner.c
+@@ -2558,0 +2559,4 @@ local_motion_plan(uos_local_planner_handle_t local_handle,
++    ret = lon_decision_history_update(&local_planner->lon_decision_handle);
++    uos_check_log_ret(UOS_MOD_LOCAL_PLAN, RET_SUCCESS == ret,
++            "Fail to update lon decision!\n", ret);
++
+@@ -2568,8 +2571,0 @@ local_motion_plan(uos_local_planner_handle_t local_handle,
+-    ret = lon_decision_get_long_vehicle_scenario_decision(
+-            &local_planner->lon_decision_handle,
+-            &local_planner->scene_lon_decision_info_set,
+-            veh_data, local_planner->traj_selected,
+-            planner_state->actual_max_vel);
+-    uos_check_log_ret(UOS_MOD_LOCAL_PLAN, RET_SUCCESS == ret,
+-            "Fail to get lon veh scenario decision!\n", ret);
+-
+diff --git a/src/local_planner_common.c b/src/local_planner_common.c
+index ef3fb02..59c42e8 100644
+--- a/src/local_planner_common.c
++++ b/src/local_planner_common.c
+@@ -94,44 +93,0 @@ is_valid_trailer_detected(trailer_set_t *trailer_set)
+-static return_t
+-update_steering_angle_limit_by_trailers(vehicle_params_t *veh_params)
+-{
+-    int32_t i;
+-    float64_t lh, lt, radius0, r0_min, r0_sq, delta_f_max;
+-    trailer_t *trailer;
+-
+-    uos_check_log_ret(UOS_MOD_LOCAL_PLAN, NULL != veh_params,
+-            "Input pointers cannot be NULL!\n", RET_FAILED);
+-
+-    radius0 = UOS_CALC_TURN_RADIUS((*veh_params),
+-            veh_params->steering_angle_limit_original);
+-    UOS_LIMIT_RADIUS(radius0);
+-    r0_min = uos_pow2(radius0);
+-
+-    for (i = 0; i < veh_params->trailer_set.trailers_num; i++)
+-    {
+-        trailer = &veh_params->trailer_set.trailers[i];
+-        if (0 == i)  lh = veh_params->hook_length_m;
+-        else lh = veh_params->trailer_set.trailers[i-1].hook_length;
+-
+-        if (FULL_TRAILER == trailer->trailer_type)
+-        {
+-            r0_sq = uos_pow2(trailer->wheel_base) +
+-                    uos_pow2(trailer->bar_length);
+-        }
+-        else
+-        {
+-            lt = trailer->wheel_base + trailer->bar_length;
+-            r0_sq = uos_pow2(lt);
+-        }
+-        r0_sq -= uos_pow2(lh);
+-        uos_check_log_ret(UOS_MOD_LOCAL_PLAN, uos_fgreater(r0_sq, 0.0),
+-                "r0_sq should be greater than zero!\n", RET_FAILED);
+-
+-        r0_min = uos_min(r0_sq, r0_min);
+-    }
+-
+-    delta_f_max = uos_atan(veh_params->lfr_m / uos_sqrt(r0_min));
+-    veh_params->steering_angle_limit = uos_rad2deg(delta_f_max);
+-
+-    return RET_SUCCESS;
+-}
+-
+@@ -150 +105,0 @@ local_planner_extend_veh_width_by_trailer(trailer_set_t *trailer_set,
+-    static float64_t prev_steer_lmit = 0.0;
+@@ -215,7 +169,0 @@ local_planner_extend_veh_width_by_trailer(trailer_set_t *trailer_set,
+-
+-        if (local_config->enable_steering_angle_limit_by_trailers)
+-        {
+-            ret = update_steering_angle_limit_by_trailers(veh_params);
+-            uos_check_log_ret(UOS_MOD_LOCAL_PLAN, RET_SUCCESS == ret,
+-                    "Fail to update steering angle limit by trailers!\n", ret);
+-        }
+@@ -229,3 +176,0 @@ local_planner_extend_veh_width_by_trailer(trailer_set_t *trailer_set,
+-        veh_params->steering_angle_limit =
+-                veh_params->steering_angle_limit_original;
+-
+@@ -243,19 +187,0 @@ local_planner_extend_veh_width_by_trailer(trailer_set_t *trailer_set,
+-    if (prev_steer_lmit != veh_params->steering_angle_limit)
+-    {
+-        if (uos_fequal(prev_steer_lmit, 0.0))
+-        {
+-            uos_log_var2_info(UOS_MOD_LOCAL_PLAN,
+-                    "steering_angle_limit is: %.2fdeg, "
+-                    "steering_angle_limit_original is: %.2fdeg",
+-                    veh_params->steering_angle_limit,
+-                    veh_params->steering_angle_limit_original);
+-        }
+-        else
+-        {
+-            uos_log_var2_info(UOS_MOD_LOCAL_PLAN,
+-                    "steering_angle_limit changed %.2f ==> %.2f",
+-                    prev_steer_lmit, veh_params->steering_angle_limit);
+-        }
+-        prev_steer_lmit = veh_params->steering_angle_limit;
+-    }
+-
+diff --git a/src/lon_decision/lon_decision.c b/src/lon_decision/lon_decision.c
+index 62c5bf1..b6bf02c 100644
+--- a/src/lon_decision/lon_decision.c
++++ b/src/lon_decision/lon_decision.c
+@@ -10 +9,0 @@
+-#include "lon_vehicle_scenario_decision.h"
+@@ -27 +26 @@ return_t
+-lon_decision_module_load_config()
++lon_decision_module_load_config(float64_t planning_interval)
+@@ -97,21 +95,0 @@ lon_decision_module_load_config()
+-    static_params->lon_veh_scenario_back_overtake_dist =
+-            uos_get_prefix_config_float32(UOS_MOD_LOCAL_PLAN,
+-            base_config->vehicle_name, "lon_veh_scenario_back_overtake_dist");
+-    static_params->lon_veh_scenario_front_overtake_dist =
+-            uos_get_prefix_config_float32(UOS_MOD_LOCAL_PLAN,
+-            base_config->vehicle_name, "lon_veh_scenario_front_overtake_dist");
+-    static_params->lon_veh_scenario_min_obj_length =
+-            uos_get_prefix_config_float32(UOS_MOD_LOCAL_PLAN,
+-            base_config->vehicle_name, "lon_veh_scenario_min_obj_length");
+-    static_params->lon_veh_scenario_overtake_time_thres =
+-            uos_get_prefix_config_float32(UOS_MOD_LOCAL_PLAN,
+-            base_config->vehicle_name, "lon_veh_scenario_overtake_time_thres");
+-    static_params->lon_veh_scenario_yield_time_thers =
+-            uos_get_prefix_config_float32(UOS_MOD_LOCAL_PLAN,
+-            base_config->vehicle_name, "lon_veh_scenario_yield_time_thers");
+-    static_params->lon_veh_scenario_max_vel_ratio =
+-            uos_get_prefix_config_float32(UOS_MOD_LOCAL_PLAN,
+-            base_config->vehicle_name, "lon_veh_scenario_max_vel_ratio");
+-    static_params->lon_veh_scenario_parallel_delta_vel =
+-            uos_get_prefix_config_float32(UOS_MOD_LOCAL_PLAN,
+-            base_config->vehicle_name, "lon_veh_scenario_parallel_delta_vel");
+@@ -132 +110 @@ lon_decision_module_load_config()
+-    ret = lon_soft_decision_module_load_config();
++    ret = lon_soft_decision_module_load_config(planning_interval);
+@@ -1166,0 +1145,11 @@ lon_decision_update(lon_decision_handle_t *handle, stg_t *stg,
++
++            if (static_params->enable_soft_decision)
++            {
++                ret = lon_soft_decision_update(
++                        &internal_handle->soft_decision_handle,
++                        scene_infos, &internal_handle->obj_set, caution_objs,
++                        ego_traj, &internal_handle->ego_info);
++                uos_check_log_ret(UOS_MOD_LOCAL_PLAN, RET_SUCCESS == ret,
++                        "Fail to update soft decision.", RET_FAILED);
++            }
++
+@@ -1268,147 +1256,0 @@ return_t
+-lon_decision_get_long_vehicle_scenario_decision(lon_decision_handle_t *handle,
+-        scene_lon_decision_info_set_t *scene_lon_decision_info_set,
+-        vehicle_data_t *veh_data, const trajectory_t *ego_traj,
+-        float32_t actual_max_vel)
+-{
+-    return_t ret;
+-    int32_t i, obj_id, lon_veh_info_size, lon_decision_size;
+-    lon_decision_static_params_t *static_params;
+-    lon_decision_internal_handle_t *internal_handle;
+-    float32_t ego_max_acc, back_overtake_dist, front_overtake_dist;
+-    float32_t min_obj_length, overtake_time_thres, yield_time_thres;
+-    float32_t veh_vel, obj_vel, max_vel_ratio, parallel_delta_vel;
+-    float32_t veh_front_dist, front_bias_dist, back_bias_dist;
+-    const scenario_result_t *scenario_result;
+-    const long_vehicle_scenario_result_t *long_vehicle_scenario_result;
+-    const long_vehicle_info_t *long_veh_info;
+-    float32_t start_dist, end_dist, occupy_dist;
+-    scene_decision_t scene_decision;
+-    static lon_veh_overtake_info_set_t lon_veh_overtake_history_info_set;
+-    lon_veh_overtake_info_set_t tmp_lon_veh_overtake_info_set;
+-    lon_veh_overtake_info_t *lon_veh_overtake_info;
+-    scene_lon_decision_info_t *lon_decision_info;
+-    vehicle_params_t *veh_params = get_vehicle_params();
+-
+-    uos_check_log_ret(UOS_MOD_LOCAL_PLAN,
+-            handle != NULL && scene_lon_decision_info_set != NULL &&
+-            veh_data != NULL && ego_traj != NULL,
+-            "Input pointers cannot be null!", RET_FAILED);
+-
+-    internal_handle = (lon_decision_internal_handle_t *)handle->handle;
+-    uos_check_log_ret(UOS_MOD_LOCAL_PLAN, internal_handle != NULL,
+-            "Invalid lon decision handle!\n", RET_FAILED);
+-
+-    static_params = &lon_decision_static_params;
+-    ego_max_acc = static_params->ego_max_acc;
+-    back_overtake_dist = static_params->lon_veh_scenario_back_overtake_dist;
+-    front_overtake_dist = static_params->lon_veh_scenario_front_overtake_dist;
+-    min_obj_length = static_params->lon_veh_scenario_min_obj_length;
+-    overtake_time_thres = static_params->lon_veh_scenario_overtake_time_thres;
+-    yield_time_thres = static_params->lon_veh_scenario_yield_time_thers;
+-    max_vel_ratio = static_params->lon_veh_scenario_max_vel_ratio;
+-    parallel_delta_vel = static_params->lon_veh_scenario_parallel_delta_vel;
+-
+-    scenario_result = scenario_get_scenario_result(
+-            &internal_handle->scenario_handle);
+-    long_vehicle_scenario_result =
+-            get_long_vehicle_scenario_result(scenario_result);
+-
+-    if (NULL == long_vehicle_scenario_result ||
+-        !long_vehicle_scenario_result->is_valid)
+-    {
+-#if DEBUG_LON_VEH_SCENARIO_DECISION
+-        printf("lon veh scenario result is not valid!\n");
+-#endif
+-        init_lon_veh_overtake_history_info(&lon_veh_overtake_history_info_set,
+-                UOS_FALSE);
+-
+-        return RET_SUCCESS;
+-    }
+-
+-    veh_front_dist = veh_params->length_m -
+-            veh_params->rear_dist_to_rear_axle_m;
+-    front_bias_dist = front_overtake_dist +
+-            veh_params->rear_dist_to_rear_axle_m;
+-    back_bias_dist = back_overtake_dist + veh_front_dist;
+-    veh_vel = veh_data->veh_canstate.forward_vel;
+-    lon_veh_info_size = long_vehicle_scenario_result->size;
+-    tmp_lon_veh_overtake_info_set.size = lon_veh_info_size;
+-    lon_decision_size = scene_lon_decision_info_set->size;
+-
+-#if DEBUG_LON_VEH_SCENARIO_DECISION
+-    printf("actual_max_vel:%.2f, veh_vel:%.2f, ego_max_acc:%.2f\n",
+-            actual_max_vel, veh_vel, ego_max_acc);
+-#endif
+-
+-    for (i = 0; i < lon_veh_info_size; i++)
+-    {
+-        if (lon_decision_size >= MAX_SCENE_LON_DECISION_SIZE) break;
+-        long_veh_info = &long_vehicle_scenario_result->long_vehicle_infos[i];
+-        obj_id = get_mov_obj_original_id(long_veh_info->obj->id);
+-        obj_vel = long_veh_info->obj->vel;
+-        start_dist = long_veh_info->min_s - back_bias_dist;
+-        end_dist = uos_max(min_obj_length + long_veh_info->min_s,
+-                long_veh_info->max_s);
+-        end_dist = end_dist + front_bias_dist;
+-
+-        if (uos_fgreater_32(start_dist, 0.0))
+-        {
+-            ret = update_lon_veh_scenario_decision_by_overtake_time(
+-                    &scene_decision, veh_vel, ego_max_acc,
+-                    actual_max_vel, obj_vel, obj_id, start_dist, end_dist,
+-                    yield_time_thres, overtake_time_thres,
+-                    &lon_veh_overtake_history_info_set);
+-            uos_check_log_ret(UOS_MOD_LOCAL_PLAN, RET_SUCCESS == ret,
+-                    "Fail to update lon veh scenario decision "
+-                    "by overtake time!\n", RET_FAILED);
+-        }
+-        else
+-        {
+-            ret = update_lon_veh_scenario_decision_by_parallel_scenario(
+-                    &scene_decision, obj_vel, veh_vel, actual_max_vel,
+-                    max_vel_ratio, parallel_delta_vel);
+-            uos_check_log_ret(UOS_MOD_LOCAL_PLAN, RET_SUCCESS == ret,
+-                    "Fail to update lon veh scenario decision "
+-                    "by parallel scenario!\n", RET_FAILED);
+-        }
+-
+-        /* output lon decision info */
+-        start_dist = long_veh_info->min_s;
+-        occupy_dist = long_veh_info->max_s - long_veh_info->min_s;
+-        lon_decision_info =
+-            &scene_lon_decision_info_set->lon_decision_infos[lon_decision_size];
+-        ret = local_planner_update_scene_lon_decision_info(
+-                lon_decision_info, obj_id, 0.0, UOS_MAX_FLOAT32, start_dist,
+-                obj_vel, occupy_dist, scene_decision, SCENE_SIDE_OBJ);
+-        uos_check_log_ret(UOS_MOD_LOCAL_PLAN, RET_SUCCESS == ret,
+-                "Fail to update scene lon decision info!", RET_FAILED);
+-        lon_decision_size++;
+-
+-#if DEBUG_LON_VEH_SCENARIO_DECISION
+-        printf("scene decision:%s\n",
+-                SCENE_DECISION_OVERTAKE == scene_decision ? "-overtake" :
+-                (SCENE_DECISION_YIELD == scene_decision ?
+-                "-follow" : "-ignore"));
+-#endif
+-
+-        lon_veh_overtake_info =
+-                &tmp_lon_veh_overtake_info_set.lon_veh_overtake_infos[i];
+-        lon_veh_overtake_info->id = obj_id;
+-        lon_veh_overtake_info->is_overtake =
+-                (SCENE_DECISION_OVERTAKE == scene_decision);
+-    }
+-
+-    scene_lon_decision_info_set->size = lon_decision_size;
+-    lon_veh_overtake_history_info_set = tmp_lon_veh_overtake_info_set;
+-
+-#if DEBUG_LON_VEH_SCENARIO_DECISION_
+-    ret = lon_decision_dump_lon_veh_overtake_info_set(
+-            &lon_veh_overtake_history_info_set);
+-    uos_check_log_ret(UOS_MOD_LOCAL_PLAN, RET_SUCCESS == ret,
+-            "Fail to dump lon veh overtake history info!", RET_FAILED);
+-#endif
+-
+-    return RET_SUCCESS;
+-}
+-
+-return_t
+@@ -1456,0 +1299,20 @@ lon_decision_result_display(lon_decision_handle_t *handle,
++return_t
++lon_decision_history_update(lon_decision_handle_t *handle)
++{
++    return_t ret;
++    lon_decision_internal_handle_t *internal_handle;
++
++    uos_check_log_ret(UOS_MOD_LOCAL_PLAN, handle != NULL,
++            "Input pointers cannot be null.", RET_FAILED);
++
++    internal_handle = (lon_decision_internal_handle_t *)handle->handle;
++    uos_check_log_ret(UOS_MOD_LOCAL_PLAN, internal_handle != NULL,
++            "Invalid lon decision handle!\n", RET_FAILED);
++
++    ret = lon_soft_decision_history_update(
++            &internal_handle->soft_decision_handle);
++    uos_check_log_ret(UOS_MOD_LOCAL_PLAN, RET_SUCCESS == ret,
++            "Fail to update soft decision history!\n", ret);
++
++    return RET_SUCCESS;
++}
+diff --git a/src/lon_decision/lon_decision.h b/src/lon_decision/lon_decision.h
+index 44999a1..82a0a86 100644
+--- a/src/lon_decision/lon_decision.h
++++ b/src/lon_decision/lon_decision.h
+@@ -38,8 +37,0 @@ typedef struct Lon_Decision_Static_Params
+-    float32_t               lon_veh_scenario_back_overtake_dist;
+-    float32_t               lon_veh_scenario_front_overtake_dist;
+-    float32_t               lon_veh_scenario_min_obj_length;
+-    float32_t               lon_veh_scenario_overtake_time_thres;
+-    float32_t               lon_veh_scenario_yield_time_thers;
+-    float32_t               lon_veh_scenario_max_vel_ratio;
+-    float32_t               lon_veh_scenario_parallel_delta_vel;
+-
+@@ -48,0 +41 @@ typedef struct Lon_Decision_Static_Params
++
+diff --git a/src/lon_decision/lon_decision_interface.h b/src/lon_decision/lon_decision_interface.h
+index 9642e5f..3cecda4 100644
+--- a/src/lon_decision/lon_decision_interface.h
++++ b/src/lon_decision/lon_decision_interface.h
+@@ -37 +37 @@ extern return_t
+-lon_decision_module_load_config();
++lon_decision_module_load_config(float64_t planning_interval);
+@@ -90,0 +91,3 @@ lon_decision_result_display(lon_decision_handle_t *handle,
++extern return_t
++lon_decision_history_update(lon_decision_handle_t *handle);
++
+diff --git a/src/lon_decision/lon_soft_decision.c b/src/lon_decision/lon_soft_decision.c
+index b154bef..1f8a3eb 100644
+--- a/src/lon_decision/lon_soft_decision.c
++++ b/src/lon_decision/lon_soft_decision.c
+@@ -20 +20 @@ return_t
+-lon_soft_decision_module_load_config()
++lon_soft_decision_module_load_config(float64_t planning_interval)
+@@ -48,0 +49,17 @@ lon_soft_decision_module_load_config()
++    static_params->long_veh_horizon_time =
++        uos_get_prefix_config_float32(UOS_MOD_LOCAL_PLAN,
++            base_config->vehicle_name, "lon_decision_long_veh_horizon_time");
++    static_params->long_veh_extra_time =
++        uos_get_prefix_config_float32(UOS_MOD_LOCAL_PLAN,
++            base_config->vehicle_name, "lon_decision_long_veh_extra_time");
++    static_params->long_veh_parallel_safe_time =
++        uos_get_prefix_config_float32(UOS_MOD_LOCAL_PLAN,
++            base_config->vehicle_name, "lon_decision_long_veh_parallel_safe_time");
++    static_params->long_veh_parallel_max_cnt =
++        (uos_get_prefix_config_float32(UOS_MOD_LOCAL_PLAN,
++              base_config->vehicle_name, "lon_decision_long_veh_parallel_max_time"))
++        / planning_interval;
++    static_params->long_veh_min_vel =
++        uos_cvt_kmh_to_ms(uos_get_prefix_config_float32(UOS_MOD_LOCAL_PLAN,
++                    base_config->vehicle_name, "lon_decision_long_veh_min_vel"));
++
+@@ -67,0 +85 @@ lon_soft_decision_module_init(lon_soft_decision_handle_t *handle)
++        soft_decision_internal_handle.his_infos.size = 0;
+@@ -197,8 +215,5 @@ update_parallel_decision_by_time(
+-    if (!uos_fequal_32(end_time_1, UOS_MAX_FLOAT32))
+-    {
+-        ret = lon_model_calc_intersect_time(&start_time_2,
+-                &end_time_2, ego_vel, ego_max_vel,
+-                ego_max_acc, end_dist, obj_vel);
+-        uos_check_log_ret(UOS_MOD_LOCAL_PLAN, RET_SUCCESS == ret,
+-                "Fail to calc intersect time!", RET_FAILED);
+-    }
++    ret = lon_model_calc_intersect_time(&start_time_2,
++            &end_time_2, ego_vel, ego_max_vel,
++            ego_max_acc, end_dist, obj_vel);
++    uos_check_log_ret(UOS_MOD_LOCAL_PLAN, RET_SUCCESS == ret,
++            "Fail to calc intersect time!", RET_FAILED);
+@@ -206,2 +221 @@ update_parallel_decision_by_time(
+-    if (!uos_fequal_32(end_time_2, UOS_MAX_FLOAT32) &&
+-        !uos_fequal_32(end_time_1, UOS_MAX_FLOAT32))
++    if (!uos_fequal_32(end_time_2, UOS_MAX_FLOAT32))
+@@ -209 +223,8 @@ update_parallel_decision_by_time(
+-        overtake_time = end_time_2 - uos_max(end_time_1, 0.0);
++        if (uos_fequal_32(end_time_1, UOS_MAX_FLOAT32))
++        {
++            overtake_time = end_time_2;
++        }
++        else
++        {
++            overtake_time = end_time_2 - uos_max(end_time_1, 0.0);
++        }
+@@ -278,8 +299,5 @@ update_cutin_decision_by_time(
+-    if (!uos_fequal_32(end_time_1, UOS_MAX_FLOAT32))
+-    {
+-        ret = lon_model_calc_intersect_time(&start_time_2,
+-                &end_time_2, ego_vel, ego_max_vel,
+-                ego_max_acc, end_dist, obj_vel);
+-        uos_check_log_ret(UOS_MOD_LOCAL_PLAN, RET_SUCCESS == ret,
+-                "Fail to calc intersect time!", RET_FAILED);
+-    }
++    ret = lon_model_calc_intersect_time(&start_time_2,
++            &end_time_2, ego_vel, ego_max_vel,
++            ego_max_acc, end_dist, obj_vel);
++    uos_check_log_ret(UOS_MOD_LOCAL_PLAN, RET_SUCCESS == ret,
++            "Fail to calc intersect time!", RET_FAILED);
+@@ -287,2 +305 @@ update_cutin_decision_by_time(
+-    if (!uos_fequal_32(end_time_2, UOS_MAX_FLOAT32) &&
+-        !uos_fequal_32(end_time_1, UOS_MAX_FLOAT32))
++    if (!uos_fequal_32(end_time_2, UOS_MAX_FLOAT32))
+@@ -290 +307,8 @@ update_cutin_decision_by_time(
+-        overtake_time = end_time_2 - uos_max(end_time_1, 0.0);
++        if (uos_fequal_32(end_time_1, UOS_MAX_FLOAT32))
++        {
++            overtake_time = end_time_2;
++        }
++        else
++        {
++            overtake_time = end_time_2 - uos_max(end_time_1, 0.0);
++        }
+@@ -339,0 +364,128 @@ is_side_obj(float32_t ego_min_s, float32_t ego_max_s,
++utest_static return_t
++update_long_veh_decision_by_time(
++        scene_decision_t *scene_decision, float32_t ego_vel,
++        float32_t ego_max_acc, float32_t ego_max_vel, float32_t obj_vel,
++        float32_t start_dist, float32_t end_dist, float32_t safe_time,
++        float32_t time_horizon, scene_decision_t init_decision)
++{
++    return_t ret;
++    float32_t parallel_time, overtake_time;
++    float32_t start_time_1, end_time_1, start_time_2, end_time_2;
++
++    uos_check_log_ret(UOS_MOD_LOCAL_PLAN, scene_decision != NULL,
++            "Input pointers cannot be null!\n", RET_FAILED);
++
++    *scene_decision = init_decision;
++    start_time_1 = -UOS_MAX_FLOAT32;
++    start_time_2 = -UOS_MAX_FLOAT32;
++    end_time_1 = UOS_MAX_FLOAT32;
++    end_time_2 = UOS_MAX_FLOAT32;
++    parallel_time = 0.0;
++    overtake_time = UOS_MAX_FLOAT32;
++    ego_max_vel = uos_max(ego_max_vel, ego_vel);
++
++    ret = lon_model_calc_intersect_time(&start_time_1,
++            &end_time_1, ego_vel, ego_max_vel,
++            ego_max_acc, start_dist, obj_vel);
++    uos_check_log_ret(UOS_MOD_LOCAL_PLAN, RET_SUCCESS == ret,
++            "Fail to calc intersect time!", RET_FAILED);
++
++    ret = lon_model_calc_intersect_time(&start_time_2,
++            &end_time_2, ego_vel, ego_max_vel,
++            ego_max_acc, end_dist, obj_vel);
++    uos_check_log_ret(UOS_MOD_LOCAL_PLAN, RET_SUCCESS == ret,
++            "Fail to calc intersect time!", RET_FAILED);
++
++    if (!uos_fequal_32(end_time_2, UOS_MAX_FLOAT32))
++    {
++        if (uos_fequal_32(end_time_1, UOS_MAX_FLOAT32))
++        {
++            overtake_time = end_time_2;
++        }
++        else
++        {
++            overtake_time = end_time_2 - uos_max(end_time_1, 0.0);
++        }
++    }
++
++    if (!uos_fless_32(start_time_1, 0.0))
++    {
++        if (!uos_fless_32(start_time_2, 0.0))
++        {
++            parallel_time = start_time_1 - start_time_2;
++        }
++        else
++        {
++            parallel_time = start_time_1;
++        }
++    }
++
++#if 0
++    printf("long veh overtake_time:%.2f, parallel_time: %.2f, st:%.2f, %.2f, "
++            "et: %.2f, %.2f, safe time %.2f %.2f, init decision %d\n",
++            uos_fequal_32(overtake_time, UOS_MAX_FLOAT32) ?  1000 : overtake_time,
++            uos_fequal_32(parallel_time, UOS_MAX_FLOAT32) ?  1000 : parallel_time,
++            uos_fequal_32(start_time_1, -UOS_MAX_FLOAT32) ?  -1000 : start_time_1,
++            uos_fequal_32(end_time_1, UOS_MAX_FLOAT32) ?  1000 : end_time_1,
++            uos_fequal_32(start_time_2, -UOS_MAX_FLOAT32) ?  -1000 : start_time_2,
++            uos_fequal_32(end_time_2, UOS_MAX_FLOAT32) ?  1000 : end_time_2,
++            time_horizon, safe_time, init_decision);
++#endif
++
++    if ((uos_fless_32(end_time_2, time_horizon) &&
++                uos_fgreater_32(end_time_2, 0.0)) ||
++            (uos_fless_32(end_time_1, time_horizon) &&
++                uos_fgreater_32(end_time_1, 0.0)) ||
++            (uos_fless_32(start_dist, 0.0) && uos_fgreater_32(end_dist, 0)))
++    {
++        if (uos_fgreater_32(parallel_time, safe_time))
++        {
++            if (!uos_fless_32(end_dist, 0.0))
++            {
++                *scene_decision = SCENE_DECISION_YIELD;
++            }
++        }
++        else if (uos_fless_32(overtake_time, safe_time))
++        {
++            *scene_decision = SCENE_DECISION_OVERTAKE;
++        }
++    }
++
++    return RET_SUCCESS;
++}
++
++#define LON_VEHICLE_LENGTH (12.0)
++
++int32_t
++get_id_in_history_list(soft_decision_obj_his_set_t *his_infos,
++        int32_t obj_id, caution_obj_type_t caution_type)
++{
++    int32_t i, idx = INVALID_IDX;
++
++    if (NULL != his_infos)
++    {
++        for (i = 0; i < his_infos->size; i++)
++        {
++            if (his_infos->infos[i].obj_id == get_mov_obj_original_id(obj_id) &&
++                    his_infos->infos[i].caution_type == caution_type)
++            {
++                idx = i;
++            }
++        }
++    }
++
++    return idx;
++}
++
++bool_t
++is_long_time_at_side_obj(obj_rel_pos_t pos,
++        int32_t cnt, int32_t max_cnt)
++{
++    if (REL_POS_SIDE == pos && cnt >= max_cnt)
++    {
++        return UOS_TRUE;
++    }
++
++    return UOS_FALSE;
++}
++
+@@ -346,2 +498,4 @@ update_caution_obj_soft_decision(lon_soft_decision_internal_handle_t *handle,
+-    scene_decision_t decision;
+-    int32_t i, obj_id, id_in_list;
++    obj_rel_pos_t obj_rel_pos;
++    int32_t long_veh_parallel_max_cnt;
++    scene_decision_t decision, his_decision;
++    int32_t i, obj_id, id_in_list, id_in_his;
+@@ -353,0 +508 @@ update_caution_obj_soft_decision(lon_soft_decision_internal_handle_t *handle,
++    float32_t long_veh_safe_time, long_veh_horizon_time;
+@@ -370,0 +526,2 @@ update_caution_obj_soft_decision(lon_soft_decision_internal_handle_t *handle,
++    long_veh_horizon_time = static_params->long_veh_horizon_time;
++    long_veh_parallel_max_cnt = static_params->long_veh_parallel_max_cnt;
+@@ -432 +589,76 @@ update_caution_obj_soft_decision(lon_soft_decision_internal_handle_t *handle,
+-                printf("side obj decision[%d]: %d %d %s\n", i, obj_id,
++                printf("side obj decision[%d]: %d %d %s\n", i,
++                        get_mov_obj_original_id(obj_id),
++                        caution_objs->type[i], get_scene_decision_str(decision));
++#endif
++                if (RET_SUCCESS == ret && SCENE_DECISION_NONE != decision)
++                {
++                    ret = add_soft_decision_obj(soft_obj_set,
++                            obj_id, caution_objs->type[i], obj_vel, decision);
++                    uos_check_log_ret(UOS_MOD_LOCAL_PLAN, RET_SUCCESS == ret,
++                            "Fail to add soft decision obj.", RET_FAILED);
++                }
++                break;
++            case CAUTION_OBJ_LONG_VEHICLE:
++                ego_max_vel = traj_max_vel_selection(ego_traj, start_s);
++                ego_max_vel = uos_min(ego_max_vel, veh_params->max_vel);
++                obj_rel_pos = result->obj_semantic_info.obj_rel_pos[id_in_list];
++
++                /* correct s of obj by size. */
++                if (REL_POS_BACK == obj_rel_pos)
++                {
++                    start_s = end_s - LON_VEHICLE_LENGTH - ego_max_s + ego_min_s;
++                }
++                else
++                {
++                    end_s = start_s + LON_VEHICLE_LENGTH + ego_max_s - ego_min_s;
++                }
++
++                /* get safe time by his decision */
++                id_in_his = get_id_in_history_list(&handle->his_infos,
++                        obj_id, caution_objs->type[i]);
++                if (INVALID_IDX != id_in_his)
++                {
++                    his_decision = handle->his_infos.infos[id_in_his].decision;
++                }
++                else
++                {
++                    his_decision = SCENE_DECISION_IGNORE;
++                }
++
++                long_veh_safe_time = static_params->long_veh_parallel_safe_time;
++                if (SCENE_DECISION_YIELD == his_decision)
++                {
++                    long_veh_safe_time -= static_params->long_veh_extra_time;
++                }
++                else if (SCENE_DECISION_OVERTAKE == his_decision)
++                {
++                    long_veh_safe_time += static_params->long_veh_extra_time;
++                }
++
++                /* update decision */
++                ret = RET_SUCCESS;
++                if (!uos_fless_32(obj_vel, static_params->long_veh_min_vel))
++                {
++                    if (INVALID_IDX != id_in_list &&
++                            is_long_time_at_side_obj(
++                                handle->his_infos.infos[id_in_his].obj_rel_pos,
++                                handle->his_infos.infos[id_in_his].obj_rel_pos_keep_cnt,
++                                long_veh_parallel_max_cnt))
++                    {
++                        decision = SCENE_DECISION_YIELD;
++                    }
++                    else
++                    {
++                        ret = update_long_veh_decision_by_time(&decision,
++                                ego_vel, ego_max_acc, ego_max_vel, obj_vel,
++                                start_s, end_s, long_veh_safe_time,
++                                long_veh_horizon_time, his_decision);
++                    }
++                }
++                else
++                {
++                    decision = SCENE_DECISION_IGNORE;
++                }
++#if DEBUG_SOFT_DECISION
++                printf("long vehicle decision[%d]: %d %d %s\n", i,
++                        get_mov_obj_original_id(obj_id),
+@@ -466,0 +699,3 @@ cvt_caution_type_to_scene_type(caution_obj_type_t type)
++        case CAUTION_OBJ_LONG_VEHICLE:
++            scene_type = SCENE_SIDE_OBJ;
++            break;
+@@ -570,0 +806,101 @@ lon_soft_decision_update(lon_soft_decision_handle_t *handle,
++static soft_decision_obj_his_set_t dump_his_infos;
++void
++dump_his_info(soft_decision_obj_set_t *set,
++        soft_decision_obj_his_set_t *his_infos)
++{
++    int32_t i, idx;
++    dump_his_infos.size = 0;
++
++    if (NULL != set)
++    {
++        for (i = 0; i < set->size; i++)
++        {
++            idx = get_id_in_history_list(his_infos,
++                    set->objs[i].obj_id, set->objs[i].caution_type);
++            if (INVALID_IDX != idx)
++            {
++                dump_his_infos.infos[dump_his_infos.size] =
++                    his_infos->infos[idx];
++                dump_his_infos.size++;
++            }
++        }
++    }
++
++    return;
++}
++
++return_t
++lon_soft_decision_history_update(lon_soft_decision_handle_t *handle)
++{
++    int32_t i, id_in_list, id_in_his;
++    obj_rel_pos_t obj_rel_pos;
++    const mov_obj_list_t *obj_list;
++    const scenario_result_t *result;
++    lon_soft_decision_internal_handle_t *internal_handle;
++
++    uos_check_log_ret(UOS_MOD_LOCAL_PLAN, handle != NULL,
++            "Input pointers cannot be null.", RET_FAILED);
++
++    internal_handle = (lon_soft_decision_internal_handle_t *) handle->handle;
++    uos_check_log_ret(UOS_MOD_LOCAL_PLAN, internal_handle!= NULL,
++            "Invalid handle.", RET_FAILED);
++
++    dump_his_info(&internal_handle->obj_set, &internal_handle->his_infos);
++    internal_handle->his_infos.size = 0;
++
++    result = scenario_get_scenario_result(&internal_handle->scenario_handle);
++    if (NULL == result) return RET_SUCCESS;
++    if (!result->obj_semantic_info.mov_obj_list_valid) return RET_SUCCESS;
++    obj_list = result->obj_semantic_info.obj_list;
++
++    for (i = 0; i < internal_handle->obj_set.size; i++)
++    {
++        internal_handle->his_infos.infos[i].obj_id =
++            get_mov_obj_original_id(internal_handle->obj_set.objs[i].obj_id);
++        internal_handle->his_infos.infos[i].caution_type =
++            internal_handle->obj_set.objs[i].caution_type;
++        internal_handle->his_infos.infos[i].decision =
++            internal_handle->obj_set.objs[i].decision;
++
++        id_in_list = get_idx_in_obj_list(obj_list,
++                internal_handle->obj_set.objs[i].obj_id);
++        if (INVALID_IDX != id_in_list && id_in_list < obj_list->size)
++        {
++            obj_rel_pos = result->obj_semantic_info.obj_rel_pos[id_in_list];
++            if (obj_rel_pos != REL_POS_BACK && obj_rel_pos != REL_POS_FRONT &&
++                    obj_rel_pos != REL_POS_UNKNOWN)
++            {
++                obj_rel_pos = REL_POS_SIDE;
++            }
++        }
++        else
++        {
++            obj_rel_pos = REL_POS_UNKNOWN;
++        }
++
++        id_in_his = get_id_in_history_list(&dump_his_infos,
++                internal_handle->obj_set.objs[i].obj_id,
++                internal_handle->obj_set.objs[i].caution_type);
++        if (INVALID_IDX == id_in_his ||
++                dump_his_infos.infos[id_in_his].obj_rel_pos != obj_rel_pos)
++        {
++            internal_handle->his_infos.infos[i].obj_rel_pos =
++                obj_rel_pos;
++            internal_handle->his_infos.infos[i].obj_rel_pos_keep_cnt = 0;
++        }
++        else
++        {
++            internal_handle->his_infos.infos[i].obj_rel_pos =
++                obj_rel_pos;
++            internal_handle->his_infos.infos[i].obj_rel_pos_keep_cnt =
++                dump_his_infos.infos[id_in_his].obj_rel_pos_keep_cnt + 1;
++        }
++        internal_handle->his_infos.infos[i].obj_rel_pos_keep_cnt =
++            uos_min(internal_handle->his_infos.infos[i].obj_rel_pos_keep_cnt,
++                    LON_SOFT_DECISION_OBJ_MAX_KEEP_CNT);
++    }
++
++    internal_handle->his_infos.size = internal_handle->obj_set.size;
++
++    return RET_SUCCESS;
++}
+diff --git a/src/lon_decision/lon_soft_decision.h b/src/lon_decision/lon_soft_decision.h
+index f37f622..9f0f01b 100644
+--- a/src/lon_decision/lon_soft_decision.h
++++ b/src/lon_decision/lon_soft_decision.h
+@@ -18,0 +19,2 @@ extern "C"
++#define LON_SOFT_DECISION_OBJ_MAX_KEEP_CNT (1000)
++
+@@ -23,0 +26,6 @@ typedef struct Lon_Soft_Decision_Static_Params
++
++    float32_t   long_veh_horizon_time;
++    float32_t   long_veh_parallel_safe_time;
++    float32_t   long_veh_extra_time;
++    int32_t     long_veh_parallel_max_cnt;
++    float32_t   long_veh_min_vel;
+@@ -40,0 +49,15 @@ typedef struct Soft_Decision_Obj_Set
++typedef struct Soft_Decision_Obj_History_Info
++{
++    int32_t             obj_id;
++    caution_obj_type_t  caution_type;
++    scene_decision_t    decision;
++    obj_rel_pos_t       obj_rel_pos;
++    int32_t             obj_rel_pos_keep_cnt;
++} soft_decision_obj_his_t;
++
++typedef struct Soft_Decision_Obj_History_Set
++{
++    int32_t                 size;
++    soft_decision_obj_his_t infos[LON_SOFT_DECISION_OBJ_MAX_CNT];
++} soft_decision_obj_his_set_t;
++
+@@ -45,0 +69 @@ typedef struct Lon_Soft_Decision_Internal_Handle
++    soft_decision_obj_his_set_t his_infos;
+diff --git a/src/lon_decision/lon_soft_decision_interface.h b/src/lon_decision/lon_soft_decision_interface.h
+index 183cc50..a28818f 100644
+--- a/src/lon_decision/lon_soft_decision_interface.h
++++ b/src/lon_decision/lon_soft_decision_interface.h
+@@ -23 +23 @@ extern return_t
+-lon_soft_decision_module_load_config();
++lon_soft_decision_module_load_config(float64_t planner_interval);
+@@ -38,0 +39,3 @@ lon_soft_decision_update(lon_soft_decision_handle_t *handle,
++extern return_t
++lon_soft_decision_history_update(lon_soft_decision_handle_t *handle);
++
+diff --git a/src/lon_decision/lon_vehicle_scenario_decision.c b/src/lon_decision/lon_vehicle_scenario_decision.c
+deleted file mode 100644
+index 535358e..0000000
+--- a/src/lon_decision/lon_vehicle_scenario_decision.c
++++ /dev/null
+@@ -1,270 +0,0 @@
+-/*
+- * Copyright 2016-2021. UISEE TECHNOLOGIES (BEIJING) LTD. All rights reserved.
+- * See LICENSE AGREEMENT file in the project root for full license information.
+- */
+-
+-#include "lon_vehicle_scenario_decision.h"
+-#include "../../include/uos_local_planner/local_planner.h"
+-
+-static return_t
+-calc_intersect_time_by_dist(float32_t *intersect_time,
+-        float32_t *intersect_veh_vel, float32_t veh_vel,
+-        float32_t veh_max_vel, float32_t veh_max_acc,
+-        float32_t obj_start_dist, float32_t obj_vel)
+-{
+-    return_t ret;
+-    bool_t has_root;
+-    float32_t a, b, c, roots[2];
+-    float32_t time_thres, max_root, time;
+-
+-    uos_check_log_ret(UOS_MOD_LOCAL_PLAN,
+-            intersect_time != NULL && intersect_veh_vel != NULL,
+-            "Input pointers cannot be null!\n", RET_FAILED);
+-    uos_check_log_ret(UOS_MOD_LOCAL_PLAN, uos_fgreater_32(veh_max_acc, 0.0),
+-            "Input params is not legal!\n", RET_FAILED);
+-
+-    *intersect_time = UOS_MAX_FLOAT32;
+-    *intersect_veh_vel = 0.0;
+-
+-    /*
+-        if time <= (veh_max_vel - veh_vel) / veh_max_acc
+-            veh_vel * time + 0.5 * veh_max_acc * time * time = s1;
+-            obj_s0 + obj_vel * time = s1;
+-        else
+-            t1 = (veh_max_vel - veh_vel) / veh_max_acc;
+-            veh_vel * t1 + 0.5 * veh_max_acc * t1 * t1 + veh_max_vel * (time - t1) = s1;
+-            obj_s0 + obj_vel * time = s1;
+-    */
+-
+-    /* veh vel of intersect is less than veh_max_vel */
+-    time_thres = (veh_max_vel - veh_vel) / veh_max_acc;
+-    a = 0.5 * veh_max_acc;
+-    b = veh_vel - obj_vel;
+-    c = -obj_start_dist;
+-    ret = quadratic_polynomial_root_32(&has_root, roots, a, b, c);
+-    uos_check_log_ret(UOS_MOD_LOCAL_PLAN, RET_SUCCESS == ret,
+-            "Fail to get quadratic polynomial root!\n", RET_FAILED);
+-    if (has_root)
+-    {
+-        max_root = uos_max(roots[0], roots[1]);
+-        if (uos_fgreater_32(time_thres, max_root) &&
+-            uos_fgreater_32(max_root, 0.0))
+-        {
+-            *intersect_time = max_root;
+-            *intersect_veh_vel = veh_vel + veh_max_acc * max_root;
+-            return RET_SUCCESS;
+-        }
+-    }
+-
+-    /* veh vel of intersect is equal veh_max_vel */
+-    time = veh_vel * time_thres + 0.5 * veh_max_acc * time_thres * time_thres
+-            - obj_start_dist - veh_max_vel * time_thres;
+-    if (!uos_fequal_32(obj_vel - veh_max_vel, 0.0))
+-    {
+-        time = time / (obj_vel - veh_max_vel);
+-    }
+-    else time = 0.0;
+-
+-    if (uos_fgreater_32(time, time_thres))
+-    {
+-        *intersect_time = time;
+-        *intersect_veh_vel = veh_max_vel;
+-    }
+-
+-    return RET_SUCCESS;
+-}
+-
+-static return_t
+-find_lon_veh_overtake_history_info(bool_t *is_overtake, int32_t obj_id,
+-        const lon_veh_overtake_info_set_t *lon_veh_overtake_history_info_set)
+-{
+-    int32_t i, size;
+-    const lon_veh_overtake_info_t *lon_veh_overtake_info;
+-
+-    uos_check_log_ret(UOS_MOD_LOCAL_PLAN,
+-            is_overtake != NULL && lon_veh_overtake_history_info_set != NULL,
+-            "Input pointers cannot be null!", RET_FAILED);
+-
+-    *is_overtake = UOS_FALSE;
+-    size = lon_veh_overtake_history_info_set->size;
+-    for (i = 0; i < size; i++)
+-    {
+-        lon_veh_overtake_info =
+-                &lon_veh_overtake_history_info_set->lon_veh_overtake_infos[i];
+-        if (obj_id == lon_veh_overtake_info->id)
+-        {
+-            *is_overtake = lon_veh_overtake_info->is_overtake;
+-            break;
+-        }
+-    }
+-
+-    return RET_SUCCESS;
+-}
+-
+-return_t
+-init_lon_veh_overtake_history_info(
+-        lon_veh_overtake_info_set_t *lon_veh_overtake_history_info_set,
+-        bool_t is_overtake)
+-{
+-    int32_t i, size;
+-    lon_veh_overtake_info_t *lon_veh_overtake_info;
+-
+-    uos_check_log_ret(UOS_MOD_LOCAL_PLAN,
+-            lon_veh_overtake_history_info_set != NULL,
+-            "Input pointers cannot be null!", RET_FAILED);
+-
+-    size = lon_veh_overtake_history_info_set->size;
+-    for (i = 0; i < size; i++)
+-    {
+-        lon_veh_overtake_info =
+-                &lon_veh_overtake_history_info_set->lon_veh_overtake_infos[i];
+-        lon_veh_overtake_info->id = -1;
+-        lon_veh_overtake_info->is_overtake = is_overtake;
+-    }
+-
+-    return RET_SUCCESS;
+-}
+-
+-return_t
+-update_lon_veh_scenario_decision_by_overtake_time(
+-        scene_decision_t *scene_decision, float32_t ego_vel,
+-        float32_t ego_max_acc, float32_t max_vel, float32_t obj_vel,
+-        int32_t obj_id, float32_t start_dist, float32_t end_dist,
+-        float32_t yield_time_thres, float32_t overtake_time_thres,
+-        const lon_veh_overtake_info_set_t *lon_veh_overtake_info_set)
+-{
+-    return_t ret;
+-    bool_t is_overtake;
+-    float32_t intersect_time_1, intersect_time_2;
+-    float32_t intersect_veh_vel, overtake_time;
+-
+-    uos_check_log_ret(UOS_MOD_LOCAL_PLAN,
+-            scene_decision != NULL && lon_veh_overtake_info_set != NULL,
+-            "Input pointers cannot be null!\n", RET_FAILED);
+-
+-    *scene_decision = SCENE_DECISION_IGNORE;
+-
+-    if (!uos_fgreater_32(start_dist, 0.0) ||
+-        !uos_fgreater_32(end_dist, 0.0))
+-    {
+-#if 0
+-        printf("obj_id:%d, start and end dist < 0.0.\n", obj_id);
+-#endif
+-        return RET_SUCCESS;
+-    }
+-
+-    ret = calc_intersect_time_by_dist(&intersect_time_1,
+-            &intersect_veh_vel, ego_vel, max_vel,
+-            ego_max_acc, start_dist, obj_vel);
+-    uos_check_log_ret(UOS_MOD_LOCAL_PLAN, RET_SUCCESS == ret,
+-            "Fail to calc intersect time!", RET_FAILED);
+-
+-    if (!uos_fequal_32(intersect_time_1, UOS_MAX_FLOAT32))
+-    {
+-        ret = calc_intersect_time_by_dist(&intersect_time_2,
+-                &intersect_veh_vel, ego_vel, max_vel,
+-                ego_max_acc, end_dist, obj_vel);
+-        uos_check_log_ret(UOS_MOD_LOCAL_PLAN, RET_SUCCESS == ret,
+-                "Fail to calc intersect time!", RET_FAILED);
+-    }
+-    else
+-    {
+-#if 0
+-        printf("obj_id:%d, t1 is inf.\n", obj_id);
+-#endif
+-        *scene_decision = SCENE_DECISION_IGNORE;
+-        return RET_SUCCESS;
+-    }
+-
+-    overtake_time = UOS_MAX_FLOAT32;
+-    if (!uos_fequal_32(intersect_time_2, UOS_MAX_FLOAT32) &&
+-        !uos_fequal_32(intersect_time_1, UOS_MAX_FLOAT32))
+-    {
+-        overtake_time = intersect_time_2 - intersect_time_1;
+-    }
+-
+-#if 0
+-    printf("obj_id:%d, overtake_time:%.2f, t2:%.2f, t1:%.2f, "
+-            "obj_vel:%.2f\n", obj_id,
+-            uos_fequal_32(overtake_time, UOS_MAX_FLOAT32) ?
+-                1000 : overtake_time,
+-            uos_fequal_32(intersect_time_2, UOS_MAX_FLOAT32) ?
+-                1000 : intersect_time_2,
+-            uos_fequal_32(intersect_time_1, UOS_MAX_FLOAT32) ?
+-                1000 : intersect_time_1,
+-            obj_vel);
+-#endif
+-
+-    if (uos_fless_32(overtake_time, overtake_time_thres))
+-    {
+-        is_overtake = UOS_TRUE;
+-    }
+-    else if (uos_fgreater_32(overtake_time, yield_time_thres))
+-    {
+-        is_overtake = UOS_FALSE;
+-    }
+-    else
+-    {
+-        ret = find_lon_veh_overtake_history_info(&is_overtake, obj_id,
+-                lon_veh_overtake_info_set);
+-        uos_check_log_ret(UOS_MOD_LOCAL_PLAN, RET_SUCCESS == ret,
+-                "Fail to find lon veh overtake history info!", RET_FAILED);
+-    }
+-
+-    *scene_decision = is_overtake ? SCENE_DECISION_OVERTAKE :
+-            SCENE_DECISION_YIELD;
+-
+-    return RET_SUCCESS;
+-}
+-
+-return_t
+-update_lon_veh_scenario_decision_by_parallel_scenario(
+-        scene_decision_t *scene_decision, float32_t obj_vel,
+-        float32_t ego_vel, float32_t max_vel,
+-        float32_t max_vel_ratio, float32_t parallel_delta_vel)
+-{
+-    float32_t max_vel_thres;
+-
+-    uos_check_log_ret(UOS_MOD_LOCAL_PLAN, scene_decision != NULL,
+-            "Input pointer cannot be null!\n", RET_FAILED);
+-
+-    *scene_decision = SCENE_DECISION_IGNORE;
+-
+-    max_vel_thres = max_vel * max_vel_ratio;
+-    if (uos_fgreater_32(obj_vel, max_vel_thres) &&
+-        uos_fgreater_32(ego_vel, max_vel_thres) &&
+-        uos_fless_32(uos_fabs_32(ego_vel - obj_vel), parallel_delta_vel))
+-    {
+-#if 0
+-        printf("parallel obj, yield\n");
+-#endif
+-        *scene_decision = SCENE_DECISION_YIELD;
+-    }
+-
+-    return RET_SUCCESS;
+-}
+-
+-return_t
+-lon_decision_dump_lon_veh_overtake_info_set(
+-        lon_veh_overtake_info_set_t *lon_veh_overtake_info_set)
+-{
+-    int32_t i, size;
+-    const lon_veh_overtake_info_t *lon_veh_overtake_info;
+-
+-    uos_check_log_ret(UOS_MOD_LOCAL_PLAN,
+-            lon_veh_overtake_info_set != NULL,
+-            "Input pointers cannot be null!", RET_FAILED);
+-
+-    size = lon_veh_overtake_info_set->size;
+-    printf("dump lon veh overtake info set[size:%d]...\n", size);
+-    for (i = 0; i < size; i++)
+-    {
+-        lon_veh_overtake_info =
+-                &lon_veh_overtake_info_set->lon_veh_overtake_infos[i];
+-        printf("obj_id:%d, is_overtake:%d\n",
+-                lon_veh_overtake_info->id,
+-                lon_veh_overtake_info->is_overtake);
+-    }
+-
+-    return RET_SUCCESS;
+-}
+diff --git a/src/lon_decision/lon_vehicle_scenario_decision.h b/src/lon_decision/lon_vehicle_scenario_decision.h
+deleted file mode 100644
+index eee7d88..0000000
+--- a/src/lon_decision/lon_vehicle_scenario_decision.h
++++ /dev/null
+@@ -1,66 +0,0 @@
+-/*
+- * Copyright 2016-2021. UISEE TECHNOLOGIES (BEIJING) LTD. All rights reserved.
+- * See LICENSE AGREEMENT file in the project root for full license information.
+- */
+-
+-#ifndef __UOS_LONL_VEHICLE_SCENARIO_DECISION_H__
+-#define __UOS_LONL_VEHICLE_SCENARIO_DECISION_H__
+-
+-#include <uos_core/core.h>
+-#include "../local_planner_common.h"
+-#include "../scenario/scenario_interface.h"
+-
+-#ifdef __cplusplus
+-extern "C"
+-{
+-#endif
+-
+-typedef struct Long_Vehicle_Overtake_Info
+-{
+-    int32_t id;
+-    bool_t is_overtake;
+-} lon_veh_overtake_info_t;
+-
+-typedef struct Long_Veh_Overtake_Info_Set
+-{
+-    int32_t size;
+-    lon_veh_overtake_info_t lon_veh_overtake_infos[MAX_LONG_VEHICLE_NUM];
+-} lon_veh_overtake_info_set_t;
+-
+-extern return_t
+-init_lon_veh_overtake_history_info(
+-        lon_veh_overtake_info_set_t *lon_veh_overtake_history_info_set,
+-        bool_t is_overtake);
+-
+-extern return_t
+-lon_decision_dump_lon_veh_overtake_info_set(
+-        lon_veh_overtake_info_set_t *lon_veh_overtake_info_set);
+-
+-extern return_t
+-update_lon_veh_scenario_decision_by_overtake_time(
+-        scene_decision_t *scene_decision,
+-        float32_t ego_vel,
+-        float32_t ego_max_acc,
+-        float32_t max_vel,
+-        float32_t obj_vel,
+-        int32_t obj_id,
+-        float32_t start_dist,
+-        float32_t end_dist,
+-        float32_t yield_time_thres,
+-        float32_t overtake_time_thres,
+-        const lon_veh_overtake_info_set_t *lon_veh_overtake_info_set);
+-
+-extern return_t
+-update_lon_veh_scenario_decision_by_parallel_scenario(
+-        scene_decision_t *scene_decision,
+-        float32_t obj_vel,
+-        float32_t ego_vel,
+-        float32_t max_vel,
+-        float32_t max_vel_ratio,
+-        float32_t parallel_delta_vel);
+-
+-#ifdef __cplusplus
+-}
+-#endif
+-
+-#endif

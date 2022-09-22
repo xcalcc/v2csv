@@ -1,0 +1,64 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_waldump/../../../src/include/postgres.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_waldump/compat.c"
+  },
+  {
+  "fid": 6,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_waldump/../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_waldump/../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_waldump/../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_waldump/../../../src/include/pgtime.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_waldump/../../../src/include/utils/timestamp.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_waldump/../../../src/include/utils/datetime.h"
+  }
+]
+[Au5em],[buf@AOB@compat.c:61],[compat.c],[5:61],[Vul],[D],[AOB],[1,0,0],[buf],#timestamptz_to_str()#,[5:61:0:3]

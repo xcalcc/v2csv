@@ -1,0 +1,46 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/common/pgfnames.c"
+  },
+  {
+  "fid": 5,
+  "path": "/usr/include/dirent.h"
+  },
+  {
+  "fid": 6,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/common/../../src/include/common/fe_memutils.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/netinet/in.h"
+  }
+]
+[Au5em],[fprintf@ERR33-C@CERT@pgfnames.c:84],[pgfnames.c],[4:84],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#pgfnames()#,[4:84:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pgfnames.c:72],[pgfnames.c],[4:72],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#pgfnames()#,[4:72:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pgfnames.c:45],[pgfnames.c],[4:45],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#pgfnames()#,[4:45:0:3]

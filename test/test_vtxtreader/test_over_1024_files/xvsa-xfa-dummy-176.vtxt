@@ -1,0 +1,149 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/usr/include/openssl/safestack.h"
+  },
+  {
+  "fid": 5,
+  "path": "/usr/include/openssl/stack.h"
+  },
+  {
+  "fid": 6,
+  "path": "/usr/include/openssl/crypto.h"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/openssl/bio.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/openssl/asn1.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/openssl/x509.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/openssl/lhash.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/openssl/x509_vfy.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/openssl/pkcs7.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/openssl/ct.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/openssl/ssl.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/openssl/err.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/fe-protocol2.c"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/libpq-int.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/pqexpbuffer.h"
+  },
+  {
+  "fid": 19,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/../../../src/include/port.h"
+  },
+  {
+  "fid": 20,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/libpq-fe.h"
+  },
+  {
+  "fid": 22,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 23,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 24,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 25,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 26,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 27,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 28,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 29,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/../../../src/include/libpq/pqcomm.h"
+  },
+  {
+  "fid": 30,
+  "path": "/usr/include/openssl/ec.h"
+  },
+  {
+  "fid": 31,
+  "path": "/usr/include/openssl/rsa.h"
+  },
+  {
+  "fid": 32,
+  "path": "/usr/include/openssl/dh.h"
+  },
+  {
+  "fid": 33,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 34,
+  "path": "/usr/include/bits/getopt_core.h"
+  }
+]
+[Au5em],[setQuery@AOB@fe-protocol2.c:119],[fe-protocol2.c],[16:119],[Vul],[M],[AOB],[1,0,0],[setQuery],#pqSetenvPoll()#,[16:119:0:3]
+[Au5em],[setQuery@AOB@fe-protocol2.c:157],[fe-protocol2.c],[16:157],[Vul],[M],[AOB],[1,0,0],[setQuery],#pqSetenvPoll()#,[16:157:0:3]
+[Au5em],[setQuery@AOB@fe-protocol2.c:154],[fe-protocol2.c],[16:154],[Vul],[M],[AOB],[1,0,0],[setQuery],#pqSetenvPoll()#,[16:154:0:3]
+[Au5em],[bitmap@MSF@fe-protocol2.c:840],[fe-protocol2.c],[16:952],[Vul],[D],[MSF],[1,0,0],[bitmap],#getAnotherTuple()#,[16:840:0:9,16:909:0:12,16:952:0:3]
+[Au5em],[bitmap@MSF@fe-protocol2.c:840],[fe-protocol2.c],[16:952],[Vul],[D],[MSF],[1,0,0],[bitmap],#getAnotherTuple()#,[16:840:0:9,16:951:0:12,16:952:0:3]
+[Au5em],[malloc@MEM35-C@CERT@fe-protocol2.c:840],[fe-protocol2.c],[16:840],[Vul],[M],[RBC],[1,0,0],[CERT],[MEM35-C],[malloc],#getAnotherTuple()#,[16:840:0:3]
+[Au5em],[strncpy@STR32-C@CERT@fe-protocol2.c:1615],[fe-protocol2.c],[16:1615],[Vul],[M],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#pqBuildStartupPacket2()#,[16:1615:0:3]
+[Au5em],[startpacket+68@STR38-C@CERT@fe-protocol2.c:1615],[fe-protocol2.c],[16:1615],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[startpacket+68],#pqBuildStartupPacket2()#,[16:1615:0:3]
+[Au5em],[strncpy@STR32-C@CERT@fe-protocol2.c:1616],[fe-protocol2.c],[16:1616],[Vul],[M],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#pqBuildStartupPacket2()#,[16:1616:0:3]
+[Au5em],[startpacket+4@STR38-C@CERT@fe-protocol2.c:1616],[fe-protocol2.c],[16:1616],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[startpacket+4],#pqBuildStartupPacket2()#,[16:1616:0:3]
+[Au5em],[strncpy@STR32-C@CERT@fe-protocol2.c:1617],[fe-protocol2.c],[16:1617],[Vul],[M],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#pqBuildStartupPacket2()#,[16:1617:0:3]
+[Au5em],[startpacket+228@STR38-C@CERT@fe-protocol2.c:1617],[fe-protocol2.c],[16:1617],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[startpacket+228],#pqBuildStartupPacket2()#,[16:1617:0:3]
+[Au5em],[strncpy@STR32-C@CERT@fe-protocol2.c:1620],[fe-protocol2.c],[16:1620],[Vul],[M],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#pqBuildStartupPacket2()#,[16:1620:0:3]
+[Au5em],[startpacket+100@STR38-C@CERT@fe-protocol2.c:1620],[fe-protocol2.c],[16:1620],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[startpacket+100],#pqBuildStartupPacket2()#,[16:1620:0:3]

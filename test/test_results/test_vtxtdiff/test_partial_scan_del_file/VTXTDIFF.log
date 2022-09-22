@@ -1,0 +1,783 @@
+LINE_MATCH Trace for File:Makefile; File_id:0 :
+------------------------------------------------------------
+{Ln_limit: 0, Ln_change: 0, Operation: -}
+------------------------------------------------------------
+============================================================
+DUMP AFTER FIND_MATCH::Read_files
+============================================================
+------------------------------------------------------------
+Line_match dump
+------------------------------------------------------------
+LINE_MATCH Trace for File:Makefile; File_id:0 :
+------------------------------------------------------------
+{Ln_limit: 0, Ln_change: 0, Operation: -}
+------------------------------------------------------------
+------------------------------------------------------------
+Current Scan Fid Path
+------------------------------------------------------------
+  {
+  "fid": 1,
+  "path": "/home/jun/xc5/test/basic/aob.c"
+  }  {
+  "fid": 2,
+  "path": "/usr/include/stdio.h"
+  }  {
+  "fid": 3,
+  "path": "/usr/include/libio.h"
+  }  {
+  "fid": 4,
+  "path": "/usr/include/x86_64-linux-gnu/bits/sys_errlist.h"
+  }  {
+  "fid": 5,
+  "path": "/usr/include/x86_64-linux-gnu/bits/byteswap.h"
+  }  {
+  "fid": 6,
+  "path": "/home/jun/xc5/test/basic/msf.c"
+  }  {
+  "fid": 7,
+  "path": "/usr/include/stdlib.h"
+  }  {
+  "fid": 8,
+  "path": "/home/jun/xc5/test/basic/npd.c"
+  }  {
+  "fid": 9,
+  "path": "/home/jun/xc5/test/basic/dbf.c"
+  }  {
+  "fid": 10,
+  "path": "/home/jun/xc5/test/basic/uiv.c"
+  }------------------------------------------------------------
+Current vtxt issues dump
+------------------------------------------------------------
+{Checksum: 0xeb217c426976a9, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:23:0:26,9:30:0:2,9:14:0:10,9:15:0:3]}
+{Checksum: 0xb75197a8d5e3952, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:25:0:26,9:30:0:2,9:14:0:10,9:15:0:3]}
+{Checksum: 0x1d5c64c922e18402, Issue: [A1000003],[@MSF@msf.c:11],[msf.c],[6:26],[Vul],[D],[MSF],[1,0,0],[p],[test_MSF()],[6:11:0:9,6:13:0:24,6:13:0:26,6:18:0:24,6:18:0:26,6:25:0:12,6:26:0:3]}
+{Checksum: 0x2990d2ece0261108, Issue: [A1000001],[a@UIV@aob.c:11],[aob.c],[1:15],[Vul],[D],[UIV],[1,0,0],[b],[test_AOB()],[1:11:0:4,1:20:0:2,1:12:0:2,1:5:0:1,1:12:0:18,1:15:0:3]}
+{Checksum: 0x3982a90ce08bfcc9, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:25:0:26,9:31:0:2,9:14:0:10,9:15:0:3]}
+{Checksum: 0x39ce8ebb5b7b155b, Issue: [A1000010],[a@UIV@uiv.c:9],[uiv.c],[10:11],[Vul],[D],[UIV],[1,0,0],[b],[test_UIV()],[10:9:0:4,10:10:0:2,10:5:0:1,10:10:0:18,10:11:0:3]}
+{Checksum: 0x3fad6e1ebc232bb2, Issue: [A1000001],[a@UIV@aob.c:11],[aob.c],[1:15],[Vul],[D],[UIV],[1,0,0],[b],[test_AOB()],[1:11:0:4,1:12:0:2,1:5:0:1,1:12:0:18,1:15:0:3]}
+{Checksum: 0x46ecea2c2c1880d1, Issue: [A1000005],[@DBF@dbf.c:8@dbf.c:7],[dbf.c],[9:8],[Vul],[D],[DBF],[1,0,0],[p],[func_1()],[9:5:0:15,9:6:0:23,9:7:0:25,9:7:0:10,9:8:0:3]}
+{Checksum: 0x58a743905eeb1b2a, Issue: [A1000009],[@DBF@dbf.c:14@dbf.c:15],[dbf.c],[9:14],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:25:0:26,9:30:0:2,9:15:0:10,9:30:0:18,9:38:0:18,9:38:0:2,9:31:0:2,9:14:0:3]}
+{Checksum: 0x62e22545f60ecc8e, Issue: [A1000003],[@MSF@msf.c:11],[msf.c],[6:31],[Vul],[D],[MSF],[1,0,0],[p],[main()],[6:11:0:9,6:13:0:24,6:16:0:26,6:18:0:24,6:22:0:26,6:25:0:17,6:30:0:17,6:30:0:18,6:30:0:12,6:31:0:3]}
+{Checksum: 0x7db4656e7bcbbf45, Issue: [A1000002],[AOB@aob.c:15@aob.c:5],[aob.c],[1:15],[Vul],[D],[AOB],[1,0,0],[b],[test_AOB()],[1:5:0:1,1:12:0:18,1:15:0:3]}
+{Checksum: 0x7db4656e7bcbbf45, Issue: [A1000002],[AOB@aob.c:15@aob.c:5],[aob.c],[1:15],[Vul],[D],[AOB],[1,0,0],[b],[test_AOB()],[1:5:0:1,1:12:0:18,1:15:0:3]}
+{Checksum: 0x900c9fd7a8191238, Issue: [A1000005],[@DBF@dbf.c:8@dbf.c:7],[dbf.c],[9:8],[Vul],[D],[DBF],[1,0,0],[p],[func_1()],[9:22:0:9,9:23:0:24,9:25:0:26,9:29:0:2,9:7:0:10,9:8:0:3]}
+{Checksum: 0x942004c37de1713f, Issue: [A1000008],[@DBF@dbf.c:14@dbf.c:8],[dbf.c],[9:14],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:25:0:26,9:29:0:2,9:8:0:10,9:29:0:18,9:38:0:18,9:38:0:2,9:30:0:2,9:14:0:3]}
+{Checksum: 0x978908cc8883a526, Issue: [A1000005],[@DBF@dbf.c:8@dbf.c:7],[dbf.c],[9:8],[Vul],[D],[DBF],[1,0,0],[p],[func_1()],[9:22:0:9,9:23:0:24,9:23:0:26,9:29:0:2,9:7:0:10,9:8:0:3]}
+{Checksum: 0xb6ae91954d0d66ca, Issue: [A1000004],[a@NPD@npd.c:9],[npd.c],[8:13],[Vul],[D],[NPD],[1,0,0],[b],[test_NPD()],[8:9:0:1,8:10:0:2,8:4:0:1,8:5:0:1,8:10:0:18,8:13:0:3]}
+{Checksum: 0xb6ae91954d0d66ca, Issue: [A1000004],[a@NPD@npd.c:9],[npd.c],[8:13],[Vul],[D],[NPD],[1,0,0],[b],[test_NPD()],[8:9:0:1,8:10:0:2,8:4:0:1,8:5:0:1,8:10:0:18,8:13:0:3]}
+{Checksum: 0xcff120e625fc85b3, Issue: [A1000009],[@DBF@dbf.c:14@dbf.c:15],[dbf.c],[9:14],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:23:0:26,9:30:0:2,9:15:0:10,9:30:0:18,9:31:0:2,9:14:0:3]}
+{Checksum: 0xda2ab78d32b2dc90, Issue: [A1000007],[MSC37-C@CERT@dbf.c:18],[dbf.c],[9:18],[Vul],[D],[RBC],[1,0,0],[CERT],[MSC37-C],[],[func_2()],[9:18:0:3]}
+{Checksum: 0xf007927801175afe, Issue: [A1000010],[a@UIV@uiv.c:9],[uiv.c],[10:11],[Vul],[D],[UIV],[1,0,0],[b],[test_UIV()],[10:9:0:4,10:17:0:2,10:10:0:2,10:5:0:1,10:10:0:18,10:11:0:3]}
+{Checksum: 0xf38088ffe8e8103d, Issue: [A1000008],[@DBF@dbf.c:14@dbf.c:8],[dbf.c],[9:14],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:23:0:26,9:29:0:2,9:8:0:10,9:29:0:18,9:30:0:2,9:14:0:3]}
+{Checksum: 0xf396acfacd1c31ea, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:23:0:26,9:31:0:2,9:14:0:10,9:15:0:3]}
+{Checksum: 0xf808eadd08d4b115, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:12:0:15,9:13:0:23,9:14:0:25,9:14:0:10,9:15:0:3]}
+------------------------------------------------------------
+Baseline vtxt issues dump
+------------------------------------------------------------
+{Checksum: 0xeb217c426976a9, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:23:0:26,9:30:0:2,9:14:0:10,9:15:0:3]}
+{Checksum: 0x96b8fb66138a48b, Issue: [A1000010],[@UAF@uaf.c:8],[uaf.c],[10:26],[Vul],[D],[UAF],[1,0,0],[*q+(i*4)],[test_UAF()],[10:8:0:10,10:22:0:18,10:26:0:3]}
+{Checksum: 0xb75197a8d5e3952, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:25:0:26,9:30:0:2,9:14:0:10,9:15:0:3]}
+{Checksum: 0x1d5c64c922e18402, Issue: [A1000003],[@MSF@msf.c:11],[msf.c],[6:26],[Vul],[D],[MSF],[1,0,0],[p],[test_MSF()],[6:11:0:9,6:13:0:24,6:13:0:26,6:18:0:24,6:18:0:26,6:25:0:12,6:26:0:3]}
+{Checksum: 0x2990d2ece0261108, Issue: [A1000001],[a@UIV@aob.c:11],[aob.c],[1:15],[Vul],[D],[UIV],[1,0,0],[b],[test_AOB()],[1:11:0:4,1:20:0:2,1:12:0:2,1:5:0:1,1:12:0:18,1:15:0:3]}
+{Checksum: 0x35b98d18b7ddef11, Issue: [A1000011],[a@UIV@uiv.c:9],[uiv.c],[11:11],[Vul],[D],[UIV],[1,0,0],[b],[test_UIV()],[11:9:0:4,11:17:0:2,11:10:0:2,11:5:0:1,11:10:0:18,11:11:0:3]}
+{Checksum: 0x3982a90ce08bfcc9, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:25:0:26,9:31:0:2,9:14:0:10,9:15:0:3]}
+{Checksum: 0x3fad6e1ebc232bb2, Issue: [A1000001],[a@UIV@aob.c:11],[aob.c],[1:15],[Vul],[D],[UIV],[1,0,0],[b],[test_AOB()],[1:11:0:4,1:12:0:2,1:5:0:1,1:12:0:18,1:15:0:3]}
+{Checksum: 0x46ecea2c2c1880d1, Issue: [A1000005],[@DBF@dbf.c:8@dbf.c:7],[dbf.c],[9:8],[Vul],[D],[DBF],[1,0,0],[p],[func_1()],[9:5:0:15,9:6:0:23,9:7:0:25,9:7:0:10,9:8:0:3]}
+{Checksum: 0x58a743905eeb1b2a, Issue: [A1000009],[@DBF@dbf.c:14@dbf.c:15],[dbf.c],[9:14],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:25:0:26,9:30:0:2,9:15:0:10,9:30:0:18,9:38:0:18,9:38:0:2,9:31:0:2,9:14:0:3]}
+{Checksum: 0x62e22545f60ecc8e, Issue: [A1000003],[@MSF@msf.c:11],[msf.c],[6:31],[Vul],[D],[MSF],[1,0,0],[p],[main()],[6:11:0:9,6:13:0:24,6:16:0:26,6:18:0:24,6:22:0:26,6:25:0:17,6:30:0:17,6:30:0:18,6:30:0:12,6:31:0:3]}
+{Checksum: 0x7db4656e7bcbbf45, Issue: [A1000002],[AOB@aob.c:15@aob.c:5],[aob.c],[1:15],[Vul],[D],[AOB],[1,0,0],[b],[test_AOB()],[1:5:0:1,1:12:0:18,1:15:0:3]}
+{Checksum: 0x7db4656e7bcbbf45, Issue: [A1000002],[AOB@aob.c:15@aob.c:5],[aob.c],[1:15],[Vul],[D],[AOB],[1,0,0],[b],[test_AOB()],[1:5:0:1,1:12:0:18,1:15:0:3]}
+{Checksum: 0x900c9fd7a8191238, Issue: [A1000005],[@DBF@dbf.c:8@dbf.c:7],[dbf.c],[9:8],[Vul],[D],[DBF],[1,0,0],[p],[func_1()],[9:22:0:9,9:23:0:24,9:25:0:26,9:29:0:2,9:7:0:10,9:8:0:3]}
+{Checksum: 0x942004c37de1713f, Issue: [A1000008],[@DBF@dbf.c:14@dbf.c:8],[dbf.c],[9:14],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:25:0:26,9:29:0:2,9:8:0:10,9:29:0:18,9:38:0:18,9:38:0:2,9:30:0:2,9:14:0:3]}
+{Checksum: 0x978908cc8883a526, Issue: [A1000005],[@DBF@dbf.c:8@dbf.c:7],[dbf.c],[9:8],[Vul],[D],[DBF],[1,0,0],[p],[func_1()],[9:22:0:9,9:23:0:24,9:23:0:26,9:29:0:2,9:7:0:10,9:8:0:3]}
+{Checksum: 0xb2a12ad9fbd6e65b, Issue: [A1000011],[a@UIV@uiv.c:9],[uiv.c],[11:11],[Vul],[D],[UIV],[1,0,0],[b],[test_UIV()],[11:9:0:4,11:10:0:2,11:5:0:1,11:10:0:18,11:11:0:3]}
+{Checksum: 0xb6ae91954d0d66ca, Issue: [A1000004],[a@NPD@npd.c:9],[npd.c],[8:13],[Vul],[D],[NPD],[1,0,0],[b],[test_NPD()],[8:9:0:1,8:10:0:2,8:4:0:1,8:5:0:1,8:10:0:18,8:13:0:3]}
+{Checksum: 0xb6ae91954d0d66ca, Issue: [A1000004],[a@NPD@npd.c:9],[npd.c],[8:13],[Vul],[D],[NPD],[1,0,0],[b],[test_NPD()],[8:9:0:1,8:10:0:2,8:4:0:1,8:5:0:1,8:10:0:18,8:13:0:3]}
+{Checksum: 0xcff120e625fc85b3, Issue: [A1000009],[@DBF@dbf.c:14@dbf.c:15],[dbf.c],[9:14],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:23:0:26,9:30:0:2,9:15:0:10,9:30:0:18,9:31:0:2,9:14:0:3]}
+{Checksum: 0xda2ab78d32b2dc90, Issue: [A1000007],[MSC37-C@CERT@dbf.c:18],[dbf.c],[9:18],[Vul],[D],[RBC],[1,0,0],[CERT],[MSC37-C],[],[func_2()],[9:18:0:3]}
+{Checksum: 0xf38088ffe8e8103d, Issue: [A1000008],[@DBF@dbf.c:14@dbf.c:8],[dbf.c],[9:14],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:23:0:26,9:29:0:2,9:8:0:10,9:29:0:18,9:30:0:2,9:14:0:3]}
+{Checksum: 0xf396acfacd1c31ea, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:23:0:26,9:31:0:2,9:14:0:10,9:15:0:3]}
+{Checksum: 0xf772fdbd03579d3c, Issue: [A1000010],[@UAF@uaf.c:8],[uaf.c],[10:26],[Vul],[D],[UAF],[1,0,0],[*p+(*4)],[test_UAF()],[10:8:0:10,10:22:0:18,10:26:0:3]}
+{Checksum: 0xf808eadd08d4b115, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:12:0:15,9:13:0:23,9:14:0:25,9:14:0:10,9:15:0:3]}
+------------------------------------------------------------
+Current simple diff current issues dump
+------------------------------------------------------------
+<EMPTY>
+------------------------------------------------------------
+Baseline simple diff baseline issues dump
+------------------------------------------------------------
+<EMPTY>
+------------------------------------------------------------
+Current filt diff current issues dump
+------------------------------------------------------------
+<EMPTY>
+------------------------------------------------------------
+Baseline filt diff baseline issues dump
+------------------------------------------------------------
+<EMPTY>
+------------------------------------------------------------
+Global File_id Path Map
+------------------------------------------------------------
+{Fid: 1, Defby: 1, Orig: 1, Path: /home/jun/xc5/test/basic/aob.c}
+{Fid: 2, Defby: 1, Orig: 2, Path: /usr/include/stdio.h}
+{Fid: 3, Defby: 1, Orig: 3, Path: /usr/include/libio.h}
+{Fid: 4, Defby: 1, Orig: 4, Path: /usr/include/x86_64-linux-gnu/bits/sys_errlist.h}
+{Fid: 5, Defby: 1, Orig: 5, Path: /usr/include/x86_64-linux-gnu/bits/byteswap.h}
+{Fid: 6, Defby: 1, Orig: 6, Path: /home/jun/xc5/test/basic/msf.c}
+{Fid: 7, Defby: 1, Orig: 7, Path: /usr/include/stdlib.h}
+{Fid: 8, Defby: 1, Orig: 8, Path: /home/jun/xc5/test/basic/npd.c}
+{Fid: 9, Defby: 1, Orig: 9, Path: /home/jun/xc5/test/basic/dbf.c}
+{Fid: 10, Defby: 1, Orig: 10, Path: /home/jun/xc5/test/basic/uaf.c}
+{Fid: 11, Defby: 1, Orig: 11, Path: /home/jun/xc5/test/basic/uiv.c}
+------------------------------------------------------------
+Local (1) to Global File_id Map
+------------------------------------------------------------
+{Local_fid: 1, Global_fid: 1}
+{Local_fid: 2, Global_fid: 2}
+{Local_fid: 3, Global_fid: 3}
+{Local_fid: 4, Global_fid: 4}
+{Local_fid: 5, Global_fid: 5}
+{Local_fid: 6, Global_fid: 6}
+{Local_fid: 7, Global_fid: 7}
+{Local_fid: 8, Global_fid: 8}
+{Local_fid: 9, Global_fid: 9}
+{Local_fid: 10, Global_fid: 10}
+{Local_fid: 11, Global_fid: 11}
+------------------------------------------------------------
+Local (2) to Global File_id Map
+------------------------------------------------------------
+{Local_fid: 1, Global_fid: 1}
+{Local_fid: 2, Global_fid: 2}
+{Local_fid: 3, Global_fid: 3}
+{Local_fid: 4, Global_fid: 4}
+{Local_fid: 5, Global_fid: 5}
+{Local_fid: 6, Global_fid: 6}
+{Local_fid: 7, Global_fid: 7}
+{Local_fid: 8, Global_fid: 8}
+{Local_fid: 9, Global_fid: 9}
+{Local_fid: 10, Global_fid: 10}
+{Local_fid: 11, Global_fid: 11}
+------------------------------------------------------------
+Local (3) to Global File_id Map
+------------------------------------------------------------
+{Local_fid: 1, Global_fid: 1}
+{Local_fid: 2, Global_fid: 2}
+{Local_fid: 3, Global_fid: 3}
+{Local_fid: 4, Global_fid: 4}
+{Local_fid: 5, Global_fid: 5}
+{Local_fid: 6, Global_fid: 6}
+{Local_fid: 7, Global_fid: 7}
+{Local_fid: 8, Global_fid: 8}
+{Local_fid: 9, Global_fid: 9}
+{Local_fid: 10, Global_fid: 10}
+{Local_fid: 11, Global_fid: 11}
+------------------------------------------------------------
+Local (4) to Global File_id Map
+------------------------------------------------------------
+{Local_fid: 1, Global_fid: 1}
+{Local_fid: 2, Global_fid: 2}
+{Local_fid: 3, Global_fid: 3}
+{Local_fid: 4, Global_fid: 4}
+{Local_fid: 5, Global_fid: 5}
+{Local_fid: 6, Global_fid: 6}
+{Local_fid: 7, Global_fid: 7}
+{Local_fid: 8, Global_fid: 8}
+{Local_fid: 9, Global_fid: 9}
+{Local_fid: 10, Global_fid: 11}
+============================================================
+DUMP AFTER SIMPLE DIFF
+============================================================
+
+------------------------------------------------------------
+Line_match dump
+------------------------------------------------------------
+LINE_MATCH Trace for File:Makefile; File_id:0 :
+------------------------------------------------------------
+{Ln_limit: 0, Ln_change: 0, Operation: -}
+------------------------------------------------------------
+------------------------------------------------------------
+Current Scan Fid Path
+------------------------------------------------------------
+  {
+  "fid": 1,
+  "path": "/home/jun/xc5/test/basic/aob.c"
+  }  {
+  "fid": 2,
+  "path": "/usr/include/stdio.h"
+  }  {
+  "fid": 3,
+  "path": "/usr/include/libio.h"
+  }  {
+  "fid": 4,
+  "path": "/usr/include/x86_64-linux-gnu/bits/sys_errlist.h"
+  }  {
+  "fid": 5,
+  "path": "/usr/include/x86_64-linux-gnu/bits/byteswap.h"
+  }  {
+  "fid": 6,
+  "path": "/home/jun/xc5/test/basic/msf.c"
+  }  {
+  "fid": 7,
+  "path": "/usr/include/stdlib.h"
+  }  {
+  "fid": 8,
+  "path": "/home/jun/xc5/test/basic/npd.c"
+  }  {
+  "fid": 9,
+  "path": "/home/jun/xc5/test/basic/dbf.c"
+  }  {
+  "fid": 10,
+  "path": "/home/jun/xc5/test/basic/uiv.c"
+  }------------------------------------------------------------
+Current vtxt issues dump
+------------------------------------------------------------
+{Checksum: 0xeb217c426976a9, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:23:0:26,9:30:0:2,9:14:0:10,9:15:0:3]}
+{Checksum: 0xb75197a8d5e3952, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:25:0:26,9:30:0:2,9:14:0:10,9:15:0:3]}
+{Checksum: 0x1d5c64c922e18402, Issue: [A1000003],[@MSF@msf.c:11],[msf.c],[6:26],[Vul],[D],[MSF],[1,0,0],[p],[test_MSF()],[6:11:0:9,6:13:0:24,6:13:0:26,6:18:0:24,6:18:0:26,6:25:0:12,6:26:0:3]}
+{Checksum: 0x2990d2ece0261108, Issue: [A1000001],[a@UIV@aob.c:11],[aob.c],[1:15],[Vul],[D],[UIV],[1,0,0],[b],[test_AOB()],[1:11:0:4,1:20:0:2,1:12:0:2,1:5:0:1,1:12:0:18,1:15:0:3]}
+{Checksum: 0x3982a90ce08bfcc9, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:25:0:26,9:31:0:2,9:14:0:10,9:15:0:3]}
+{Checksum: 0x3fad6e1ebc232bb2, Issue: [A1000001],[a@UIV@aob.c:11],[aob.c],[1:15],[Vul],[D],[UIV],[1,0,0],[b],[test_AOB()],[1:11:0:4,1:12:0:2,1:5:0:1,1:12:0:18,1:15:0:3]}
+{Checksum: 0x46ecea2c2c1880d1, Issue: [A1000005],[@DBF@dbf.c:8@dbf.c:7],[dbf.c],[9:8],[Vul],[D],[DBF],[1,0,0],[p],[func_1()],[9:5:0:15,9:6:0:23,9:7:0:25,9:7:0:10,9:8:0:3]}
+{Checksum: 0x58a743905eeb1b2a, Issue: [A1000009],[@DBF@dbf.c:14@dbf.c:15],[dbf.c],[9:14],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:25:0:26,9:30:0:2,9:15:0:10,9:30:0:18,9:38:0:18,9:38:0:2,9:31:0:2,9:14:0:3]}
+{Checksum: 0x62e22545f60ecc8e, Issue: [A1000003],[@MSF@msf.c:11],[msf.c],[6:31],[Vul],[D],[MSF],[1,0,0],[p],[main()],[6:11:0:9,6:13:0:24,6:16:0:26,6:18:0:24,6:22:0:26,6:25:0:17,6:30:0:17,6:30:0:18,6:30:0:12,6:31:0:3]}
+{Checksum: 0x7db4656e7bcbbf45, Issue: [A1000002],[AOB@aob.c:15@aob.c:5],[aob.c],[1:15],[Vul],[D],[AOB],[1,0,0],[b],[test_AOB()],[1:5:0:1,1:12:0:18,1:15:0:3]}
+{Checksum: 0x7db4656e7bcbbf45, Issue: [A1000002],[AOB@aob.c:15@aob.c:5],[aob.c],[1:15],[Vul],[D],[AOB],[1,0,0],[b],[test_AOB()],[1:5:0:1,1:12:0:18,1:15:0:3]}
+{Checksum: 0x900c9fd7a8191238, Issue: [A1000005],[@DBF@dbf.c:8@dbf.c:7],[dbf.c],[9:8],[Vul],[D],[DBF],[1,0,0],[p],[func_1()],[9:22:0:9,9:23:0:24,9:25:0:26,9:29:0:2,9:7:0:10,9:8:0:3]}
+{Checksum: 0x942004c37de1713f, Issue: [A1000008],[@DBF@dbf.c:14@dbf.c:8],[dbf.c],[9:14],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:25:0:26,9:29:0:2,9:8:0:10,9:29:0:18,9:38:0:18,9:38:0:2,9:30:0:2,9:14:0:3]}
+{Checksum: 0x978908cc8883a526, Issue: [A1000005],[@DBF@dbf.c:8@dbf.c:7],[dbf.c],[9:8],[Vul],[D],[DBF],[1,0,0],[p],[func_1()],[9:22:0:9,9:23:0:24,9:23:0:26,9:29:0:2,9:7:0:10,9:8:0:3]}
+{Checksum: 0xb6ae91954d0d66ca, Issue: [A1000004],[a@NPD@npd.c:9],[npd.c],[8:13],[Vul],[D],[NPD],[1,0,0],[b],[test_NPD()],[8:9:0:1,8:10:0:2,8:4:0:1,8:5:0:1,8:10:0:18,8:13:0:3]}
+{Checksum: 0xb6ae91954d0d66ca, Issue: [A1000004],[a@NPD@npd.c:9],[npd.c],[8:13],[Vul],[D],[NPD],[1,0,0],[b],[test_NPD()],[8:9:0:1,8:10:0:2,8:4:0:1,8:5:0:1,8:10:0:18,8:13:0:3]}
+{Checksum: 0xcff120e625fc85b3, Issue: [A1000009],[@DBF@dbf.c:14@dbf.c:15],[dbf.c],[9:14],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:23:0:26,9:30:0:2,9:15:0:10,9:30:0:18,9:31:0:2,9:14:0:3]}
+{Checksum: 0xda2ab78d32b2dc90, Issue: [A1000007],[MSC37-C@CERT@dbf.c:18],[dbf.c],[9:18],[Vul],[D],[RBC],[1,0,0],[CERT],[MSC37-C],[],[func_2()],[9:18:0:3]}
+{Checksum: 0xf38088ffe8e8103d, Issue: [A1000008],[@DBF@dbf.c:14@dbf.c:8],[dbf.c],[9:14],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:23:0:26,9:29:0:2,9:8:0:10,9:29:0:18,9:30:0:2,9:14:0:3]}
+{Checksum: 0xf396acfacd1c31ea, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:23:0:26,9:31:0:2,9:14:0:10,9:15:0:3]}
+{Checksum: 0xf808eadd08d4b115, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:12:0:15,9:13:0:23,9:14:0:25,9:14:0:10,9:15:0:3]}
+------------------------------------------------------------
+Baseline vtxt issues dump
+------------------------------------------------------------
+{Checksum: 0xeb217c426976a9, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:23:0:26,9:30:0:2,9:14:0:10,9:15:0:3]}
+{Checksum: 0xb75197a8d5e3952, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:25:0:26,9:30:0:2,9:14:0:10,9:15:0:3]}
+{Checksum: 0x1d5c64c922e18402, Issue: [A1000003],[@MSF@msf.c:11],[msf.c],[6:26],[Vul],[D],[MSF],[1,0,0],[p],[test_MSF()],[6:11:0:9,6:13:0:24,6:13:0:26,6:18:0:24,6:18:0:26,6:25:0:12,6:26:0:3]}
+{Checksum: 0x2990d2ece0261108, Issue: [A1000001],[a@UIV@aob.c:11],[aob.c],[1:15],[Vul],[D],[UIV],[1,0,0],[b],[test_AOB()],[1:11:0:4,1:20:0:2,1:12:0:2,1:5:0:1,1:12:0:18,1:15:0:3]}
+{Checksum: 0x3982a90ce08bfcc9, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:25:0:26,9:31:0:2,9:14:0:10,9:15:0:3]}
+{Checksum: 0x3fad6e1ebc232bb2, Issue: [A1000001],[a@UIV@aob.c:11],[aob.c],[1:15],[Vul],[D],[UIV],[1,0,0],[b],[test_AOB()],[1:11:0:4,1:12:0:2,1:5:0:1,1:12:0:18,1:15:0:3]}
+{Checksum: 0x46ecea2c2c1880d1, Issue: [A1000005],[@DBF@dbf.c:8@dbf.c:7],[dbf.c],[9:8],[Vul],[D],[DBF],[1,0,0],[p],[func_1()],[9:5:0:15,9:6:0:23,9:7:0:25,9:7:0:10,9:8:0:3]}
+{Checksum: 0x58a743905eeb1b2a, Issue: [A1000009],[@DBF@dbf.c:14@dbf.c:15],[dbf.c],[9:14],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:25:0:26,9:30:0:2,9:15:0:10,9:30:0:18,9:38:0:18,9:38:0:2,9:31:0:2,9:14:0:3]}
+{Checksum: 0x62e22545f60ecc8e, Issue: [A1000003],[@MSF@msf.c:11],[msf.c],[6:31],[Vul],[D],[MSF],[1,0,0],[p],[main()],[6:11:0:9,6:13:0:24,6:16:0:26,6:18:0:24,6:22:0:26,6:25:0:17,6:30:0:17,6:30:0:18,6:30:0:12,6:31:0:3]}
+{Checksum: 0x7db4656e7bcbbf45, Issue: [A1000002],[AOB@aob.c:15@aob.c:5],[aob.c],[1:15],[Vul],[D],[AOB],[1,0,0],[b],[test_AOB()],[1:5:0:1,1:12:0:18,1:15:0:3]}
+{Checksum: 0x7db4656e7bcbbf45, Issue: [A1000002],[AOB@aob.c:15@aob.c:5],[aob.c],[1:15],[Vul],[D],[AOB],[1,0,0],[b],[test_AOB()],[1:5:0:1,1:12:0:18,1:15:0:3]}
+{Checksum: 0x900c9fd7a8191238, Issue: [A1000005],[@DBF@dbf.c:8@dbf.c:7],[dbf.c],[9:8],[Vul],[D],[DBF],[1,0,0],[p],[func_1()],[9:22:0:9,9:23:0:24,9:25:0:26,9:29:0:2,9:7:0:10,9:8:0:3]}
+{Checksum: 0x942004c37de1713f, Issue: [A1000008],[@DBF@dbf.c:14@dbf.c:8],[dbf.c],[9:14],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:25:0:26,9:29:0:2,9:8:0:10,9:29:0:18,9:38:0:18,9:38:0:2,9:30:0:2,9:14:0:3]}
+{Checksum: 0x978908cc8883a526, Issue: [A1000005],[@DBF@dbf.c:8@dbf.c:7],[dbf.c],[9:8],[Vul],[D],[DBF],[1,0,0],[p],[func_1()],[9:22:0:9,9:23:0:24,9:23:0:26,9:29:0:2,9:7:0:10,9:8:0:3]}
+{Checksum: 0xb6ae91954d0d66ca, Issue: [A1000004],[a@NPD@npd.c:9],[npd.c],[8:13],[Vul],[D],[NPD],[1,0,0],[b],[test_NPD()],[8:9:0:1,8:10:0:2,8:4:0:1,8:5:0:1,8:10:0:18,8:13:0:3]}
+{Checksum: 0xb6ae91954d0d66ca, Issue: [A1000004],[a@NPD@npd.c:9],[npd.c],[8:13],[Vul],[D],[NPD],[1,0,0],[b],[test_NPD()],[8:9:0:1,8:10:0:2,8:4:0:1,8:5:0:1,8:10:0:18,8:13:0:3]}
+{Checksum: 0xcff120e625fc85b3, Issue: [A1000009],[@DBF@dbf.c:14@dbf.c:15],[dbf.c],[9:14],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:23:0:26,9:30:0:2,9:15:0:10,9:30:0:18,9:31:0:2,9:14:0:3]}
+{Checksum: 0xda2ab78d32b2dc90, Issue: [A1000007],[MSC37-C@CERT@dbf.c:18],[dbf.c],[9:18],[Vul],[D],[RBC],[1,0,0],[CERT],[MSC37-C],[],[func_2()],[9:18:0:3]}
+{Checksum: 0xf38088ffe8e8103d, Issue: [A1000008],[@DBF@dbf.c:14@dbf.c:8],[dbf.c],[9:14],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:23:0:26,9:29:0:2,9:8:0:10,9:29:0:18,9:30:0:2,9:14:0:3]}
+{Checksum: 0xf396acfacd1c31ea, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:23:0:26,9:31:0:2,9:14:0:10,9:15:0:3]}
+{Checksum: 0xf808eadd08d4b115, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:12:0:15,9:13:0:23,9:14:0:25,9:14:0:10,9:15:0:3]}
+------------------------------------------------------------
+Current simple diff current issues dump
+------------------------------------------------------------
+{Checksum: 0x39ce8ebb5b7b155b, Issue: [A1000010],[a@UIV@uiv.c:9],[uiv.c],[10:11],[Vul],[D],[UIV],[1,0,0],[b],[test_UIV()],[10:9:0:4,10:10:0:2,10:5:0:1,10:10:0:18,10:11:0:3]}
+{Checksum: 0xf007927801175afe, Issue: [A1000010],[a@UIV@uiv.c:9],[uiv.c],[10:11],[Vul],[D],[UIV],[1,0,0],[b],[test_UIV()],[10:9:0:4,10:17:0:2,10:10:0:2,10:5:0:1,10:10:0:18,10:11:0:3]}
+------------------------------------------------------------
+Baseline simple diff baseline issues dump
+------------------------------------------------------------
+{Checksum: 0x0, Issue: [A1000010],[@UAF@uaf.c:8],[uaf.c],[10:26],[Vul],[D],[UAF],[1,0,0],[*q+(i*4)],[test_UAF()],[10:8:0:10,10:22:0:18,10:26:0:3]}
+{Checksum: 0x0, Issue: [A1000011],[a@UIV@uiv.c:9],[uiv.c],[11:11],[Vul],[D],[UIV],[1,0,0],[b],[test_UIV()],[11:9:0:4,11:17:0:2,11:10:0:2,11:5:0:1,11:10:0:18,11:11:0:3]}
+{Checksum: 0x0, Issue: [A1000011],[a@UIV@uiv.c:9],[uiv.c],[11:11],[Vul],[D],[UIV],[1,0,0],[b],[test_UIV()],[11:9:0:4,11:10:0:2,11:5:0:1,11:10:0:18,11:11:0:3]}
+{Checksum: 0x0, Issue: [A1000010],[@UAF@uaf.c:8],[uaf.c],[10:26],[Vul],[D],[UAF],[1,0,0],[*p+(*4)],[test_UAF()],[10:8:0:10,10:22:0:18,10:26:0:3]}
+------------------------------------------------------------
+Current filt diff current issues dump
+------------------------------------------------------------
+<EMPTY>
+------------------------------------------------------------
+Baseline filt diff baseline issues dump
+------------------------------------------------------------
+<EMPTY>
+------------------------------------------------------------
+Global File_id Path Map
+------------------------------------------------------------
+{Fid: 1, Defby: 1, Orig: 1, Path: /home/jun/xc5/test/basic/aob.c}
+{Fid: 2, Defby: 1, Orig: 2, Path: /usr/include/stdio.h}
+{Fid: 3, Defby: 1, Orig: 3, Path: /usr/include/libio.h}
+{Fid: 4, Defby: 1, Orig: 4, Path: /usr/include/x86_64-linux-gnu/bits/sys_errlist.h}
+{Fid: 5, Defby: 1, Orig: 5, Path: /usr/include/x86_64-linux-gnu/bits/byteswap.h}
+{Fid: 6, Defby: 1, Orig: 6, Path: /home/jun/xc5/test/basic/msf.c}
+{Fid: 7, Defby: 1, Orig: 7, Path: /usr/include/stdlib.h}
+{Fid: 8, Defby: 1, Orig: 8, Path: /home/jun/xc5/test/basic/npd.c}
+{Fid: 9, Defby: 1, Orig: 9, Path: /home/jun/xc5/test/basic/dbf.c}
+{Fid: 10, Defby: 1, Orig: 10, Path: /home/jun/xc5/test/basic/uaf.c}
+{Fid: 11, Defby: 1, Orig: 11, Path: /home/jun/xc5/test/basic/uiv.c}
+------------------------------------------------------------
+Local (1) to Global File_id Map
+------------------------------------------------------------
+{Local_fid: 1, Global_fid: 1}
+{Local_fid: 2, Global_fid: 2}
+{Local_fid: 3, Global_fid: 3}
+{Local_fid: 4, Global_fid: 4}
+{Local_fid: 5, Global_fid: 5}
+{Local_fid: 6, Global_fid: 6}
+{Local_fid: 7, Global_fid: 7}
+{Local_fid: 8, Global_fid: 8}
+{Local_fid: 9, Global_fid: 9}
+{Local_fid: 10, Global_fid: 10}
+{Local_fid: 11, Global_fid: 11}
+------------------------------------------------------------
+Local (2) to Global File_id Map
+------------------------------------------------------------
+{Local_fid: 1, Global_fid: 1}
+{Local_fid: 2, Global_fid: 2}
+{Local_fid: 3, Global_fid: 3}
+{Local_fid: 4, Global_fid: 4}
+{Local_fid: 5, Global_fid: 5}
+{Local_fid: 6, Global_fid: 6}
+{Local_fid: 7, Global_fid: 7}
+{Local_fid: 8, Global_fid: 8}
+{Local_fid: 9, Global_fid: 9}
+{Local_fid: 10, Global_fid: 10}
+{Local_fid: 11, Global_fid: 11}
+------------------------------------------------------------
+Local (3) to Global File_id Map
+------------------------------------------------------------
+{Local_fid: 1, Global_fid: 1}
+{Local_fid: 2, Global_fid: 2}
+{Local_fid: 3, Global_fid: 3}
+{Local_fid: 4, Global_fid: 4}
+{Local_fid: 5, Global_fid: 5}
+{Local_fid: 6, Global_fid: 6}
+{Local_fid: 7, Global_fid: 7}
+{Local_fid: 8, Global_fid: 8}
+{Local_fid: 9, Global_fid: 9}
+{Local_fid: 10, Global_fid: 10}
+{Local_fid: 11, Global_fid: 11}
+------------------------------------------------------------
+Local (4) to Global File_id Map
+------------------------------------------------------------
+{Local_fid: 1, Global_fid: 1}
+{Local_fid: 2, Global_fid: 2}
+{Local_fid: 3, Global_fid: 3}
+{Local_fid: 4, Global_fid: 4}
+{Local_fid: 5, Global_fid: 5}
+{Local_fid: 6, Global_fid: 6}
+{Local_fid: 7, Global_fid: 7}
+{Local_fid: 8, Global_fid: 8}
+{Local_fid: 9, Global_fid: 9}
+{Local_fid: 10, Global_fid: 11}
+var is empty, skip var.
+ filename_ln is uaf.c:8
+var is empty, skip var.
+ filename_ln is uaf.c:8
+============================================================
+DUMP AFTER SIMPLE DIFF
+============================================================
+
+------------------------------------------------------------
+Line_match dump
+------------------------------------------------------------
+LINE_MATCH Trace for File:Makefile; File_id:0 :
+------------------------------------------------------------
+{Ln_limit: 0, Ln_change: 0, Operation: -}
+------------------------------------------------------------
+------------------------------------------------------------
+Current Scan Fid Path
+------------------------------------------------------------
+  {
+  "fid": 1,
+  "path": "/home/jun/xc5/test/basic/aob.c"
+  }  {
+  "fid": 2,
+  "path": "/usr/include/stdio.h"
+  }  {
+  "fid": 3,
+  "path": "/usr/include/libio.h"
+  }  {
+  "fid": 4,
+  "path": "/usr/include/x86_64-linux-gnu/bits/sys_errlist.h"
+  }  {
+  "fid": 5,
+  "path": "/usr/include/x86_64-linux-gnu/bits/byteswap.h"
+  }  {
+  "fid": 6,
+  "path": "/home/jun/xc5/test/basic/msf.c"
+  }  {
+  "fid": 7,
+  "path": "/usr/include/stdlib.h"
+  }  {
+  "fid": 8,
+  "path": "/home/jun/xc5/test/basic/npd.c"
+  }  {
+  "fid": 9,
+  "path": "/home/jun/xc5/test/basic/dbf.c"
+  }  {
+  "fid": 10,
+  "path": "/home/jun/xc5/test/basic/uiv.c"
+  }------------------------------------------------------------
+Current vtxt issues dump
+------------------------------------------------------------
+{Checksum: 0xeb217c426976a9, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:23:0:26,9:30:0:2,9:14:0:10,9:15:0:3]}
+{Checksum: 0xb75197a8d5e3952, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:25:0:26,9:30:0:2,9:14:0:10,9:15:0:3]}
+{Checksum: 0x1d5c64c922e18402, Issue: [A1000003],[@MSF@msf.c:11],[msf.c],[6:26],[Vul],[D],[MSF],[1,0,0],[p],[test_MSF()],[6:11:0:9,6:13:0:24,6:13:0:26,6:18:0:24,6:18:0:26,6:25:0:12,6:26:0:3]}
+{Checksum: 0x2990d2ece0261108, Issue: [A1000001],[a@UIV@aob.c:11],[aob.c],[1:15],[Vul],[D],[UIV],[1,0,0],[b],[test_AOB()],[1:11:0:4,1:20:0:2,1:12:0:2,1:5:0:1,1:12:0:18,1:15:0:3]}
+{Checksum: 0x3982a90ce08bfcc9, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:25:0:26,9:31:0:2,9:14:0:10,9:15:0:3]}
+{Checksum: 0x3fad6e1ebc232bb2, Issue: [A1000001],[a@UIV@aob.c:11],[aob.c],[1:15],[Vul],[D],[UIV],[1,0,0],[b],[test_AOB()],[1:11:0:4,1:12:0:2,1:5:0:1,1:12:0:18,1:15:0:3]}
+{Checksum: 0x46ecea2c2c1880d1, Issue: [A1000005],[@DBF@dbf.c:8@dbf.c:7],[dbf.c],[9:8],[Vul],[D],[DBF],[1,0,0],[p],[func_1()],[9:5:0:15,9:6:0:23,9:7:0:25,9:7:0:10,9:8:0:3]}
+{Checksum: 0x58a743905eeb1b2a, Issue: [A1000009],[@DBF@dbf.c:14@dbf.c:15],[dbf.c],[9:14],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:25:0:26,9:30:0:2,9:15:0:10,9:30:0:18,9:38:0:18,9:38:0:2,9:31:0:2,9:14:0:3]}
+{Checksum: 0x62e22545f60ecc8e, Issue: [A1000003],[@MSF@msf.c:11],[msf.c],[6:31],[Vul],[D],[MSF],[1,0,0],[p],[main()],[6:11:0:9,6:13:0:24,6:16:0:26,6:18:0:24,6:22:0:26,6:25:0:17,6:30:0:17,6:30:0:18,6:30:0:12,6:31:0:3]}
+{Checksum: 0x7db4656e7bcbbf45, Issue: [A1000002],[AOB@aob.c:15@aob.c:5],[aob.c],[1:15],[Vul],[D],[AOB],[1,0,0],[b],[test_AOB()],[1:5:0:1,1:12:0:18,1:15:0:3]}
+{Checksum: 0x7db4656e7bcbbf45, Issue: [A1000002],[AOB@aob.c:15@aob.c:5],[aob.c],[1:15],[Vul],[D],[AOB],[1,0,0],[b],[test_AOB()],[1:5:0:1,1:12:0:18,1:15:0:3]}
+{Checksum: 0x900c9fd7a8191238, Issue: [A1000005],[@DBF@dbf.c:8@dbf.c:7],[dbf.c],[9:8],[Vul],[D],[DBF],[1,0,0],[p],[func_1()],[9:22:0:9,9:23:0:24,9:25:0:26,9:29:0:2,9:7:0:10,9:8:0:3]}
+{Checksum: 0x942004c37de1713f, Issue: [A1000008],[@DBF@dbf.c:14@dbf.c:8],[dbf.c],[9:14],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:25:0:26,9:29:0:2,9:8:0:10,9:29:0:18,9:38:0:18,9:38:0:2,9:30:0:2,9:14:0:3]}
+{Checksum: 0x978908cc8883a526, Issue: [A1000005],[@DBF@dbf.c:8@dbf.c:7],[dbf.c],[9:8],[Vul],[D],[DBF],[1,0,0],[p],[func_1()],[9:22:0:9,9:23:0:24,9:23:0:26,9:29:0:2,9:7:0:10,9:8:0:3]}
+{Checksum: 0xb6ae91954d0d66ca, Issue: [A1000004],[a@NPD@npd.c:9],[npd.c],[8:13],[Vul],[D],[NPD],[1,0,0],[b],[test_NPD()],[8:9:0:1,8:10:0:2,8:4:0:1,8:5:0:1,8:10:0:18,8:13:0:3]}
+{Checksum: 0xb6ae91954d0d66ca, Issue: [A1000004],[a@NPD@npd.c:9],[npd.c],[8:13],[Vul],[D],[NPD],[1,0,0],[b],[test_NPD()],[8:9:0:1,8:10:0:2,8:4:0:1,8:5:0:1,8:10:0:18,8:13:0:3]}
+{Checksum: 0xcff120e625fc85b3, Issue: [A1000009],[@DBF@dbf.c:14@dbf.c:15],[dbf.c],[9:14],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:23:0:26,9:30:0:2,9:15:0:10,9:30:0:18,9:31:0:2,9:14:0:3]}
+{Checksum: 0xda2ab78d32b2dc90, Issue: [A1000007],[MSC37-C@CERT@dbf.c:18],[dbf.c],[9:18],[Vul],[D],[RBC],[1,0,0],[CERT],[MSC37-C],[],[func_2()],[9:18:0:3]}
+{Checksum: 0xf38088ffe8e8103d, Issue: [A1000008],[@DBF@dbf.c:14@dbf.c:8],[dbf.c],[9:14],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:23:0:26,9:29:0:2,9:8:0:10,9:29:0:18,9:30:0:2,9:14:0:3]}
+{Checksum: 0xf396acfacd1c31ea, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:23:0:26,9:31:0:2,9:14:0:10,9:15:0:3]}
+{Checksum: 0xf808eadd08d4b115, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:12:0:15,9:13:0:23,9:14:0:25,9:14:0:10,9:15:0:3]}
+------------------------------------------------------------
+Baseline vtxt issues dump
+------------------------------------------------------------
+{Checksum: 0xeb217c426976a9, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:23:0:26,9:30:0:2,9:14:0:10,9:15:0:3]}
+{Checksum: 0xb75197a8d5e3952, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:25:0:26,9:30:0:2,9:14:0:10,9:15:0:3]}
+{Checksum: 0x1d5c64c922e18402, Issue: [A1000003],[@MSF@msf.c:11],[msf.c],[6:26],[Vul],[D],[MSF],[1,0,0],[p],[test_MSF()],[6:11:0:9,6:13:0:24,6:13:0:26,6:18:0:24,6:18:0:26,6:25:0:12,6:26:0:3]}
+{Checksum: 0x2990d2ece0261108, Issue: [A1000001],[a@UIV@aob.c:11],[aob.c],[1:15],[Vul],[D],[UIV],[1,0,0],[b],[test_AOB()],[1:11:0:4,1:20:0:2,1:12:0:2,1:5:0:1,1:12:0:18,1:15:0:3]}
+{Checksum: 0x3982a90ce08bfcc9, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:25:0:26,9:31:0:2,9:14:0:10,9:15:0:3]}
+{Checksum: 0x3fad6e1ebc232bb2, Issue: [A1000001],[a@UIV@aob.c:11],[aob.c],[1:15],[Vul],[D],[UIV],[1,0,0],[b],[test_AOB()],[1:11:0:4,1:12:0:2,1:5:0:1,1:12:0:18,1:15:0:3]}
+{Checksum: 0x46ecea2c2c1880d1, Issue: [A1000005],[@DBF@dbf.c:8@dbf.c:7],[dbf.c],[9:8],[Vul],[D],[DBF],[1,0,0],[p],[func_1()],[9:5:0:15,9:6:0:23,9:7:0:25,9:7:0:10,9:8:0:3]}
+{Checksum: 0x58a743905eeb1b2a, Issue: [A1000009],[@DBF@dbf.c:14@dbf.c:15],[dbf.c],[9:14],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:25:0:26,9:30:0:2,9:15:0:10,9:30:0:18,9:38:0:18,9:38:0:2,9:31:0:2,9:14:0:3]}
+{Checksum: 0x62e22545f60ecc8e, Issue: [A1000003],[@MSF@msf.c:11],[msf.c],[6:31],[Vul],[D],[MSF],[1,0,0],[p],[main()],[6:11:0:9,6:13:0:24,6:16:0:26,6:18:0:24,6:22:0:26,6:25:0:17,6:30:0:17,6:30:0:18,6:30:0:12,6:31:0:3]}
+{Checksum: 0x7db4656e7bcbbf45, Issue: [A1000002],[AOB@aob.c:15@aob.c:5],[aob.c],[1:15],[Vul],[D],[AOB],[1,0,0],[b],[test_AOB()],[1:5:0:1,1:12:0:18,1:15:0:3]}
+{Checksum: 0x7db4656e7bcbbf45, Issue: [A1000002],[AOB@aob.c:15@aob.c:5],[aob.c],[1:15],[Vul],[D],[AOB],[1,0,0],[b],[test_AOB()],[1:5:0:1,1:12:0:18,1:15:0:3]}
+{Checksum: 0x900c9fd7a8191238, Issue: [A1000005],[@DBF@dbf.c:8@dbf.c:7],[dbf.c],[9:8],[Vul],[D],[DBF],[1,0,0],[p],[func_1()],[9:22:0:9,9:23:0:24,9:25:0:26,9:29:0:2,9:7:0:10,9:8:0:3]}
+{Checksum: 0x942004c37de1713f, Issue: [A1000008],[@DBF@dbf.c:14@dbf.c:8],[dbf.c],[9:14],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:25:0:26,9:29:0:2,9:8:0:10,9:29:0:18,9:38:0:18,9:38:0:2,9:30:0:2,9:14:0:3]}
+{Checksum: 0x978908cc8883a526, Issue: [A1000005],[@DBF@dbf.c:8@dbf.c:7],[dbf.c],[9:8],[Vul],[D],[DBF],[1,0,0],[p],[func_1()],[9:22:0:9,9:23:0:24,9:23:0:26,9:29:0:2,9:7:0:10,9:8:0:3]}
+{Checksum: 0xb6ae91954d0d66ca, Issue: [A1000004],[a@NPD@npd.c:9],[npd.c],[8:13],[Vul],[D],[NPD],[1,0,0],[b],[test_NPD()],[8:9:0:1,8:10:0:2,8:4:0:1,8:5:0:1,8:10:0:18,8:13:0:3]}
+{Checksum: 0xb6ae91954d0d66ca, Issue: [A1000004],[a@NPD@npd.c:9],[npd.c],[8:13],[Vul],[D],[NPD],[1,0,0],[b],[test_NPD()],[8:9:0:1,8:10:0:2,8:4:0:1,8:5:0:1,8:10:0:18,8:13:0:3]}
+{Checksum: 0xcff120e625fc85b3, Issue: [A1000009],[@DBF@dbf.c:14@dbf.c:15],[dbf.c],[9:14],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:23:0:26,9:30:0:2,9:15:0:10,9:30:0:18,9:31:0:2,9:14:0:3]}
+{Checksum: 0xda2ab78d32b2dc90, Issue: [A1000007],[MSC37-C@CERT@dbf.c:18],[dbf.c],[9:18],[Vul],[D],[RBC],[1,0,0],[CERT],[MSC37-C],[],[func_2()],[9:18:0:3]}
+{Checksum: 0xf38088ffe8e8103d, Issue: [A1000008],[@DBF@dbf.c:14@dbf.c:8],[dbf.c],[9:14],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:23:0:26,9:29:0:2,9:8:0:10,9:29:0:18,9:30:0:2,9:14:0:3]}
+{Checksum: 0xf396acfacd1c31ea, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:23:0:26,9:31:0:2,9:14:0:10,9:15:0:3]}
+{Checksum: 0xf808eadd08d4b115, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:12:0:15,9:13:0:23,9:14:0:25,9:14:0:10,9:15:0:3]}
+------------------------------------------------------------
+Current simple diff current issues dump
+------------------------------------------------------------
+<EMPTY>
+------------------------------------------------------------
+Baseline simple diff baseline issues dump
+------------------------------------------------------------
+{Checksum: 0xf772fdbd03579d3c, Issue: [A1000010],[@UAF@uaf.c:8],[uaf.c],[10:26],[Vul],[D],[UAF],[1,0,0],[*p+(*4)],[test_UAF()],[10:8:0:10,10:22:0:18,10:26:0:3]}
+------------------------------------------------------------
+Current filt diff current issues dump
+------------------------------------------------------------
+{Checksum: 0x39ce8ebb5b7b155b, Issue: [A1000010],[a@UIV@uiv.c:9],[uiv.c],[10:11],[Vul],[D],[UIV],[1,0,0],[b],[test_UIV()],[10:9:0:4,10:10:0:2,10:5:0:1,10:10:0:18,10:11:0:3]}
+{Checksum: 0xf007927801175afe, Issue: [A1000010],[a@UIV@uiv.c:9],[uiv.c],[10:11],[Vul],[D],[UIV],[1,0,0],[b],[test_UIV()],[10:9:0:4,10:17:0:2,10:10:0:2,10:5:0:1,10:10:0:18,10:11:0:3]}
+------------------------------------------------------------
+Baseline filt diff baseline issues dump
+------------------------------------------------------------
+{Checksum: 0x0, Issue: [A1000010],[@UAF@uaf.c:8],[uaf.c],[10:26],[Vul],[D],[UAF],[1,0,0],[*q+(i*4)],[test_UAF()],[10:8:0:10,10:22:0:18,10:26:0:3]}
+{Checksum: 0x0, Issue: [A1000011],[a@UIV@uiv.c:9],[uiv.c],[11:11],[Vul],[D],[UIV],[1,0,0],[b],[test_UIV()],[11:9:0:4,11:17:0:2,11:10:0:2,11:5:0:1,11:10:0:18,11:11:0:3]}
+{Checksum: 0x0, Issue: [A1000011],[a@UIV@uiv.c:9],[uiv.c],[11:11],[Vul],[D],[UIV],[1,0,0],[b],[test_UIV()],[11:9:0:4,11:10:0:2,11:5:0:1,11:10:0:18,11:11:0:3]}
+{Checksum: 0x0, Issue: [A1000010],[@UAF@uaf.c:8],[uaf.c],[10:26],[Vul],[D],[UAF],[1,0,0],[*p+(*4)],[test_UAF()],[10:8:0:10,10:22:0:18,10:26:0:3]}
+------------------------------------------------------------
+Global File_id Path Map
+------------------------------------------------------------
+{Fid: 1, Defby: 1, Orig: 1, Path: /home/jun/xc5/test/basic/aob.c}
+{Fid: 2, Defby: 1, Orig: 2, Path: /usr/include/stdio.h}
+{Fid: 3, Defby: 1, Orig: 3, Path: /usr/include/libio.h}
+{Fid: 4, Defby: 1, Orig: 4, Path: /usr/include/x86_64-linux-gnu/bits/sys_errlist.h}
+{Fid: 5, Defby: 1, Orig: 5, Path: /usr/include/x86_64-linux-gnu/bits/byteswap.h}
+{Fid: 6, Defby: 1, Orig: 6, Path: /home/jun/xc5/test/basic/msf.c}
+{Fid: 7, Defby: 1, Orig: 7, Path: /usr/include/stdlib.h}
+{Fid: 8, Defby: 1, Orig: 8, Path: /home/jun/xc5/test/basic/npd.c}
+{Fid: 9, Defby: 1, Orig: 9, Path: /home/jun/xc5/test/basic/dbf.c}
+{Fid: 10, Defby: 1, Orig: 10, Path: /home/jun/xc5/test/basic/uaf.c}
+{Fid: 11, Defby: 1, Orig: 11, Path: /home/jun/xc5/test/basic/uiv.c}
+------------------------------------------------------------
+Local (1) to Global File_id Map
+------------------------------------------------------------
+{Local_fid: 1, Global_fid: 1}
+{Local_fid: 2, Global_fid: 2}
+{Local_fid: 3, Global_fid: 3}
+{Local_fid: 4, Global_fid: 4}
+{Local_fid: 5, Global_fid: 5}
+{Local_fid: 6, Global_fid: 6}
+{Local_fid: 7, Global_fid: 7}
+{Local_fid: 8, Global_fid: 8}
+{Local_fid: 9, Global_fid: 9}
+{Local_fid: 10, Global_fid: 10}
+{Local_fid: 11, Global_fid: 11}
+------------------------------------------------------------
+Local (2) to Global File_id Map
+------------------------------------------------------------
+{Local_fid: 1, Global_fid: 1}
+{Local_fid: 2, Global_fid: 2}
+{Local_fid: 3, Global_fid: 3}
+{Local_fid: 4, Global_fid: 4}
+{Local_fid: 5, Global_fid: 5}
+{Local_fid: 6, Global_fid: 6}
+{Local_fid: 7, Global_fid: 7}
+{Local_fid: 8, Global_fid: 8}
+{Local_fid: 9, Global_fid: 9}
+{Local_fid: 10, Global_fid: 10}
+{Local_fid: 11, Global_fid: 11}
+------------------------------------------------------------
+Local (3) to Global File_id Map
+------------------------------------------------------------
+{Local_fid: 1, Global_fid: 1}
+{Local_fid: 2, Global_fid: 2}
+{Local_fid: 3, Global_fid: 3}
+{Local_fid: 4, Global_fid: 4}
+{Local_fid: 5, Global_fid: 5}
+{Local_fid: 6, Global_fid: 6}
+{Local_fid: 7, Global_fid: 7}
+{Local_fid: 8, Global_fid: 8}
+{Local_fid: 9, Global_fid: 9}
+{Local_fid: 10, Global_fid: 10}
+{Local_fid: 11, Global_fid: 11}
+------------------------------------------------------------
+Local (4) to Global File_id Map
+------------------------------------------------------------
+{Local_fid: 1, Global_fid: 1}
+{Local_fid: 2, Global_fid: 2}
+{Local_fid: 3, Global_fid: 3}
+{Local_fid: 4, Global_fid: 4}
+{Local_fid: 5, Global_fid: 5}
+{Local_fid: 6, Global_fid: 6}
+{Local_fid: 7, Global_fid: 7}
+{Local_fid: 8, Global_fid: 8}
+{Local_fid: 9, Global_fid: 9}
+{Local_fid: 10, Global_fid: 11}
+============================================================
+DUMP AFTER UPDATE LINENO
+============================================================
+
+------------------------------------------------------------
+Line_match dump
+------------------------------------------------------------
+LINE_MATCH Trace for File:Makefile; File_id:0 :
+------------------------------------------------------------
+{Ln_limit: 0, Ln_change: 0, Operation: -}
+------------------------------------------------------------
+------------------------------------------------------------
+Current Scan Fid Path
+------------------------------------------------------------
+  {
+  "fid": 1,
+  "path": "/home/jun/xc5/test/basic/aob.c"
+  }  {
+  "fid": 2,
+  "path": "/usr/include/stdio.h"
+  }  {
+  "fid": 3,
+  "path": "/usr/include/libio.h"
+  }  {
+  "fid": 4,
+  "path": "/usr/include/x86_64-linux-gnu/bits/sys_errlist.h"
+  }  {
+  "fid": 5,
+  "path": "/usr/include/x86_64-linux-gnu/bits/byteswap.h"
+  }  {
+  "fid": 6,
+  "path": "/home/jun/xc5/test/basic/msf.c"
+  }  {
+  "fid": 7,
+  "path": "/usr/include/stdlib.h"
+  }  {
+  "fid": 8,
+  "path": "/home/jun/xc5/test/basic/npd.c"
+  }  {
+  "fid": 9,
+  "path": "/home/jun/xc5/test/basic/dbf.c"
+  }  {
+  "fid": 10,
+  "path": "/home/jun/xc5/test/basic/uiv.c"
+  }------------------------------------------------------------
+Current vtxt issues dump
+------------------------------------------------------------
+{Checksum: 0xeb217c426976a9, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:23:0:26,9:30:0:2,9:14:0:10,9:15:0:3]}
+{Checksum: 0xb75197a8d5e3952, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:25:0:26,9:30:0:2,9:14:0:10,9:15:0:3]}
+{Checksum: 0x1d5c64c922e18402, Issue: [A1000003],[@MSF@msf.c:11],[msf.c],[6:26],[Vul],[D],[MSF],[1,0,0],[p],[test_MSF()],[6:11:0:9,6:13:0:24,6:13:0:26,6:18:0:24,6:18:0:26,6:25:0:12,6:26:0:3]}
+{Checksum: 0x2990d2ece0261108, Issue: [A1000001],[a@UIV@aob.c:11],[aob.c],[1:15],[Vul],[D],[UIV],[1,0,0],[b],[test_AOB()],[1:11:0:4,1:20:0:2,1:12:0:2,1:5:0:1,1:12:0:18,1:15:0:3]}
+{Checksum: 0x3982a90ce08bfcc9, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:25:0:26,9:31:0:2,9:14:0:10,9:15:0:3]}
+{Checksum: 0x3fad6e1ebc232bb2, Issue: [A1000001],[a@UIV@aob.c:11],[aob.c],[1:15],[Vul],[D],[UIV],[1,0,0],[b],[test_AOB()],[1:11:0:4,1:12:0:2,1:5:0:1,1:12:0:18,1:15:0:3]}
+{Checksum: 0x46ecea2c2c1880d1, Issue: [A1000005],[@DBF@dbf.c:8@dbf.c:7],[dbf.c],[9:8],[Vul],[D],[DBF],[1,0,0],[p],[func_1()],[9:5:0:15,9:6:0:23,9:7:0:25,9:7:0:10,9:8:0:3]}
+{Checksum: 0x58a743905eeb1b2a, Issue: [A1000009],[@DBF@dbf.c:14@dbf.c:15],[dbf.c],[9:14],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:25:0:26,9:30:0:2,9:15:0:10,9:30:0:18,9:38:0:18,9:38:0:2,9:31:0:2,9:14:0:3]}
+{Checksum: 0x62e22545f60ecc8e, Issue: [A1000003],[@MSF@msf.c:11],[msf.c],[6:31],[Vul],[D],[MSF],[1,0,0],[p],[main()],[6:11:0:9,6:13:0:24,6:16:0:26,6:18:0:24,6:22:0:26,6:25:0:17,6:30:0:17,6:30:0:18,6:30:0:12,6:31:0:3]}
+{Checksum: 0x7db4656e7bcbbf45, Issue: [A1000002],[AOB@aob.c:15@aob.c:5],[aob.c],[1:15],[Vul],[D],[AOB],[1,0,0],[b],[test_AOB()],[1:5:0:1,1:12:0:18,1:15:0:3]}
+{Checksum: 0x7db4656e7bcbbf45, Issue: [A1000002],[AOB@aob.c:15@aob.c:5],[aob.c],[1:15],[Vul],[D],[AOB],[1,0,0],[b],[test_AOB()],[1:5:0:1,1:12:0:18,1:15:0:3]}
+{Checksum: 0x900c9fd7a8191238, Issue: [A1000005],[@DBF@dbf.c:8@dbf.c:7],[dbf.c],[9:8],[Vul],[D],[DBF],[1,0,0],[p],[func_1()],[9:22:0:9,9:23:0:24,9:25:0:26,9:29:0:2,9:7:0:10,9:8:0:3]}
+{Checksum: 0x942004c37de1713f, Issue: [A1000008],[@DBF@dbf.c:14@dbf.c:8],[dbf.c],[9:14],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:25:0:26,9:29:0:2,9:8:0:10,9:29:0:18,9:38:0:18,9:38:0:2,9:30:0:2,9:14:0:3]}
+{Checksum: 0x978908cc8883a526, Issue: [A1000005],[@DBF@dbf.c:8@dbf.c:7],[dbf.c],[9:8],[Vul],[D],[DBF],[1,0,0],[p],[func_1()],[9:22:0:9,9:23:0:24,9:23:0:26,9:29:0:2,9:7:0:10,9:8:0:3]}
+{Checksum: 0xb6ae91954d0d66ca, Issue: [A1000004],[a@NPD@npd.c:9],[npd.c],[8:13],[Vul],[D],[NPD],[1,0,0],[b],[test_NPD()],[8:9:0:1,8:10:0:2,8:4:0:1,8:5:0:1,8:10:0:18,8:13:0:3]}
+{Checksum: 0xb6ae91954d0d66ca, Issue: [A1000004],[a@NPD@npd.c:9],[npd.c],[8:13],[Vul],[D],[NPD],[1,0,0],[b],[test_NPD()],[8:9:0:1,8:10:0:2,8:4:0:1,8:5:0:1,8:10:0:18,8:13:0:3]}
+{Checksum: 0xcff120e625fc85b3, Issue: [A1000009],[@DBF@dbf.c:14@dbf.c:15],[dbf.c],[9:14],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:23:0:26,9:30:0:2,9:15:0:10,9:30:0:18,9:31:0:2,9:14:0:3]}
+{Checksum: 0xda2ab78d32b2dc90, Issue: [A1000007],[MSC37-C@CERT@dbf.c:18],[dbf.c],[9:18],[Vul],[D],[RBC],[1,0,0],[CERT],[MSC37-C],[],[func_2()],[9:18:0:3]}
+{Checksum: 0xf38088ffe8e8103d, Issue: [A1000008],[@DBF@dbf.c:14@dbf.c:8],[dbf.c],[9:14],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:23:0:26,9:29:0:2,9:8:0:10,9:29:0:18,9:30:0:2,9:14:0:3]}
+{Checksum: 0xf396acfacd1c31ea, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:23:0:26,9:31:0:2,9:14:0:10,9:15:0:3]}
+{Checksum: 0xf808eadd08d4b115, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:12:0:15,9:13:0:23,9:14:0:25,9:14:0:10,9:15:0:3]}
+------------------------------------------------------------
+Baseline vtxt issues dump
+------------------------------------------------------------
+{Checksum: 0xeb217c426976a9, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:23:0:26,9:30:0:2,9:14:0:10,9:15:0:3]}
+{Checksum: 0xb75197a8d5e3952, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:25:0:26,9:30:0:2,9:14:0:10,9:15:0:3]}
+{Checksum: 0x1d5c64c922e18402, Issue: [A1000003],[@MSF@msf.c:11],[msf.c],[6:26],[Vul],[D],[MSF],[1,0,0],[p],[test_MSF()],[6:11:0:9,6:13:0:24,6:13:0:26,6:18:0:24,6:18:0:26,6:25:0:12,6:26:0:3]}
+{Checksum: 0x2990d2ece0261108, Issue: [A1000001],[a@UIV@aob.c:11],[aob.c],[1:15],[Vul],[D],[UIV],[1,0,0],[b],[test_AOB()],[1:11:0:4,1:20:0:2,1:12:0:2,1:5:0:1,1:12:0:18,1:15:0:3]}
+{Checksum: 0x3982a90ce08bfcc9, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:25:0:26,9:31:0:2,9:14:0:10,9:15:0:3]}
+{Checksum: 0x3fad6e1ebc232bb2, Issue: [A1000001],[a@UIV@aob.c:11],[aob.c],[1:15],[Vul],[D],[UIV],[1,0,0],[b],[test_AOB()],[1:11:0:4,1:12:0:2,1:5:0:1,1:12:0:18,1:15:0:3]}
+{Checksum: 0x46ecea2c2c1880d1, Issue: [A1000005],[@DBF@dbf.c:8@dbf.c:7],[dbf.c],[9:8],[Vul],[D],[DBF],[1,0,0],[p],[func_1()],[9:5:0:15,9:6:0:23,9:7:0:25,9:7:0:10,9:8:0:3]}
+{Checksum: 0x58a743905eeb1b2a, Issue: [A1000009],[@DBF@dbf.c:14@dbf.c:15],[dbf.c],[9:14],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:25:0:26,9:30:0:2,9:15:0:10,9:30:0:18,9:38:0:18,9:38:0:2,9:31:0:2,9:14:0:3]}
+{Checksum: 0x62e22545f60ecc8e, Issue: [A1000003],[@MSF@msf.c:11],[msf.c],[6:31],[Vul],[D],[MSF],[1,0,0],[p],[main()],[6:11:0:9,6:13:0:24,6:16:0:26,6:18:0:24,6:22:0:26,6:25:0:17,6:30:0:17,6:30:0:18,6:30:0:12,6:31:0:3]}
+{Checksum: 0x7db4656e7bcbbf45, Issue: [A1000002],[AOB@aob.c:15@aob.c:5],[aob.c],[1:15],[Vul],[D],[AOB],[1,0,0],[b],[test_AOB()],[1:5:0:1,1:12:0:18,1:15:0:3]}
+{Checksum: 0x7db4656e7bcbbf45, Issue: [A1000002],[AOB@aob.c:15@aob.c:5],[aob.c],[1:15],[Vul],[D],[AOB],[1,0,0],[b],[test_AOB()],[1:5:0:1,1:12:0:18,1:15:0:3]}
+{Checksum: 0x900c9fd7a8191238, Issue: [A1000005],[@DBF@dbf.c:8@dbf.c:7],[dbf.c],[9:8],[Vul],[D],[DBF],[1,0,0],[p],[func_1()],[9:22:0:9,9:23:0:24,9:25:0:26,9:29:0:2,9:7:0:10,9:8:0:3]}
+{Checksum: 0x942004c37de1713f, Issue: [A1000008],[@DBF@dbf.c:14@dbf.c:8],[dbf.c],[9:14],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:25:0:26,9:29:0:2,9:8:0:10,9:29:0:18,9:38:0:18,9:38:0:2,9:30:0:2,9:14:0:3]}
+{Checksum: 0x978908cc8883a526, Issue: [A1000005],[@DBF@dbf.c:8@dbf.c:7],[dbf.c],[9:8],[Vul],[D],[DBF],[1,0,0],[p],[func_1()],[9:22:0:9,9:23:0:24,9:23:0:26,9:29:0:2,9:7:0:10,9:8:0:3]}
+{Checksum: 0xb6ae91954d0d66ca, Issue: [A1000004],[a@NPD@npd.c:9],[npd.c],[8:13],[Vul],[D],[NPD],[1,0,0],[b],[test_NPD()],[8:9:0:1,8:10:0:2,8:4:0:1,8:5:0:1,8:10:0:18,8:13:0:3]}
+{Checksum: 0xb6ae91954d0d66ca, Issue: [A1000004],[a@NPD@npd.c:9],[npd.c],[8:13],[Vul],[D],[NPD],[1,0,0],[b],[test_NPD()],[8:9:0:1,8:10:0:2,8:4:0:1,8:5:0:1,8:10:0:18,8:13:0:3]}
+{Checksum: 0xcff120e625fc85b3, Issue: [A1000009],[@DBF@dbf.c:14@dbf.c:15],[dbf.c],[9:14],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:23:0:26,9:30:0:2,9:15:0:10,9:30:0:18,9:31:0:2,9:14:0:3]}
+{Checksum: 0xda2ab78d32b2dc90, Issue: [A1000007],[MSC37-C@CERT@dbf.c:18],[dbf.c],[9:18],[Vul],[D],[RBC],[1,0,0],[CERT],[MSC37-C],[],[func_2()],[9:18:0:3]}
+{Checksum: 0xf38088ffe8e8103d, Issue: [A1000008],[@DBF@dbf.c:14@dbf.c:8],[dbf.c],[9:14],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:23:0:26,9:29:0:2,9:8:0:10,9:29:0:18,9:30:0:2,9:14:0:3]}
+{Checksum: 0xf396acfacd1c31ea, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:22:0:9,9:23:0:24,9:23:0:26,9:31:0:2,9:14:0:10,9:15:0:3]}
+{Checksum: 0xf808eadd08d4b115, Issue: [A1000006],[@DBF@dbf.c:15@dbf.c:14],[dbf.c],[9:15],[Vul],[D],[DBF],[1,0,0],[p],[func_2()],[9:12:0:15,9:13:0:23,9:14:0:25,9:14:0:10,9:15:0:3]}
+------------------------------------------------------------
+Current simple diff current issues dump
+------------------------------------------------------------
+<EMPTY>
+------------------------------------------------------------
+Baseline simple diff baseline issues dump
+------------------------------------------------------------
+{Checksum: 0xf772fdbd03579d3c, Issue: (null)}
+------------------------------------------------------------
+Current filt diff current issues dump
+------------------------------------------------------------
+{Checksum: 0x39ce8ebb5b7b155b, Issue: [A1000010],[a@UIV@uiv.c:9],[uiv.c],[10:11],[Vul],[D],[UIV],[1,0,0],[b],[test_UIV()],[10:9:0:4,10:10:0:2,10:5:0:1,10:10:0:18,10:11:0:3]}
+{Checksum: 0xf007927801175afe, Issue: [A1000010],[a@UIV@uiv.c:9],[uiv.c],[10:11],[Vul],[D],[UIV],[1,0,0],[b],[test_UIV()],[10:9:0:4,10:17:0:2,10:10:0:2,10:5:0:1,10:10:0:18,10:11:0:3]}
+------------------------------------------------------------
+Baseline filt diff baseline issues dump
+------------------------------------------------------------
+{Checksum: 0x0, Issue: [A1000010],[@UAF@uaf.c:8],[uaf.c],[10:26],[Vul],[D],[UAF],[1,0,0],[*q+(i*4)],[test_UAF()],[10:8:0:10,10:22:0:18,10:26:0:3]}
+{Checksum: 0x0, Issue: [A1000011],[a@UIV@uiv.c:9],[uiv.c],[11:11],[Vul],[D],[UIV],[1,0,0],[b],[test_UIV()],[11:9:0:4,11:17:0:2,11:10:0:2,11:5:0:1,11:10:0:18,11:11:0:3]}
+{Checksum: 0x0, Issue: [A1000011],[a@UIV@uiv.c:9],[uiv.c],[11:11],[Vul],[D],[UIV],[1,0,0],[b],[test_UIV()],[11:9:0:4,11:10:0:2,11:5:0:1,11:10:0:18,11:11:0:3]}
+{Checksum: 0x0, Issue: [A1000010],[@UAF@uaf.c:8],[uaf.c],[10:26],[Vul],[D],[UAF],[1,0,0],[*p+(*4)],[test_UAF()],[10:8:0:10,10:22:0:18,10:26:0:3]}
+{Checksum: 0xf772fdbd03579d3c, Issue: [A1000010],[@UAF@uaf.c:8],[uaf.c],[10:26],[Vul],[D],[UAF],[1,0,0],[*p+(*4)],[test_UAF()],[10:8:0:10,10:22:0:18,10:26:0:3]}
+------------------------------------------------------------
+Global File_id Path Map
+------------------------------------------------------------
+{Fid: 1, Defby: 1, Orig: 1, Path: /home/jun/xc5/test/basic/aob.c}
+{Fid: 2, Defby: 1, Orig: 2, Path: /usr/include/stdio.h}
+{Fid: 3, Defby: 1, Orig: 3, Path: /usr/include/libio.h}
+{Fid: 4, Defby: 1, Orig: 4, Path: /usr/include/x86_64-linux-gnu/bits/sys_errlist.h}
+{Fid: 5, Defby: 1, Orig: 5, Path: /usr/include/x86_64-linux-gnu/bits/byteswap.h}
+{Fid: 6, Defby: 1, Orig: 6, Path: /home/jun/xc5/test/basic/msf.c}
+{Fid: 7, Defby: 1, Orig: 7, Path: /usr/include/stdlib.h}
+{Fid: 8, Defby: 1, Orig: 8, Path: /home/jun/xc5/test/basic/npd.c}
+{Fid: 9, Defby: 1, Orig: 9, Path: /home/jun/xc5/test/basic/dbf.c}
+{Fid: 10, Defby: 1, Orig: 10, Path: /home/jun/xc5/test/basic/uaf.c}
+{Fid: 11, Defby: 1, Orig: 11, Path: /home/jun/xc5/test/basic/uiv.c}
+------------------------------------------------------------
+Local (1) to Global File_id Map
+------------------------------------------------------------
+{Local_fid: 1, Global_fid: 1}
+{Local_fid: 2, Global_fid: 2}
+{Local_fid: 3, Global_fid: 3}
+{Local_fid: 4, Global_fid: 4}
+{Local_fid: 5, Global_fid: 5}
+{Local_fid: 6, Global_fid: 6}
+{Local_fid: 7, Global_fid: 7}
+{Local_fid: 8, Global_fid: 8}
+{Local_fid: 9, Global_fid: 9}
+{Local_fid: 10, Global_fid: 10}
+{Local_fid: 11, Global_fid: 11}
+------------------------------------------------------------
+Local (2) to Global File_id Map
+------------------------------------------------------------
+{Local_fid: 1, Global_fid: 1}
+{Local_fid: 2, Global_fid: 2}
+{Local_fid: 3, Global_fid: 3}
+{Local_fid: 4, Global_fid: 4}
+{Local_fid: 5, Global_fid: 5}
+{Local_fid: 6, Global_fid: 6}
+{Local_fid: 7, Global_fid: 7}
+{Local_fid: 8, Global_fid: 8}
+{Local_fid: 9, Global_fid: 9}
+{Local_fid: 10, Global_fid: 10}
+{Local_fid: 11, Global_fid: 11}
+------------------------------------------------------------
+Local (3) to Global File_id Map
+------------------------------------------------------------
+{Local_fid: 1, Global_fid: 1}
+{Local_fid: 2, Global_fid: 2}
+{Local_fid: 3, Global_fid: 3}
+{Local_fid: 4, Global_fid: 4}
+{Local_fid: 5, Global_fid: 5}
+{Local_fid: 6, Global_fid: 6}
+{Local_fid: 7, Global_fid: 7}
+{Local_fid: 8, Global_fid: 8}
+{Local_fid: 9, Global_fid: 9}
+{Local_fid: 10, Global_fid: 10}
+{Local_fid: 11, Global_fid: 11}
+------------------------------------------------------------
+Local (4) to Global File_id Map
+------------------------------------------------------------
+{Local_fid: 1, Global_fid: 1}
+{Local_fid: 2, Global_fid: 2}
+{Local_fid: 3, Global_fid: 3}
+{Local_fid: 4, Global_fid: 4}
+{Local_fid: 5, Global_fid: 5}
+{Local_fid: 6, Global_fid: 6}
+{Local_fid: 7, Global_fid: 7}
+{Local_fid: 8, Global_fid: 8}
+{Local_fid: 9, Global_fid: 9}
+{Local_fid: 10, Global_fid: 11}
+
+The size of N vec 2
+
+The size of F vec 5
+
+The size of L vec 0
+
+The size of E vec 21
+var is empty, skip var.
+ filename_ln is uaf.c:8
+var is empty, skip var.
+ filename_ln is uaf.c:8
+var is empty, skip var.
+ filename_ln is uaf.c:8
+var is empty, skip var.
+ filename_ln is dbf.c:14
+var is empty, skip var.
+ filename_ln is dbf.c:14
+var is empty, skip var.
+ filename_ln is msf.c:11
+var is empty, skip var.
+ filename_ln is dbf.c:14
+var is empty, skip var.
+ filename_ln is dbf.c:7
+var is empty, skip var.
+ filename_ln is dbf.c:15
+var is empty, skip var.
+ filename_ln is msf.c:11
+var is empty, skip var.
+ filename_ln is dbf.c:7
+var is empty, skip var.
+ filename_ln is dbf.c:8
+var is empty, skip var.
+ filename_ln is dbf.c:7
+var is empty, skip var.
+ filename_ln is dbf.c:15
+var is empty, skip var.
+ filename_ln is dbf.c:8
+var is empty, skip var.
+ filename_ln is dbf.c:14
+var is empty, skip var.
+ filename_ln is dbf.c:14
+
+COMPARE mode is 1
+
+The size of vec of line number change 1
+
+The time usage of vtxt_diff is 0.001764s 
+If the partial scan: 0

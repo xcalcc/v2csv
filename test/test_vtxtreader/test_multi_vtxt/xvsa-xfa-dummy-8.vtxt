@@ -1,0 +1,8 @@
+{"V", A, 0.7}
+[
+  {
+  "fid": 1,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/SpringIntegration.java"
+  }
+]
+[A10],[e@ERR08-J@CERT@SpringIntegration.java:70],[SpringIntegration.java],[1:70],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR08-J],[e],#com.google.inject.spring.SpringIntegration.bindBean(com.google.inject.Binder, org.springframework.beans.factory.ListableBeanFactory, java.lang.String, java.lang.Class)#,[1:70:0:3]

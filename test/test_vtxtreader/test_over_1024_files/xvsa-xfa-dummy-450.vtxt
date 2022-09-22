@@ -1,0 +1,116 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/scan.l"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/scan.c"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/common/keywords.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/mb/pg_wchar.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/parser/scansup.h"
+  },
+  {
+  "fid": 16,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/utils/guc.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 19,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 20,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 21,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 22,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 25,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 26,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/tcop/dest.h"
+  },
+  {
+  "fid": 27,
+  "path": "/home/xc5/cprojects/tbase/src/backend/parser/../../../src/include/utils/array.h"
+  }
+]
+[Au5em],[b@NPD@scan.c:10642],[scan.c],[10:10648],[Vul],[M],[NPD],[1,0,0],[b],#core_yy_init_buffer()#,[10:10537:0:2,10:10642:0:1,10:10642:0:17,10:10642:0:1,10:10648:0:3]
+[Au5em],[b@NPD@scan.c:10642],[scan.c],[10:10649],[Vul],[M],[NPD],[1,0,0],[b],#core_yy_init_buffer()#,[10:10537:0:2,10:10642:0:1,10:10642:0:17,10:10642:0:1,10:10649:0:3]
+[Au5em],[b@NPD@scan.c:10642],[scan.c],[10:10660],[Vul],[M],[NPD],[1,0,0],[b],#core_yy_init_buffer()#,[10:10537:0:2,10:10642:0:1,10:10642:0:17,10:10642:0:1,10:10660:0:3]
+[Au5em],[b@NPD@scan.c:10642],[scan.c],[10:10656],[Vul],[M],[NPD],[1,0,0],[b],#core_yy_init_buffer()#,[10:10537:0:2,10:10642:0:1,10:10642:0:17,10:10642:0:1,10:10656:0:3]
+[Au5em],[b@NPD@scan.c:10642],[scan.c],[10:10657],[Vul],[M],[NPD],[1,0,0],[b],#core_yy_init_buffer()#,[10:10537:0:2,10:10642:0:1,10:10642:0:17,10:10642:0:1,10:10657:0:3]
+[Au5em],[yyscanner->yy_n_chars@ERR33-C@CERT@scan.c:10362@scan.c:10362],[scan.c],[10:10362],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[yyscanner->yy_n_chars],#yy_get_next_buffer()#,[10:10362:0:3,10:10362:0:16]
+[Au5em],[getc@FIO34-C@CERT@scan.c:10401@scan.c:10362],[scan.c],[10:10362],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO34-C],[getc],#yy_get_next_buffer()#,[10:10362:0:3,10:10362:0:17,10:10362:0:2,10:10888:0:2,10:10362:0:2,10:10888:0:2,10:10385:0:17,10:10387:0:17,10:10401:0:16]
+[Au5em],[ident@STR38-C@CERT@scan.l:768@scan.l:767],[scan.l],[8:768],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[ident],#core_yylex()#,[8:767:0:1,8:768:0:3]
+[Au5em],[ident@STR38-C@CERT@scan.l:789@scan.l:788],[scan.l],[8:789],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[ident],#core_yylex()#,[8:788:0:1,8:789:0:3]

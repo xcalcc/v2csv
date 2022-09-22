@@ -1,0 +1,561 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/utils/rel.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/storage/bufpage.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/port/atomics/arch-x86.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/port/atomics/generic-gcc.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/port/atomics/generic.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/port/atomics.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/utils/sortsupport.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/storage/s_lock.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/executor/executor.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/executor/tuptable.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/pgstat.h"
+  },
+  {
+  "fid": 19,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/storage/proc.h"
+  },
+  {
+  "fid": 20,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/utils/snapmgr.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/miscadmin.h"
+  },
+  {
+  "fid": 22,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/storage/bufmgr.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/utils/tqual.h"
+  },
+  {
+  "fid": 25,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/utils/memutils.h"
+  },
+  {
+  "fid": 26,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/analyze.c"
+  },
+  {
+  "fid": 27,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/postmaster/autovacuum.h"
+  },
+  {
+  "fid": 28,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/access/heapam.h"
+  },
+  {
+  "fid": 29,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/utils/ruleutils.h"
+  },
+  {
+  "fid": 30,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/access/xact.h"
+  },
+  {
+  "fid": 31,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/storage/lmgr.h"
+  },
+  {
+  "fid": 32,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/utils/acl.h"
+  },
+  {
+  "fid": 33,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/catalog/catalog.h"
+  },
+  {
+  "fid": 34,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/storage/backendid.h"
+  },
+  {
+  "fid": 35,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/pgxc/pgxc.h"
+  },
+  {
+  "fid": 36,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/utils/lsyscache.h"
+  },
+  {
+  "fid": 37,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/foreign/fdwapi.h"
+  },
+  {
+  "fid": 38,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/storage/lwlock.h"
+  },
+  {
+  "fid": 39,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/utils/guc.h"
+  },
+  {
+  "fid": 40,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/utils/pg_rusage.h"
+  },
+  {
+  "fid": 41,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/utils/timestamp.h"
+  },
+  {
+  "fid": 42,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/parser/parse_relation.h"
+  },
+  {
+  "fid": 43,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/utils/relcrypt.h"
+  },
+  {
+  "fid": 44,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/commands/vacuum.h"
+  },
+  {
+  "fid": 45,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/catalog/index.h"
+  },
+  {
+  "fid": 46,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/utils/attoptcache.h"
+  },
+  {
+  "fid": 47,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/statistics/statistics.h"
+  },
+  {
+  "fid": 48,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/access/visibilitymap.h"
+  },
+  {
+  "fid": 49,
+  "path": "/usr/include/bits/mathcalls.h"
+  },
+  {
+  "fid": 50,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/access/genam.h"
+  },
+  {
+  "fid": 51,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/commands/dbcommands.h"
+  },
+  {
+  "fid": 52,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/utils/datum.h"
+  },
+  {
+  "fid": 53,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/nodes/nodeFuncs.h"
+  },
+  {
+  "fid": 54,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/utils/syscache.h"
+  },
+  {
+  "fid": 55,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 56,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/access/htup_details.h"
+  },
+  {
+  "fid": 57,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/storage/procarray.h"
+  },
+  {
+  "fid": 58,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/utils/sampling.h"
+  },
+  {
+  "fid": 59,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 60,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/access/htup.h"
+  },
+  {
+  "fid": 61,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/port.h"
+  },
+  {
+  "fid": 62,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/catalog/pg_inherits_fn.h"
+  },
+  {
+  "fid": 63,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/commands/tablecmds.h"
+  },
+  {
+  "fid": 64,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/access/tupdesc.h"
+  },
+  {
+  "fid": 65,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/access/tupconvert.h"
+  },
+  {
+  "fid": 66,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/utils/array.h"
+  },
+  {
+  "fid": 67,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/catalog/indexing.h"
+  },
+  {
+  "fid": 68,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/catalog/namespace.h"
+  },
+  {
+  "fid": 69,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/parser/parse_oper.h"
+  },
+  {
+  "fid": 70,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/access/tuptoaster.h"
+  },
+  {
+  "fid": 71,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/utils/relcryptmisc.h"
+  },
+  {
+  "fid": 72,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 73,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/lib/stringinfo.h"
+  },
+  {
+  "fid": 74,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 75,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/pgxc/execRemote.h"
+  },
+  {
+  "fid": 76,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/storage/shmem.h"
+  },
+  {
+  "fid": 77,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/utils/hsearch.h"
+  },
+  {
+  "fid": 78,
+  "path": "/usr/include/pthread.h"
+  },
+  {
+  "fid": 79,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/nodes/nodes.h"
+  },
+  {
+  "fid": 80,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/nodes/makefuncs.h"
+  },
+  {
+  "fid": 81,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/utils/builtins.h"
+  },
+  {
+  "fid": 82,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/funcapi.h"
+  },
+  {
+  "fid": 83,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 84,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 85,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 86,
+  "path": "/usr/include/math.h"
+  },
+  {
+  "fid": 87,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 88,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/common/relpath.h"
+  },
+  {
+  "fid": 89,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 90,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/access/transam.h"
+  },
+  {
+  "fid": 91,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/storage/fd.h"
+  },
+  {
+  "fid": 92,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/access/xlog.h"
+  },
+  {
+  "fid": 93,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/catalog/pg_operator.h"
+  },
+  {
+  "fid": 94,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 95,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 96,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/pgxc/shardmap.h"
+  },
+  {
+  "fid": 97,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/catalog/objectaddress.h"
+  },
+  {
+  "fid": 98,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/pgtime.h"
+  },
+  {
+  "fid": 99,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 100,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/storage/sinval.h"
+  },
+  {
+  "fid": 101,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/utils/datetime.h"
+  },
+  {
+  "fid": 102,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/utils/resowner.h"
+  },
+  {
+  "fid": 103,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 104,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 105,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/storage/dsm_impl.h"
+  },
+  {
+  "fid": 106,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/executor/instrument.h"
+  },
+  {
+  "fid": 107,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/tcop/dest.h"
+  },
+  {
+  "fid": 108,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/pgxc/squeue.h"
+  },
+  {
+  "fid": 109,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/storage/lock.h"
+  },
+  {
+  "fid": 110,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/postmaster/bgworker.h"
+  },
+  {
+  "fid": 111,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/storage/shm_mq.h"
+  },
+  {
+  "fid": 112,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/access/parallel.h"
+  },
+  {
+  "fid": 113,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/libpq/pqcomm.h"
+  },
+  {
+  "fid": 114,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/postmaster/pgarch.h"
+  },
+  {
+  "fid": 115,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/storage/standby.h"
+  },
+  {
+  "fid": 116,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/utils/portal.h"
+  },
+  {
+  "fid": 117,
+  "path": "/home/xc5/cprojects/tbase/src/backend/commands/../../../src/include/tcop/pquery.h"
+  }
+]
+[Au5em],[RCD@analyze.c:1458@analyze.c:1456],[analyze.c],[26:1458],[Vul],[D],[RCD],[1,0,0],[],#compare_rows()#,[26:1456:0:11,26:1456:0:24,26:1456:0:26,26:1458:0:3]
+[Au5em],[RCD@analyze.c:1462@analyze.c:1460],[analyze.c],[26:1462],[Vul],[D],[RCD],[1,0,0],[],#compare_rows()#,[26:1460:0:11,26:1460:0:24,26:1460:0:26,26:1462:0:3]
+[Au5em],[RCD@analyze.c:1462@analyze.c:1460],[analyze.c],[26:1462],[Vul],[D],[RCD],[1,0,0],[],#compare_rows()#,[26:1460:0:11,26:1460:0:24,26:1460:0:26,26:1462:0:3]
+[Au5em],[RCD@analyze.c:1458@analyze.c:1456],[analyze.c],[26:1458],[Vul],[D],[RCD],[1,0,0],[],#compare_rows()#,[26:1456:0:11,26:1456:0:24,26:1456:0:26,26:1458:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2138],[Vul],[M],[NPD],[1,0,0],[value],#compute_trivial_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2120:0:18,26:2123:0:24,26:2128:0:26,26:2136:0:23,26:2138:0:25,26:2120:0:1,26:2138:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2138],[Vul],[M],[NPD],[1,0,0],[value],#compute_trivial_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2120:0:18,26:2123:0:24,26:2128:0:26,26:2136:0:23,26:2138:0:25,26:2120:0:1,26:2138:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2138],[Vul],[M],[NPD],[1,0,0],[value],#compute_trivial_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2120:0:18,26:2123:0:24,26:2128:0:26,26:2136:0:23,26:2138:0:25,26:2138:0:24,26:2138:0:26,26:2120:0:1,26:2138:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2138],[Vul],[M],[NPD],[1,0,0],[value],#compute_trivial_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2120:0:18,26:2123:0:24,26:2128:0:26,26:2136:0:23,26:2138:0:25,26:2138:0:24,26:2138:0:26,26:2120:0:1,26:2138:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2138],[Vul],[M],[NPD],[1,0,0],[value],#compute_trivial_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2120:0:18,26:2123:0:24,26:2128:0:26,26:2136:0:23,26:2138:0:25,26:2138:0:24,26:2138:0:26,26:2120:0:1,26:2138:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2138],[Vul],[M],[NPD],[1,0,0],[value],#compute_trivial_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2120:0:18,26:2123:0:24,26:2128:0:26,26:2136:0:23,26:2138:0:25,26:2138:0:24,26:2138:0:26,26:2120:0:1,26:2138:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2138],[Vul],[M],[NPD],[1,0,0],[value],#compute_trivial_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2120:0:18,26:2123:0:24,26:2128:0:26,26:2136:0:23,26:2138:0:25,26:2138:0:23,26:2138:0:25,26:2120:0:1,26:2138:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2138],[Vul],[M],[NPD],[1,0,0],[value],#compute_trivial_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2120:0:18,26:2123:0:24,26:2128:0:26,26:2136:0:23,26:2138:0:25,26:2138:0:23,26:2138:0:25,26:2120:0:1,26:2138:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2138],[Vul],[M],[NPD],[1,0,0],[value],#compute_trivial_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2120:0:18,26:2123:0:24,26:2128:0:26,26:2136:0:23,26:2138:0:25,26:2138:0:23,26:2138:0:25,26:2120:0:1,26:2138:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2138],[Vul],[M],[NPD],[1,0,0],[value],#compute_trivial_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2120:0:18,26:2123:0:24,26:2128:0:26,26:2136:0:23,26:2138:0:25,26:2138:0:23,26:2138:0:25,26:2120:0:1,26:2138:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2138],[Vul],[M],[NPD],[1,0,0],[value],#compute_trivial_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2120:0:18,26:2123:0:24,26:2128:0:26,26:2136:0:23,26:2138:0:25,26:2138:0:23,26:2138:0:25,26:2120:0:1,26:2138:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2138],[Vul],[M],[NPD],[1,0,0],[value],#compute_trivial_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2120:0:18,26:2123:0:24,26:2128:0:26,26:2136:0:23,26:2138:0:25,26:2138:0:23,26:2138:0:25,26:2120:0:1,26:2138:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2138],[Vul],[M],[NPD],[1,0,0],[value],#compute_trivial_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2120:0:18,26:2123:0:24,26:2128:0:26,26:2136:0:23,26:2138:0:25,26:2138:0:23,26:2138:0:25,26:2120:0:1,26:2138:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2138],[Vul],[M],[NPD],[1,0,0],[value],#compute_trivial_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2120:0:18,26:2123:0:24,26:2128:0:26,26:2136:0:23,26:2138:0:25,26:2138:0:23,26:2138:0:25,26:2120:0:1,26:2138:0:3]
+[Au5em],[value@STR38-C@CERT@analyze.c:2143@analyze.c:2120],[analyze.c],[26:2143],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[value],#compute_trivial_stats()#,[26:2120:0:1,26:2143:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2254],[Vul],[M],[NPD],[1,0,0],[value],#compute_distinct_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2236:0:18,26:2236:0:1,26:2239:0:24,26:2244:0:26,26:2252:0:23,26:2254:0:25,26:2254:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2254],[Vul],[M],[NPD],[1,0,0],[value],#compute_distinct_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2236:0:18,26:2236:0:1,26:2239:0:24,26:2244:0:26,26:2252:0:23,26:2254:0:25,26:2254:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2254],[Vul],[M],[NPD],[1,0,0],[value],#compute_distinct_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2236:0:18,26:2236:0:1,26:2239:0:24,26:2244:0:26,26:2252:0:23,26:2254:0:25,26:2254:0:24,26:2254:0:26,26:2254:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2254],[Vul],[M],[NPD],[1,0,0],[value],#compute_distinct_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2236:0:18,26:2236:0:1,26:2239:0:24,26:2244:0:26,26:2252:0:23,26:2254:0:25,26:2254:0:24,26:2254:0:26,26:2254:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2254],[Vul],[M],[NPD],[1,0,0],[value],#compute_distinct_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2236:0:18,26:2236:0:1,26:2239:0:24,26:2244:0:26,26:2252:0:23,26:2254:0:25,26:2254:0:24,26:2254:0:26,26:2254:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2254],[Vul],[M],[NPD],[1,0,0],[value],#compute_distinct_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2236:0:18,26:2236:0:1,26:2239:0:24,26:2244:0:26,26:2252:0:23,26:2254:0:25,26:2254:0:24,26:2254:0:26,26:2254:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2254],[Vul],[M],[NPD],[1,0,0],[value],#compute_distinct_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2236:0:18,26:2236:0:1,26:2239:0:24,26:2244:0:26,26:2252:0:23,26:2254:0:25,26:2254:0:23,26:2254:0:25,26:2254:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2254],[Vul],[M],[NPD],[1,0,0],[value],#compute_distinct_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2236:0:18,26:2236:0:1,26:2239:0:24,26:2244:0:26,26:2252:0:23,26:2254:0:25,26:2254:0:23,26:2254:0:25,26:2254:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2254],[Vul],[M],[NPD],[1,0,0],[value],#compute_distinct_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2236:0:18,26:2236:0:1,26:2239:0:24,26:2244:0:26,26:2252:0:23,26:2254:0:25,26:2254:0:23,26:2254:0:25,26:2254:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2254],[Vul],[M],[NPD],[1,0,0],[value],#compute_distinct_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2236:0:18,26:2236:0:1,26:2239:0:24,26:2244:0:26,26:2252:0:23,26:2254:0:25,26:2254:0:23,26:2254:0:25,26:2254:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2254],[Vul],[M],[NPD],[1,0,0],[value],#compute_distinct_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2236:0:18,26:2236:0:1,26:2239:0:24,26:2244:0:26,26:2252:0:23,26:2254:0:25,26:2254:0:23,26:2254:0:25,26:2254:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2254],[Vul],[M],[NPD],[1,0,0],[value],#compute_distinct_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2236:0:18,26:2236:0:1,26:2239:0:24,26:2244:0:26,26:2252:0:23,26:2254:0:25,26:2254:0:23,26:2254:0:25,26:2254:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2254],[Vul],[M],[NPD],[1,0,0],[value],#compute_distinct_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2236:0:18,26:2236:0:1,26:2239:0:24,26:2244:0:26,26:2252:0:23,26:2254:0:25,26:2254:0:23,26:2254:0:25,26:2254:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2254],[Vul],[M],[NPD],[1,0,0],[value],#compute_distinct_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2236:0:18,26:2236:0:1,26:2239:0:24,26:2244:0:26,26:2252:0:23,26:2254:0:25,26:2254:0:23,26:2254:0:25,26:2254:0:3]
+[Au5em],[value@STR38-C@CERT@analyze.c:2273],[analyze.c],[26:2273],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[value],#compute_distinct_stats()#,[26:2273:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2666],[Vul],[M],[NPD],[1,0,0],[value],#compute_scalar_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2646:0:18,26:2646:0:1,26:2646:0:17,26:2666:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2666],[Vul],[M],[NPD],[1,0,0],[value],#compute_scalar_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2646:0:18,26:2646:0:1,26:2646:0:17,26:2666:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2666],[Vul],[M],[NPD],[1,0,0],[value],#compute_scalar_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2646:0:18,26:2646:0:1,26:2646:0:17,26:2666:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2666],[Vul],[M],[NPD],[1,0,0],[value],#compute_scalar_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2646:0:18,26:2646:0:1,26:2646:0:17,26:2666:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2666],[Vul],[M],[NPD],[1,0,0],[value],#compute_scalar_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2646:0:18,26:2646:0:1,26:2646:0:17,26:2666:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2666],[Vul],[M],[NPD],[1,0,0],[value],#compute_scalar_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2646:0:18,26:2646:0:1,26:2646:0:17,26:2666:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2666],[Vul],[M],[NPD],[1,0,0],[value],#compute_scalar_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2646:0:18,26:2646:0:1,26:2646:0:17,26:2666:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2666],[Vul],[M],[NPD],[1,0,0],[value],#compute_scalar_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2646:0:18,26:2646:0:1,26:2646:0:17,26:2666:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2666],[Vul],[M],[NPD],[1,0,0],[value],#compute_scalar_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2646:0:18,26:2646:0:1,26:2646:0:17,26:2666:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2666],[Vul],[M],[NPD],[1,0,0],[value],#compute_scalar_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2646:0:18,26:2646:0:1,26:2646:0:17,26:2666:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2666],[Vul],[M],[NPD],[1,0,0],[value],#compute_scalar_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2646:0:18,26:2646:0:1,26:2646:0:17,26:2666:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2666],[Vul],[M],[NPD],[1,0,0],[value],#compute_scalar_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2646:0:18,26:2646:0:1,26:2646:0:17,26:2666:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2666],[Vul],[M],[NPD],[1,0,0],[value],#compute_scalar_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2646:0:18,26:2646:0:1,26:2646:0:17,26:2666:0:3]
+[Au5em],[value@NPD@analyze.c:1938],[analyze.c],[26:2666],[Vul],[M],[NPD],[1,0,0],[value],#compute_scalar_stats()#,[26:1938:0:1,26:1938:0:17,26:1938:0:1,26:2646:0:18,26:2646:0:1,26:2646:0:17,26:2666:0:3]
+[Au5em],[value@STR38-C@CERT@analyze.c:2685],[analyze.c],[26:2685],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[value],#compute_scalar_stats()#,[26:2685:0:3]
+[Au5em],[found@UIV@analyze.c:4424],[analyze.c],[26:4429],[Vul],[M],[UIV],[1,0,0],[found],#QueryAnalyzeInfoInit()#,[26:4424:0:4,26:4422:0:23,26:4426:0:25,26:4426:0:5,26:4429:0:3]
+[Au5em],[plan@STR38-C@CERT@analyze.c:4563@analyze.c:4552],[analyze.c],[26:4563],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[plan],#StoreQueryAnalyzeInfo()#,[26:4552:0:1,26:4563:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@analyze.c:4576],[analyze.c],[26:4576],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#StoreQueryAnalyzeInfo()#,[26:4576:0:3]
+[Au5em],[plan@STR38-C@CERT@analyze.c:4493@analyze.c:4482],[analyze.c],[26:4493],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[plan],#StoreQueryAnalyzeInfo()#,[26:4482:0:1,26:4493:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@analyze.c:4527],[analyze.c],[26:4527],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#StoreQueryAnalyzeInfo()#,[26:4527:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@analyze.c:4528],[analyze.c],[26:4528],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#StoreQueryAnalyzeInfo()#,[26:4528:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@analyze.c:4738],[analyze.c],[26:4738],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#GetAnalyzeInfo()#,[26:4738:0:3]
+[Au5em],[random@MSC32-C@CERT@analyze.c:4884@analyze.c:1226],[analyze.c],[26:1226],[Vul],[D],[RBC],[1,0,0],[CERT],[MSC32-C],[random],#acquire_sample_rows()#,[26:1226:0:3,26:1231:0:17,26:1207:0:17,26:4996:0:2,26:4996:0:17,26:4986:0:17,26:4980:0:17,26:4966:0:17,26:4959:0:17,26:4949:0:17,26:4941:0:17,26:4931:0:17,26:4917:0:17,26:4911:0:17,26:4903:0:17,26:4898:0:17,26:4884:0:17]
+[Au5em],[0x0@NPD@pg_list.h:79],[analyze.c],[26:5107],[Vul],[M],[NPD],[1,0,0],[0x0],#acquire_coordinator_sample_rows()#,[6:79:0:1,6:79:0:17,6:79:0:1,26:5107:0:18,26:5107:0:3]
+[Au5em],[thisdata@NPD@analyze.c:559],[analyze.c],[26:914],[Vul],[M],[NPD],[1,0,0],[thisdata],#compute_index_stats()#,[26:559:0:1,26:560:0:24,26:560:0:26,26:560:0:17,26:733:0:2,26:898:0:4,26:898:0:1,26:911:0:23,26:911:0:25,26:913:0:1,26:914:0:3]
+[Au5em],[thisdata@NPD@analyze.c:559],[analyze.c],[26:915],[Vul],[M],[NPD],[1,0,0],[thisdata],#compute_index_stats()#,[26:559:0:1,26:560:0:24,26:560:0:26,26:560:0:17,26:733:0:2,26:898:0:4,26:898:0:1,26:911:0:23,26:911:0:25,26:913:0:1,26:915:0:3]
+[Au5em],[thisdata@NPD@analyze.c:559],[analyze.c],[26:1017],[Vul],[M],[NPD],[1,0,0],[thisdata],#compute_index_stats()#,[26:559:0:1,26:560:0:24,26:560:0:26,26:560:0:17,26:733:0:2,26:898:0:4,26:898:0:1,26:929:0:23,26:929:0:25,26:911:0:23,26:911:0:25,26:913:0:1,26:1017:0:3]
+[Au5em],[thisdata@NPD@analyze.c:559],[analyze.c],[26:1028],[Vul],[M],[NPD],[1,0,0],[thisdata],#compute_index_stats()#,[26:559:0:1,26:560:0:24,26:560:0:26,26:560:0:17,26:733:0:2,26:898:0:4,26:898:0:1,26:929:0:23,26:929:0:25,26:911:0:23,26:911:0:25,26:1023:0:23,26:1025:0:25,26:1026:0:23,26:1026:0:25,26:913:0:1,26:1028:0:3]
+[Au5em],[thisdata@NPD@analyze.c:559],[analyze.c],[26:993],[Vul],[M],[NPD],[1,0,0],[thisdata],#compute_index_stats()#,[26:559:0:1,26:560:0:24,26:560:0:26,26:560:0:17,26:733:0:2,26:898:0:4,26:898:0:1,26:968:0:23,26:970:0:25,26:929:0:23,26:929:0:25,26:911:0:23,26:911:0:25,26:952:0:23,26:952:0:25,26:975:0:23,26:981:0:25,26:913:0:1,26:993:0:3]
+[Au5em],[stats@NPD@analyze.c:1164],[analyze.c],[26:696],[Vul],[D],[NPD],[1,0,0],[stats],#do_analyze_rel()#,[26:1164:0:1,26:531:0:18,26:523:0:17,26:541:0:17,26:693:0:1,26:696:0:3]
+[Au5em],[stats@NPD@analyze.c:1098],[analyze.c],[26:696],[Vul],[D],[NPD],[1,0,0],[stats],#do_analyze_rel()#,[26:1098:0:1,26:531:0:18,26:523:0:17,26:541:0:17,26:693:0:1,26:696:0:3]
+[Au5em],[stats@NPD@analyze.c:1094],[analyze.c],[26:696],[Vul],[D],[NPD],[1,0,0],[stats],#do_analyze_rel()#,[26:1094:0:1,26:531:0:18,26:523:0:17,26:541:0:17,26:693:0:1,26:696:0:3]
+[Au5em],[stats@NPD@analyze.c:1164],[analyze.c],[26:697],[Vul],[D],[NPD],[1,0,0],[stats],#do_analyze_rel()#,[26:1164:0:1,26:531:0:18,26:523:0:17,26:541:0:17,26:693:0:1,26:697:0:3]
+[Au5em],[stats@NPD@analyze.c:1098],[analyze.c],[26:697],[Vul],[D],[NPD],[1,0,0],[stats],#do_analyze_rel()#,[26:1098:0:1,26:531:0:18,26:523:0:17,26:541:0:17,26:693:0:1,26:697:0:3]
+[Au5em],[stats@NPD@analyze.c:1094],[analyze.c],[26:697],[Vul],[D],[NPD],[1,0,0],[stats],#do_analyze_rel()#,[26:1094:0:1,26:531:0:18,26:523:0:17,26:541:0:17,26:693:0:1,26:697:0:3]
+[Au5em],[stats@NPD@analyze.c:1164],[analyze.c],[26:705],[Vul],[D],[NPD],[1,0,0],[stats],#do_analyze_rel()#,[26:1164:0:1,26:531:0:18,26:523:0:17,26:541:0:17,26:693:0:1,26:705:0:3]
+[Au5em],[stats@NPD@analyze.c:1098],[analyze.c],[26:705],[Vul],[D],[NPD],[1,0,0],[stats],#do_analyze_rel()#,[26:1098:0:1,26:531:0:18,26:523:0:17,26:541:0:17,26:693:0:1,26:705:0:3]
+[Au5em],[stats@NPD@analyze.c:1094],[analyze.c],[26:705],[Vul],[D],[NPD],[1,0,0],[stats],#do_analyze_rel()#,[26:1094:0:1,26:531:0:18,26:523:0:17,26:541:0:17,26:693:0:1,26:705:0:3]
+[Au5em],[stats@NPD@analyze.c:1164],[analyze.c],[26:710],[Vul],[D],[NPD],[1,0,0],[stats],#do_analyze_rel()#,[26:1164:0:1,26:531:0:18,26:523:0:17,26:541:0:17,26:693:0:1,26:710:0:3]
+[Au5em],[stats@NPD@analyze.c:1098],[analyze.c],[26:710],[Vul],[D],[NPD],[1,0,0],[stats],#do_analyze_rel()#,[26:1098:0:1,26:531:0:18,26:523:0:17,26:541:0:17,26:693:0:1,26:710:0:3]
+[Au5em],[stats@NPD@analyze.c:1094],[analyze.c],[26:710],[Vul],[D],[NPD],[1,0,0],[stats],#do_analyze_rel()#,[26:1094:0:1,26:531:0:18,26:523:0:17,26:541:0:17,26:693:0:1,26:710:0:3]
+[Au5em],[stats@NPD@analyze.c:1164],[analyze.c],[26:719],[Vul],[D],[NPD],[1,0,0],[stats],#do_analyze_rel()#,[26:1164:0:1,26:531:0:18,26:523:0:17,26:541:0:17,26:693:0:1,26:719:0:3]
+[Au5em],[stats@NPD@analyze.c:1098],[analyze.c],[26:719],[Vul],[D],[NPD],[1,0,0],[stats],#do_analyze_rel()#,[26:1098:0:1,26:531:0:18,26:523:0:17,26:541:0:17,26:693:0:1,26:719:0:3]
+[Au5em],[stats@NPD@analyze.c:1094],[analyze.c],[26:719],[Vul],[D],[NPD],[1,0,0],[stats],#do_analyze_rel()#,[26:1094:0:1,26:531:0:18,26:523:0:17,26:541:0:17,26:693:0:1,26:719:0:3]
+[Au5em],[stats@NPD@analyze.c:1164],[analyze.c],[26:726],[Vul],[D],[NPD],[1,0,0],[stats],#do_analyze_rel()#,[26:1164:0:1,26:531:0:18,26:523:0:17,26:541:0:17,26:693:0:1,26:720:0:23,26:724:0:25,26:725:0:23,26:726:0:25,26:726:0:3]
+[Au5em],[stats@NPD@analyze.c:1098],[analyze.c],[26:726],[Vul],[D],[NPD],[1,0,0],[stats],#do_analyze_rel()#,[26:1098:0:1,26:531:0:18,26:523:0:17,26:541:0:17,26:693:0:1,26:720:0:23,26:724:0:25,26:725:0:23,26:726:0:25,26:726:0:3]
+[Au5em],[stats@NPD@analyze.c:1094],[analyze.c],[26:726],[Vul],[D],[NPD],[1,0,0],[stats],#do_analyze_rel()#,[26:1094:0:1,26:531:0:18,26:523:0:17,26:541:0:17,26:693:0:1,26:720:0:23,26:724:0:25,26:725:0:23,26:726:0:25,26:726:0:3]
+[Au5em],[stats@NPD@analyze.c:1164],[analyze.c],[26:712],[Vul],[D],[NPD],[1,0,0],[stats],#do_analyze_rel()#,[26:1164:0:1,26:531:0:18,26:523:0:17,26:541:0:17,26:693:0:1,26:710:0:23,26:712:0:25,26:712:0:23,26:712:0:25,26:712:0:3]
+[Au5em],[stats@NPD@analyze.c:1098],[analyze.c],[26:712],[Vul],[D],[NPD],[1,0,0],[stats],#do_analyze_rel()#,[26:1098:0:1,26:531:0:18,26:523:0:17,26:541:0:17,26:693:0:1,26:710:0:23,26:712:0:25,26:712:0:23,26:712:0:25,26:712:0:3]
+[Au5em],[stats@NPD@analyze.c:1094],[analyze.c],[26:712],[Vul],[D],[NPD],[1,0,0],[stats],#do_analyze_rel()#,[26:1094:0:1,26:531:0:18,26:523:0:17,26:541:0:17,26:693:0:1,26:710:0:23,26:712:0:25,26:712:0:23,26:712:0:25,26:712:0:3]
+[Au5em],[*vacattrstats+(i*8)@NPD@analyze.c:1164],[analyze.c],[26:638],[Vul],[D],[NPD],[1,0,0],[*vacattrstats+(i*8)],#do_analyze_rel()#,[26:1164:0:1,26:531:0:18,26:523:0:17,26:541:0:17,26:638:0:3]
+[Au5em],[*vacattrstats+(i*8)@NPD@analyze.c:1098],[analyze.c],[26:638],[Vul],[D],[NPD],[1,0,0],[*vacattrstats+(i*8)],#do_analyze_rel()#,[26:1098:0:1,26:531:0:18,26:523:0:17,26:541:0:17,26:638:0:3]
+[Au5em],[*vacattrstats+(i*8)@NPD@analyze.c:1094],[analyze.c],[26:638],[Vul],[D],[NPD],[1,0,0],[*vacattrstats+(i*8)],#do_analyze_rel()#,[26:1094:0:1,26:531:0:18,26:523:0:17,26:541:0:17,26:638:0:3]
+[Au5em],[*vacattrstats+(i*8)@NPD@analyze.c:1164],[analyze.c],[26:639],[Vul],[D],[NPD],[1,0,0],[*vacattrstats+(i*8)],#do_analyze_rel()#,[26:1164:0:1,26:531:0:18,26:523:0:17,26:541:0:17,26:639:0:3]
+[Au5em],[*vacattrstats+(i*8)@NPD@analyze.c:1098],[analyze.c],[26:639],[Vul],[D],[NPD],[1,0,0],[*vacattrstats+(i*8)],#do_analyze_rel()#,[26:1098:0:1,26:531:0:18,26:523:0:17,26:541:0:17,26:639:0:3]
+[Au5em],[*vacattrstats+(i*8)@NPD@analyze.c:1094],[analyze.c],[26:639],[Vul],[D],[NPD],[1,0,0],[*vacattrstats+(i*8)],#do_analyze_rel()#,[26:1094:0:1,26:531:0:18,26:523:0:17,26:541:0:17,26:639:0:3]
+[Au5em],[acquirefunc@UDR@analyze.c:671@analyze.c:368],[analyze.c],[26:671],[Vul],[D],[UDR],[1,0,0],[acquirefunc],#do_analyze_rel()#,[26:368:0:1,26:381:0:23,26:382:0:25,26:382:0:2,26:414:0:15,26:414:0:1,26:581:0:23,26:586:0:25,26:577:0:23,26:577:0:25,26:570:0:23,26:570:0:25,26:563:0:23,26:563:0:25,26:560:0:23,26:562:0:25,26:489:0:23,26:489:0:25,26:494:0:24,26:494:0:26,26:482:0:23,26:486:0:25,26:657:0:24,26:657:0:26,26:666:0:24,26:671:0:26,26:671:0:1,26:671:0:3]
+[Au5em],[acquirefunc@UDR@analyze.c:671@analyze.c:368],[analyze.c],[26:671],[Vul],[D],[UDR],[1,0,0],[acquirefunc],#do_analyze_rel()#,[26:368:0:1,26:381:0:23,26:382:0:25,26:382:0:1,26:368:0:1,26:381:0:23,26:382:0:25,26:382:0:2,26:414:0:15,26:414:0:1,26:581:0:23,26:586:0:25,26:577:0:23,26:577:0:25,26:570:0:23,26:570:0:25,26:563:0:23,26:563:0:25,26:560:0:23,26:562:0:25,26:489:0:23,26:489:0:25,26:494:0:24,26:494:0:26,26:482:0:23,26:486:0:25,26:657:0:24,26:657:0:26,26:666:0:24,26:671:0:26,26:671:0:1,26:671:0:3]
+[Au5em],[acquirefunc@UDR@analyze.c:671@analyze.c:368],[analyze.c],[26:671],[Vul],[D],[UDR],[1,0,0],[acquirefunc],#do_analyze_rel()#,[26:368:0:1,26:374:0:23,26:375:0:25,26:375:0:2,26:414:0:15,26:414:0:1,26:581:0:23,26:586:0:25,26:577:0:23,26:577:0:25,26:570:0:23,26:570:0:25,26:563:0:23,26:563:0:25,26:560:0:23,26:562:0:25,26:489:0:23,26:489:0:25,26:494:0:24,26:494:0:26,26:482:0:23,26:486:0:25,26:657:0:24,26:657:0:26,26:666:0:24,26:671:0:26,26:671:0:1,26:671:0:3]
+[Au5em],[acquirefunc@UDR@analyze.c:671@analyze.c:368],[analyze.c],[26:671],[Vul],[D],[UDR],[1,0,0],[acquirefunc],#do_analyze_rel()#,[26:368:0:1,26:374:0:23,26:375:0:25,26:375:0:1,26:368:0:1,26:374:0:23,26:375:0:25,26:375:0:2,26:414:0:15,26:414:0:1,26:581:0:23,26:586:0:25,26:577:0:23,26:577:0:25,26:570:0:23,26:570:0:25,26:563:0:23,26:563:0:25,26:560:0:23,26:562:0:25,26:489:0:23,26:489:0:25,26:494:0:24,26:494:0:26,26:482:0:23,26:486:0:25,26:657:0:24,26:657:0:26,26:666:0:24,26:671:0:26,26:671:0:1,26:671:0:3]

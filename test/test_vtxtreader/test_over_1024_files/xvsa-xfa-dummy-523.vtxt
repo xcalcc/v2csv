@@ -1,0 +1,91 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/oid.c"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/libpq/pqformat.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/fmgrprotos.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 16,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/catalog/pg_type.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 19,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/array.h"
+  },
+  {
+  "fid": 20,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 22,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/builtins.h"
+  }
+]
+[Au5em],[snprintf@ERR33-C@CERT@oid.c:192],[oid.c],[8:192],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#oidout()#,[8:192:0:3]
+[Au5em],[rp@AOB@oid.c:305],[oid.c],[8:305],[Vul],[D],[AOB],[1,0,0],[rp],#oidvectorout()#,[8:305:0:3]
+[Au5em],[RCD@oid.c:403@oid.c:401],[oid.c],[8:403],[Vul],[D],[RCD],[1,0,0],[],#oid_cmp()#,[8:401:0:11,8:401:0:24,8:401:0:26,8:403:0:3]
+[Au5em],[RCD@oid.c:403@oid.c:401],[oid.c],[8:403],[Vul],[D],[RCD],[1,0,0],[],#oid_cmp()#,[8:401:0:11,8:401:0:24,8:401:0:26,8:403:0:3]

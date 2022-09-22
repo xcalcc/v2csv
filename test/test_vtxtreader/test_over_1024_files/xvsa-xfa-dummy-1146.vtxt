@@ -1,0 +1,78 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/pgtypeslib/numeric.c"
+  },
+  {
+  "fid": 5,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/pgtypeslib/extern.h"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/pgtypeslib/../../../../src/include/port.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/netinet/in.h"
+  }
+]
+[Au5em],[*__ctype_b_loc+((**ptr)*2)@NPD@numeric.c:120],[numeric.c],[4:221],[Vul],[D],[NPD],[1,0,0],[*__ctype_b_loc+((**ptr)*2)],#set_var_from_str()#,[4:123:0:17,4:196:0:18,4:221:0:3]
+[Au5em],[var@UDR@numeric.c:471],[numeric.c],[4:473],[Vul],[M],[UDR],[1,0,0],[var],#PGTYPESnumeric_free()#,[4:473:0:3]
+[Au5em],[var->buf@UDR@numeric.c:471],[numeric.c],[4:472],[Vul],[M],[UDR],[1,0,0],[var->buf],#PGTYPESnumeric_free()#,[4:472:0:3]
+[Au5em],[var@UDR@numeric.c:478],[numeric.c],[4:479],[Vul],[M],[UDR],[1,0,0],[var],#PGTYPESdecimal_free()#,[4:479:0:3]
+[Au5em],[result->buf@UDR@numeric.c:723],[numeric.c],[4:461],[Vul],[M],[UDR],[1,0,0],[result->buf],#zero_var()#,[4:461:0:3]
+[Au5em],[result->buf@UDR@numeric.c:723],[numeric.c],[4:461],[Vul],[M],[UDR],[1,0,0],[result->buf],#zero_var()#,[4:461:0:3]
+[Au5em],[result->buf@UDR@numeric.c:851],[numeric.c],[4:461],[Vul],[M],[UDR],[1,0,0],[result->buf],#zero_var()#,[4:461:0:3]
+[Au5em],[result->buf@UDR@numeric.c:851],[numeric.c],[4:461],[Vul],[M],[UDR],[1,0,0],[result->buf],#zero_var()#,[4:461:0:3]
+[Au5em],[result->buf@UDR@numeric.c:982],[numeric.c],[4:1051],[Vul],[M],[UDR],[1,0,0],[result->buf],#PGTYPESnumeric_mul()#,[4:1051:0:3]
+[Au5em],[divisor+(*40)->buf@UDR@numeric.c:1139],[numeric.c],[4:1359],[Vul],[M],[UDR],[1,0,0],[divisor+(*40)->buf],#PGTYPESnumeric_div()#,[4:1359:0:3]
+[Au5em],[dividend.buf@UDR@numeric.c:1139],[numeric.c],[4:1354],[Vul],[M],[UDR],[1,0,0],[dividend.buf],#PGTYPESnumeric_div()#,[4:1354:0:3]
+[Au5em],[result->buf@UDR@numeric.c:1139],[numeric.c],[4:1234],[Vul],[M],[UDR],[1,0,0],[result->buf],#PGTYPESnumeric_div()#,[4:1234:0:3]
+[Au5em],[result->buf@UDR@numeric.c:1139],[numeric.c],[4:461],[Vul],[M],[UDR],[1,0,0],[result->buf],#zero_var()#,[4:461:0:3]
+[Au5em],[var->buf@UDR@numeric.c:1397],[numeric.c],[4:116],[Vul],[M],[UDR],[1,0,0],[var->buf],#alloc_var()#,[4:116:0:3]
+[Au5em],[var->buf@UDR@numeric.c:1406],[numeric.c],[4:116],[Vul],[M],[UDR],[1,0,0],[var->buf],#alloc_var()#,[4:116:0:3]
+[Au5em],[dst->buf@UDR@numeric.c:116],[numeric.c],[4:116],[Vul],[D],[UDR],[1,0,0],[dst->buf],#alloc_var()#,[4:462:0:8,4:1481:0:18,4:1488:0:2,4:116:0:23,4:116:0:25,4:116:0:3]
+[Au5em],[var@UDR@numeric.c:1499],[numeric.c],[4:473],[Vul],[M],[UDR],[1,0,0],[var],#PGTYPESnumeric_free()#,[4:1507:0:1,4:1510:0:2,4:471:0:1,4:473:0:3]
+[Au5em],[tmp->buf@UDR@numeric.c:1499],[numeric.c],[4:472],[Vul],[M],[UDR],[1,0,0],[tmp->buf],#PGTYPESnumeric_free()#,[4:472:0:3]
+[Au5em],[tmp@UDR@numeric.c:1564],[numeric.c],[4:1564],[Vul],[D],[UDR],[1,0,0],[tmp],#numericvar_to_double()#,[4:358:0:1,4:1535:0:5,4:1538:0:24,4:1538:0:26,4:1546:0:24,4:1546:0:26,4:1557:0:24,4:1557:0:26,4:1564:0:3]
+[Au5em],[tmp@UDR@numeric.c:1564],[numeric.c],[4:1564],[Vul],[D],[UDR],[1,0,0],[tmp],#numericvar_to_double()#,[4:322:0:1,4:1535:0:5,4:1538:0:24,4:1538:0:26,4:1546:0:24,4:1546:0:26,4:1557:0:24,4:1557:0:26,4:1564:0:3]
+[Au5em],[tmp@UDR@numeric.c:1560],[numeric.c],[4:1560],[Vul],[D],[UDR],[1,0,0],[tmp],#numericvar_to_double()#,[4:358:0:1,4:1535:0:5,4:1538:0:24,4:1538:0:26,4:1546:0:24,4:1546:0:26,4:1557:0:23,4:1560:0:25,4:1560:0:3]
+[Au5em],[tmp@UDR@numeric.c:1560],[numeric.c],[4:1560],[Vul],[D],[UDR],[1,0,0],[tmp],#numericvar_to_double()#,[4:322:0:1,4:1535:0:5,4:1538:0:24,4:1538:0:26,4:1546:0:24,4:1546:0:26,4:1557:0:23,4:1560:0:25,4:1560:0:3]
+[Au5em],[tmp@UDR@numeric.c:1548],[numeric.c],[4:1548],[Vul],[D],[UDR],[1,0,0],[tmp],#numericvar_to_double()#,[4:358:0:1,4:1535:0:5,4:1538:0:24,4:1538:0:26,4:1546:0:23,4:1548:0:25,4:1548:0:3]
+[Au5em],[tmp@UDR@numeric.c:1548],[numeric.c],[4:1548],[Vul],[D],[UDR],[1,0,0],[tmp],#numericvar_to_double()#,[4:322:0:1,4:1535:0:5,4:1538:0:24,4:1538:0:26,4:1546:0:23,4:1548:0:25,4:1548:0:3]
+[Au5em],[s@UDR@numeric.c:1616],[numeric.c],[4:1616],[Vul],[D],[UDR],[1,0,0],[s],#PGTYPESnumeric_to_long()#,[4:358:0:1,4:446:0:5,4:446:0:1,4:448:0:1,4:1602:0:5,4:1605:0:24,4:1605:0:26,4:1610:0:24,4:1610:0:26,4:1616:0:3]
+[Au5em],[s@UDR@numeric.c:1616],[numeric.c],[4:1616],[Vul],[D],[UDR],[1,0,0],[s],#PGTYPESnumeric_to_long()#,[4:322:0:1,4:446:0:5,4:446:0:1,4:448:0:1,4:1602:0:5,4:1605:0:24,4:1605:0:26,4:1610:0:24,4:1610:0:26,4:1616:0:3]
+[Au5em],[s@UDR@numeric.c:1616],[numeric.c],[4:1616],[Vul],[D],[UDR],[1,0,0],[s],#PGTYPESnumeric_to_long()#,[4:439:0:1,4:1602:0:5,4:1605:0:24,4:1605:0:26,4:1610:0:24,4:1610:0:26,4:1616:0:3]
+[Au5em],[s@UDR@numeric.c:1616],[numeric.c],[4:1616],[Vul],[D],[UDR],[1,0,0],[s],#PGTYPESnumeric_to_long()#,[4:434:0:1,4:1602:0:5,4:1605:0:24,4:1605:0:26,4:1610:0:24,4:1610:0:26,4:1616:0:3]
+[Au5em],[s@UDR@numeric.c:1613],[numeric.c],[4:1613],[Vul],[D],[UDR],[1,0,0],[s],#PGTYPESnumeric_to_long()#,[4:358:0:1,4:446:0:5,4:446:0:1,4:448:0:1,4:1602:0:5,4:1605:0:24,4:1605:0:26,4:1610:0:23,4:1613:0:25,4:1613:0:3]
+[Au5em],[s@UDR@numeric.c:1613],[numeric.c],[4:1613],[Vul],[D],[UDR],[1,0,0],[s],#PGTYPESnumeric_to_long()#,[4:322:0:1,4:446:0:5,4:446:0:1,4:448:0:1,4:1602:0:5,4:1605:0:24,4:1605:0:26,4:1610:0:23,4:1613:0:25,4:1613:0:3]
+[Au5em],[s@UDR@numeric.c:1613],[numeric.c],[4:1613],[Vul],[D],[UDR],[1,0,0],[s],#PGTYPESnumeric_to_long()#,[4:439:0:1,4:1602:0:5,4:1605:0:24,4:1605:0:26,4:1610:0:23,4:1613:0:25,4:1613:0:3]
+[Au5em],[s@UDR@numeric.c:1613],[numeric.c],[4:1613],[Vul],[D],[UDR],[1,0,0],[s],#PGTYPESnumeric_to_long()#,[4:434:0:1,4:1602:0:5,4:1605:0:24,4:1605:0:26,4:1610:0:23,4:1613:0:25,4:1613:0:3]
+[Au5em],[dst->buf@UDR@numeric.c:1653],[numeric.c],[4:116],[Vul],[M],[UDR],[1,0,0],[dst->buf],#alloc_var()#,[4:116:0:3]
+[Au5em],[dst->buf@UDR@numeric.c:1653],[numeric.c],[4:461],[Vul],[M],[UDR],[1,0,0],[dst->buf],#zero_var()#,[4:461:0:3]
+[Au5em],[dst->buf@UDR@numeric.c:116],[numeric.c],[4:116],[Vul],[D],[UDR],[1,0,0],[dst->buf],#alloc_var()#,[4:462:0:8,4:1656:0:18,4:1663:0:2,4:116:0:23,4:116:0:25,4:116:0:3]

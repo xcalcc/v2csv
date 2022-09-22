@@ -1,0 +1,56 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/common/../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/common/../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/common/scram-common.c"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/common/../../src/include/common/sha2.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/common/../../src/include/common/base64.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/common/../../src/include/utils/elog.h"
+  }
+]
+[Au5em],[key@AOB@scram-common.c:64@scram-common.c:167],[scram-common.c],[6:64],[Vul],[M],[AOB],[1,0,0],[key],#scram_HMAC_init()#,[6:167:0:2,6:211:0:18,6:39:0:4,6:48:0:24,6:48:0:26,6:48:0:17,6:64:0:3]
+[Au5em],[key@AOB@scram-common.c:64@scram-common.c:180],[scram-common.c],[6:64],[Vul],[M],[AOB],[1,0,0],[key],#scram_HMAC_init()#,[6:180:0:2,6:214:0:18,6:39:0:4,6:48:0:24,6:48:0:26,6:48:0:17,6:64:0:3]
+[Au5em],[key@AOB@scram-common.c:65@scram-common.c:167],[scram-common.c],[6:65],[Vul],[M],[AOB],[1,0,0],[key],#scram_HMAC_init()#,[6:167:0:2,6:211:0:18,6:39:0:4,6:48:0:24,6:48:0:26,6:48:0:17,6:65:0:3]
+[Au5em],[key@AOB@scram-common.c:65@scram-common.c:180],[scram-common.c],[6:65],[Vul],[M],[AOB],[1,0,0],[key],#scram_HMAC_init()#,[6:180:0:2,6:214:0:18,6:39:0:4,6:48:0:24,6:48:0:26,6:48:0:17,6:65:0:3]
+[Au5em],[result@AOB@scram-common.c:235@scram-common.c:232],[scram-common.c],[6:235],[Vul],[D],[AOB],[1,0,0],[result],#scram_build_verifier()#,[6:232:0:1,6:235:0:3]

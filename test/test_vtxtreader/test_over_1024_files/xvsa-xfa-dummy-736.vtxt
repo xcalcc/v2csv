@@ -1,0 +1,229 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/storage/bufpage.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/storage/s_lock.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/port/atomics/arch-x86.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/port/atomics/generic-gcc.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/port/atomics/generic.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/port/atomics.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/utils/snapmgr.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/miscadmin.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/utils/memutils.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/logical.c"
+  },
+  {
+  "fid": 19,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/replication/slot.h"
+  },
+  {
+  "fid": 20,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/pgxc/pgxc.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/access/xlog.h"
+  },
+  {
+  "fid": 22,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/access/xact.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/storage/lwlock.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/storage/proc.h"
+  },
+  {
+  "fid": 25,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/access/xlogreader.h"
+  },
+  {
+  "fid": 26,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/replication/reorderbuffer.h"
+  },
+  {
+  "fid": 27,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/replication/snapbuild.h"
+  },
+  {
+  "fid": 28,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/lib/stringinfo.h"
+  },
+  {
+  "fid": 29,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 30,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/storage/procarray.h"
+  },
+  {
+  "fid": 31,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/replication/decode.h"
+  },
+  {
+  "fid": 32,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 33,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/access/transam.h"
+  },
+  {
+  "fid": 34,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 35,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 36,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 37,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 38,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 39,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/pgtime.h"
+  },
+  {
+  "fid": 40,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 41,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/common/relpath.h"
+  },
+  {
+  "fid": 42,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/storage/backendid.h"
+  },
+  {
+  "fid": 43,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 44,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/storage/sinval.h"
+  },
+  {
+  "fid": 45,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/utils/timestamp.h"
+  },
+  {
+  "fid": 46,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/utils/datetime.h"
+  },
+  {
+  "fid": 47,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/utils/resowner.h"
+  },
+  {
+  "fid": 48,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 49,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 50,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/pgxc/shardmap.h"
+  },
+  {
+  "fid": 51,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 52,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 53,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/access/xlog_internal.h"
+  },
+  {
+  "fid": 54,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/storage/fd.h"
+  },
+  {
+  "fid": 55,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/replication/origin.h"
+  },
+  {
+  "fid": 56,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/storage/lock.h"
+  },
+  {
+  "fid": 57,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/logical/../../../../src/include/storage/standby.h"
+  }
+]
+[Au5em],[strncpy@STR32-C@CERT@logical.c:278],[logical.c],[18:278],[Vul],[M],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#CreateInitDecodingContext()#,[18:278:0:3]
+[Au5em],[_dst@STR38-C@CERT@logical.c:278@logical.c:278],[logical.c],[18:278],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[_dst],#CreateInitDecodingContext()#,[18:278:0:1,18:278:0:3]

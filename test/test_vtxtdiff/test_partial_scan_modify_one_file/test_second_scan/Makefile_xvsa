@@ -1,0 +1,18 @@
+XVSA=xvsa
+TARGET=vtxt
+ 
+I_FILE=/share/scan/ce7f9290-0988-47b5-ac24-854308503edc/ce7f9290-0988-47b5-ac24-854308503edc.preprocess/rcs.dir/preprocess/convolutional_layer.c.i  
+I_VTXT=$(I_FILE:.i=.vtxt)
+I_V=$(I_FILE:.i=.v)
+ 
+XVSAOPTIONS=-json -msgid -xfa  -VSA:magic=BlCYE -VSA:authen=1 -VSA:token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIwNDU0YTEzYi0yNDdlLTQxYTItYjRmNC00ODFmNTE1YjcyZjgiLCJpYXQiOjE2MzY2OTE2MzYsImV4cCI6MTYzNjc3ODAzNn0.AaI-NNlO0Dxd2dSyQtn22e8fGiFGxqNRSTr3_HPwo9qVAEuE_1JUNetB21-dK5SKk4tnrcJg_BzPq6079UpM9w -VSA:server=api@80 -VSA:certc=1 -VSA:zero_global=0 -VSA:demo=1  
+ 
+${TARGET}: ${I_VTXT}
+	echo ${I_VTXT}
+ 
+/share/scan/ce7f9290-0988-47b5-ac24-854308503edc/ce7f9290-0988-47b5-ac24-854308503edc.preprocess/rcs.dir/preprocess/convolutional_layer.c.vtxt: /share/scan/ce7f9290-0988-47b5-ac24-854308503edc/ce7f9290-0988-47b5-ac24-854308503edc.preprocess/rcs.dir/preprocess/convolutional_layer.c.i
+	${XVSA} ${XVSAOPTIONS} $< -o /share/scan/ce7f9290-0988-47b5-ac24-854308503edc/ce7f9290-0988-47b5-ac24-854308503edc.preprocess/rcs.dir/preprocess/convolutional_layer.c
+ 
+.PHONY: clean
+clean:
+	-rm ${I_VTXT} ${I_V}

@@ -1,0 +1,86 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/bin/scripts/clusterdb.c"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/bin/scripts/../../../src/include/port.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/bin/scripts/common.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/bin/scripts/../../../src/include/common/fe_memutils.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/bin/scripts/../../../src/include/fe_utils/simple_list.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/bits/getopt_ext.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/bin/scripts/../../../src/include/common/username.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/bin/scripts/../../../src/interfaces/libpq/pqexpbuffer.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/bin/scripts/../../../src/interfaces/libpq/libpq-fe.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/bin/scripts/../../../src/include/fe_utils/string_utils.h"
+  },
+  {
+  "fid": 17,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 19,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 20,
+  "path": "/usr/include/unistd.h"
+  }
+]
+[Au5em],[fprintf@ERR33-C@CERT@clusterdb.c:215],[clusterdb.c],[4:215],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#cluster_one_database()#,[4:215:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@clusterdb.c:212],[clusterdb.c],[4:212],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#cluster_one_database()#,[4:212:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@clusterdb.c:147],[clusterdb.c],[4:147],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:147:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@clusterdb.c:140],[clusterdb.c],[4:140],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:140:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@clusterdb.c:128],[clusterdb.c],[4:128],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:128:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@clusterdb.c:130],[clusterdb.c],[4:130],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:130:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@clusterdb.c:111],[clusterdb.c],[4:111],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:111:0:3]

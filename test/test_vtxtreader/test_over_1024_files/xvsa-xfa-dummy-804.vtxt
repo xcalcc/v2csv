@@ -1,0 +1,49 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/bin/confmod/conf.c"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/bin/confmod/var.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/bin/confmod/log.h"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/errno.h"
+  }
+]
+[Au5em],[fgets@FIO37-C@CERT@conf.c:168@conf.c:165],[conf.c],[4:165],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO37-C],[fgets],#read_vars()#,[4:165:0:3,4:168:0:17,4:168:0:16]
+[Au5em],[fgets@FIO37-C@CERT@conf.c:168@conf.c:165],[conf.c],[4:165],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO37-C],[fgets],#read_vars()#,[4:165:0:3,4:165:0:17,4:168:0:16]

@@ -1,0 +1,102 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/pgtypeslib/interval.c"
+  },
+  {
+  "fid": 5,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 6,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/bits/mathcalls.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/pgtypeslib/dt.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/pgtypeslib/extern.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/math.h"
+  }
+]
+[Au5em],[intvl@UDR@interval.c:1016],[interval.c],[4:1017],[Vul],[M],[UDR],[1,0,0],[intvl],#PGTYPESinterval_free()#,[4:1017:0:3]
+[Au5em],[result@UDR@interval.c:1022],[interval.c],[4:1071],[Vul],[M],[UDR],[1,0,0],[result],#PGTYPESinterval_from_asc()#,[4:1057:0:1,4:1071:0:3]
+[Au5em],[result@UDR@interval.c:1022],[interval.c],[4:1064],[Vul],[M],[UDR],[1,0,0],[result],#PGTYPESinterval_from_asc()#,[4:1057:0:1,4:1064:0:3]
+[Au5em],[cp@AOB@interval.c:862],[interval.c],[4:862],[Vul],[D],[AOB],[1,0,0],[cp],#EncodeInterval()#,[4:862:0:3]
+[Au5em],[cp@AOB@interval.c:761@interval.c:863],[interval.c],[4:761],[Vul],[D],[AOB],[1,0,0],[cp],#AppendSeconds()#,[4:863:0:1,4:864:0:2,4:750:0:1,4:761:0:3]
+[Au5em],[cp@AOB@interval.c:754@interval.c:863],[interval.c],[4:754],[Vul],[D],[AOB],[1,0,0],[cp],#AppendSeconds()#,[4:863:0:1,4:864:0:2,4:750:0:1,4:754:0:3]
+[Au5em],[cp@AOB@interval.c:856],[interval.c],[4:856],[Vul],[D],[AOB],[1,0,0],[cp],#EncodeInterval()#,[4:856:0:3]
+[Au5em],[cp@AOB@interval.c:761@interval.c:857],[interval.c],[4:761],[Vul],[D],[AOB],[1,0,0],[cp],#AppendSeconds()#,[4:857:0:1,4:858:0:2,4:750:0:1,4:761:0:3]
+[Au5em],[cp@AOB@interval.c:754@interval.c:857],[interval.c],[4:754],[Vul],[D],[AOB],[1,0,0],[cp],#AppendSeconds()#,[4:857:0:1,4:858:0:2,4:750:0:1,4:754:0:3]
+[Au5em],[cp@AOB@interval.c:852],[interval.c],[4:852],[Vul],[D],[AOB],[1,0,0],[cp],#EncodeInterval()#,[4:852:0:3]
+[Au5em],[cp@AOB@interval.c:843],[interval.c],[4:843],[Vul],[D],[AOB],[1,0,0],[cp],#EncodeInterval()#,[4:843:0:3]
+[Au5em],[cp@AOB@interval.c:761@interval.c:847],[interval.c],[4:761],[Vul],[D],[AOB],[1,0,0],[cp],#AppendSeconds()#,[4:847:0:1,4:848:0:2,4:750:0:1,4:761:0:3]
+[Au5em],[cp@AOB@interval.c:754@interval.c:847],[interval.c],[4:754],[Vul],[D],[AOB],[1,0,0],[cp],#AppendSeconds()#,[4:847:0:1,4:848:0:2,4:750:0:1,4:754:0:3]
+[Au5em],[cp@AOB@interval.c:743@interval.c:879],[interval.c],[4:743],[Vul],[D],[AOB],[1,0,0],[cp],#AddISO8601IntPart()#,[4:879:0:1,4:880:0:2,4:740:0:1,4:743:0:3]
+[Au5em],[cp@STR38-C@CERT@interval.c:744@interval.c:879],[interval.c],[4:744],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[cp],#EncodeInterval()#,[4:879:0:1,4:880:0:2,4:740:0:1,4:744:0:3]
+[Au5em],[cp@AOB@interval.c:743@interval.c:880],[interval.c],[4:743],[Vul],[D],[AOB],[1,0,0],[cp],#AddISO8601IntPart()#,[4:880:0:1,4:881:0:2,4:740:0:1,4:743:0:3]
+[Au5em],[cp@STR38-C@CERT@interval.c:744@interval.c:880],[interval.c],[4:744],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[cp],#EncodeInterval()#,[4:880:0:1,4:881:0:2,4:740:0:1,4:744:0:3]
+[Au5em],[cp@AOB@interval.c:743@interval.c:740],[interval.c],[4:743],[Vul],[D],[AOB],[1,0,0],[cp],#AddISO8601IntPart()#,[4:884:0:2,4:740:0:1,4:743:0:3]
+[Au5em],[cp@AOB@interval.c:743@interval.c:884],[interval.c],[4:743],[Vul],[D],[AOB],[1,0,0],[cp],#AddISO8601IntPart()#,[4:884:0:1,4:885:0:2,4:740:0:1,4:743:0:3]
+[Au5em],[cp@STR38-C@CERT@interval.c:744@interval.c:884],[interval.c],[4:744],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[cp],#EncodeInterval()#,[4:884:0:1,4:885:0:2,4:740:0:1,4:744:0:3]
+[Au5em],[cp@AOB@interval.c:763@interval.c:750],[interval.c],[4:763],[Vul],[D],[AOB],[1,0,0],[cp],#AppendSeconds()#,[4:890:0:2,4:750:0:1,4:763:0:3]
+[Au5em],[cp@AOB@interval.c:756@interval.c:750],[interval.c],[4:756],[Vul],[D],[AOB],[1,0,0],[cp],#AppendSeconds()#,[4:890:0:2,4:750:0:1,4:756:0:3]
+[Au5em],[cp@AOB@interval.c:721@interval.c:777],[interval.c],[4:721],[Vul],[M],[AOB],[1,0,0],[cp],#AddPostgresIntPart()#,[4:777:0:1,4:899:0:2,4:718:0:1,4:721:0:3]
+[Au5em],[cp@AOB@interval.c:721@interval.c:899],[interval.c],[4:721],[Vul],[D],[AOB],[1,0,0],[cp],#AddPostgresIntPart()#,[4:899:0:1,4:900:0:2,4:718:0:1,4:721:0:3]
+[Au5em],[cp@STR38-C@CERT@interval.c:734@interval.c:899],[interval.c],[4:734],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[cp],#EncodeInterval()#,[4:899:0:1,4:900:0:2,4:718:0:1,4:734:0:3]
+[Au5em],[cp@AOB@interval.c:721@interval.c:900],[interval.c],[4:721],[Vul],[D],[AOB],[1,0,0],[cp],#AddPostgresIntPart()#,[4:900:0:1,4:901:0:2,4:718:0:1,4:721:0:3]
+[Au5em],[cp@STR38-C@CERT@interval.c:734@interval.c:900],[interval.c],[4:734],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[cp],#EncodeInterval()#,[4:900:0:1,4:901:0:2,4:718:0:1,4:734:0:3]
+[Au5em],[cp@AOB@interval.c:906@interval.c:901],[interval.c],[4:906],[Vul],[D],[AOB],[1,0,0],[cp],#EncodeInterval()#,[4:901:0:1,4:906:0:3]
+[Au5em],[cp@STR38-C@CERT@interval.c:910@interval.c:901],[interval.c],[4:910],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[cp],#EncodeInterval()#,[4:901:0:1,4:910:0:3]
+[Au5em],[cp@AOB@interval.c:761@interval.c:910],[interval.c],[4:761],[Vul],[D],[AOB],[1,0,0],[cp],#AppendSeconds()#,[4:910:0:1,4:911:0:2,4:750:0:1,4:761:0:3]
+[Au5em],[cp@AOB@interval.c:754@interval.c:910],[interval.c],[4:754],[Vul],[D],[AOB],[1,0,0],[cp],#AppendSeconds()#,[4:910:0:1,4:911:0:2,4:750:0:1,4:754:0:3]
+[Au5em],[cp@AOB@interval.c:709@interval.c:919],[interval.c],[4:709],[Vul],[M],[AOB],[1,0,0],[cp],#AddVerboseIntPart()#,[4:919:0:1,4:920:0:2,4:698:0:1,4:709:0:3]
+[Au5em],[cp@AOB@interval.c:709@interval.c:920],[interval.c],[4:709],[Vul],[D],[AOB],[1,0,0],[cp],#AddVerboseIntPart()#,[4:920:0:1,4:921:0:2,4:698:0:1,4:709:0:3]
+[Au5em],[cp@STR38-C@CERT@interval.c:711@interval.c:920],[interval.c],[4:711],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[cp],#EncodeInterval()#,[4:920:0:1,4:921:0:2,4:698:0:1,4:711:0:3]
+[Au5em],[cp@AOB@interval.c:709@interval.c:921],[interval.c],[4:709],[Vul],[D],[AOB],[1,0,0],[cp],#AddVerboseIntPart()#,[4:921:0:1,4:922:0:2,4:698:0:1,4:709:0:3]
+[Au5em],[cp@STR38-C@CERT@interval.c:711@interval.c:921],[interval.c],[4:711],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[cp],#EncodeInterval()#,[4:921:0:1,4:922:0:2,4:698:0:1,4:711:0:3]
+[Au5em],[cp@AOB@interval.c:709@interval.c:922],[interval.c],[4:709],[Vul],[D],[AOB],[1,0,0],[cp],#AddVerboseIntPart()#,[4:922:0:1,4:923:0:2,4:698:0:1,4:709:0:3]
+[Au5em],[cp@STR38-C@CERT@interval.c:711@interval.c:922],[interval.c],[4:711],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[cp],#EncodeInterval()#,[4:922:0:1,4:923:0:2,4:698:0:1,4:711:0:3]
+[Au5em],[cp@AOB@interval.c:709@interval.c:923],[interval.c],[4:709],[Vul],[D],[AOB],[1,0,0],[cp],#AddVerboseIntPart()#,[4:923:0:1,4:924:0:2,4:698:0:1,4:709:0:3]
+[Au5em],[cp@STR38-C@CERT@interval.c:711@interval.c:923],[interval.c],[4:711],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[cp],#EncodeInterval()#,[4:923:0:1,4:924:0:2,4:698:0:1,4:711:0:3]
+[Au5em],[cp@AOB@interval.c:763@interval.c:750],[interval.c],[4:763],[Vul],[D],[AOB],[1,0,0],[cp],#AppendSeconds()#,[4:937:0:2,4:750:0:1,4:763:0:3]
+[Au5em],[cp@AOB@interval.c:939],[interval.c],[4:939],[Vul],[D],[AOB],[1,0,0],[cp],#EncodeInterval()#,[4:939:0:3]
+[Au5em],[cp@AOB@interval.c:756@interval.c:750],[interval.c],[4:756],[Vul],[D],[AOB],[1,0,0],[cp],#AppendSeconds()#,[4:937:0:2,4:750:0:1,4:756:0:3]

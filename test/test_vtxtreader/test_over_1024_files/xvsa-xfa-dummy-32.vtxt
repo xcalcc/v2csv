@@ -1,0 +1,264 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/storage/s_lock.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/repl_gram.c"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/repl_gram.y"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/repl_scanner.c"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/nodes/makefuncs.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/nodes/value.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/repl_scanner.l"
+  },
+  {
+  "fid": 16,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 17,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/parser/scansup.h"
+  },
+  {
+  "fid": 19,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 20,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/lib/stringinfo.h"
+  },
+  {
+  "fid": 21,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 22,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 25,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 26,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 27,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/replication/walsender.h"
+  },
+  {
+  "fid": 28,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/common/relpath.h"
+  },
+  {
+  "fid": 29,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/pgxc/pgxc.h"
+  },
+  {
+  "fid": 30,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/storage/backendid.h"
+  },
+  {
+  "fid": 31,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 32,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/storage/fd.h"
+  },
+  {
+  "fid": 33,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/access/xlog.h"
+  },
+  {
+  "fid": 34,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/tcop/dest.h"
+  },
+  {
+  "fid": 35,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/utils/array.h"
+  },
+  {
+  "fid": 36,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/utils/guc.h"
+  },
+  {
+  "fid": 37,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/replication/syncrep.h"
+  },
+  {
+  "fid": 38,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/replication/walsender_private.h"
+  },
+  {
+  "fid": 39,
+  "path": "/home/xc5/cprojects/tbase/src/backend/replication/../../../src/include/utils/builtins.h"
+  },
+  {
+  "fid": 40,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 41,
+  "path": "/usr/include/bits/getopt_core.h"
+  }
+]
+[Au5em],[DDC@repl_gram.c:1927],[repl_gram.c],[9:1927],[Vul],[D],[DDC],[1,0,0],[],#replication_yyparse()#,[9:1927:0:3]
+[Au5em],[yy_buffer_stack@MSF@repl_scanner.c:2341],[repl_scanner.c],[11:2056],[Vul],[M],[MSF],[1,0,0],[yy_buffer_stack],#replication_yyensure_buffer_stack()#,[11:2341:0:9,11:2045:0:18,11:2045:0:10,11:2054:0:12,11:2150:0:18,11:2030:0:18,11:2056:0:3]
+[Au5em],[$nosymbol@MSF@repl_scanner.c:2328],[repl_scanner.c],[11:2056],[Vul],[M],[MSF],[1,0,0],[$nosymbol],#replication_yyensure_buffer_stack()#,[11:2328:0:9,11:2026:0:18,11:2026:0:10,11:2036:0:12,11:2056:0:3]
+[Au5em],[yy_buffer_stack@UDR@repl_scanner.c:2341],[repl_scanner.c],[11:2341],[Vul],[D],[UDR],[1,0,0],[yy_buffer_stack],#replication_yyrealloc()#,[11:1818:0:6,11:1825:0:1,11:1825:0:2,11:2016:0:6,11:2019:0:24,11:2019:0:26,11:2039:0:23,11:2030:0:2,11:2150:0:2,11:2045:0:25,11:2045:0:2,11:2341:0:3]
+[Au5em],[yy_buffer_stack@UDR@repl_scanner.c:2341],[repl_scanner.c],[11:2341],[Vul],[D],[UDR],[1,0,0],[yy_buffer_stack],#replication_yyrealloc()#,[11:1967:0:6,11:1968:0:24,11:1968:0:26,11:1971:0:1,11:1971:0:2,11:2016:0:6,11:2019:0:24,11:2019:0:26,11:2039:0:23,11:2030:0:2,11:2150:0:2,11:2045:0:25,11:2045:0:2,11:2341:0:3]
+[Au5em],[realloc@ERR33-C@CERT@repl_scanner.c:2045@repl_scanner.c:2341],[repl_scanner.c],[11:2341],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[realloc],#replication_yyensure_buffer_stack()#,[11:2341:0:3,11:2045:0:18,11:2045:0:16]
+[Au5em],[malloc@ERR33-C@CERT@repl_scanner.c:2026@repl_scanner.c:2328],[repl_scanner.c],[11:2328],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[malloc],#replication_yyensure_buffer_stack()#,[11:2328:0:3,11:2026:0:18,11:2026:0:16]
+[Au5em],[yy_buffer_stack@AOB@repl_scanner.c:2053@repl_scanner.c:2341],[repl_scanner.c],[11:2053],[Vul],[M],[AOB],[1,0,0],[yy_buffer_stack],#fprintf_to_ereport()#,[11:2341:0:5,11:2045:0:18,11:2049:0:24,11:2049:0:26,11:2150:0:18,11:2030:0:18,11:2045:0:2,11:2341:0:1,11:2045:0:18,11:2030:0:2,11:2150:0:2,11:2045:0:1,11:2053:0:3]
+[Au5em],[$nosymbol@MSF@repl_scanner.c:2328],[repl_scanner.c],[11:1884],[Vul],[D],[MSF],[1,0,0],[$nosymbol],#replication_yy_create_buffer()#,[11:2328:0:9,11:1875:0:18,11:2150:0:18,11:1868:0:18,11:1868:0:2,11:2150:0:2,11:1877:0:2,11:2150:0:2,11:1883:0:12,11:2150:0:18,11:1877:0:18,11:2150:0:18,11:1868:0:18,11:1884:0:3]
+[Au5em],[b@MSF@repl_scanner.c:2328],[repl_scanner.l],[15:89],[Vul],[D],[MSF],[1,0,0],[b],#replication_yy_create_buffer()#,[11:2328:0:9,11:1866:0:18,11:1868:0:2,11:2150:0:2,11:1877:0:2,11:2150:0:2,15:89:0:12]
+[Au5em],[malloc@ERR33-C@CERT@repl_scanner.c:1875@repl_scanner.c:2328],[repl_scanner.c],[11:2328],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[malloc],#replication_yy_create_buffer()#,[11:2328:0:3,11:1875:0:18,11:1875:0:16]
+[Au5em],[$nosymbol@MSF@repl_scanner.c:2341],[repl_scanner.l],[15:89],[Vul],[D],[MSF],[1,0,0],[$nosymbol],#yy_get_next_buffer()#,[11:2341:0:9,11:1595:0:18,11:1604:0:2,11:2150:0:2,11:1618:0:2,11:2150:0:2,11:1618:0:2,11:2150:0:2,15:89:0:12]
+[Au5em],[$nosymbol@MSF@repl_scanner.c:2341],[repl_scanner.l],[15:89],[Vul],[D],[MSF],[1,0,0],[$nosymbol],#yy_get_next_buffer()#,[11:2341:0:9,11:1595:0:18,11:2150:0:18,11:1536:0:18,11:1536:0:2,11:2150:0:2,11:1604:0:2,11:2150:0:2,15:89:0:12]
+[Au5em],[$nosymbol@MSF@repl_scanner.c:2341],[repl_scanner.c],[11:1658],[Vul],[D],[MSF],[1,0,0],[$nosymbol],#yy_get_next_buffer()#,[11:2341:0:9,11:1646:0:18,11:1657:0:12,11:2150:0:18,11:1618:0:18,11:2150:0:18,11:1618:0:18,11:2150:0:18,11:1604:0:18,11:2150:0:18,11:1536:0:18,11:1658:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1805],[repl_scanner.c],[11:1658],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#yy_get_next_buffer()#,[11:1805:0:9,11:1629:0:18,11:1657:0:12,11:2150:0:18,11:1618:0:18,11:2150:0:18,11:1618:0:18,11:2150:0:18,11:1604:0:18,11:2150:0:18,11:1536:0:18,11:1658:0:3]
+[Au5em],[ptr@UDR@repl_scanner.c:2332],[repl_scanner.c],[11:2341],[Vul],[D],[UDR],[1,0,0],[ptr],#replication_yyrealloc()#,[11:1646:0:2,11:2332:0:1,11:2341:0:3]
+[Au5em],[$nosymbol@MSF@repl_scanner.c:2341],[repl_scanner.l],[15:89],[Vul],[D],[MSF],[1,0,0],[$nosymbol],#yy_get_next_buffer()#,[11:2341:0:9,11:1646:0:18,11:2150:0:18,11:1618:0:18,11:2150:0:18,11:1618:0:18,11:2150:0:18,11:1604:0:18,11:2150:0:18,11:1536:0:18,11:1536:0:2,11:2150:0:2,11:1604:0:2,11:2150:0:2,11:1618:0:2,11:2150:0:2,11:1618:0:2,11:2150:0:2,11:1648:0:2,11:2150:0:2,15:89:0:12]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1805],[repl_scanner.l],[15:89],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#yy_get_next_buffer()#,[11:1805:0:9,11:1629:0:18,11:1648:0:2,11:2150:0:2,15:89:0:12]
+[Au5em],[yy_n_chars@ERR33-C@CERT@repl_scanner.c:1618@repl_scanner.c:1618],[repl_scanner.c],[11:1618],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[yy_n_chars],#yy_get_next_buffer()#,[11:1618:0:3,11:1618:0:16]
+[Au5em],[getc@FIO34-C@CERT@repl_scanner.c:1657@repl_scanner.c:1618],[repl_scanner.c],[11:1618],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO34-C],[getc],#yy_get_next_buffer()#,[11:1618:0:3,11:1618:0:17,11:1618:0:2,11:2150:0:2,11:1618:0:2,11:2150:0:2,11:1641:0:17,11:1643:0:17,11:1657:0:16]
+[Au5em],[realloc@ERR33-C@CERT@repl_scanner.c:1595@repl_scanner.c:2341],[repl_scanner.c],[11:2341],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[realloc],#yy_get_next_buffer()#,[11:2341:0:3,11:1595:0:18,11:1590:0:25,11:1586:0:23,11:1595:0:16]
+[Au5em],[realloc@ERR33-C@CERT@repl_scanner.c:1646@repl_scanner.c:2341],[repl_scanner.c],[11:2341],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[realloc],#yy_get_next_buffer()#,[11:2341:0:3,11:1646:0:18,11:1646:0:16]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.l],[15:89],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:190:0:2,15:241:0:2,15:251:0:2,11:2150:0:2,11:1514:0:2,11:2150:0:2,15:89:0:12]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:144:0:12,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:145:0:12,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:146:0:12,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:147:0:12,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:148:0:12,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:149:0:12,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:150:0:12,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:151:0:12,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:152:0:12,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:153:0:12,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:154:0:12,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:155:0:12,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:156:0:12,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:157:0:12,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:158:0:12,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:159:0:12,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:160:0:12,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:161:0:12,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:162:0:12,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:163:0:12,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:164:0:12,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:165:0:12,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:166:0:12,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:167:0:12,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:168:0:12,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:169:0:12,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:170:0:12,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:172:0:12,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:173:0:12,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:174:0:12,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:175:0:12,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:183:0:12,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:192:0:12,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.l],[15:282],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:190:0:2,15:282:0:12]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:190:0:2,15:204:0:12,15:190:0:18,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:190:0:2,15:227:0:12,15:190:0:18,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:238:0:12,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:249:0:12,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.l],[15:89],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:190:0:2,15:241:0:2,15:251:0:2,11:2150:0:2,15:89:0:12]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.c],[11:1519],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:245:0:12,11:1519:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1038],[repl_scanner.l],[15:282],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yylex()#,[11:1038:0:9,15:190:0:2,15:241:0:2,15:282:0:12]
+[Au5em],[sscanf@ERR33-C@CERT@repl_scanner.l:189@repl_scanner.l:189],[repl_scanner.l],[15:189],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[sscanf],#replication_yylex()#,[15:189:0:3,15:189:0:16]
+[Au5em],[yyvsp@AOB@repl_gram.y:173@repl_gram.c:1225],[repl_gram.y],[10:173],[Vul],[D],[AOB],[1,0,0],[yyvsp],#replication_yyparse()#,[9:1225:0:1,9:1247:0:17,10:173:0:3]
+[Au5em],[yyvsp@AOB@repl_gram.y:216@repl_gram.c:1225],[repl_gram.y],[10:216],[Vul],[D],[AOB],[1,0,0],[yyvsp],#replication_yyparse()#,[9:1225:0:1,9:1247:0:17,10:216:0:3]
+[Au5em],[yyvsp@AOB@repl_gram.y:234@repl_gram.c:1225],[repl_gram.y],[10:234],[Vul],[D],[AOB],[1,0,0],[yyvsp],#replication_yyparse()#,[9:1225:0:1,9:1247:0:17,10:234:0:3]
+[Au5em],[yyvsp@AOB@repl_gram.y:284@repl_gram.c:1225],[repl_gram.y],[10:284],[Vul],[D],[AOB],[1,0,0],[yyvsp],#replication_yyparse()#,[9:1225:0:1,9:1247:0:17,10:284:0:3]
+[Au5em],[yyvsp@AOB@repl_gram.y:285@repl_gram.c:1225],[repl_gram.y],[10:285],[Vul],[D],[AOB],[1,0,0],[yyvsp],#replication_yyparse()#,[9:1225:0:1,9:1247:0:17,10:285:0:3]
+[Au5em],[yyvsp@AOB@repl_gram.y:295@repl_gram.c:1225],[repl_gram.y],[10:295],[Vul],[D],[AOB],[1,0,0],[yyvsp],#replication_yyparse()#,[9:1225:0:1,9:1247:0:17,10:295:0:3]
+[Au5em],[yyvsp@AOB@repl_gram.y:296@repl_gram.c:1225],[repl_gram.y],[10:296],[Vul],[D],[AOB],[1,0,0],[yyvsp],#replication_yyparse()#,[9:1225:0:1,9:1247:0:17,10:296:0:3]
+[Au5em],[yyvsp@AOB@repl_gram.y:297@repl_gram.c:1225],[repl_gram.y],[10:297],[Vul],[D],[AOB],[1,0,0],[yyvsp],#replication_yyparse()#,[9:1225:0:1,9:1247:0:17,10:297:0:3]
+[Au5em],[yyvsp@AOB@repl_gram.y:305@repl_gram.c:1225],[repl_gram.y],[10:305],[Vul],[D],[AOB],[1,0,0],[yyvsp],#replication_yyparse()#,[9:1225:0:1,9:1247:0:17,10:305:0:3]
+[Au5em],[yyvsp@AOB@repl_gram.y:374@repl_gram.c:1225],[repl_gram.y],[10:374],[Vul],[D],[AOB],[1,0,0],[yyvsp],#replication_yyparse()#,[9:1225:0:1,9:1247:0:17,10:374:0:3]
+[Au5em],[yyvsp@AOB@repl_gram.y:375@repl_gram.c:1225],[repl_gram.y],[10:375],[Vul],[D],[AOB],[1,0,0],[yyvsp],#replication_yyparse()#,[9:1225:0:1,9:1247:0:17,10:375:0:3]
+[Au5em],[yyvsp@AOB@repl_gram.y:388@repl_gram.c:1225],[repl_gram.y],[10:388],[Vul],[D],[AOB],[1,0,0],[yyvsp],#replication_yyparse()#,[9:1225:0:1,9:1247:0:17,10:388:0:3]
+[Au5em],[yyvsp@AOB@repl_gram.y:389@repl_gram.c:1225],[repl_gram.y],[10:389],[Vul],[D],[AOB],[1,0,0],[yyvsp],#replication_yyparse()#,[9:1225:0:1,9:1247:0:17,10:389:0:3]
+[Au5em],[yyvsp@AOB@repl_gram.y:445@repl_gram.c:1225],[repl_gram.y],[10:445],[Vul],[D],[AOB],[1,0,0],[yyvsp],#replication_yyparse()#,[9:1225:0:1,9:1247:0:17,10:445:0:3]
+[Au5em],[yyvsp@AOB@repl_gram.y:456@repl_gram.c:1225],[repl_gram.y],[10:456],[Vul],[D],[AOB],[1,0,0],[yyvsp],#replication_yyparse()#,[9:1225:0:1,9:1247:0:17,10:456:0:3]
+[Au5em],[yyvsp@AOB@repl_gram.y:463@repl_gram.c:1225],[repl_gram.y],[10:463],[Vul],[D],[AOB],[1,0,0],[yyvsp],#replication_yyparse()#,[9:1225:0:1,9:1247:0:17,10:463:0:3]
+[Au5em],[b@NPD@repl_scanner.c:1911],[repl_scanner.c],[11:1916],[Vul],[M],[NPD],[1,0,0],[b],#replication_yy_init_buffer()#,[11:1809:0:2,11:1911:0:1,11:1911:0:17,11:1911:0:1,11:1916:0:3]
+[Au5em],[b@NPD@repl_scanner.c:1911],[repl_scanner.c],[11:1917],[Vul],[M],[NPD],[1,0,0],[b],#replication_yy_init_buffer()#,[11:1809:0:2,11:1911:0:1,11:1911:0:17,11:1911:0:1,11:1917:0:3]
+[Au5em],[b@NPD@repl_scanner.c:1911],[repl_scanner.c],[11:1928],[Vul],[M],[NPD],[1,0,0],[b],#replication_yy_init_buffer()#,[11:1809:0:2,11:1911:0:1,11:1911:0:17,11:1911:0:1,11:1928:0:3]
+[Au5em],[b@NPD@repl_scanner.c:1911],[repl_scanner.c],[11:1924],[Vul],[M],[NPD],[1,0,0],[b],#replication_yy_init_buffer()#,[11:1809:0:2,11:1911:0:1,11:1911:0:17,11:1911:0:1,11:1924:0:3]
+[Au5em],[b@NPD@repl_scanner.c:1911],[repl_scanner.c],[11:1925],[Vul],[M],[NPD],[1,0,0],[b],#replication_yy_init_buffer()#,[11:1809:0:2,11:1911:0:1,11:1911:0:17,11:1911:0:1,11:1925:0:3]
+[Au5em],[replication_yy_create_buffer@MSF@repl_scanner.c:1805],[repl_scanner.c],[11:1811],[Vul],[D],[MSF],[1,0,0],[replication_yy_create_buffer],#replication_yyrestart()#,[11:1805:0:9,11:1810:0:12,11:1811:0:3]
+[Au5em],[ptr@UDR@repl_scanner.c:1891],[repl_scanner.c],[11:2346],[Vul],[M],[UDR],[1,0,0],[ptr],#replication_yyfree()#,[11:1902:0:2,11:2345:0:1,11:2346:0:3]
+[Au5em],[ptr@UDR@repl_scanner.c:1891],[repl_scanner.c],[11:2346],[Vul],[M],[UDR],[1,0,0],[ptr],#replication_yyfree()#,[11:1900:0:2,11:2345:0:1,11:2346:0:3]
+[Au5em],[*yy_buffer_stack+(yy_buffer_stack_top*8)@NPD@repl_scanner.c:2002],[repl_scanner.c],[11:1852],[Vul],[D],[NPD],[1,0,0],[*yy_buffer_stack+(yy_buffer_stack_top*8)],#replication_yy_load_buffer_state()#,[11:1852:0:3]
+[Au5em],[ptr@UDR@repl_scanner.c:1997],[repl_scanner.c],[11:2346],[Vul],[M],[UDR],[1,0,0],[ptr],#replication_yyfree()#,[11:1900:0:2,11:2345:0:1,11:2346:0:3]
+[Au5em],[buf@MSF@repl_scanner.c:2328],[repl_scanner.c],[11:2142],[Vul],[D],[MSF],[1,0,0],[buf],#replication_yy_scan_bytes()#,[11:2328:0:9,11:2123:0:18,11:2125:0:2,11:2150:0:2,11:2141:0:12,11:2150:0:18,11:2125:0:18,11:2142:0:3]
+[Au5em],[buf@MSF@repl_scanner.c:2328],[repl_scanner.l],[15:89],[Vul],[D],[MSF],[1,0,0],[buf],#replication_yy_scan_bytes()#,[11:2328:0:9,11:2123:0:18,11:2125:0:2,11:2150:0:2,11:2134:0:2,11:2150:0:2,15:89:0:12]
+[Au5em],[ptr@UDR@repl_scanner.c:2281],[repl_scanner.c],[11:2346],[Vul],[M],[UDR],[1,0,0],[ptr],#replication_yyfree()#,[11:2291:0:2,11:2345:0:1,11:2346:0:3]
+[Au5em],[yy_buffer_stack@UDR@repl_scanner.c:2346],[repl_scanner.c],[11:2346],[Vul],[D],[UDR],[1,0,0],[yy_buffer_stack],#replication_yyfree()#,[11:2281:0:6,11:2291:0:2,11:2346:0:3]
+[Au5em],[malloc@MEM35-C@CERT@repl_scanner.c:2328],[repl_scanner.c],[11:2328],[Vul],[M],[RBC],[1,0,0],[CERT],[MEM35-C],[malloc],#replication_yyalloc()#,[11:2328:0:3]
+[Au5em],[malloc@ERR33-C@CERT@repl_scanner.c:2328@repl_scanner.c:2328],[repl_scanner.c],[11:2328],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[malloc],#replication_yyalloc()#,[11:2328:0:3,11:2328:0:16]
+[Au5em],[ptr@UDR@repl_scanner.c:2332],[repl_scanner.c],[11:2341],[Vul],[M],[UDR],[1,0,0],[ptr],#replication_yyrealloc()#,[11:2341:0:3]
+[Au5em],[realloc@ERR33-C@CERT@repl_scanner.c:2341@repl_scanner.c:2341],[repl_scanner.c],[11:2341],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[realloc],#replication_yyrealloc()#,[11:2341:0:3,11:2341:0:16]
+[Au5em],[ptr@UDR@repl_scanner.c:2345],[repl_scanner.c],[11:2346],[Vul],[M],[UDR],[1,0,0],[ptr],#replication_yyfree()#,[11:2346:0:3]
+[Au5em],[ptr@UDR@repl_scanner.l:290],[repl_scanner.c],[11:2346],[Vul],[M],[UDR],[1,0,0],[ptr],#replication_yyfree()#,[11:1900:0:2,11:2345:0:1,11:2346:0:3]

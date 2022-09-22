@@ -1,0 +1,7 @@
+diff --git a/src/convolutional_layer.c b/src/convolutional_layer.c
+index 1fb58b0..57345bc 100644
+--- a/src/convolutional_layer.c
++++ b/src/convolutional_layer.c
+@@ -47,0 +48,2 @@ void binarize_cpu(float *input, int n, float *binary)
++        int j = n + i;
++        binary[j] = (input[j] > 0) ? 1 : -1;

@@ -1,0 +1,237 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/port/atomics/arch-x86.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/port/atomics/generic-gcc.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/port/atomics/generic.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/port/atomics.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/storage/bufpage.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/utils/rel.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/utils/sortsupport.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/storage/s_lock.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/executor/executor.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/executor/tuptable.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/clausesel.c"
+  },
+  {
+  "fid": 19,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/statistics/statistics.h"
+  },
+  {
+  "fid": 20,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/nodes/bitmapset.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/optimizer/clauses.h"
+  },
+  {
+  "fid": 22,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/utils/lsyscache.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/utils/selfuncs.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/nodes/nodes.h"
+  },
+  {
+  "fid": 25,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/optimizer/pathnode.h"
+  },
+  {
+  "fid": 26,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/optimizer/plancat.h"
+  },
+  {
+  "fid": 27,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/utils/syscache.h"
+  },
+  {
+  "fid": 28,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 29,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 30,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 31,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 32,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 33,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 34,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 35,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 36,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/optimizer/cost.h"
+  },
+  {
+  "fid": 37,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/catalog/pg_operator.h"
+  },
+  {
+  "fid": 38,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/storage/dsm_impl.h"
+  },
+  {
+  "fid": 39,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/common/relpath.h"
+  },
+  {
+  "fid": 40,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/pgxc/pgxc.h"
+  },
+  {
+  "fid": 41,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/storage/backendid.h"
+  },
+  {
+  "fid": 42,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/pgxc/shardmap.h"
+  },
+  {
+  "fid": 43,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 44,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/storage/fd.h"
+  },
+  {
+  "fid": 45,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/access/xlog.h"
+  },
+  {
+  "fid": 46,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 47,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/access/transam.h"
+  },
+  {
+  "fid": 48,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/utils/array.h"
+  },
+  {
+  "fid": 49,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/catalog/objectaddress.h"
+  },
+  {
+  "fid": 50,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/executor/instrument.h"
+  },
+  {
+  "fid": 51,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/tcop/dest.h"
+  },
+  {
+  "fid": 52,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 53,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/pgxc/squeue.h"
+  },
+  {
+  "fid": 54,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/storage/lwlock.h"
+  },
+  {
+  "fid": 55,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/storage/lock.h"
+  },
+  {
+  "fid": 56,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/commands/vacuum.h"
+  },
+  {
+  "fid": 57,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/pgtime.h"
+  },
+  {
+  "fid": 58,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/utils/timestamp.h"
+  }
+]
+[Au5em],[oprname@UIV@clausesel.c:941],[clausesel.c],[18:955],[Vul],[D],[UIV],[1,0,0],[oprname],#clause_selectivity_could_under_estimated()#,[18:941:0:4,18:892:0:23,18:898:0:26,18:911:0:23,18:915:0:25,18:918:0:23,18:918:0:25,18:918:0:17,18:947:0:17,18:955:0:3]
+[Au5em],[oprname@UIV@clausesel.c:941],[clausesel.c],[18:955],[Vul],[D],[UIV],[1,0,0],[oprname],#clause_selectivity_could_under_estimated()#,[18:941:0:4,18:892:0:23,18:898:0:26,18:911:0:23,18:915:0:25,18:918:0:23,18:918:0:25,18:918:0:17,18:947:0:17,18:955:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[clausesel.c],[18:231],[Vul],[M],[NPD],[1,0,0],[0x0],#clauselist_selectivity()#,[6:79:0:1,6:79:0:17,6:79:0:1,18:231:0:18,18:231:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[clausesel.c],[18:231],[Vul],[M],[NPD],[1,0,0],[0x0],#clauselist_selectivity()#,[6:79:0:1,6:79:0:17,6:79:0:1,18:231:0:18,18:231:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[clausesel.c],[18:222],[Vul],[M],[NPD],[1,0,0],[0x0],#clauselist_selectivity()#,[6:79:0:1,6:79:0:17,6:79:0:1,18:222:0:18,18:222:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[clausesel.c],[18:222],[Vul],[M],[NPD],[1,0,0],[0x0],#clauselist_selectivity()#,[6:79:0:1,6:79:0:17,6:79:0:1,18:222:0:18,18:222:0:3]

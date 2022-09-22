@@ -1,0 +1,59 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/parallel.c"
+  },
+  {
+  "fid": 5,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/pg_upgrade.h"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/sys/wait.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/bits/getopt_core.h"
+  }
+]
+[Au5em],[work_status@UIV@parallel.c:293],[parallel.c],[4:307],[Vul],[M],[UIV],[1,0,0],[work_status],#reap_child()#,[4:293:0:4,4:189:0:24,4:189:0:26,4:189:0:17,4:217:0:2,4:304:0:5,4:307:0:24,4:307:0:25,4:307:0:3]
+[Au5em],[work_status@UIV@parallel.c:293],[parallel.c],[4:310],[Vul],[M],[UIV],[1,0,0],[work_status],#reap_child()#,[4:293:0:4,4:189:0:24,4:189:0:26,4:189:0:17,4:217:0:2,4:304:0:5,4:307:0:24,4:353:0:26,4:310:0:3]
+[Au5em],[work_status@UIV@parallel.c:293],[parallel.c],[4:307],[Vul],[M],[UIV],[1,0,0],[work_status],#reap_child()#,[4:293:0:4,4:300:0:24,4:301:0:26,4:304:0:5,4:307:0:24,4:307:0:25,4:307:0:3]
+[Au5em],[work_status@UIV@parallel.c:293],[parallel.c],[4:310],[Vul],[M],[UIV],[1,0,0],[work_status],#reap_child()#,[4:293:0:4,4:300:0:24,4:301:0:26,4:304:0:5,4:307:0:24,4:308:0:26,4:310:0:3]

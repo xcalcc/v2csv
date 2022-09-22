@@ -1,0 +1,367 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/storage/bufpage.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/port/atomics/arch-x86.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/port/atomics/generic-gcc.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/port/atomics/generic.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/port/atomics.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/utils/rel.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/utils/sortsupport.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/storage/s_lock.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/pgstat.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/storage/proc.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/replication/walreceiver.h"
+  },
+  {
+  "fid": 19,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/utils/tuplestore.h"
+  },
+  {
+  "fid": 20,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/access/tupdesc.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/utils/snapmgr.h"
+  },
+  {
+  "fid": 22,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/miscadmin.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/storage/bufmgr.h"
+  },
+  {
+  "fid": 25,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/utils/tqual.h"
+  },
+  {
+  "fid": 26,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/utils/memutils.h"
+  },
+  {
+  "fid": 27,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/bootstrap.c"
+  },
+  {
+  "fid": 28,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/utils/guc.h"
+  },
+  {
+  "fid": 29,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 30,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/port.h"
+  },
+  {
+  "fid": 31,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 32,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/storage/ipc.h"
+  },
+  {
+  "fid": 33,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/utils/ps_status.h"
+  },
+  {
+  "fid": 34,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/pgxc/poolmgr.h"
+  },
+  {
+  "fid": 35,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/storage/procsignal.h"
+  },
+  {
+  "fid": 36,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/postmaster/clustermon.h"
+  },
+  {
+  "fid": 37,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/access/xlog.h"
+  },
+  {
+  "fid": 38,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/postmaster/startup.h"
+  },
+  {
+  "fid": 39,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/postmaster/bgwriter.h"
+  },
+  {
+  "fid": 40,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/postmaster/walwriter.h"
+  },
+  {
+  "fid": 41,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/access/xact.h"
+  },
+  {
+  "fid": 42,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/bootstrap/bootstrap.h"
+  },
+  {
+  "fid": 43,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/utils/relmapper.h"
+  },
+  {
+  "fid": 44,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/tcop/tcopprot.h"
+  },
+  {
+  "fid": 45,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/storage/lwlock.h"
+  },
+  {
+  "fid": 46,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/storage/condition_variable.h"
+  },
+  {
+  "fid": 47,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/access/heapam.h"
+  },
+  {
+  "fid": 48,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/nodes/makefuncs.h"
+  },
+  {
+  "fid": 49,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 50,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/utils/builtins.h"
+  },
+  {
+  "fid": 51,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/access/htup_details.h"
+  },
+  {
+  "fid": 52,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 53,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/nodes/nodes.h"
+  },
+  {
+  "fid": 54,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/access/genam.h"
+  },
+  {
+  "fid": 55,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/catalog/index.h"
+  },
+  {
+  "fid": 56,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 57,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 58,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 59,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 60,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 61,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 62,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 63,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 64,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/access/transam.h"
+  },
+  {
+  "fid": 65,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/pgtime.h"
+  },
+  {
+  "fid": 66,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/utils/timestamp.h"
+  },
+  {
+  "fid": 67,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/common/relpath.h"
+  },
+  {
+  "fid": 68,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/pgxc/pgxc.h"
+  },
+  {
+  "fid": 69,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/storage/backendid.h"
+  },
+  {
+  "fid": 70,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/storage/sinval.h"
+  },
+  {
+  "fid": 71,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/utils/datetime.h"
+  },
+  {
+  "fid": 72,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/utils/resowner.h"
+  },
+  {
+  "fid": 73,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 74,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 75,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/pgxc/shardmap.h"
+  },
+  {
+  "fid": 76,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/storage/dsm_impl.h"
+  },
+  {
+  "fid": 77,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/storage/fd.h"
+  },
+  {
+  "fid": 78,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/catalog/pg_type.h"
+  },
+  {
+  "fid": 79,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/utils/array.h"
+  },
+  {
+  "fid": 80,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/catalog/objectaddress.h"
+  },
+  {
+  "fid": 81,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/executor/instrument.h"
+  },
+  {
+  "fid": 82,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/tcop/dest.h"
+  },
+  {
+  "fid": 83,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/pgxc/squeue.h"
+  },
+  {
+  "fid": 84,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/libpq/pqsignal.h"
+  },
+  {
+  "fid": 85,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/libpq/pqcomm.h"
+  },
+  {
+  "fid": 86,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/postmaster/pgarch.h"
+  },
+  {
+  "fid": 87,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/storage/lock.h"
+  },
+  {
+  "fid": 88,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/replication/walsender.h"
+  },
+  {
+  "fid": 89,
+  "path": "/home/xc5/cprojects/tbase/src/backend/bootstrap/../../../src/include/utils/relcrypt.h"
+  }
+]
+[Au5em],[DDC@bootstrap.c:508],[bootstrap.c],[27:508],[Vul],[D],[DDC],[1,0,0],[],#AuxiliaryProcessMain()#,[27:508:0:3]
+[Au5em],[DDC@bootstrap.c:526],[bootstrap.c],[27:526],[Vul],[D],[DDC],[1,0,0],[],#AuxiliaryProcessMain()#,[27:526:0:3]
+[Au5em],[DDC@bootstrap.c:531],[bootstrap.c],[27:531],[Vul],[D],[DDC],[1,0,0],[],#AuxiliaryProcessMain()#,[27:531:0:3]
+[Au5em],[DDC@bootstrap.c:536],[bootstrap.c],[27:536],[Vul],[D],[DDC],[1,0,0],[],#AuxiliaryProcessMain()#,[27:536:0:3]
+[Au5em],[DDC@bootstrap.c:542],[bootstrap.c],[27:542],[Vul],[D],[DDC],[1,0,0],[],#AuxiliaryProcessMain()#,[27:542:0:3]
+[Au5em],[DDC@bootstrap.c:547],[bootstrap.c],[27:547],[Vul],[D],[DDC],[1,0,0],[],#AuxiliaryProcessMain()#,[27:547:0:3]
+[Au5em],[name@DBF@bootstrap.c:355@bootstrap.c:355],[bootstrap.c],[27:355],[Vul],[D],[DBF],[1,0,0],[name],#AuxiliaryProcessMain()#,[27:355:0:10,27:363:0:23,27:334:0:26,27:340:0:24,27:340:0:26,27:358:0:17,27:298:0:17,27:355:0:3]
+[Au5em],[value@DBF@bootstrap.c:357@bootstrap.c:357],[bootstrap.c],[27:357],[Vul],[D],[DBF],[1,0,0],[value],#AuxiliaryProcessMain()#,[27:357:0:10,27:357:0:17,27:358:0:17,27:298:0:17,27:357:0:3]
+[Au5em],[attrtypes@AOB@bootstrap.c:855],[bootstrap.c],[27:855],[Vul],[M],[AOB],[1,0,0],[attrtypes],#DefineAttr()#,[27:855:0:3]
+[Au5em],[Nulls@AOB@bootstrap.c:896],[bootstrap.c],[27:896],[Vul],[M],[AOB],[1,0,0],[Nulls],#InsertOneTuple()#,[27:896:0:3]
+[Au5em],[newStr@AOB@bootstrap.c:1146],[bootstrap.c],[27:1146],[Vul],[M],[AOB],[1,0,0],[newStr],#MapArrayTypeName()#,[27:1146:0:3]
+[Au5em],[newStr@AOB@bootstrap.c:1148],[bootstrap.c],[27:1148],[Vul],[M],[AOB],[1,0,0],[newStr],#MapArrayTypeName()#,[27:1148:0:3]

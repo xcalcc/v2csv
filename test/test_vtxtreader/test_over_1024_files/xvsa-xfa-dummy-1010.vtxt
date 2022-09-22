@@ -1,0 +1,85 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/pg_upgrade.c"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/../../../src/include/port.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/pg_upgrade.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/../../../src/include/common/restricted_token.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/../../../src/include/common/fe_memutils.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/../../../src/interfaces/libpq/pqexpbuffer.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/../../../src/include/fe_utils/string_utils.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/../../../src/interfaces/libpq/libpq-fe.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 16,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 17,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_upgrade/../../../src/include/catalog/pg_class.h"
+  }
+]
+[Au5em],[snprintf@ERR33-C@CERT@pg_upgrade.c:368],[pg_upgrade.c],[4:368],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#copy_xact_xlog_xid()#,[4:368:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_upgrade.c:386],[pg_upgrade.c],[4:386],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#copy_xact_xlog_xid()#,[4:386:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_upgrade.c:387],[pg_upgrade.c],[4:387],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#copy_xact_xlog_xid()#,[4:387:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_upgrade.c:368],[pg_upgrade.c],[4:368],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#copy_xact_xlog_xid()#,[4:368:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_upgrade.c:368],[pg_upgrade.c],[4:368],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#copy_xact_xlog_xid()#,[4:368:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_upgrade.c:386],[pg_upgrade.c],[4:386],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#copy_xact_xlog_xid()#,[4:386:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_upgrade.c:387],[pg_upgrade.c],[4:387],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#copy_xact_xlog_xid()#,[4:387:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_upgrade.c:368],[pg_upgrade.c],[4:368],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#copy_xact_xlog_xid()#,[4:368:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_upgrade.c:386],[pg_upgrade.c],[4:386],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#copy_xact_xlog_xid()#,[4:386:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_upgrade.c:387],[pg_upgrade.c],[4:387],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#copy_xact_xlog_xid()#,[4:387:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_upgrade.c:322],[pg_upgrade.c],[4:322],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#create_new_objects()#,[4:322:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_upgrade.c:323],[pg_upgrade.c],[4:323],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#create_new_objects()#,[4:323:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_upgrade.c:632],[pg_upgrade.c],[4:632],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#cleanup()#,[4:632:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@pg_upgrade.c:635],[pg_upgrade.c],[4:635],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#cleanup()#,[4:635:0:3]

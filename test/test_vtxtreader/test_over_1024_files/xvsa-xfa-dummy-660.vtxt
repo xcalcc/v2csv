@@ -1,0 +1,61 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/contrib/pgcrypto/pgp-pubdec.c"
+  },
+  {
+  "fid": 7,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/contrib/pgcrypto/px.h"
+  },
+  {
+  "fid": 8,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/contrib/pgcrypto/pgp.h"
+  },
+  {
+  "fid": 9,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/contrib/pgcrypto/mbuf.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 14,
+  "path": "/share/scan/0814a7fd-b866-4b7b-8515-dc8fb699805a/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/signal.h"
+  }
+]
+[Au5em],[ver@UIV@pgp-pubdec.c:228],[pgp-pubdec.c],[6:229],[Vul],[M],[UIV],[1,0,0],[ver],#pgp_parse_pubenc_sesskey()#,[6:228:0:4,6:222:0:24,6:222:0:26,6:228:0:5,6:228:0:24,6:228:0:26,6:228:0:1,6:229:0:3]
+[Au5em],[ver@UIV@pgp-pubdec.c:228],[pgp-pubdec.c],[6:231],[Vul],[M],[UIV],[1,0,0],[ver],#pgp_parse_pubenc_sesskey()#,[6:228:0:4,6:222:0:24,6:222:0:26,6:228:0:5,6:228:0:24,6:228:0:26,6:229:0:23,6:231:0:25,6:228:0:1,6:231:0:3]

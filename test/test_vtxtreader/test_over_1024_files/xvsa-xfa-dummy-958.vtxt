@@ -1,0 +1,38 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/common/md5.c"
+  },
+  {
+  "fid": 5,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 6,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/netinet/in.h"
+  }
+]
+[Au5em],[*k+input@UIV@md5.c:207],[md5.c],[4:218],[Vul],[D],[UIV],[1,0,0],[*k+input],#calculateDigestFromBuffer()#,[4:207:0:1,4:207:0:24,4:207:0:26,4:213:0:24,4:214:0:25,4:218:0:3]
+[Au5em],[sum@AOB@md5.c:242@md5.c:297],[md5.c],[4:242],[Vul],[D],[AOB],[1,0,0],[sum],#calculateDigestFromBuffer()#,[4:297:0:2,4:189:0:4,4:207:0:24,4:207:0:26,4:242:0:3]
+[Au5em],[sum@AOB@md5.c:242@md5.c:297],[md5.c],[4:242],[Vul],[D],[AOB],[1,0,0],[sum],#calculateDigestFromBuffer()#,[4:297:0:2,4:343:0:18,4:189:0:4,4:207:0:24,4:207:0:26,4:242:0:3]

@@ -1,0 +1,12 @@
+diff --git a/npd.c b/npd.c
+index a043864..c3272db 100644
+--- a/npd.c
++++ b/npd.c
+@@ -2,0 +3,7 @@
++void test_dead_func(int input)
++{
++  int a;
++  a = input;
++  printf("a value: %d", a);
++}
++

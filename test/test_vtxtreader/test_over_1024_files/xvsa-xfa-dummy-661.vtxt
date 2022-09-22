@@ -1,0 +1,108 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/plan/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/plan/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/plan/../../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/plan/../../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/plan/analyzejoins.c"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/plan/../../../../src/include/nodes/bitmapset.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/plan/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/plan/../../../../src/include/optimizer/pathnode.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/plan/../../../../src/include/optimizer/var.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/plan/../../../../src/include/optimizer/joininfo.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/plan/../../../../src/include/optimizer/planmain.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/plan/../../../../src/include/optimizer/paths.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/plan/../../../../src/include/optimizer/clauses.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/plan/../../../../src/include/optimizer/tlist.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/plan/../../../../src/include/utils/lsyscache.h"
+  },
+  {
+  "fid": 19,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 20,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 21,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 22,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/plan/../../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/plan/../../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 25,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/plan/../../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 26,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/plan/../../../../src/include/tcop/dest.h"
+  }
+]
+[Au5em],[0x0@NPD@pg_list.h:79],[analyzejoins.c],[8:849],[Vul],[M],[NPD],[1,0,0],[0x0],#query_is_distinct_for()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:849:0:18,8:849:0:3]
+[Au5em],[lg@NPD@pg_list.h:79],[analyzejoins.c],[8:891],[Vul],[M],[NPD],[1,0,0],[lg],#query_is_distinct_for()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:880:0:18,8:880:0:1,8:881:0:23,8:881:0:25,8:881:0:17,8:891:0:3]
+[Au5em],[lg@NPD@pg_list.h:79],[analyzejoins.c],[8:892],[Vul],[M],[NPD],[1,0,0],[lg],#query_is_distinct_for()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:880:0:18,8:880:0:1,8:881:0:23,8:881:0:25,8:881:0:17,8:892:0:3]
+[Au5em],[innerrelid@UIV@analyzejoins.c:161],[analyzejoins.c],[8:179],[Vul],[M],[UIV],[1,0,0],[innerrelid],#join_is_removable()#,[8:161:0:4,8:172:0:24,8:174:0:26,8:176:0:5,8:176:0:24,8:176:0:26,8:179:0:3]
+[Au5em],[innerrelid@UIV@analyzejoins.c:524],[analyzejoins.c],[8:544],[Vul],[M],[UIV],[1,0,0],[innerrelid],#reduce_unique_semijoins()#,[8:524:0:4,8:521:0:23,8:521:0:25,8:521:0:17,8:541:0:5,8:542:0:23,8:544:0:25,8:544:0:3]

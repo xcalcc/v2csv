@@ -1,0 +1,438 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/port/atomics/arch-x86.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/port/atomics/generic-gcc.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/port/atomics/generic.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/port/atomics.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/storage/bufpage.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/storage/s_lock.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/utils/rel.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/utils/sortsupport.h"
+  },
+  {
+  "fid": 16,
+  "path": "/usr/include/openssl/safestack.h"
+  },
+  {
+  "fid": 17,
+  "path": "/usr/include/openssl/stack.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/openssl/crypto.h"
+  },
+  {
+  "fid": 19,
+  "path": "/usr/include/openssl/bio.h"
+  },
+  {
+  "fid": 20,
+  "path": "/usr/include/openssl/asn1.h"
+  },
+  {
+  "fid": 21,
+  "path": "/usr/include/openssl/x509.h"
+  },
+  {
+  "fid": 22,
+  "path": "/usr/include/openssl/lhash.h"
+  },
+  {
+  "fid": 23,
+  "path": "/usr/include/openssl/x509_vfy.h"
+  },
+  {
+  "fid": 24,
+  "path": "/usr/include/openssl/pkcs7.h"
+  },
+  {
+  "fid": 25,
+  "path": "/usr/include/openssl/ct.h"
+  },
+  {
+  "fid": 26,
+  "path": "/usr/include/openssl/ssl.h"
+  },
+  {
+  "fid": 27,
+  "path": "/usr/include/openssl/err.h"
+  },
+  {
+  "fid": 28,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/utils/memutils.h"
+  },
+  {
+  "fid": 29,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/audit.c"
+  },
+  {
+  "fid": 30,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/miscadmin.h"
+  },
+  {
+  "fid": 31,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/utils/builtins.h"
+  },
+  {
+  "fid": 32,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 33,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/catalog/namespace.h"
+  },
+  {
+  "fid": 34,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/catalog/objectaddress.h"
+  },
+  {
+  "fid": 35,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/access/heapam.h"
+  },
+  {
+  "fid": 36,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/nodes/makefuncs.h"
+  },
+  {
+  "fid": 37,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/catalog/catalog.h"
+  },
+  {
+  "fid": 38,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/pgxc/pgxc.h"
+  },
+  {
+  "fid": 39,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/lib/stringinfo.h"
+  },
+  {
+  "fid": 40,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/utils/acl.h"
+  },
+  {
+  "fid": 41,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/utils/syscache.h"
+  },
+  {
+  "fid": 42,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/access/htup_details.h"
+  },
+  {
+  "fid": 43,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/catalog/indexing.h"
+  },
+  {
+  "fid": 44,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/catalog/dependency.h"
+  },
+  {
+  "fid": 45,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/utils/inval.h"
+  },
+  {
+  "fid": 46,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/access/skey.h"
+  },
+  {
+  "fid": 47,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/access/genam.h"
+  },
+  {
+  "fid": 48,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/executor/spi.h"
+  },
+  {
+  "fid": 49,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/utils/lsyscache.h"
+  },
+  {
+  "fid": 50,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/commands/dbcommands.h"
+  },
+  {
+  "fid": 51,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/common/username.h"
+  },
+  {
+  "fid": 52,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/postmaster/postmaster.h"
+  },
+  {
+  "fid": 53,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 54,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 55,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/utils/guc.h"
+  },
+  {
+  "fid": 56,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/nodes/nodeFuncs.h"
+  },
+  {
+  "fid": 57,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/port.h"
+  },
+  {
+  "fid": 58,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/commands/extension.h"
+  },
+  {
+  "fid": 59,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/parser/parse_func.h"
+  },
+  {
+  "fid": 60,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/parser/parse_type.h"
+  },
+  {
+  "fid": 61,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/foreign/foreign.h"
+  },
+  {
+  "fid": 62,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/commands/event_trigger.h"
+  },
+  {
+  "fid": 63,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/catalog/pg_publication.h"
+  },
+  {
+  "fid": 64,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/catalog/pg_subscription.h"
+  },
+  {
+  "fid": 65,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/commands/tablespace.h"
+  },
+  {
+  "fid": 66,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/commands/proclang.h"
+  },
+  {
+  "fid": 67,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 68,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/commands/trigger.h"
+  },
+  {
+  "fid": 69,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/commands/policy.h"
+  },
+  {
+  "fid": 70,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/tcop/utility.h"
+  },
+  {
+  "fid": 71,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/pgtime.h"
+  },
+  {
+  "fid": 72,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/postmaster/auditlogger.h"
+  },
+  {
+  "fid": 73,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/pgxc/pgxcnode.h"
+  },
+  {
+  "fid": 74,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 75,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 76,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 77,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 78,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 79,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 80,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 81,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 82,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/storage/dsm_impl.h"
+  },
+  {
+  "fid": 83,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/common/relpath.h"
+  },
+  {
+  "fid": 84,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/storage/backendid.h"
+  },
+  {
+  "fid": 85,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/pgxc/shardmap.h"
+  },
+  {
+  "fid": 86,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 87,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/access/transam.h"
+  },
+  {
+  "fid": 88,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/utils/timestamp.h"
+  },
+  {
+  "fid": 89,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/catalog/pg_type.h"
+  },
+  {
+  "fid": 90,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/utils/array.h"
+  },
+  {
+  "fid": 91,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/storage/lwlock.h"
+  },
+  {
+  "fid": 92,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/storage/lock.h"
+  },
+  {
+  "fid": 93,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/catalog/objectaccess.h"
+  },
+  {
+  "fid": 94,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/storage/fd.h"
+  },
+  {
+  "fid": 95,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/access/xlog.h"
+  },
+  {
+  "fid": 96,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/executor/instrument.h"
+  },
+  {
+  "fid": 97,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/tcop/dest.h"
+  },
+  {
+  "fid": 98,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/pgxc/squeue.h"
+  },
+  {
+  "fid": 99,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/utils/resowner.h"
+  },
+  {
+  "fid": 100,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/utils/portal.h"
+  },
+  {
+  "fid": 101,
+  "path": "/usr/include/openssl/ec.h"
+  },
+  {
+  "fid": 102,
+  "path": "/usr/include/openssl/rsa.h"
+  },
+  {
+  "fid": 103,
+  "path": "/usr/include/openssl/dh.h"
+  },
+  {
+  "fid": 104,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/libpq/pqcomm.h"
+  },
+  {
+  "fid": 105,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/mb/pg_wchar.h"
+  },
+  {
+  "fid": 106,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/libpq/libpq-be.h"
+  },
+  {
+  "fid": 107,
+  "path": "/home/xc5/cprojects/tbase/src/backend/audit/../../../src/include/tcop/tcopprot.h"
+  }
+]
+[Au5em],[SCB@audit.c:2928],[audit.c],[29:2928],[Vul],[D],[SCB],[1,0,0],[],#audit_final_to_string()#,[29:2928:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[audit.c],[29:2511],[Vul],[M],[NPD],[1,0,0],[0x0],#audit_process_object_internal()#,[6:79:0:1,6:79:0:17,6:79:0:1,29:2511:0:18,29:2511:0:3]
+[Au5em],[item@NPD@audit.c:2029],[audit.c],[29:2312],[Vul],[M],[NPD],[1,0,0],[item],#audit_expand_AuditSql_All()#,[29:2029:0:1,29:2029:0:17,29:2311:0:18,29:2311:0:1,29:2312:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[audit.c],[29:2511],[Vul],[M],[NPD],[1,0,0],[0x0],#audit_process_object_internal()#,[6:79:0:1,6:79:0:17,6:79:0:1,29:2511:0:18,29:2511:0:3]
+[Au5em],[item+(j*4)@NPD@audit.c:2029],[audit.c],[29:5144],[Vul],[M],[NPD],[1,0,0],[item+(j*4)],#audit_hit_find_action_index()#,[29:2029:0:1,29:2029:0:17,29:5137:0:18,29:5137:0:1,29:5144:0:3]
+[Au5em],[item+(j*4)@NPD@audit.c:2029],[audit.c],[29:5163],[Vul],[M],[NPD],[1,0,0],[item+(j*4)],#audit_hit_find_action_index()#,[29:2029:0:1,29:2029:0:17,29:5137:0:18,29:5137:0:1,29:5163:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[audit.c],[29:5323],[Vul],[M],[NPD],[1,0,0],[0x0],#audit_hit_find_seq_walker()#,[6:79:0:1,6:79:0:17,6:79:0:1,29:5323:0:18,29:5323:0:3]
+[Au5em],[item@NPD@audit.c:2029],[audit.c],[29:5288],[Vul],[M],[NPD],[1,0,0],[item],#audit_hit_make_hit_info_2()#,[29:2029:0:1,29:2029:0:17,29:5286:0:18,29:5286:0:1,29:5288:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[audit.c],[29:6455],[Vul],[M],[NPD],[1,0,0],[0x0],#audit_hit_read_query_utility()#,[6:79:0:1,6:79:0:17,6:79:0:1,29:6455:0:18,29:6455:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[audit.c],[29:6146],[Vul],[M],[NPD],[1,0,0],[0x0],#audit_hit_read_query_utility()#,[6:79:0:1,6:79:0:17,6:79:0:1,29:6146:0:18,29:6146:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@audit.c:7661],[audit.c],[29:7661],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#audit_hit_read_query_utility()#,[29:7661:0:3]

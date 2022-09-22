@@ -1,0 +1,45 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/common/wait_error.c"
+  },
+  {
+  "fid": 5,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 6,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/common/../../src/include/common/fe_memutils.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/netinet/in.h"
+  }
+]
+[Au5em],[snprintf@ERR33-C@CERT@wait_error.c:79],[wait_error.c],[4:79],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#wait_result_to_str()#,[4:79:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@wait_error.c:67],[wait_error.c],[4:67],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#wait_result_to_str()#,[4:67:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@wait_error.c:70],[wait_error.c],[4:70],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#wait_result_to_str()#,[4:70:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@wait_error.c:45],[wait_error.c],[4:45],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#wait_result_to_str()#,[4:45:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@wait_error.c:49],[wait_error.c],[4:49],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#wait_result_to_str()#,[4:49:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@wait_error.c:53],[wait_error.c],[4:53],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#wait_result_to_str()#,[4:53:0:3]

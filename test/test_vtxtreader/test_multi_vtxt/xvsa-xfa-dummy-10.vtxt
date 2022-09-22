@@ -1,0 +1,21 @@
+{"V", A, 0.7}
+[
+  {
+  "fid": 1,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/Bind.java"
+  },
+  {
+  "fid": 2,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/BoundFieldModule.java"
+  },
+  {
+  "fid": 3,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/CheckedProviderSubject.java"
+  }
+]
+[A10],[com.google.inject.testing.fieldbinder.BoundFieldModule$BoundFieldException@OBJ11-J@CERT@BoundFieldModule.java:242@BoundFieldModule.java:161],[BoundFieldModule.java],[2:161],[Vul],[D],[RBC],[1,0,0],[CERT],[OBJ11-J],[com.google.inject.testing.fieldbinder.BoundFieldModule$BoundFieldException],#com.google.inject.testing.fieldbinder.BoundFieldModule$BoundFieldInfo.BoundFieldModule$BoundFieldInfo(java.lang.Object, java.lang.reflect.Field, com.google.inject.testing.fieldbinder.Bind, com.google.inject.TypeLiteral)#,[2:161:0:2,2:242:0:3,2:242:0:1]
+[A10],[com.google.inject.testing.fieldbinder.BoundFieldModule$BoundFieldException@OBJ11-J@CERT@BoundFieldModule.java:269@BoundFieldModule.java:253],[BoundFieldModule.java],[2:253],[Vul],[D],[RBC],[1,0,0],[CERT],[OBJ11-J],[com.google.inject.testing.fieldbinder.BoundFieldModule$BoundFieldException],#com.google.inject.testing.fieldbinder.BoundFieldModule$BoundFieldInfo.BoundFieldModule$BoundFieldInfo(java.lang.Object, java.lang.reflect.Field, com.google.inject.testing.fieldbinder.Bind, com.google.inject.TypeLiteral)#,[2:253:0:2,2:163:0:18,2:269:0:3,2:269:0:1]
+[A10],[com.google.inject.testing.fieldbinder.BoundFieldModule$BoundFieldException@OBJ11-J@CERT@BoundFieldModule.java:173@BoundFieldModule.java:164],[BoundFieldModule.java],[2:164],[Vul],[D],[RBC],[1,0,0],[CERT],[OBJ11-J],[com.google.inject.testing.fieldbinder.BoundFieldModule$BoundFieldException],#com.google.inject.testing.fieldbinder.BoundFieldModule$BoundFieldInfo.BoundFieldModule$BoundFieldInfo(java.lang.Object, java.lang.reflect.Field, com.google.inject.testing.fieldbinder.Bind, com.google.inject.TypeLiteral)#,[2:164:0:2,2:176:0:3,2:173:0:1]
+[A10],[OBJ11-J@CERT@BoundFieldModule.java:153],[BoundFieldModule.java],[2:153],[Vul],[D],[RBC],[1,0,0],[CERT],[OBJ11-J],[],#com.google.inject.testing.fieldbinder.BoundFieldModule$BoundFieldInfo.BoundFieldModule$BoundFieldInfo(java.lang.Object, java.lang.reflect.Field, com.google.inject.testing.fieldbinder.Bind, com.google.inject.TypeLiteral)#,[2:153:0:3]
+[A10],[OBJ11-J@CERT@BoundFieldModule.java:142],[BoundFieldModule.java],[2:142],[Vul],[D],[RBC],[1,0,0],[CERT],[OBJ11-J],[],#com.google.inject.testing.fieldbinder.BoundFieldModule$BoundFieldInfo.BoundFieldModule$BoundFieldInfo(java.lang.Object, java.lang.reflect.Field, com.google.inject.testing.fieldbinder.Bind, com.google.inject.TypeLiteral, com.google.inject.testing.fieldbinder.BoundFieldModule$1)#,[2:142:0:3]
+[A10],[e@ERR08-J@CERT@CheckedProviderSubject.java:58],[CheckedProviderSubject.java],[3:58],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR08-J],[e],#com.google.inject.testing.throwingproviders.CheckedProviderSubject.providedValue()#,[3:58:0:3]

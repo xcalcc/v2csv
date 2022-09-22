@@ -1,0 +1,44 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/mb/encnames.c"
+  },
+  {
+  "fid": 5,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 6,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/libpq/../../../src/include/mb/pg_wchar.h"
+  }
+]
+[Au5em],[fprintf@ERR33-C@CERT@encnames.c:572],[encnames.c],[4:572],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#pg_char_to_encoding()#,[4:572:0:3]

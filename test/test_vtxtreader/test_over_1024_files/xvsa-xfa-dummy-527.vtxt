@@ -1,0 +1,80 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/prepqual.c"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/nodes/makefuncs.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/utils/lsyscache.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/optimizer/clauses.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/nodes/nodes.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 16,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 17,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 19,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 20,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/prep/../../../../src/include/pgxc/locator.h"
+  }
+]
+[Au5em],[0x0@NPD@pg_list.h:79],[prepqual.c],[8:652],[Vul],[M],[NPD],[1,0,0],[0x0],#process_duplicate_ors()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:652:0:18,8:652:0:3]

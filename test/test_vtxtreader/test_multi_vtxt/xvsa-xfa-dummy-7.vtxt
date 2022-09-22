@@ -1,0 +1,158 @@
+{"V", A, 0.7}
+[
+  {
+  "fid": 1,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/AbstractServletModuleBinding.java"
+  },
+  {
+  "fid": 2,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/ContinuingHttpServletRequest.java"
+  },
+  {
+  "fid": 3,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/DefaultFilterPipeline.java"
+  },
+  {
+  "fid": 4,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/FilterChainInvocation.java"
+  },
+  {
+  "fid": 5,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/FilterDefinition.java"
+  },
+  {
+  "fid": 6,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/FilterPipeline.java"
+  },
+  {
+  "fid": 7,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/FiltersModuleBuilder.java"
+  },
+  {
+  "fid": 8,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/GuiceFilter.java"
+  },
+  {
+  "fid": 9,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/GuiceServletContextListener.java"
+  },
+  {
+  "fid": 10,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/InstanceFilterBinding.java"
+  },
+  {
+  "fid": 11,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/InstanceFilterBindingImpl.java"
+  },
+  {
+  "fid": 12,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/InstanceServletBinding.java"
+  },
+  {
+  "fid": 13,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/InstanceServletBindingImpl.java"
+  },
+  {
+  "fid": 14,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/InternalServletModule.java"
+  },
+  {
+  "fid": 15,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/LinkedFilterBinding.java"
+  },
+  {
+  "fid": 16,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/LinkedFilterBindingImpl.java"
+  },
+  {
+  "fid": 17,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/LinkedServletBinding.java"
+  },
+  {
+  "fid": 18,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/LinkedServletBindingImpl.java"
+  },
+  {
+  "fid": 19,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/ManagedFilterPipeline.java"
+  },
+  {
+  "fid": 20,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/ManagedServletPipeline.java"
+  },
+  {
+  "fid": 21,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/RequestParameters.java"
+  },
+  {
+  "fid": 22,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/RequestScoped.java"
+  },
+  {
+  "fid": 23,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/RequestScoper.java"
+  },
+  {
+  "fid": 24,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/ScopingException.java"
+  },
+  {
+  "fid": 25,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/ScopingOnly.java"
+  },
+  {
+  "fid": 26,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/ServletDefinition.java"
+  },
+  {
+  "fid": 27,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/ServletModule.java"
+  },
+  {
+  "fid": 28,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/ServletModuleBinding.java"
+  },
+  {
+  "fid": 29,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/ServletModuleTargetVisitor.java"
+  },
+  {
+  "fid": 30,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/ServletScopes.java"
+  },
+  {
+  "fid": 31,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/ServletUtils.java"
+  },
+  {
+  "fid": 32,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/ServletsModuleBuilder.java"
+  },
+  {
+  "fid": 33,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/SessionScoped.java"
+  },
+  {
+  "fid": 34,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/UriPatternMatcher.java"
+  },
+  {
+  "fid": 35,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/UriPatternType.java"
+  },
+  {
+  "fid": 36,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/ServletScopes$$Lambda$1.java"
+  },
+  {
+  "fid": 37,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/ServletScopes$$Lambda$2.java"
+  }
+]
+[A10],[ERR00-J@CERT@ServletUtils.java:155@ServletUtils.java:116],[ServletUtils.java],[31:155],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR00-J],[],#com.google.inject.servlet.ServletUtils.lenientDecode(java.lang.String, java.nio.charset.Charset, boolean)#,[31:116:0:4,31:155:0:16]
+[A10],[servletPath@NPD@UriPatternType.java:179],[ServletDefinition.java],[26:213],[Vul],[D],[NPD],[1,0,0],[servletPath],#com.google.inject.servlet.ServletDefinition$2.getPathInfo()#,[35:179:0:1,35:179:0:1,26:268:0:5,26:268:0:1,26:268:0:1,26:268:0:8,26:276:0:1,26:254:0:5,26:254:0:1,26:212:0:5,26:212:0:1,26:213:0:3]
+[A10],[servletPath@NPD@UriPatternType.java:115],[ServletDefinition.java],[26:213],[Vul],[D],[NPD],[1,0,0],[servletPath],#com.google.inject.servlet.ServletDefinition$2.getPathInfo()#,[35:115:0:1,35:115:0:1,26:268:0:5,26:268:0:1,26:268:0:1,26:268:0:8,26:276:0:1,26:254:0:5,26:254:0:1,26:212:0:5,26:212:0:1,26:213:0:3]
+[A10],[ERR00-J@CERT@ServletDefinition.java:226@ServletDefinition.java:210],[ServletDefinition.java],[26:226],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR00-J],[],#com.google.inject.servlet.ServletDefinition$2.getPathInfo()#,[26:210:0:4,26:226:0:16]
+[A10],[java.lang.IllegalArgumentException@OBJ11-J@CERT@UriPatternType.java:86@UriPatternType.java:86],[UriPatternType.java],[35:86],[Vul],[D],[RBC],[1,0,0],[CERT],[OBJ11-J],[java.lang.IllegalArgumentException],#com.google.inject.servlet.UriPatternType$ServletStyleUriPatternMatcher.UriPatternType$ServletStyleUriPatternMatcher(java.lang.String)#,[35:86:0:1,35:86:0:3]
+[A10],[java.lang.IllegalArgumentException@OBJ11-J@CERT@UriPatternType.java:156@UriPatternType.java:156],[UriPatternType.java],[35:156],[Vul],[D],[RBC],[1,0,0],[CERT],[OBJ11-J],[java.lang.IllegalArgumentException],#com.google.inject.servlet.UriPatternType$RegexUriPatternMatcher.UriPatternType$RegexUriPatternMatcher(java.lang.String)#,[35:156:0:1,35:156:0:3]
+[A10],[e@ERR08-J@CERT@GuiceFilter.java:141],[GuiceFilter.java],[8:141],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR08-J],[e],#com.google.inject.servlet.GuiceFilter.doFilter(javax.servlet.ServletRequest, javax.servlet.ServletResponse, javax.servlet.FilterChain)#,[8:141:0:3]

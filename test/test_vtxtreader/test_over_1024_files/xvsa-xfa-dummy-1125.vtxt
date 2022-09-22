@@ -1,0 +1,102 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/bin/scripts/vacuumdb.c"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/bin/scripts/../../../src/include/port.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/bin/scripts/common.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/bin/scripts/../../../src/include/common/fe_memutils.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/bin/scripts/../../../src/include/fe_utils/simple_list.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/bits/getopt_ext.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/bin/scripts/../../../src/include/common/username.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/bin/scripts/../../../src/interfaces/libpq/libpq-fe.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/bin/scripts/../../../src/interfaces/libpq/pqexpbuffer.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/bin/scripts/../../../src/include/fe_utils/string_utils.h"
+  },
+  {
+  "fid": 17,
+  "path": "/usr/include/sys/select.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 19,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 20,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/bin/scripts/../../../src/include/catalog/pg_class.h"
+  },
+  {
+  "fid": 22,
+  "path": "/usr/include/unistd.h"
+  }
+]
+[Au5em],[fprintf@ERR33-C@CERT@vacuumdb.c:711],[vacuumdb.c],[4:711],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#run_vacuum_command()#,[4:711:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@vacuumdb.c:707],[vacuumdb.c],[4:707],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#run_vacuum_command()#,[4:707:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@vacuumdb.c:828],[vacuumdb.c],[4:828],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#GetQueryResult()#,[4:828:0:3]
+[Au5em],[slotset@UIV@vacuumdb.c:743],[vacuumdb.c],[4:750],[Vul],[D],[UIV],[1,0,0],[slotset],#GetIdleSlot()#,[4:743:0:4,4:746:0:23,4:746:0:25,4:747:0:24,4:747:0:26,4:746:0:24,4:746:0:26,4:750:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@vacuumdb.c:942],[vacuumdb.c],[4:942],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#vacuum_one_database()#,[4:942:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@vacuumdb.c:942],[vacuumdb.c],[4:942],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#vacuum_one_database()#,[4:942:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@vacuumdb.c:269],[vacuumdb.c],[4:269],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:269:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@vacuumdb.c:263],[vacuumdb.c],[4:263],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:263:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@vacuumdb.c:246],[vacuumdb.c],[4:246],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:246:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@vacuumdb.c:240],[vacuumdb.c],[4:240],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:240:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@vacuumdb.c:230],[vacuumdb.c],[4:230],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:230:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@vacuumdb.c:232],[vacuumdb.c],[4:232],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:232:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@vacuumdb.c:213],[vacuumdb.c],[4:213],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:213:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@vacuumdb.c:201],[vacuumdb.c],[4:201],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:201:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@vacuumdb.c:195],[vacuumdb.c],[4:195],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#main()#,[4:195:0:3]

@@ -1,0 +1,83 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/ecpglib/data.c"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/ecpglib/../../../../src/include/port.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/ecpglib/../include/sqlca.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/ecpglib/../../../../src/interfaces/libpq/libpq-fe.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/ecpglib/extern.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/ecpglib/../include/ecpglib.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/ecpglib/../include/pgtypes_numeric.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/ecpglib/../include/pgtypes_interval.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/ecpglib/../include/pgtypes_date.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/ecpglib/../include/pgtypes_timestamp.h"
+  },
+  {
+  "fid": 17,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 19,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 20,
+  "path": "/usr/include/math.h"
+  }
+]
+[Au5em],[strncpy@STR32-C@CERT@data.c:460],[data.c],[4:460],[Vul],[M],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#ecpg_get_data()#,[4:460:0:3]
+[Au5em],[RCD@data.c:477@data.c:458],[data.c],[4:477],[Vul],[D],[RCD],[1,0,0],[],#ecpg_get_data()#,[4:458:0:11,4:458:0:24,4:477:0:26,4:477:0:3]
+[Au5em],[strncpy@STR32-C@CERT@data.c:520],[data.c],[4:520],[Vul],[M],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#ecpg_get_data()#,[4:520:0:3]
+[Au5em],[strncpy@STR32-C@CERT@data.c:517],[data.c],[4:517],[Vul],[M],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#ecpg_get_data()#,[4:517:0:3]

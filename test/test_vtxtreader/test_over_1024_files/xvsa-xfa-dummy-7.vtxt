@@ -1,0 +1,112 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/client/../../../src/include/gtm/gtm_list.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/client/../../../src/include/port/atomics/arch-x86.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/client/../../../src/include/port/atomics/generic-gcc.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/client/../../../src/include/port/atomics/generic.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/client/../../../src/include/port/atomics.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/client/fe-misc.c"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/client/../../../src/include/gtm/pqexpbuffer.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/sys/socket.h"
+  },
+  {
+  "fid": 16,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 17,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 19,
+  "path": "/usr/include/sys/poll.h"
+  },
+  {
+  "fid": 20,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/client/../../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 22,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 23,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/client/../../../src/include/gtm/gtm_txn.h"
+  },
+  {
+  "fid": 25,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/client/../../../src/include/gtm/gtm_stat.h"
+  }
+]
+[Au5em],[fprintf@ERR33-C@CERT@fe-misc.c:73],[fe-misc.c],[9:73],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#gtmpqGetc()#,[9:73:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe-misc.c:89],[fe-misc.c],[9:89],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#gtmpqPutc()#,[9:89:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe-misc.c:127],[fe-misc.c],[9:127],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#gtmpqGets()#,[9:127:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe-misc.c:127],[fe-misc.c],[9:127],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#gtmpqGets_append()#,[9:127:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe-misc.c:156],[fe-misc.c],[9:156],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#gtmpqPuts()#,[9:156:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe-misc.c:177],[fe-misc.c],[9:177],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#gtmpqGetnchar()#,[9:177:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe-misc.c:194],[fe-misc.c],[9:194],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#gtmpqPutnchar()#,[9:194:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe-misc.c:454],[fe-misc.c],[9:454],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#gtmpqPutMsgStart()#,[9:454:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe-misc.c:492],[fe-misc.c],[9:492],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#gtmpqPutMsgEnd()#,[9:492:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe-misc.c:232],[fe-misc.c],[9:232],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#gtmpqGetInt()#,[9:232:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe-misc.c:227],[fe-misc.c],[9:227],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#gtmpqGetInt()#,[9:227:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe-misc.c:266],[fe-misc.c],[9:266],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#gtmpqPutInt()#,[9:266:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@fe-misc.c:261],[fe-misc.c],[9:261],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#gtmpqPutInt()#,[9:261:0:3]

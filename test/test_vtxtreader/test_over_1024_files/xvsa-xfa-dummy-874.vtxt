@@ -1,0 +1,52 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/port/../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/port/../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/port/inet_net_ntop.c"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/port/../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/port/../../src/include/fmgr.h"
+  }
+]
+[Au5em],[dst@AOB@inet_net_ntop.c:136],[inet_net_ntop.c],[6:136],[Vul],[D],[AOB],[1,0,0],[dst],#inet_net_ntop_ipv4()#,[6:136:0:3]
+[Au5em],[dst@AOB@inet_net_ntop.c:145],[inet_net_ntop.c],[6:145],[Vul],[D],[AOB],[1,0,0],[dst],#inet_net_ntop_ipv4()#,[6:145:0:3]
+[Au5em],[tp@AOB@inet_net_ntop.c:275],[inet_net_ntop.c],[6:275],[Vul],[D],[AOB],[1,0,0],[tp],#inet_net_ntop_ipv6()#,[6:275:0:3]
+[Au5em],[dst@AOB@inet_net_ntop.c:167],[inet_net_ntop.c],[6:167],[Vul],[D],[AOB],[1,0,0],[dst],#decoct()#,[6:167:0:3]
+[Au5em],[tp@AOB@inet_net_ntop.c:285],[inet_net_ntop.c],[6:285],[Vul],[D],[AOB],[1,0,0],[tp],#inet_net_ntop_ipv6()#,[6:285:0:3]

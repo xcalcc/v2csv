@@ -1,0 +1,90 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_dump/pg_backup_custom.c"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_dump/../../../src/include/common/fe_memutils.h"
+  },
+  {
+  "fid": 6,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_dump/pg_backup_utils.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_dump/pg_backup_archiver.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_dump/compress_io.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_dump/../../../src/include/common/file_utils.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 16,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 17,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/bits/getopt_core.h"
+  }
+]
+[Au5em],[AH->fSpec@FIO42-C@CERT@pg_backup_custom.c:192@pg_backup_custom.c:175],[pg_backup_custom.c],[4:192],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[AH->fSpec],#InitArchiveFmt_Custom()#,[4:175:0:65,4:176:0:17,4:192:0:2,4:851:0:17,4:192:0:18,4:192:0:70]
+[Au5em],[AH->fSpec@FIO42-C@CERT@pg_backup_custom.c:192@pg_backup_custom.c:175],[pg_backup_custom.c],[4:192],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[AH->fSpec],#InitArchiveFmt_Custom()#,[4:175:0:65,4:176:0:17,4:192:0:2,4:843:0:17,4:847:0:17,4:192:0:18,4:192:0:70]
+[Au5em],[AH->fSpec@FIO42-C@CERT@pg_backup_custom.c:192@pg_backup_custom.c:175],[pg_backup_custom.c],[4:192],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[AH->fSpec],#InitArchiveFmt_Custom()#,[4:175:0:65,4:176:0:17,4:192:0:2,4:843:0:17,4:848:0:17,4:192:0:18,4:192:0:70]
+[Au5em],[AH->fSpec@FIO42-C@CERT@pg_backup_custom.c:844@pg_backup_custom.c:175],[pg_backup_custom.c],[4:844],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[AH->fSpec],#InitArchiveFmt_Custom()#,[4:175:0:65,4:176:0:17,4:192:0:2,4:843:0:17,4:844:0:17,4:844:0:70]
+[Au5em],[AH->fSpec@FIO42-C@CERT@pg_backup_custom.c:177@pg_backup_custom.c:175],[pg_backup_custom.c],[4:177],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[AH->fSpec],#InitArchiveFmt_Custom()#,[4:175:0:65,4:177:0:17,4:177:0:70]
+[Au5em],[AH->fSpec@FIO42-C@CERT@pg_backup_custom.c:192@pg_backup_custom.c:156],[pg_backup_custom.c],[4:192],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[AH->fSpec],#InitArchiveFmt_Custom()#,[4:156:0:71,4:157:0:17,4:192:0:70]
+[Au5em],[AH->fSpec@FIO42-C@CERT@pg_backup_custom.c:158@pg_backup_custom.c:156],[pg_backup_custom.c],[4:158],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[AH->fSpec],#InitArchiveFmt_Custom()#,[4:156:0:71,4:158:0:17,4:158:0:70]
+[Au5em],[AH->fSpec@FIO42-C@CERT@pg_backup_custom.c:774@pg_backup_custom.c:768],[pg_backup_custom.c],[4:774],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[AH->fSpec],#_ReopenArchive()#,[4:768:0:65,4:769:0:17,4:773:0:17,4:774:0:70]
+[Au5em],[AH->fSpec@FIO42-C@CERT@pg_backup_custom.c:774@pg_backup_custom.c:768],[pg_backup_custom.c],[4:774],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[AH->fSpec],#_ReopenArchive()#,[4:768:0:65,4:769:0:17,4:774:0:17,4:774:0:70]
+[Au5em],[AH->fSpec@FIO42-C@CERT@pg_backup_custom.c:770@pg_backup_custom.c:768],[pg_backup_custom.c],[4:770],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO42-C],[AH->fSpec],#_ReopenArchive()#,[4:768:0:65,4:770:0:17,4:770:0:70]
+[Au5em],[AH->fSpec@FIO02-C@CERT@pg_backup_custom.c:175@pg_backup_custom.c:109],[pg_backup_custom.c],[4:175],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO02-C],[AH->fSpec],#InitArchiveFmt_Custom()#,[4:109:0:16,4:152:0:24,4:173:0:26,4:173:0:23,4:175:0:25,4:175:0:3]
+[Au5em],[AH->fSpec@FIO02-C@CERT@pg_backup_custom.c:156@pg_backup_custom.c:109],[pg_backup_custom.c],[4:156],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO02-C],[AH->fSpec],#InitArchiveFmt_Custom()#,[4:109:0:16,4:152:0:23,4:154:0:25,4:154:0:23,4:156:0:25,4:156:0:3]
+[Au5em],[buf@NPD@pg_backup_custom.c:566],[pg_backup_custom.c],[4:580],[Vul],[M],[NPD],[1,0,0],[buf],#_skipData()#,[4:566:0:1,4:571:0:23,4:571:0:25,4:571:0:17,4:573:0:17,4:580:0:3]
+[Au5em],[getc@FIO34-C@CERT@pg_backup_custom.c:503@pg_backup_custom.c:877],[pg_backup_custom.c],[4:877],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO34-C],[getc],#_PrintTocData()#,[4:877:0:3,4:884:0:17,4:435:0:18,4:455:0:17,4:469:0:17,4:488:0:17,4:495:0:17,4:503:0:16]
+[Au5em],[getc@FIO34-C@CERT@pg_backup_custom.c:503@pg_backup_custom.c:877],[pg_backup_custom.c],[4:877],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO34-C],[getc],#_PrintTocData()#,[4:877:0:3,4:884:0:17,4:455:0:18,4:455:0:17,4:469:0:17,4:488:0:17,4:495:0:17,4:503:0:16]
+[Au5em],[getc@FIO34-C@CERT@pg_backup_custom.c:503@pg_backup_custom.c:877],[pg_backup_custom.c],[4:877],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO34-C],[getc],#_PrintTocData()#,[4:877:0:3,4:884:0:17,4:465:0:18,4:469:0:17,4:488:0:17,4:495:0:17,4:503:0:16]
+[Au5em],[getc@FIO34-C@CERT@pg_backup_custom.c:637@pg_backup_custom.c:633],[pg_backup_custom.c],[4:633],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO34-C],[getc],#_ReadByte()#,[4:633:0:3,4:634:0:17,4:637:0:16]
+[Au5em],[AH->fSpec@FIO02-C@CERT@pg_backup_custom.c:768@pg_backup_custom.c:741],[pg_backup_custom.c],[4:768],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO02-C],[AH->fSpec],#_ReopenArchive()#,[4:741:0:16,4:745:0:24,4:745:0:26,4:752:0:24,4:753:0:26,4:754:0:24,4:754:0:26,4:758:0:24,4:758:0:26,4:763:0:24,4:763:0:26,4:768:0:3]
+[Au5em],[*buf@UDR@pg_backup_custom.c:912],[pg_backup_custom.c],[4:923],[Vul],[M],[UDR],[1,0,0],[*buf],#_CustomReadFunc()#,[4:923:0:3]

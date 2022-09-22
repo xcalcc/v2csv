@@ -1,0 +1,497 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/storage/s_lock.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/port/atomics/arch-x86.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/port/atomics/generic-gcc.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/port/atomics/generic.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/port/atomics.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/storage/bufpage.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/utils/snapmgr.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/miscadmin.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/storage/bufmgr.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/utils/tqual.h"
+  },
+  {
+  "fid": 19,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/pgstat.h"
+  },
+  {
+  "fid": 20,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/storage/proc.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/utils/rel.h"
+  },
+  {
+  "fid": 22,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/replication/walreceiver.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/utils/tuplestore.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/access/tupdesc.h"
+  },
+  {
+  "fid": 25,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/utils/memutils.h"
+  },
+  {
+  "fid": 26,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/xlog.c"
+  },
+  {
+  "fid": 27,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 28,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/access/xact.h"
+  },
+  {
+  "fid": 29,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/access/xlogreader.h"
+  },
+  {
+  "fid": 30,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/access/xlogutils.h"
+  },
+  {
+  "fid": 31,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/access/xlog_internal.h"
+  },
+  {
+  "fid": 32,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/storage/lwlock.h"
+  },
+  {
+  "fid": 33,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/postmaster/bgwriter.h"
+  },
+  {
+  "fid": 34,
+  "path": "/usr/include/bits/mathcalls.h"
+  },
+  {
+  "fid": 35,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 36,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 37,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/replication/walsender.h"
+  },
+  {
+  "fid": 38,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 39,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/storage/latch.h"
+  },
+  {
+  "fid": 40,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/storage/procarray.h"
+  },
+  {
+  "fid": 41,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/port.h"
+  },
+  {
+  "fid": 42,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/utils/timestamp.h"
+  },
+  {
+  "fid": 43,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/postmaster/walwriter.h"
+  },
+  {
+  "fid": 44,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 45,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/storage/fd.h"
+  },
+  {
+  "fid": 46,
+  "path": "/usr/include/sys/stat.h"
+  },
+  {
+  "fid": 47,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/utils/ps_status.h"
+  },
+  {
+  "fid": 48,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/access/timeline.h"
+  },
+  {
+  "fid": 49,
+  "path": "/usr/include/fcntl.h"
+  },
+  {
+  "fid": 50,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 51,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/utils/guc.h"
+  },
+  {
+  "fid": 52,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/storage/shmem.h"
+  },
+  {
+  "fid": 53,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/utils/backend_random.h"
+  },
+  {
+  "fid": 54,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/access/transam.h"
+  },
+  {
+  "fid": 55,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/access/multixact.h"
+  },
+  {
+  "fid": 56,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/access/commit_ts.h"
+  },
+  {
+  "fid": 57,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/access/twophase.h"
+  },
+  {
+  "fid": 58,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/storage/lock.h"
+  },
+  {
+  "fid": 59,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/access/clog.h"
+  },
+  {
+  "fid": 60,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/access/subtrans.h"
+  },
+  {
+  "fid": 61,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/pgtime.h"
+  },
+  {
+  "fid": 62,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 63,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 64,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/utils/fmgrprotos.h"
+  },
+  {
+  "fid": 65,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/utils/builtins.h"
+  },
+  {
+  "fid": 66,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/replication/slot.h"
+  },
+  {
+  "fid": 67,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/postmaster/startup.h"
+  },
+  {
+  "fid": 68,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/storage/nodelock.h"
+  },
+  {
+  "fid": 69,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/pgxc/shardmap.h"
+  },
+  {
+  "fid": 70,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/commands/tablespace.h"
+  },
+  {
+  "fid": 71,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 72,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/replication/reorderbuffer.h"
+  },
+  {
+  "fid": 73,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/replication/origin.h"
+  },
+  {
+  "fid": 74,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/storage/reinit.h"
+  },
+  {
+  "fid": 75,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/storage/standby.h"
+  },
+  {
+  "fid": 76,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/storage/smgr.h"
+  },
+  {
+  "fid": 77,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/storage/pmsignal.h"
+  },
+  {
+  "fid": 78,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/storage/ipc.h"
+  },
+  {
+  "fid": 79,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/utils/relcryptmap.h"
+  },
+  {
+  "fid": 80,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/access/xloginsert.h"
+  },
+  {
+  "fid": 81,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/storage/predicate.h"
+  },
+  {
+  "fid": 82,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/utils/relmapper.h"
+  },
+  {
+  "fid": 83,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/replication/snapbuild.h"
+  },
+  {
+  "fid": 84,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/access/rewriteheap.h"
+  },
+  {
+  "fid": 85,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/lib/stringinfo.h"
+  },
+  {
+  "fid": 86,
+  "path": "/usr/include/pthread.h"
+  },
+  {
+  "fid": 87,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/replication/basebackup.h"
+  },
+  {
+  "fid": 88,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/storage/backendid.h"
+  },
+  {
+  "fid": 89,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/access/lru.h"
+  },
+  {
+  "fid": 90,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 91,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 92,
+  "path": "/usr/include/math.h"
+  },
+  {
+  "fid": 93,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 94,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/common/relpath.h"
+  },
+  {
+  "fid": 95,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/pgxc/pgxc.h"
+  },
+  {
+  "fid": 96,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 97,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/tcop/dest.h"
+  },
+  {
+  "fid": 98,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/utils/array.h"
+  },
+  {
+  "fid": 99,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 100,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/storage/sinval.h"
+  },
+  {
+  "fid": 101,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/utils/datetime.h"
+  },
+  {
+  "fid": 102,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/utils/resowner.h"
+  },
+  {
+  "fid": 103,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/catalog/pg_class.h"
+  },
+  {
+  "fid": 104,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/catalog/objectaddress.h"
+  },
+  {
+  "fid": 105,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/libpq/pqcomm.h"
+  },
+  {
+  "fid": 106,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/postmaster/pgarch.h"
+  },
+  {
+  "fid": 107,
+  "path": "/home/xc5/cprojects/tbase/src/backend/access/transam/../../../../src/include/utils/relcrypt.h"
+  }
+]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:10811],[xlog.c],[26:10811],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#issue_xlog_fsync()#,[26:10811:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:10811],[xlog.c],[26:10811],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#XLogFileClose()#,[26:10811:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:3630],[xlog.c],[26:3630],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#InstallXLogFileSegment()#,[26:3630:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:3656],[xlog.c],[26:3656],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#InstallXLogFileSegment()#,[26:3656:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:3324],[xlog.c],[26:3324],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#XLogFileInit()#,[26:3324:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:3352],[xlog.c],[26:3352],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#XLogFileInit()#,[26:3352:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:3687],[xlog.c],[26:3687],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#XLogWrite()#,[26:3687:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:10811],[xlog.c],[26:10811],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#XLogWrite()#,[26:10811:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:10811],[xlog.c],[26:10811],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#XLogWrite()#,[26:10811:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:3687],[xlog.c],[26:3687],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#XLogWrite()#,[26:3687:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:3687],[xlog.c],[26:3687],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#XLogFileOpen()#,[26:3687:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:3937],[xlog.c],[26:3937],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#CheckXLogRemoved()#,[26:3937:0:3]
+[Au5em],[xlde+19@STR38-C@CERT@xlog.c:4275],[xlog.c],[26:4275],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[xlde+19],#CleanupBackupHistory()#,[26:4275:0:3]
+[Au5em],[xlde+19@STR38-C@CERT@xlog.c:4275],[xlog.c],[26:4275],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[xlde+19],#CleanupBackupHistory()#,[26:4275:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:4281],[xlog.c],[26:4281],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#CleanupBackupHistory()#,[26:4281:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:4980],[xlog.c],[26:4980],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#XLOGShmemSize()#,[26:4980:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:4234],[xlog.c],[26:4234],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#ValidateXLOGDirectoryStructure()#,[26:4234:0:3]
+[Au5em],[recoveryTargetName@STR38-C@CERT@xlog.c:5551@xlog.c:5550],[xlog.c],[26:5551],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[recoveryTargetName],#readRecoveryCommandFile()#,[26:5550:0:1,26:5551:0:3]
+[Au5em],[recoveryGTMHost@STR38-C@CERT@xlog.c:5537@xlog.c:5536],[xlog.c],[26:5537],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[recoveryGTMHost],#readRecoveryCommandFile()#,[26:5536:0:1,26:5537:0:3]
+[Au5em],[sscanf@ERR33-C@CERT@xlog.c:5527@xlog.c:5527],[xlog.c],[26:5527],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[sscanf],#readRecoveryCommandFile()#,[26:5527:0:3,26:5527:0:16]
+[Au5em],[*__ctype_b_loc+(*p*2)@NPD@xlog.c:13206],[xlog.c],[26:13211],[Vul],[D],[NPD],[1,0,0],[*__ctype_b_loc+(*p*2)],#SetRecoveryGTMShareData()#,[26:13211:0:3]
+[Au5em],[fscanf@ERR33-C@CERT@xlog.c:11877@xlog.c:11877],[xlog.c],[26:11877],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fscanf],#read_backup_label()#,[26:11877:0:3,26:11877:0:16]
+[Au5em],[fscanf@ERR33-C@CERT@xlog.c:11883@xlog.c:11883],[xlog.c],[26:11883],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fscanf],#read_backup_label()#,[26:11883:0:3,26:11883:0:16]
+[Au5em],[fscanf@ERR33-C@CERT@xlog.c:11895@xlog.c:11895],[xlog.c],[26:11895],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fscanf],#read_backup_label()#,[26:11895:0:3,26:11895:0:16]
+[Au5em],[fscanf@ERR33-C@CERT@xlog.c:11901@xlog.c:11901],[xlog.c],[26:11901],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fscanf],#read_backup_label()#,[26:11901:0:3,26:11901:0:16]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:4357],[xlog.c],[26:4357],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#ReadRecord()#,[26:4357:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:4143],[xlog.c],[26:4143],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#RemoveXlogFile()#,[26:4143:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:4081],[xlog.c],[26:4081],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#RemoveNonParentXlogFiles()#,[26:4081:0:3]
+[Au5em],[xlde+19@STR38-C@CERT@xlog.c:4089],[xlog.c],[26:4089],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[xlde+19],#RemoveNonParentXlogFiles()#,[26:4089:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:4008],[xlog.c],[26:4008],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#RemoveOldXlogFiles()#,[26:4008:0:3]
+[Au5em],[xlde+19@STR38-C@CERT@xlog.c:4016],[xlog.c],[26:4016],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[xlde+19],#RemoveOldXlogFiles()#,[26:4016:0:3]
+[Au5em],[xlde+19@STR38-C@CERT@xlog.c:4016],[xlog.c],[26:4016],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[xlde+19],#RemoveOldXlogFiles()#,[26:4016:0:3]
+[Au5em],[sscanf@ERR33-C@CERT@xlog.c:3974],[xlog.c],[26:3974],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[sscanf],#RemoveOldXlogFiles()#,[26:3974:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:3495],[xlog.c],[26:3495],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#XLogFileCopy()#,[26:3495:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:3505],[xlog.c],[26:3505],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#XLogFileCopy()#,[26:3505:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:10811],[xlog.c],[26:10811],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#exitArchiveRecovery()#,[26:10811:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:5815],[xlog.c],[26:5815],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#exitArchiveRecovery()#,[26:5815:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:5822],[xlog.c],[26:5822],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#exitArchiveRecovery()#,[26:5822:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:5826],[xlog.c],[26:5826],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#exitArchiveRecovery()#,[26:5826:0:3]
+[Au5em],[recordXtime@UIV@xlog.c:6188],[xlog.c],[26:6291],[Vul],[D],[UIV],[1,0,0],[recordXtime],#recoveryStopsAfter()#,[26:6188:0:4,26:6250:0:2,26:5866:0:24,26:5866:0:25,26:5860:0:24,26:5860:0:25,26:5855:0:23,26:5855:0:25,26:6250:0:18,26:6242:0:23,26:6250:0:26,26:6221:0:23,26:6221:0:25,26:6197:0:23,26:6197:0:25,26:6237:0:24,26:6237:0:26,26:6242:0:23,26:6250:0:26,26:6250:0:2,26:5872:0:17,26:6250:0:18,26:6250:0:17,26:6291:0:3]
+[Au5em],[rnode@UIV@xlog.c:1424],[xlog.c],[26:1465],[Vul],[M],[UIV],[1,0,0],[rnode],#checkXLogConsistency()#,[26:1424:0:4,26:1430:0:24,26:1430:0:26,26:1435:0:17,26:1440:0:5,26:1446:0:23,26:1458:0:25,26:1458:0:23,26:1465:0:25,26:1465:0:3]
+[Au5em],[forknum@UIV@xlog.c:1425],[xlog.c],[26:1465],[Vul],[M],[UIV],[1,0,0],[forknum],#checkXLogConsistency()#,[26:1425:0:4,26:1430:0:24,26:1430:0:26,26:1435:0:17,26:1440:0:5,26:1446:0:23,26:1458:0:25,26:1458:0:23,26:1465:0:25,26:1465:0:3]
+[Au5em],[blkno@UIV@xlog.c:1426],[xlog.c],[26:1465],[Vul],[M],[UIV],[1,0,0],[blkno],#checkXLogConsistency()#,[26:1426:0:4,26:1430:0:24,26:1430:0:26,26:1435:0:17,26:1440:0:5,26:1446:0:23,26:1458:0:25,26:1458:0:23,26:1465:0:25,26:1465:0:3]
+[Au5em],[sscanf@ERR33-C@CERT@xlog.c:11968@xlog.c:11968],[xlog.c],[26:11968],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[sscanf],#read_tablespace_map()#,[26:11968:0:3,26:11968:0:16]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:7942],[xlog.c],[26:7942],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#StartupXLOG()#,[26:7942:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:7936],[xlog.c],[26:7936],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#StartupXLOG()#,[26:7936:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:7933],[xlog.c],[26:7933],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#StartupXLOG()#,[26:7933:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:7929],[xlog.c],[26:7929],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#StartupXLOG()#,[26:7929:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:7923],[xlog.c],[26:7923],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#StartupXLOG()#,[26:7923:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:7918],[xlog.c],[26:7918],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#StartupXLOG()#,[26:7918:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:7913],[xlog.c],[26:7913],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#StartupXLOG()#,[26:7913:0:3]
+[Au5em],[buffer@UIV@xlog.c:10473],[xlog.c],[26:10492],[Vul],[M],[UIV],[1,0,0],[buffer],#xlog_redo()#,[26:10473:0:4,26:10471:0:23,26:10490:0:25,26:10154:0:24,26:10172:0:26,26:10172:0:24,26:10178:0:26,26:10178:0:24,26:10250:0:26,26:10250:0:24,26:10260:0:26,26:10260:0:24,26:10373:0:26,26:10373:0:24,26:10438:0:26,26:10438:0:24,26:10459:0:26,26:10459:0:24,26:10459:0:25,26:10471:0:23,26:10490:0:26,26:10490:0:5,26:10490:0:24,26:10490:0:26,26:10492:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:10811],[xlog.c],[26:10811],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#assign_xlog_sync_method()#,[26:10811:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:10811],[xlog.c],[26:10811],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#XLogFileNameP()#,[26:10811:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:11066],[xlog.c],[26:11066],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#do_pg_start_backup()#,[26:11066:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:11090],[xlog.c],[26:11090],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#do_pg_start_backup()#,[26:11090:0:3]
+[Au5em],[readlink@POS30-C@CERT@xlog.c:11093],[xlog.c],[26:11093],[Vul],[D],[RBC],[1,0,0],[CERT],[POS30-C],[readlink],#do_pg_start_backup()#,[26:11093:0:3]
+[Au5em],[sscanf@ERR33-C@CERT@xlog.c:11518@xlog.c:11518],[xlog.c],[26:11518],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[sscanf],#do_pg_stop_backup()#,[26:11518:0:3,26:11518:0:16]
+[Au5em],[sscanf@ERR33-C@CERT@xlog.c:11533@xlog.c:11533],[xlog.c],[26:11533],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[sscanf],#do_pg_stop_backup()#,[26:11533:0:3,26:11533:0:16]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:3714],[xlog.c],[26:3714],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#XLogFileRead()#,[26:3714:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:3720],[xlog.c],[26:3720],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#XLogFileRead()#,[26:3720:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:3763],[xlog.c],[26:3763],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#XLogFileRead()#,[26:3763:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:3753],[xlog.c],[26:3753],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#XLogFileRead()#,[26:3753:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:3734],[xlog.c],[26:3734],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#XLogFileRead()#,[26:3734:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:3853],[xlog.c],[26:3853],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#XLogFileReadAnyTLI()#,[26:3853:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:12226],[xlog.c],[26:12226],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#XLogPageRead()#,[26:12226:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:12212],[xlog.c],[26:12212],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#XLogPageRead()#,[26:12212:0:3]
+[Au5em],[RCD@xlog.c:12999@xlog.c:12997],[xlog.c],[26:12999],[Vul],[D],[RCD],[1,0,0],[],#FlushGTSTrack()#,[26:12997:0:11,26:12997:0:23,26:12999:0:25,26:12999:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:12887],[xlog.c],[26:12887],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#FlushXlogTrack()#,[26:12887:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@xlog.c:13116],[xlog.c],[26:13116],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#wal_consistency_check()#,[26:13116:0:3]

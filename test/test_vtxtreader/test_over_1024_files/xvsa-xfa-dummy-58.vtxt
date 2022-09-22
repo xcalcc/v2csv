@@ -1,0 +1,83 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/makefuncs.c"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/nodes/value.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/nodes/nodeFuncs.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/utils/lsyscache.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 16,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 17,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/catalog/pg_type.h"
+  },
+  {
+  "fid": 19,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 20,
+  "path": "/home/xc5/cprojects/tbase/src/backend/nodes/../../../src/include/pgxc/locator.h"
+  }
+]
+[Au5em],[0x0@NPD@pg_list.h:79],[makefuncs.c],[8:236],[Vul],[M],[NPD],[1,0,0],[0x0],#makeWholeRowVar()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:236:0:18,8:236:0:3]
+[Au5em],[typLen@UIV@makefuncs.c:402],[makefuncs.c],[8:369],[Vul],[M],[UIV],[1,0,0],[typLen],#makeConst()#,[8:402:0:4,8:405:0:5,8:406:0:2,8:369:0:3]
+[Au5em],[typByVal@UIV@makefuncs.c:403],[makefuncs.c],[8:369],[Vul],[M],[UIV],[1,0,0],[typByVal],#makeConst()#,[8:403:0:4,8:405:0:5,8:406:0:2,8:369:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@makefuncs.c:470],[makefuncs.c],[8:470],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#makeAnonymousAlias()#,[8:470:0:3]

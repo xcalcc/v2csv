@@ -1,0 +1,18 @@
+XVSA=xvsa
+TARGET=vtxt
+ 
+I_FILE=/share/scan/c5023e88-f66e-4b50-873a-ba6bd65e9ad7/c5023e88-f66e-4b50-873a-ba6bd65e9ad7.preprocess/darknet.dir/preprocess/classifier.c.i 
+I_VTXT=$(I_FILE:.i=.vtxt)
+I_V=$(I_FILE:.i=.v)
+ 
+XVSAOPTIONS=-json -msgid -xfa  -VSA:magic=BhBQI -VSA:authen=1 -VSA:token=eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyZjVhZWFiNi0yNzJjLTQ0MGUtYjcxNS05ODVmNThhYWMzYWQiLCJpYXQiOjE2MzU3MzQwMDEsImV4cCI6MTYzNTgyMDQwMX0.jzxDPikgpFFip1p2lYKFf0gvHPgV1yCpiOZZ3YbBbz0Ps4U0aXKOmmNSjgiieJjxStQPBVtk3z8EaguzvsZmCA -VSA:server=api@80 -VSA:certc=1 -VSA:zero_global=0 -VSA:demo=1  
+ 
+${TARGET}: ${I_VTXT}
+	echo ${I_VTXT}
+ 
+/share/scan/c5023e88-f66e-4b50-873a-ba6bd65e9ad7/c5023e88-f66e-4b50-873a-ba6bd65e9ad7.preprocess/darknet.dir/preprocess/classifier.c.vtxt: /share/scan/c5023e88-f66e-4b50-873a-ba6bd65e9ad7/c5023e88-f66e-4b50-873a-ba6bd65e9ad7.preprocess/darknet.dir/preprocess/classifier.c.i
+	${XVSA} ${XVSAOPTIONS} $< -o /share/scan/c5023e88-f66e-4b50-873a-ba6bd65e9ad7/c5023e88-f66e-4b50-873a-ba6bd65e9ad7.preprocess/darknet.dir/preprocess/classifier.c
+ 
+.PHONY: clean
+clean:
+	-rm ${I_VTXT} ${I_V}

@@ -1,0 +1,505 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/port/atomics/arch-x86.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/port/atomics/generic-gcc.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/port/atomics/generic.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/port/atomics.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/storage/s_lock.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/storage/bufpage.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/rel.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/sortsupport.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/executor/executor.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/executor/tuptable.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/snapmgr.h"
+  },
+  {
+  "fid": 19,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/miscadmin.h"
+  },
+  {
+  "fid": 20,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/ruleutils.c"
+  },
+  {
+  "fid": 22,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/lib/stringinfo.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/executor/spi.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 25,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/catalog/namespace.h"
+  },
+  {
+  "fid": 26,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/varlena.h"
+  },
+  {
+  "fid": 27,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/fmgrprotos.h"
+  },
+  {
+  "fid": 28,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/access/heapam.h"
+  },
+  {
+  "fid": 29,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/access/skey.h"
+  },
+  {
+  "fid": 30,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/access/genam.h"
+  },
+  {
+  "fid": 31,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/lsyscache.h"
+  },
+  {
+  "fid": 32,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/access/htup_details.h"
+  },
+  {
+  "fid": 33,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/nodes/nodes.h"
+  },
+  {
+  "fid": 34,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/builtins.h"
+  },
+  {
+  "fid": 35,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/nodes/makefuncs.h"
+  },
+  {
+  "fid": 36,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/syscache.h"
+  },
+  {
+  "fid": 37,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/access/amapi.h"
+  },
+  {
+  "fid": 38,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/nodes/nodeFuncs.h"
+  },
+  {
+  "fid": 39,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/commands/tablespace.h"
+  },
+  {
+  "fid": 40,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/catalog/partition.h"
+  },
+  {
+  "fid": 41,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/catalog/dependency.h"
+  },
+  {
+  "fid": 42,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/array.h"
+  },
+  {
+  "fid": 43,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 44,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 45,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/port.h"
+  },
+  {
+  "fid": 46,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/funcapi.h"
+  },
+  {
+  "fid": 47,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/hsearch.h"
+  },
+  {
+  "fid": 48,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/nodes/bitmapset.h"
+  },
+  {
+  "fid": 49,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/mb/pg_wchar.h"
+  },
+  {
+  "fid": 50,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/rewrite/rewriteManip.h"
+  },
+  {
+  "fid": 51,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/rewrite/rewriteHandler.h"
+  },
+  {
+  "fid": 52,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/optimizer/tlist.h"
+  },
+  {
+  "fid": 53,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/typcache.h"
+  },
+  {
+  "fid": 54,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/access/reloptions.h"
+  },
+  {
+  "fid": 55,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/parser/parsetree.h"
+  },
+  {
+  "fid": 56,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/access/tupdesc.h"
+  },
+  {
+  "fid": 57,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/xml.h"
+  },
+  {
+  "fid": 58,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/parser/parse_agg.h"
+  },
+  {
+  "fid": 59,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/parser/parser.h"
+  },
+  {
+  "fid": 60,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/commands/defrem.h"
+  },
+  {
+  "fid": 61,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/common/keywords.h"
+  },
+  {
+  "fid": 62,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/parser/parse_func.h"
+  },
+  {
+  "fid": 63,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/nodes/value.h"
+  },
+  {
+  "fid": 64,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/parser/parse_oper.h"
+  },
+  {
+  "fid": 65,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/timestamp.h"
+  },
+  {
+  "fid": 66,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/optimizer/planmain.h"
+  },
+  {
+  "fid": 67,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/postmaster/postmaster.h"
+  },
+  {
+  "fid": 68,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 69,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 70,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 71,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 72,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 73,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/storage/dsm_impl.h"
+  },
+  {
+  "fid": 74,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 75,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 76,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/common/relpath.h"
+  },
+  {
+  "fid": 77,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/pgxc/pgxc.h"
+  },
+  {
+  "fid": 78,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/storage/backendid.h"
+  },
+  {
+  "fid": 79,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/pgxc/shardmap.h"
+  },
+  {
+  "fid": 80,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/storage/lwlock.h"
+  },
+  {
+  "fid": 81,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/storage/lock.h"
+  },
+  {
+  "fid": 82,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 83,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 84,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/access/transam.h"
+  },
+  {
+  "fid": 85,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/pgtime.h"
+  },
+  {
+  "fid": 86,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/catalog/objectaddress.h"
+  },
+  {
+  "fid": 87,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/catalog/pg_type.h"
+  },
+  {
+  "fid": 88,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/storage/fd.h"
+  },
+  {
+  "fid": 89,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/access/xlog.h"
+  },
+  {
+  "fid": 90,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/executor/instrument.h"
+  },
+  {
+  "fid": 91,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/tcop/dest.h"
+  },
+  {
+  "fid": 92,
+  "path": "/usr/include/signal.h"
+  },
+  {
+  "fid": 93,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/pgxc/squeue.h"
+  },
+  {
+  "fid": 94,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/commands/trigger.h"
+  },
+  {
+  "fid": 95,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/resowner.h"
+  },
+  {
+  "fid": 96,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/portal.h"
+  },
+  {
+  "fid": 97,
+  "path": "/home/xc5/cprojects/tbase/src/backend/utils/adt/../../../../src/include/utils/tqual.h"
+  }
+]
+[Au5em],[DDC@ruleutils.c:12181],[ruleutils.c],[21:12181],[Vul],[D],[DDC],[1,0,0],[],#pruning_walker()#,[21:12181:0:3]
+[Au5em],[refnamelen+modname@AOB@ruleutils.c:3492],[ruleutils.c],[21:3492],[Vul],[D],[AOB],[1,0,0],[refnamelen+modname],#set_rtable_names()#,[21:3492:0:3]
+[Au5em],[modname@STR38-C@CERT@ruleutils.c:3493@ruleutils.c:3478],[ruleutils.c],[21:3493],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[modname],#set_rtable_names()#,[21:3478:0:1,21:3493:0:3]
+[Au5em],[colnamelen+modname@AOB@ruleutils.c:4370],[ruleutils.c],[21:4370],[Vul],[D],[AOB],[1,0,0],[colnamelen+modname],#make_colname_unique()#,[21:4370:0:3]
+[Au5em],[modname@STR38-C@CERT@ruleutils.c:4371@ruleutils.c:4356],[ruleutils.c],[21:4371],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[modname],#make_colname_unique()#,[21:4356:0:1,21:4371:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:4564],[Vul],[M],[NPD],[1,0,0],[0x0],#flatten_join_using_qual()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:4564:0:18,21:4564:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:4569],[Vul],[M],[NPD],[1,0,0],[0x0],#flatten_join_using_qual()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:4569:0:18,21:4569:0:3]
+[Au5em],[l2@NPD@pg_list.h:79],[ruleutils.c],[21:10306],[Vul],[M],[NPD],[1,0,0],[l2],#get_tablefunc()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:10290:0:18,21:10290:0:1,21:10296:0:23,21:10296:0:25,21:10296:0:17,21:10306:0:3]
+[Au5em],[l2@NPD@pg_list.h:79],[ruleutils.c],[21:10307],[Vul],[M],[NPD],[1,0,0],[l2],#get_tablefunc()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:10290:0:18,21:10290:0:1,21:10296:0:23,21:10296:0:25,21:10296:0:17,21:10307:0:3]
+[Au5em],[l3@NPD@pg_list.h:79],[ruleutils.c],[21:10308],[Vul],[M],[NPD],[1,0,0],[l3],#get_tablefunc()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:10291:0:18,21:10291:0:1,21:10296:0:23,21:10296:0:25,21:10296:0:17,21:10308:0:3]
+[Au5em],[l3@NPD@pg_list.h:79],[ruleutils.c],[21:10309],[Vul],[M],[NPD],[1,0,0],[l3],#get_tablefunc()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:10291:0:18,21:10291:0:1,21:10296:0:23,21:10296:0:25,21:10296:0:17,21:10309:0:3]
+[Au5em],[l4@NPD@pg_list.h:79],[ruleutils.c],[21:10310],[Vul],[M],[NPD],[1,0,0],[l4],#get_tablefunc()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:10292:0:18,21:10292:0:1,21:10296:0:23,21:10296:0:25,21:10296:0:17,21:10310:0:3]
+[Au5em],[l4@NPD@pg_list.h:79],[ruleutils.c],[21:10311],[Vul],[M],[NPD],[1,0,0],[l4],#get_tablefunc()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:10292:0:18,21:10292:0:1,21:10296:0:23,21:10296:0:25,21:10296:0:17,21:10311:0:3]
+[Au5em],[l5@NPD@pg_list.h:79],[ruleutils.c],[21:10312],[Vul],[M],[NPD],[1,0,0],[l5],#get_tablefunc()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:10293:0:18,21:10293:0:1,21:10296:0:23,21:10296:0:25,21:10296:0:17,21:10312:0:3]
+[Au5em],[l5@NPD@pg_list.h:79],[ruleutils.c],[21:10313],[Vul],[M],[NPD],[1,0,0],[l5],#get_tablefunc()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:10293:0:18,21:10293:0:1,21:10296:0:23,21:10296:0:25,21:10296:0:17,21:10313:0:3]
+[Au5em],[typoutput@UIV@ruleutils.c:9930],[ruleutils.c],[21:9955],[Vul],[M],[UIV],[1,0,0],[typoutput],#get_const_expr()#,[21:9930:0:4,21:9935:0:24,21:9935:0:26,21:9952:0:5,21:9955:0:3]
+[Au5em],[extval@STR38-C@CERT@ruleutils.c:9986@ruleutils.c:9955],[ruleutils.c],[21:9986],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[extval],#get_const_expr()#,[21:9955:0:1,21:9986:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:9691],[Vul],[M],[NPD],[1,0,0],[0x0],#get_agg_expr()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:9688:0:18,21:9691:0:3]
+[Au5em],[callback@UDR@ruleutils.c:7323@ruleutils.c:7077],[ruleutils.c],[21:7323],[Vul],[D],[UDR],[1,0,0],[callback],#resolve_special_varno()#,[21:7077:0:9,21:7077:0:2,21:7261:0:15,21:7261:0:1,21:7308:0:23,21:7308:0:25,21:7294:0:23,21:7294:0:25,21:7280:0:23,21:7280:0:25,21:7266:0:24,21:7266:0:26,21:7319:0:24,21:7320:0:26,21:7323:0:1,21:7323:0:3]
+[Au5em],[callback@UDR@ruleutils.c:7323@ruleutils.c:9691],[ruleutils.c],[21:7323],[Vul],[D],[UDR],[1,0,0],[callback],#resolve_special_varno()#,[21:9691:0:9,21:9691:0:2,21:7261:0:15,21:7261:0:1,21:7266:0:24,21:7266:0:26,21:7280:0:23,21:7285:0:25,21:7286:0:24,21:7286:0:26,21:7290:0:1,21:7290:0:2,21:7261:0:15,21:7261:0:1,21:7280:0:23,21:7280:0:25,21:7266:0:24,21:7266:0:26,21:7294:0:23,21:7299:0:25,21:7300:0:24,21:7300:0:26,21:7304:0:1,21:7304:0:2,21:7261:0:15,21:7261:0:1,21:7308:0:23,21:7308:0:25,21:7294:0:23,21:7294:0:25,21:7280:0:23,21:7280:0:25,21:7266:0:24,21:7266:0:26,21:7319:0:24,21:7320:0:26,21:7323:0:1,21:7323:0:3]
+[Au5em],[callback@UDR@ruleutils.c:7268@ruleutils.c:7077],[ruleutils.c],[21:7268],[Vul],[D],[UDR],[1,0,0],[callback],#resolve_special_varno()#,[21:7077:0:9,21:7077:0:2,21:7261:0:15,21:7261:0:1,21:7266:0:23,21:7268:0:25,21:7268:0:1,21:7268:0:3]
+[Au5em],[callback@UDR@ruleutils.c:7268@ruleutils.c:9691],[ruleutils.c],[21:7268],[Vul],[D],[UDR],[1,0,0],[callback],#resolve_special_varno()#,[21:9691:0:9,21:9691:0:2,21:7261:0:15,21:7261:0:1,21:7266:0:24,21:7266:0:26,21:7280:0:23,21:7285:0:25,21:7286:0:24,21:7286:0:26,21:7290:0:1,21:7290:0:2,21:7261:0:15,21:7261:0:1,21:7280:0:23,21:7280:0:25,21:7266:0:24,21:7266:0:26,21:7294:0:23,21:7299:0:25,21:7300:0:24,21:7300:0:26,21:7304:0:1,21:7304:0:2,21:7261:0:15,21:7261:0:1,21:7266:0:23,21:7268:0:25,21:7268:0:1,21:7268:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:7750],[Vul],[M],[NPD],[1,0,0],[0x0],#find_param_referent()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:7750:0:18,21:7750:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:11007],[Vul],[M],[NPD],[1,0,0],[0x0],#processIndirection()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:11007:0:18,21:11007:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:11015],[Vul],[M],[NPD],[1,0,0],[0x0],#processIndirection()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:11015:0:18,21:11015:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:8060],[Vul],[M],[NPD],[1,0,0],[0x0],#isSimpleNode()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:8060:0:18,21:8060:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:7934],[Vul],[M],[NPD],[1,0,0],[0x0],#get_simple_binary_op_name()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:7934:0:18,21:7934:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:7937],[Vul],[M],[NPD],[1,0,0],[0x0],#get_simple_binary_op_name()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:7933:0:18,21:7937:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:7934],[Vul],[M],[NPD],[1,0,0],[0x0],#get_simple_binary_op_name()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:7934:0:18,21:7934:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:7937],[Vul],[M],[NPD],[1,0,0],[0x0],#get_simple_binary_op_name()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:7933:0:18,21:7937:0:3]
+[Au5em],[op@STR38-C@CERT@ruleutils.c:7938@ruleutils.c:7937],[ruleutils.c],[21:7938],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[op],#isSimpleNode()#,[21:7937:0:1,21:7938:0:3]
+[Au5em],[op@STR38-C@CERT@ruleutils.c:7938@ruleutils.c:7937],[ruleutils.c],[21:7938],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[op],#isSimpleNode()#,[21:7937:0:1,21:7938:0:3]
+[Au5em],[coercedTypmod@UIV@ruleutils.c:9613],[ruleutils.c],[21:9618],[Vul],[M],[UIV],[1,0,0],[coercedTypmod],#get_func_expr()#,[21:9613:0:4,21:9608:0:23,21:9611:0:25,21:9597:0:23,21:9597:0:25,21:9608:0:23,21:9611:0:26,21:9616:0:5,21:9618:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:9611],[Vul],[M],[NPD],[1,0,0],[0x0],#get_func_expr()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:9611:0:18,21:9611:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:8241],[Vul],[M],[NPD],[1,0,0],[0x0],#get_rule_expr_paren()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:9599:0:18,21:8241:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:9545],[Vul],[M],[NPD],[1,0,0],[0x0],#get_oper_expr()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:9545:0:18,21:9545:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:9532],[Vul],[M],[NPD],[1,0,0],[0x0],#get_oper_expr()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:9532:0:18,21:9532:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:9533],[Vul],[M],[NPD],[1,0,0],[0x0],#get_oper_expr()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:9533:0:18,21:9533:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:10169],[Vul],[M],[NPD],[1,0,0],[0x0],#get_sublink_expr()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:10169:0:18,21:10169:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:10169],[Vul],[M],[NPD],[1,0,0],[0x0],#get_sublink_expr()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:10169:0:18,21:10169:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:10169],[Vul],[M],[NPD],[1,0,0],[0x0],#get_sublink_expr()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:10169:0:18,21:10169:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:10153],[Vul],[M],[NPD],[1,0,0],[0x0],#get_sublink_expr()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:10153:0:18,21:10153:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:10155],[Vul],[M],[NPD],[1,0,0],[0x0],#get_sublink_expr()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:10155:0:18,21:10155:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:10155],[Vul],[M],[NPD],[1,0,0],[0x0],#get_sublink_expr()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:10155:0:18,21:10155:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:10135],[Vul],[M],[NPD],[1,0,0],[0x0],#get_sublink_expr()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:10135:0:18,21:10135:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:10136],[Vul],[M],[NPD],[1,0,0],[0x0],#get_sublink_expr()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:10136:0:18,21:10136:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:10136],[Vul],[M],[NPD],[1,0,0],[0x0],#get_sublink_expr()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:10136:0:18,21:10136:0:3]
+[Au5em],[cte@NPD@ruleutils.c:7607],[ruleutils.c],[21:7632],[Vul],[M],[NPD],[1,0,0],[cte],#get_name_for_var_field()#,[21:7607:0:1,21:7615:0:24,21:7621:0:26,21:7623:0:17,21:7632:0:3]
+[Au5em],[cte@NPD@ruleutils.c:7607],[ruleutils.c],[21:7634],[Vul],[M],[NPD],[1,0,0],[cte],#get_name_for_var_field()#,[21:7607:0:1,21:7615:0:24,21:7621:0:26,21:7623:0:17,21:7634:0:3]
+[Au5em],[cte@NPD@ruleutils.c:7607],[ruleutils.c],[21:7634],[Vul],[M],[NPD],[1,0,0],[cte],#get_name_for_var_field()#,[21:7607:0:1,21:7615:0:24,21:7621:0:26,21:7623:0:17,21:7634:0:3]
+[Au5em],[cte@NPD@ruleutils.c:7607],[ruleutils.c],[21:7634],[Vul],[M],[NPD],[1,0,0],[cte],#get_name_for_var_field()#,[21:7607:0:1,21:7615:0:24,21:7621:0:26,21:7623:0:17,21:7634:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:7750],[Vul],[M],[NPD],[1,0,0],[0x0],#find_param_referent()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:7750:0:18,21:7750:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:8408],[Vul],[M],[NPD],[1,0,0],[0x0],#get_rule_expr()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:8408:0:18,21:8408:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:8409],[Vul],[M],[NPD],[1,0,0],[0x0],#get_rule_expr()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:8409:0:18,21:8409:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:8435],[Vul],[M],[NPD],[1,0,0],[0x0],#get_rule_expr()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:8435:0:18,21:8435:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:8436],[Vul],[M],[NPD],[1,0,0],[0x0],#get_rule_expr()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:8436:0:18,21:8436:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:8474],[Vul],[M],[NPD],[1,0,0],[0x0],#get_rule_expr()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:8474:0:18,21:8474:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:8475],[Vul],[M],[NPD],[1,0,0],[0x0],#get_rule_expr()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:8475:0:18,21:8475:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:8767],[Vul],[M],[NPD],[1,0,0],[0x0],#get_rule_expr()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:8767:0:18,21:8767:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:8770],[Vul],[M],[NPD],[1,0,0],[0x0],#get_rule_expr()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:8770:0:18,21:8770:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:8916],[Vul],[M],[NPD],[1,0,0],[0x0],#get_rule_expr()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:8916:0:18,21:8916:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:8916],[Vul],[M],[NPD],[1,0,0],[0x0],#get_rule_expr()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:8916:0:18,21:8916:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:8916],[Vul],[M],[NPD],[1,0,0],[0x0],#get_rule_expr()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:8916:0:18,21:8916:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:9126],[Vul],[M],[NPD],[1,0,0],[0x0],#get_rule_expr()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:9126:0:18,21:9126:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:9131],[Vul],[M],[NPD],[1,0,0],[0x0],#get_rule_expr()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:9129:0:18,21:9131:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:9141],[Vul],[M],[NPD],[1,0,0],[0x0],#get_rule_expr()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:9141:0:18,21:9141:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:9145],[Vul],[M],[NPD],[1,0,0],[0x0],#get_rule_expr()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:9145:0:18,21:9145:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:9152],[Vul],[M],[NPD],[1,0,0],[0x0],#get_rule_expr()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:9152:0:18,21:9152:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:10451],[Vul],[M],[NPD],[1,0,0],[0x0],#get_from_clause_item()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:10451:0:18,21:10451:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:4599],[Vul],[M],[NPD],[1,0,0],[0x0],#get_rtable_name()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:4596:0:18,21:4599:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:10494],[Vul],[M],[NPD],[1,0,0],[0x0],#get_from_clause_item()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:10494:0:18,21:10494:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:4599],[Vul],[M],[NPD],[1,0,0],[0x0],#get_rtable_name()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:4596:0:18,21:4599:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:6672],[Vul],[M],[NPD],[1,0,0],[0x0],#get_update_query_targetlist_def()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:6672:0:18,21:6672:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:6946],[Vul],[M],[NPD],[1,0,0],[0x0],#get_utility_query_def()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:6946:0:18,21:6946:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:6958],[Vul],[M],[NPD],[1,0,0],[0x0],#get_utility_query_def()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:6958:0:18,21:6958:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:4952],[Vul],[M],[NPD],[1,0,0],[0x0],#make_ruledef()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:4951:0:18,21:4952:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:4894],[Vul],[M],[NPD],[1,0,0],[0x0],#make_ruledef()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:4887:0:18,21:4894:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:5019],[Vul],[M],[NPD],[1,0,0],[0x0],#make_viewdef()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:5019:0:18,21:5019:0:3]
+[Au5em],[result@AOB@ruleutils.c:2412@ruleutils.c:2398],[ruleutils.c],[21:2412],[Vul],[D],[AOB],[1,0,0],[result],#pg_get_userbyid()#,[21:2398:0:1,21:2412:0:3]
+[Au5em],[strncpy@STR32-C@CERT@ruleutils.c:2408],[ruleutils.c],[21:2408],[Vul],[M],[RBC],[1,0,0],[CERT],[STR32-C],[strncpy],#pg_get_userbyid()#,[21:2408:0:3]
+[Au5em],[_dst@STR38-C@CERT@ruleutils.c:2408@ruleutils.c:2398],[ruleutils.c],[21:2408],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[_dst],#pg_get_userbyid()#,[21:2398:0:1,21:2408:0:1,21:2408:0:3]
+[Au5em],[role_rec@STR38-C@CERT@ruleutils.c:2408@ruleutils.c:2407],[ruleutils.c],[21:2408],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[role_rec],#pg_get_userbyid()#,[21:2407:0:1,21:2408:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[ruleutils.c],[21:3239],[Vul],[M],[NPD],[1,0,0],[0x0],#set_deparse_context_planstate()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:3239:0:18,21:3239:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[pg_list.h],[10:78],[Vul],[M],[NPD],[1,0,0],[0x0],#list_head()#,[10:79:0:1,10:79:0:17,10:79:0:1,21:5138:0:18,10:78:0:3]
+[Au5em],[parentname@STR38-C@CERT@ruleutils.c:11664@ruleutils.c:11662],[ruleutils.c],[21:11664],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[parentname],#GetPartitionName()#,[21:11662:0:1,21:11664:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@ruleutils.c:11668],[ruleutils.c],[21:11668],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#GetPartitionName()#,[21:11668:0:3]
+[Au5em],[RCD@ruleutils.c:11754@ruleutils.c:11749],[ruleutils.c],[21:11754],[Vul],[D],[RCD],[1,0,0],[],#get_daysofyear()#,[21:11749:0:11,21:11749:0:24,21:11879:0:26,21:11754:0:3]
+[Au5em],[RCD@ruleutils.c:11749@ruleutils.c:11749],[ruleutils.c],[21:11749],[Vul],[D],[RCD],[1,0,0],[],#get_daysofyear()#,[21:11749:0:11,21:11749:0:24,21:11749:0:25,21:11749:0:3]
+[Au5em],[RCD@ruleutils.c:11749@ruleutils.c:11749],[ruleutils.c],[21:11749],[Vul],[D],[RCD],[1,0,0],[],#get_daysofyear()#,[21:11749:0:11,21:11749:0:24,21:11749:0:25,21:11749:0:3]
+[Au5em],[RCD@ruleutils.c:11859@ruleutils.c:11859],[ruleutils.c],[21:11859],[Vul],[D],[RCD],[1,0,0],[],#find_partidx_by_timestamp()#,[21:11859:0:11,21:11859:0:24,21:11859:0:25,21:11859:0:3]
+[Au5em],[parentname@STR38-C@CERT@ruleutils.c:11664@ruleutils.c:11662],[ruleutils.c],[21:11664],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[parentname],#RelationGetPartitionByValue()#,[21:11662:0:1,21:11664:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@ruleutils.c:11668],[ruleutils.c],[21:11668],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#RelationGetPartitionByValue()#,[21:11668:0:3]
+[Au5em],[parentname@STR38-C@CERT@ruleutils.c:11664@ruleutils.c:11662],[ruleutils.c],[21:11664],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[parentname],#RelationGetAllPartitions()#,[21:11662:0:1,21:11664:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@ruleutils.c:11668],[ruleutils.c],[21:11668],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#RelationGetAllPartitions()#,[21:11668:0:3]
+[Au5em],[parentname@STR38-C@CERT@ruleutils.c:11664@ruleutils.c:11662],[ruleutils.c],[21:11664],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[parentname],#RelationGetChildIndex()#,[21:11662:0:1,21:11664:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@ruleutils.c:11668],[ruleutils.c],[21:11668],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#RelationGetChildIndex()#,[21:11668:0:3]
+[Au5em],[parentname@STR38-C@CERT@ruleutils.c:11664@ruleutils.c:11662],[ruleutils.c],[21:11664],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[parentname],#RelationGetPartitionIndex()#,[21:11662:0:1,21:11664:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@ruleutils.c:11668],[ruleutils.c],[21:11668],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#RelationGetPartitionIndex()#,[21:11668:0:3]
+[Au5em],[parentname@STR38-C@CERT@ruleutils.c:11664@ruleutils.c:11662],[ruleutils.c],[21:11664],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[parentname],#RelationGetPartition()#,[21:11662:0:1,21:11664:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@ruleutils.c:11668],[ruleutils.c],[21:11668],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#RelationGetPartition()#,[21:11668:0:3]
+[Au5em],[parentname@STR38-C@CERT@ruleutils.c:11664@ruleutils.c:11662],[ruleutils.c],[21:11664],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[parentname],#get_full_pruning_result()#,[21:11662:0:1,21:11664:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@ruleutils.c:11668],[ruleutils.c],[21:11668],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#get_full_pruning_result()#,[21:11668:0:3]
+[Au5em],[parentname@STR38-C@CERT@ruleutils.c:11664@ruleutils.c:11662],[ruleutils.c],[21:11664],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[parentname],#pruning_opexpr()#,[21:11662:0:1,21:11664:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@ruleutils.c:11668],[ruleutils.c],[21:11668],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pruning_opexpr()#,[21:11668:0:3]
+[Au5em],[parentname@STR38-C@CERT@ruleutils.c:11664@ruleutils.c:11662],[ruleutils.c],[21:11664],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[parentname],#pruning_opexpr()#,[21:11662:0:1,21:11664:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@ruleutils.c:11668],[ruleutils.c],[21:11668],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pruning_opexpr()#,[21:11668:0:3]
+[Au5em],[parentname@STR38-C@CERT@ruleutils.c:11664@ruleutils.c:11662],[ruleutils.c],[21:11664],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[parentname],#pruning_opexpr()#,[21:11662:0:1,21:11664:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@ruleutils.c:11668],[ruleutils.c],[21:11668],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#pruning_opexpr()#,[21:11668:0:3]
+[Au5em],[RCD@ruleutils.c:11810@ruleutils.c:11810],[ruleutils.c],[21:11810],[Vul],[D],[RCD],[1,0,0],[],#get_monthesofyear()#,[21:11810:0:11,21:11810:0:24,21:11810:0:25,21:11810:0:3]
+[Au5em],[RCD@ruleutils.c:11810@ruleutils.c:11810],[ruleutils.c],[21:11810],[Vul],[D],[RCD],[1,0,0],[],#get_monthesofyear()#,[21:11810:0:11,21:11810:0:24,21:11810:0:25,21:11810:0:3]
+[Au5em],[parentname@STR38-C@CERT@ruleutils.c:11664@ruleutils.c:11662],[ruleutils.c],[21:11664],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[parentname],#replace_partidx_bitmapheapscan()#,[21:11662:0:1,21:11664:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@ruleutils.c:11668],[ruleutils.c],[21:11668],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#replace_partidx_bitmapheapscan()#,[21:11668:0:3]
+[Au5em],[parentname@STR38-C@CERT@ruleutils.c:11664@ruleutils.c:11662],[ruleutils.c],[21:11664],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[parentname],#replace_target_relation()#,[21:11662:0:1,21:11664:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@ruleutils.c:11668],[ruleutils.c],[21:11668],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#replace_target_relation()#,[21:11668:0:3]
+[Au5em],[parentname@STR38-C@CERT@ruleutils.c:11664@ruleutils.c:11662],[ruleutils.c],[21:11664],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[parentname],#replace_target_relation()#,[21:11662:0:1,21:11664:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@ruleutils.c:11668],[ruleutils.c],[21:11668],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#replace_target_relation()#,[21:11668:0:3]
+[Au5em],[parentname@STR38-C@CERT@ruleutils.c:11664@ruleutils.c:11662],[ruleutils.c],[21:11664],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[parentname],#replace_target_relation()#,[21:11662:0:1,21:11664:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@ruleutils.c:11668],[ruleutils.c],[21:11668],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#replace_target_relation()#,[21:11668:0:3]

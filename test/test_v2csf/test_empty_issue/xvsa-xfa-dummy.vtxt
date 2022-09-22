@@ -1,0 +1,47 @@
+{"V", curre, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/home/jun/xc5/demo_benchmark/c_testcase/basic/uiv.c"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 4,
+  "path": "/usr/include/libio.h"
+  },
+  {
+  "fid": 5,
+  "path": "/usr/include/x86_64-linux-gnu/bits/sys_errlist.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/jun/xc5/demo_benchmark/c_testcase/basic/npd.c"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/x86_64-linux-gnu/bits/byteswap.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/jun/xc5/demo_benchmark/c_testcase/basic/dbf.c"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/jun/xc5/demo_benchmark/c_testcase/basic/aob.c"
+  },
+  {
+  "fid": 15,
+  "path": "/home/jun/xc5/demo_benchmark/c_testcase/basic/uaf.c"
+  },
+  {
+  "fid": 17,
+  "path": "/home/jun/xc5/demo_benchmark/c_testcase/basic/msf.c"
+  }
+]

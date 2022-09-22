@@ -1,0 +1,113 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_rewind/../../../src/include/postgres.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_rewind/../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_rewind/../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_rewind/libpq_fetch.c"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_rewind/../../../src/interfaces/libpq/libpq-fe.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_rewind/logging.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_rewind/../../../src/include/common/fe_memutils.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_rewind/filemap.h"
+  },
+  {
+  "fid": 14,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_rewind/file_ops.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_rewind/datapagemap.h"
+  },
+  {
+  "fid": 17,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 19,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 20,
+  "path": "/usr/include/bits/getopt_core.h"
+  },
+  {
+  "fid": 21,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_rewind/../../../src/include/common/relpath.h"
+  },
+  {
+  "fid": 22,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_rewind/../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 23,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_rewind/../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_rewind/../../../src/include/pgxc/pgxc.h"
+  },
+  {
+  "fid": 25,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_rewind/../../../src/include/storage/backendid.h"
+  },
+  {
+  "fid": 26,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_rewind/pg_rewind.h"
+  },
+  {
+  "fid": 27,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_rewind/../../../src/include/catalog/pg_type.h"
+  },
+  {
+  "fid": 28,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_rewind/../../../src/include/utils/relcache.h"
+  }
+]
+[Au5em],[sscanf@ERR33-C@CERT@libpq_fetch.c:135@libpq_fetch.c:135],[libpq_fetch.c],[7:135],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[sscanf],#libpqGetCurrentXlogInsertLocation()#,[7:135:0:3,7:135:0:16]
+[Au5em],[snprintf@ERR33-C@CERT@libpq_fetch.c:420],[libpq_fetch.c],[7:420],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#fetch_file_range()#,[7:420:0:3]

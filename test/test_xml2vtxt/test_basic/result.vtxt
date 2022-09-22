@@ -1,0 +1,42 @@
+{"V", DKnKu, 0.7.2, 0000000000000000000000000000000000000000000000000000000000000000}
+[
+  {
+    "fid" : 1,
+    "path" : "/Users/stx/git/gerrit/basic_dsr_scan_220513a/basic/uiv.c"
+  },
+  {
+    "fid" : 2,
+    "path" : "/Users/stx/git/gerrit/basic_dsr_scan_220513a/basic/npd.c"
+  },
+  {
+    "fid" : 3,
+    "path" : "/Users/stx/git/gerrit/basic_dsr_scan_220513a/basic/aob.c"
+  },
+  {
+    "fid" : 4,
+    "path" : "/Users/stx/git/gerrit/basic_dsr_scan_220513a/basic/msf.c"
+  },
+  {
+    "fid" : 5,
+    "path" : "/Users/stx/git/gerrit/basic_dsr_scan_220513a/basic/dbf.c"
+  },
+  {
+    "fid" : 6,
+    "path" : "/Users/stx/git/gerrit/basic_dsr_scan_220513a/basic/uaf.c"
+  }
+]
+[DKnKu],[@MSR_21_6@uiv.c:1],[uiv.c],[1:1],[SML],[D],[RBC],[1,0,0],[MSR],[MSR_21_6],[],[],[1:1:0:3]
+[DKnKu],[@MSR_21_6@npd.c:1],[npd.c],[2:1],[SML],[D],[RBC],[1,0,0],[MSR],[MSR_21_6],[],[],[2:1:0:3]
+[DKnKu],[@MSR_21_6@aob.c:1],[aob.c],[3:1],[SML],[D],[RBC],[1,0,0],[MSR],[MSR_21_6],[],[],[3:1:0:3]
+[DKnKu],[@MSR_21_3@msf.c:11],[msf.c],[4:11],[SML],[D],[RBC],[1,0,0],[MSR],[MSR_21_3],[],[],[4:11:13:3]
+[DKnKu],[@MSR_21_3@msf.c:14],[msf.c],[4:14],[SML],[D],[RBC],[1,0,0],[MSR],[MSR_21_3],[],[],[4:14:24:3]
+[DKnKu],[@MSR_21_3@msf.c:16],[msf.c],[4:16],[SML],[D],[RBC],[1,0,0],[MSR],[MSR_21_3],[],[],[4:16:9:3]
+[DKnKu],[@MSR_21_3@msf.c:20],[msf.c],[4:20],[SML],[D],[RBC],[1,0,0],[MSR],[MSR_21_3],[],[],[4:20:7:3]
+[DKnKu],[@MSR_21_6@msf.c:1],[msf.c],[4:1],[SML],[D],[RBC],[1,0,0],[MSR],[MSR_21_6],[],[],[4:1:0:3]
+[DKnKu],[@MSR_21_3@dbf.c:7],[dbf.c],[5:7],[SML],[D],[RBC],[1,0,0],[MSR],[MSR_21_3],[],[],[5:7:9:3]
+[DKnKu],[@MSR_21_3@dbf.c:13],[dbf.c],[5:13],[SML],[D],[RBC],[1,0,0],[MSR],[MSR_21_3],[],[],[5:13:9:3]
+[DKnKu],[@MSR_21_3@dbf.c:19],[dbf.c],[5:19],[SML],[D],[RBC],[1,0,0],[MSR],[MSR_21_3],[],[],[5:19:13:3]
+[DKnKu],[@MSR_21_6@dbf.c:1],[dbf.c],[5:1],[SML],[D],[RBC],[1,0,0],[MSR],[MSR_21_6],[],[],[5:1:0:3]
+[DKnKu],[@MSR_21_3@uaf.c:8],[uaf.c],[6:8],[SML],[D],[RBC],[1,0,0],[MSR],[MSR_21_3],[],[],[6:8:9:3]
+[DKnKu],[@MSR_21_3@uaf.c:13],[uaf.c],[6:13],[SML],[D],[RBC],[1,0,0],[MSR],[MSR_21_3],[],[],[6:13:13:3]
+[DKnKu],[@MSR_21_6@uaf.c:1],[uaf.c],[6:1],[SML],[D],[RBC],[1,0,0],[MSR],[MSR_21_6],[],[],[6:1:0:3]

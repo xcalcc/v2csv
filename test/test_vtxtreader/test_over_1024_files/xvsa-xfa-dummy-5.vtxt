@@ -1,0 +1,65 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/path/path.c"
+  },
+  {
+  "fid": 5,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 6,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/path/../../../src/include/port.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/gtm/path/../../../src/include/port/pg_crc32c.h"
+  },
+  {
+  "fid": 15,
+  "path": "/usr/include/bits/getopt_core.h"
+  }
+]
+[Au5em],[new@MSF@path.c:306],[path.c],[4:315],[Vul],[D],[MSF],[1,0,0],[new],#make_absolute_path()#,[4:306:0:9,4:314:0:12,4:315:0:3]
+[Au5em],[new@MSF@path.c:295],[path.c],[4:315],[Vul],[D],[MSF],[1,0,0],[new],#make_absolute_path()#,[4:295:0:9,4:314:0:12,4:315:0:3]
+[Au5em],[malloc@MEM35-C@CERT@path.c:276],[path.c],[4:276],[Vul],[M],[RBC],[1,0,0],[CERT],[MEM35-C],[malloc],#make_absolute_path()#,[4:276:0:3]
+[Au5em],[buf@STR38-C@CERT@path.c:295@path.c:276],[path.c],[4:295],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[buf],#make_absolute_path()#,[4:276:0:1,4:295:0:3]
+[Au5em],[new@AOB@path.c:301@path.c:295],[path.c],[4:301],[Vul],[M],[AOB],[1,0,0],[new],#make_absolute_path()#,[4:295:0:1,4:301:0:3]
+[Au5em],[snprintf@ERR33-C@CERT@path.c:362],[path.c],[4:362],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[snprintf],#join_path_components()#,[4:362:0:3]

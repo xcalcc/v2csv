@@ -1,0 +1,92 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/preproc/output.c"
+  },
+  {
+  "fid": 5,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/preproc/extern.h"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/interfaces/ecpg/preproc/../../../../src/include/common/keywords.h"
+  }
+]
+[Au5em],[line@AOB@output.c:103@output.c:99],[output.c],[4:103],[Vul],[D],[AOB],[1,0,0],[line],#hashline_number()#,[4:99:0:1,4:103:0:3]
+[Au5em],[line@STR38-C@CERT@output.c:105@output.c:99],[output.c],[4:105],[Vul],[D],[RBC],[1,0,0],[CERT],[STR38-C],[line],#hashline_number()#,[4:99:0:1,4:105:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@output.c:14],[output.c],[4:14],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#output_line_number()#,[4:14:0:3]
+[Au5em],[fputs@ERR33-C@CERT@output.c:245],[output.c],[4:245],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#output_escaped_str()#,[4:245:0:3]
+[Au5em],[fputc@ERR33-C@CERT@output.c:241],[output.c],[4:241],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputc],#output_escaped_str()#,[4:241:0:3]
+[Au5em],[fputs@ERR33-C@CERT@output.c:237],[output.c],[4:237],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#output_escaped_str()#,[4:237:0:3]
+[Au5em],[fputs@ERR33-C@CERT@output.c:233],[output.c],[4:233],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#output_escaped_str()#,[4:233:0:3]
+[Au5em],[fputs@ERR33-C@CERT@output.c:215],[output.c],[4:215],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#output_escaped_str()#,[4:215:0:3]
+[Au5em],[fputs@ERR33-C@CERT@output.c:213],[output.c],[4:213],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#output_escaped_str()#,[4:213:0:3]
+[Au5em],[fputs@ERR33-C@CERT@output.c:206],[output.c],[4:206],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#output_escaped_str()#,[4:206:0:3]
+[Au5em],[stmt@UDR@output.c:20],[output.c],[4:23],[Vul],[M],[UDR],[1,0,0],[stmt],#output_simple_statement()#,[4:23:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@output.c:14],[output.c],[4:14],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#output_simple_statement()#,[4:14:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@output.c:40],[output.c],[4:40],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#print_action()#,[4:40:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@output.c:43],[output.c],[4:43],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#print_action()#,[4:43:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@output.c:46],[output.c],[4:46],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#print_action()#,[4:46:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@output.c:49],[output.c],[4:49],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#print_action()#,[4:49:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@output.c:52],[output.c],[4:52],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#print_action()#,[4:52:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@output.c:55],[output.c],[4:55],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#print_action()#,[4:55:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@output.c:14],[output.c],[4:14],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#whenever_action()#,[4:14:0:3]
+[Au5em],[fputc@ERR33-C@CERT@output.c:83],[output.c],[4:83],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputc],#whenever_action()#,[4:83:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@output.c:14],[output.c],[4:14],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#whenever_action()#,[4:14:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@output.c:78],[output.c],[4:78],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#whenever_action()#,[4:78:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@output.c:14],[output.c],[4:14],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#whenever_action()#,[4:14:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@output.c:72],[output.c],[4:72],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#whenever_action()#,[4:72:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@output.c:14],[output.c],[4:14],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#whenever_action()#,[4:14:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@output.c:66],[output.c],[4:66],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#whenever_action()#,[4:66:0:3]
+[Au5em],[stmt@UDR@output.c:130],[output.c],[4:155],[Vul],[M],[UDR],[1,0,0],[stmt],#output_statement()#,[4:155:0:3]
+[Au5em],[connection@UDR@output.c:130],[output.c],[4:157],[Vul],[M],[UDR],[1,0,0],[connection],#output_statement()#,[4:157:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@output.c:131],[output.c],[4:131],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#output_statement()#,[4:131:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@output.c:134],[output.c],[4:134],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#output_statement()#,[4:134:0:3]
+[Au5em],[fputs@ERR33-C@CERT@output.c:149],[output.c],[4:149],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#output_statement()#,[4:149:0:3]
+[Au5em],[fputs@ERR33-C@CERT@output.c:151],[output.c],[4:151],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#output_statement()#,[4:151:0:3]
+[Au5em],[fputs@ERR33-C@CERT@output.c:141],[output.c],[4:141],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#output_statement()#,[4:141:0:3]
+[Au5em],[fputs@ERR33-C@CERT@output.c:144],[output.c],[4:144],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#output_statement()#,[4:144:0:3]
+[Au5em],[fputs@ERR33-C@CERT@output.c:139],[output.c],[4:139],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#output_statement()#,[4:139:0:3]
+[Au5em],[name@UDR@output.c:162],[output.c],[4:169],[Vul],[M],[UDR],[1,0,0],[name],#output_prepare_statement()#,[4:169:0:3]
+[Au5em],[connection@UDR@output.c:162],[output.c],[4:171],[Vul],[M],[UDR],[1,0,0],[connection],#output_prepare_statement()#,[4:171:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@output.c:163],[output.c],[4:163],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#output_prepare_statement()#,[4:163:0:3]
+[Au5em],[fputs@ERR33-C@CERT@output.c:165],[output.c],[4:165],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#output_prepare_statement()#,[4:165:0:3]
+[Au5em],[fputs@ERR33-C@CERT@output.c:167],[output.c],[4:167],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#output_prepare_statement()#,[4:167:0:3]
+[Au5em],[name@UDR@output.c:176],[output.c],[4:189],[Vul],[M],[UDR],[1,0,0],[name],#output_deallocate_prepare_statement()#,[4:189:0:3]
+[Au5em],[connection@UDR@output.c:176],[output.c],[4:191],[Vul],[M],[UDR],[1,0,0],[connection],#output_deallocate_prepare_statement()#,[4:191:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@output.c:186],[output.c],[4:186],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#output_deallocate_prepare_statement()#,[4:186:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@output.c:181],[output.c],[4:181],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#output_deallocate_prepare_statement()#,[4:181:0:3]
+[Au5em],[fputs@ERR33-C@CERT@output.c:183],[output.c],[4:183],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fputs],#output_deallocate_prepare_statement()#,[4:183:0:3]

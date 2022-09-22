@@ -1,0 +1,128 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/utils/palloc.h"
+  },
+  {
+  "fid": 5,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/postgres.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/nodes/pg_list.h"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/lib/ilist.h"
+  },
+  {
+  "fid": 8,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/equivclass.c"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/optimizer/clauses.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/nodes/nodeFuncs.h"
+  },
+  {
+  "fid": 11,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/nodes/nodes.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/nodes/bitmapset.h"
+  },
+  {
+  "fid": 13,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/utils/lsyscache.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/utils/elog.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/nodes/makefuncs.h"
+  },
+  {
+  "fid": 16,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/optimizer/var.h"
+  },
+  {
+  "fid": 17,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/optimizer/planmain.h"
+  },
+  {
+  "fid": 18,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/optimizer/prep.h"
+  },
+  {
+  "fid": 19,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/optimizer/pathnode.h"
+  },
+  {
+  "fid": 20,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 21,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 22,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 23,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 24,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/catalog/pg_type.h"
+  },
+  {
+  "fid": 25,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/fmgr.h"
+  },
+  {
+  "fid": 26,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/utils/relcache.h"
+  },
+  {
+  "fid": 27,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/pgxc/locator.h"
+  },
+  {
+  "fid": 28,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/optimizer/paths.h"
+  },
+  {
+  "fid": 29,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/tcop/dest.h"
+  },
+  {
+  "fid": 30,
+  "path": "/home/xc5/cprojects/tbase/src/backend/optimizer/path/../../../../src/include/pgxc/pgxc.h"
+  }
+]
+[Au5em],[const_em@NPD@equivclass.c:825],[equivclass.c],[8:875],[Vul],[M],[NPD],[1,0,0],[const_em],#generate_base_implied_equalities_const()#,[8:825:0:1,8:835:0:23,8:835:0:25,8:853:0:17,8:875:0:3]
+[Au5em],[const_em@NPD@equivclass.c:825],[equivclass.c],[8:875],[Vul],[M],[NPD],[1,0,0],[const_em],#generate_base_implied_equalities_const()#,[8:825:0:1,8:835:0:23,8:835:0:25,8:853:0:23,8:853:0:25,8:853:0:17,8:857:0:17,8:853:0:17,8:875:0:3]
+[Au5em],[const_em@NPD@equivclass.c:825],[equivclass.c],[8:884],[Vul],[M],[NPD],[1,0,0],[const_em],#generate_base_implied_equalities_const()#,[8:825:0:1,8:835:0:23,8:835:0:25,8:853:0:17,8:884:0:3]
+[Au5em],[const_em@NPD@equivclass.c:825],[equivclass.c],[8:884],[Vul],[M],[NPD],[1,0,0],[const_em],#generate_base_implied_equalities_const()#,[8:825:0:1,8:835:0:23,8:835:0:25,8:853:0:23,8:853:0:25,8:853:0:17,8:857:0:17,8:853:0:17,8:884:0:3]
+[Au5em],[const_em@NPD@equivclass.c:825],[equivclass.c],[8:884],[Vul],[M],[NPD],[1,0,0],[const_em],#generate_base_implied_equalities_const()#,[8:825:0:1,8:835:0:23,8:835:0:25,8:853:0:17,8:884:0:3]
+[Au5em],[const_em@NPD@equivclass.c:825],[equivclass.c],[8:884],[Vul],[M],[NPD],[1,0,0],[const_em],#generate_base_implied_equalities_const()#,[8:825:0:1,8:835:0:23,8:835:0:25,8:853:0:23,8:853:0:25,8:853:0:17,8:857:0:17,8:853:0:17,8:884:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[equivclass.c],[8:838],[Vul],[M],[NPD],[1,0,0],[0x0],#generate_base_implied_equalities_const()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:838:0:18,8:838:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[equivclass.c],[8:1862],[Vul],[M],[NPD],[1,0,0],[0x0],#reconsider_full_join_clause()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:1862:0:18,8:1862:0:3]
+[Au5em],[0x0@NPD@pg_list.h:79],[equivclass.c],[8:1864],[Vul],[M],[NPD],[1,0,0],[0x0],#reconsider_full_join_clause()#,[6:79:0:1,6:79:0:17,6:79:0:1,8:1861:0:18,8:1864:0:3]

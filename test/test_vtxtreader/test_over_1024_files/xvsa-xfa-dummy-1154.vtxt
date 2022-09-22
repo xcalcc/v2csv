@@ -1,0 +1,53 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/bin/pg_dump/pg_backup_utils.c"
+  },
+  {
+  "fid": 5,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 6,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 7,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 9,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 10,
+  "path": "/usr/include/time.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 12,
+  "path": "/usr/include/bits/getopt_core.h"
+  }
+]
+[Au5em],[fprintf@ERR33-C@CERT@pg_backup_utils.c:54],[pg_backup_utils.c],[4:54],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#set_dump_section()#,[4:54:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@pg_backup_utils.c:56],[pg_backup_utils.c],[4:56],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#set_dump_section()#,[4:56:0:3]
+[Au5em],[fmt@FIO30-C@CERT@pg_backup_utils.c:93@pg_backup_utils.c:72],[pg_backup_utils.c],[4:93],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO30-C],[fmt],#write_msg()#,[4:72:0:16,4:76:0:2,4:93:0:3]
+[Au5em],[fmt@FIO30-C@CERT@pg_backup_utils.c:93@pg_backup_utils.c:85],[pg_backup_utils.c],[4:93],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO30-C],[fmt],#vwrite_msg()#,[4:85:0:16,4:93:0:3]
+[Au5em],[on_exit_nicely_list@AOB@pg_backup_utils.c:119],[pg_backup_utils.c],[4:119],[Vul],[M],[AOB],[1,0,0],[on_exit_nicely_list],#on_exit_nicely()#,[4:119:0:3]
+[Au5em],[on_exit_nicely_list@AOB@pg_backup_utils.c:120],[pg_backup_utils.c],[4:120],[Vul],[M],[AOB],[1,0,0],[on_exit_nicely_list],#on_exit_nicely()#,[4:120:0:3]

@@ -1,0 +1,55 @@
+{"V", A, 0.7}
+[
+  {
+  "fid": 1,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/Annotations.java"
+  },
+  {
+  "fid": 2,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/DaggerAdapter.java"
+  },
+  {
+  "fid": 3,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/DaggerMethodScanner.java"
+  },
+  {
+  "fid": 4,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/Keys.java"
+  },
+  {
+  "fid": 5,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/SupportedAnnotations.java"
+  },
+  {
+  "fid": 6,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/Annotations$$Lambda$1.java"
+  },
+  {
+  "fid": 7,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/DaggerAdapter$DaggerCompatibilityModule$$Lambda$2.java"
+  },
+  {
+  "fid": 8,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/DaggerAdapter$DaggerCompatibilityModule$$Lambda$3.java"
+  },
+  {
+  "fid": 9,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/DaggerAdapter$DaggerCompatibilityModule$$Lambda$4.java"
+  },
+  {
+  "fid": 10,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/DaggerAdapter$DaggerCompatibilityModule$$Lambda$5.java"
+  },
+  {
+  "fid": 11,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/DaggerAdapter$DaggerCompatibilityModule$$Lambda$6.java"
+  },
+  {
+  "fid": 12,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/DaggerMethodScanner$$Lambda$7.java"
+  },
+  {
+  "fid": 13,
+  "path": "/home/zhj/qa-regression/java_regression/tool/xcalagent/workdir/jobs/guice/not-found/DaggerMethodScanner$$Lambda$8.java"
+  }
+]

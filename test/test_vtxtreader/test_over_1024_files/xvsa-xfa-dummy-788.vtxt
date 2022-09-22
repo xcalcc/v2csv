@@ -1,0 +1,129 @@
+{"V", Au5em, 0.7}
+[
+  {
+  "fid": 2,
+  "path": "/usr/include/bits/byteswap.h"
+  },
+  {
+  "fid": 3,
+  "path": "/usr/include/bits/uintn-identity.h"
+  },
+  {
+  "fid": 4,
+  "path": "/home/xc5/cprojects/tbase/src/bin/psql/psqlscanslash.c"
+  },
+  {
+  "fid": 5,
+  "path": "/usr/include/stdio.h"
+  },
+  {
+  "fid": 6,
+  "path": "/home/xc5/cprojects/tbase/src/bin/psql/psqlscanslash.l"
+  },
+  {
+  "fid": 7,
+  "path": "/home/xc5/cprojects/tbase/src/bin/psql/../../../src/include/fe_utils/psqlscan_int.h"
+  },
+  {
+  "fid": 8,
+  "path": "/usr/include/stdlib.h"
+  },
+  {
+  "fid": 9,
+  "path": "/home/xc5/cprojects/tbase/src/bin/psql/../../../src/interfaces/libpq/pqexpbuffer.h"
+  },
+  {
+  "fid": 10,
+  "path": "/home/xc5/cprojects/tbase/src/bin/psql/conditional.h"
+  },
+  {
+  "fid": 11,
+  "path": "/usr/include/errno.h"
+  },
+  {
+  "fid": 12,
+  "path": "/home/xc5/cprojects/tbase/src/bin/psql/../../../src/include/fe_utils/psqlscan.h"
+  },
+  {
+  "fid": 13,
+  "path": "/usr/include/string.h"
+  },
+  {
+  "fid": 14,
+  "path": "/home/xc5/cprojects/tbase/src/bin/psql/../../../src/include/port.h"
+  },
+  {
+  "fid": 15,
+  "path": "/home/xc5/cprojects/tbase/src/bin/psql/../../../src/interfaces/libpq/libpq-fe.h"
+  },
+  {
+  "fid": 16,
+  "path": "/usr/include/bits/sys_errlist.h"
+  },
+  {
+  "fid": 17,
+  "path": "/usr/include/netinet/in.h"
+  },
+  {
+  "fid": 18,
+  "path": "/usr/include/unistd.h"
+  },
+  {
+  "fid": 19,
+  "path": "/usr/include/bits/getopt_core.h"
+  }
+]
+[Au5em],[realloc@ERR33-C@CERT@psqlscanslash.c:2310@psqlscanslash.c:2769],[psqlscanslash.c],[4:2769],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[realloc],#slash_yyensure_buffer_stack()#,[4:2769:0:3,4:2310:0:18,4:2310:0:16]
+[Au5em],[fprintf@ERR33-C@CERT@psqlscanslash.c:2417],[psqlscanslash.c],[4:2417],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#slash_yyensure_buffer_stack()#,[4:2417:0:3]
+[Au5em],[malloc@ERR33-C@CERT@psqlscanslash.c:2291@psqlscanslash.c:2754],[psqlscanslash.c],[4:2754],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[malloc],#slash_yyensure_buffer_stack()#,[4:2754:0:3,4:2291:0:18,4:2291:0:16]
+[Au5em],[fprintf@ERR33-C@CERT@psqlscanslash.c:2417],[psqlscanslash.c],[4:2417],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#slash_yyensure_buffer_stack()#,[4:2417:0:3]
+[Au5em],[ptr@UDR@psqlscanslash.c:2150],[psqlscanslash.c],[4:2776],[Vul],[M],[UDR],[1,0,0],[ptr],#slash_yyfree()#,[4:2162:0:2,4:2773:0:1,4:2776:0:3]
+[Au5em],[ptr@UDR@psqlscanslash.c:2150],[psqlscanslash.c],[4:2776],[Vul],[M],[UDR],[1,0,0],[ptr],#slash_yyfree()#,[4:2160:0:2,4:2773:0:1,4:2776:0:3]
+[Au5em],[ptr@UDR@psqlscanslash.c:2260],[psqlscanslash.c],[4:2776],[Vul],[M],[UDR],[1,0,0],[ptr],#slash_yyfree()#,[4:2160:0:2,4:2773:0:1,4:2776:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@psqlscanslash.c:2417],[psqlscanslash.c],[4:2417],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#slash_yy_scan_buffer()#,[4:2417:0:3]
+[Au5em],[buf@MSF@psqlscanslash.c:2754],[psqlscanslash.c],[4:2407],[Vul],[D],[MSF],[1,0,0],[buf],#slash_yy_scan_bytes()#,[4:2754:0:9,4:2388:0:18,4:2390:0:2,4:2406:0:12,4:2390:0:18,4:2407:0:3]
+[Au5em],[buf@MSF@psqlscanslash.c:2754],[psqlscanslash.c],[4:2418],[Vul],[D],[MSF],[1,0,0],[buf],#slash_yy_scan_bytes()#,[4:2754:0:9,4:2388:0:18,4:2390:0:2,4:2399:0:2,4:2418:0:12]
+[Au5em],[fprintf@ERR33-C@CERT@psqlscanslash.c:2417],[psqlscanslash.c],[4:2417],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#slash_yy_scan_bytes()#,[4:2417:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@psqlscanslash.c:2417],[psqlscanslash.c],[4:2417],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#slash_yy_scan_bytes()#,[4:2417:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@psqlscanslash.c:2417],[psqlscanslash.c],[4:2417],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#slash_yyset_lineno()#,[4:2417:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@psqlscanslash.c:2417],[psqlscanslash.c],[4:2417],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#slash_yyset_column()#,[4:2417:0:3]
+[Au5em],[malloc@ERR33-C@CERT@psqlscanslash.c:2611@psqlscanslash.c:2754],[psqlscanslash.c],[4:2754],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[malloc],#slash_yylex_init()#,[4:2754:0:3,4:2611:0:18,4:2611:0:16]
+[Au5em],[malloc@ERR33-C@CERT@psqlscanslash.c:2644@psqlscanslash.c:2754],[psqlscanslash.c],[4:2754],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[malloc],#slash_yylex_init_extra()#,[4:2754:0:3,4:2644:0:18,4:2644:0:16]
+[Au5em],[ptr@UDR@psqlscanslash.c:2695],[psqlscanslash.c],[4:2776],[Vul],[M],[UDR],[1,0,0],[ptr],#slash_yyfree()#,[4:2706:0:2,4:2773:0:1,4:2776:0:3]
+[Au5em],[ptr@UDR@psqlscanslash.c:2695],[psqlscanslash.c],[4:2776],[Vul],[M],[UDR],[1,0,0],[ptr],#slash_yyfree()#,[4:2710:0:2,4:2773:0:1,4:2776:0:3]
+[Au5em],[ptr@UDR@psqlscanslash.c:2695],[psqlscanslash.c],[4:2776],[Vul],[M],[UDR],[1,0,0],[ptr],#slash_yyfree()#,[4:2718:0:2,4:2773:0:1,4:2776:0:3]
+[Au5em],[malloc@MEM35-C@CERT@psqlscanslash.c:2754],[psqlscanslash.c],[4:2754],[Vul],[M],[RBC],[1,0,0],[CERT],[MEM35-C],[malloc],#slash_yyalloc()#,[4:2754:0:3]
+[Au5em],[malloc@ERR33-C@CERT@psqlscanslash.c:2754@psqlscanslash.c:2754],[psqlscanslash.c],[4:2754],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[malloc],#slash_yyalloc()#,[4:2754:0:3,4:2754:0:16]
+[Au5em],[ptr@UDR@psqlscanslash.c:2758],[psqlscanslash.c],[4:2769],[Vul],[M],[UDR],[1,0,0],[ptr],#slash_yyrealloc()#,[4:2769:0:3]
+[Au5em],[realloc@ERR33-C@CERT@psqlscanslash.c:2769@psqlscanslash.c:2769],[psqlscanslash.c],[4:2769],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[realloc],#slash_yyrealloc()#,[4:2769:0:3,4:2769:0:16]
+[Au5em],[ptr@UDR@psqlscanslash.c:2773],[psqlscanslash.c],[4:2776],[Vul],[M],[UDR],[1,0,0],[ptr],#slash_yyfree()#,[4:2776:0:3]
+[Au5em],[result@ERR33-C@CERT@psqlscanslash.l:776@psqlscanslash.l:769],[psqlscanslash.l],[6:769],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[result],#evaluate_backtick()#,[6:769:0:3,6:777:0:17,6:776:0:16]
+[Au5em],[$nosymbol@MSF@psqlscanslash.c:2754],[psqlscanslash.c],[4:2143],[Vul],[D],[MSF],[1,0,0],[$nosymbol],#slash_yy_create_buffer()#,[4:2754:0:9,4:2134:0:18,4:2127:0:18,4:2127:0:2,4:2136:0:2,4:2142:0:12,4:2136:0:18,4:2127:0:18,4:2143:0:3]
+[Au5em],[b@MSF@psqlscanslash.c:2754],[psqlscanslash.c],[4:2418],[Vul],[D],[MSF],[1,0,0],[b],#slash_yy_create_buffer()#,[4:2754:0:9,4:2125:0:18,4:2127:0:2,4:2136:0:2,4:2418:0:12]
+[Au5em],[malloc@ERR33-C@CERT@psqlscanslash.c:2134@psqlscanslash.c:2754],[psqlscanslash.c],[4:2754],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[malloc],#slash_yy_create_buffer()#,[4:2754:0:3,4:2134:0:18,4:2134:0:16]
+[Au5em],[fprintf@ERR33-C@CERT@psqlscanslash.c:2417],[psqlscanslash.c],[4:2417],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#slash_yy_create_buffer()#,[4:2417:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@psqlscanslash.c:2417],[psqlscanslash.c],[4:2417],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#slash_yy_create_buffer()#,[4:2417:0:3]
+[Au5em],[yyscanner->yy_buffer_stack@UIV@psqlscanslash.c:2062],[psqlscanslash.c],[4:2062],[Vul],[D],[UIV],[1,0,0],[yyscanner->yy_buffer_stack],#slash_yyrestart()#,[4:2062:0:1,4:2062:0:3]
+[Au5em],[yyscanner->yy_buffer_stack_top@UIV@psqlscanslash.c:2062],[psqlscanslash.c],[4:2062],[Vul],[D],[UIV],[1,0,0],[yyscanner->yy_buffer_stack_top],#slash_yyrestart()#,[4:2062:0:1,4:2062:0:3]
+[Au5em],[b@NPD@psqlscanslash.c:2171],[psqlscanslash.c],[4:2177],[Vul],[M],[NPD],[1,0,0],[b],#slash_yy_init_buffer()#,[4:2066:0:2,4:2171:0:1,4:2171:0:17,4:2171:0:1,4:2177:0:3]
+[Au5em],[b@NPD@psqlscanslash.c:2171],[psqlscanslash.c],[4:2178],[Vul],[M],[NPD],[1,0,0],[b],#slash_yy_init_buffer()#,[4:2066:0:2,4:2171:0:1,4:2171:0:17,4:2171:0:1,4:2178:0:3]
+[Au5em],[b@NPD@psqlscanslash.c:2171],[psqlscanslash.c],[4:2189],[Vul],[M],[NPD],[1,0,0],[b],#slash_yy_init_buffer()#,[4:2066:0:2,4:2171:0:1,4:2171:0:17,4:2171:0:1,4:2189:0:3]
+[Au5em],[b@NPD@psqlscanslash.c:2171],[psqlscanslash.c],[4:2185],[Vul],[M],[NPD],[1,0,0],[b],#slash_yy_init_buffer()#,[4:2066:0:2,4:2171:0:1,4:2171:0:17,4:2171:0:1,4:2185:0:3]
+[Au5em],[b@NPD@psqlscanslash.c:2171],[psqlscanslash.c],[4:2186],[Vul],[M],[NPD],[1,0,0],[b],#slash_yy_init_buffer()#,[4:2066:0:2,4:2171:0:1,4:2171:0:17,4:2171:0:1,4:2186:0:3]
+[Au5em],[$nosymbol@MSF@psqlscanslash.c:2769],[psqlscanslash.c],[4:2418],[Vul],[D],[MSF],[1,0,0],[$nosymbol],#yy_get_next_buffer()#,[4:2769:0:9,4:1872:0:18,4:1881:0:2,4:1895:0:2,4:1895:0:2,4:2418:0:12]
+[Au5em],[$nosymbol@MSF@psqlscanslash.c:2769],[psqlscanslash.c],[4:2418],[Vul],[D],[MSF],[1,0,0],[$nosymbol],#yy_get_next_buffer()#,[4:2769:0:9,4:1872:0:18,4:1813:0:18,4:1813:0:2,4:1881:0:2,4:2418:0:12]
+[Au5em],[ptr@UDR@psqlscanslash.c:2758],[psqlscanslash.c],[4:2769],[Vul],[M],[UDR],[1,0,0],[ptr],#slash_yyrealloc()#,[4:1923:0:2,4:2758:0:1,4:2769:0:3]
+[Au5em],[yyscanner->yy_n_chars@ERR33-C@CERT@psqlscanslash.c:1895@psqlscanslash.c:1895],[psqlscanslash.c],[4:1895],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[yyscanner->yy_n_chars],#yy_get_next_buffer()#,[4:1895:0:3,4:1895:0:16]
+[Au5em],[fprintf@ERR33-C@CERT@psqlscanslash.c:2417],[psqlscanslash.c],[4:2417],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#yy_get_next_buffer()#,[4:2417:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@psqlscanslash.c:2417],[psqlscanslash.c],[4:2417],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#yy_get_next_buffer()#,[4:2417:0:3]
+[Au5em],[getc@FIO34-C@CERT@psqlscanslash.c:1934@psqlscanslash.c:1895],[psqlscanslash.c],[4:1895],[Vul],[D],[RBC],[1,0,0],[CERT],[FIO34-C],[getc],#yy_get_next_buffer()#,[4:1895:0:3,4:1895:0:17,4:1895:0:2,4:1895:0:2,4:1918:0:17,4:1920:0:17,4:1934:0:16]
+[Au5em],[fprintf@ERR33-C@CERT@psqlscanslash.c:2417],[psqlscanslash.c],[4:2417],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#yy_get_next_buffer()#,[4:2417:0:3]
+[Au5em],[realloc@ERR33-C@CERT@psqlscanslash.c:1872@psqlscanslash.c:2769],[psqlscanslash.c],[4:2769],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[realloc],#yy_get_next_buffer()#,[4:2769:0:3,4:1872:0:18,4:1867:0:25,4:1863:0:23,4:1872:0:16]
+[Au5em],[realloc@ERR33-C@CERT@psqlscanslash.c:1923@psqlscanslash.c:2769],[psqlscanslash.c],[4:2769],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[realloc],#yy_get_next_buffer()#,[4:2769:0:3,4:1923:0:18,4:1923:0:16]
+[Au5em],[fprintf@ERR33-C@CERT@psqlscanslash.c:2417],[psqlscanslash.c],[4:2417],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#yy_get_next_buffer()#,[4:2417:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@psqlscanslash.c:2417],[psqlscanslash.c],[4:2417],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#yy_get_next_buffer()#,[4:2417:0:3]
+[Au5em],[yyscanner->yy_buffer_stack@UIV@psqlscanslash.c:1167],[psqlscanslash.c],[4:1167],[Vul],[D],[UIV],[1,0,0],[yyscanner->yy_buffer_stack],#slash_yylex()#,[4:1167:0:1,4:1167:0:3]
+[Au5em],[yyscanner->yy_buffer_stack_top@UIV@psqlscanslash.c:1167],[psqlscanslash.c],[4:1167],[Vul],[D],[UIV],[1,0,0],[yyscanner->yy_buffer_stack_top],#slash_yylex()#,[4:1167:0:1,4:1167:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@psqlscanslash.c:2417],[psqlscanslash.c],[4:2417],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#slash_yylex()#,[4:2417:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@psqlscanslash.c:2417],[psqlscanslash.c],[4:2417],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#slash_yylex()#,[4:2417:0:3]
+[Au5em],[fprintf@ERR33-C@CERT@psqlscanslash.l:623],[psqlscanslash.l],[6:623],[Vul],[D],[RBC],[1,0,0],[CERT],[ERR33-C],[fprintf],#psql_scan_slash_option()#,[6:623:0:3]
