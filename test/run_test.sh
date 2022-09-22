@@ -340,8 +340,8 @@ function test_v2csf()
     cp ${SCRIPT_PATH}/${TEST_V2CSF}/${v2csf}/${ETXT} ${SCRIPT_PATH}/${TEST_RESULT}/${TEST_V2CSF}/${v2csf}
     cp ${SCRIPT_PATH}/${TEST_V2CSF}/${v2csf}/${FTXT} ${SCRIPT_PATH}/${TEST_RESULT}/${TEST_V2CSF}/${v2csf}
     cd ${SCRIPT_PATH}/${TEST_RESULT}/${TEST_V2CSF}/${v2csf}
-    echo "  Run cmd: ${V2CSF} -n ${SCRIPT_PATH}/${TEST_RESULT}/${TEST_V2CSF}/${v2csf}/${NTXT} -l ${SCRIPT_PATH}/${TEST_RESULT}/${TEST_V2CSF}/${v2csf}/${LTXT} -e ${SCRIPT_PATH}/${TEST_RESULT}/${TEST_V2CSF}/${v2csf}/${ETXT} -f ${SCRIPT_PATH}/${TEST_RESULT}/${TEST_V2CSF}/${v2csf}/${FTXT} -h /home"
-    ${V2CSF} -n ${SCRIPT_PATH}/${TEST_RESULT}/${TEST_V2CSF}/${v2csf}/${NTXT} -l ${SCRIPT_PATH}/${TEST_RESULT}/${TEST_V2CSF}/${v2csf}/${LTXT} -e ${SCRIPT_PATH}/${TEST_RESULT}/${TEST_V2CSF}/${v2csf}/${ETXT} -f ${SCRIPT_PATH}/${TEST_RESULT}/${TEST_V2CSF}/${v2csf}/${FTXT} -h /home
+    echo "  Run cmd: ${V2CSF} -n ${SCRIPT_PATH}/${TEST_RESULT}/${TEST_V2CSF}/${v2csf}/${NTXT} -l ${SCRIPT_PATH}/${TEST_RESULT}/${TEST_V2CSF}/${v2csf}/${LTXT} -e ${SCRIPT_PATH}/${TEST_RESULT}/${TEST_V2CSF}/${v2csf}/${ETXT} -f ${SCRIPT_PATH}/${TEST_RESULT}/${TEST_V2CSF}/${v2csf}/${FTXT} -h /home -T 101"
+    ${V2CSF} -n ${SCRIPT_PATH}/${TEST_RESULT}/${TEST_V2CSF}/${v2csf}/${NTXT} -l ${SCRIPT_PATH}/${TEST_RESULT}/${TEST_V2CSF}/${v2csf}/${LTXT} -e ${SCRIPT_PATH}/${TEST_RESULT}/${TEST_V2CSF}/${v2csf}/${ETXT} -f ${SCRIPT_PATH}/${TEST_RESULT}/${TEST_V2CSF}/${v2csf}/${FTXT} -h /home -T 101
     if [ $? -ne 0 ]; then
       echo "  [v2csf] failed: ${v2csf}"
     else
