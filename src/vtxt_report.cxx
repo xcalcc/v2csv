@@ -139,6 +139,9 @@ VTXT_REPORT::Get_varlen_str(FILE *in, char dlimiter_beg, char dlimiter_end,
 	sz = sz*2;
       }
     }
+    else{
+      Handle_error((long)E_CSV_INVALID_INPUT_FILE," : Input file format error");
+    }
   }
   
   return (char *)0;
@@ -261,7 +264,7 @@ VTXT_REPORT::Get_path_str(char *path, char dlimiter_beg, char dlimiter_end)
   assert(path != 0);
   // path should now be consists of string enclosed with dlimiter_beg and dlimiter_end
   // we do not need to worry about "\0' in between
-  
+
   char *start_path = path;
   while (path != 0 && *path != dlimiter_beg && *path != '\0') {
     // skip to first char in path group

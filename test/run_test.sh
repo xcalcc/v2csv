@@ -90,7 +90,7 @@ function test_vtxtreader()
   # test vtxtreader merge function
   echo "*** Testing vtxtreader merge function:"
   cd ${SCRIPT_PATH}/${TEST_VTXTREADER_MERGE}
-  TEST_FOLDER=`find -type d -name "test*"`
+  TEST_FOLDER=`find -type d -name "test*" | grep -v "test_incomplete_format_vtxt"`
   for merge in ${TEST_FOLDER}
   do
     mkdir -p ${SCRIPT_PATH}/${TEST_RESULT}/${TEST_VTXTREADER_MERGE}/${merge}
@@ -108,6 +108,20 @@ function test_vtxtreader()
     fi
     echo " "
   done
+  echo " "
+
+  #test vtxtreader incomplete format vtxt input
+  #this test ensure that vtxt input of incomplete format would not cause vtxtreader pending
+  echo "*** Testing vtxtreader incomplete format vtxt input"
+  echo "  Run cmd: ${VTXTREADER} ${VTXTREADER_MERGE_OPT} ${SCRIPT_PATH}/${TEST_VTXTREADER_MERGE}/test_incomplete_format_vtxt/${VTXT}"
+    a=$(${VTXTREADER} ${VTXTREADER_MERGE_OPT} ${SCRIPT_PATH}/${TEST_VTXTREADER_MERGE}/test_incomplete_format_vtxt/${VTXT} 2>&1)
+    b="Input file format error"
+    if [[ $a =~ $b ]]; then
+      echo "test vtxtreader incomplete format vtxt input passed"
+    else
+      echo "  [vtxtreader merge] failed: ${SCRIPT_PATH}/${TEST_VTXTREADER_MERGE}/test_incomplete_format_vtxt"
+    fi
+    echo " "
   echo " "
 
   # test vtxtreader filter STL function
